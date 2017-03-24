@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-24 18:11+0100\n"
+"POT-Creation-Date: 2017-03-24 18:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgstr ""
 msgid "Remember sessions"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:34
+#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:33
 msgid "Remember passwords"
 msgstr ""
 
@@ -109,7 +109,7 @@ msgstr ""
 msgid "Cookies storage type"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:32
+#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:31
 msgid "Tell websites I do not want to be tracked"
 msgstr ""
 
@@ -172,30 +172,30 @@ msgid ""
 msgstr ""
 
 #: ../src/settings.py:167
-msgid "Sync is working"
+msgid "Synchronization is working"
 msgstr ""
 
 #: ../src/settings.py:179
 #, python-format
 msgid ""
-"Sync is not available on your computer:\n"
+"Synchronization is not available on your computer:\n"
 " %s"
 msgstr ""
 
-#: ../src/settings.py:204 ../data/ClearData.ui.h:1
-#: ../data/SettingsDialog.ui.h:38
+#: ../src/settings.py:205 ../data/ClearData.ui.h:1
+#: ../data/SettingsDialog.ui.h:41
 msgid "Clear Personal Data"
 msgstr ""
 
-#: ../src/settings.py:439
+#: ../src/settings.py:440
 msgid "Sync started"
 msgstr ""
 
-#: ../src/settings.py:446
-msgid "You've received an email to validate sync"
+#: ../src/settings.py:447
+msgid "You've received an email to validate synchronization"
 msgstr ""
 
-#: ../src/settings.py:478
+#: ../src/settings.py:480
 msgid "Connecting…"
 msgstr ""
 
@@ -575,73 +575,69 @@ msgid "Appearance"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:30
-msgid "Manage cookies"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:31
 msgid "Tracking"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:33
+#: ../data/SettingsDialog.ui.h:32
 msgid "Passwords"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:35
-msgid "Manage passwords"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:36
+#: ../data/SettingsDialog.ui.h:34
 msgid "Saved data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:37
-msgid "You can clear stored personal data"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:35
 msgid "Behaviour:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:40
+#: ../data/SettingsDialog.ui.h:36
 msgid "Always accept"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:41
+#: ../data/SettingsDialog.ui.h:37
 msgid "Only from sites you visit"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:42
+#: ../data/SettingsDialog.ui.h:38
 msgid "Never accept"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:43
+#: ../data/SettingsDialog.ui.h:39
+msgid "Manage cookies"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:40
+msgid "Manage passwords"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:42
 msgid "Privacy"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:43
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:45
 msgid "Login:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:46
 msgid "Password:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:48
-msgid "Allow syncing"
+#: ../data/SettingsDialog.ui.h:47
+msgid "Allow synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:48
 msgid "Create or manage account"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:50
-msgid "Mozilla Sync"
+#: ../data/SettingsDialog.ui.h:49
+msgid "Synchronization"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:1

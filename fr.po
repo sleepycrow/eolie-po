@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-24 18:11+0100\n"
+"POT-Creation-Date: 2017-03-24 18:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>, 2017\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
@@ -70,7 +70,7 @@ msgstr "Moteur de recherche"
 msgid "Remember sessions"
 msgstr "Se souvenir des sessions"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:34
+#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:33
 msgid "Remember passwords"
 msgstr "Se souvenir des mots de passe"
 
@@ -110,7 +110,7 @@ msgstr "Taille de police minimale"
 msgid "Cookies storage type"
 msgstr "Type de stockage des cookies"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:32
+#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:31
 msgid "Tell websites I do not want to be tracked"
 msgstr "Dire aux sites web de ne pas me suivre"
 
@@ -175,33 +175,33 @@ msgstr ""
 "gérer vos mots de passe"
 
 #: ../src/settings.py:167
-msgid "Sync is working"
+msgid "Synchronization is working"
 msgstr "La synchronisation fonctionne"
 
 #: ../src/settings.py:179
 #, python-format
 msgid ""
-"Sync is not available on your computer:\n"
+"Synchronization is not available on your computer:\n"
 " %s"
 msgstr ""
 "La synchronisation n'est pas disponible\n"
 "sur cet ordinateur:\n"
 "%s"
 
-#: ../src/settings.py:204 ../data/ClearData.ui.h:1
-#: ../data/SettingsDialog.ui.h:38
+#: ../src/settings.py:205 ../data/ClearData.ui.h:1
+#: ../data/SettingsDialog.ui.h:41
 msgid "Clear Personal Data"
 msgstr "Nettoyer les données personnelles"
 
-#: ../src/settings.py:439
+#: ../src/settings.py:440
 msgid "Sync started"
 msgstr "La synchronisation a démarrée"
 
-#: ../src/settings.py:446
-msgid "You've received an email to validate sync"
-msgstr "Vous avez reçu un email afin de valider la synchronisation"
+#: ../src/settings.py:447
+msgid "You've received an email to validate synchronization"
+msgstr "Vous avez reçu un email pour valider la synchronisation"
 
-#: ../src/settings.py:478
+#: ../src/settings.py:480
 msgid "Connecting…"
 msgstr "Connexion…"
 
@@ -591,50 +591,46 @@ msgid "Appearance"
 msgstr "Apparence"
 
 #: ../data/SettingsDialog.ui.h:30
-msgid "Manage cookies"
-msgstr "Gérer les cookies"
-
-#: ../data/SettingsDialog.ui.h:31
 msgid "Tracking"
 msgstr "Suivi"
 
-#: ../data/SettingsDialog.ui.h:33
+#: ../data/SettingsDialog.ui.h:32
 msgid "Passwords"
 msgstr "Mots de passe"
 
-#: ../data/SettingsDialog.ui.h:35
-msgid "Manage passwords"
-msgstr "Gérer les mots de passe"
-
-#: ../data/SettingsDialog.ui.h:36
+#: ../data/SettingsDialog.ui.h:34
 msgid "Saved data"
 msgstr "Données enregistrées"
 
-#: ../data/SettingsDialog.ui.h:37
-msgid "You can clear stored personal data"
-msgstr "Vous pouvez nettoyer vos données personnelles"
-
-#: ../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:35
 msgid "Behaviour:"
 msgstr "Comportement:"
 
-#: ../data/SettingsDialog.ui.h:40
+#: ../data/SettingsDialog.ui.h:36
 msgid "Always accept"
 msgstr "Toujours accepter"
 
-#: ../data/SettingsDialog.ui.h:41
+#: ../data/SettingsDialog.ui.h:37
 msgid "Only from sites you visit"
 msgstr "Seulement des sites que vous visitez"
 
-#: ../data/SettingsDialog.ui.h:42
+#: ../data/SettingsDialog.ui.h:38
 msgid "Never accept"
 msgstr "Ne jamais accepter"
 
-#: ../data/SettingsDialog.ui.h:43
+#: ../data/SettingsDialog.ui.h:39
+msgid "Manage cookies"
+msgstr "Gérer les cookies"
+
+#: ../data/SettingsDialog.ui.h:40
+msgid "Manage passwords"
+msgstr "Gérer les mots de passe"
+
+#: ../data/SettingsDialog.ui.h:42
 msgid "Privacy"
 msgstr "Vie privée"
 
-#: ../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:43
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
@@ -642,25 +638,25 @@ msgstr ""
 "Vous pouvez partager vos marques pages et votre historique\n"
 "avec tous vos appareils utilisant Eolie ou Firefox"
 
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:45
 msgid "Login:"
 msgstr "Identifiant:"
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:46
 msgid "Password:"
 msgstr "Mot de passe:"
 
-#: ../data/SettingsDialog.ui.h:48
-msgid "Allow syncing"
+#: ../data/SettingsDialog.ui.h:47
+msgid "Allow synchronization"
 msgstr "Autoriser la synchronisation"
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:48
 msgid "Create or manage account"
 msgstr "Créer ou gérer votre compte"
 
-#: ../data/SettingsDialog.ui.h:50
-msgid "Mozilla Sync"
-msgstr "Synchronisation Mozilla"
+#: ../data/SettingsDialog.ui.h:49
+msgid "Synchronization"
+msgstr "Synchronisation"
 
 #: ../data/Shortcuts.ui.h:1
 msgctxt "shortcut window"
