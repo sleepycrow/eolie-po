@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-24 17:37+0100\n"
+"POT-Creation-Date: 2017-03-24 18:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>, 2017\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
@@ -535,8 +535,8 @@ msgid "Automatically open downloaded files"
 msgstr "Ouvrir les fichiers téléchargés automatiquement"
 
 #: ../data/SettingsDialog.ui.h:7
-msgid "Engine:"
-msgstr "Moteur:"
+msgid "Web engine:"
+msgstr "Moteur de recherche:"
 
 #: ../data/SettingsDialog.ui.h:8
 msgid "Google"
@@ -741,19 +741,3 @@ msgstr "Navigation"
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Recharger la page"
-
-#: ../data/ToolbarActions.ui.h:1
-msgid "Previous page"
-msgstr "Page précédente"
-
-#: ../data/ToolbarActions.ui.h:2
-msgid "Next page"
-msgstr "Page suivante"
-
-#: ../data/ToolbarEnd.ui.h:1
-msgid "Current downloads"
-msgstr "Téléchargements en cours"
-
-#: ../data/ToolbarEnd.ui.h:2
-msgid "Go to home page"
-msgstr "Aller à la page d'accueil"

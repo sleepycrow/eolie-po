@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-24 17:37+0100\n"
+"POT-Creation-Date: 2017-03-24 18:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -519,7 +519,7 @@ msgid "Automatically open downloaded files"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:7
-msgid "Engine:"
+msgid "Web engine:"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:8
@@ -722,20 +722,4 @@ msgstr ""
 #: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Reload page"
-msgstr ""
-
-#: ../data/ToolbarActions.ui.h:1
-msgid "Previous page"
-msgstr ""
-
-#: ../data/ToolbarActions.ui.h:2
-msgid "Next page"
-msgstr ""
-
-#: ../data/ToolbarEnd.ui.h:1
-msgid "Current downloads"
-msgstr ""
-
-#: ../data/ToolbarEnd.ui.h:2
-msgid "Go to home page"
 msgstr ""
