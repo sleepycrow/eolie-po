@@ -457,9 +457,8 @@ msgid ""
 "You are about to clear personal data that is stored about the web pages you\n"
 "have visited. Check the types of information that you want to remove:"
 msgstr ""
-"Vous êtes sur le point d'effacer des données personnelles relatives aux "
-"pages Web que vous avez visitées. Vérifiez le type d'informations que vous "
-"souhaitez supprimer :"
+"Vous êtes sur le point d'effacer des données personnelles relatives aux pages Web que vous\n"
+"avez visitées. Vérifiez le type d'informations que vous souhaitez supprimer :"
 
 #: ../data/ClearData.ui.h:4
 msgid ""
