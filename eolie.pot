@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-24 18:25+0100\n"
+"POT-Creation-Date: 2017-03-27 14:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,12 +211,12 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: ../src/toolbar_title.py:130
+#: ../src/toolbar_title.py:131
 msgid "This page contains insecure content"
 msgstr ""
 
-#: ../src/toolbar_title.py:237 ../src/toolbar_title.py:257
-#: ../src/toolbar_title.py:276 ../src/toolbar_title.py:527
+#: ../src/toolbar_title.py:242 ../src/toolbar_title.py:262
+#: ../src/toolbar_title.py:283 ../src/toolbar_title.py:536
 msgid "Search or enter address"
 msgstr ""
 
@@ -297,6 +297,22 @@ msgstr ""
 
 #: ../src/view_web.py:642
 msgid "Accept Risk and Proceed"
+msgstr ""
+
+#: ../src/widget_edit_bookmark.py:306 ../src/widget_edit_bookmark.py:313
+msgid "Apply"
+msgstr ""
+
+#: ../src/widget_edit_bookmark.py:308 ../data/BookmarkEdit.ui.h:6
+msgid "Rename"
+msgstr ""
+
+#: ../src/widget_edit_bookmark.py:326 ../src/widget_edit_bookmark.py:333
+msgid "Finished"
+msgstr ""
+
+#: ../src/widget_edit_bookmark.py:328 ../data/BookmarkEdit.ui.h:7
+msgid "Remove"
 msgstr ""
 
 #: ../src/widget_find.py:43
@@ -411,7 +427,7 @@ msgid "Title:"
 msgstr ""
 
 #: ../data/BookmarkEdit.ui.h:3
-msgid "Set the tags you want to associate this bookmark with:"
+msgid "Remove bookmark"
 msgstr ""
 
 #: ../data/BookmarkEdit.ui.h:4
@@ -422,8 +438,8 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: ../data/BookmarkEdit.ui.h:6
-msgid "Remove"
+#: ../data/BookmarkEdit.ui.h:8
+msgid "Set the tags you want to associate this bookmark with"
 msgstr ""
 
 #: ../data/ClearData.ui.h:2

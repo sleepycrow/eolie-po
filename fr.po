@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-24 18:25+0100\n"
+"POT-Creation-Date: 2017-03-27 14:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>, 2017\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
@@ -217,12 +217,12 @@ msgstr "Enregistrer"
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../src/toolbar_title.py:130
+#: ../src/toolbar_title.py:131
 msgid "This page contains insecure content"
 msgstr "Cette page contient du contenu non sécurisé"
 
-#: ../src/toolbar_title.py:237 ../src/toolbar_title.py:257
-#: ../src/toolbar_title.py:276 ../src/toolbar_title.py:527
+#: ../src/toolbar_title.py:242 ../src/toolbar_title.py:262
+#: ../src/toolbar_title.py:283 ../src/toolbar_title.py:536
 msgid "Search or enter address"
 msgstr "Rechercher ou entrer une adresse"
 
@@ -308,6 +308,22 @@ msgstr ""
 #: ../src/view_web.py:642
 msgid "Accept Risk and Proceed"
 msgstr "Accepter le risque et continuer"
+
+#: ../src/widget_edit_bookmark.py:306 ../src/widget_edit_bookmark.py:313
+msgid "Apply"
+msgstr "Appliquer"
+
+#: ../src/widget_edit_bookmark.py:308 ../data/BookmarkEdit.ui.h:6
+msgid "Rename"
+msgstr "Renommer"
+
+#: ../src/widget_edit_bookmark.py:326 ../src/widget_edit_bookmark.py:333
+msgid "Finished"
+msgstr "Terminé"
+
+#: ../src/widget_edit_bookmark.py:328 ../data/BookmarkEdit.ui.h:7
+msgid "Remove"
+msgstr "Supprimer"
 
 #: ../src/widget_find.py:43
 msgid "Search previous occurrence"
@@ -421,9 +437,8 @@ msgid "Title:"
 msgstr "Titre:"
 
 #: ../data/BookmarkEdit.ui.h:3
-msgid "Set the tags you want to associate this bookmark with:"
-msgstr ""
-"Sélectionnez les étiquettes que vous voulez associer à un marque page:"
+msgid "Remove bookmark"
+msgstr "Supprimer le marque page"
 
 #: ../data/BookmarkEdit.ui.h:4
 msgid "New tag"
@@ -433,9 +448,9 @@ msgstr "Nouvelle étiquette"
 msgid "Add"
 msgstr "Ajouter"
 
-#: ../data/BookmarkEdit.ui.h:6
-msgid "Remove"
-msgstr "Supprimer"
+#: ../data/BookmarkEdit.ui.h:8
+msgid "Set the tags you want to associate this bookmark with"
+msgstr "Sélectionnez les étiquettes que vous voulez associer à un marque page"
 
 #: ../data/ClearData.ui.h:2
 msgid ""
