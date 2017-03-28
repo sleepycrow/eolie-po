@@ -15,6 +15,7 @@
 	../src/mozilla_sync.py \
 	../src/popover_cookies.py \
 	../src/popover_downloads.py \
+	../src/popover_javascript.py \
 	../src/popover_password.py \
 	../src/popover_uri.py \
 	../src/search.py \
@@ -38,6 +39,7 @@
 	../data/ClearData.ui \
 	../data/PopoverCookies.ui \
 	../data/PopoverDownloads.ui \
+	../data/PopoverJavaScript \
 	../data/PopoverPassword.ui \
 	../data/PopoverUri.ui \
 	../data/RowDownload.ui \

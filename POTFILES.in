@@ -20,6 +20,7 @@ src/menu_pages.py
 src/mozilla_sync.py
 src/popover_cookies.py
 src/popover_downloads.py
+src/popover_javascript.py
 src/popover_password.py
 src/popover_uri.py
 src/search.py
@@ -44,6 +45,7 @@ src/window.py
 [type: gettext/glade]data/ClearData.ui
 [type: gettext/glade]data/PopoverCookies.ui
 [type: gettext/glade]data/PopoverDownloads.ui
+[type: gettext/glade]data/PopoverJavaScript
 [type: gettext/glade]data/PopoverPassword.ui
 [type: gettext/glade]data/PopoverUri.ui
 [type: gettext/glade]data/RowDownload.ui
