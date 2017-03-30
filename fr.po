@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 12:40+0200\n"
-"PO-Revision-Date: 2017-03-30 06:57-0400\n"
+"PO-Revision-Date: 2017-03-30 07:11-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -239,7 +239,7 @@ msgid ""
 "be visible to cybercriminals!"
 msgstr ""
 "Attention : cette page n'est pas sécurisée.\\nSi vous entrez votre mot de "
-"passe,\\n il sera visible aux cybercriminels !\n"
+"passe,\\n il sera visible aux cybercriminels !"
 
 #: ../src/toolbar_title.py:266 ../src/toolbar_title.py:287
 #: ../src/toolbar_title.py:310 ../src/toolbar_title.py:575
