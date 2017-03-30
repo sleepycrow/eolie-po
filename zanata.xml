@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config xmlns="http://zanata.org/namespace/config/">
+        <url>https://translate.zanata.org</url>
+        <project>eolie</project>
+        <project-version>0.2</project-version>
+        <locales>
+            <locale>fr</locale>
+        </locales>
+        <src-dir>.</src-dir>
+        <trans-dir>.</trans-dir>
+</config>

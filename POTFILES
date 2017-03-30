@@ -39,7 +39,7 @@
 	../data/ClearData.ui \
 	../data/PopoverCookies.ui \
 	../data/PopoverDownloads.ui \
-	../data/PopoverJavaScript \
+	../data/PopoverJavaScript.ui \
 	../data/PopoverPassword.ui \
 	../data/PopoverUri.ui \
 	../data/RowDownload.ui \

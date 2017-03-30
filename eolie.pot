@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-27 14:54+0200\n"
+"POT-Creation-Date: 2017-03-30 12:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgstr ""
 msgid "Remember sessions"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:33
+#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:35
 msgid "Remember passwords"
 msgstr ""
 
@@ -77,39 +77,43 @@ msgstr ""
 msgid "Enable developer tools"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:13
+#: ../data/org.gnome.Eolie.gschema.xml.h:16
+msgid "Show page preview"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:13
 msgid "Enable plugins"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:22
+#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:22
 msgid "Use system fonts"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:23
 msgid "Sans serif font"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:24
 msgid "Serif font"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:25
 msgid "Monospace font"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:21
+#: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Open this page on startup"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/SettingsDialog.ui.h:26
 msgid "Minimum font size"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Cookies storage type"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:31
+#: ../data/org.gnome.Eolie.gschema.xml.h:25 ../data/SettingsDialog.ui.h:33
 msgid "Tell websites I do not want to be tracked"
 msgstr ""
 
@@ -123,7 +127,7 @@ msgstr ""
 msgid "Web browser"
 msgstr ""
 
-#: ../src/application.py:408
+#: ../src/application.py:426
 msgid "Eolie: You need to install yelp."
 msgstr ""
 
@@ -133,6 +137,14 @@ msgstr ""
 
 #: ../src/menu_pages.py:39
 msgid "Closed pages"
+msgstr ""
+
+#: ../src/popover_javascript.py:56
+msgid "Continue"
+msgstr ""
+
+#: ../src/popover_javascript.py:57
+msgid "Leave"
 msgstr ""
 
 #: ../src/popover_password.py:116
@@ -165,58 +177,64 @@ msgstr ""
 msgid "Preferences"
 msgstr ""
 
-#: ../src/settings.py:149
+#: ../src/settings.py:152
 msgid ""
 "Installing seahorse will allow you\n"
 "managing your passwords"
 msgstr ""
 
-#: ../src/settings.py:167
+#: ../src/settings.py:170
 msgid "Synchronization is working"
 msgstr ""
 
-#: ../src/settings.py:179
+#: ../src/settings.py:182
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
 " %s"
 msgstr ""
 
-#: ../src/settings.py:205 ../data/ClearData.ui.h:1
-#: ../data/SettingsDialog.ui.h:41
+#: ../src/settings.py:208 ../data/ClearData.ui.h:1
+#: ../data/SettingsDialog.ui.h:43
 msgid "Clear Personal Data"
 msgstr ""
 
-#: ../src/settings.py:440
+#: ../src/settings.py:453
 msgid "Sync started"
 msgstr ""
 
-#: ../src/settings.py:447
+#: ../src/settings.py:460
 msgid "You've received an email to validate synchronization"
 msgstr ""
 
-#: ../src/settings.py:480
+#: ../src/settings.py:493
 msgid "Connecting…"
 msgstr ""
 
-#: ../src/toolbar_end.py:162 ../data/ActionsMenu.ui.h:5
+#: ../src/toolbar_end.py:165 ../data/ActionsMenu.ui.h:5
 msgid "Save page"
 msgstr ""
 
-#: ../src/toolbar_end.py:165 ../data/PopoverPassword.ui.h:2
+#: ../src/toolbar_end.py:168 ../data/PopoverPassword.ui.h:2
 msgid "Save"
 msgstr ""
 
-#: ../src/toolbar_end.py:166
+#: ../src/toolbar_end.py:169 ../data/PopoverJavaScript.ui.h:2
 msgid "Cancel"
 msgstr ""
 
-#: ../src/toolbar_title.py:131
+#: ../src/toolbar_title.py:126
 msgid "This page contains insecure content"
 msgstr ""
 
-#: ../src/toolbar_title.py:242 ../src/toolbar_title.py:262
-#: ../src/toolbar_title.py:283 ../src/toolbar_title.py:536
+#: ../src/toolbar_title.py:165
+msgid ""
+"Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
+"be visible to cybercriminals!"
+msgstr ""
+
+#: ../src/toolbar_title.py:266 ../src/toolbar_title.py:287
+#: ../src/toolbar_title.py:310 ../src/toolbar_title.py:575
 msgid "Search or enter address"
 msgstr ""
 
@@ -299,19 +317,19 @@ msgstr ""
 msgid "Accept Risk and Proceed"
 msgstr ""
 
-#: ../src/widget_edit_bookmark.py:306 ../src/widget_edit_bookmark.py:313
+#: ../src/widget_edit_bookmark.py:312 ../src/widget_edit_bookmark.py:319
 msgid "Apply"
 msgstr ""
 
-#: ../src/widget_edit_bookmark.py:308 ../data/BookmarkEdit.ui.h:6
+#: ../src/widget_edit_bookmark.py:314 ../data/BookmarkEdit.ui.h:6
 msgid "Rename"
 msgstr ""
 
-#: ../src/widget_edit_bookmark.py:326 ../src/widget_edit_bookmark.py:333
+#: ../src/widget_edit_bookmark.py:332 ../src/widget_edit_bookmark.py:339
 msgid "Finished"
 msgstr ""
 
-#: ../src/widget_edit_bookmark.py:328 ../data/BookmarkEdit.ui.h:7
+#: ../src/widget_edit_bookmark.py:334 ../data/BookmarkEdit.ui.h:7
 msgid "Remove"
 msgstr ""
 
@@ -454,7 +472,7 @@ msgid ""
 "removed forever."
 msgstr ""
 
-#: ../data/ClearData.ui.h:6 ../data/SettingsDialog.ui.h:29
+#: ../data/ClearData.ui.h:6 ../data/SettingsDialog.ui.h:31
 msgid "Cookies"
 msgstr ""
 
@@ -488,6 +506,10 @@ msgstr ""
 
 #: ../data/PopoverDownloads.ui.h:3
 msgid "No active download"
+msgstr ""
+
+#: ../data/PopoverJavaScript.ui.h:1
+msgid "Ok"
 msgstr ""
 
 #: ../data/PopoverPassword.ui.h:1
@@ -587,72 +609,80 @@ msgid "Fonts"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:28
-msgid "Appearance"
+msgid "Pages"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:29
+msgid "Show preview"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:30
-msgid "Tracking"
+msgid "Appearance"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:32
-msgid "Passwords"
+msgid "Tracking"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:34
-msgid "Saved data"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:35
-msgid "Behaviour:"
+msgid "Passwords"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:36
-msgid "Always accept"
+msgid "Saved data"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:37
-msgid "Only from sites you visit"
+msgid "Behaviour:"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:38
-msgid "Never accept"
+msgid "Always accept"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:39
-msgid "Manage cookies"
+msgid "Only from sites you visit"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:40
-msgid "Manage passwords"
+msgid "Never accept"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:41
+msgid "Manage cookies"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:42
+msgid "Manage passwords"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:44
 msgid "Privacy"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:43
+#: ../data/SettingsDialog.ui.h:45
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:45
+#: ../data/SettingsDialog.ui.h:47
 msgid "Login:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:48
 msgid "Password:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:49
 msgid "Allow synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:48
+#: ../data/SettingsDialog.ui.h:50
 msgid "Create or manage account"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:51
 msgid "Synchronization"
 msgstr ""
 

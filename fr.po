@@ -2,21 +2,21 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-#, fuzzy
+# Cédric Bellegarde <cedric.bellegarde@adishatz.org>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-27 14:54+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>, 2017\n"
+"POT-Creation-Date: 2017-03-30 12:40+0200\n"
+"PO-Revision-Date: 2017-03-30 06:57-0400\n"
+"Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Zanata 3.9.6\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Window size"
@@ -70,7 +70,7 @@ msgstr "Moteur de recherche"
 msgid "Remember sessions"
 msgstr "Se souvenir des sessions"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:33
+#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:35
 msgid "Remember passwords"
 msgstr "Se souvenir des mots de passe"
 
@@ -78,39 +78,43 @@ msgstr "Se souvenir des mots de passe"
 msgid "Enable developer tools"
 msgstr "Activer les outils pour les développeurs"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:13
+#: ../data/org.gnome.Eolie.gschema.xml.h:16
+msgid "Show page preview"
+msgstr "Afficher un aperçu de la page"
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:13
 msgid "Enable plugins"
 msgstr "Activer les plugins"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:22
+#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:22
 msgid "Use system fonts"
 msgstr "Utiliser les polices systèmes"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:23
 msgid "Sans serif font"
 msgstr "Police Sans serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:24
 msgid "Serif font"
 msgstr "Police Serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:25
 msgid "Monospace font"
 msgstr "Police à largeur fixe"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:21
+#: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Open this page on startup"
 msgstr "Ouvrir cette page au démarrage"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/SettingsDialog.ui.h:26
 msgid "Minimum font size"
 msgstr "Taille de police minimale"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Cookies storage type"
 msgstr "Type de stockage des cookies"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:31
+#: ../data/org.gnome.Eolie.gschema.xml.h:25 ../data/SettingsDialog.ui.h:33
 msgid "Tell websites I do not want to be tracked"
 msgstr "Dire aux sites web de ne pas me suivre"
 
@@ -124,7 +128,7 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Navigateur web"
 
-#: ../src/application.py:408
+#: ../src/application.py:426
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vous devez installer yelp."
 
@@ -135,6 +139,14 @@ msgstr "Nouvelle page privée"
 #: ../src/menu_pages.py:39
 msgid "Closed pages"
 msgstr "Pages fermées"
+
+#: ../src/popover_javascript.py:56
+msgid "Continue"
+msgstr "Continuer"
+
+#: ../src/popover_javascript.py:57
+msgid "Leave"
+msgstr "Quitter"
 
 #: ../src/popover_password.py:116
 msgid "Do you want to modify this password?"
@@ -166,7 +178,7 @@ msgstr "https://www.yahoo.fr"
 msgid "Preferences"
 msgstr "Préférences"
 
-#: ../src/settings.py:149
+#: ../src/settings.py:152
 msgid ""
 "Installing seahorse will allow you\n"
 "managing your passwords"
@@ -174,11 +186,11 @@ msgstr ""
 "Installer seahorse afin de pouvoir\n"
 "gérer vos mots de passe"
 
-#: ../src/settings.py:167
+#: ../src/settings.py:170
 msgid "Synchronization is working"
 msgstr "La synchronisation fonctionne"
 
-#: ../src/settings.py:179
+#: ../src/settings.py:182
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -188,41 +200,49 @@ msgstr ""
 "sur cet ordinateur:\n"
 "%s"
 
-#: ../src/settings.py:205 ../data/ClearData.ui.h:1
-#: ../data/SettingsDialog.ui.h:41
+#: ../src/settings.py:208 ../data/ClearData.ui.h:1
+#: ../data/SettingsDialog.ui.h:43
 msgid "Clear Personal Data"
 msgstr "Nettoyer les données personnelles"
 
-#: ../src/settings.py:440
+#: ../src/settings.py:453
 msgid "Sync started"
 msgstr "La synchronisation a démarrée"
 
-#: ../src/settings.py:447
+#: ../src/settings.py:460
 msgid "You've received an email to validate synchronization"
 msgstr "Vous avez reçu un email pour valider la synchronisation"
 
-#: ../src/settings.py:480
+#: ../src/settings.py:493
 msgid "Connecting…"
 msgstr "Connexion…"
 
-#: ../src/toolbar_end.py:162 ../data/ActionsMenu.ui.h:5
+#: ../src/toolbar_end.py:165 ../data/ActionsMenu.ui.h:5
 msgid "Save page"
 msgstr "Enregistrer la page"
 
-#: ../src/toolbar_end.py:165 ../data/PopoverPassword.ui.h:2
+#: ../src/toolbar_end.py:168 ../data/PopoverPassword.ui.h:2
 msgid "Save"
 msgstr "Enregistrer"
 
-#: ../src/toolbar_end.py:166
+#: ../src/toolbar_end.py:169 ../data/PopoverJavaScript.ui.h:2
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../src/toolbar_title.py:131
+#: ../src/toolbar_title.py:126
 msgid "This page contains insecure content"
 msgstr "Cette page contient du contenu non sécurisé"
 
-#: ../src/toolbar_title.py:242 ../src/toolbar_title.py:262
-#: ../src/toolbar_title.py:283 ../src/toolbar_title.py:536
+#: ../src/toolbar_title.py:165
+msgid ""
+"Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
+"be visible to cybercriminals!"
+msgstr ""
+"Attention : cette page n'est pas sécurisée.\\nSi vous entrez votre mot de "
+"passe,\\n il sera visible aux cybercriminels !\n"
+
+#: ../src/toolbar_title.py:266 ../src/toolbar_title.py:287
+#: ../src/toolbar_title.py:310 ../src/toolbar_title.py:575
 msgid "Search or enter address"
 msgstr "Rechercher ou entrer une adresse"
 
@@ -309,19 +329,19 @@ msgstr ""
 msgid "Accept Risk and Proceed"
 msgstr "Accepter le risque et continuer"
 
-#: ../src/widget_edit_bookmark.py:306 ../src/widget_edit_bookmark.py:313
+#: ../src/widget_edit_bookmark.py:312 ../src/widget_edit_bookmark.py:319
 msgid "Apply"
 msgstr "Appliquer"
 
-#: ../src/widget_edit_bookmark.py:308 ../data/BookmarkEdit.ui.h:6
+#: ../src/widget_edit_bookmark.py:314 ../data/BookmarkEdit.ui.h:6
 msgid "Rename"
 msgstr "Renommer"
 
-#: ../src/widget_edit_bookmark.py:326 ../src/widget_edit_bookmark.py:333
+#: ../src/widget_edit_bookmark.py:332 ../src/widget_edit_bookmark.py:339
 msgid "Finished"
 msgstr "Terminé"
 
-#: ../src/widget_edit_bookmark.py:328 ../data/BookmarkEdit.ui.h:7
+#: ../src/widget_edit_bookmark.py:334 ../data/BookmarkEdit.ui.h:7
 msgid "Remove"
 msgstr "Supprimer"
 
@@ -468,7 +488,7 @@ msgstr ""
 "Vous ne pourrez pas annuler cette action. Les données que vous choisissez "
 "d'effacer le seront définitivement."
 
-#: ../data/ClearData.ui.h:6 ../data/SettingsDialog.ui.h:29
+#: ../data/ClearData.ui.h:6 ../data/SettingsDialog.ui.h:31
 msgid "Cookies"
 msgstr "Cookies"
 
@@ -503,6 +523,10 @@ msgstr "Nettoyer les téléchargements terminés"
 #: ../data/PopoverDownloads.ui.h:3
 msgid "No active download"
 msgstr "Pas de téléchargement actif"
+
+#: ../data/PopoverJavaScript.ui.h:1
+msgid "Ok"
+msgstr "Ok"
 
 #: ../data/PopoverPassword.ui.h:1
 msgid "Do you want to save this password?"
@@ -601,50 +625,58 @@ msgid "Fonts"
 msgstr "Polices"
 
 #: ../data/SettingsDialog.ui.h:28
+msgid "Pages"
+msgstr "Pages"
+
+#: ../data/SettingsDialog.ui.h:29
+msgid "Show preview"
+msgstr "Afficher un aperçu"
+
+#: ../data/SettingsDialog.ui.h:30
 msgid "Appearance"
 msgstr "Apparence"
 
-#: ../data/SettingsDialog.ui.h:30
+#: ../data/SettingsDialog.ui.h:32
 msgid "Tracking"
 msgstr "Suivi"
 
-#: ../data/SettingsDialog.ui.h:32
+#: ../data/SettingsDialog.ui.h:34
 msgid "Passwords"
 msgstr "Mots de passe"
 
-#: ../data/SettingsDialog.ui.h:34
+#: ../data/SettingsDialog.ui.h:36
 msgid "Saved data"
 msgstr "Données enregistrées"
 
-#: ../data/SettingsDialog.ui.h:35
+#: ../data/SettingsDialog.ui.h:37
 msgid "Behaviour:"
 msgstr "Comportement:"
 
-#: ../data/SettingsDialog.ui.h:36
+#: ../data/SettingsDialog.ui.h:38
 msgid "Always accept"
 msgstr "Toujours accepter"
 
-#: ../data/SettingsDialog.ui.h:37
+#: ../data/SettingsDialog.ui.h:39
 msgid "Only from sites you visit"
 msgstr "Seulement des sites que vous visitez"
 
-#: ../data/SettingsDialog.ui.h:38
+#: ../data/SettingsDialog.ui.h:40
 msgid "Never accept"
 msgstr "Ne jamais accepter"
 
-#: ../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:41
 msgid "Manage cookies"
 msgstr "Gérer les cookies"
 
-#: ../data/SettingsDialog.ui.h:40
+#: ../data/SettingsDialog.ui.h:42
 msgid "Manage passwords"
 msgstr "Gérer les mots de passe"
 
-#: ../data/SettingsDialog.ui.h:42
+#: ../data/SettingsDialog.ui.h:44
 msgid "Privacy"
 msgstr "Vie privée"
 
-#: ../data/SettingsDialog.ui.h:43
+#: ../data/SettingsDialog.ui.h:45
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
@@ -652,23 +684,23 @@ msgstr ""
 "Vous pouvez partager vos marques pages et votre historique\n"
 "avec tous vos appareils utilisant Eolie ou Firefox"
 
-#: ../data/SettingsDialog.ui.h:45
+#: ../data/SettingsDialog.ui.h:47
 msgid "Login:"
 msgstr "Identifiant:"
 
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:48
 msgid "Password:"
 msgstr "Mot de passe:"
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:49
 msgid "Allow synchronization"
 msgstr "Autoriser la synchronisation"
 
-#: ../data/SettingsDialog.ui.h:48
+#: ../data/SettingsDialog.ui.h:50
 msgid "Create or manage account"
 msgstr "Créer ou gérer votre compte"
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:51
 msgid "Synchronization"
 msgstr "Synchronisation"
 
