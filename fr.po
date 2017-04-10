@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 12:40+0200\n"
-"PO-Revision-Date: 2017-03-30 07:11-0400\n"
+"POT-Creation-Date: 2017-04-10 11:49+0200\n"
+"PO-Revision-Date: 2017-04-10 05:51-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -128,13 +128,13 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Navigateur web"
 
-#: ../src/application.py:426
-msgid "Eolie: You need to install yelp."
-msgstr "Eolie: Vous devez installer yelp."
-
-#: ../src/menu_pages.py:35
+#: ../data/org.gnome.Eolie.desktop.in.h:3 ../src/menu_pages.py:35
 msgid "New private page"
 msgstr "Nouvelle page privée"
+
+#: ../src/application.py:429
+msgid "Eolie: You need to install yelp."
+msgstr "Eolie: Vous devez installer yelp."
 
 #: ../src/menu_pages.py:39
 msgid "Closed pages"
@@ -148,21 +148,50 @@ msgstr "Continuer"
 msgid "Leave"
 msgstr "Quitter"
 
-#: ../src/popover_password.py:116
+#: ../src/popover_password.py:117
 msgid "Do you want to modify this password?"
 msgstr "Voulez vous modifier ce mot de passe?"
 
-#: ../src/popover_uri.py:643
+#: ../src/popover_uri.py:387 ../src/toolbar_end.py:169
+#: ../data/PopoverJavaScript.ui.h:2
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../src/popover_uri.py:652
 msgid "Populars"
 msgstr "Populaires"
 
-#: ../src/popover_uri.py:645
+#: ../src/popover_uri.py:654
 msgid "Recents"
 msgstr "Récents"
 
-#: ../src/popover_uri.py:647
+#: ../src/popover_uri.py:656
 msgid "Unclassified"
 msgstr "Non classés"
+
+#: ../src/popover_uri.py:681
+msgid "From selected day"
+msgstr "Depuis le jour sélectionné"
+
+#: ../src/popover_uri.py:682
+msgid "From the past hour"
+msgstr "Depuis la dernière heure"
+
+#: ../src/popover_uri.py:683
+msgid "From the past day"
+msgstr "Depuis le dernier jour"
+
+#: ../src/popover_uri.py:684
+msgid "From the past week"
+msgstr "Depuis la dernière semaine"
+
+#: ../src/popover_uri.py:686
+msgid "From the past four weeks"
+msgstr "Depuis les quatre dernières semaines"
+
+#: ../src/popover_uri.py:687
+msgid "From the beginning"
+msgstr "Depuis le début"
 
 #. Translators: Google url for your country
 #: ../src/search.py:27
@@ -200,20 +229,15 @@ msgstr ""
 "sur cet ordinateur:\n"
 "%s"
 
-#: ../src/settings.py:208 ../data/ClearData.ui.h:1
-#: ../data/SettingsDialog.ui.h:43
-msgid "Clear Personal Data"
-msgstr "Nettoyer les données personnelles"
-
-#: ../src/settings.py:453
+#: ../src/settings.py:447
 msgid "Sync started"
 msgstr "La synchronisation a démarrée"
 
-#: ../src/settings.py:460
+#: ../src/settings.py:454
 msgid "You've received an email to validate synchronization"
 msgstr "Vous avez reçu un email pour valider la synchronisation"
 
-#: ../src/settings.py:493
+#: ../src/settings.py:487
 msgid "Connecting…"
 msgstr "Connexion…"
 
@@ -224,10 +248,6 @@ msgstr "Enregistrer la page"
 #: ../src/toolbar_end.py:168 ../data/PopoverPassword.ui.h:2
 msgid "Save"
 msgstr "Enregistrer"
-
-#: ../src/toolbar_end.py:169 ../data/PopoverJavaScript.ui.h:2
-msgid "Cancel"
-msgstr "Annuler"
 
 #: ../src/toolbar_title.py:126
 msgid "This page contains insecure content"
@@ -246,15 +266,24 @@ msgstr ""
 msgid "Search or enter address"
 msgstr "Rechercher ou entrer une adresse"
 
-#: ../src/view_web.py:390 ../data/SettingsDialog.ui.h:17
+#: ../src/view.py:117
+#, python-format
+msgid ""
+"Downloading from:\n"
+"%s"
+msgstr ""
+"Téléchargement depuis:\n"
+"%s"
+
+#: ../src/view_web.py:397 ../data/SettingsDialog.ui.h:17
 msgid "Popular pages"
 msgstr "Pages populaires"
 
-#: ../src/view_web.py:564
+#: ../src/view_web.py:597
 msgid "Failed to load this web page"
 msgstr "Erreur lors du chargement de cette page"
 
-#: ../src/view_web.py:565
+#: ../src/view_web.py:598
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -262,60 +291,60 @@ msgstr ""
 "Elle est peut être temporairement inaccessible ou déplacée à une nouvelle "
 "adresse.<br/>Vérifiez que votre connexion fonctionne correctement."
 
-#: ../src/view_web.py:571
+#: ../src/view_web.py:604
 msgid "Network not available"
 msgstr "Réseau non disponible"
 
-#: ../src/view_web.py:572
+#: ../src/view_web.py:605
 msgid "Check your network connection"
 msgstr "Vérifiez votre connexion réseau"
 
-#: ../src/view_web.py:579
+#: ../src/view_web.py:612
 #, python-format
 msgid "%s is not available"
 msgstr "%s n'est pas disponible"
 
-#: ../src/view_web.py:582
+#: ../src/view_web.py:615
 msgid "Retry"
 msgstr "Réessayer"
 
-#: ../src/view_web.py:612
+#: ../src/view_web.py:645
 msgid "The certificate does not match this website"
 msgstr "Ce certificat ne correspond pas à ce site web"
 
-#: ../src/view_web.py:614
+#: ../src/view_web.py:647
 msgid "The certificate has expired"
 msgstr "Le certificat a expiré"
 
-#: ../src/view_web.py:616
+#: ../src/view_web.py:649
 msgid "The signing certificate authority is not known"
 msgstr "L’autorité de certification n'est pas connue"
 
-#: ../src/view_web.py:618
+#: ../src/view_web.py:651
 msgid "The certificate contains errors"
 msgstr "Le certificat contient des erreurs"
 
-#: ../src/view_web.py:620
+#: ../src/view_web.py:653
 msgid "The certificate has been revoked"
 msgstr "Le certificat a été révoqué"
 
-#: ../src/view_web.py:622
+#: ../src/view_web.py:655
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Le certificat utilise une signature trop faible"
 
-#: ../src/view_web.py:625
+#: ../src/view_web.py:658
 msgid "The certificate activation time is still in the future"
 msgstr "La date d'activation du certificat est dans le futur"
 
-#: ../src/view_web.py:627
+#: ../src/view_web.py:660
 msgid "The identity of this website has not been verified"
 msgstr "L'identité du site web n'a pas été vérifiée"
 
-#: ../src/view_web.py:628 ../src/view_web.py:634
+#: ../src/view_web.py:661 ../src/view_web.py:667
 msgid "Connection is not secure"
 msgstr "La connexion n'est pas sécurisée"
 
-#: ../src/view_web.py:636
+#: ../src/view_web.py:669
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -325,7 +354,7 @@ msgstr ""
 "Ceci ne ressemble pas au vrai %s.<br/>\n"
 "Des pirates informatiques essaient peut-être de voler ou changer des informations allant ou provenant de ce site (par exemple : des messages privés, des informations de carte de crédit, ou des mots de passe)."
 
-#: ../src/view_web.py:642
+#: ../src/view_web.py:675
 msgid "Accept Risk and Proceed"
 msgstr "Accepter le risque et continuer"
 
@@ -345,13 +374,17 @@ msgstr "Terminé"
 msgid "Remove"
 msgstr "Supprimer"
 
-#: ../src/widget_find.py:43
+#: ../src/widget_find.py:47
 msgid "Search previous occurrence"
 msgstr "Rechercher l’occurrence précédente"
 
-#: ../src/widget_find.py:50
+#: ../src/widget_find.py:56
 msgid "Search next occurrence"
 msgstr "Rechercher l'occurrence suivante"
+
+#: ../src/widget_find.py:66
+msgid "100 of 100 matches"
+msgstr "100 sur 100 occurrences"
 
 #: ../data/AboutDialog.ui.h:1
 msgid "A web browser for GNOME."
@@ -472,41 +505,72 @@ msgstr "Ajouter"
 msgid "Set the tags you want to associate this bookmark with"
 msgstr "Sélectionnez les étiquettes que vous voulez associer à un marque page"
 
+#: ../data/ClearData.ui.h:1 ../data/SettingsDialog.ui.h:42
+msgid "Clear Personal Data"
+msgstr "Nettoyer les données personnelles"
+
 #: ../data/ClearData.ui.h:2
-msgid ""
-"You are about to clear personal data that is stored about the web pages you\n"
-"have visited. Check the types of information that you want to remove:"
-msgstr ""
-"Vous êtes sur le point d'effacer des données personnelles relatives aux pages Web que vous\n"
-"avez visitées. Vérifiez le type d'informations que vous souhaitez supprimer :"
+msgid "C_lear"
+msgstr "E_ffacer"
+
+#: ../data/ClearData.ui.h:3 ../data/PopoverUri.ui.h:3
+#: ../data/SettingsDialog.ui.h:6
+msgid "Search"
+msgstr "Rechercher"
 
 #: ../data/ClearData.ui.h:4
-msgid ""
-"You cannot undo this action. The data you are choosing to clear will be\n"
-"removed forever."
-msgstr ""
-"Vous ne pourrez pas annuler cette action. Les données que vous choisissez "
-"d'effacer le seront définitivement."
+msgid "Filter domains"
+msgstr "Filtrer les domaines"
 
-#: ../data/ClearData.ui.h:6 ../data/SettingsDialog.ui.h:31
-msgid "Cookies"
-msgstr "Cookies"
+#: ../data/ClearData.ui.h:5
+msgid "Search domains"
+msgstr "Rechercher dans les domaines"
+
+#: ../data/ClearData.ui.h:6
+msgid ""
+"You can select a period of time to clear data for all websites modified in "
+"that period. If you choose from the beginning of time, then you can also "
+"clear data only for particular websites."
+msgstr ""
+"Vous pouvez choisir une période pendant laquelle les données de tous les\n"
+"sites Web modifiés sont effacées. Si vous commencez depuis le début, vous\n"
+"pouvez aussi n'effacer que les données de sites Web particuliers."
 
 #: ../data/ClearData.ui.h:7
-msgid "Cache and temporary files"
-msgstr "Cache et fichiers temporaires"
+msgid "Clear selected personal data _from:"
+msgstr "Effacer la sélection de vos données personnelles _pour :"
 
 #: ../data/ClearData.ui.h:8
-msgid "Browsing history"
-msgstr "Historique de navigation"
+msgid "the past hour"
+msgstr "la dernière heure"
 
 #: ../data/ClearData.ui.h:9
-msgid "Saved passwords"
-msgstr "Mots de passe enregistrés"
+msgid "the past day"
+msgstr "le dernier jour"
 
 #: ../data/ClearData.ui.h:10
-msgid "Clear"
-msgstr "Nettoyer"
+msgid "the past week"
+msgstr "la dernière semaine"
+
+#: ../data/ClearData.ui.h:11
+msgid "the past four weeks"
+msgstr "les quatre dernières semaines"
+
+#: ../data/ClearData.ui.h:12
+msgid "the beginning"
+msgstr "le début"
+
+#: ../data/ClearData.ui.h:13
+msgid "No data found"
+msgstr "Aucune donnée trouvée"
+
+#: ../data/ClearData.ui.h:14
+msgid ""
+"You cannot undo this action. The data you are choosing to clear will be "
+"removed forever."
+msgstr ""
+"Vous ne pourrez pas annuler cette action. Les données que vous choisissez\n"
+"d'effacer le seront définitivement."
 
 #: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
@@ -540,15 +604,15 @@ msgstr "Synchroniser les marques pages"
 msgid "Bookmarks"
 msgstr "Marques pages"
 
-#: ../data/PopoverUri.ui.h:3 ../data/SettingsDialog.ui.h:6
-msgid "Search"
-msgstr "Rechercher"
-
 #: ../data/PopoverUri.ui.h:4
+msgid "Clear history"
+msgstr "Nettoyer l'historique"
+
+#: ../data/PopoverUri.ui.h:5
 msgid "History"
 msgstr "Historique"
 
-#: ../data/PopoverUri.ui.h:5
+#: ../data/PopoverUri.ui.h:6
 msgid "Close"
 msgstr "Fermer"
 
@@ -636,6 +700,10 @@ msgstr "Afficher un aperçu"
 msgid "Appearance"
 msgstr "Apparence"
 
+#: ../data/SettingsDialog.ui.h:31
+msgid "Cookies"
+msgstr "Cookies"
+
 #: ../data/SettingsDialog.ui.h:32
 msgid "Tracking"
 msgstr "Suivi"
@@ -668,15 +736,19 @@ msgstr "Ne jamais accepter"
 msgid "Manage cookies"
 msgstr "Gérer les cookies"
 
-#: ../data/SettingsDialog.ui.h:42
+#: ../data/SettingsDialog.ui.h:43
 msgid "Manage passwords"
 msgstr "Gérer les mots de passe"
 
 #: ../data/SettingsDialog.ui.h:44
+msgid "Clear passwords"
+msgstr "Nettoyer les mots de passe"
+
+#: ../data/SettingsDialog.ui.h:45
 msgid "Privacy"
 msgstr "Vie privée"
 
-#: ../data/SettingsDialog.ui.h:45
+#: ../data/SettingsDialog.ui.h:46
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
@@ -684,23 +756,23 @@ msgstr ""
 "Vous pouvez partager vos marques pages et votre historique\n"
 "avec tous vos appareils utilisant Eolie ou Firefox"
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:48
 msgid "Login:"
 msgstr "Identifiant:"
 
-#: ../data/SettingsDialog.ui.h:48
+#: ../data/SettingsDialog.ui.h:49
 msgid "Password:"
 msgstr "Mot de passe:"
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:50
 msgid "Allow synchronization"
 msgstr "Autoriser la synchronisation"
 
-#: ../data/SettingsDialog.ui.h:50
+#: ../data/SettingsDialog.ui.h:51
 msgid "Create or manage account"
 msgstr "Créer ou gérer votre compte"
 
-#: ../data/SettingsDialog.ui.h:51
+#: ../data/SettingsDialog.ui.h:52
 msgid "Synchronization"
 msgstr "Synchronisation"
 
