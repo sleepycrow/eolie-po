@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-10 11:49+0200\n"
+"POT-Creation-Date: 2017-04-20 16:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,70 +50,74 @@ msgid "Block ads on pages"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:9
-msgid "Block images on pages"
+msgid "Block unwanted popups on pages"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:10
-msgid "Download folder URI"
+msgid "Block images on pages"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:11
-msgid "Open finished downloads"
+msgid "Download folder URI"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:12
-msgid "Web search engine"
+msgid "Open finished downloads"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:13
+msgid "Web search engine"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:14
 msgid "Remember sessions"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:35
+#: ../data/org.gnome.Eolie.gschema.xml.h:15 ../data/SettingsDialog.ui.h:35
 msgid "Remember passwords"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:15
+#: ../data/org.gnome.Eolie.gschema.xml.h:16
 msgid "Enable developer tools"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:16
+#: ../data/org.gnome.Eolie.gschema.xml.h:17
 msgid "Show page preview"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:13
+#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:13
 msgid "Enable plugins"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:22
+#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:22
 msgid "Use system fonts"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:23
 msgid "Sans serif font"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:24
 msgid "Serif font"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:25
 msgid "Monospace font"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22
+#: ../data/org.gnome.Eolie.gschema.xml.h:23
 msgid "Open this page on startup"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/SettingsDialog.ui.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:26
 msgid "Minimum font size"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:25
 msgid "Cookies storage type"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:25 ../data/SettingsDialog.ui.h:33
+#: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:33
 msgid "Tell websites I do not want to be tracked"
 msgstr ""
 
@@ -131,8 +135,52 @@ msgstr ""
 msgid "New private page"
 msgstr ""
 
-#: ../src/application.py:429
+#: ../src/application.py:437
 msgid "Eolie: You need to install yelp."
+msgstr ""
+
+#: ../src/dialog_clear_data.py:179
+msgid "Memory cache"
+msgstr ""
+
+#: ../src/dialog_clear_data.py:181
+msgid "HTTP disk cache"
+msgstr ""
+
+#: ../src/dialog_clear_data.py:183
+msgid "Offline web application cache"
+msgstr ""
+
+#: ../src/dialog_clear_data.py:185
+msgid "Session storage data"
+msgstr ""
+
+#: ../src/dialog_clear_data.py:187
+msgid "Local storage data"
+msgstr ""
+
+#: ../src/dialog_clear_data.py:189
+msgid "WebSQL databases"
+msgstr ""
+
+#: ../src/dialog_clear_data.py:191
+msgid "IndexedDB databases"
+msgstr ""
+
+#: ../src/dialog_clear_data.py:193
+msgid "Plugins data"
+msgstr ""
+
+#: ../src/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:31
+msgid "Cookies"
+msgstr ""
+
+#: ../src/dialog_import_bookmarks.py:47
+msgid "Others"
+msgstr ""
+
+#: ../src/dialog_import_bookmarks.py:84
+msgid "Import HTML bookmarks"
 msgstr ""
 
 #: ../src/menu_pages.py:39
@@ -151,44 +199,44 @@ msgstr ""
 msgid "Do you want to modify this password?"
 msgstr ""
 
-#: ../src/popover_uri.py:387 ../src/toolbar_end.py:169
+#: ../src/popover_uri.py:387 ../src/toolbar_end.py:207
 #: ../data/PopoverJavaScript.ui.h:2
 msgid "Cancel"
 msgstr ""
 
-#: ../src/popover_uri.py:652
+#: ../src/popover_uri.py:661
 msgid "Populars"
 msgstr ""
 
-#: ../src/popover_uri.py:654
+#: ../src/popover_uri.py:663
 msgid "Recents"
 msgstr ""
 
-#: ../src/popover_uri.py:656
+#: ../src/popover_uri.py:665
 msgid "Unclassified"
 msgstr ""
 
-#: ../src/popover_uri.py:681
-msgid "From selected day"
-msgstr ""
-
-#: ../src/popover_uri.py:682
+#: ../src/popover_uri.py:688
 msgid "From the past hour"
 msgstr ""
 
-#: ../src/popover_uri.py:683
+#: ../src/popover_uri.py:689
 msgid "From the past day"
 msgstr ""
 
-#: ../src/popover_uri.py:684
+#: ../src/popover_uri.py:690
 msgid "From the past week"
 msgstr ""
 
-#: ../src/popover_uri.py:686
+#: ../src/popover_uri.py:692
 msgid "From the past four weeks"
 msgstr ""
 
-#: ../src/popover_uri.py:687
+#: ../src/popover_uri.py:693
+msgid "From selected day"
+msgstr ""
+
+#: ../src/popover_uri.py:694
 msgid "From the beginning"
 msgstr ""
 
@@ -235,104 +283,101 @@ msgstr ""
 msgid "Connecting…"
 msgstr ""
 
-#: ../src/toolbar_end.py:165 ../data/ActionsMenu.ui.h:5
+#: ../src/toolbar_end.py:105
+msgid "Downloading from:"
+msgstr ""
+
+#: ../src/toolbar_end.py:203 ../data/ActionsMenu.ui.h:5
 msgid "Save page"
 msgstr ""
 
-#: ../src/toolbar_end.py:168 ../data/PopoverPassword.ui.h:2
+#: ../src/toolbar_end.py:206 ../data/PopoverPassword.ui.h:2
 msgid "Save"
 msgstr ""
 
-#: ../src/toolbar_title.py:126
+#: ../src/toolbar_title.py:128
 msgid "This page contains insecure content"
 msgstr ""
 
-#: ../src/toolbar_title.py:165
+#: ../src/toolbar_title.py:166
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
 msgstr ""
 
 #: ../src/toolbar_title.py:266 ../src/toolbar_title.py:287
-#: ../src/toolbar_title.py:310 ../src/toolbar_title.py:575
+#: ../src/toolbar_title.py:310 ../src/toolbar_title.py:584
 msgid "Search or enter address"
 msgstr ""
 
-#: ../src/view.py:117
-#, python-format
-msgid ""
-"Downloading from:\n"
-"%s"
-msgstr ""
-
-#: ../src/view_web.py:397 ../data/SettingsDialog.ui.h:17
+#: ../src/view_web.py:425 ../data/SettingsDialog.ui.h:17
 msgid "Popular pages"
 msgstr ""
 
-#: ../src/view_web.py:597
+#: ../src/view_web.py:629
 msgid "Failed to load this web page"
 msgstr ""
 
-#: ../src/view_web.py:598
+#: ../src/view_web.py:630
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
 
-#: ../src/view_web.py:604
+#: ../src/view_web.py:636
 msgid "Network not available"
 msgstr ""
 
-#: ../src/view_web.py:605
+#: ../src/view_web.py:637
 msgid "Check your network connection"
 msgstr ""
 
-#: ../src/view_web.py:612
+#: ../src/view_web.py:644
 #, python-format
 msgid "%s is not available"
 msgstr ""
 
-#: ../src/view_web.py:615
+#: ../src/view_web.py:647
 msgid "Retry"
 msgstr ""
 
-#: ../src/view_web.py:645
+#: ../src/view_web.py:677
 msgid "The certificate does not match this website"
 msgstr ""
 
-#: ../src/view_web.py:647
+#: ../src/view_web.py:679
 msgid "The certificate has expired"
 msgstr ""
 
-#: ../src/view_web.py:649
+#: ../src/view_web.py:681
 msgid "The signing certificate authority is not known"
 msgstr ""
 
-#: ../src/view_web.py:651
+#: ../src/view_web.py:683
 msgid "The certificate contains errors"
 msgstr ""
 
-#: ../src/view_web.py:653
+#: ../src/view_web.py:685
 msgid "The certificate has been revoked"
 msgstr ""
 
-#: ../src/view_web.py:655
+#: ../src/view_web.py:687
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr ""
 
-#: ../src/view_web.py:658
+#: ../src/view_web.py:690
 msgid "The certificate activation time is still in the future"
 msgstr ""
 
-#: ../src/view_web.py:660
+#: ../src/view_web.py:692
 msgid "The identity of this website has not been verified"
 msgstr ""
 
-#: ../src/view_web.py:661 ../src/view_web.py:667
+#: ../src/view_web.py:693 ../src/view_web.py:699
 msgid "Connection is not secure"
 msgstr ""
 
-#: ../src/view_web.py:669
+#: ../src/view_web.py:701
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -340,7 +385,7 @@ msgid ""
 "messages, credit card information, or passwords)."
 msgstr ""
 
-#: ../src/view_web.py:675
+#: ../src/view_web.py:707
 msgid "Accept Risk and Proceed"
 msgstr ""
 
@@ -440,10 +485,14 @@ msgid "Block ads"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:12
-msgid "Block images"
+msgid "Block popups"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:13
+msgid "Block images"
+msgstr ""
+
+#: ../data/ActionsMenu.ui.h:14
 msgid "Filtering"
 msgstr ""
 
@@ -499,7 +548,7 @@ msgstr ""
 msgid "C_lear"
 msgstr ""
 
-#: ../data/ClearData.ui.h:3 ../data/PopoverUri.ui.h:3
+#: ../data/ClearData.ui.h:3 ../data/PopoverUri.ui.h:4
 #: ../data/SettingsDialog.ui.h:6
 msgid "Search"
 msgstr ""
@@ -553,6 +602,14 @@ msgid ""
 "removed forever."
 msgstr ""
 
+#: ../data/ImportBookmarks.ui.h:1
+msgid "Import bookmarks from:"
+msgstr ""
+
+#: ../data/ImportBookmarks.ui.h:2
+msgid "Import"
+msgstr ""
+
 #: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
 msgstr ""
@@ -582,18 +639,22 @@ msgid "Sync bookmarks"
 msgstr ""
 
 #: ../data/PopoverUri.ui.h:2
+msgid "Import bookmarks"
+msgstr ""
+
+#: ../data/PopoverUri.ui.h:3
 msgid "Bookmarks"
 msgstr ""
 
-#: ../data/PopoverUri.ui.h:4
+#: ../data/PopoverUri.ui.h:5
 msgid "Clear history"
 msgstr ""
 
-#: ../data/PopoverUri.ui.h:5
+#: ../data/PopoverUri.ui.h:6
 msgid "History"
 msgstr ""
 
-#: ../data/PopoverUri.ui.h:6
+#: ../data/PopoverUri.ui.h:7
 msgid "Close"
 msgstr ""
 
@@ -679,10 +740,6 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui.h:30
 msgid "Appearance"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:31
-msgid "Cookies"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:32

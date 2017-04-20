@@ -7,6 +7,8 @@
 	../src/database_adblock.py \
 	../src/database_bookmarks.py \
 	../src/database_history.py \
+	../src/dialog_clear_data.py \
+	../src/dialog_import_bookmarks.py \
 	../src/define.py \
 	../src/download_manager.py \
 	../src/localized.py \
@@ -37,6 +39,7 @@
 	../data/Appmenu.ui \
 	../data/BookmarkEdit.ui \
 	../data/ClearData.ui \
+	../data/ImportBookmarks.ui \
 	../data/PopoverCookies.ui \
 	../data/PopoverDownloads.ui \
 	../data/PopoverJavaScript.ui \
