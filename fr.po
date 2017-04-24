@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-25 17:42+0200\n"
-"PO-Revision-Date: 2017-04-25 11:45-0400\n"
+"POT-Creation-Date: 2017-04-25 18:33+0200\n"
+"PO-Revision-Date: 2017-04-25 12:34-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -188,54 +188,55 @@ msgstr "Importer des marques pages HTML"
 msgid "Closed pages"
 msgstr "Pages fermées"
 
-#: ../src/popover_downloads.py:105
-#, python-format
-msgid "Download speed: %s bytes/s"
-msgstr "Vitesse de téléchargement: %s octets/s"
+#: ../src/popover_downloads.py:104
+msgid "Download speed:"
+msgstr "Vitesse de téléchargement:"
 
-#: ../src/popover_downloads.py:107
-#, python-format
-msgid "Download speed: %s KiB/s"
-msgstr "Vitesse de téléchargement: %s Kio/s"
+#: ../src/popover_downloads.py:106
+msgid "bytes/s"
+msgstr "octets/s"
 
-#: ../src/popover_downloads.py:110
-#, python-format
-msgid "Download speed: %s MiB/s"
-msgstr "Vitesse de téléchargement: %s Mio/s"
+#: ../src/popover_downloads.py:109
+msgid "KiB/s"
+msgstr "Kio/s"
 
-#: ../src/popover_downloads.py:128 ../src/popover_downloads.py:134
+#: ../src/popover_downloads.py:112
+msgid "MiB/s"
+msgstr "Mio/s"
+
+#: ../src/popover_downloads.py:131 ../src/popover_downloads.py:137
 #, python-format
 msgid "%s second"
 msgstr "%s seconde"
 
-#: ../src/popover_downloads.py:130 ../src/popover_downloads.py:136
+#: ../src/popover_downloads.py:133 ../src/popover_downloads.py:139
 #, python-format
 msgid "%s seconds"
 msgstr "%s secondes"
 
-#: ../src/popover_downloads.py:142 ../src/popover_downloads.py:150
+#: ../src/popover_downloads.py:145 ../src/popover_downloads.py:153
 #, python-format
 msgid "%s minute"
 msgstr "%s minute"
 
-#: ../src/popover_downloads.py:145 ../src/popover_downloads.py:152
+#: ../src/popover_downloads.py:148 ../src/popover_downloads.py:155
 #, python-format
 msgid "%s minutes"
 msgstr "%s minutes"
 
-#: ../src/popover_downloads.py:158
+#: ../src/popover_downloads.py:161
 #, python-format
 msgid "%s hours"
 msgstr "%s heures"
 
-#: ../src/popover_downloads.py:160
+#: ../src/popover_downloads.py:163
 #, python-format
 msgid "%s hour"
 msgstr "%s heure"
 
-#: ../src/popover_downloads.py:170
-msgid "remaining"
-msgstr "restant"
+#: ../src/popover_downloads.py:164
+msgid "Remaining time:"
+msgstr "Temps restant:"
 
 #: ../src/popover_javascript.py:56
 msgid "Continue"

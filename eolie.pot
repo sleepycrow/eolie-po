@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-25 17:42+0200\n"
+"POT-Creation-Date: 2017-04-25 18:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -187,53 +187,54 @@ msgstr ""
 msgid "Closed pages"
 msgstr ""
 
-#: ../src/popover_downloads.py:105
-#, python-format
-msgid "Download speed: %s bytes/s"
+#: ../src/popover_downloads.py:104
+msgid "Download speed:"
 msgstr ""
 
-#: ../src/popover_downloads.py:107
-#, python-format
-msgid "Download speed: %s KiB/s"
+#: ../src/popover_downloads.py:106
+msgid "bytes/s"
 msgstr ""
 
-#: ../src/popover_downloads.py:110
-#, python-format
-msgid "Download speed: %s MiB/s"
+#: ../src/popover_downloads.py:109
+msgid "KiB/s"
 msgstr ""
 
-#: ../src/popover_downloads.py:128 ../src/popover_downloads.py:134
+#: ../src/popover_downloads.py:112
+msgid "MiB/s"
+msgstr ""
+
+#: ../src/popover_downloads.py:131 ../src/popover_downloads.py:137
 #, python-format
 msgid "%s second"
 msgstr ""
 
-#: ../src/popover_downloads.py:130 ../src/popover_downloads.py:136
+#: ../src/popover_downloads.py:133 ../src/popover_downloads.py:139
 #, python-format
 msgid "%s seconds"
 msgstr ""
 
-#: ../src/popover_downloads.py:142 ../src/popover_downloads.py:150
+#: ../src/popover_downloads.py:145 ../src/popover_downloads.py:153
 #, python-format
 msgid "%s minute"
 msgstr ""
 
-#: ../src/popover_downloads.py:145 ../src/popover_downloads.py:152
+#: ../src/popover_downloads.py:148 ../src/popover_downloads.py:155
 #, python-format
 msgid "%s minutes"
 msgstr ""
 
-#: ../src/popover_downloads.py:158
+#: ../src/popover_downloads.py:161
 #, python-format
 msgid "%s hours"
 msgstr ""
 
-#: ../src/popover_downloads.py:160
+#: ../src/popover_downloads.py:163
 #, python-format
 msgid "%s hour"
 msgstr ""
 
-#: ../src/popover_downloads.py:170
-msgid "remaining"
+#: ../src/popover_downloads.py:164
+msgid "Remaining time:"
 msgstr ""
 
 #: ../src/popover_javascript.py:56
