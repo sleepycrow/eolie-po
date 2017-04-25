@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-25 18:33+0200\n"
-"PO-Revision-Date: 2017-04-25 12:34-0400\n"
+"POT-Creation-Date: 2017-04-27 16:34+0200\n"
+"PO-Revision-Date: 2017-04-27 10:36-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -43,82 +43,82 @@ msgid "Window maximized state"
 msgstr "État maximisé de la fenêtre"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
-msgid "INTERNAL"
-msgstr "INTERNE"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Block ads on pages"
 msgstr "Bloquer les publicités sur les pages"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Block unwanted popups on pages"
 msgstr "Bloquer les popups non voulu sur les pages"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:10
+#: ../data/org.gnome.Eolie.gschema.xml.h:9
 msgid "Block images on pages"
 msgstr "Bloquer les images sur les pages"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:11
+#: ../data/org.gnome.Eolie.gschema.xml.h:10
 msgid "Download folder URI"
 msgstr "Adresse du dossier de téléchargement"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:12
+#: ../data/org.gnome.Eolie.gschema.xml.h:11
 msgid "Open finished downloads"
 msgstr "Ouvrir les téléchargements terminés"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:13
+#: ../data/org.gnome.Eolie.gschema.xml.h:12
 msgid "Web search engine"
 msgstr "Moteur de recherche"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14
+#: ../data/org.gnome.Eolie.gschema.xml.h:13
 msgid "Remember sessions"
 msgstr "Se souvenir des sessions"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:15 ../data/SettingsDialog.ui.h:35
+#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:34
 msgid "Remember passwords"
 msgstr "Se souvenir des mots de passe"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:16
+#: ../data/org.gnome.Eolie.gschema.xml.h:15
 msgid "Enable developer tools"
 msgstr "Activer les outils pour les développeurs"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17
-msgid "Show page preview"
-msgstr "Afficher un aperçu de la page"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:13
+#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:13
 msgid "Enable plugins"
 msgstr "Activer les plugins"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:22
+#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:23
 msgid "Use system fonts"
 msgstr "Utiliser les polices systèmes"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:24
 msgid "Sans serif font"
 msgstr "Police Sans serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:25
 msgid "Serif font"
 msgstr "Police Serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:26
 msgid "Monospace font"
 msgstr "Police à largeur fixe"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:21
 msgid "Open this page on startup"
 msgstr "Ouvrir cette page au démarrage"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:27
 msgid "Minimum font size"
 msgstr "Taille de police minimale"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:23
+msgid "INTERNAL"
+msgstr "INTERNE"
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Cookies storage type"
 msgstr "Type de stockage des cookies"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:33
+#: ../data/org.gnome.Eolie.gschema.xml.h:25
+msgid "Panel mode"
+msgstr "Mode du panneau"
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:32
 msgid "Tell websites I do not want to be tracked"
 msgstr "Dire aux sites web de ne pas me suivre"
 
@@ -136,7 +136,7 @@ msgstr "Navigateur web"
 msgid "New private page"
 msgstr "Nouvelle page privée"
 
-#: ../src/application.py:437
+#: ../src/application.py:440
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vous devez installer yelp."
 
@@ -172,7 +172,7 @@ msgstr "Base de données IndexedDB"
 msgid "Plugins data"
 msgstr "Données des greffons"
 
-#: ../src/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:31
+#: ../src/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:30
 msgid "Cookies"
 msgstr "Cookies"
 
@@ -204,37 +204,37 @@ msgstr "Kio/s"
 msgid "MiB/s"
 msgstr "Mio/s"
 
-#: ../src/popover_downloads.py:131 ../src/popover_downloads.py:137
+#: ../src/popover_downloads.py:134 ../src/popover_downloads.py:140
 #, python-format
 msgid "%s second"
 msgstr "%s seconde"
 
-#: ../src/popover_downloads.py:133 ../src/popover_downloads.py:139
+#: ../src/popover_downloads.py:136 ../src/popover_downloads.py:142
 #, python-format
 msgid "%s seconds"
 msgstr "%s secondes"
 
-#: ../src/popover_downloads.py:145 ../src/popover_downloads.py:153
+#: ../src/popover_downloads.py:148 ../src/popover_downloads.py:156
 #, python-format
 msgid "%s minute"
 msgstr "%s minute"
 
-#: ../src/popover_downloads.py:148 ../src/popover_downloads.py:155
+#: ../src/popover_downloads.py:151 ../src/popover_downloads.py:158
 #, python-format
 msgid "%s minutes"
 msgstr "%s minutes"
 
-#: ../src/popover_downloads.py:161
+#: ../src/popover_downloads.py:164
 #, python-format
 msgid "%s hours"
 msgstr "%s heures"
 
-#: ../src/popover_downloads.py:163
+#: ../src/popover_downloads.py:166
 #, python-format
 msgid "%s hour"
 msgstr "%s heure"
 
-#: ../src/popover_downloads.py:164
+#: ../src/popover_downloads.py:167
 msgid "Remaining time:"
 msgstr "Temps restant:"
 
@@ -305,7 +305,7 @@ msgstr "https://www.yahoo.fr"
 msgid "Preferences"
 msgstr "Préférences"
 
-#: ../src/settings.py:152
+#: ../src/settings.py:149
 msgid ""
 "Installing seahorse will allow you\n"
 "managing your passwords"
@@ -313,11 +313,11 @@ msgstr ""
 "Installer seahorse afin de pouvoir\n"
 "gérer vos mots de passe"
 
-#: ../src/settings.py:170
+#: ../src/settings.py:167
 msgid "Synchronization is working"
 msgstr "La synchronisation fonctionne"
 
-#: ../src/settings.py:182
+#: ../src/settings.py:179
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -327,15 +327,15 @@ msgstr ""
 "sur cet ordinateur:\n"
 "%s"
 
-#: ../src/settings.py:447
+#: ../src/settings.py:434
 msgid "Sync started"
 msgstr "La synchronisation a démarrée"
 
-#: ../src/settings.py:454
+#: ../src/settings.py:441
 msgid "You've received an email to validate synchronization"
 msgstr "Vous avez reçu un email pour valider la synchronisation"
 
-#: ../src/settings.py:487
+#: ../src/settings.py:474
 msgid "Connecting…"
 msgstr "Connexion…"
 
@@ -351,11 +351,11 @@ msgstr "Enregistrer la page"
 msgid "Save"
 msgstr "Enregistrer"
 
-#: ../src/toolbar_title.py:134
+#: ../src/toolbar_title.py:157
 msgid "This page contains insecure content"
 msgstr "Cette page contient du contenu non sécurisé"
 
-#: ../src/toolbar_title.py:174
+#: ../src/toolbar_title.py:183
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
@@ -363,24 +363,23 @@ msgstr ""
 "Attention : cette page n'est pas sécurisée.\\nSi vous entrez votre mot de "
 "passe,\\n il sera visible aux cybercriminels !"
 
-#: ../src/toolbar_title.py:287 ../src/toolbar_title.py:308
-#: ../src/toolbar_title.py:331 ../src/toolbar_title.py:606
-msgid "Search or enter address"
-msgstr "Rechercher ou entrer une adresse"
-
-#: ../src/toolbar_title.py:336
+#: ../src/toolbar_title.py:307
 msgid "Copy address"
 msgstr "Copier l'adresse"
 
-#: ../src/view_web.py:391 ../data/SettingsDialog.ui.h:17
+#: ../src/toolbar_title.py:547
+msgid "Search or enter address"
+msgstr "Rechercher ou entrer une adresse"
+
+#: ../src/view_web.py:397 ../data/SettingsDialog.ui.h:17
 msgid "Popular pages"
 msgstr "Pages populaires"
 
-#: ../src/view_web.py:597
+#: ../src/view_web.py:604
 msgid "Failed to load this web page"
 msgstr "Erreur lors du chargement de cette page"
 
-#: ../src/view_web.py:598
+#: ../src/view_web.py:605
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -388,60 +387,60 @@ msgstr ""
 "Elle est peut être temporairement inaccessible ou déplacée à une nouvelle "
 "adresse.<br/>Vérifiez que votre connexion fonctionne correctement."
 
-#: ../src/view_web.py:604
+#: ../src/view_web.py:611
 msgid "Network not available"
 msgstr "Réseau non disponible"
 
-#: ../src/view_web.py:605
+#: ../src/view_web.py:612
 msgid "Check your network connection"
 msgstr "Vérifiez votre connexion réseau"
 
-#: ../src/view_web.py:612
+#: ../src/view_web.py:619
 #, python-format
 msgid "%s is not available"
 msgstr "%s n'est pas disponible"
 
-#: ../src/view_web.py:615
+#: ../src/view_web.py:622
 msgid "Retry"
 msgstr "Réessayer"
 
-#: ../src/view_web.py:645
+#: ../src/view_web.py:652
 msgid "The certificate does not match this website"
 msgstr "Ce certificat ne correspond pas à ce site web"
 
-#: ../src/view_web.py:647
+#: ../src/view_web.py:654
 msgid "The certificate has expired"
 msgstr "Le certificat a expiré"
 
-#: ../src/view_web.py:649
+#: ../src/view_web.py:656
 msgid "The signing certificate authority is not known"
 msgstr "L’autorité de certification n'est pas connue"
 
-#: ../src/view_web.py:651
+#: ../src/view_web.py:658
 msgid "The certificate contains errors"
 msgstr "Le certificat contient des erreurs"
 
-#: ../src/view_web.py:653
+#: ../src/view_web.py:660
 msgid "The certificate has been revoked"
 msgstr "Le certificat a été révoqué"
 
-#: ../src/view_web.py:655
+#: ../src/view_web.py:662
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Le certificat utilise une signature trop faible"
 
-#: ../src/view_web.py:658
+#: ../src/view_web.py:665
 msgid "The certificate activation time is still in the future"
 msgstr "La date d'activation du certificat est dans le futur"
 
-#: ../src/view_web.py:660
+#: ../src/view_web.py:667
 msgid "The identity of this website has not been verified"
 msgstr "L'identité du site web n'a pas été vérifiée"
 
-#: ../src/view_web.py:661 ../src/view_web.py:667
+#: ../src/view_web.py:668 ../src/view_web.py:674
 msgid "Connection is not secure"
 msgstr "La connexion n'est pas sécurisée"
 
-#: ../src/view_web.py:669
+#: ../src/view_web.py:676
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -451,7 +450,7 @@ msgstr ""
 "Ceci ne ressemble pas au vrai %s.<br/>\n"
 "Des pirates informatiques essaient peut-être de voler ou changer des informations allant ou provenant de ce site (par exemple : des messages privés, des informations de carte de crédit, ou des mots de passe)."
 
-#: ../src/view_web.py:675
+#: ../src/view_web.py:682
 msgid "Accept Risk and Proceed"
 msgstr "Accepter le risque et continuer"
 
@@ -538,7 +537,7 @@ msgstr "Voir le code source de la page"
 msgid "Zoom out"
 msgstr "Dé-zoomer"
 
-#: ../data/ActionsMenu.ui.h:9 ../data/SettingsDialog.ui.h:27
+#: ../data/ActionsMenu.ui.h:9 ../data/SettingsDialog.ui.h:28
 msgid "Default zoom level"
 msgstr "Niveau de zoom par défaut"
 
@@ -606,7 +605,7 @@ msgstr "Ajouter"
 msgid "Set the tags you want to associate this bookmark with"
 msgstr "Sélectionnez les étiquettes que vous voulez associer à un marque page"
 
-#: ../data/ClearData.ui.h:1 ../data/SettingsDialog.ui.h:42
+#: ../data/ClearData.ui.h:1 ../data/SettingsDialog.ui.h:41
 msgid "Clear Personal Data"
 msgstr "Nettoyer les données personnelles"
 
@@ -786,78 +785,74 @@ msgid "Search engine"
 msgstr "Moteur de recherche"
 
 #: ../data/SettingsDialog.ui.h:18
+msgid "Blank page"
+msgstr "Page vide"
+
+#: ../data/SettingsDialog.ui.h:19
 msgid "Set address"
 msgstr "Entrer l'adresse"
 
-#: ../data/SettingsDialog.ui.h:19
+#: ../data/SettingsDialog.ui.h:20
 msgid "Remember previous pages on startup"
 msgstr "Se souvenir des pages précédentes au démarrage"
 
-#: ../data/SettingsDialog.ui.h:20
+#: ../data/SettingsDialog.ui.h:21
 msgid "General"
 msgstr "Général"
 
-#: ../data/SettingsDialog.ui.h:21
+#: ../data/SettingsDialog.ui.h:22
 msgid "Fonts"
 msgstr "Polices"
 
-#: ../data/SettingsDialog.ui.h:28
-msgid "Pages"
-msgstr "Pages"
-
 #: ../data/SettingsDialog.ui.h:29
-msgid "Show preview"
-msgstr "Afficher un aperçu"
-
-#: ../data/SettingsDialog.ui.h:30
 msgid "Appearance"
 msgstr "Apparence"
 
-#: ../data/SettingsDialog.ui.h:32
+#: ../data/SettingsDialog.ui.h:31
 msgid "Tracking"
 msgstr "Suivi"
 
-#: ../data/SettingsDialog.ui.h:34
+#: ../data/SettingsDialog.ui.h:33
 msgid "Passwords"
 msgstr "Mots de passe"
 
-#: ../data/SettingsDialog.ui.h:36
+#: ../data/SettingsDialog.ui.h:35
 msgid "Saved data"
 msgstr "Données enregistrées"
 
-#: ../data/SettingsDialog.ui.h:37
+#: ../data/SettingsDialog.ui.h:36
 msgid "Behaviour:"
 msgstr "Comportement:"
 
-#: ../data/SettingsDialog.ui.h:38
+#: ../data/SettingsDialog.ui.h:37
 msgid "Always accept"
 msgstr "Toujours accepter"
 
-#: ../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:38
 msgid "Only from sites you visit"
 msgstr "Seulement des sites que vous visitez"
 
-#: ../data/SettingsDialog.ui.h:40
+#: ../data/SettingsDialog.ui.h:39
 msgid "Never accept"
 msgstr "Ne jamais accepter"
 
-#: ../data/SettingsDialog.ui.h:41
+#: ../data/SettingsDialog.ui.h:40
 msgid "Manage cookies"
 msgstr "Gérer les cookies"
 
-#: ../data/SettingsDialog.ui.h:43
+#: ../data/SettingsDialog.ui.h:42
 msgid "Manage passwords"
 msgstr "Gérer les mots de passe"
 
-#: ../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:43
 msgid "Clear passwords"
 msgstr "Nettoyer les mots de passe"
 
-#: ../data/SettingsDialog.ui.h:45
+#: ../data/SettingsDialog.ui.h:44
 msgid "Privacy"
 msgstr "Vie privée"
 
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:45
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
@@ -865,23 +860,23 @@ msgstr ""
 "Vous pouvez partager vos marques pages et votre historique\n"
 "avec tous vos appareils utilisant Eolie ou Firefox"
 
-#: ../data/SettingsDialog.ui.h:48
+#: ../data/SettingsDialog.ui.h:47
 msgid "Login:"
 msgstr "Identifiant:"
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:48
 msgid "Password:"
 msgstr "Mot de passe:"
 
-#: ../data/SettingsDialog.ui.h:50
+#: ../data/SettingsDialog.ui.h:49
 msgid "Allow synchronization"
 msgstr "Autoriser la synchronisation"
 
-#: ../data/SettingsDialog.ui.h:51
+#: ../data/SettingsDialog.ui.h:50
 msgid "Create or manage account"
 msgstr "Créer ou gérer votre compte"
 
-#: ../data/SettingsDialog.ui.h:52
+#: ../data/SettingsDialog.ui.h:51
 msgid "Synchronization"
 msgstr "Synchronisation"
 
@@ -957,10 +952,15 @@ msgstr "Rechercher"
 
 #: ../data/Shortcuts.ui.h:15
 msgctxt "shortcut window"
+msgid "Disable adblock for current site"
+msgstr "Désactiver adblock pour le site courant"
+
+#: ../data/Shortcuts.ui.h:16
+msgctxt "shortcut window"
 msgid "Navigation"
 msgstr "Navigation"
 
-#: ../data/Shortcuts.ui.h:16
+#: ../data/Shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Recharger la page"
