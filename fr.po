@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-27 16:34+0200\n"
-"PO-Revision-Date: 2017-04-27 10:36-0400\n"
+"POT-Creation-Date: 2017-04-27 17:26+0200\n"
+"PO-Revision-Date: 2017-04-27 11:28-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -340,8 +340,8 @@ msgid "Connecting…"
 msgstr "Connexion…"
 
 #: ../src/toolbar_end.py:105
-msgid "Downloading from:"
-msgstr "Téléchargement depuis:"
+msgid "Downloading:"
+msgstr "Téléchargement de:"
 
 #: ../src/toolbar_end.py:204 ../data/ActionsMenu.ui.h:5
 msgid "Save page"
