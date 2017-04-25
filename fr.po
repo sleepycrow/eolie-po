@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 16:10+0200\n"
-"PO-Revision-Date: 2017-04-20 10:36-0400\n"
+"POT-Creation-Date: 2017-04-25 17:42+0200\n"
+"PO-Revision-Date: 2017-04-25 11:45-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -188,6 +188,55 @@ msgstr "Importer des marques pages HTML"
 msgid "Closed pages"
 msgstr "Pages fermées"
 
+#: ../src/popover_downloads.py:105
+#, python-format
+msgid "Download speed: %s bytes/s"
+msgstr "Vitesse de téléchargement: %s octets/s"
+
+#: ../src/popover_downloads.py:107
+#, python-format
+msgid "Download speed: %s KiB/s"
+msgstr "Vitesse de téléchargement: %s Kio/s"
+
+#: ../src/popover_downloads.py:110
+#, python-format
+msgid "Download speed: %s MiB/s"
+msgstr "Vitesse de téléchargement: %s Mio/s"
+
+#: ../src/popover_downloads.py:128 ../src/popover_downloads.py:134
+#, python-format
+msgid "%s second"
+msgstr "%s seconde"
+
+#: ../src/popover_downloads.py:130 ../src/popover_downloads.py:136
+#, python-format
+msgid "%s seconds"
+msgstr "%s secondes"
+
+#: ../src/popover_downloads.py:142 ../src/popover_downloads.py:150
+#, python-format
+msgid "%s minute"
+msgstr "%s minute"
+
+#: ../src/popover_downloads.py:145 ../src/popover_downloads.py:152
+#, python-format
+msgid "%s minutes"
+msgstr "%s minutes"
+
+#: ../src/popover_downloads.py:158
+#, python-format
+msgid "%s hours"
+msgstr "%s heures"
+
+#: ../src/popover_downloads.py:160
+#, python-format
+msgid "%s hour"
+msgstr "%s heure"
+
+#: ../src/popover_downloads.py:170
+msgid "remaining"
+msgstr "restant"
+
 #: ../src/popover_javascript.py:56
 msgid "Continue"
 msgstr "Continuer"
@@ -200,7 +249,7 @@ msgstr "Quitter"
 msgid "Do you want to modify this password?"
 msgstr "Voulez vous modifier ce mot de passe?"
 
-#: ../src/popover_uri.py:387 ../src/toolbar_end.py:207
+#: ../src/popover_uri.py:387 ../src/toolbar_end.py:208
 #: ../data/PopoverJavaScript.ui.h:2
 msgid "Cancel"
 msgstr "Annuler"
@@ -293,19 +342,19 @@ msgstr "Connexion…"
 msgid "Downloading from:"
 msgstr "Téléchargement depuis:"
 
-#: ../src/toolbar_end.py:203 ../data/ActionsMenu.ui.h:5
+#: ../src/toolbar_end.py:204 ../data/ActionsMenu.ui.h:5
 msgid "Save page"
 msgstr "Enregistrer la page"
 
-#: ../src/toolbar_end.py:206 ../data/PopoverPassword.ui.h:2
+#: ../src/toolbar_end.py:207 ../data/PopoverPassword.ui.h:2
 msgid "Save"
 msgstr "Enregistrer"
 
-#: ../src/toolbar_title.py:128
+#: ../src/toolbar_title.py:134
 msgid "This page contains insecure content"
 msgstr "Cette page contient du contenu non sécurisé"
 
-#: ../src/toolbar_title.py:166
+#: ../src/toolbar_title.py:174
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
@@ -313,20 +362,24 @@ msgstr ""
 "Attention : cette page n'est pas sécurisée.\\nSi vous entrez votre mot de "
 "passe,\\n il sera visible aux cybercriminels !"
 
-#: ../src/toolbar_title.py:266 ../src/toolbar_title.py:287
-#: ../src/toolbar_title.py:310 ../src/toolbar_title.py:584
+#: ../src/toolbar_title.py:287 ../src/toolbar_title.py:308
+#: ../src/toolbar_title.py:331 ../src/toolbar_title.py:606
 msgid "Search or enter address"
 msgstr "Rechercher ou entrer une adresse"
 
-#: ../src/view_web.py:425 ../data/SettingsDialog.ui.h:17
+#: ../src/toolbar_title.py:336
+msgid "Copy address"
+msgstr "Copier l'adresse"
+
+#: ../src/view_web.py:391 ../data/SettingsDialog.ui.h:17
 msgid "Popular pages"
 msgstr "Pages populaires"
 
-#: ../src/view_web.py:629
+#: ../src/view_web.py:597
 msgid "Failed to load this web page"
 msgstr "Erreur lors du chargement de cette page"
 
-#: ../src/view_web.py:630
+#: ../src/view_web.py:598
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -334,60 +387,60 @@ msgstr ""
 "Elle est peut être temporairement inaccessible ou déplacée à une nouvelle "
 "adresse.<br/>Vérifiez que votre connexion fonctionne correctement."
 
-#: ../src/view_web.py:636
+#: ../src/view_web.py:604
 msgid "Network not available"
 msgstr "Réseau non disponible"
 
-#: ../src/view_web.py:637
+#: ../src/view_web.py:605
 msgid "Check your network connection"
 msgstr "Vérifiez votre connexion réseau"
 
-#: ../src/view_web.py:644
+#: ../src/view_web.py:612
 #, python-format
 msgid "%s is not available"
 msgstr "%s n'est pas disponible"
 
-#: ../src/view_web.py:647
+#: ../src/view_web.py:615
 msgid "Retry"
 msgstr "Réessayer"
 
-#: ../src/view_web.py:677
+#: ../src/view_web.py:645
 msgid "The certificate does not match this website"
 msgstr "Ce certificat ne correspond pas à ce site web"
 
-#: ../src/view_web.py:679
+#: ../src/view_web.py:647
 msgid "The certificate has expired"
 msgstr "Le certificat a expiré"
 
-#: ../src/view_web.py:681
+#: ../src/view_web.py:649
 msgid "The signing certificate authority is not known"
 msgstr "L’autorité de certification n'est pas connue"
 
-#: ../src/view_web.py:683
+#: ../src/view_web.py:651
 msgid "The certificate contains errors"
 msgstr "Le certificat contient des erreurs"
 
-#: ../src/view_web.py:685
+#: ../src/view_web.py:653
 msgid "The certificate has been revoked"
 msgstr "Le certificat a été révoqué"
 
-#: ../src/view_web.py:687
+#: ../src/view_web.py:655
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Le certificat utilise une signature trop faible"
 
-#: ../src/view_web.py:690
+#: ../src/view_web.py:658
 msgid "The certificate activation time is still in the future"
 msgstr "La date d'activation du certificat est dans le futur"
 
-#: ../src/view_web.py:692
+#: ../src/view_web.py:660
 msgid "The identity of this website has not been verified"
 msgstr "L'identité du site web n'a pas été vérifiée"
 
-#: ../src/view_web.py:693 ../src/view_web.py:699
+#: ../src/view_web.py:661 ../src/view_web.py:667
 msgid "Connection is not secure"
 msgstr "La connexion n'est pas sécurisée"
 
-#: ../src/view_web.py:701
+#: ../src/view_web.py:669
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -397,7 +450,7 @@ msgstr ""
 "Ceci ne ressemble pas au vrai %s.<br/>\n"
 "Des pirates informatiques essaient peut-être de voler ou changer des informations allant ou provenant de ce site (par exemple : des messages privés, des informations de carte de crédit, ou des mots de passe)."
 
-#: ../src/view_web.py:707
+#: ../src/view_web.py:675
 msgid "Accept Risk and Proceed"
 msgstr "Accepter le risque et continuer"
 
@@ -623,7 +676,11 @@ msgstr ""
 msgid "Import bookmarks from:"
 msgstr "Importer des marques pages depuis:"
 
-#: ../data/ImportBookmarks.ui.h:2
+#: ../data/ImportBookmarks.ui.h:2 ../data/PopoverUri.ui.h:2
+msgid "Import bookmarks"
+msgstr "Importer des marques pages"
+
+#: ../data/ImportBookmarks.ui.h:3
 msgid "Import"
 msgstr "Importer"
 
@@ -654,10 +711,6 @@ msgstr "Voulez vous enregistrer ce mot de passe?"
 #: ../data/PopoverUri.ui.h:1
 msgid "Sync bookmarks"
 msgstr "Synchroniser les marques pages"
-
-#: ../data/PopoverUri.ui.h:2
-msgid "Import bookmarks"
-msgstr "Importer des marques pages"
 
 #: ../data/PopoverUri.ui.h:3
 msgid "Bookmarks"
