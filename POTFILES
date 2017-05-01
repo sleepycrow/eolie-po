@@ -4,6 +4,7 @@
 	../src/application.py \
 	../src/art.py \
 	../src/container.py \
+	../src/context.py \
 	../src/database_adblock.py \
 	../src/database_bookmarks.py \
 	../src/database_history.py \
@@ -42,6 +43,7 @@
 	../data/ImportBookmarks.ui \
 	../data/PopoverCookies.ui \
 	../data/PopoverDownloads.ui \
+	../data/PopoverImages.ui \
 	../data/PopoverJavaScript.ui \
 	../data/PopoverPassword.ui \
 	../data/PopoverUri.ui \
