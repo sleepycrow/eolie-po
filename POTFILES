@@ -32,6 +32,8 @@
 	../src/utils.py \
 	../src/view.py \
 	../src/view_web.py \
+	../src/view_web_errors.py \
+	../src/view_web_navigation.py \
 	../src/widget_edit_bookmark.py \
 	../src/widget_find.py \
 	../src/window.py \
