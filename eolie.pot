@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-27 17:26+0200\n"
+"POT-Creation-Date: 2017-05-19 14:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,8 +135,28 @@ msgstr ""
 msgid "New private page"
 msgstr ""
 
-#: ../src/application.py:440
+#: ../src/application.py:562
 msgid "Eolie: You need to install yelp."
+msgstr ""
+
+#: ../src/context.py:73 ../data/SettingsDialog.ui.h:17
+msgid "Popular pages"
+msgstr ""
+
+#: ../src/context.py:107
+msgid "Name"
+msgstr ""
+
+#: ../src/context.py:108
+msgid "Size"
+msgstr ""
+
+#: ../src/context.py:110
+msgid "Last modification"
+msgstr ""
+
+#: ../src/database_adblock.py:76
+msgid "For stronger ad blocking, install git command"
 msgstr ""
 
 #: ../src/dialog_clear_data.py:179
@@ -187,53 +207,57 @@ msgstr ""
 msgid "Closed pages"
 msgstr ""
 
-#: ../src/popover_downloads.py:104
+#: ../src/popover_downloads.py:45
+msgid "Download this video:"
+msgstr ""
+
+#: ../src/popover_downloads.py:181
 msgid "Download speed:"
 msgstr ""
 
-#: ../src/popover_downloads.py:106
+#: ../src/popover_downloads.py:183
 msgid "bytes/s"
 msgstr ""
 
-#: ../src/popover_downloads.py:109
+#: ../src/popover_downloads.py:186
 msgid "KiB/s"
 msgstr ""
 
-#: ../src/popover_downloads.py:112
+#: ../src/popover_downloads.py:189
 msgid "MiB/s"
 msgstr ""
 
-#: ../src/popover_downloads.py:134 ../src/popover_downloads.py:140
+#: ../src/popover_downloads.py:211 ../src/popover_downloads.py:217
 #, python-format
 msgid "%s second"
 msgstr ""
 
-#: ../src/popover_downloads.py:136 ../src/popover_downloads.py:142
+#: ../src/popover_downloads.py:213 ../src/popover_downloads.py:219
 #, python-format
 msgid "%s seconds"
 msgstr ""
 
-#: ../src/popover_downloads.py:148 ../src/popover_downloads.py:156
+#: ../src/popover_downloads.py:225 ../src/popover_downloads.py:233
 #, python-format
 msgid "%s minute"
 msgstr ""
 
-#: ../src/popover_downloads.py:151 ../src/popover_downloads.py:158
+#: ../src/popover_downloads.py:228 ../src/popover_downloads.py:235
 #, python-format
 msgid "%s minutes"
 msgstr ""
 
-#: ../src/popover_downloads.py:164
+#: ../src/popover_downloads.py:241
 #, python-format
 msgid "%s hours"
 msgstr ""
 
-#: ../src/popover_downloads.py:166
+#: ../src/popover_downloads.py:243
 #, python-format
 msgid "%s hour"
 msgstr ""
 
-#: ../src/popover_downloads.py:167
+#: ../src/popover_downloads.py:244
 msgid "Remaining time:"
 msgstr ""
 
@@ -249,44 +273,44 @@ msgstr ""
 msgid "Do you want to modify this password?"
 msgstr ""
 
-#: ../src/popover_uri.py:387 ../src/toolbar_end.py:208
+#: ../src/popover_uri.py:391 ../src/toolbar_end.py:276 ../src/view_web.py:326
 #: ../data/PopoverJavaScript.ui.h:2
 msgid "Cancel"
 msgstr ""
 
-#: ../src/popover_uri.py:661
+#: ../src/popover_uri.py:674
 msgid "Populars"
 msgstr ""
 
-#: ../src/popover_uri.py:663
+#: ../src/popover_uri.py:676
 msgid "Recents"
 msgstr ""
 
-#: ../src/popover_uri.py:665
+#: ../src/popover_uri.py:678
 msgid "Unclassified"
 msgstr ""
 
-#: ../src/popover_uri.py:688
+#: ../src/popover_uri.py:701
 msgid "From the past hour"
 msgstr ""
 
-#: ../src/popover_uri.py:689
+#: ../src/popover_uri.py:702
 msgid "From the past day"
 msgstr ""
 
-#: ../src/popover_uri.py:690
+#: ../src/popover_uri.py:703
 msgid "From the past week"
 msgstr ""
 
-#: ../src/popover_uri.py:692
+#: ../src/popover_uri.py:705
 msgid "From the past four weeks"
 msgstr ""
 
-#: ../src/popover_uri.py:693
+#: ../src/popover_uri.py:706
 msgid "From selected day"
 msgstr ""
 
-#: ../src/popover_uri.py:694
+#: ../src/popover_uri.py:707
 msgid "From the beginning"
 msgstr ""
 
@@ -321,116 +345,136 @@ msgid ""
 " %s"
 msgstr ""
 
-#: ../src/settings.py:434
+#: ../src/settings.py:443
 msgid "Sync started"
 msgstr ""
 
-#: ../src/settings.py:441
+#: ../src/settings.py:450
 msgid "You've received an email to validate synchronization"
 msgstr ""
 
-#: ../src/settings.py:474
+#: ../src/settings.py:483
 msgid "Connecting…"
 msgstr ""
 
-#: ../src/toolbar_end.py:105
+#: ../src/toolbar_end.py:124
 msgid "Downloading:"
 msgstr ""
 
-#: ../src/toolbar_end.py:204 ../data/ActionsMenu.ui.h:5
+#: ../src/toolbar_end.py:272 ../data/ActionsMenu.ui.h:10
 msgid "Save page"
 msgstr ""
 
-#: ../src/toolbar_end.py:207 ../data/PopoverPassword.ui.h:2
+#: ../src/toolbar_end.py:275 ../data/PopoverPassword.ui.h:2
 msgid "Save"
 msgstr ""
 
-#: ../src/toolbar_title.py:157
+#: ../src/toolbar_title.py:164
 msgid "This page contains insecure content"
 msgstr ""
 
-#: ../src/toolbar_title.py:183
+#: ../src/toolbar_title.py:190
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
 msgstr ""
 
-#: ../src/toolbar_title.py:307
+#: ../src/toolbar_title.py:276
+msgid "Blocked popups"
+msgstr ""
+
+#: ../src/toolbar_title.py:333
 msgid "Copy address"
 msgstr ""
 
-#: ../src/toolbar_title.py:547
+#: ../src/toolbar_title.py:589
 msgid "Search or enter address"
 msgstr ""
 
-#: ../src/view_web.py:397 ../data/SettingsDialog.ui.h:17
-msgid "Popular pages"
+#: ../src/view_web.py:257 ../data/PopoverImages.ui.h:1
+msgid "Save images"
 msgstr ""
 
-#: ../src/view_web.py:604
+#: ../src/view_web.py:322
+msgid "Select files to upload"
+msgstr ""
+
+#: ../src/view_web.py:325
+msgid "Open"
+msgstr ""
+
+#: ../src/view_web_errors.py:71
+msgid "This page is dangerous"
+msgstr ""
+
+#: ../src/view_web_errors.py:72
+msgid "Eolie will not display this page"
+msgstr ""
+
+#: ../src/view_web_errors.py:79
+#, python-format
+msgid "%s is a pishing page"
+msgstr ""
+
+#: ../src/view_web_errors.py:123
 msgid "Failed to load this web page"
 msgstr ""
 
-#: ../src/view_web.py:605
+#: ../src/view_web_errors.py:124
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
 
-#: ../src/view_web.py:611
+#: ../src/view_web_errors.py:130
 msgid "Network not available"
 msgstr ""
 
-#: ../src/view_web.py:612
+#: ../src/view_web_errors.py:131
 msgid "Check your network connection"
 msgstr ""
 
-#: ../src/view_web.py:619
-#, python-format
-msgid "%s is not available"
-msgstr ""
-
-#: ../src/view_web.py:622
+#: ../src/view_web_errors.py:141
 msgid "Retry"
 msgstr ""
 
-#: ../src/view_web.py:652
+#: ../src/view_web_errors.py:162
 msgid "The certificate does not match this website"
 msgstr ""
 
-#: ../src/view_web.py:654
+#: ../src/view_web_errors.py:164
 msgid "The certificate has expired"
 msgstr ""
 
-#: ../src/view_web.py:656
+#: ../src/view_web_errors.py:166
 msgid "The signing certificate authority is not known"
 msgstr ""
 
-#: ../src/view_web.py:658
+#: ../src/view_web_errors.py:168
 msgid "The certificate contains errors"
 msgstr ""
 
-#: ../src/view_web.py:660
+#: ../src/view_web_errors.py:170
 msgid "The certificate has been revoked"
 msgstr ""
 
-#: ../src/view_web.py:662
+#: ../src/view_web_errors.py:172
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr ""
 
-#: ../src/view_web.py:665
+#: ../src/view_web_errors.py:175
 msgid "The certificate activation time is still in the future"
 msgstr ""
 
-#: ../src/view_web.py:667
+#: ../src/view_web_errors.py:177
 msgid "The identity of this website has not been verified"
 msgstr ""
 
-#: ../src/view_web.py:668 ../src/view_web.py:674
+#: ../src/view_web_errors.py:178 ../src/view_web_errors.py:183
 msgid "Connection is not secure"
 msgstr ""
 
-#: ../src/view_web.py:676
+#: ../src/view_web_errors.py:185
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -438,23 +482,23 @@ msgid ""
 "messages, credit card information, or passwords)."
 msgstr ""
 
-#: ../src/view_web.py:682
+#: ../src/view_web_errors.py:191
 msgid "Accept Risk and Proceed"
 msgstr ""
 
-#: ../src/widget_edit_bookmark.py:312 ../src/widget_edit_bookmark.py:319
+#: ../src/widget_edit_bookmark.py:319 ../src/widget_edit_bookmark.py:326
 msgid "Apply"
 msgstr ""
 
-#: ../src/widget_edit_bookmark.py:314 ../data/BookmarkEdit.ui.h:6
+#: ../src/widget_edit_bookmark.py:321 ../data/BookmarkEdit.ui.h:6
 msgid "Rename"
 msgstr ""
 
-#: ../src/widget_edit_bookmark.py:332 ../src/widget_edit_bookmark.py:339
+#: ../src/widget_edit_bookmark.py:341 ../src/widget_edit_bookmark.py:348
 msgid "Finished"
 msgstr ""
 
-#: ../src/widget_edit_bookmark.py:334 ../data/BookmarkEdit.ui.h:7
+#: ../src/widget_edit_bookmark.py:343 ../data/BookmarkEdit.ui.h:7
 msgid "Remove"
 msgstr ""
 
@@ -497,7 +541,7 @@ msgid "PayPal"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:1
-msgctxt "Exception"
+msgctxt "Adblock exception"
 msgid "None"
 msgstr ""
 
@@ -513,39 +557,61 @@ msgstr ""
 msgid "Exceptions"
 msgstr ""
 
+#: ../data/ActionsMenu.ui.h:5
+msgid "Do not block ads"
+msgstr ""
+
 #: ../data/ActionsMenu.ui.h:6
-msgid "Print page"
+msgid "Do not block images"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:7
-msgid "Show page source"
+msgctxt "Image exception"
+msgid "None"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:8
-msgid "Zoom out"
+msgid "Do not block popups"
 msgstr ""
 
-#: ../data/ActionsMenu.ui.h:9 ../data/SettingsDialog.ui.h:28
-msgid "Default zoom level"
-msgstr ""
-
-#: ../data/ActionsMenu.ui.h:10
-msgid "Zoom in"
+#: ../data/ActionsMenu.ui.h:9
+msgctxt "Popup exception"
+msgid "None"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:11
-msgid "Block ads"
+msgid "Print page"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:12
-msgid "Block popups"
+msgid "Show page source"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:13
+msgid "Zoom out"
+msgstr ""
+
+#: ../data/ActionsMenu.ui.h:14 ../data/SettingsDialog.ui.h:28
+msgid "Default zoom level"
+msgstr ""
+
+#: ../data/ActionsMenu.ui.h:15
+msgid "Zoom in"
+msgstr ""
+
+#: ../data/ActionsMenu.ui.h:16
+msgid "Block ads"
+msgstr ""
+
+#: ../data/ActionsMenu.ui.h:17
+msgid "Block popups"
+msgstr ""
+
+#: ../data/ActionsMenu.ui.h:18
 msgid "Block images"
 msgstr ""
 
-#: ../data/ActionsMenu.ui.h:14
+#: ../data/ActionsMenu.ui.h:19
 msgid "Filtering"
 msgstr ""
 
@@ -681,6 +747,10 @@ msgstr ""
 
 #: ../data/PopoverDownloads.ui.h:3
 msgid "No active download"
+msgstr ""
+
+#: ../data/PopoverImages.ui.h:2
+msgid "Show links"
 msgstr ""
 
 #: ../data/PopoverJavaScript.ui.h:1
@@ -878,70 +948,95 @@ msgstr ""
 
 #: ../data/Shortcuts.ui.h:4
 msgctxt "shortcut window"
-msgid "New private page"
+msgid "Last closed page"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:5
 msgctxt "shortcut window"
-msgid "New window"
+msgid "New private page"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
-msgid "Close page"
+msgid "New window"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
-msgid "Previous page"
+msgid "Close page"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
-msgid "Next page"
+msgid "Previous page"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
-msgid "Filter pages"
+msgid "Next page"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
-msgid "Settings"
+msgid "Filter pages"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
-msgid "Web page"
+msgid "Settings"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:12
 msgctxt "shortcut window"
-msgid "Save page"
+msgid "Web page"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:13
 msgctxt "shortcut window"
-msgid "Print page"
+msgid "Save page"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:14
 msgctxt "shortcut window"
-msgid "Search for"
+msgid "Print page"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:15
 msgctxt "shortcut window"
-msgid "Disable adblock for current site"
+msgid "Search for"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"
-msgid "Navigation"
+msgid "Disable adblock for current site"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:17
 msgctxt "shortcut window"
+msgid "Navigation"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:18
+msgctxt "shortcut window"
 msgid "Reload page"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:19
+msgctxt "shortcut window"
+msgid "Panel mode"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:20
+msgctxt "shortcut window"
+msgid "Show preview"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:21
+msgctxt "shortcut window"
+msgid "Do not show preview"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:22
+msgctxt "shortcut window"
+msgid "Minimal"
 msgstr ""
