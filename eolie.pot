@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-19 14:40+0200\n"
+"POT-Creation-Date: 2017-05-19 15:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -733,6 +733,18 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
+#: ../data/PanelMenu.ui.h:1
+msgid "Show preview"
+msgstr ""
+
+#: ../data/PanelMenu.ui.h:2
+msgid "Do not show preview"
+msgstr ""
+
+#: ../data/PanelMenu.ui.h:3
+msgid "Minimal panel"
+msgstr ""
+
 #: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
 msgstr ""
@@ -1039,4 +1051,8 @@ msgstr ""
 #: ../data/Shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Minimal"
+msgstr ""
+
+#: ../data/TagWidget.ui.h:1
+msgid "page0"
 msgstr ""

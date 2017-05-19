@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-19 14:40+0200\n"
+"POT-Creation-Date: 2017-05-19 15:54+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-05-19 08:42-0400\n"
+"PO-Revision-Date: 2017-05-19 09:57-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "Language: fr\n"
@@ -748,6 +748,18 @@ msgstr "Importer des marques pages"
 msgid "Import"
 msgstr "Importer"
 
+#: ../data/PanelMenu.ui.h:1
+msgid "Show preview"
+msgstr "Afficher les aperçus"
+
+#: ../data/PanelMenu.ui.h:2
+msgid "Do not show preview"
+msgstr "Ne pas afficher les aperçus"
+
+#: ../data/PanelMenu.ui.h:3
+msgid "Minimal panel"
+msgstr "Panneau minimal"
+
 #: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
 msgstr "Supprimer tous les cookies"
@@ -1051,9 +1063,13 @@ msgstr "Afficher les aperçus"
 #: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Do not show preview"
-msgstr "De pas afficher les aperçus"
+msgstr "Ne pas afficher les aperçus"
 
 #: ../data/Shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Minimal"
 msgstr "Minimal"
+
+#: ../data/TagWidget.ui.h:1
+msgid "page0"
+msgstr ""

@@ -49,6 +49,7 @@ src/window.py
 [type: gettext/glade]data/BookmarkEdit.ui
 [type: gettext/glade]data/ClearData.ui
 [type: gettext/glade]data/ImportBookmarks.ui
+[type: gettext/glade]data/PanelMenu.ui
 [type: gettext/glade]data/PopoverCookies.ui
 [type: gettext/glade]data/PopoverDownloads.ui
 [type: gettext/glade]data/PopoverImages.ui
@@ -59,6 +60,7 @@ src/window.py
 [type: gettext/glade]data/SettingsDialog.ui
 [type: gettext/glade]data/Shortcuts.ui
 [type: gettext/glade]data/SidebarChild.ui
+[type: gettext/glade]data/TagWidget.ui
 [type: gettext/glade]data/ToolbarActions.ui
 [type: gettext/glade]data/ToolbarEnd.ui
 [type: gettext/glade]data/ToolbarTitle.ui
