@@ -43,6 +43,7 @@
 	../data/BookmarkEdit.ui \
 	../data/ClearData.ui \
 	../data/ImportBookmarks.ui \
+	../data/PanelMenu.ui \
 	../data/PopoverCookies.ui \
 	../data/PopoverDownloads.ui \
 	../data/PopoverImages.ui \
@@ -53,6 +54,7 @@
 	../data/SettingsDialog.ui \
 	../data/Shortcuts.ui \
 	../data/SidebarChild.ui \
+	../data/TagWidget.ui \
 	../data/ToolbarActions.ui \
 	../data/ToolbarEnd.ui \
 	../data/ToolbarTitle.ui

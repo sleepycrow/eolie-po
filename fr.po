@@ -11,7 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-05-19 09:57-0400\n"
+"PO-Revision-Date: 2017-05-29 08:22-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "Language: fr\n"
@@ -349,7 +349,7 @@ msgstr "La synchronisation n'est pas disponible\n"
 
 #: ../src/settings.py:443
 msgid "Sync started"
-msgstr "La synchronisation a démarrée"
+msgstr "La synchronisation a démarré"
 
 #: ../src/settings.py:450
 msgid "You've received an email to validate synchronization"
