@@ -43,7 +43,6 @@
 	../data/BookmarkEdit.ui \
 	../data/ClearData.ui \
 	../data/ImportBookmarks.ui \
-	../data/PanelMenu.ui \
 	../data/PopoverCookies.ui \
 	../data/PopoverDownloads.ui \
 	../data/PopoverImages.ui \

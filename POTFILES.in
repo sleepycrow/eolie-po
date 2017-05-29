@@ -49,7 +49,6 @@ src/window.py
 [type: gettext/glade]data/BookmarkEdit.ui
 [type: gettext/glade]data/ClearData.ui
 [type: gettext/glade]data/ImportBookmarks.ui
-[type: gettext/glade]data/PanelMenu.ui
 [type: gettext/glade]data/PopoverCookies.ui
 [type: gettext/glade]data/PopoverDownloads.ui
 [type: gettext/glade]data/PopoverImages.ui
