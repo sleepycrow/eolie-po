@@ -2,7 +2,7 @@
 <config xmlns="http://zanata.org/namespace/config/">
   <url>https://translate.zanata.org/</url>
   <project>eolie</project>
-  <project-version>0.3</project-version>
+  <project-version>master</project-version>
   <project-type>gettext</project-type>
 
 </config>

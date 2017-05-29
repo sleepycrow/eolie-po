@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-19 15:54+0200\n"
+"POT-Creation-Date: 2017-05-30 12:55+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-05-29 08:22-0400\n"
+"PO-Revision-Date: 2017-05-30 06:58-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "Language: fr\n"
@@ -132,11 +132,16 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Navigateur web"
 
-#: ../data/org.gnome.Eolie.desktop.in.h:3 ../src/menu_pages.py:35
+#. Setup menu
+#: ../data/org.gnome.Eolie.desktop.in.h:3 ../src/menu_pages.py:57
 msgid "New private page"
 msgstr "Nouvelle page privée"
 
-#: ../src/application.py:562
+#: ../data/org.gnome.Eolie.appdata.xml.in.h:3
+msgid "Eolie is a new GNOME web browser."
+msgstr "Eolie est un nouveau navigateur web pour GNOME."
+
+#: ../src/application.py:566
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vous devez installer yelp."
 
@@ -204,7 +209,23 @@ msgstr "Autres"
 msgid "Import HTML bookmarks"
 msgstr "Importer des marques pages HTML"
 
-#: ../src/menu_pages.py:39
+#: ../src/menu_pages.py:48
+msgid "Show preview"
+msgstr "Afficher les aperçus"
+
+#: ../src/menu_pages.py:50
+msgid "Do not show preview"
+msgstr "Ne pas afficher les aperçus"
+
+#: ../src/menu_pages.py:52
+msgid "Minimal panel"
+msgstr "Panneau minimal"
+
+#: ../src/menu_pages.py:60
+msgid "View"
+msgstr "Affichage"
+
+#: ../src/menu_pages.py:62
 msgid "Closed pages"
 msgstr "Pages fermées"
 
@@ -347,15 +368,15 @@ msgstr "La synchronisation n'est pas disponible\n"
 "sur cet ordinateur:\n"
 "%s"
 
-#: ../src/settings.py:443
+#: ../src/settings.py:422
 msgid "Sync started"
 msgstr "La synchronisation a démarré"
 
-#: ../src/settings.py:450
+#: ../src/settings.py:429
 msgid "You've received an email to validate synchronization"
 msgstr "Vous avez reçu un email pour valider la synchronisation"
 
-#: ../src/settings.py:483
+#: ../src/settings.py:497
 msgid "Connecting…"
 msgstr "Connexion…"
 
@@ -371,11 +392,11 @@ msgstr "Enregistrer la page"
 msgid "Save"
 msgstr "Enregistrer"
 
-#: ../src/toolbar_title.py:164
+#: ../src/toolbar_title.py:163
 msgid "This page contains insecure content"
 msgstr "Cette page contient du contenu non sécurisé"
 
-#: ../src/toolbar_title.py:190
+#: ../src/toolbar_title.py:189
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
@@ -748,18 +769,6 @@ msgstr "Importer des marques pages"
 msgid "Import"
 msgstr "Importer"
 
-#: ../data/PanelMenu.ui.h:1
-msgid "Show preview"
-msgstr "Afficher les aperçus"
-
-#: ../data/PanelMenu.ui.h:2
-msgid "Do not show preview"
-msgstr "Ne pas afficher les aperçus"
-
-#: ../data/PanelMenu.ui.h:3
-msgid "Minimal panel"
-msgstr "Panneau minimal"
-
 #: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
 msgstr "Supprimer tous les cookies"
@@ -1069,7 +1078,3 @@ msgstr "Ne pas afficher les aperçus"
 msgctxt "shortcut window"
 msgid "Minimal"
 msgstr "Minimal"
-
-#: ../data/TagWidget.ui.h:1
-msgid "page0"
-msgstr ""
