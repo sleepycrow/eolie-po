@@ -48,7 +48,6 @@
 	../data/PopoverImages.ui \
 	../data/PopoverJavaScript.ui \
 	../data/PopoverPassword.ui \
-	../data/PopoverSyncAuth.ui \
 	../data/PopoverUri.ui \
 	../data/RowDownload.ui \
 	../data/SettingsDialog.ui \

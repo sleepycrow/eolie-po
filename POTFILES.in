@@ -22,9 +22,10 @@ src/menu_history.py
 src/menu_pages.py
 src/mozilla_sync.py
 src/popover_cookies.py
+src/popover_credentials.py
 src/popover_downloads.py
 src/popover_javascript.py
-src/popover_password.py
+src/popover_passwords.py
 src/popover_uri.py
 src/search.py
 src/settings.py
@@ -50,10 +51,11 @@ src/window.py
 [type: gettext/glade]data/ClearData.ui
 [type: gettext/glade]data/ImportBookmarks.ui
 [type: gettext/glade]data/PopoverCookies.ui
+[type: gettext/glade]data/PopoverCredentials.ui
 [type: gettext/glade]data/PopoverDownloads.ui
 [type: gettext/glade]data/PopoverImages.ui
 [type: gettext/glade]data/PopoverJavaScript.ui
-[type: gettext/glade]data/PopoverPassword.ui
+[type: gettext/glade]data/PopoverPasswords.ui
 [type: gettext/glade]data/PopoverUri.ui
 [type: gettext/glade]data/RowDownload.ui
 [type: gettext/glade]data/SettingsDialog.ui

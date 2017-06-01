@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 14:31+0200\n"
+"POT-Creation-Date: 2017-06-01 15:44+0200\n"
 "PO-Revision-Date: 2017-05-31 06:03-0400\n"
 "Last-Translator: Nathan Follens <follens@dr.com>\n"
 "Language-Team: Dutch\n"
@@ -137,7 +137,7 @@ msgstr "Nieuw privétabblad"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie is een webbrowser voor Gnome."
 
-#: ../src/application.py:573
+#: ../src/application.py:576
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: je moet yelp installeren."
 
@@ -225,6 +225,10 @@ msgstr "Weergeven"
 msgid "Closed pages"
 msgstr "Gesloten tabbladen"
 
+#: ../src/popover_credentials.py:111
+msgid "Do you want to modify this password?"
+msgstr "Wil je dit wachtwoord wijzigen?"
+
 #: ../src/popover_downloads.py:45
 msgid "Download this video:"
 msgstr "Deze video downloaden:"
@@ -287,48 +291,44 @@ msgstr "Verdergaan"
 msgid "Leave"
 msgstr "Verlaten"
 
-#: ../src/popover_password.py:117
-msgid "Do you want to modify this password?"
-msgstr "Wil je dit wachtwoord wijzigen?"
-
-#: ../src/popover_uri.py:391 ../src/toolbar_end.py:276 ../src/view_web.py:326
+#: ../src/popover_uri.py:392 ../src/toolbar_end.py:295 ../src/view_web.py:326
 #: ../data/PopoverJavaScript.ui.h:2
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../src/popover_uri.py:674
+#: ../src/popover_uri.py:675
 msgid "Populars"
 msgstr "Populair"
 
-#: ../src/popover_uri.py:676
+#: ../src/popover_uri.py:677
 msgid "Recents"
 msgstr "Recent"
 
-#: ../src/popover_uri.py:678
+#: ../src/popover_uri.py:679
 msgid "Unclassified"
 msgstr "Ongeclassificeerd"
 
-#: ../src/popover_uri.py:701
+#: ../src/popover_uri.py:702
 msgid "From the past hour"
 msgstr "Van het voorbije uur"
 
-#: ../src/popover_uri.py:702
+#: ../src/popover_uri.py:703
 msgid "From the past day"
 msgstr "Van de voorbije dag"
 
-#: ../src/popover_uri.py:703
+#: ../src/popover_uri.py:704
 msgid "From the past week"
 msgstr "Van de voorbije week"
 
-#: ../src/popover_uri.py:705
+#: ../src/popover_uri.py:706
 msgid "From the past four weeks"
 msgstr "Van de voorbije vier weken"
 
-#: ../src/popover_uri.py:706
+#: ../src/popover_uri.py:707
 msgid "From selected day"
 msgstr "Vanaf een bepaalde dag"
 
-#: ../src/popover_uri.py:707
+#: ../src/popover_uri.py:708
 msgid "From the beginning"
 msgstr "Vanaf het begin"
 
@@ -354,50 +354,58 @@ msgstr ""
 "Door seahorse te installeren kan\n"
 "je je wachtwoorden beheren"
 
-#: ../src/settings.py:397
+#: ../src/settings.py:393
 msgid "Connecting…"
 msgstr "Verbinding maken…"
 
-#: ../src/settings.py:420
+#: ../src/settings.py:416
 msgid "Synchronization is working"
 msgstr "Synchronisatie werkt"
 
-#: ../src/settings.py:426
+#: ../src/settings.py:422
 msgid "Cancel synchronization"
 msgstr ""
 
-#: ../src/settings.py:429
+#: ../src/settings.py:425
 msgid "Synchronization is not working"
 msgstr ""
 
-#: ../src/settings.py:435 ../data/SettingsDialog.ui.h:49
+#: ../src/settings.py:431 ../data/SettingsDialog.ui.h:48
 msgid "Allow synchronization"
 msgstr "Synchronisatie toestaan"
 
-#: ../src/settings.py:442
+#: ../src/settings.py:438
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
 " %s"
 msgstr "Synchronisatie is niet beschikbaar op je computer: %s"
 
-#: ../src/settings.py:455
+#: ../src/settings.py:451
 msgid "Sync started"
 msgstr "Synchronisatie gestart"
 
-#: ../src/settings.py:470
+#: ../src/settings.py:466
 msgid "You've received an email to validate synchronization"
 msgstr "Je hebt een e-mail ontvangen om de synchronisatie te valideren"
 
-#: ../src/toolbar_end.py:124
+#: ../src/toolbar_end.py:123
 msgid "Downloading:"
 msgstr "Downloaden:"
 
-#: ../src/toolbar_end.py:272 ../data/ActionsMenu.ui.h:10
+#: ../src/toolbar_end.py:247 ../data/ToolbarEnd.ui.h:1
+msgid "Leave fullscreen"
+msgstr ""
+
+#: ../src/toolbar_end.py:249
+msgid "Enter fullscreen"
+msgstr ""
+
+#: ../src/toolbar_end.py:291 ../data/ActionsMenu.ui.h:10
 msgid "Save page"
 msgstr "Pagina opslaan"
 
-#: ../src/toolbar_end.py:275 ../data/PopoverPassword.ui.h:2
+#: ../src/toolbar_end.py:294 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Opslaan"
 
@@ -413,15 +421,15 @@ msgstr ""
 "Opgelet: deze pagina is niet beveiligd.\\nAls je je wachtwoord ingeeft,\\n "
 "zal het zichtbaar zijn voor cybercriminelen!"
 
-#: ../src/toolbar_title.py:227
+#: ../src/toolbar_title.py:231
 msgid "Blocked popups"
 msgstr "Geblokkeerde pop-ups"
 
-#: ../src/toolbar_title.py:343
+#: ../src/toolbar_title.py:347
 msgid "Copy address"
 msgstr "Adres kopiëren"
 
-#: ../src/toolbar_title.py:599
+#: ../src/toolbar_title.py:603
 msgid "Search or enter address"
 msgstr "Zoek of voer een adres in"
 
@@ -624,34 +632,30 @@ msgid "Print page"
 msgstr "Pagina afdrukken"
 
 #: ../data/ActionsMenu.ui.h:12
-msgid "Show page source"
-msgstr "Paginabron weergeven"
-
-#: ../data/ActionsMenu.ui.h:13
 msgid "Zoom out"
 msgstr "Uitzoomen"
 
-#: ../data/ActionsMenu.ui.h:14 ../data/SettingsDialog.ui.h:28
+#: ../data/ActionsMenu.ui.h:13 ../data/SettingsDialog.ui.h:28
 msgid "Default zoom level"
 msgstr "Standaardzoomniveau"
 
-#: ../data/ActionsMenu.ui.h:15
+#: ../data/ActionsMenu.ui.h:14
 msgid "Zoom in"
 msgstr "Inzoomen"
 
-#: ../data/ActionsMenu.ui.h:16
+#: ../data/ActionsMenu.ui.h:15
 msgid "Block ads"
 msgstr "Advertenties blokkeren"
 
-#: ../data/ActionsMenu.ui.h:17
+#: ../data/ActionsMenu.ui.h:16
 msgid "Block popups"
 msgstr "Pop-ups blokkeren"
 
-#: ../data/ActionsMenu.ui.h:18
+#: ../data/ActionsMenu.ui.h:17
 msgid "Block images"
 msgstr "Afbeeldingen blokkeren"
 
-#: ../data/ActionsMenu.ui.h:19
+#: ../data/ActionsMenu.ui.h:18
 msgid "Filtering"
 msgstr "Filters"
 
@@ -783,6 +787,10 @@ msgstr "Importeren"
 msgid "Remove all cookies"
 msgstr "Alle cookies verwijderen"
 
+#: ../data/PopoverCredentials.ui.h:1
+msgid "Do you want to save this password?"
+msgstr "Wil je dit wachtwoord opslaan?"
+
 #: ../data/PopoverDownloads.ui.h:1
 msgid "Open download folder"
 msgstr "Downloadmap openen"
@@ -803,9 +811,9 @@ msgstr "Koppelingen weergeven"
 msgid "Ok"
 msgstr "Oké"
 
-#: ../data/PopoverPassword.ui.h:1
-msgid "Do you want to save this password?"
-msgstr "Wil je dit wachtwoord opslaan?"
+#: ../data/PopoverPasswords.ui.h:1
+msgid "Remove all passwords"
+msgstr ""
 
 #: ../data/PopoverUri.ui.h:1
 msgid "Sync bookmarks"
@@ -944,14 +952,10 @@ msgid "Manage passwords"
 msgstr "Wachtwoorden beheren"
 
 #: ../data/SettingsDialog.ui.h:43
-msgid "Clear passwords"
-msgstr "Wachtwoorden wissen"
-
-#: ../data/SettingsDialog.ui.h:44
 msgid "Privacy"
 msgstr "Privacy"
 
-#: ../data/SettingsDialog.ui.h:45
+#: ../data/SettingsDialog.ui.h:44
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
@@ -959,19 +963,19 @@ msgstr ""
 "Je kan je bladwijzers en geschiedenis delen met alle\n"
 "apparaten waarop je Eolie of Firefox gebruikt"
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:46
 msgid "Login:"
 msgstr "E-mailadres:"
 
-#: ../data/SettingsDialog.ui.h:48
+#: ../data/SettingsDialog.ui.h:47
 msgid "Password:"
 msgstr "Wachtwoord:"
 
-#: ../data/SettingsDialog.ui.h:50
+#: ../data/SettingsDialog.ui.h:49
 msgid "Create or manage account"
 msgstr "Account aanmaken of beheren"
 
-#: ../data/SettingsDialog.ui.h:51
+#: ../data/SettingsDialog.ui.h:50
 msgid "Synchronization"
 msgstr "Synchronisatie"
 
@@ -982,110 +986,125 @@ msgstr "Algemeen"
 
 #: ../data/Shortcuts.ui.h:2
 msgctxt "shortcut window"
-msgid "Enter location"
-msgstr "Voer adres in"
-
-#: ../data/Shortcuts.ui.h:3
-msgctxt "shortcut window"
-msgid "New page"
-msgstr "Nieuw tabblad"
-
-#: ../data/Shortcuts.ui.h:4
-msgctxt "shortcut window"
-msgid "Last closed page"
-msgstr "Laatst gesloten tabblad"
-
-#: ../data/Shortcuts.ui.h:5
-msgctxt "shortcut window"
-msgid "New private page"
-msgstr "Nieuw privétabblad"
-
-#: ../data/Shortcuts.ui.h:6
-msgctxt "shortcut window"
 msgid "New window"
 msgstr "Nieuw venster"
 
-#: ../data/Shortcuts.ui.h:7
-msgctxt "shortcut window"
-msgid "Close page"
-msgstr "Tabblad sluiten"
-
-#: ../data/Shortcuts.ui.h:8
-msgctxt "shortcut window"
-msgid "Previous page"
-msgstr "Vorige pagina"
-
-#: ../data/Shortcuts.ui.h:9
-msgctxt "shortcut window"
-msgid "Next page"
-msgstr "Volgende pagina"
-
-#: ../data/Shortcuts.ui.h:10
-msgctxt "shortcut window"
-msgid "Filter pages"
-msgstr "Pagina's filteren"
-
-#: ../data/Shortcuts.ui.h:11
+#: ../data/Shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Settings"
 msgstr "Instellingen"
 
-#: ../data/Shortcuts.ui.h:12
+#: ../data/Shortcuts.ui.h:4
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr ""
 
+#: ../data/Shortcuts.ui.h:6
+msgctxt "shortcut window"
+msgid "Enter location"
+msgstr "Voer adres in"
+
+#: ../data/Shortcuts.ui.h:7
+msgctxt "shortcut window"
+msgid "Pages"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:8
+msgctxt "shortcut window"
+msgid "New page"
+msgstr "Nieuw tabblad"
+
+#: ../data/Shortcuts.ui.h:9
+msgctxt "shortcut window"
+msgid "Last closed page"
+msgstr "Laatst gesloten tabblad"
+
+#: ../data/Shortcuts.ui.h:10
+msgctxt "shortcut window"
+msgid "New private page"
+msgstr "Nieuw privétabblad"
+
+#: ../data/Shortcuts.ui.h:11
+msgctxt "shortcut window"
+msgid "Close page"
+msgstr "Tabblad sluiten"
+
+#: ../data/Shortcuts.ui.h:12
+msgctxt "shortcut window"
+msgid "Previous page"
+msgstr "Vorige pagina"
+
 #: ../data/Shortcuts.ui.h:13
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Volgende pagina"
+
+#: ../data/Shortcuts.ui.h:14
+msgctxt "shortcut window"
+msgid "Filter pages"
+msgstr "Pagina's filteren"
+
+#: ../data/Shortcuts.ui.h:15
+msgctxt "shortcut window"
+msgid "Show source code"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Web page"
 msgstr "Webpagina"
 
-#: ../data/Shortcuts.ui.h:14
+#: ../data/Shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Save page"
 msgstr "Pagina opslaan"
 
-#: ../data/Shortcuts.ui.h:15
+#: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Print page"
 msgstr "Pagina afdrukken"
 
-#: ../data/Shortcuts.ui.h:16
+#: ../data/Shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Search for"
 msgstr "Zoeken naar"
 
-#: ../data/Shortcuts.ui.h:17
+#: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
 msgstr "Advertentieblokkering uitschakelen op deze website"
 
-#: ../data/Shortcuts.ui.h:18
+#: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Navigation"
 msgstr "Navigatie"
 
-#: ../data/Shortcuts.ui.h:19
+#: ../data/Shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Pagina herladen"
 
-#: ../data/Shortcuts.ui.h:20
+#: ../data/Shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Panel mode"
 msgstr "Paneelmodus"
 
-#: ../data/Shortcuts.ui.h:21
+#: ../data/Shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Show preview"
 msgstr "Miniatuur weergeven"
 
-#: ../data/Shortcuts.ui.h:22
+#: ../data/Shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Do not show preview"
 msgstr "Miniatuur niet weergeven"
 
-#: ../data/Shortcuts.ui.h:23
+#: ../data/Shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Minimal"
 msgstr "Minimaal"
