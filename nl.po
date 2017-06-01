@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-01 15:44+0200\n"
+"POT-Creation-Date: 2017-06-01 16:20+0200\n"
 "PO-Revision-Date: 2017-05-31 06:03-0400\n"
 "Last-Translator: Nathan Follens <follens@dr.com>\n"
 "Language-Team: Dutch\n"
@@ -338,9 +338,14 @@ msgid "https://www.google.com"
 msgstr "https://www.google.com"
 
 #. Translators: Yahoo url for your country
-#: ../src/search.py:40
+#: ../src/search.py:42
 msgid "https://www.yahoo.com"
 msgstr "https://www.yahoo.com"
+
+#. Translators: Google url for your country
+#: ../src/search.py:44
+msgid "https://us.search.yahoo.com"
+msgstr ""
 
 #: ../src/settings.py:66 ../src/settings.py:69 ../data/SettingsDialog.ui.h:1
 msgid "Preferences"

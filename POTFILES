@@ -17,9 +17,10 @@
 	../src/menu_pages.py \
 	../src/mozilla_sync.py \
 	../src/popover_cookies.py \
+	../src/popover_credentials.py \
 	../src/popover_downloads.py \
 	../src/popover_javascript.py \
-	../src/popover_password.py \
+	../src/popover_passwords.py \
 	../src/popover_uri.py \
 	../src/search.py \
 	../src/settings.py \
@@ -44,10 +45,11 @@
 	../data/ClearData.ui \
 	../data/ImportBookmarks.ui \
 	../data/PopoverCookies.ui \
+	../data/PopoverCredentials.ui \
 	../data/PopoverDownloads.ui \
 	../data/PopoverImages.ui \
 	../data/PopoverJavaScript.ui \
-	../data/PopoverPassword.ui \
+	../data/PopoverPasswords.ui \
 	../data/PopoverUri.ui \
 	../data/RowDownload.ui \
 	../data/SettingsDialog.ui \
