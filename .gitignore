@@ -1,6 +1,6 @@
 *~
 /po
-/help/Makefile.in
+/Makefile.in
 /help/*/*.page
 /help/*/*.xml
 /help/*/*.mo
