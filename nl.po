@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-01 16:20+0200\n"
-"PO-Revision-Date: 2017-05-31 06:03-0400\n"
+"POT-Creation-Date: 2017-06-02 14:48+0200\n"
+"PO-Revision-Date: 2017-06-03 04:44-0400\n"
 "Last-Translator: Nathan Follens <follens@dr.com>\n"
 "Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
@@ -287,11 +287,8 @@ msgstr "Resterende tijd:"
 msgid "Continue"
 msgstr "Verdergaan"
 
-#: ../src/popover_javascript.py:57
-msgid "Leave"
-msgstr "Verlaten"
-
-#: ../src/popover_uri.py:392 ../src/toolbar_end.py:295 ../src/view_web.py:326
+#: ../src/popover_javascript.py:57 ../src/popover_uri.py:392
+#: ../src/toolbar_end.py:295 ../src/view_web.py:326
 #: ../data/PopoverJavaScript.ui.h:2
 msgid "Cancel"
 msgstr "Annuleren"
@@ -333,19 +330,19 @@ msgid "From the beginning"
 msgstr "Vanaf het begin"
 
 #. Translators: Google url for your country
-#: ../src/search.py:27
+#: ../src/search.py:33
 msgid "https://www.google.com"
 msgstr "https://www.google.com"
 
 #. Translators: Yahoo url for your country
-#: ../src/search.py:42
+#: ../src/search.py:48
 msgid "https://www.yahoo.com"
 msgstr "https://www.yahoo.com"
 
-#. Translators: Google url for your country
-#: ../src/search.py:44
+#. Translators: Yahoo url for your country
+#: ../src/search.py:50
 msgid "https://us.search.yahoo.com"
-msgstr ""
+msgstr "https://us.search.yahoo.com"
 
 #: ../src/settings.py:66 ../src/settings.py:69 ../data/SettingsDialog.ui.h:1
 msgid "Preferences"
@@ -369,11 +366,11 @@ msgstr "Synchronisatie werkt"
 
 #: ../src/settings.py:422
 msgid "Cancel synchronization"
-msgstr ""
+msgstr "Synchronisatie annuleren"
 
 #: ../src/settings.py:425
 msgid "Synchronization is not working"
-msgstr ""
+msgstr "Synchronisatie werkt momenteel niet"
 
 #: ../src/settings.py:431 ../data/SettingsDialog.ui.h:48
 msgid "Allow synchronization"
@@ -400,11 +397,11 @@ msgstr "Downloaden:"
 
 #: ../src/toolbar_end.py:247 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
-msgstr ""
+msgstr "Volledig scherm verlaten"
 
 #: ../src/toolbar_end.py:249
 msgid "Enter fullscreen"
-msgstr ""
+msgstr "Volledig scherm"
 
 #: ../src/toolbar_end.py:291 ../data/ActionsMenu.ui.h:10
 msgid "Save page"
@@ -434,7 +431,7 @@ msgstr "Geblokkeerde pop-ups"
 msgid "Copy address"
 msgstr "Adres kopiëren"
 
-#: ../src/toolbar_title.py:603
+#: ../src/toolbar_title.py:607
 msgid "Search or enter address"
 msgstr "Zoek of voer een adres in"
 
@@ -460,7 +457,7 @@ msgstr "Eolie zal deze pagina niet weergeven"
 
 #: ../src/view_web_errors.py:79
 #, python-format
-msgid "%s is a pishing page"
+msgid "%s is a phishing page"
 msgstr "%s is een phishing-pagina"
 
 #: ../src/view_web_errors.py:123
@@ -818,7 +815,7 @@ msgstr "Oké"
 
 #: ../data/PopoverPasswords.ui.h:1
 msgid "Remove all passwords"
-msgstr ""
+msgstr "Alle wachtwoorden verwijderen"
 
 #: ../data/PopoverUri.ui.h:1
 msgid "Sync bookmarks"
@@ -1002,12 +999,12 @@ msgstr "Instellingen"
 #: ../data/Shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr ""
+msgstr "Volledig scherm"
 
 #: ../data/Shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Afsluiten"
 
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
@@ -1017,7 +1014,7 @@ msgstr "Voer adres in"
 #: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Pages"
-msgstr ""
+msgstr "Pagina's"
 
 #: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
@@ -1057,7 +1054,7 @@ msgstr "Pagina's filteren"
 #: ../data/Shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Show source code"
-msgstr ""
+msgstr "Broncode weergeven"
 
 #: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"

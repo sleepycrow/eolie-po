@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-01 16:20+0200\n"
-"PO-Revision-Date: 2017-06-01 10:22-0400\n"
+"POT-Creation-Date: 2017-06-02 14:48+0200\n"
+"PO-Revision-Date: 2017-06-02 08:50-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -291,11 +291,8 @@ msgstr "Temps restant:"
 msgid "Continue"
 msgstr "Continuer"
 
-#: ../src/popover_javascript.py:57
-msgid "Leave"
-msgstr "Quitter"
-
-#: ../src/popover_uri.py:392 ../src/toolbar_end.py:295 ../src/view_web.py:326
+#: ../src/popover_javascript.py:57 ../src/popover_uri.py:392
+#: ../src/toolbar_end.py:295 ../src/view_web.py:326
 #: ../data/PopoverJavaScript.ui.h:2
 msgid "Cancel"
 msgstr "Annuler"
@@ -337,17 +334,17 @@ msgid "From the beginning"
 msgstr "Depuis le début"
 
 #. Translators: Google url for your country
-#: ../src/search.py:27
+#: ../src/search.py:33
 msgid "https://www.google.com"
 msgstr "https://www.google.fr"
 
 #. Translators: Yahoo url for your country
-#: ../src/search.py:42
+#: ../src/search.py:48
 msgid "https://www.yahoo.com"
 msgstr "https://www.yahoo.fr"
 
-#. Translators: Google url for your country
-#: ../src/search.py:44
+#. Translators: Yahoo url for your country
+#: ../src/search.py:50
 msgid "https://us.search.yahoo.com"
 msgstr "https://fr.search.yahoo.com"
 
@@ -441,7 +438,7 @@ msgstr "Popups bloqués"
 msgid "Copy address"
 msgstr "Copier l'adresse"
 
-#: ../src/toolbar_title.py:603
+#: ../src/toolbar_title.py:607
 msgid "Search or enter address"
 msgstr "Rechercher ou entrer une adresse"
 
@@ -467,7 +464,7 @@ msgstr "Eolie n'affichera pas cette page"
 
 #: ../src/view_web_errors.py:79
 #, python-format
-msgid "%s is a pishing page"
+msgid "%s is a phishing page"
 msgstr "%s est une page de hameçonnage"
 
 #: ../src/view_web_errors.py:123
