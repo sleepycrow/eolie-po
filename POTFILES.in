@@ -17,6 +17,7 @@ src/dialog_clear_data.py
 src/dialog_import_bookmarks.py
 src/define.py
 src/download_manager.py
+src/languages.py
 src/localized.py
 src/menu_history.py
 src/menu_pages.py
@@ -50,6 +51,7 @@ src/window.py
 [type: gettext/glade]data/BookmarkEdit.ui
 [type: gettext/glade]data/ClearData.ui
 [type: gettext/glade]data/ImportBookmarks.ui
+[type: gettext/glade]data/Languages.ui
 [type: gettext/glade]data/PopoverCookies.ui
 [type: gettext/glade]data/PopoverCredentials.ui
 [type: gettext/glade]data/PopoverDownloads.ui
