@@ -12,6 +12,7 @@
 	../src/dialog_import_bookmarks.py \
 	../src/define.py \
 	../src/download_manager.py \
+	../src/languages.py \
 	../src/localized.py \
 	../src/menu_history.py \
 	../src/menu_pages.py \
@@ -44,6 +45,7 @@
 	../data/BookmarkEdit.ui \
 	../data/ClearData.ui \
 	../data/ImportBookmarks.ui \
+	../data/Languages.ui \
 	../data/PopoverCookies.ui \
 	../data/PopoverCredentials.ui \
 	../data/PopoverDownloads.ui \

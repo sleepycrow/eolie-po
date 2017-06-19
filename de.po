@@ -1,122 +1,122 @@
-# Nathan Follens <follens@dr.com>, 2017. #zanata
+# Vincent Bermel <willovince@openmailbox.org>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-19 16:21+0200\n"
-"PO-Revision-Date: 2017-06-03 04:44-0400\n"
-"Last-Translator: Nathan Follens <follens@dr.com>\n"
-"Language-Team: Dutch\n"
+"PO-Revision-Date: 2017-06-15 07:06-0400\n"
+"Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
+"Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Zanata 3.9.6\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Window size"
-msgstr "Venstergrootte"
+msgstr "Fenstergröße"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:2
 msgid "Window size (width and height)"
-msgstr "Venstergrootte (breedte en hoogte)"
+msgstr "Fenstergröße (Breite und Höhe)"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:3
 msgid "Window position"
-msgstr "Vensterpositie"
+msgstr "Fensterposition"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:4
 msgid "Window position (x and y)"
-msgstr "Vensterpositie (x en y)"
+msgstr "Fensterposition (X, Y)"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Window maximized"
-msgstr "Venster gemaximaliseerd"
+msgstr "Fenster maximiert"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Window maximized state"
-msgstr "Venster in gemaximaliseerde staat"
+msgstr "Fenster maximiert"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
 msgid "Block ads on pages"
-msgstr "Advertenties blokkeren"
+msgstr "Werbung blockieren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Block unwanted popups on pages"
-msgstr "Ongewenste pop-ups blokkeren"
+msgstr "Popups blockieren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:9
 msgid "Block images on pages"
-msgstr "Afbeeldingen blokkeren"
+msgstr "Bilder blockieren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:10
 msgid "Download folder URI"
-msgstr "Map-URI downloaden"
+msgstr "Ordner-URI herunterladen"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:11
 msgid "Open finished downloads"
-msgstr "Voltooide downloads openen"
+msgstr "Abgeschlossene Downloads öffnen"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:12
 msgid "Web search engine"
-msgstr "Zoekmachine"
+msgstr "Suchmaschine"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:13
 msgid "Remember sessions"
-msgstr "Sessies onthouden"
+msgstr "Sitzungen beim Schließen merken"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:34
 msgid "Remember passwords"
-msgstr "Wachtwoorden onthouden"
+msgstr "Passwörter sperichern"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:15
 msgid "Enable developer tools"
-msgstr "Hulpprogramma's voor ontwikkelaars inschakelen"
+msgstr "Entwicklerwerkzeuge aktivieren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:13
 msgid "Enable plugins"
-msgstr "Plug-ins inschakelen"
+msgstr "Plugins aktivieren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:23
 msgid "Use system fonts"
-msgstr "Systeemlettertypen gebruiken"
+msgstr "Systemschriften verwenden"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:24
 msgid "Sans serif font"
-msgstr "Schreefloos"
+msgstr "Serifenlose Schrift"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:25
 msgid "Serif font"
-msgstr "Met schreef"
+msgstr "Serifenschrift"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:26
 msgid "Monospace font"
-msgstr "Niet-proportioneel"
+msgstr "Dicktengleiche Schrift"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21
 msgid "Open this page on startup"
-msgstr "Deze pagina openen bij opstarten"
+msgstr "Diese Seite beim Programmstart öffnen"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:27
 msgid "Minimum font size"
-msgstr "Minimale lettergrootte"
+msgstr "Minimale Schriftgröße"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:23
 msgid "INTERNAL"
-msgstr "INTERN"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Cookies storage type"
-msgstr "Cookie-opslagtype"
+msgstr "Speicherart für Cookies"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:25
 msgid "Panel mode"
-msgstr "Paneelmodus"
+msgstr "Modus der Tableiste"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:32
 msgid "Tell websites I do not want to be tracked"
-msgstr "Websites vertellen dat ik niet gevolgd wil worden"
+msgstr "Websiten mitteilen, Ihre Aktivitäten nicht zu verfolgen"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:27
 msgid "Enable spell checking"
@@ -135,11 +135,11 @@ msgstr "Webbrowser"
 #. Setup menu
 #: ../data/org.gnome.Eolie.desktop.in.h:3 ../src/menu_pages.py:63
 msgid "New private page"
-msgstr "Nieuw privétabblad"
+msgstr "Neuer privater Tab"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in.h:3
 msgid "Eolie is a new GNOME web browser."
-msgstr "Eolie is een webbrowser voor Gnome."
+msgstr "Eolie ist ein neuer Webbrowser für GNOME."
 
 #: ../src/application.py:559
 msgid "Do you really want to quit Eolie?"
@@ -147,59 +147,59 @@ msgstr ""
 
 #: ../src/application.py:688
 msgid "Eolie: You need to install yelp."
-msgstr "Eolie: je moet yelp installeren."
+msgstr "Sie müssen \"yelp\" installieren."
 
 #: ../src/context.py:86 ../data/SettingsDialog.ui.h:17
 msgid "Popular pages"
-msgstr "Populaire pagina's"
+msgstr "Beliebte Seiten"
 
 #: ../src/context.py:127
 msgid "Name"
-msgstr "Naam"
+msgstr "Name"
 
 #: ../src/context.py:128
 msgid "Size"
-msgstr "Grootte"
+msgstr "Größe"
 
 #: ../src/context.py:130
 msgid "Last modification"
-msgstr "Laatst gewijzigd"
+msgstr "Letzte Änderung"
 
 #: ../src/database_adblock.py:76
 msgid "For stronger ad blocking, install git command"
-msgstr "Installeer het git-commando voor sterkere advertentieblokkering"
+msgstr ""
 
 #: ../src/dialog_clear_data.py:179
 msgid "Memory cache"
-msgstr "Geheugencache"
+msgstr "Speichercache"
 
 #: ../src/dialog_clear_data.py:181
 msgid "HTTP disk cache"
-msgstr "HTTP-schijfcache"
+msgstr "Lokaler HTTP -Cache"
 
 #: ../src/dialog_clear_data.py:183
 msgid "Offline web application cache"
-msgstr "Offline webtoepassingsgegevens"
+msgstr "Offline-Cache für Webapplikationen"
 
 #: ../src/dialog_clear_data.py:185
 msgid "Session storage data"
-msgstr "Sessieopslaggegevens"
+msgstr "Sitzungsdaten"
 
 #: ../src/dialog_clear_data.py:187
 msgid "Local storage data"
-msgstr "Lokale opslaggegevens"
+msgstr "Lokale Dateien"
 
 #: ../src/dialog_clear_data.py:189
 msgid "WebSQL databases"
-msgstr "WebSQL-databases"
+msgstr "WebSQL Datenbanken"
 
 #: ../src/dialog_clear_data.py:191
 msgid "IndexedDB databases"
-msgstr "IndexedDB-databases"
+msgstr "IndexedDB Datenbanken"
 
 #: ../src/dialog_clear_data.py:193
 msgid "Plugins data"
-msgstr "Plug-in-gegevens"
+msgstr "Plugin-Daten"
 
 #: ../src/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:30
 msgid "Cookies"
@@ -211,27 +211,27 @@ msgstr "Andere"
 
 #: ../src/dialog_import_bookmarks.py:84
 msgid "Import HTML bookmarks"
-msgstr "HTML-bladwijzers importeren"
+msgstr "HTML-Lesezeichen importieren"
 
 #: ../src/menu_pages.py:54
 msgid "Show preview"
-msgstr "Miniatuur weergeven"
+msgstr "Vorschau anzeigen"
 
 #: ../src/menu_pages.py:56
 msgid "Do not show preview"
-msgstr "Miniatuur niet weergeven"
+msgstr "Keine Vorschau anzeigen"
 
 #: ../src/menu_pages.py:58
 msgid "Minimal panel"
-msgstr "Minimaal paneel"
+msgstr "Minimalansicht"
 
 #: ../src/menu_pages.py:66
 msgid "View"
-msgstr "Weergeven"
+msgstr "Tableiste"
 
 #: ../src/menu_pages.py:68
 msgid "Closed pages"
-msgstr "Gesloten tabbladen"
+msgstr "Geschlossene Tabs"
 
 #: ../src/menu_pages.py:119
 msgid "Open all pages"
@@ -239,11 +239,11 @@ msgstr ""
 
 #: ../src/popover_credentials.py:113
 msgid "Do you want to modify this password?"
-msgstr "Wil je dit wachtwoord wijzigen?"
+msgstr "Soll dieses Passwort verändert werden?"
 
 #: ../src/popover_downloads.py:45
 msgid "Download this video:"
-msgstr "Deze video downloaden:"
+msgstr "Dieses Video herunterladen:"
 
 #: ../src/popover_downloads.py:126
 msgid "Unknown destination"
@@ -251,11 +251,11 @@ msgstr ""
 
 #: ../src/popover_downloads.py:179
 msgid "Download speed:"
-msgstr "Downloadsnelheid:"
+msgstr "Downloadgeschwindigkeit:"
 
 #: ../src/popover_downloads.py:181
 msgid "bytes/s"
-msgstr "bytes/s"
+msgstr "Bytes/s"
 
 #: ../src/popover_downloads.py:184
 msgid "KiB/s"
@@ -268,46 +268,46 @@ msgstr "MiB/s"
 #: ../src/popover_downloads.py:209 ../src/popover_downloads.py:215
 #, python-format
 msgid "%s second"
-msgstr "%s seconde"
+msgstr "%s Sekunde"
 
 #: ../src/popover_downloads.py:211 ../src/popover_downloads.py:217
 #, python-format
 msgid "%s seconds"
-msgstr "%s seconden"
+msgstr "%s Sekunden"
 
 #: ../src/popover_downloads.py:223 ../src/popover_downloads.py:231
 #, python-format
 msgid "%s minute"
-msgstr "%s minuut"
+msgstr "%s Minute"
 
 #: ../src/popover_downloads.py:226 ../src/popover_downloads.py:233
 #, python-format
 msgid "%s minutes"
-msgstr "%s minuten"
+msgstr "%s Minuten"
 
 #: ../src/popover_downloads.py:239
 #, python-format
 msgid "%s hours"
-msgstr "%s uur"
+msgstr "%s Stunden"
 
 #: ../src/popover_downloads.py:241
 #, python-format
 msgid "%s hour"
-msgstr "%s uur"
+msgstr "%s Stunde"
 
 #: ../src/popover_downloads.py:242
 msgid "Remaining time:"
-msgstr "Resterende tijd:"
+msgstr "Verbleibende Zeit:"
 
 #: ../src/popover_javascript.py:56
 msgid "Continue"
-msgstr "Verdergaan"
+msgstr "Fortfahren"
 
 #: ../src/popover_javascript.py:57 ../src/popover_uri.py:409
 #: ../src/toolbar_end.py:305 ../src/view_web.py:425
 #: ../data/PopoverJavaScript.ui.h:2
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr "Abbrechen"
 
 #: ../src/popover_uri.py:129
 msgid "Delete page from history"
@@ -323,89 +323,91 @@ msgstr ""
 
 #: ../src/popover_uri.py:712
 msgid "Populars"
-msgstr "Populair"
+msgstr "Beliebt"
 
 #: ../src/popover_uri.py:714
 msgid "Recents"
-msgstr "Recent"
+msgstr "Kürzlich besucht"
 
 #: ../src/popover_uri.py:716
 msgid "Unclassified"
-msgstr "Ongeclassificeerd"
+msgstr "Nicht klassifiziert"
 
 #: ../src/popover_uri.py:739
 msgid "From the past hour"
-msgstr "Van het voorbije uur"
+msgstr "Von der letzten Stunde"
 
 #: ../src/popover_uri.py:740
 msgid "From the past day"
-msgstr "Van de voorbije dag"
+msgstr "Vom letzten Tag"
 
 #: ../src/popover_uri.py:741
 msgid "From the past week"
-msgstr "Van de voorbije week"
+msgstr "Von der letzten Woche"
 
 #: ../src/popover_uri.py:743
 msgid "From the past four weeks"
-msgstr "Van de voorbije vier weken"
+msgstr "Von den letzten 4 Wochen"
 
 #: ../src/popover_uri.py:744
 msgid "From selected day"
-msgstr "Vanaf een bepaalde dag"
+msgstr "Vom ausgewählten Tag"
 
 #: ../src/popover_uri.py:745
 msgid "From the beginning"
-msgstr "Vanaf het begin"
+msgstr "Vom Anfang"
 
 #. Translators: Google url for your country
 #: ../src/search.py:33
 msgid "https://www.google.com"
-msgstr "https://www.google.com"
+msgstr "https://www.google.de/"
 
 #. Translators: Yahoo url for your country
 #: ../src/search.py:48
 msgid "https://www.yahoo.com"
-msgstr "https://www.yahoo.com"
+msgstr "https://de.yahoo.com/"
 
 #. Translators: Yahoo url for your country
 #: ../src/search.py:50
 msgid "https://us.search.yahoo.com"
-msgstr "https://us.search.yahoo.com"
+msgstr "https://de.search.yahoo.com/"
 
 #: ../src/settings.py:66 ../src/settings.py:69 ../data/SettingsDialog.ui.h:1
 msgid "Preferences"
-msgstr "Voorkeuren"
+msgstr "Einstellungen"
 
 #: ../src/settings.py:388
 msgid "Connecting…"
-msgstr "Verbinding maken…"
+msgstr "Verbinde..."
 
 #: ../src/settings.py:423
 msgid "Synchronization is working"
-msgstr "Synchronisatie werkt"
+msgstr "Synchronisation funktioniert"
 
 #: ../src/settings.py:429
 msgid "Cancel synchronization"
-msgstr "Synchronisatie annuleren"
+msgstr "Synchronisation abbrechen"
 
 #: ../src/settings.py:432
 msgid "Synchronization is not working"
-msgstr "Synchronisatie werkt momenteel niet"
+msgstr "Synchronisation fehlgeschlagen"
 
 #: ../src/settings.py:438 ../data/SettingsDialog.ui.h:48
 msgid "Allow synchronization"
-msgstr "Synchronisatie toestaan"
+msgstr "Synchronisation erlauben"
 
 #: ../src/settings.py:449
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
 " %s"
-msgstr "Synchronisatie is niet beschikbaar op je computer: %s"
+msgstr ""
+"Synchronisation nicht verfügbar auf Ihrem Gerät:\n"
+"%s"
 
 #: ../src/settings.py:476
 msgid "You've received an email to validate synchronization"
-msgstr "Je hebt een e-mail ontvangen om de synchronisatie te valideren"
+msgstr "Sie haben eine Bestätiguns-E-Mail für die Synchronisation erhalten"
 
 #: ../src/stacksidebar.py:374
 msgid "Do you really want to close this page?"
@@ -413,133 +415,132 @@ msgstr ""
 
 #: ../src/toolbar_end.py:123
 msgid "Downloading:"
-msgstr "Downloaden:"
+msgstr "Download von:"
 
 #: ../src/toolbar_end.py:253 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
-msgstr "Volledig scherm verlaten"
+msgstr "Vollbildmodus beenden"
 
 #: ../src/toolbar_end.py:255
 msgid "Enter fullscreen"
-msgstr "Volledig scherm"
+msgstr "Vollbildmodus"
 
 #: ../src/toolbar_end.py:301 ../data/ActionsMenu.ui.h:10
 msgid "Save page"
-msgstr "Pagina opslaan"
+msgstr "Seite speichern"
 
 #: ../src/toolbar_end.py:304 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
-msgstr "Opslaan"
+msgstr "Speichern"
 
 #: ../src/toolbar_title.py:164
 msgid "This page contains insecure content"
-msgstr "Deze pagina bevat niet-beveiligde inhoud"
+msgstr "Diese Seite enthält unsicheren Inhalt"
 
 #: ../src/toolbar_title.py:200
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
 msgstr ""
-"Opgelet: deze pagina is niet beveiligd.\\nAls je je wachtwoord ingeeft,\\n "
-"zal het zichtbaar zijn voor cybercriminelen!"
+"Warnung: Diese Seite ist nicht sicher.\\n Eingegebene Passwörter können "
+"möglicherweise \\nvon Kriminellen eingesehen werden!"
 
 #: ../src/toolbar_title.py:242
 msgid "Blocked popups"
-msgstr "Geblokkeerde pop-ups"
+msgstr "Blockierte Popups"
 
 #: ../src/toolbar_title.py:359
 msgid "Copy address"
-msgstr "Adres kopiëren"
+msgstr "Adresse kopieren"
 
 #: ../src/toolbar_title.py:614 ../src/toolbar_title.py:617
 msgid "Search or enter address"
-msgstr "Zoek of voer een adres in"
+msgstr "Suchen oder Adresse eingeben"
 
 #: ../src/view_web.py:356 ../data/PopoverImages.ui.h:1
 msgid "Save images"
-msgstr "Afbeeldingen opslaan"
+msgstr "Bilder speichern"
 
 #: ../src/view_web.py:421
 msgid "Select files to upload"
-msgstr "Selecteer bestanden om te uploaden"
+msgstr "Dateien zum Upload auswählen"
 
 #: ../src/view_web.py:424
 msgid "Open"
-msgstr "Openen"
+msgstr "Öffnen"
 
 #: ../src/view_web_errors.py:72
 msgid "This page is dangerous"
-msgstr "Deze pagina is gevaarlijk"
+msgstr "Diese Seite ist gefährlich"
 
 #: ../src/view_web_errors.py:73
 msgid "Eolie will not display this page"
-msgstr "Eolie zal deze pagina niet weergeven"
+msgstr "Eolie wird diese Seite nicht anzeigen"
 
 #: ../src/view_web_errors.py:80
 #, python-format
 msgid "%s is a phishing page"
-msgstr "%s is een phishing-pagina"
+msgstr "%s ist eine Phishing-Seite"
 
 #: ../src/view_web_errors.py:124
 msgid "Failed to load this web page"
-msgstr "Laden van webpagina mislukt"
+msgstr "Laden der Webseite gescheitert"
 
 #: ../src/view_web_errors.py:125
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
-"Mogelijk is ze tijdelijk niet beschikbaar, of verplaatst naar een nieuw "
-"adres.<br/>Je kan ook controleren of je internetverbinding wel correct "
-"werkt."
+"Möglicherweise ist sie momentan nicht erreichbar oder umgezogen.<br/>Stellen"
+" SIe sicher, dass Ihre Internetverbindung korrekt funktioniert."
 
 #: ../src/view_web_errors.py:131
 msgid "Network not available"
-msgstr "Netwerk niet beschikbaar"
+msgstr "Netzwerk nicht verfügbar"
 
 #: ../src/view_web_errors.py:132
 msgid "Check your network connection"
-msgstr "Controleer je netwerkverbinding"
+msgstr "Bitte Netzwerkverbindung überprüfen"
 
 #: ../src/view_web_errors.py:142
 msgid "Retry"
-msgstr "Opnieuw proberen"
+msgstr "Erneut versuchen"
 
 #: ../src/view_web_errors.py:164
 msgid "The certificate does not match this website"
-msgstr "Het certificaat komt niet overeen met deze website"
+msgstr "Das Zertifikat passt nicht zu dieser Webseite"
 
 #: ../src/view_web_errors.py:166
 msgid "The certificate has expired"
-msgstr "Het certificaat is verlopen"
+msgstr "Das Zertifikat ist abgelaufen"
 
 #: ../src/view_web_errors.py:168
 msgid "The signing certificate authority is not known"
-msgstr "De ondertekenende certificaatautoriteit is niet gekend"
+msgstr "Die Zertifizierungsstelle ist nicht bekannt"
 
 #: ../src/view_web_errors.py:170
 msgid "The certificate contains errors"
-msgstr "Het certificaat bevat fouten"
+msgstr "Das Zertifikat ist fehlerhaft"
 
 #: ../src/view_web_errors.py:172
 msgid "The certificate has been revoked"
-msgstr "Het certificaat is ingetrokken"
+msgstr "Das Zertifikat wurde zurückgezogen"
 
 #: ../src/view_web_errors.py:174
 msgid "The certificate is signed using a weak signature algorithm"
-msgstr "Het certificaat is ondertekend met een zwak algoritme"
+msgstr "Das Zertifikat ist mit einem schwachen Algorithmus signiert"
 
 #: ../src/view_web_errors.py:177
 msgid "The certificate activation time is still in the future"
-msgstr "De activatietijd van het certificaat ligt in de toekomst"
+msgstr "Die Aktivierungszeitpunkt des Zertifikats liegt in der Zukunft"
 
 #: ../src/view_web_errors.py:179
 msgid "The identity of this website has not been verified"
-msgstr "De identiteit van deze website is niet geverifieerd"
+msgstr "Die Identität der Webseite konnte nicht verifizert werden"
 
 #: ../src/view_web_errors.py:180 ../src/view_web_errors.py:185
 msgid "Connection is not secure"
-msgstr "Verbinding is niet beveiligd"
+msgstr "Verbindung ist nicht sicher"
 
 #: ../src/view_web_errors.py:187
 #, python-format
@@ -548,13 +549,14 @@ msgid ""
 "or alter information going to or from this site (for example, private "
 "messages, credit card information, or passwords)."
 msgstr ""
-"Dit lijkt niet op de echte %.<br/>Mogelijk proberen aanvallers de gegevens "
-"die je naar deze site stuurt of ervan ontvangt te stelen of aan te passen "
-"(bijvoorbeeld privéberichten, kredietkaartgegevens of wachtwoorden)."
+"Die Echtheit von %s konnte nicht bestätigt werden.<br/> Angreifer könnten "
+"versuchen, könnten versuchen Datenströme von und zu dieser Seite zu "
+"verändern oder abzuhören.(Z. B. persönliche Mitteilungen, Kreditkartendaten "
+"oder Passwörter)."
 
 #: ../src/view_web_errors.py:193
 msgid "Accept Risk and Proceed"
-msgstr "Risico aanvaarden en verdergaan"
+msgstr "Risiko akzeptieren und fortfahren"
 
 #: ../src/view_web_errors.py:209 ../src/view_web_errors.py:214
 msgid "WebKit web engine crashed"
@@ -573,49 +575,49 @@ msgstr ""
 
 #: ../src/widget_edit_bookmark.py:321 ../src/widget_edit_bookmark.py:328
 msgid "Apply"
-msgstr "Toepassen"
+msgstr "Anwenden"
 
 #: ../src/widget_edit_bookmark.py:323 ../data/BookmarkEdit.ui.h:6
 msgid "Rename"
-msgstr "Hernoemen"
+msgstr "Umbenennen"
 
 #: ../src/widget_edit_bookmark.py:343 ../src/widget_edit_bookmark.py:350
 msgid "Finished"
-msgstr "Klaar"
+msgstr "Fertig"
 
 #: ../src/widget_edit_bookmark.py:345 ../data/BookmarkEdit.ui.h:7
 msgid "Remove"
-msgstr "Verwijderen"
+msgstr "Entfernen"
 
 #: ../src/widget_find.py:47
 msgid "Search previous occurrence"
-msgstr "Vorig voorkomen zoeken"
+msgstr "Zur nächsten Fundstelle"
 
 #: ../src/widget_find.py:56
 msgid "Search next occurrence"
-msgstr "Volgend voorkomen zoeken"
+msgstr "Zur vorherigen Fundstelle"
 
 #: ../src/widget_find.py:66
 msgid "100 of 100 matches"
-msgstr "100 van 100 resultaten"
+msgstr "100 von 100 Fundstellen"
 
 #: ../data/AboutDialog.ui.h:1
 msgid "A web browser for GNOME."
-msgstr "Een webbrowser voor Gnome."
+msgstr "Ein Webbrowser für GNOME"
 
 #: ../data/AboutDialog.ui.h:2
 msgid "Visit Eolie website"
-msgstr "Bezoek de website van Eolie"
+msgstr "Die Webseite von Eolie besuchen"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.h:4
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
+msgstr ""
 
 #: ../data/AboutDialog.ui.h:5
 msgid "Donations:"
-msgstr "Donaties:"
+msgstr "Spenden:"
 
 #: ../data/AboutDialog.ui.h:6
 msgid "Flattr"
@@ -628,73 +630,73 @@ msgstr "PayPal"
 #: ../data/ActionsMenu.ui.h:1
 msgctxt "Adblock exception"
 msgid "None"
-msgstr "Geen"
+msgstr "Nie"
 
 #: ../data/ActionsMenu.ui.h:2
 msgid "Current site"
-msgstr "Huidige website"
+msgstr "Aktuelle Seite"
 
 #: ../data/ActionsMenu.ui.h:3
 msgid "Current page"
-msgstr "Huidig tabblad"
+msgstr "Aktueller Tab"
 
 #: ../data/ActionsMenu.ui.h:4
 msgid "Exceptions"
-msgstr "Uitzonderingen"
+msgstr "Ausnahmen"
 
 #: ../data/ActionsMenu.ui.h:5
 msgid "Do not block ads"
-msgstr "Advertenties niet blokkeren"
+msgstr "Werbeblocker deaktivieren"
 
 #: ../data/ActionsMenu.ui.h:6
 msgid "Do not block images"
-msgstr "Afbeeldingen niet blokkeren"
+msgstr "Bildblocker deaktivieren"
 
 #: ../data/ActionsMenu.ui.h:7
 msgctxt "Image exception"
 msgid "None"
-msgstr "Geen"
+msgstr "Nie"
 
 #: ../data/ActionsMenu.ui.h:8
 msgid "Do not block popups"
-msgstr "Pop-ups niet blokkeren"
+msgstr "Popup-Blocker deaktivieren"
 
 #: ../data/ActionsMenu.ui.h:9
 msgctxt "Popup exception"
 msgid "None"
-msgstr "Geen"
+msgstr "Nie"
 
 #: ../data/ActionsMenu.ui.h:11
 msgid "Print page"
-msgstr "Pagina afdrukken"
+msgstr "Seite drucken"
 
 #: ../data/ActionsMenu.ui.h:12
 msgid "Zoom out"
-msgstr "Uitzoomen"
+msgstr "Verkleinern"
 
 #: ../data/ActionsMenu.ui.h:13 ../data/SettingsDialog.ui.h:28
 msgid "Default zoom level"
-msgstr "Standaardzoomniveau"
+msgstr "Standard-Vergößerung"
 
 #: ../data/ActionsMenu.ui.h:14
 msgid "Zoom in"
-msgstr "Inzoomen"
+msgstr "Vergrößern"
 
 #: ../data/ActionsMenu.ui.h:15
 msgid "Block ads"
-msgstr "Advertenties blokkeren"
+msgstr "Werbung blockieren"
 
 #: ../data/ActionsMenu.ui.h:16
 msgid "Block popups"
-msgstr "Pop-ups blokkeren"
+msgstr "Popups blockieren"
 
 #: ../data/ActionsMenu.ui.h:17
 msgid "Block images"
-msgstr "Afbeeldingen blokkeren"
+msgstr "Bilder blockieren"
 
 #: ../data/ActionsMenu.ui.h:18
 msgid "Filtering"
-msgstr "Filters"
+msgstr "Filter"
 
 #: ../data/ActionsMenu.ui.h:19 ../data/Languages.ui.h:1
 msgid "Spell checking"
@@ -702,7 +704,7 @@ msgstr ""
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Preferences"
-msgstr "_Voorkeuren"
+msgstr "_Einstellungen"
 
 #: ../data/Appmenu.ui.h:2
 msgid "_Report a bug"
@@ -710,23 +712,23 @@ msgstr ""
 
 #: ../data/Appmenu.ui.h:3
 msgid "_Keyboard Shortcuts"
-msgstr "_Sneltoetsen"
+msgstr "_Tastenkürzel"
 
 #: ../data/Appmenu.ui.h:4
 msgid "_Help"
-msgstr "_Hulp"
+msgstr "_Hilfe"
 
 #: ../data/Appmenu.ui.h:5
 msgid "_About"
-msgstr "_Info"
+msgstr "_Über"
 
 #: ../data/Appmenu.ui.h:6
 msgid "_Quit"
-msgstr "_Afsluiten"
+msgstr "_Beenden"
 
 #: ../data/BookmarkEdit.ui.h:1
 msgid "Address:"
-msgstr "Adres:"
+msgstr "Adresse:"
 
 #: ../data/BookmarkEdit.ui.h:2
 msgid "Title:"
@@ -734,40 +736,41 @@ msgstr "Titel:"
 
 #: ../data/BookmarkEdit.ui.h:3
 msgid "Remove bookmark"
-msgstr "Bladwijzer verwijderen"
+msgstr "Lesezeichen entfernen"
 
 #: ../data/BookmarkEdit.ui.h:4
 msgid "New tag"
-msgstr "Nieuwe tag"
+msgstr "Neue s Stichwort"
 
 #: ../data/BookmarkEdit.ui.h:5
 msgid "Add"
-msgstr "Toevoegen"
+msgstr "Hinzufügen"
 
 #: ../data/BookmarkEdit.ui.h:8
 msgid "Set the tags you want to associate this bookmark with"
-msgstr "Stel de tags in waarmee je deze bladwijzer wil associëren"
+msgstr ""
+"Legen Sie fest, welche Stichworte Sie dem Lesezeichen zuordnen möchten"
 
 #: ../data/ClearData.ui.h:1 ../data/SettingsDialog.ui.h:41
 msgid "Clear Personal Data"
-msgstr "Persoonlijke gegevens wissen"
+msgstr "Persönliche Daten löschen"
 
 #: ../data/ClearData.ui.h:2
 msgid "C_lear"
-msgstr "Wiss_en"
+msgstr "_Löschen"
 
 #: ../data/ClearData.ui.h:3 ../data/PopoverUri.ui.h:4
 #: ../data/SettingsDialog.ui.h:6
 msgid "Search"
-msgstr "Zoeken"
+msgstr "Suche"
 
 #: ../data/ClearData.ui.h:4
 msgid "Filter domains"
-msgstr "Filter domeinen"
+msgstr "Domänen flitern"
 
 #: ../data/ClearData.ui.h:5
 msgid "Search domains"
-msgstr "Zoek op domeinen"
+msgstr "Domänen suchen"
 
 #: ../data/ClearData.ui.h:6
 msgid ""
@@ -775,114 +778,113 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
-"Je kan een tijdsperiode selecteren waarvan je je gegevens voor alle websites"
-" die in die periode gewijzigd zijn wil wissen. Als je ervoor kiest alle "
-"gegevens vanaf het begin te wissen kan je ervoor kiezen enkel de gegevens "
-"voor bepaalde websites te wissen."
+"Sie können einen Zeitraum wählen, für den die Daten aller Webseiten gelöscht"
+" werden. Wenn Sie die Daten unabhängig vom Zeitrum löschen, können Sie zudem"
+" einzelne Webseiten ausnehmen."
 
 #: ../data/ClearData.ui.h:7
 msgid "Clear selected personal data _from:"
-msgstr "Persoonlijke gegevens wissen _van:"
+msgstr "Ausgewählte persönliche Daten aus dem folgenden Zeitraum löschen:"
 
 #: ../data/ClearData.ui.h:8
 msgid "the past hour"
-msgstr "het voorbije uur"
+msgstr "Letzte Stunde"
 
 #: ../data/ClearData.ui.h:9
 msgid "the past day"
-msgstr "de voorbije dag"
+msgstr "Letzter Tag"
 
 #: ../data/ClearData.ui.h:10
 msgid "the past week"
-msgstr "de voorbije week"
+msgstr "Letzte Woche"
 
 #: ../data/ClearData.ui.h:11
 msgid "the past four weeks"
-msgstr "de voorbije vier weken"
+msgstr "Letzte vier Stunden"
 
 #: ../data/ClearData.ui.h:12
 msgid "the beginning"
-msgstr "het begin"
+msgstr "Von Anfang an"
 
 #: ../data/ClearData.ui.h:13
 msgid "No data found"
-msgstr "Geen gegevens gevonden"
+msgstr "Keine Daten gefunden"
 
 #: ../data/ClearData.ui.h:14
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
-"Deze actie kan niet ongedaan gemaakt worden. De gegevens die je wist zullen "
-"voorgoed verwijderd worden."
+"Diese Aktion kann nicht rückgängig gemacht werden. Die Löschung ist "
+"permanent."
 
 #: ../data/ImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
-msgstr "Bladwijzers importeren uit:"
+msgstr "Lesezeichen importieren von:"
 
 #: ../data/ImportBookmarks.ui.h:2 ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
-msgstr "Bladwijzers importeren"
+msgstr "Lesezeichen importieren"
 
 #: ../data/ImportBookmarks.ui.h:3
 msgid "Import"
-msgstr "Importeren"
+msgstr "Importieren"
 
 #: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
-msgstr "Alle cookies verwijderen"
+msgstr "Alle Cookies entfernen"
 
 #: ../data/PopoverCredentials.ui.h:1
 msgid "Do you want to save this password?"
-msgstr "Wil je dit wachtwoord opslaan?"
+msgstr "Möchten Sie dieses Passwort speichern?"
 
 #: ../data/PopoverDownloads.ui.h:1
 msgid "Open download folder"
-msgstr "Downloadmap openen"
+msgstr "Download-Ordner öffnen"
 
 #: ../data/PopoverDownloads.ui.h:2
 msgid "Clear finished downloads"
-msgstr "Voltooide downloads wissen"
+msgstr "Liste der beendeten Downloads leeren"
 
 #: ../data/PopoverDownloads.ui.h:3
 msgid "No active download"
-msgstr "Geen downloads actief"
+msgstr "Kein aktiver Download"
 
 #: ../data/PopoverImages.ui.h:2
 msgid "Show links"
-msgstr "Koppelingen weergeven"
+msgstr "Links anzeigen"
 
 #: ../data/PopoverJavaScript.ui.h:1
 msgid "Ok"
-msgstr "Oké"
+msgstr "OK"
 
 #: ../data/PopoverPasswords.ui.h:1
 msgid "Remove all passwords"
-msgstr "Alle wachtwoorden verwijderen"
+msgstr "Alle Passwörter entfernen"
 
 #: ../data/PopoverUri.ui.h:1
 msgid "Sync bookmarks"
-msgstr "Bladwijzers synchroniseren"
+msgstr "Lesezeichen synchronisieren"
 
 #: ../data/PopoverUri.ui.h:3
 msgid "Bookmarks"
-msgstr "Bladwijzers"
+msgstr "Lesezeichen"
 
 #: ../data/PopoverUri.ui.h:5
 msgid "Clear history"
-msgstr "Geschiedenis wissen"
+msgstr "Verlauf leeren"
 
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
-msgstr "Geschiedenis"
+msgstr "Verlauf"
 
 #: ../data/PopoverUri.ui.h:7
 msgid "Close"
-msgstr "Sluiten"
+msgstr "Schließen"
 
 #: ../data/RowDownload.ui.h:1
 msgid "Cancel download"
-msgstr "Download annuleren"
+msgstr "Download abbrechen"
 
 #: ../data/SettingsDialog.ui.h:2
 msgid "Downloads"
@@ -890,19 +892,19 @@ msgstr "Downloads"
 
 #: ../data/SettingsDialog.ui.h:3
 msgid "Download folder:"
-msgstr "Downloadmap:"
+msgstr "Download-Ordner:"
 
 #: ../data/SettingsDialog.ui.h:4
 msgid "Select download directory"
-msgstr "Selecteer downloadmap"
+msgstr "Wählen Sie das Download-Verzeichnis"
 
 #: ../data/SettingsDialog.ui.h:5
 msgid "Automatically open downloaded files"
-msgstr "Gedownloade bestanden automatisch openen"
+msgstr "Heruntergeladene Dateien automatisch öffnen"
 
 #: ../data/SettingsDialog.ui.h:7
 msgid "Web engine:"
-msgstr "Zoekmachine:"
+msgstr "Suchmaschine"
 
 #: ../data/SettingsDialog.ui.h:8
 msgid "Google"
@@ -922,137 +924,137 @@ msgstr "Bing"
 
 #: ../data/SettingsDialog.ui.h:12
 msgid "Web content"
-msgstr "Webinhoud"
+msgstr "Webinhalte"
 
 #: ../data/SettingsDialog.ui.h:14
 msgid "Startup"
-msgstr "Opstarten"
+msgstr "Programmstart"
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Start Page:"
-msgstr "Startpagina:"
+msgstr "Startseite:"
 
 #: ../data/SettingsDialog.ui.h:16
 msgid "Search engine"
-msgstr "Zoekmachine"
+msgstr "Suchmaschine"
 
 #: ../data/SettingsDialog.ui.h:18
 msgid "Blank page"
-msgstr "Blanco pagina"
+msgstr "Leere Seite"
 
 #: ../data/SettingsDialog.ui.h:19
 msgid "Set address"
-msgstr "Stel adres in"
+msgstr "Adresse festlegen"
 
 #: ../data/SettingsDialog.ui.h:20
 msgid "Remember previous pages on startup"
-msgstr "Vorige tabbladen onthouden bij opstarten"
+msgstr "Tabs der letzten Sitzung beim Start wiederherstellen"
 
 #: ../data/SettingsDialog.ui.h:21
 msgid "General"
-msgstr "Algemeen"
+msgstr "Generell"
 
 #: ../data/SettingsDialog.ui.h:22
 msgid "Fonts"
-msgstr "Lettertypen"
+msgstr "Schriftarten"
 
 #: ../data/SettingsDialog.ui.h:29
 msgid "Appearance"
-msgstr "Uiterlijk"
+msgstr "Erscheinungsbild"
 
 #: ../data/SettingsDialog.ui.h:31
 msgid "Tracking"
-msgstr "Volgen"
+msgstr "Verfolgung"
 
 #: ../data/SettingsDialog.ui.h:33
 msgid "Passwords"
-msgstr "Wachtwoorden"
+msgstr "Passwörter"
 
 #: ../data/SettingsDialog.ui.h:35
 msgid "Saved data"
-msgstr "Opgeslagen gegevens"
+msgstr "Gespeicherte Daten:"
 
 #: ../data/SettingsDialog.ui.h:36
 msgid "Behaviour:"
-msgstr "Gedrag:"
+msgstr "Verhalten"
 
 #: ../data/SettingsDialog.ui.h:37
 msgid "Always accept"
-msgstr "Altijd aanvaarden"
+msgstr "Immer annehmen"
 
 #: ../data/SettingsDialog.ui.h:38
 msgid "Only from sites you visit"
-msgstr "Enkel van bezochte websites"
+msgstr "Nur von besuchten Seiten"
 
 #: ../data/SettingsDialog.ui.h:39
 msgid "Never accept"
-msgstr "Nooit aanvaarden"
+msgstr "Nie annehmen"
 
 #: ../data/SettingsDialog.ui.h:40
 msgid "Manage cookies"
-msgstr "Cookies beheren"
+msgstr "Cookies verwalten"
 
 #: ../data/SettingsDialog.ui.h:42
 msgid "Manage passwords"
-msgstr "Wachtwoorden beheren"
+msgstr "Passwörter verwalten"
 
 #: ../data/SettingsDialog.ui.h:43
 msgid "Privacy"
-msgstr "Privacy"
+msgstr "Privatsphäre"
 
 #: ../data/SettingsDialog.ui.h:44
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
-"Je kan je bladwijzers en geschiedenis delen met alle\n"
-"apparaten waarop je Eolie of Firefox gebruikt"
+"Sie können bei Verwendung von Eolie oder Firefox Verlauf und Lesezeichen auf"
+" all Ihren Geräten synchronisieren"
 
 #: ../data/SettingsDialog.ui.h:46
 msgid "Login:"
-msgstr "E-mailadres:"
+msgstr "Login:"
 
 #: ../data/SettingsDialog.ui.h:47
 msgid "Password:"
-msgstr "Wachtwoord:"
+msgstr "Passwort:"
 
 #: ../data/SettingsDialog.ui.h:49
 msgid "Create or manage account"
-msgstr "Account aanmaken of beheren"
+msgstr "Account anlegen oder verwalten"
 
 #: ../data/SettingsDialog.ui.h:50
 msgid "Synchronization"
-msgstr "Synchronisatie"
+msgstr "Synchronisation"
 
 #: ../data/Shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Algemeen"
+msgstr "Generell"
 
 #: ../data/Shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "New window"
-msgstr "Nieuw venster"
+msgstr "Neues Fenster"
 
 #: ../data/Shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "Einstellungen"
 
 #: ../data/Shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr "Volledig scherm"
+msgstr "Vollbildmodus"
 
 #: ../data/Shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Afsluiten"
+msgstr "Beenden"
 
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr "Voer adres in"
+msgstr "Adresse eingeben"
 
 #: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
@@ -1072,99 +1074,99 @@ msgstr ""
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Pages"
-msgstr "Pagina's"
+msgstr "Tabs"
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "New page"
-msgstr "Nieuw tabblad"
+msgstr "Neuer Tab"
 
 #: ../data/Shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Last closed page"
-msgstr "Laatst gesloten tabblad"
+msgstr "Letzter geschlossener Tab"
 
 #: ../data/Shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "New private page"
-msgstr "Nieuw privétabblad"
+msgstr "Neuer privater Tab"
 
 #: ../data/Shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Close page"
-msgstr "Tabblad sluiten"
+msgstr "Tab schließen"
 
 #: ../data/Shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Previous page"
-msgstr "Vorige pagina"
+msgstr "Vorheriger Tab"
 
 #: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Next page"
-msgstr "Volgende pagina"
+msgstr "Nächster Tab"
 
 #: ../data/Shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Filter pages"
-msgstr "Pagina's filteren"
+msgstr "Tabs filtern"
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Show source code"
-msgstr "Broncode weergeven"
+msgstr "Seitenquelltext anzeigen"
 
 #: ../data/Shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Web page"
-msgstr "Webpagina"
+msgstr "Webseite"
 
 #: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Save page"
-msgstr "Pagina opslaan"
+msgstr "Seite speichern"
 
 #: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Print page"
-msgstr "Pagina afdrukken"
+msgstr "Seie drucken"
 
 #: ../data/Shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Search for"
-msgstr "Zoeken naar"
+msgstr "Auf aktueller Webseite Text suchen"
 
 #: ../data/Shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
-msgstr "Advertentieblokkering uitschakelen op deze website"
+msgstr "Werbeblocker für aktuelle Webseite deaktivieren"
 
 #: ../data/Shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr "Navigatie"
+msgstr "Navigation"
 
 #: ../data/Shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Reload page"
-msgstr "Pagina herladen"
+msgstr "Seite neu laden"
 
 #: ../data/Shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Panel mode"
-msgstr "Paneelmodus"
+msgstr "Modus der Tableiste"
 
 #: ../data/Shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Show preview"
-msgstr "Miniatuur weergeven"
+msgstr "Vorschau anzeigen"
 
 #: ../data/Shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "Do not show preview"
-msgstr "Miniatuur niet weergeven"
+msgstr "Keine Vorschau"
 
 #: ../data/Shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Minimal"
-msgstr "Minimaal"
+msgstr "Minimalmodus"
