@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-19 16:21+0200\n"
+"POT-Creation-Date: 2017-06-20 11:37+0200\n"
 "PO-Revision-Date: 2017-06-15 07:06-0400\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German\n"
@@ -304,7 +304,7 @@ msgid "Continue"
 msgstr "Fortfahren"
 
 #: ../src/popover_javascript.py:57 ../src/popover_uri.py:409
-#: ../src/toolbar_end.py:305 ../src/view_web.py:425
+#: ../src/toolbar_end.py:305 ../src/view_web.py:447
 #: ../data/PopoverJavaScript.ui.h:2
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -457,15 +457,19 @@ msgstr "Adresse kopieren"
 msgid "Search or enter address"
 msgstr "Suchen oder Adresse eingeben"
 
-#: ../src/view_web.py:356 ../data/PopoverImages.ui.h:1
+#: ../src/view_web.py:355
+msgid "Open link in a new page"
+msgstr ""
+
+#: ../src/view_web.py:370 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Bilder speichern"
 
-#: ../src/view_web.py:421
+#: ../src/view_web.py:443
 msgid "Select files to upload"
 msgstr "Dateien zum Upload auswählen"
 
-#: ../src/view_web.py:424
+#: ../src/view_web.py:446
 msgid "Open"
 msgstr "Öffnen"
 
