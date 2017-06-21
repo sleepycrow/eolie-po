@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-20 11:37+0200\n"
-"PO-Revision-Date: 2017-06-15 07:06-0400\n"
+"POT-Creation-Date: 2017-06-21 11:36+0200\n"
+"PO-Revision-Date: 2017-06-20 04:54-0400\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -111,16 +111,20 @@ msgid "Cookies storage type"
 msgstr "Speicherart für Cookies"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:25
+msgid "History storage type"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "Panel mode"
 msgstr "Modus der Tableiste"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:32
+#: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/SettingsDialog.ui.h:32
 msgid "Tell websites I do not want to be tracked"
 msgstr "Websiten mitteilen, Ihre Aktivitäten nicht zu verfolgen"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:28 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
-msgstr ""
+msgstr "Rechtschreibprüfung aktivieren"
 
 #: ../data/org.gnome.Eolie.desktop.in.h:1
 #: ../data/org.gnome.Eolie.appdata.xml.in.h:1
@@ -141,11 +145,11 @@ msgstr "Neuer privater Tab"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie ist ein neuer Webbrowser für GNOME."
 
-#: ../src/application.py:559
+#: ../src/application.py:568
 msgid "Do you really want to quit Eolie?"
-msgstr ""
+msgstr "Möchten Sie Eolie wirklich beenden?"
 
-#: ../src/application.py:688
+#: ../src/application.py:697
 msgid "Eolie: You need to install yelp."
 msgstr "Sie müssen \"yelp\" installieren."
 
@@ -235,7 +239,7 @@ msgstr "Geschlossene Tabs"
 
 #: ../src/menu_pages.py:119
 msgid "Open all pages"
-msgstr ""
+msgstr "Alles öffnen"
 
 #: ../src/popover_credentials.py:113
 msgid "Do you want to modify this password?"
@@ -247,7 +251,7 @@ msgstr "Dieses Video herunterladen:"
 
 #: ../src/popover_downloads.py:126
 msgid "Unknown destination"
-msgstr ""
+msgstr "Unbekannte Adresse"
 
 #: ../src/popover_downloads.py:179
 msgid "Download speed:"
@@ -311,15 +315,15 @@ msgstr "Abbrechen"
 
 #: ../src/popover_uri.py:129
 msgid "Delete page from history"
-msgstr ""
+msgstr "Seite aus Verlauf entfernen"
 
 #: ../src/popover_uri.py:139
 msgid "Edit bookmark"
-msgstr ""
+msgstr "Lesezeichen bearbeiten"
 
 #: ../src/popover_uri.py:149
 msgid "Open all pages for this tag"
-msgstr ""
+msgstr "Alle Tabs mit diesem Tag bearbeiten"
 
 #: ../src/popover_uri.py:712
 msgid "Populars"
@@ -376,27 +380,27 @@ msgstr "https://de.search.yahoo.com/"
 msgid "Preferences"
 msgstr "Einstellungen"
 
-#: ../src/settings.py:388
+#: ../src/settings.py:399
 msgid "Connecting…"
 msgstr "Verbinde..."
 
-#: ../src/settings.py:423
+#: ../src/settings.py:434
 msgid "Synchronization is working"
 msgstr "Synchronisation funktioniert"
 
-#: ../src/settings.py:429
+#: ../src/settings.py:440
 msgid "Cancel synchronization"
 msgstr "Synchronisation abbrechen"
 
-#: ../src/settings.py:432
+#: ../src/settings.py:443
 msgid "Synchronization is not working"
 msgstr "Synchronisation fehlgeschlagen"
 
-#: ../src/settings.py:438 ../data/SettingsDialog.ui.h:48
+#: ../src/settings.py:449 ../data/SettingsDialog.ui.h:55
 msgid "Allow synchronization"
 msgstr "Synchronisation erlauben"
 
-#: ../src/settings.py:449
+#: ../src/settings.py:460
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -405,13 +409,13 @@ msgstr ""
 "Synchronisation nicht verfügbar auf Ihrem Gerät:\n"
 "%s"
 
-#: ../src/settings.py:476
+#: ../src/settings.py:487
 msgid "You've received an email to validate synchronization"
 msgstr "Sie haben eine Bestätiguns-E-Mail für die Synchronisation erhalten"
 
 #: ../src/stacksidebar.py:374
 msgid "Do you really want to close this page?"
-msgstr ""
+msgstr "Soll dieser Tab wirklich geschlossen werden?"
 
 #: ../src/toolbar_end.py:123
 msgid "Downloading:"
@@ -433,11 +437,11 @@ msgstr "Seite speichern"
 msgid "Save"
 msgstr "Speichern"
 
-#: ../src/toolbar_title.py:164
+#: ../src/toolbar_title.py:175
 msgid "This page contains insecure content"
 msgstr "Diese Seite enthält unsicheren Inhalt"
 
-#: ../src/toolbar_title.py:200
+#: ../src/toolbar_title.py:211
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
@@ -445,21 +449,21 @@ msgstr ""
 "Warnung: Diese Seite ist nicht sicher.\\n Eingegebene Passwörter können "
 "möglicherweise \\nvon Kriminellen eingesehen werden!"
 
-#: ../src/toolbar_title.py:242
+#: ../src/toolbar_title.py:253
 msgid "Blocked popups"
 msgstr "Blockierte Popups"
 
-#: ../src/toolbar_title.py:359
+#: ../src/toolbar_title.py:370
 msgid "Copy address"
 msgstr "Adresse kopieren"
 
-#: ../src/toolbar_title.py:614 ../src/toolbar_title.py:617
+#: ../src/toolbar_title.py:634 ../src/toolbar_title.py:637
 msgid "Search or enter address"
 msgstr "Suchen oder Adresse eingeben"
 
 #: ../src/view_web.py:355
 msgid "Open link in a new page"
-msgstr ""
+msgstr "Link in neuem Tab öffnen"
 
 #: ../src/view_web.py:370 ../data/PopoverImages.ui.h:1
 msgid "Save images"
@@ -496,7 +500,7 @@ msgid ""
 "wish to verify that your internet connection is working correctly."
 msgstr ""
 "Möglicherweise ist sie momentan nicht erreichbar oder umgezogen.<br/>Stellen"
-" SIe sicher, dass Ihre Internetverbindung korrekt funktioniert."
+" Sie sicher, dass Ihre Internetverbindung korrekt funktioniert."
 
 #: ../src/view_web_errors.py:131
 msgid "Network not available"
@@ -554,9 +558,9 @@ msgid ""
 "messages, credit card information, or passwords)."
 msgstr ""
 "Die Echtheit von %s konnte nicht bestätigt werden.<br/> Angreifer könnten "
-"versuchen, könnten versuchen Datenströme von und zu dieser Seite zu "
-"verändern oder abzuhören.(Z. B. persönliche Mitteilungen, Kreditkartendaten "
-"oder Passwörter)."
+"versuchen, Datenströme von und zu dieser Seite zu verändern oder abzuhören "
+"und z. B. an persönliche Mitteilungen, Kreditkartendaten oder Passwörter "
+"gelangen."
 
 #: ../src/view_web_errors.py:193
 msgid "Accept Risk and Proceed"
@@ -564,7 +568,7 @@ msgstr "Risiko akzeptieren und fortfahren"
 
 #: ../src/view_web_errors.py:209 ../src/view_web_errors.py:214
 msgid "WebKit web engine crashed"
-msgstr ""
+msgstr "Die WebKit-Engine ist abgestürzt"
 
 #: ../src/view_web_errors.py:216
 msgid ""
@@ -572,10 +576,14 @@ msgid ""
 " page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
 "<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
+"Diese Webseite ist unerwartet abgestürzt. <br/><br/>Falls das Problem "
+"weiterhin besteht, können Sie einen Fehlerbericht schreiben :)<br/>Das "
+"relevante Projekt ist <b>'Webkit Gtk'</b>.<br/>Stellen dem Namen ihres "
+"Berichts <b>[GTK]</b> voran."
 
 #: ../src/view_web_errors.py:222
 msgid "Report a bug now"
-msgstr ""
+msgstr "Einen Programmfehler melden"
 
 #: ../src/widget_edit_bookmark.py:321 ../src/widget_edit_bookmark.py:328
 msgid "Apply"
@@ -704,7 +712,7 @@ msgstr "Filter"
 
 #: ../data/ActionsMenu.ui.h:19 ../data/Languages.ui.h:1
 msgid "Spell checking"
-msgstr ""
+msgstr "Rechtschreibprüfung"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Preferences"
@@ -712,7 +720,7 @@ msgstr "_Einstellungen"
 
 #: ../data/Appmenu.ui.h:2
 msgid "_Report a bug"
-msgstr ""
+msgstr "_Fehler melden"
 
 #: ../data/Appmenu.ui.h:3
 msgid "_Keyboard Shortcuts"
@@ -1003,10 +1011,38 @@ msgid "Manage passwords"
 msgstr "Passwörter verwalten"
 
 #: ../data/SettingsDialog.ui.h:43
+msgid "Keep history:"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:44
+msgid "One day"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:45
+msgid "One week"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:46
+msgid "Four weeks"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:47
+msgid "A year"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:48
+msgid "Forever"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:49
+msgid "Do not keep"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:50
 msgid "Privacy"
 msgstr "Privatsphäre"
 
-#: ../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:51
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
@@ -1014,19 +1050,19 @@ msgstr ""
 "Sie können bei Verwendung von Eolie oder Firefox Verlauf und Lesezeichen auf"
 " all Ihren Geräten synchronisieren"
 
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:53
 msgid "Login:"
 msgstr "Login:"
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:54
 msgid "Password:"
 msgstr "Passwort:"
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:56
 msgid "Create or manage account"
 msgstr "Account anlegen oder verwalten"
 
-#: ../data/SettingsDialog.ui.h:50
+#: ../data/SettingsDialog.ui.h:57
 msgid "Synchronization"
 msgstr "Synchronisation"
 
@@ -1063,17 +1099,17 @@ msgstr "Adresse eingeben"
 #: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Show bookmarks"
-msgstr ""
+msgstr "Lesezeichen anzeigen"
 
 #: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Show history"
-msgstr ""
+msgstr "Verlauf anzeigen"
 
 #: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "Suche"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"

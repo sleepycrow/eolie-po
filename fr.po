@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-20 11:37+0200\n"
-"PO-Revision-Date: 2017-06-20 05:39-0400\n"
+"POT-Creation-Date: 2017-06-21 11:36+0200\n"
+"PO-Revision-Date: 2017-06-21 05:39-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -115,14 +115,18 @@ msgid "Cookies storage type"
 msgstr "Type de stockage des cookies"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:25
+msgid "History storage type"
+msgstr "Type de stockage de l'historique"
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "Panel mode"
 msgstr "Mode du panneau"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:32
+#: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/SettingsDialog.ui.h:32
 msgid "Tell websites I do not want to be tracked"
 msgstr "Dire aux sites web de ne pas me suivre"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:28 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
 msgstr "Activer la correction orthographique "
 
@@ -145,11 +149,11 @@ msgstr "Nouvelle page privée"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie est un nouveau navigateur web pour GNOME."
 
-#: ../src/application.py:559
+#: ../src/application.py:568
 msgid "Do you really want to quit Eolie?"
 msgstr "Voulez vous vraiment quitter Eolie?"
 
-#: ../src/application.py:688
+#: ../src/application.py:697
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vous devez installer yelp."
 
@@ -380,27 +384,27 @@ msgstr "https://fr.search.yahoo.com"
 msgid "Preferences"
 msgstr "Préférences"
 
-#: ../src/settings.py:388
+#: ../src/settings.py:399
 msgid "Connecting…"
 msgstr "Connexion…"
 
-#: ../src/settings.py:423
+#: ../src/settings.py:434
 msgid "Synchronization is working"
 msgstr "La synchronisation fonctionne"
 
-#: ../src/settings.py:429
+#: ../src/settings.py:440
 msgid "Cancel synchronization"
 msgstr "Annuler la synchronisation"
 
-#: ../src/settings.py:432
+#: ../src/settings.py:443
 msgid "Synchronization is not working"
 msgstr "La synchronisation ne fonctionne pas"
 
-#: ../src/settings.py:438 ../data/SettingsDialog.ui.h:48
+#: ../src/settings.py:449 ../data/SettingsDialog.ui.h:55
 msgid "Allow synchronization"
 msgstr "Autoriser la synchronisation"
 
-#: ../src/settings.py:449
+#: ../src/settings.py:460
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -410,7 +414,7 @@ msgstr ""
 "sur cet ordinateur:\n"
 "%s"
 
-#: ../src/settings.py:476
+#: ../src/settings.py:487
 msgid "You've received an email to validate synchronization"
 msgstr "Vous avez reçu un email pour valider la synchronisation"
 
@@ -438,11 +442,11 @@ msgstr "Enregistrer la page"
 msgid "Save"
 msgstr "Enregistrer"
 
-#: ../src/toolbar_title.py:164
+#: ../src/toolbar_title.py:175
 msgid "This page contains insecure content"
 msgstr "Cette page contient du contenu non sécurisé"
 
-#: ../src/toolbar_title.py:200
+#: ../src/toolbar_title.py:211
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
@@ -450,15 +454,15 @@ msgstr ""
 "Attention : cette page n'est pas sécurisée.\\nSi vous entrez votre mot de "
 "passe,\\n il sera visible aux cybercriminels !"
 
-#: ../src/toolbar_title.py:242
+#: ../src/toolbar_title.py:253
 msgid "Blocked popups"
 msgstr "Popups bloqués"
 
-#: ../src/toolbar_title.py:359
+#: ../src/toolbar_title.py:370
 msgid "Copy address"
 msgstr "Copier l'adresse"
 
-#: ../src/toolbar_title.py:614 ../src/toolbar_title.py:617
+#: ../src/toolbar_title.py:634 ../src/toolbar_title.py:637
 msgid "Search or enter address"
 msgstr "Rechercher ou entrer une adresse"
 
@@ -1009,10 +1013,38 @@ msgid "Manage passwords"
 msgstr "Gérer les mots de passe"
 
 #: ../data/SettingsDialog.ui.h:43
+msgid "Keep history:"
+msgstr "Conserver l'historique:"
+
+#: ../data/SettingsDialog.ui.h:44
+msgid "One day"
+msgstr "Un jour"
+
+#: ../data/SettingsDialog.ui.h:45
+msgid "One week"
+msgstr "Une semaine"
+
+#: ../data/SettingsDialog.ui.h:46
+msgid "Four weeks"
+msgstr "Quatre semaines"
+
+#: ../data/SettingsDialog.ui.h:47
+msgid "A year"
+msgstr "Une année"
+
+#: ../data/SettingsDialog.ui.h:48
+msgid "Forever"
+msgstr "Toujours"
+
+#: ../data/SettingsDialog.ui.h:49
+msgid "Do not keep"
+msgstr "Ne pas conserver"
+
+#: ../data/SettingsDialog.ui.h:50
 msgid "Privacy"
 msgstr "Vie privée"
 
-#: ../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:51
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
@@ -1020,19 +1052,19 @@ msgstr ""
 "Vous pouvez partager vos marques pages et votre historique\n"
 "avec tous vos appareils utilisant Eolie ou Firefox"
 
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:53
 msgid "Login:"
 msgstr "Identifiant:"
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:54
 msgid "Password:"
 msgstr "Mot de passe:"
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:56
 msgid "Create or manage account"
 msgstr "Créer ou gérer votre compte"
 
-#: ../data/SettingsDialog.ui.h:50
+#: ../data/SettingsDialog.ui.h:57
 msgid "Synchronization"
 msgstr "Synchronisation"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-20 11:37+0200\n"
+"POT-Creation-Date: 2017-06-21 11:36+0200\n"
 "PO-Revision-Date: 2017-06-03 04:44-0400\n"
 "Last-Translator: Nathan Follens <follens@dr.com>\n"
 "Language-Team: Dutch\n"
@@ -111,14 +111,18 @@ msgid "Cookies storage type"
 msgstr "Cookie-opslagtype"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:25
+msgid "History storage type"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "Panel mode"
 msgstr "Paneelmodus"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:32
+#: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/SettingsDialog.ui.h:32
 msgid "Tell websites I do not want to be tracked"
 msgstr "Websites vertellen dat ik niet gevolgd wil worden"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:28 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
 msgstr ""
 
@@ -141,11 +145,11 @@ msgstr "Nieuw privétabblad"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie is een webbrowser voor Gnome."
 
-#: ../src/application.py:559
+#: ../src/application.py:568
 msgid "Do you really want to quit Eolie?"
 msgstr ""
 
-#: ../src/application.py:688
+#: ../src/application.py:697
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: je moet yelp installeren."
 
@@ -376,34 +380,34 @@ msgstr "https://us.search.yahoo.com"
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: ../src/settings.py:388
+#: ../src/settings.py:399
 msgid "Connecting…"
 msgstr "Verbinding maken…"
 
-#: ../src/settings.py:423
+#: ../src/settings.py:434
 msgid "Synchronization is working"
 msgstr "Synchronisatie werkt"
 
-#: ../src/settings.py:429
+#: ../src/settings.py:440
 msgid "Cancel synchronization"
 msgstr "Synchronisatie annuleren"
 
-#: ../src/settings.py:432
+#: ../src/settings.py:443
 msgid "Synchronization is not working"
 msgstr "Synchronisatie werkt momenteel niet"
 
-#: ../src/settings.py:438 ../data/SettingsDialog.ui.h:48
+#: ../src/settings.py:449 ../data/SettingsDialog.ui.h:55
 msgid "Allow synchronization"
 msgstr "Synchronisatie toestaan"
 
-#: ../src/settings.py:449
+#: ../src/settings.py:460
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
 " %s"
 msgstr "Synchronisatie is niet beschikbaar op je computer: %s"
 
-#: ../src/settings.py:476
+#: ../src/settings.py:487
 msgid "You've received an email to validate synchronization"
 msgstr "Je hebt een e-mail ontvangen om de synchronisatie te valideren"
 
@@ -431,11 +435,11 @@ msgstr "Pagina opslaan"
 msgid "Save"
 msgstr "Opslaan"
 
-#: ../src/toolbar_title.py:164
+#: ../src/toolbar_title.py:175
 msgid "This page contains insecure content"
 msgstr "Deze pagina bevat niet-beveiligde inhoud"
 
-#: ../src/toolbar_title.py:200
+#: ../src/toolbar_title.py:211
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
@@ -443,15 +447,15 @@ msgstr ""
 "Opgelet: deze pagina is niet beveiligd.\\nAls je je wachtwoord ingeeft,\\n "
 "zal het zichtbaar zijn voor cybercriminelen!"
 
-#: ../src/toolbar_title.py:242
+#: ../src/toolbar_title.py:253
 msgid "Blocked popups"
 msgstr "Geblokkeerde pop-ups"
 
-#: ../src/toolbar_title.py:359
+#: ../src/toolbar_title.py:370
 msgid "Copy address"
 msgstr "Adres kopiëren"
 
-#: ../src/toolbar_title.py:614 ../src/toolbar_title.py:617
+#: ../src/toolbar_title.py:634 ../src/toolbar_title.py:637
 msgid "Search or enter address"
 msgstr "Zoek of voer een adres in"
 
@@ -1001,10 +1005,38 @@ msgid "Manage passwords"
 msgstr "Wachtwoorden beheren"
 
 #: ../data/SettingsDialog.ui.h:43
+msgid "Keep history:"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:44
+msgid "One day"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:45
+msgid "One week"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:46
+msgid "Four weeks"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:47
+msgid "A year"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:48
+msgid "Forever"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:49
+msgid "Do not keep"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:50
 msgid "Privacy"
 msgstr "Privacy"
 
-#: ../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:51
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
@@ -1012,19 +1044,19 @@ msgstr ""
 "Je kan je bladwijzers en geschiedenis delen met alle\n"
 "apparaten waarop je Eolie of Firefox gebruikt"
 
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:53
 msgid "Login:"
 msgstr "E-mailadres:"
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:54
 msgid "Password:"
 msgstr "Wachtwoord:"
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:56
 msgid "Create or manage account"
 msgstr "Account aanmaken of beheren"
 
-#: ../data/SettingsDialog.ui.h:50
+#: ../data/SettingsDialog.ui.h:57
 msgid "Synchronization"
 msgstr "Synchronisatie"
 
