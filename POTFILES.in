@@ -59,6 +59,7 @@ src/window.py
 [type: gettext/glade]data/PopoverJavaScript.ui
 [type: gettext/glade]data/PopoverPasswords.ui
 [type: gettext/glade]data/PopoverUri.ui
+[type: gettext/glade]data/QuitDialog.ui
 [type: gettext/glade]data/RowDownload.ui
 [type: gettext/glade]data/SettingsDialog.ui
 [type: gettext/glade]data/Shortcuts.ui
