@@ -53,6 +53,7 @@
 	../data/PopoverJavaScript.ui \
 	../data/PopoverPasswords.ui \
 	../data/PopoverUri.ui \
+	../data/QuitDialog.ui \
 	../data/RowDownload.ui \
 	../data/SettingsDialog.ui \
 	../data/Shortcuts.ui \

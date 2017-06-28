@@ -19,6 +19,7 @@ src/define.py
 src/download_manager.py
 src/languages.py
 src/localized.py
+src/menu_form.py
 src/menu_history.py
 src/menu_pages.py
 src/mozilla_sync.py
