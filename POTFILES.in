@@ -33,7 +33,11 @@ src/popover_uri.py
 src/search.py
 src/settings.py
 src/sqlcursor.py
+src/stack.py
+src/stackbox.py
+src/stackbox_child.py
 src/stacksidebar.py
+src/stacksidebar_child.py
 src/toolbar_actions.py
 src/toolbar_end.py
 src/toolbar.py
@@ -66,7 +70,7 @@ src/window.py
 [type: gettext/glade]data/RowDownload.ui
 [type: gettext/glade]data/SettingsDialog.ui
 [type: gettext/glade]data/Shortcuts.ui
-[type: gettext/glade]data/SidebarChild.ui
+[type: gettext/glade]data/StackChild.ui
 [type: gettext/glade]data/TagWidget.ui
 [type: gettext/glade]data/ToolbarActions.ui
 [type: gettext/glade]data/ToolbarEnd.ui
