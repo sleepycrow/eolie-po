@@ -24,6 +24,12 @@ src/menu_form.py
 src/menu_history.py
 src/menu_pages.py
 src/mozilla_sync.py
+src/pages_manager.py
+src/pages_manager_child.py
+src/pages_manager_flowbox.py
+src/pages_manager_flowbox_child.py
+src/pages_manager_listbox.py
+src/pages_manager_listbox_child.py
 src/popover_cookies.py
 src/popover_credentials.py
 src/popover_downloads.py
