@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 13:05+0200\n"
-"PO-Revision-Date: 2017-06-21 08:03-0400\n"
+"POT-Creation-Date: 2017-07-12 13:24+0200\n"
+"PO-Revision-Date: 2017-07-05 03:00-0400\n"
 "Last-Translator: Nathan Follens <follens@dr.com>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -145,11 +145,11 @@ msgstr "Nieuw privétabblad"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie is een webbrowser voor Gnome."
 
-#: ../src/application.py:568
+#: ../src/application.py:571
 msgid "Do you really want to quit Eolie?"
 msgstr "Weet u zeker dat u Eolie wil afsluiten?"
 
-#: ../src/application.py:697
+#: ../src/application.py:700
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: je moet yelp installeren."
 
@@ -219,10 +219,14 @@ msgstr "HTML-bladwijzers importeren"
 
 #: ../src/dialog_search_engine.py:170 ../src/dialog_search_engine.py:174
 msgid "New engine"
-msgstr ""
+msgstr "Nieuwe zoekmachine"
 
-#: ../src/menu_form.py:37
+#: ../src/menu_form.py:38
 msgid "Saved credentials"
+msgstr "Opgeslagen gebruikersreferenties"
+
+#: ../src/menu_pages.py:52
+msgid "No panel"
 msgstr ""
 
 #: ../src/menu_pages.py:54
@@ -245,11 +249,19 @@ msgstr "Weergeven"
 msgid "Closed pages"
 msgstr "Gesloten tabbladen"
 
-#: ../src/menu_pages.py:119
+#: ../src/menu_pages.py:122
 msgid "Open all pages"
 msgstr "Alle pagina's openen"
 
-#: ../src/popover_credentials.py:124
+#: ../src/pages_manager.py:393
+msgid "Do you really want to close this page?"
+msgstr "Weet u zeker dat u deze pagina wil sluiten?"
+
+#: ../src/pages_manager_listbox_child.py:89 ../data/ToolbarActions.ui.h:7
+msgid "Close page"
+msgstr ""
+
+#: ../src/popover_credentials.py:123
 msgid "Do you want to modify this password?"
 msgstr "Wil je dit wachtwoord wijzigen?"
 
@@ -316,7 +328,7 @@ msgid "Continue"
 msgstr "Verdergaan"
 
 #: ../src/popover_javascript.py:60 ../src/popover_uri.py:410
-#: ../src/toolbar_end.py:301 ../src/view_web.py:536
+#: ../src/toolbar_end.py:300 ../src/view_web.py:549
 #: ../data/PopoverJavaScript.ui.h:2 ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Annuleren"
@@ -388,58 +400,54 @@ msgstr "https://us.search.yahoo.com"
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: ../src/settings.py:404
+#: ../src/settings.py:407
 msgid "Connecting…"
 msgstr "Verbinding maken…"
 
-#: ../src/settings.py:439
+#: ../src/settings.py:442
 msgid "Synchronization is working"
 msgstr "Synchronisatie werkt"
 
-#: ../src/settings.py:445
+#: ../src/settings.py:448
 msgid "Cancel synchronization"
 msgstr "Synchronisatie annuleren"
 
-#: ../src/settings.py:448
+#: ../src/settings.py:451
 msgid "Synchronization is not working"
 msgstr "Synchronisatie werkt momenteel niet"
 
-#: ../src/settings.py:454 ../data/SettingsDialog.ui.h:52
+#: ../src/settings.py:457 ../data/SettingsDialog.ui.h:52
 msgid "Allow synchronization"
 msgstr "Synchronisatie toestaan"
 
-#: ../src/settings.py:465
+#: ../src/settings.py:468
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
 " %s"
 msgstr "Synchronisatie is niet beschikbaar op je computer: %s"
 
-#: ../src/settings.py:492
+#: ../src/settings.py:495
 msgid "You've received an email to validate synchronization"
 msgstr "Je hebt een e-mail ontvangen om de synchronisatie te valideren"
 
-#: ../src/stacksidebar.py:370
-msgid "Do you really want to close this page?"
-msgstr "Weet u zeker dat u deze pagina wil sluiten?"
-
-#: ../src/toolbar_end.py:121
+#: ../src/toolbar_end.py:120
 msgid "Downloading:"
 msgstr "Downloaden:"
 
-#: ../src/toolbar_end.py:250 ../data/ToolbarEnd.ui.h:1
+#: ../src/toolbar_end.py:249 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Volledig scherm verlaten"
 
-#: ../src/toolbar_end.py:252
+#: ../src/toolbar_end.py:251
 msgid "Enter fullscreen"
 msgstr "Volledig scherm"
 
-#: ../src/toolbar_end.py:297 ../data/ActionsMenu.ui.h:10
+#: ../src/toolbar_end.py:296 ../data/ActionsMenu.ui.h:10
 msgid "Save page"
 msgstr "Pagina opslaan"
 
-#: ../src/toolbar_end.py:300 ../data/PopoverCredentials.ui.h:2
+#: ../src/toolbar_end.py:299 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Opslaan"
 
@@ -463,23 +471,27 @@ msgstr "Geblokkeerde pop-ups"
 msgid "Copy address"
 msgstr "Adres kopiëren"
 
-#: ../src/toolbar_title.py:624 ../src/toolbar_title.py:627
+#: ../src/toolbar_title.py:627 ../src/toolbar_title.py:630
 msgid "Search or enter address"
 msgstr "Zoek of voer een adres in"
 
-#: ../src/view_web.py:442
+#: ../src/view_web.py:441
 msgid "Open link in a new page"
 msgstr "Link openen in een nieuw tabblad"
 
-#: ../src/view_web.py:457 ../data/PopoverImages.ui.h:1
+#: ../src/view_web.py:456
+msgid "Search on the Web"
+msgstr ""
+
+#: ../src/view_web.py:473 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Afbeeldingen opslaan"
 
-#: ../src/view_web.py:532
+#: ../src/view_web.py:545
 msgid "Select files to upload"
 msgstr "Selecteer bestanden om te uploaden"
 
-#: ../src/view_web.py:535
+#: ../src/view_web.py:548
 msgid "Open"
 msgstr "Openen"
 
@@ -838,27 +850,29 @@ msgstr ""
 
 #: ../data/DialogSearchEngine.ui.h:1
 msgid "Search engines"
-msgstr ""
+msgstr "Zoekmachines"
 
 #: ../data/DialogSearchEngine.ui.h:2
 msgid "Name:"
-msgstr ""
+msgstr "Naam:"
 
 #: ../data/DialogSearchEngine.ui.h:4
 msgid "Default:"
-msgstr ""
+msgstr "Standaard:"
 
 #: ../data/DialogSearchEngine.ui.h:5
 msgid "Bang:"
-msgstr ""
+msgstr "Bang:"
 
 #: ../data/DialogSearchEngine.ui.h:6
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
+"Gebruik: als de bang ‘g’ is, typ dan ‘g:’ in de zoekbalk om deze zoekmachine"
+" te gebruiken"
 
 #: ../data/DialogSearchEngine.ui.h:7
 msgid "Search:"
-msgstr ""
+msgstr "Zoeken:"
 
 #: ../data/DialogSearchEngine.ui.h:9
 #, no-c-format
@@ -867,6 +881,9 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term"
 " from the resulting address and replace it with %s."
 msgstr ""
+"Voer, om het zoekadres te bepalen, een zoekopdracht uit met de zoekmachine "
+"die je wil toevoegen, en controleer het adres van de pagina waarop je "
+"terechtkomt. Verwijder de zoekterm uit dit adres en vervang deze door ‘%s’."
 
 #: ../data/ImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
@@ -936,7 +953,7 @@ msgstr "Sluiten"
 msgid "Cancel download"
 msgstr "Download annuleren"
 
-#: ../data/SettingsDialog.ui.h:2
+#: ../data/SettingsDialog.ui.h:2 ../data/ToolbarEnd.ui.h:2
 msgid "Downloads"
 msgstr "Downloads"
 
@@ -954,7 +971,7 @@ msgstr "Gedownloade bestanden automatisch openen"
 
 #: ../data/SettingsDialog.ui.h:7
 msgid "Search engines:"
-msgstr ""
+msgstr "Zoekmachines:"
 
 #: ../data/SettingsDialog.ui.h:8
 msgid "Web content"
@@ -986,7 +1003,7 @@ msgstr "Vorige tabbladen onthouden bij opstarten"
 
 #: ../data/SettingsDialog.ui.h:17
 msgid "Configure engines"
-msgstr ""
+msgstr "Zoekmachines configureren"
 
 #: ../data/SettingsDialog.ui.h:18
 msgid "General"
@@ -1179,60 +1196,102 @@ msgstr "Pagina's filteren"
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
+msgid "Show all pages when panel is hidden"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:19
+msgctxt "shortcut window"
 msgid "Show source code"
 msgstr "Broncode weergeven"
 
-#: ../data/Shortcuts.ui.h:19
+#: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Web page"
 msgstr "Webpagina"
 
-#: ../data/Shortcuts.ui.h:20
+#: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Save page"
 msgstr "Pagina opslaan"
 
-#: ../data/Shortcuts.ui.h:21
+#: ../data/Shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Print page"
 msgstr "Pagina afdrukken"
 
-#: ../data/Shortcuts.ui.h:22
+#: ../data/Shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Search for"
 msgstr "Zoeken naar"
 
-#: ../data/Shortcuts.ui.h:23
+#: ../data/Shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
 msgstr "Advertentieblokkering uitschakelen op deze website"
 
-#: ../data/Shortcuts.ui.h:24
+#: ../data/Shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigation"
 msgstr "Navigatie"
 
-#: ../data/Shortcuts.ui.h:25
+#: ../data/Shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Pagina herladen"
 
-#: ../data/Shortcuts.ui.h:26
+#: ../data/Shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Panel mode"
 msgstr "Paneelmodus"
 
-#: ../data/Shortcuts.ui.h:27
+#: ../data/Shortcuts.ui.h:28
+msgctxt "shortcut window"
+msgid "No panel"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Show preview"
 msgstr "Miniatuur weergeven"
 
-#: ../data/Shortcuts.ui.h:28
+#: ../data/Shortcuts.ui.h:30
 msgctxt "shortcut window"
 msgid "Do not show preview"
 msgstr "Miniatuur niet weergeven"
 
-#: ../data/Shortcuts.ui.h:29
+#: ../data/Shortcuts.ui.h:31
 msgctxt "shortcut window"
 msgid "Minimal"
 msgstr "Minimaal"
+
+#: ../data/ToolbarActions.ui.h:1
+msgid "Backward"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:2
+msgid "Forward"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:3
+msgid "New page"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:4
+msgid "Filter pages"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:5
+msgid "View all pages"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:6
+msgid "0"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:8
+msgid "More actions"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui.h:3
+msgid "Startup page"
+msgstr ""

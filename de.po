@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 13:05+0200\n"
+"POT-Creation-Date: 2017-07-12 13:24+0200\n"
 "PO-Revision-Date: 2017-07-01 06:54-0400\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German\n"
@@ -145,11 +145,11 @@ msgstr "Neuer privater Tab"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie ist ein neuer Webbrowser für GNOME."
 
-#: ../src/application.py:568
+#: ../src/application.py:571
 msgid "Do you really want to quit Eolie?"
 msgstr "Möchten Sie Eolie wirklich beenden?"
 
-#: ../src/application.py:697
+#: ../src/application.py:700
 msgid "Eolie: You need to install yelp."
 msgstr "Sie müssen \"yelp\" installieren."
 
@@ -221,8 +221,12 @@ msgstr "HTML-Lesezeichen importieren"
 msgid "New engine"
 msgstr ""
 
-#: ../src/menu_form.py:37
+#: ../src/menu_form.py:38
 msgid "Saved credentials"
+msgstr ""
+
+#: ../src/menu_pages.py:52
+msgid "No panel"
 msgstr ""
 
 #: ../src/menu_pages.py:54
@@ -245,11 +249,19 @@ msgstr "Tableiste"
 msgid "Closed pages"
 msgstr "Geschlossene Tabs"
 
-#: ../src/menu_pages.py:119
+#: ../src/menu_pages.py:122
 msgid "Open all pages"
 msgstr "Alles öffnen"
 
-#: ../src/popover_credentials.py:124
+#: ../src/pages_manager.py:393
+msgid "Do you really want to close this page?"
+msgstr "Soll dieser Tab wirklich geschlossen werden?"
+
+#: ../src/pages_manager_listbox_child.py:89 ../data/ToolbarActions.ui.h:7
+msgid "Close page"
+msgstr ""
+
+#: ../src/popover_credentials.py:123
 msgid "Do you want to modify this password?"
 msgstr "Soll dieses Passwort verändert werden?"
 
@@ -316,7 +328,7 @@ msgid "Continue"
 msgstr "Fortfahren"
 
 #: ../src/popover_javascript.py:60 ../src/popover_uri.py:410
-#: ../src/toolbar_end.py:301 ../src/view_web.py:536
+#: ../src/toolbar_end.py:300 ../src/view_web.py:549
 #: ../data/PopoverJavaScript.ui.h:2 ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -388,27 +400,27 @@ msgstr "https://de.search.yahoo.com/"
 msgid "Preferences"
 msgstr "Einstellungen"
 
-#: ../src/settings.py:404
+#: ../src/settings.py:407
 msgid "Connecting…"
 msgstr "Verbinde..."
 
-#: ../src/settings.py:439
+#: ../src/settings.py:442
 msgid "Synchronization is working"
 msgstr "Synchronisation funktioniert"
 
-#: ../src/settings.py:445
+#: ../src/settings.py:448
 msgid "Cancel synchronization"
 msgstr "Synchronisation abbrechen"
 
-#: ../src/settings.py:448
+#: ../src/settings.py:451
 msgid "Synchronization is not working"
 msgstr "Synchronisation fehlgeschlagen"
 
-#: ../src/settings.py:454 ../data/SettingsDialog.ui.h:52
+#: ../src/settings.py:457 ../data/SettingsDialog.ui.h:52
 msgid "Allow synchronization"
 msgstr "Synchronisation erlauben"
 
-#: ../src/settings.py:465
+#: ../src/settings.py:468
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -417,31 +429,27 @@ msgstr ""
 "Synchronisation nicht verfügbar auf Ihrem Gerät:\n"
 "%s"
 
-#: ../src/settings.py:492
+#: ../src/settings.py:495
 msgid "You've received an email to validate synchronization"
 msgstr "Sie haben eine Bestätiguns-E-Mail für die Synchronisation erhalten"
 
-#: ../src/stacksidebar.py:370
-msgid "Do you really want to close this page?"
-msgstr "Soll dieser Tab wirklich geschlossen werden?"
-
-#: ../src/toolbar_end.py:121
+#: ../src/toolbar_end.py:120
 msgid "Downloading:"
 msgstr "Download von:"
 
-#: ../src/toolbar_end.py:250 ../data/ToolbarEnd.ui.h:1
+#: ../src/toolbar_end.py:249 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Vollbildmodus beenden"
 
-#: ../src/toolbar_end.py:252
+#: ../src/toolbar_end.py:251
 msgid "Enter fullscreen"
 msgstr "Vollbildmodus"
 
-#: ../src/toolbar_end.py:297 ../data/ActionsMenu.ui.h:10
+#: ../src/toolbar_end.py:296 ../data/ActionsMenu.ui.h:10
 msgid "Save page"
 msgstr "Seite speichern"
 
-#: ../src/toolbar_end.py:300 ../data/PopoverCredentials.ui.h:2
+#: ../src/toolbar_end.py:299 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Speichern"
 
@@ -465,23 +473,27 @@ msgstr "Blockierte Popups"
 msgid "Copy address"
 msgstr "Adresse kopieren"
 
-#: ../src/toolbar_title.py:624 ../src/toolbar_title.py:627
+#: ../src/toolbar_title.py:627 ../src/toolbar_title.py:630
 msgid "Search or enter address"
 msgstr "Suchen oder Adresse eingeben"
 
-#: ../src/view_web.py:442
+#: ../src/view_web.py:441
 msgid "Open link in a new page"
 msgstr "Link in neuem Tab öffnen"
 
-#: ../src/view_web.py:457 ../data/PopoverImages.ui.h:1
+#: ../src/view_web.py:456
+msgid "Search on the Web"
+msgstr ""
+
+#: ../src/view_web.py:473 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Bilder speichern"
 
-#: ../src/view_web.py:532
+#: ../src/view_web.py:545
 msgid "Select files to upload"
 msgstr "Dateien zum Upload auswählen"
 
-#: ../src/view_web.py:535
+#: ../src/view_web.py:548
 msgid "Open"
 msgstr "Öffnen"
 
@@ -938,7 +950,7 @@ msgstr "Schließen"
 msgid "Cancel download"
 msgstr "Download abbrechen"
 
-#: ../data/SettingsDialog.ui.h:2
+#: ../data/SettingsDialog.ui.h:2 ../data/ToolbarEnd.ui.h:2
 msgid "Downloads"
 msgstr "Downloads"
 
@@ -1181,60 +1193,102 @@ msgstr "Tabs filtern"
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
+msgid "Show all pages when panel is hidden"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:19
+msgctxt "shortcut window"
 msgid "Show source code"
 msgstr "Seitenquelltext anzeigen"
 
-#: ../data/Shortcuts.ui.h:19
+#: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Web page"
 msgstr "Webseite"
 
-#: ../data/Shortcuts.ui.h:20
+#: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Save page"
 msgstr "Seite speichern"
 
-#: ../data/Shortcuts.ui.h:21
+#: ../data/Shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Print page"
 msgstr "Seie drucken"
 
-#: ../data/Shortcuts.ui.h:22
+#: ../data/Shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Search for"
 msgstr "Auf aktueller Webseite Text suchen"
 
-#: ../data/Shortcuts.ui.h:23
+#: ../data/Shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
 msgstr "Werbeblocker für aktuelle Webseite deaktivieren"
 
-#: ../data/Shortcuts.ui.h:24
+#: ../data/Shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigation"
 msgstr "Navigation"
 
-#: ../data/Shortcuts.ui.h:25
+#: ../data/Shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Seite neu laden"
 
-#: ../data/Shortcuts.ui.h:26
+#: ../data/Shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Panel mode"
 msgstr "Modus der Tableiste"
 
-#: ../data/Shortcuts.ui.h:27
+#: ../data/Shortcuts.ui.h:28
+msgctxt "shortcut window"
+msgid "No panel"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Show preview"
 msgstr "Vorschau anzeigen"
 
-#: ../data/Shortcuts.ui.h:28
+#: ../data/Shortcuts.ui.h:30
 msgctxt "shortcut window"
 msgid "Do not show preview"
 msgstr "Keine Vorschau"
 
-#: ../data/Shortcuts.ui.h:29
+#: ../data/Shortcuts.ui.h:31
 msgctxt "shortcut window"
 msgid "Minimal"
 msgstr "Minimalmodus"
+
+#: ../data/ToolbarActions.ui.h:1
+msgid "Backward"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:2
+msgid "Forward"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:3
+msgid "New page"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:4
+msgid "Filter pages"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:5
+msgid "View all pages"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:6
+msgid "0"
+msgstr ""
+
+#: ../data/ToolbarActions.ui.h:8
+msgid "More actions"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui.h:3
+msgid "Startup page"
+msgstr ""

@@ -39,11 +39,6 @@ src/popover_uri.py
 src/search.py
 src/settings.py
 src/sqlcursor.py
-src/stack.py
-src/stackbox.py
-src/stackbox_child.py
-src/stacksidebar.py
-src/stacksidebar_child.py
 src/toolbar_actions.py
 src/toolbar_end.py
 src/toolbar.py
