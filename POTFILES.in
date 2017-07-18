@@ -30,9 +30,13 @@ src/pages_manager_flowbox.py
 src/pages_manager_flowbox_child.py
 src/pages_manager_listbox.py
 src/pages_manager_listbox_child.py
+src/pages_overlay.py
+src/pages_overlay_child.py
 src/popover_cookies.py
 src/popover_credentials.py
 src/popover_downloads.py
+src/popover_geolocation.py
+src/popover_images.py
 src/popover_javascript.py
 src/popover_passwords.py
 src/popover_uri.py
@@ -63,6 +67,7 @@ src/window.py
 [type: gettext/glade]data/PopoverCookies.ui
 [type: gettext/glade]data/PopoverCredentials.ui
 [type: gettext/glade]data/PopoverDownloads.ui
+[type: gettext/glade]data/PopoverGeolocation.ui
 [type: gettext/glade]data/PopoverImages.ui
 [type: gettext/glade]data/PopoverJavaScript.ui
 [type: gettext/glade]data/PopoverPasswords.ui
