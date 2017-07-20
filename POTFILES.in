@@ -31,7 +31,6 @@ src/pages_manager_flowbox_child.py
 src/pages_manager_listbox.py
 src/pages_manager_listbox_child.py
 src/pages_overlay.py
-src/pages_overlay_child.py
 src/popover_cookies.py
 src/popover_credentials.py
 src/popover_downloads.py

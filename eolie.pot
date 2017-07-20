@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-12 13:24+0200\n"
+"POT-Creation-Date: 2017-07-20 08:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgstr ""
 msgid "Remember sessions"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:31
+#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:32
 msgid "Remember passwords"
 msgstr ""
 
@@ -81,19 +81,19 @@ msgstr ""
 msgid "Enable plugins"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:20
+#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:21
 msgid "Use system fonts"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:21
+#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:22
 msgid "Sans serif font"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:22
+#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:23
 msgid "Serif font"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:24
 msgid "Monospace font"
 msgstr ""
 
@@ -101,31 +101,35 @@ msgstr ""
 msgid "Open this page on startup"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:25
 msgid "Minimum font size"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:23
-msgid "INTERNAL"
+msgid "Popular items shown"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:24
-msgid "Cookies storage type"
+msgid "INTERNAL"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:25
-msgid "History storage type"
+msgid "Cookies storage type"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:26
+msgid "History storage type"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:27
 msgid "Panel mode"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/SettingsDialog.ui.h:29
+#: ../data/org.gnome.Eolie.gschema.xml.h:28 ../data/SettingsDialog.ui.h:30
 msgid "Tell websites I do not want to be tracked"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:28 ../data/Languages.ui.h:2
+#: ../data/org.gnome.Eolie.gschema.xml.h:29 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
 msgstr ""
 
@@ -148,27 +152,27 @@ msgstr ""
 msgid "Eolie is a new GNOME web browser."
 msgstr ""
 
-#: ../src/application.py:571
+#: ../src/application.py:612
 msgid "Do you really want to quit Eolie?"
 msgstr ""
 
-#: ../src/application.py:700
+#: ../src/application.py:740
 msgid "Eolie: You need to install yelp."
 msgstr ""
 
-#: ../src/context.py:87 ../data/SettingsDialog.ui.h:13
+#: ../src/context.py:81 ../data/SettingsDialog.ui.h:13
 msgid "Popular pages"
 msgstr ""
 
-#: ../src/context.py:130
+#: ../src/context.py:124
 msgid "Name"
 msgstr ""
 
-#: ../src/context.py:131
+#: ../src/context.py:125
 msgid "Size"
 msgstr ""
 
-#: ../src/context.py:133
+#: ../src/context.py:127
 msgid "Last modification"
 msgstr ""
 
@@ -208,7 +212,7 @@ msgstr ""
 msgid "Plugins data"
 msgstr ""
 
-#: ../src/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:27
+#: ../src/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:28
 msgid "Cookies"
 msgstr ""
 
@@ -252,15 +256,15 @@ msgstr ""
 msgid "Closed pages"
 msgstr ""
 
-#: ../src/menu_pages.py:122
+#: ../src/menu_pages.py:123
 msgid "Open all pages"
 msgstr ""
 
-#: ../src/pages_manager.py:393
+#: ../src/pages_manager.py:434
 msgid "Do you really want to close this page?"
 msgstr ""
 
-#: ../src/pages_manager_listbox_child.py:89 ../data/ToolbarActions.ui.h:7
+#: ../src/pages_manager_listbox_child.py:114 ../data/ToolbarActions.ui.h:6
 msgid "Close page"
 msgstr ""
 
@@ -326,13 +330,18 @@ msgstr ""
 msgid "Remaining time:"
 msgstr ""
 
+#: ../src/popover_geolocation.py:45
+msgid "Allow this page to get your location?"
+msgstr ""
+
 #: ../src/popover_javascript.py:59
 msgid "Continue"
 msgstr ""
 
 #: ../src/popover_javascript.py:60 ../src/popover_uri.py:410
-#: ../src/toolbar_end.py:300 ../src/view_web.py:549
-#: ../data/PopoverJavaScript.ui.h:2 ../data/QuitDialog.ui.h:1
+#: ../src/toolbar_end.py:311 ../src/view_web.py:564
+#: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
+#: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr ""
 
@@ -348,12 +357,14 @@ msgstr ""
 msgid "Open all pages for this tag"
 msgstr ""
 
-#: ../src/popover_uri.py:715
-msgid "Populars"
+#. Translators: Plural
+#: ../src/popover_uri.py:714
+msgid "Popular"
 msgstr ""
 
+#. Translators: Plural
 #: ../src/popover_uri.py:717
-msgid "Recents"
+msgid "Recent"
 msgstr ""
 
 #: ../src/popover_uri.py:719
@@ -403,96 +414,104 @@ msgstr ""
 msgid "Preferences"
 msgstr ""
 
-#: ../src/settings.py:407
+#: ../src/settings.py:423
 msgid "Connecting…"
 msgstr ""
 
-#: ../src/settings.py:442
+#: ../src/settings.py:458
 msgid "Synchronization is working"
 msgstr ""
 
-#: ../src/settings.py:448
+#: ../src/settings.py:464
 msgid "Cancel synchronization"
 msgstr ""
 
-#: ../src/settings.py:451
+#: ../src/settings.py:467
 msgid "Synchronization is not working"
 msgstr ""
 
-#: ../src/settings.py:457 ../data/SettingsDialog.ui.h:52
+#: ../src/settings.py:473 ../data/SettingsDialog.ui.h:53
 msgid "Allow synchronization"
 msgstr ""
 
-#: ../src/settings.py:468
+#: ../src/settings.py:484
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
 " %s"
 msgstr ""
 
-#: ../src/settings.py:495
+#: ../src/settings.py:511
 msgid "You've received an email to validate synchronization"
 msgstr ""
 
-#: ../src/toolbar_end.py:120
+#: ../src/toolbar_end.py:124
 msgid "Downloading:"
 msgstr ""
 
-#: ../src/toolbar_end.py:249 ../data/ToolbarEnd.ui.h:1
+#: ../src/toolbar_end.py:259 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr ""
 
-#: ../src/toolbar_end.py:251
+#: ../src/toolbar_end.py:261
 msgid "Enter fullscreen"
 msgstr ""
 
-#: ../src/toolbar_end.py:296 ../data/ActionsMenu.ui.h:10
+#: ../src/toolbar_end.py:307 ../data/ActionsMenu.ui.h:10
 msgid "Save page"
 msgstr ""
 
-#: ../src/toolbar_end.py:299 ../data/PopoverCredentials.ui.h:2
+#: ../src/toolbar_end.py:310 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr ""
 
-#: ../src/toolbar_title.py:177
+#: ../src/toolbar_title.py:199
 msgid "This page contains insecure content"
 msgstr ""
 
-#: ../src/toolbar_title.py:212
+#: ../src/toolbar_title.py:250
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
 msgstr ""
 
-#: ../src/toolbar_title.py:254
+#: ../src/toolbar_title.py:292
+msgid "Disallow geolocation"
+msgstr ""
+
+#: ../src/toolbar_title.py:298
 msgid "Blocked popups"
 msgstr ""
 
-#: ../src/toolbar_title.py:332
+#: ../src/toolbar_title.py:379
 msgid "Copy address"
 msgstr ""
 
-#: ../src/toolbar_title.py:627 ../src/toolbar_title.py:630
+#: ../src/toolbar_title.py:684 ../src/toolbar_title.py:687
 msgid "Search or enter address"
 msgstr ""
 
-#: ../src/view_web.py:441
+#: ../src/view_web.py:438
 msgid "Open link in a new page"
 msgstr ""
 
-#: ../src/view_web.py:456
+#: ../src/view_web.py:453
 msgid "Search on the Web"
 msgstr ""
 
-#: ../src/view_web.py:473 ../data/PopoverImages.ui.h:1
+#: ../src/view_web.py:465
+msgid "Copy"
+msgstr ""
+
+#: ../src/view_web.py:482 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr ""
 
-#: ../src/view_web.py:545
+#: ../src/view_web.py:560
 msgid "Select files to upload"
 msgstr ""
 
-#: ../src/view_web.py:548
+#: ../src/view_web.py:563
 msgid "Open"
 msgstr ""
 
@@ -618,10 +637,6 @@ msgstr ""
 msgid "Search next occurrence"
 msgstr ""
 
-#: ../src/widget_find.py:66
-msgid "100 of 100 matches"
-msgstr ""
-
 #: ../data/AboutDialog.ui.h:1
 msgid "A web browser for GNOME."
 msgstr ""
@@ -692,34 +707,43 @@ msgid "Print page"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:12
-msgid "Zoom out"
+msgid "Start page"
 msgstr ""
 
-#: ../data/ActionsMenu.ui.h:13 ../data/SettingsDialog.ui.h:25
-msgid "Default zoom level"
+#: ../data/ActionsMenu.ui.h:13 ../data/SettingsDialog.ui.h:2
+#: ../data/ToolbarEnd.ui.h:2
+msgid "Downloads"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:14
-msgid "Zoom in"
+msgid "Zoom out"
 msgstr ""
 
-#: ../data/ActionsMenu.ui.h:15
-msgid "Block ads"
+#: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:26
+msgid "Default zoom level"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:16
-msgid "Block popups"
+msgid "Zoom in"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:17
-msgid "Block images"
+msgid "Block ads"
 msgstr ""
 
 #: ../data/ActionsMenu.ui.h:18
+msgid "Block popups"
+msgstr ""
+
+#: ../data/ActionsMenu.ui.h:19
+msgid "Block images"
+msgstr ""
+
+#: ../data/ActionsMenu.ui.h:20
 msgid "Filtering"
 msgstr ""
 
-#: ../data/ActionsMenu.ui.h:19 ../data/Languages.ui.h:1
+#: ../data/ActionsMenu.ui.h:21 ../data/Languages.ui.h:1
 msgid "Spell checking"
 msgstr ""
 
@@ -771,7 +795,7 @@ msgstr ""
 msgid "Set the tags you want to associate this bookmark with"
 msgstr ""
 
-#: ../data/ClearData.ui.h:1 ../data/SettingsDialog.ui.h:38
+#: ../data/ClearData.ui.h:1 ../data/SettingsDialog.ui.h:39
 msgid "Clear Personal Data"
 msgstr ""
 
@@ -897,12 +921,16 @@ msgstr ""
 msgid "No active download"
 msgstr ""
 
-#: ../data/PopoverImages.ui.h:2
-msgid "Show links"
+#: ../data/PopoverGeolocation.ui.h:1 ../data/PopoverJavaScript.ui.h:1
+msgid "Ok"
 msgstr ""
 
-#: ../data/PopoverJavaScript.ui.h:1
-msgid "Ok"
+#: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:46
+msgid "Forever"
+msgstr ""
+
+#: ../data/PopoverImages.ui.h:2
+msgid "Show links"
 msgstr ""
 
 #: ../data/PopoverPasswords.ui.h:1
@@ -931,10 +959,6 @@ msgstr ""
 
 #: ../data/RowDownload.ui.h:1
 msgid "Cancel download"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:2 ../data/ToolbarEnd.ui.h:2
-msgid "Downloads"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:3
@@ -986,104 +1010,104 @@ msgid "Configure engines"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:18
-msgid "General"
+msgid "Bookmarks shown"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:19
+msgid "General"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:20
 msgid "Fonts"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:26
+#: ../data/SettingsDialog.ui.h:27
 msgid "Appearance"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:28
+#: ../data/SettingsDialog.ui.h:29
 msgid "Tracking"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:30
+#: ../data/SettingsDialog.ui.h:31
 msgid "Passwords"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:32
+#: ../data/SettingsDialog.ui.h:33
 msgid "Saved data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:33
+#: ../data/SettingsDialog.ui.h:34
 msgid "Behaviour:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:34
+#: ../data/SettingsDialog.ui.h:35
 msgid "Always accept"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:35
+#: ../data/SettingsDialog.ui.h:36
 msgid "Only from sites you visit"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:36
+#: ../data/SettingsDialog.ui.h:37
 msgid "Never accept"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:37
+#: ../data/SettingsDialog.ui.h:38
 msgid "Manage cookies"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:40
 msgid "Manage passwords"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:40
+#: ../data/SettingsDialog.ui.h:41
 msgid "Keep history:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:41
+#: ../data/SettingsDialog.ui.h:42
 msgid "One day"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:42
+#: ../data/SettingsDialog.ui.h:43
 msgid "One week"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:43
+#: ../data/SettingsDialog.ui.h:44
 msgid "Four weeks"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:45
 msgid "A year"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:45
-msgid "Forever"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:47
 msgid "Do not keep"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:48
 msgid "Privacy"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:48
+#: ../data/SettingsDialog.ui.h:49
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:50
+#: ../data/SettingsDialog.ui.h:51
 msgid "Login:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:51
+#: ../data/SettingsDialog.ui.h:52
 msgid "Password:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:53
+#: ../data/SettingsDialog.ui.h:54
 msgid "Create or manage account"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:54
+#: ../data/SettingsDialog.ui.h:55
 msgid "Synchronization"
 msgstr ""
 
@@ -1174,7 +1198,7 @@ msgstr ""
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
-msgid "Show all pages when panel is hidden"
+msgid "View all pages"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:19
@@ -1262,11 +1286,7 @@ msgstr ""
 msgid "View all pages"
 msgstr ""
 
-#: ../data/ToolbarActions.ui.h:6
-msgid "0"
-msgstr ""
-
-#: ../data/ToolbarActions.ui.h:8
+#: ../data/ToolbarActions.ui.h:7
 msgid "More actions"
 msgstr ""
 
