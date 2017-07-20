@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-20 08:48+0200\n"
+"POT-Creation-Date: 2017-07-20 16:16+0200\n"
 "PO-Revision-Date: 2017-07-05 03:00-0400\n"
 "Last-Translator: Nathan Follens <follens@dr.com>\n"
 "Language-Team: Dutch\n"
@@ -51,82 +51,86 @@ msgid "Block images on pages"
 msgstr "Afbeeldingen blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:10
+msgid "Block Javascript on pages"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:11
 msgid "Download folder URI"
 msgstr "Map-URI downloaden"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:11
+#: ../data/org.gnome.Eolie.gschema.xml.h:12
 msgid "Open finished downloads"
 msgstr "Voltooide downloads openen"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:12
+#: ../data/org.gnome.Eolie.gschema.xml.h:13
 msgid "Web search engine"
 msgstr "Zoekmachine"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:13
+#: ../data/org.gnome.Eolie.gschema.xml.h:14
 msgid "Remember sessions"
 msgstr "Sessies onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:32
+#: ../data/org.gnome.Eolie.gschema.xml.h:15 ../data/SettingsDialog.ui.h:32
 msgid "Remember passwords"
 msgstr "Wachtwoorden onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:15
+#: ../data/org.gnome.Eolie.gschema.xml.h:16
 msgid "Enable developer tools"
 msgstr "Hulpprogramma's voor ontwikkelaars inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:9
 msgid "Enable plugins"
 msgstr "Plug-ins inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:21
+#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:21
 msgid "Use system fonts"
 msgstr "Systeemlettertypen gebruiken"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:22
+#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:22
 msgid "Sans serif font"
 msgstr "Schreefloos"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:23
 msgid "Serif font"
 msgstr "Met schreef"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:24
 msgid "Monospace font"
 msgstr "Niet-proportioneel"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:21
+#: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Open this page on startup"
 msgstr "Deze pagina openen bij opstarten"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/SettingsDialog.ui.h:25
 msgid "Minimum font size"
 msgstr "Minimale lettergrootte"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Popular items shown"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:25
 msgid "INTERNAL"
 msgstr "INTERN"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "Cookies storage type"
 msgstr "Cookie-opslagtype"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:27
 msgid "History storage type"
 msgstr "Geschiedenisopslagtype"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:28
 msgid "Panel mode"
 msgstr "Paneelmodus"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:28 ../data/SettingsDialog.ui.h:30
+#: ../data/org.gnome.Eolie.gschema.xml.h:29 ../data/SettingsDialog.ui.h:30
 msgid "Tell websites I do not want to be tracked"
 msgstr "Websites vertellen dat ik niet gevolgd wil worden"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:29 ../data/Languages.ui.h:2
+#: ../data/org.gnome.Eolie.gschema.xml.h:30 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
 msgstr "Spellingcontrole inschakelen"
 
@@ -149,11 +153,11 @@ msgstr "Nieuw privétabblad"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie is een webbrowser voor Gnome."
 
-#: ../src/application.py:612
+#: ../src/application.py:616
 msgid "Do you really want to quit Eolie?"
 msgstr "Weet u zeker dat u Eolie wil afsluiten?"
 
-#: ../src/application.py:740
+#: ../src/application.py:744
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: je moet yelp installeren."
 
@@ -257,7 +261,7 @@ msgstr "Gesloten tabbladen"
 msgid "Open all pages"
 msgstr "Alle pagina's openen"
 
-#: ../src/pages_manager.py:434
+#: ../src/pages_manager.py:433
 msgid "Do you really want to close this page?"
 msgstr "Weet u zeker dat u deze pagina wil sluiten?"
 
@@ -335,62 +339,67 @@ msgstr ""
 msgid "Continue"
 msgstr "Verdergaan"
 
-#: ../src/popover_javascript.py:60 ../src/popover_uri.py:410
-#: ../src/toolbar_end.py:311 ../src/view_web.py:564
+#: ../src/popover_javascript.py:60 ../src/popover_uri.py:418
+#: ../src/toolbar_end.py:342 ../src/view_web.py:564
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../src/popover_uri.py:129
+#: ../src/popover_uri.py:117
 msgid "Delete page from history"
 msgstr "Pagina verwijderen uit geschiedenis"
 
-#: ../src/popover_uri.py:139
+#: ../src/popover_uri.py:132
 msgid "Edit bookmark"
 msgstr "Bladwijzer bewerken"
 
-#: ../src/popover_uri.py:149
+#: ../src/popover_uri.py:152
 msgid "Open all pages for this tag"
 msgstr "Alle pagina's voor deze tag openen"
 
 #. Translators: Plural
-#: ../src/popover_uri.py:714
+#: ../src/popover_uri.py:722
 msgid "Popular"
 msgstr ""
 
 #. Translators: Plural
-#: ../src/popover_uri.py:717
+#: ../src/popover_uri.py:725
 msgid "Recent"
 msgstr ""
 
-#: ../src/popover_uri.py:719
+#: ../src/popover_uri.py:727
 msgid "Unclassified"
 msgstr "Ongeclassificeerd"
 
-#: ../src/popover_uri.py:742
+#: ../src/popover_uri.py:750
 msgid "From the past hour"
 msgstr "Van het voorbije uur"
 
-#: ../src/popover_uri.py:743
+#: ../src/popover_uri.py:751
 msgid "From the past day"
 msgstr "Van de voorbije dag"
 
-#: ../src/popover_uri.py:744
+#: ../src/popover_uri.py:752
 msgid "From the past week"
 msgstr "Van de voorbije week"
 
-#: ../src/popover_uri.py:746
+#: ../src/popover_uri.py:754
 msgid "From the past four weeks"
 msgstr "Van de voorbije vier weken"
 
-#: ../src/popover_uri.py:747
+#: ../src/popover_uri.py:755
 msgid "From selected day"
 msgstr "Vanaf een bepaalde dag"
 
-#: ../src/popover_uri.py:748
+#: ../src/popover_uri.py:756
 msgid "From the beginning"
 msgstr "Vanaf het begin"
+
+#: ../src/popover_uri.py:1015
+#, python-format
+msgid "%s bookmarks"
+msgstr ""
 
 #. Translators: Google url for your country
 #: ../src/search.py:34
@@ -442,23 +451,23 @@ msgstr "Synchronisatie is niet beschikbaar op je computer: %s"
 msgid "You've received an email to validate synchronization"
 msgstr "Je hebt een e-mail ontvangen om de synchronisatie te valideren"
 
-#: ../src/toolbar_end.py:124
+#: ../src/toolbar_end.py:140
 msgid "Downloading:"
 msgstr "Downloaden:"
 
-#: ../src/toolbar_end.py:259 ../data/ToolbarEnd.ui.h:1
+#: ../src/toolbar_end.py:290 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Volledig scherm verlaten"
 
-#: ../src/toolbar_end.py:261
+#: ../src/toolbar_end.py:292
 msgid "Enter fullscreen"
 msgstr "Volledig scherm"
 
-#: ../src/toolbar_end.py:307 ../data/ActionsMenu.ui.h:10
+#: ../src/toolbar_end.py:338 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Pagina opslaan"
 
-#: ../src/toolbar_end.py:310 ../data/PopoverCredentials.ui.h:2
+#: ../src/toolbar_end.py:341 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Opslaan"
 
@@ -711,48 +720,61 @@ msgctxt "Popup exception"
 msgid "None"
 msgstr "Geen"
 
+#: ../data/ActionsMenu.ui.h:10
+msgid "Do not block JavaScript"
+msgstr ""
+
 #: ../data/ActionsMenu.ui.h:11
+msgctxt "JavasSript exception"
+msgid "None"
+msgstr ""
+
+#: ../data/ActionsMenu.ui.h:13
 msgid "Print page"
 msgstr "Pagina afdrukken"
 
-#: ../data/ActionsMenu.ui.h:12
+#: ../data/ActionsMenu.ui.h:14
 msgid "Start page"
 msgstr ""
 
-#: ../data/ActionsMenu.ui.h:13 ../data/SettingsDialog.ui.h:2
+#: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:2
 #: ../data/ToolbarEnd.ui.h:2
 msgid "Downloads"
 msgstr "Downloads"
 
-#: ../data/ActionsMenu.ui.h:14
+#: ../data/ActionsMenu.ui.h:16
 msgid "Zoom out"
 msgstr "Uitzoomen"
 
-#: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:26
+#: ../data/ActionsMenu.ui.h:17 ../data/SettingsDialog.ui.h:26
 msgid "Default zoom level"
 msgstr "Standaardzoomniveau"
 
-#: ../data/ActionsMenu.ui.h:16
+#: ../data/ActionsMenu.ui.h:18
 msgid "Zoom in"
 msgstr "Inzoomen"
 
-#: ../data/ActionsMenu.ui.h:17
+#: ../data/ActionsMenu.ui.h:19
 msgid "Block ads"
 msgstr "Advertenties blokkeren"
 
-#: ../data/ActionsMenu.ui.h:18
+#: ../data/ActionsMenu.ui.h:20
 msgid "Block popups"
 msgstr "Pop-ups blokkeren"
 
-#: ../data/ActionsMenu.ui.h:19
+#: ../data/ActionsMenu.ui.h:21
 msgid "Block images"
 msgstr "Afbeeldingen blokkeren"
 
-#: ../data/ActionsMenu.ui.h:20
+#: ../data/ActionsMenu.ui.h:22
+msgid "Block JavaScript"
+msgstr ""
+
+#: ../data/ActionsMenu.ui.h:23
 msgid "Filtering"
 msgstr "Filters"
 
-#: ../data/ActionsMenu.ui.h:21 ../data/Languages.ui.h:1
+#: ../data/ActionsMenu.ui.h:24 ../data/Languages.ui.h:1
 msgid "Spell checking"
 msgstr "Spellingcontrole"
 
@@ -973,7 +995,7 @@ msgstr "Geschiedenis wissen"
 msgid "History"
 msgstr "Geschiedenis"
 
-#: ../data/PopoverUri.ui.h:7 ../data/QuitDialog.ui.h:2
+#: ../data/QuitDialog.ui.h:2
 msgid "Close"
 msgstr "Sluiten"
 
