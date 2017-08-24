@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 16:16+0200\n"
-"PO-Revision-Date: 2017-07-05 03:00-0400\n"
+"PO-Revision-Date: 2017-08-23 04:14-0400\n"
 "Last-Translator: Nathan Follens <follens@dr.com>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -52,7 +52,7 @@ msgstr "Afbeeldingen blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:10
 msgid "Block Javascript on pages"
-msgstr ""
+msgstr "JavaScript blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:11
 msgid "Download folder URI"
@@ -108,7 +108,7 @@ msgstr "Minimale lettergrootte"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Popular items shown"
-msgstr ""
+msgstr "Weergegeven populaire items"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:25
 msgid "INTERNAL"
@@ -235,7 +235,7 @@ msgstr "Opgeslagen gebruikersreferenties"
 
 #: ../src/menu_pages.py:52
 msgid "No panel"
-msgstr ""
+msgstr "Geen paneel"
 
 #: ../src/menu_pages.py:54
 msgid "Show preview"
@@ -267,7 +267,7 @@ msgstr "Weet u zeker dat u deze pagina wil sluiten?"
 
 #: ../src/pages_manager_listbox_child.py:114 ../data/ToolbarActions.ui.h:6
 msgid "Close page"
-msgstr ""
+msgstr "Tabblad sluiten"
 
 #: ../src/popover_credentials.py:123
 msgid "Do you want to modify this password?"
@@ -333,7 +333,7 @@ msgstr "Resterende tijd:"
 
 #: ../src/popover_geolocation.py:45
 msgid "Allow this page to get your location?"
-msgstr ""
+msgstr "Deze pagina toegang geven tot uw locatie?"
 
 #: ../src/popover_javascript.py:59
 msgid "Continue"
@@ -361,12 +361,12 @@ msgstr "Alle pagina's voor deze tag openen"
 #. Translators: Plural
 #: ../src/popover_uri.py:722
 msgid "Popular"
-msgstr ""
+msgstr "Populair"
 
 #. Translators: Plural
 #: ../src/popover_uri.py:725
 msgid "Recent"
-msgstr ""
+msgstr "Recent"
 
 #: ../src/popover_uri.py:727
 msgid "Unclassified"
@@ -399,7 +399,7 @@ msgstr "Vanaf het begin"
 #: ../src/popover_uri.py:1015
 #, python-format
 msgid "%s bookmarks"
-msgstr ""
+msgstr "%s bladwijzers"
 
 #. Translators: Google url for your country
 #: ../src/search.py:34
@@ -485,7 +485,7 @@ msgstr ""
 
 #: ../src/toolbar_title.py:292
 msgid "Disallow geolocation"
-msgstr ""
+msgstr "Geolocatie uitschakelen"
 
 #: ../src/toolbar_title.py:298
 msgid "Blocked popups"
@@ -505,11 +505,11 @@ msgstr "Link openen in een nieuw tabblad"
 
 #: ../src/view_web.py:453
 msgid "Search on the Web"
-msgstr ""
+msgstr "Zoeken op het internet"
 
 #: ../src/view_web.py:465
 msgid "Copy"
-msgstr ""
+msgstr "Kopiëren"
 
 #: ../src/view_web.py:482 ../data/PopoverImages.ui.h:1
 msgid "Save images"
@@ -722,12 +722,12 @@ msgstr "Geen"
 
 #: ../data/ActionsMenu.ui.h:10
 msgid "Do not block JavaScript"
-msgstr ""
+msgstr "JavaScript niet blokkeren"
 
 #: ../data/ActionsMenu.ui.h:11
 msgctxt "JavasSript exception"
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
 #: ../data/ActionsMenu.ui.h:13
 msgid "Print page"
@@ -735,7 +735,7 @@ msgstr "Pagina afdrukken"
 
 #: ../data/ActionsMenu.ui.h:14
 msgid "Start page"
-msgstr ""
+msgstr "Startpagina"
 
 #: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:2
 #: ../data/ToolbarEnd.ui.h:2
@@ -768,7 +768,7 @@ msgstr "Afbeeldingen blokkeren"
 
 #: ../data/ActionsMenu.ui.h:22
 msgid "Block JavaScript"
-msgstr ""
+msgstr "JavaScript blokkeren"
 
 #: ../data/ActionsMenu.ui.h:23
 msgid "Filtering"
@@ -1053,7 +1053,7 @@ msgstr "Zoekmachines configureren"
 
 #: ../data/SettingsDialog.ui.h:18
 msgid "Bookmarks shown"
-msgstr ""
+msgstr "Weergegeven bladwijzers"
 
 #: ../data/SettingsDialog.ui.h:19
 msgid "General"
@@ -1243,7 +1243,7 @@ msgstr "Pagina's filteren"
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "View all pages"
-msgstr ""
+msgstr "Alle tabbladen weergeven"
 
 #: ../data/Shortcuts.ui.h:19
 msgctxt "shortcut window"
@@ -1293,7 +1293,7 @@ msgstr "Paneelmodus"
 #: ../data/Shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "No panel"
-msgstr ""
+msgstr "Geen paneel"
 
 #: ../data/Shortcuts.ui.h:29
 msgctxt "shortcut window"
@@ -1312,28 +1312,28 @@ msgstr "Minimaal"
 
 #: ../data/ToolbarActions.ui.h:1
 msgid "Backward"
-msgstr ""
+msgstr "Terug"
 
 #: ../data/ToolbarActions.ui.h:2
 msgid "Forward"
-msgstr ""
+msgstr "Vooruit"
 
 #: ../data/ToolbarActions.ui.h:3
 msgid "New page"
-msgstr ""
+msgstr "Nieuw tabblad"
 
 #: ../data/ToolbarActions.ui.h:4
 msgid "Filter pages"
-msgstr ""
+msgstr "Tabbladen filteren"
 
 #: ../data/ToolbarActions.ui.h:5
 msgid "View all pages"
-msgstr ""
+msgstr "Alle tabbladen weergeven"
 
 #: ../data/ToolbarActions.ui.h:7
 msgid "More actions"
-msgstr ""
+msgstr "Meer acties"
 
 #: ../data/ToolbarEnd.ui.h:3
 msgid "Startup page"
-msgstr ""
+msgstr "Opstartpagina"
