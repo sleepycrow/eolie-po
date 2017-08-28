@@ -26,10 +26,6 @@ src/menu_pages.py
 src/mozilla_sync.py
 src/pages_manager.py
 src/pages_manager_child.py
-src/pages_manager_flowbox.py
-src/pages_manager_flowbox_child.py
-src/pages_manager_listbox.py
-src/pages_manager_listbox_child.py
 src/pages_overlay.py
 src/popover_cookies.py
 src/popover_credentials.py
@@ -41,6 +37,8 @@ src/popover_passwords.py
 src/popover_uri.py
 src/search.py
 src/settings.py
+src/sites_manager.py
+src/sites_manager_child.py
 src/sqlcursor.py
 src/toolbar_actions.py
 src/toolbar_end.py
