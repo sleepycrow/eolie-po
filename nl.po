@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-20 16:16+0200\n"
+"POT-Creation-Date: 2017-08-29 09:13+0200\n"
 "PO-Revision-Date: 2017-08-23 04:14-0400\n"
 "Last-Translator: Nathan Follens <follens@dr.com>\n"
 "Language-Team: Dutch\n"
@@ -39,98 +39,102 @@ msgid "Window maximized state"
 msgstr "Venster in gemaximaliseerde staat"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
+msgid "Show panel on the left (sites manager)"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Block ads on pages"
 msgstr "Advertenties blokkeren"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:8
+#: ../data/org.gnome.Eolie.gschema.xml.h:9
 msgid "Block unwanted popups on pages"
 msgstr "Ongewenste pop-ups blokkeren"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:10
 msgid "Block images on pages"
 msgstr "Afbeeldingen blokkeren"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:10
+#: ../data/org.gnome.Eolie.gschema.xml.h:11
 msgid "Block Javascript on pages"
 msgstr "JavaScript blokkeren"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:11
+#: ../data/org.gnome.Eolie.gschema.xml.h:12
 msgid "Download folder URI"
 msgstr "Map-URI downloaden"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:12
+#: ../data/org.gnome.Eolie.gschema.xml.h:13
 msgid "Open finished downloads"
 msgstr "Voltooide downloads openen"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:13
+#: ../data/org.gnome.Eolie.gschema.xml.h:14
 msgid "Web search engine"
 msgstr "Zoekmachine"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14
+#: ../data/org.gnome.Eolie.gschema.xml.h:15
 msgid "Remember sessions"
 msgstr "Sessies onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:15 ../data/SettingsDialog.ui.h:32
+#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:33
 msgid "Remember passwords"
 msgstr "Wachtwoorden onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:16
+#: ../data/org.gnome.Eolie.gschema.xml.h:17
 msgid "Enable developer tools"
 msgstr "Hulpprogramma's voor ontwikkelaars inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:9
 msgid "Enable plugins"
 msgstr "Plug-ins inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:21
+#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:22
 msgid "Use system fonts"
 msgstr "Systeemlettertypen gebruiken"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:22
+#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:23
 msgid "Sans serif font"
 msgstr "Schreefloos"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:24
 msgid "Serif font"
 msgstr "Met schreef"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:25
 msgid "Monospace font"
 msgstr "Niet-proportioneel"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22
+#: ../data/org.gnome.Eolie.gschema.xml.h:23
 msgid "Open this page on startup"
 msgstr "Deze pagina openen bij opstarten"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:26
 msgid "Minimum font size"
 msgstr "Minimale lettergrootte"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:25
 msgid "Popular items shown"
 msgstr "Weergegeven populaire items"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "INTERNAL"
 msgstr "INTERN"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:27
 msgid "Cookies storage type"
 msgstr "Cookie-opslagtype"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:28
 msgid "History storage type"
 msgstr "Geschiedenisopslagtype"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:28
-msgid "Panel mode"
-msgstr "Paneelmodus"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:29 ../data/SettingsDialog.ui.h:30
+#: ../data/org.gnome.Eolie.gschema.xml.h:29 ../data/SettingsDialog.ui.h:31
 msgid "Tell websites I do not want to be tracked"
 msgstr "Websites vertellen dat ik niet gevolgd wil worden"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:30 ../data/Languages.ui.h:2
+#: ../data/org.gnome.Eolie.gschema.xml.h:30
+msgid "DNS prediction"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:31 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
 msgstr "Spellingcontrole inschakelen"
 
@@ -145,7 +149,7 @@ msgid "Web browser"
 msgstr "Webbrowser"
 
 #. Setup menu
-#: ../data/org.gnome.Eolie.desktop.in.h:3 ../src/menu_pages.py:63
+#: ../data/org.gnome.Eolie.desktop.in.h:3 ../src/menu_pages.py:42
 msgid "New private page"
 msgstr "Nieuw privétabblad"
 
@@ -153,31 +157,31 @@ msgstr "Nieuw privétabblad"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie is een webbrowser voor Gnome."
 
-#: ../src/application.py:616
+#: ../src/application.py:602
 msgid "Do you really want to quit Eolie?"
 msgstr "Weet u zeker dat u Eolie wil afsluiten?"
 
-#: ../src/application.py:744
+#: ../src/application.py:728
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: je moet yelp installeren."
 
-#: ../src/context.py:81 ../data/SettingsDialog.ui.h:13
+#: ../src/context.py:85 ../data/SettingsDialog.ui.h:13
 msgid "Popular pages"
 msgstr "Populaire pagina's"
 
-#: ../src/context.py:124
+#: ../src/context.py:137
 msgid "Name"
 msgstr "Naam"
 
-#: ../src/context.py:125
+#: ../src/context.py:138
 msgid "Size"
 msgstr "Grootte"
 
-#: ../src/context.py:127
+#: ../src/context.py:140
 msgid "Last modification"
 msgstr "Laatst gewijzigd"
 
-#: ../src/database_adblock.py:76
+#: ../src/database_adblock.py:77
 msgid "For stronger ad blocking, install git command"
 msgstr "Installeer het git-commando voor sterkere advertentieblokkering"
 
@@ -213,7 +217,7 @@ msgstr "IndexedDB-databases"
 msgid "Plugins data"
 msgstr "Plug-in-gegevens"
 
-#: ../src/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:28
+#: ../src/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:29
 msgid "Cookies"
 msgstr "Cookies"
 
@@ -229,47 +233,27 @@ msgstr "HTML-bladwijzers importeren"
 msgid "New engine"
 msgstr "Nieuwe zoekmachine"
 
-#: ../src/menu_form.py:38
+#: ../src/menu_form.py:36
 msgid "Saved credentials"
 msgstr "Opgeslagen gebruikersreferenties"
 
-#: ../src/menu_pages.py:52
-msgid "No panel"
-msgstr "Geen paneel"
-
-#: ../src/menu_pages.py:54
-msgid "Show preview"
-msgstr "Miniatuur weergeven"
-
-#: ../src/menu_pages.py:56
-msgid "Do not show preview"
-msgstr "Miniatuur niet weergeven"
-
-#: ../src/menu_pages.py:58
-msgid "Minimal panel"
-msgstr "Minimaal paneel"
-
-#: ../src/menu_pages.py:66
-msgid "View"
-msgstr "Weergeven"
-
-#: ../src/menu_pages.py:68
+#: ../src/menu_pages.py:46
 msgid "Closed pages"
 msgstr "Gesloten tabbladen"
 
-#: ../src/menu_pages.py:123
+#: ../src/menu_pages.py:101
 msgid "Open all pages"
 msgstr "Alle pagina's openen"
 
-#: ../src/pages_manager.py:433
+#: ../src/menu_sites.py:70
+msgid "Close site"
+msgstr ""
+
+#: ../src/pages_manager.py:428
 msgid "Do you really want to close this page?"
 msgstr "Weet u zeker dat u deze pagina wil sluiten?"
 
-#: ../src/pages_manager_listbox_child.py:114 ../data/ToolbarActions.ui.h:6
-msgid "Close page"
-msgstr "Tabblad sluiten"
-
-#: ../src/popover_credentials.py:123
+#: ../src/popover_credentials.py:143
 msgid "Do you want to modify this password?"
 msgstr "Wil je dit wachtwoord wijzigen?"
 
@@ -340,7 +324,7 @@ msgid "Continue"
 msgstr "Verdergaan"
 
 #: ../src/popover_javascript.py:60 ../src/popover_uri.py:418
-#: ../src/toolbar_end.py:342 ../src/view_web.py:564
+#: ../src/toolbar_end.py:345 ../src/view_web.py:587
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -396,23 +380,23 @@ msgstr "Vanaf een bepaalde dag"
 msgid "From the beginning"
 msgstr "Vanaf het begin"
 
-#: ../src/popover_uri.py:1015
+#: ../src/popover_uri.py:1013
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bladwijzers"
 
 #. Translators: Google url for your country
-#: ../src/search.py:34
+#: ../src/search.py:35
 msgid "https://www.google.com"
 msgstr "https://www.google.com"
 
 #. Translators: Yahoo url for your country
-#: ../src/search.py:49
+#: ../src/search.py:50
 msgid "https://www.yahoo.com"
 msgstr "https://www.yahoo.com"
 
 #. Translators: Yahoo url for your country
-#: ../src/search.py:51
+#: ../src/search.py:52
 msgid "https://us.search.yahoo.com"
 msgstr "https://us.search.yahoo.com"
 
@@ -420,34 +404,34 @@ msgstr "https://us.search.yahoo.com"
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: ../src/settings.py:423
+#: ../src/settings.py:433
 msgid "Connecting…"
 msgstr "Verbinding maken…"
 
-#: ../src/settings.py:458
+#: ../src/settings.py:467
 msgid "Synchronization is working"
 msgstr "Synchronisatie werkt"
 
-#: ../src/settings.py:464
+#: ../src/settings.py:473
 msgid "Cancel synchronization"
 msgstr "Synchronisatie annuleren"
 
-#: ../src/settings.py:467
+#: ../src/settings.py:476
 msgid "Synchronization is not working"
 msgstr "Synchronisatie werkt momenteel niet"
 
-#: ../src/settings.py:473 ../data/SettingsDialog.ui.h:53
+#: ../src/settings.py:482 ../data/SettingsDialog.ui.h:55
 msgid "Allow synchronization"
 msgstr "Synchronisatie toestaan"
 
-#: ../src/settings.py:484
+#: ../src/settings.py:493
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
 " %s"
 msgstr "Synchronisatie is niet beschikbaar op je computer: %s"
 
-#: ../src/settings.py:511
+#: ../src/settings.py:520
 msgid "You've received an email to validate synchronization"
 msgstr "Je hebt een e-mail ontvangen om de synchronisatie te valideren"
 
@@ -455,27 +439,27 @@ msgstr "Je hebt een e-mail ontvangen om de synchronisatie te valideren"
 msgid "Downloading:"
 msgstr "Downloaden:"
 
-#: ../src/toolbar_end.py:290 ../data/ToolbarEnd.ui.h:1
+#: ../src/toolbar_end.py:292 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Volledig scherm verlaten"
 
-#: ../src/toolbar_end.py:292
+#: ../src/toolbar_end.py:294
 msgid "Enter fullscreen"
 msgstr "Volledig scherm"
 
-#: ../src/toolbar_end.py:338 ../data/ActionsMenu.ui.h:12
+#: ../src/toolbar_end.py:341 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Pagina opslaan"
 
-#: ../src/toolbar_end.py:341 ../data/PopoverCredentials.ui.h:2
+#: ../src/toolbar_end.py:344 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Opslaan"
 
-#: ../src/toolbar_title.py:199
+#: ../src/toolbar_title.py:203
 msgid "This page contains insecure content"
 msgstr "Deze pagina bevat niet-beveiligde inhoud"
 
-#: ../src/toolbar_title.py:250
+#: ../src/toolbar_title.py:254
 msgid ""
 "Heads-up: this page is not secure.\\nIf you type your password,\\n it will "
 "be visible to cybercriminals!"
@@ -483,43 +467,47 @@ msgstr ""
 "Opgelet: deze pagina is niet beveiligd.\\nAls je je wachtwoord ingeeft,\\n "
 "zal het zichtbaar zijn voor cybercriminelen!"
 
-#: ../src/toolbar_title.py:292
+#: ../src/toolbar_title.py:300
 msgid "Disallow geolocation"
 msgstr "Geolocatie uitschakelen"
 
-#: ../src/toolbar_title.py:298
+#: ../src/toolbar_title.py:306
 msgid "Blocked popups"
 msgstr "Geblokkeerde pop-ups"
 
-#: ../src/toolbar_title.py:379
+#: ../src/toolbar_title.py:387
 msgid "Copy address"
 msgstr "Adres kopiëren"
 
-#: ../src/toolbar_title.py:684 ../src/toolbar_title.py:687
+#: ../src/toolbar_title.py:448
+msgid "Paste and load"
+msgstr ""
+
+#: ../src/toolbar_title.py:682 ../src/toolbar_title.py:685
 msgid "Search or enter address"
 msgstr "Zoek of voer een adres in"
 
-#: ../src/view_web.py:438
+#: ../src/view_web.py:459
 msgid "Open link in a new page"
 msgstr "Link openen in een nieuw tabblad"
 
-#: ../src/view_web.py:453
+#: ../src/view_web.py:475
 msgid "Search on the Web"
 msgstr "Zoeken op het internet"
 
-#: ../src/view_web.py:465
+#: ../src/view_web.py:488
 msgid "Copy"
 msgstr "Kopiëren"
 
-#: ../src/view_web.py:482 ../data/PopoverImages.ui.h:1
+#: ../src/view_web.py:503 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Afbeeldingen opslaan"
 
-#: ../src/view_web.py:560
+#: ../src/view_web.py:583
 msgid "Select files to upload"
 msgstr "Selecteer bestanden om te uploaden"
 
-#: ../src/view_web.py:563
+#: ../src/view_web.py:586
 msgid "Open"
 msgstr "Openen"
 
@@ -631,22 +619,6 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Nu een bug melden"
 
-#: ../src/widget_edit_bookmark.py:321 ../src/widget_edit_bookmark.py:328
-msgid "Apply"
-msgstr "Toepassen"
-
-#: ../src/widget_edit_bookmark.py:323 ../data/BookmarkEdit.ui.h:6
-msgid "Rename"
-msgstr "Hernoemen"
-
-#: ../src/widget_edit_bookmark.py:343 ../src/widget_edit_bookmark.py:350
-msgid "Finished"
-msgstr "Klaar"
-
-#: ../src/widget_edit_bookmark.py:345 ../data/BookmarkEdit.ui.h:7
-msgid "Remove"
-msgstr "Verwijderen"
-
 #: ../src/widget_find.py:47
 msgid "Search previous occurrence"
 msgstr "Vorig voorkomen zoeken"
@@ -654,6 +626,10 @@ msgstr "Vorig voorkomen zoeken"
 #: ../src/widget_find.py:56
 msgid "Search next occurrence"
 msgstr "Volgend voorkomen zoeken"
+
+#: ../src/widget_find.py:123
+msgid "1000 of 1000 matches"
+msgstr ""
 
 #: ../data/AboutDialog.ui.h:1
 msgid "A web browser for GNOME."
@@ -746,7 +722,7 @@ msgstr "Downloads"
 msgid "Zoom out"
 msgstr "Uitzoomen"
 
-#: ../data/ActionsMenu.ui.h:17 ../data/SettingsDialog.ui.h:26
+#: ../data/ActionsMenu.ui.h:17 ../data/SettingsDialog.ui.h:27
 msgid "Default zoom level"
 msgstr "Standaardzoomniveau"
 
@@ -815,18 +791,10 @@ msgid "Remove bookmark"
 msgstr "Bladwijzer verwijderen"
 
 #: ../data/BookmarkEdit.ui.h:4
-msgid "New tag"
-msgstr "Nieuwe tag"
+msgid "Add new tag"
+msgstr ""
 
-#: ../data/BookmarkEdit.ui.h:5
-msgid "Add"
-msgstr "Toevoegen"
-
-#: ../data/BookmarkEdit.ui.h:8
-msgid "Set the tags you want to associate this bookmark with"
-msgstr "Stel de tags in waarmee je deze bladwijzer wil associëren"
-
-#: ../data/ClearData.ui.h:1 ../data/SettingsDialog.ui.h:39
+#: ../data/ClearData.ui.h:1 ../data/SettingsDialog.ui.h:40
 msgid "Clear Personal Data"
 msgstr "Persoonlijke gegevens wissen"
 
@@ -967,7 +935,7 @@ msgstr "Geen downloads actief"
 msgid "Ok"
 msgstr "Oké"
 
-#: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:46
+#: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:47
 msgid "Forever"
 msgstr "Eeuwig"
 
@@ -1036,102 +1004,110 @@ msgid "Search engine"
 msgstr "Zoekmachine"
 
 #: ../data/SettingsDialog.ui.h:14
+msgid "Popular bookmarks"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:15
 msgid "Blank page"
 msgstr "Blanco pagina"
 
-#: ../data/SettingsDialog.ui.h:15
+#: ../data/SettingsDialog.ui.h:16
 msgid "Set address"
 msgstr "Stel adres in"
 
-#: ../data/SettingsDialog.ui.h:16
+#: ../data/SettingsDialog.ui.h:17
 msgid "Remember previous pages on startup"
 msgstr "Vorige tabbladen onthouden bij opstarten"
 
-#: ../data/SettingsDialog.ui.h:17
+#: ../data/SettingsDialog.ui.h:18
 msgid "Configure engines"
 msgstr "Zoekmachines configureren"
 
-#: ../data/SettingsDialog.ui.h:18
+#: ../data/SettingsDialog.ui.h:19
 msgid "Bookmarks shown"
 msgstr "Weergegeven bladwijzers"
 
-#: ../data/SettingsDialog.ui.h:19
+#: ../data/SettingsDialog.ui.h:20
 msgid "General"
 msgstr "Algemeen"
 
-#: ../data/SettingsDialog.ui.h:20
+#: ../data/SettingsDialog.ui.h:21
 msgid "Fonts"
 msgstr "Lettertypen"
 
-#: ../data/SettingsDialog.ui.h:27
+#: ../data/SettingsDialog.ui.h:28
 msgid "Appearance"
 msgstr "Uiterlijk"
 
-#: ../data/SettingsDialog.ui.h:29
+#: ../data/SettingsDialog.ui.h:30
 msgid "Tracking"
 msgstr "Volgen"
 
-#: ../data/SettingsDialog.ui.h:31
+#: ../data/SettingsDialog.ui.h:32
 msgid "Passwords"
 msgstr "Wachtwoorden"
 
-#: ../data/SettingsDialog.ui.h:33
+#: ../data/SettingsDialog.ui.h:34
 msgid "Saved data"
 msgstr "Opgeslagen gegevens"
 
-#: ../data/SettingsDialog.ui.h:34
+#: ../data/SettingsDialog.ui.h:35
 msgid "Behaviour:"
 msgstr "Gedrag:"
 
-#: ../data/SettingsDialog.ui.h:35
+#: ../data/SettingsDialog.ui.h:36
 msgid "Always accept"
 msgstr "Altijd aanvaarden"
 
-#: ../data/SettingsDialog.ui.h:36
+#: ../data/SettingsDialog.ui.h:37
 msgid "Only from sites you visit"
 msgstr "Enkel van bezochte websites"
 
-#: ../data/SettingsDialog.ui.h:37
+#: ../data/SettingsDialog.ui.h:38
 msgid "Never accept"
 msgstr "Nooit aanvaarden"
 
-#: ../data/SettingsDialog.ui.h:38
+#: ../data/SettingsDialog.ui.h:39
 msgid "Manage cookies"
 msgstr "Cookies beheren"
 
-#: ../data/SettingsDialog.ui.h:40
+#: ../data/SettingsDialog.ui.h:41
 msgid "Manage passwords"
 msgstr "Wachtwoorden beheren"
 
-#: ../data/SettingsDialog.ui.h:41
+#: ../data/SettingsDialog.ui.h:42
 msgid "Keep history:"
 msgstr "Geschiedenis bijhouden:"
 
-#: ../data/SettingsDialog.ui.h:42
+#: ../data/SettingsDialog.ui.h:43
 msgid "One day"
 msgstr "Een dag"
 
-#: ../data/SettingsDialog.ui.h:43
+#: ../data/SettingsDialog.ui.h:44
 msgid "One week"
 msgstr "Een week"
 
-#: ../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:45
 msgid "Four weeks"
 msgstr "Vier weken"
 
-#: ../data/SettingsDialog.ui.h:45
+#: ../data/SettingsDialog.ui.h:46
 msgid "A year"
 msgstr "Een jaar"
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:48
 msgid "Do not keep"
 msgstr "Niet bijhouden"
 
-#: ../data/SettingsDialog.ui.h:48
+#: ../data/SettingsDialog.ui.h:49
+msgid "Predict websites address"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:50
 msgid "Privacy"
 msgstr "Privacy"
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:51
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
@@ -1139,19 +1115,19 @@ msgstr ""
 "Je kan je bladwijzers en geschiedenis delen met alle\n"
 "apparaten waarop je Eolie of Firefox gebruikt"
 
-#: ../data/SettingsDialog.ui.h:51
+#: ../data/SettingsDialog.ui.h:53
 msgid "Login:"
 msgstr "E-mailadres:"
 
-#: ../data/SettingsDialog.ui.h:52
+#: ../data/SettingsDialog.ui.h:54
 msgid "Password:"
 msgstr "Wachtwoord:"
 
-#: ../data/SettingsDialog.ui.h:54
+#: ../data/SettingsDialog.ui.h:56
 msgid "Create or manage account"
 msgstr "Account aanmaken of beheren"
 
-#: ../data/SettingsDialog.ui.h:55
+#: ../data/SettingsDialog.ui.h:57
 msgid "Synchronization"
 msgstr "Synchronisatie"
 
@@ -1202,43 +1178,43 @@ msgstr "Zoeken"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
+msgid "Show left panel"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:11
+msgctxt "shortcut window"
 msgid "Pages"
 msgstr "Pagina's"
 
-#: ../data/Shortcuts.ui.h:11
+#: ../data/Shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "New page"
 msgstr "Nieuw tabblad"
 
-#: ../data/Shortcuts.ui.h:12
+#: ../data/Shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Last closed page"
 msgstr "Laatst gesloten tabblad"
 
-#: ../data/Shortcuts.ui.h:13
+#: ../data/Shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "New private page"
 msgstr "Nieuw privétabblad"
 
-#: ../data/Shortcuts.ui.h:14
+#: ../data/Shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Close page"
 msgstr "Tabblad sluiten"
 
-#: ../data/Shortcuts.ui.h:15
+#: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Previous page"
 msgstr "Vorige pagina"
 
-#: ../data/Shortcuts.ui.h:16
+#: ../data/Shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Next page"
 msgstr "Volgende pagina"
-
-#: ../data/Shortcuts.ui.h:17
-msgctxt "shortcut window"
-msgid "Filter pages"
-msgstr "Pagina's filteren"
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
@@ -1267,48 +1243,38 @@ msgstr "Pagina afdrukken"
 
 #: ../data/Shortcuts.ui.h:23
 msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:24
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:25
+msgctxt "shortcut window"
+msgid "Default zoom level"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:26
+msgctxt "shortcut window"
 msgid "Search for"
 msgstr "Zoeken naar"
 
-#: ../data/Shortcuts.ui.h:24
+#: ../data/Shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
 msgstr "Advertentieblokkering uitschakelen op deze website"
 
-#: ../data/Shortcuts.ui.h:25
+#: ../data/Shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "Navigation"
 msgstr "Navigatie"
 
-#: ../data/Shortcuts.ui.h:26
+#: ../data/Shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Pagina herladen"
-
-#: ../data/Shortcuts.ui.h:27
-msgctxt "shortcut window"
-msgid "Panel mode"
-msgstr "Paneelmodus"
-
-#: ../data/Shortcuts.ui.h:28
-msgctxt "shortcut window"
-msgid "No panel"
-msgstr "Geen paneel"
-
-#: ../data/Shortcuts.ui.h:29
-msgctxt "shortcut window"
-msgid "Show preview"
-msgstr "Miniatuur weergeven"
-
-#: ../data/Shortcuts.ui.h:30
-msgctxt "shortcut window"
-msgid "Do not show preview"
-msgstr "Miniatuur niet weergeven"
-
-#: ../data/Shortcuts.ui.h:31
-msgctxt "shortcut window"
-msgid "Minimal"
-msgstr "Minimaal"
 
 #: ../data/ToolbarActions.ui.h:1
 msgid "Backward"
@@ -1323,14 +1289,14 @@ msgid "New page"
 msgstr "Nieuw tabblad"
 
 #: ../data/ToolbarActions.ui.h:4
-msgid "Filter pages"
-msgstr "Tabbladen filteren"
-
-#: ../data/ToolbarActions.ui.h:5
 msgid "View all pages"
 msgstr "Alle tabbladen weergeven"
 
-#: ../data/ToolbarActions.ui.h:7
+#: ../data/ToolbarActions.ui.h:5
+msgid "Close page"
+msgstr "Tabblad sluiten"
+
+#: ../data/ToolbarActions.ui.h:6
 msgid "More actions"
 msgstr "Meer acties"
 
