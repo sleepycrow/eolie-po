@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 09:13+0200\n"
-"PO-Revision-Date: 2017-08-29 03:17-0400\n"
+"POT-Creation-Date: 2017-08-29 18:02+0200\n"
+"PO-Revision-Date: 2017-08-29 12:05-0400\n"
 "Last-Translator: Cédric Bellegarde <cedric.bellegarde@adishatz.org>\n"
 "Language-Team: French (https://www.transifex.com/gnumdk/teams/73174/fr/)\n"
 "Language: fr\n"
@@ -43,8 +43,8 @@ msgid "Window maximized state"
 msgstr "État maximisé de la fenêtre"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
-msgid "Show panel on the left (sites manager)"
-msgstr "Afficher le panneau sur la gauche (gestionnaire de sites)"
+msgid "Show sidebar(sites manager)"
+msgstr "Afficher la barre latérale (gestionnaire de sites)"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Block ads on pages"
@@ -161,11 +161,11 @@ msgstr "Nouvelle page privée"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie est un nouveau navigateur web pour GNOME."
 
-#: ../src/application.py:602
+#: ../src/application.py:608
 msgid "Do you really want to quit Eolie?"
 msgstr "Voulez vous vraiment quitter Eolie?"
 
-#: ../src/application.py:728
+#: ../src/application.py:734
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vous devez installer yelp."
 
@@ -249,11 +249,11 @@ msgstr "Pages fermées"
 msgid "Open all pages"
 msgstr "Ouvrir toutes les pages"
 
-#: ../src/menu_sites.py:70
+#: ../src/menu_sites.py:57
 msgid "Close site"
 msgstr "Fermer le site"
 
-#: ../src/pages_manager.py:428
+#: ../src/pages_manager.py:433
 msgid "Do you really want to close this page?"
 msgstr "Voulez vous vraiment fermer cette page?"
 
@@ -327,7 +327,7 @@ msgstr "Autoriser cette page à obtenir votre localisation?"
 msgid "Continue"
 msgstr "Continuer"
 
-#: ../src/popover_javascript.py:60 ../src/popover_uri.py:418
+#: ../src/popover_javascript.py:60 ../src/popover_uri.py:417
 #: ../src/toolbar_end.py:345 ../src/view_web.py:587
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
@@ -347,44 +347,44 @@ msgid "Open all pages for this tag"
 msgstr "Ouvrir toutes les pages pour cette étiquette"
 
 #. Translators: Plural
-#: ../src/popover_uri.py:722
+#: ../src/popover_uri.py:721
 msgid "Popular"
 msgstr "Populaires"
 
 #. Translators: Plural
-#: ../src/popover_uri.py:725
+#: ../src/popover_uri.py:724
 msgid "Recent"
 msgstr "Récents"
 
-#: ../src/popover_uri.py:727
+#: ../src/popover_uri.py:726
 msgid "Unclassified"
 msgstr "Non classés"
 
-#: ../src/popover_uri.py:750
+#: ../src/popover_uri.py:749
 msgid "From the past hour"
 msgstr "Depuis la dernière heure"
 
-#: ../src/popover_uri.py:751
+#: ../src/popover_uri.py:750
 msgid "From the past day"
 msgstr "Depuis le dernier jour"
 
-#: ../src/popover_uri.py:752
+#: ../src/popover_uri.py:751
 msgid "From the past week"
 msgstr "Depuis la dernière semaine"
 
-#: ../src/popover_uri.py:754
+#: ../src/popover_uri.py:753
 msgid "From the past four weeks"
 msgstr "Depuis les quatre dernières semaines"
 
-#: ../src/popover_uri.py:755
+#: ../src/popover_uri.py:754
 msgid "From selected day"
 msgstr "Depuis le jour sélectionné"
 
-#: ../src/popover_uri.py:756
+#: ../src/popover_uri.py:755
 msgid "From the beginning"
 msgstr "Depuis le début"
 
-#: ../src/popover_uri.py:1013
+#: ../src/popover_uri.py:1012
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s marques pages"
@@ -1182,8 +1182,8 @@ msgstr "Rechercher"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
-msgid "Show left panel"
-msgstr "Afficher le panneau de gauche"
+msgid "Show sidebar"
+msgstr "Afficher la barre latérale"
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"

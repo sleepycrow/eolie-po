@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 09:13+0200\n"
+"POT-Creation-Date: 2017-08-29 18:02+0200\n"
 "PO-Revision-Date: 2017-07-17 07:04-0400\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German\n"
@@ -39,7 +39,7 @@ msgid "Window maximized state"
 msgstr "Fenster maximiert"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
-msgid "Show panel on the left (sites manager)"
+msgid "Show sidebar(sites manager)"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
@@ -157,11 +157,11 @@ msgstr "Neuer privater Tab"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie ist ein neuer Webbrowser für GNOME."
 
-#: ../src/application.py:602
+#: ../src/application.py:608
 msgid "Do you really want to quit Eolie?"
 msgstr "Möchten Sie Eolie wirklich beenden?"
 
-#: ../src/application.py:728
+#: ../src/application.py:734
 msgid "Eolie: You need to install yelp."
 msgstr "Sie müssen \"yelp\" installieren."
 
@@ -245,11 +245,11 @@ msgstr "Geschlossene Tabs"
 msgid "Open all pages"
 msgstr "Alles öffnen"
 
-#: ../src/menu_sites.py:70
+#: ../src/menu_sites.py:57
 msgid "Close site"
 msgstr ""
 
-#: ../src/pages_manager.py:428
+#: ../src/pages_manager.py:433
 msgid "Do you really want to close this page?"
 msgstr "Soll dieser Tab wirklich geschlossen werden?"
 
@@ -323,7 +323,7 @@ msgstr ""
 msgid "Continue"
 msgstr "Fortfahren"
 
-#: ../src/popover_javascript.py:60 ../src/popover_uri.py:418
+#: ../src/popover_javascript.py:60 ../src/popover_uri.py:417
 #: ../src/toolbar_end.py:345 ../src/view_web.py:587
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
@@ -343,44 +343,44 @@ msgid "Open all pages for this tag"
 msgstr "Alle Tabs mit diesem Tag bearbeiten"
 
 #. Translators: Plural
-#: ../src/popover_uri.py:722
+#: ../src/popover_uri.py:721
 msgid "Popular"
 msgstr ""
 
 #. Translators: Plural
-#: ../src/popover_uri.py:725
+#: ../src/popover_uri.py:724
 msgid "Recent"
 msgstr ""
 
-#: ../src/popover_uri.py:727
+#: ../src/popover_uri.py:726
 msgid "Unclassified"
 msgstr "Nicht klassifiziert"
 
-#: ../src/popover_uri.py:750
+#: ../src/popover_uri.py:749
 msgid "From the past hour"
 msgstr "Von der letzten Stunde"
 
-#: ../src/popover_uri.py:751
+#: ../src/popover_uri.py:750
 msgid "From the past day"
 msgstr "Vom letzten Tag"
 
-#: ../src/popover_uri.py:752
+#: ../src/popover_uri.py:751
 msgid "From the past week"
 msgstr "Von der letzten Woche"
 
-#: ../src/popover_uri.py:754
+#: ../src/popover_uri.py:753
 msgid "From the past four weeks"
 msgstr "Von den letzten 4 Wochen"
 
-#: ../src/popover_uri.py:755
+#: ../src/popover_uri.py:754
 msgid "From selected day"
 msgstr "Vom ausgewählten Tag"
 
-#: ../src/popover_uri.py:756
+#: ../src/popover_uri.py:755
 msgid "From the beginning"
 msgstr "Vom Anfang"
 
-#: ../src/popover_uri.py:1013
+#: ../src/popover_uri.py:1012
 #, python-format
 msgid "%s bookmarks"
 msgstr ""
@@ -1176,7 +1176,7 @@ msgstr "Suche"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
-msgid "Show left panel"
+msgid "Show sidebar"
 msgstr ""
 
 #: ../data/Shortcuts.ui.h:11
