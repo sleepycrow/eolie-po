@@ -23,10 +23,10 @@ src/localized.py
 src/menu_form.py
 src/menu_history.py
 src/menu_pages.py
+src/menu_sites.py
 src/mozilla_sync.py
 src/pages_manager.py
 src/pages_manager_child.py
-src/pages_overlay.py
 src/popover_cookies.py
 src/popover_credentials.py
 src/popover_downloads.py
@@ -61,6 +61,7 @@ src/window.py
 [type: gettext/glade]data/DialogSearchEngine.ui
 [type: gettext/glade]data/ImportBookmarks.ui
 [type: gettext/glade]data/Languages.ui
+[type: gettext/glade]data/PagesManagerChild.ui
 [type: gettext/glade]data/PopoverCookies.ui
 [type: gettext/glade]data/PopoverCredentials.ui
 [type: gettext/glade]data/PopoverDownloads.ui
@@ -72,8 +73,8 @@ src/window.py
 [type: gettext/glade]data/QuitDialog.ui
 [type: gettext/glade]data/RowDownload.ui
 [type: gettext/glade]data/SettingsDialog.ui
+[type: gettext/glade]data/SitesManagerChild.ui
 [type: gettext/glade]data/Shortcuts.ui
-[type: gettext/glade]data/StackChild.ui
 [type: gettext/glade]data/TagWidget.ui
 [type: gettext/glade]data/ToolbarActions.ui
 [type: gettext/glade]data/ToolbarEnd.ui
