@@ -5,7 +5,6 @@
 data/org.gnome.Eolie.gschema.xml
 data/org.gnome.Eolie.desktop.in
 data/org.gnome.Eolie.appdata.xml.in
-
 src/application.py
 src/art.py
 src/container.py
