@@ -92,3 +92,4 @@ eolie/window.py
 [type: gettext/glade]data/ToolbarActions.ui
 [type: gettext/glade]data/ToolbarEnd.ui
 [type: gettext/glade]data/ToolbarTitle.ui
+[type: gettext/glade]AboutDialog.ui
