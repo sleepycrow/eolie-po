@@ -34,6 +34,7 @@
 ../eolie/menu_history.py
 ../eolie/menu_pages.py
 ../eolie/menu_sites.py
+../eolie/menu_videos.py
 ../eolie/mozilla_sync.py
 ../eolie/pages_manager_child.py
 ../eolie/pages_manager.py
@@ -58,12 +59,17 @@
 ../eolie/toolbar_title.py
 ../eolie/utils.py
 ../eolie/view.py
-../eolie/view_signals_handler.py
-../eolie/view_web_errors.py
-../eolie/view_web_navigation.py
-../eolie/view_web.py
+../eolie/webview_errors.py
+../eolie/webview_navigation.py
+../eolie/webview.py
+../eolie/webview_signals_dbus.py
+../eolie/webview_signals_js.py
+../eolie/webview_signals_load.py
+../eolie/webview_signals_menu.py
+../eolie/webview_signals.py
 ../eolie/widget_edit_bookmark.py
 ../eolie/widget_find.py
+../eolie/widget_uri_label.py
 ../eolie/window.py
 [type: gettext/glade]../data/ActionsMenu.ui
 [type: gettext/glade]../data/Appmenu.ui
