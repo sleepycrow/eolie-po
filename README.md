@@ -1,0 +1,1 @@
+# Eolie translation files
