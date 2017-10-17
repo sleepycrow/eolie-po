@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-29 08:49+0200\n"
+"POT-Creation-Date: 2017-10-17 07:34+0200\n"
 "PO-Revision-Date: 2017-10-15 16:08+0000\n"
 "Last-Translator: Daria Szatan <bla_ke@tuta.io>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/eolie/eolie/pl/>\n"
@@ -15,460 +15,450 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.17\n"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:1
+#: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Window size"
 msgstr "Rozmiar okna"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:2
+#: ../data/org.gnome.Eolie.gschema.xml.h:2
 msgid "Window size (width and height)"
 msgstr "Rozmiar okna (szerokość, wysokość)"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:3
+#: ../data/org.gnome.Eolie.gschema.xml.h:3
 msgid "Window position"
 msgstr "Położenie okna"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:4
+#: ../data/org.gnome.Eolie.gschema.xml.h:4
 msgid "Window position (x and y)"
 msgstr "Położenie okna (X, Y)"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:5
+#: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "Okno zmaksymalizowane"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:6
+#: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Window maximized state"
 msgstr "Maksymalizuj okno"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:7
+#: ../data/org.gnome.Eolie.gschema.xml.h:7
 msgid "Show sidebar(sites manager)"
 msgstr "Pokaż pasek boczny (menedżer stron)"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:8
+#: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Block ads on pages"
 msgstr "Blokuj reklamy na stronach"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:9
 msgid "Block unwanted popups on pages"
 msgstr "Blokuj niechciane wyskakujące okienka"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:10
+#: ../data/org.gnome.Eolie.gschema.xml.h:10
 msgid "Block images on pages"
 msgstr "Blokuj obrazki"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:11
+#: ../data/org.gnome.Eolie.gschema.xml.h:11
 msgid "Block Javascript on pages"
 msgstr "Blokuj Javascript na stronach"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:12
+#: ../data/org.gnome.Eolie.gschema.xml.h:12
 msgid "Download folder URI"
 msgstr "Pobierz folder URI"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:13
+#: ../data/org.gnome.Eolie.gschema.xml.h:13
 msgid "Open finished downloads"
 msgstr "Otwórz ukończone pobierania"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:14
+#: ../data/org.gnome.Eolie.gschema.xml.h:14
 msgid "Web search engine"
 msgstr "Wyszukiwarka"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:15
+#: ../data/org.gnome.Eolie.gschema.xml.h:15
 msgid "Remember sessions"
 msgstr "Pamiętaj sesje"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:16
-#: ../../data/SettingsDialog.ui.h:34
+#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:34
 msgid "Remember passwords"
 msgstr "Pamiętaj hasła"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:17
-#: ../../data/SettingsDialog.ui.h:20
+#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:20
 msgid "Enable developer tools"
 msgstr "Włącz funkcje programistyczne"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:18
-#: ../../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:9
 msgid "Enable plugins"
 msgstr "Włącz wtyczki"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:19
-#: ../../data/SettingsDialog.ui.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:23
 msgid "Use system fonts"
 msgstr "Używaj czcionek systemowych"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:20
-#: ../../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:24
 msgid "Sans serif font"
 msgstr "Sans Serif"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:21
-#: ../../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:25
 msgid "Serif font"
 msgstr "Serif"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:22
-#: ../../data/SettingsDialog.ui.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:26
 msgid "Monospace font"
 msgstr "Monospace"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:23
 msgid "Open this page on startup"
 msgstr "Otwórz tę stronę na starcie"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Minimum sidebar position"
 msgstr "Minimalna pozycja panelu bocznego"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:25
-#: ../../data/SettingsDialog.ui.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:25 ../data/SettingsDialog.ui.h:27
 msgid "Minimum font size"
 msgstr "Minimalna wielkość czcionki"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "Popular items shown"
 msgstr "Popularne pokazane elementy"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:27
 msgid "INTERNAL"
 msgstr ""
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:28
+#: ../data/org.gnome.Eolie.gschema.xml.h:28
 msgid "Cookies storage type"
 msgstr "Typ magazynowania ciasteczek"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:29
+#: ../data/org.gnome.Eolie.gschema.xml.h:29
 msgid "History storage type"
 msgstr "Typ magazynowania historii"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:30
-#: ../../data/SettingsDialog.ui.h:32
+#: ../data/org.gnome.Eolie.gschema.xml.h:30 ../data/SettingsDialog.ui.h:32
 msgid "Tell websites I do not want to be tracked"
 msgstr "Powiadom witryny, że nie chcę być śledzony"
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:31
+#: ../data/org.gnome.Eolie.gschema.xml.h:31
 msgid "DNS prediction"
 msgstr ""
 
-#: ../../data/org.gnome.Eolie.gschema.xml.h:32 ../../data/Languages.ui.h:2
+#: ../data/org.gnome.Eolie.gschema.xml.h:32 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
 msgstr "Włącz sprawdzanie pisowni"
 
-#: ../../data/AboutDialog.ui.in:14 ../../data/AboutDialog.ui.in.h:1
+#: ../data/AboutDialog.ui.in:14 ../data/AboutDialog.ui.in.h:1
 msgid "A web browser for GNOME."
 msgstr "Przeglądarka internetowa dla GNOME."
 
-#: ../../data/AboutDialog.ui.in:16 ../../data/AboutDialog.ui.in.h:2
+#: ../data/AboutDialog.ui.in:16 ../data/AboutDialog.ui.in.h:2
 msgid "Visit Eolie website"
 msgstr "Odwiedź witrynę Eolie"
 
 #. Replace me with your names
-#: ../../data/AboutDialog.ui.in:19 ../../data/AboutDialog.ui.in.h:4
+#: ../data/AboutDialog.ui.in:19 ../data/AboutDialog.ui.in.h:4
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Daria Szatan <bla_ke@tuta.io>"
 
-#: ../../data/AboutDialog.ui.in:51 ../../data/AboutDialog.ui.in.h:5
+#: ../data/AboutDialog.ui.in:51 ../data/AboutDialog.ui.in.h:5
 msgid "Donations:"
 msgstr "Donacje:"
 
-#: ../../data/AboutDialog.ui.in:60 ../../data/AboutDialog.ui.in.h:6
+#: ../data/AboutDialog.ui.in:60 ../data/AboutDialog.ui.in.h:6
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../../data/AboutDialog.ui.in:74 ../../data/AboutDialog.ui.in.h:7
+#: ../data/AboutDialog.ui.in:74 ../data/AboutDialog.ui.in.h:7
 msgid "PayPal"
 msgstr "PayPal"
 
-#: ../../data/org.gnome.Eolie.appdata.xml.in.h:1
+#: ../data/org.gnome.Eolie.appdata.xml.in.h:1
 msgid "Eolie"
 msgstr "Eolie"
 
-#: ../../data/org.gnome.Eolie.appdata.xml.in.h:2
+#: ../data/org.gnome.Eolie.appdata.xml.in.h:2
 msgid "Web browser"
 msgstr "Przeglądarka internetowa"
 
-#: ../../data/org.gnome.Eolie.appdata.xml.in.h:3
+#: ../data/org.gnome.Eolie.appdata.xml.in.h:3
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie jest nową przeglądarka internetową GNOME."
 
-#: ../../eolie/application.py:613
+#: ../eolie/application.py:618
 msgid "Do you really want to quit Eolie?"
 msgstr "Czy naprawdę chcesz wyjść z Eolie?"
 
-#: ../../eolie/application.py:739
+#: ../eolie/application.py:744
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Musisz zainstalować yelp."
 
-#: ../../eolie/context.py:92 ../../data/SettingsDialog.ui.h:13
+#: ../eolie/context.py:92 ../data/SettingsDialog.ui.h:13
 msgid "Popular pages"
 msgstr "Popularne strony"
 
-#: ../../eolie/context.py:156
+#: ../eolie/context.py:156
 msgid "Name"
 msgstr "Nazwa"
 
-#: ../../eolie/context.py:157
+#: ../eolie/context.py:157
 msgid "Size"
 msgstr "Wielkość"
 
-#: ../../eolie/context.py:159
+#: ../eolie/context.py:159
 msgid "Last modification"
 msgstr "Ostatnia modyfikacja"
 
-#: ../../eolie/database_adblock.py:123
+#: ../eolie/database_adblock.py:123
 msgid "For stronger ad blocking, install git command"
 msgstr "Dla lepszego blokowania reklam zainstaluj komendę git"
 
-#: ../../eolie/dialog_clear_data.py:179
+#: ../eolie/dialog_clear_data.py:179
 msgid "Memory cache"
 msgstr "Pamięć podręczna"
 
-#: ../../eolie/dialog_clear_data.py:181
+#: ../eolie/dialog_clear_data.py:181
 msgid "HTTP disk cache"
 msgstr "Pamięć podręczna HTTP dysku"
 
-#: ../../eolie/dialog_clear_data.py:183
+#: ../eolie/dialog_clear_data.py:183
 msgid "Offline web application cache"
 msgstr "Pamięć podręczna aplikacji offline"
 
-#: ../../eolie/dialog_clear_data.py:185
+#: ../eolie/dialog_clear_data.py:185
 msgid "Session storage data"
 msgstr "Przechowywanie danych sesji"
 
-#: ../../eolie/dialog_clear_data.py:187
+#: ../eolie/dialog_clear_data.py:187
 msgid "Local storage data"
 msgstr "Przechowywanie danych lokalnie"
 
-#: ../../eolie/dialog_clear_data.py:189
+#: ../eolie/dialog_clear_data.py:189
 msgid "WebSQL databases"
 msgstr "Bazy danych WebSQL"
 
-#: ../../eolie/dialog_clear_data.py:191
+#: ../eolie/dialog_clear_data.py:191
 msgid "IndexedDB databases"
 msgstr "Bazy danych IndexedDB"
 
-#: ../../eolie/dialog_clear_data.py:193
+#: ../eolie/dialog_clear_data.py:193
 msgid "Plugins data"
 msgstr "Dane wtyczek"
 
-#: ../../eolie/dialog_clear_data.py:195 ../../data/SettingsDialog.ui.h:30
+#: ../eolie/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:30
 msgid "Cookies"
 msgstr "Ciasteczka"
 
-#: ../../eolie/dialog_import_bookmarks.py:47 ../../data/SettingsDialog.ui.h:8
+#: ../eolie/dialog_import_bookmarks.py:47 ../data/SettingsDialog.ui.h:8
 msgid "Others"
 msgstr "Inne"
 
-#: ../../eolie/dialog_import_bookmarks.py:84
+#: ../eolie/dialog_import_bookmarks.py:84
 msgid "Import HTML bookmarks"
 msgstr "Importuj zakładki HTML"
 
-#: ../../eolie/dialog_search_engine.py:170
-#: ../../eolie/dialog_search_engine.py:174
+#: ../eolie/dialog_search_engine.py:170 ../eolie/dialog_search_engine.py:174
 msgid "New engine"
 msgstr "Nowy silnik"
 
-#: ../../eolie/menu_form.py:36
+#: ../eolie/menu_form.py:35
 msgid "Saved credentials"
 msgstr "Zapisane poświadczenia"
 
 #. Setup menu
-#: ../../eolie/menu_pages.py:42
+#: ../eolie/menu_pages.py:42
 msgid "New private page"
 msgstr "Nowa prywatna karta"
 
-#: ../../eolie/menu_pages.py:46
+#: ../eolie/menu_pages.py:46
 msgid "Closed pages"
 msgstr "Zamknięte karty"
 
-#: ../../eolie/menu_pages.py:101
+#: ../eolie/menu_pages.py:101
 msgid "Open all pages"
 msgstr "Otwórz wszystkie karty"
 
-#: ../../eolie/menu_sites.py:59
+#: ../eolie/menu_sites.py:59
 msgid "Modify user agent"
 msgstr "Modyfikuj user agent"
 
-#: ../../eolie/menu_sites.py:66 ../../data/SitesManagerChild.ui.h:1
+#: ../eolie/menu_sites.py:66 ../data/SitesManagerChild.ui.h:1
 msgid "Close site"
 msgstr "Zamknij stronę"
 
-#: ../../eolie/pages_manager.py:414
+#: ../eolie/menu_videos.py:71
+msgid "No videos"
+msgstr ""
+
+#: ../eolie/pages_manager.py:425
 msgid "Do you really want to close this page?"
 msgstr "Czy naprawdę chcesz zamknąć tę kartę?"
 
-#: ../../eolie/popover_credentials.py:145
+#: ../eolie/popover_credentials.py:141
 msgid "Do you want to modify this password?"
 msgstr "Czy naprawdę chcesz zmodyfikować to hasło?"
 
-#: ../../eolie/popover_downloads.py:45
-msgid "Download this video:"
-msgstr "Pobierz ten plik video:"
-
-#: ../../eolie/popover_downloads.py:129
+#: ../eolie/popover_downloads.py:47
 msgid "Unknown destination"
 msgstr "Nieznane miejsce docelowe"
 
-#: ../../eolie/popover_downloads.py:182
+#: ../eolie/popover_downloads.py:100
 msgid "Download speed:"
 msgstr "Prędkość pobierania:"
 
-#: ../../eolie/popover_downloads.py:184
+#: ../eolie/popover_downloads.py:102
 msgid "bytes/s"
 msgstr "bajtów/s"
 
-#: ../../eolie/popover_downloads.py:187
+#: ../eolie/popover_downloads.py:105
 msgid "KiB/s"
 msgstr "KiB/s"
 
-#: ../../eolie/popover_downloads.py:190
+#: ../eolie/popover_downloads.py:108
 msgid "MiB/s"
 msgstr "MiB/s"
 
-#: ../../eolie/popover_downloads.py:212 ../../eolie/popover_downloads.py:218
+#: ../eolie/popover_downloads.py:130 ../eolie/popover_downloads.py:136
 #, python-format
 msgid "%s second"
 msgstr "%s sekunda"
 
-#: ../../eolie/popover_downloads.py:214 ../../eolie/popover_downloads.py:220
+#: ../eolie/popover_downloads.py:132 ../eolie/popover_downloads.py:138
 #, python-format
 msgid "%s seconds"
 msgstr "%s sekund(y)"
 
-#: ../../eolie/popover_downloads.py:226 ../../eolie/popover_downloads.py:234
+#: ../eolie/popover_downloads.py:144 ../eolie/popover_downloads.py:152
 #, python-format
 msgid "%s minute"
 msgstr "%s minuta"
 
-#: ../../eolie/popover_downloads.py:229 ../../eolie/popover_downloads.py:236
+#: ../eolie/popover_downloads.py:147 ../eolie/popover_downloads.py:154
 #, python-format
 msgid "%s minutes"
 msgstr "%s minut(y)"
 
-#: ../../eolie/popover_downloads.py:242
+#: ../eolie/popover_downloads.py:160
 #, python-format
 msgid "%s hours"
 msgstr "%s godzin(y)"
 
-#: ../../eolie/popover_downloads.py:244
+#: ../eolie/popover_downloads.py:162
 #, python-format
 msgid "%s hour"
 msgstr "%s godzina"
 
-#: ../../eolie/popover_downloads.py:245
+#: ../eolie/popover_downloads.py:163
 msgid "Remaining time:"
 msgstr "Czas oczekiwania:"
 
-#: ../../eolie/popover_geolocation.py:45
+#: ../eolie/popover_geolocation.py:45
 msgid "Allow this page to get your location?"
 msgstr "Czy zezwolić tej stronie na uzyskanie Twojej lokalizacji?"
 
-#: ../../eolie/popover_javascript.py:59
+#: ../eolie/popover_javascript.py:59
 msgid "Continue"
 msgstr "Kontynuuj"
 
-#: ../../eolie/popover_javascript.py:60 ../../eolie/popover_uri.py:419
-#: ../../eolie/toolbar_end.py:345 ../../eolie/view_web.py:663
-#: ../../data/PopoverGeolocation.ui.h:2 ../../data/PopoverJavaScript.ui.h:2
-#: ../../data/QuitDialog.ui.h:1
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:416
+#: ../eolie/toolbar_end.py:355 ../eolie/webview_signals.py:127
+#: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
+#: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: ../../eolie/popover_uri.py:116
+#: ../eolie/popover_uri.py:116
 msgid "Delete page from history"
 msgstr "Usuń stronę z historii przeglądania"
 
-#: ../../eolie/popover_uri.py:131
+#: ../eolie/popover_uri.py:131
 msgid "Edit bookmark"
 msgstr "Edytuj zakładkę"
 
-#: ../../eolie/popover_uri.py:151
+#: ../eolie/popover_uri.py:151
 msgid "Open all pages for this tag"
 msgstr "Otwórz wszystkie strony z tą etykietą"
 
 #. Translators: Plural
-#: ../../eolie/popover_uri.py:724
+#: ../eolie/popover_uri.py:721
 msgid "Popular"
 msgstr "Popularne"
 
 #. Translators: Plural
-#: ../../eolie/popover_uri.py:727
+#: ../eolie/popover_uri.py:724
 msgid "Recent"
 msgstr "Niedawne"
 
-#: ../../eolie/popover_uri.py:729
+#: ../eolie/popover_uri.py:726
 msgid "Unclassified"
 msgstr "Niesklasyfikowane"
 
-#: ../../eolie/popover_uri.py:752
+#: ../eolie/popover_uri.py:749
 msgid "From the past hour"
 msgstr "Z ostatniej godziny"
 
-#: ../../eolie/popover_uri.py:753
+#: ../eolie/popover_uri.py:750
 msgid "From the past day"
 msgstr "Z ostatniego dnia"
 
-#: ../../eolie/popover_uri.py:754
+#: ../eolie/popover_uri.py:751
 msgid "From the past week"
 msgstr "Z ostatniego tygodnia"
 
-#: ../../eolie/popover_uri.py:756
+#: ../eolie/popover_uri.py:753
 msgid "From the past four weeks"
 msgstr "Z ostatnich 4 tygodni"
 
-#: ../../eolie/popover_uri.py:757
+#: ../eolie/popover_uri.py:754
 msgid "From selected day"
 msgstr "Z wybranego dnia"
 
-#: ../../eolie/popover_uri.py:758
+#: ../eolie/popover_uri.py:755
 msgid "From the beginning"
 msgstr "Od początku"
 
-#: ../../eolie/popover_uri.py:1016
+#: ../eolie/popover_uri.py:1013
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s zakładek"
 
 #. Translators: Google url for your country
-#: ../../eolie/search.py:35
+#: ../eolie/search.py:35
 msgid "https://www.google.com"
 msgstr "https://www.google.pl"
 
 #. Translators: Yahoo url for your country
-#: ../../eolie/search.py:50
+#: ../eolie/search.py:50
 msgid "https://www.yahoo.com"
 msgstr "https://www.yahoo.pl"
 
 #. Translators: Yahoo url for your country
-#: ../../eolie/search.py:52
+#: ../eolie/search.py:52
 msgid "https://us.search.yahoo.com"
 msgstr "https://pl.search.yahoo.com"
 
-#: ../../eolie/settings.py:65 ../../eolie/settings.py:68
-#: ../../data/SettingsDialog.ui.h:1
+#: ../eolie/settings.py:65 ../eolie/settings.py:68
+#: ../data/SettingsDialog.ui.h:1
 msgid "Preferences"
 msgstr "Preferencje"
 
-#: ../../eolie/settings.py:445
+#: ../eolie/settings.py:445
 msgid "Connecting…"
 msgstr "Łączenie…"
 
-#: ../../eolie/settings.py:479
+#: ../eolie/settings.py:479
 msgid "Synchronization is working"
 msgstr "Synchronizacja działa"
 
-#: ../../eolie/settings.py:485
+#: ../eolie/settings.py:485
 msgid "Cancel synchronization"
 msgstr "Anuluj synchronizację"
 
-#: ../../eolie/settings.py:488
+#: ../eolie/settings.py:488
 msgid "Synchronization is not working"
 msgstr "Synchronizacja nie działa"
 
-#: ../../eolie/settings.py:494 ../../data/SettingsDialog.ui.h:56
+#: ../eolie/settings.py:494 ../data/SettingsDialog.ui.h:56
 msgid "Allow synchronization"
 msgstr "Pozwól na synchronizację"
 
-#: ../../eolie/settings.py:505
+#: ../eolie/settings.py:505
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -477,35 +467,35 @@ msgstr ""
 "Synchronizacja nie jest dostępna na Twój komputer: \n"
 "%s"
 
-#: ../../eolie/settings.py:531
+#: ../eolie/settings.py:531
 msgid "You've received an email to validate synchronization"
 msgstr "Otrzymałeś e-mail służący do aktywowania synchronizacji"
 
-#: ../../eolie/toolbar_end.py:140
+#: ../eolie/toolbar_end.py:138
 msgid "Downloading:"
 msgstr "Pobieranie:"
 
-#: ../../eolie/toolbar_end.py:292 ../../data/ToolbarEnd.ui.h:1
+#: ../eolie/toolbar_end.py:302 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Opuść tryb pełnoekranowy"
 
-#: ../../eolie/toolbar_end.py:294
+#: ../eolie/toolbar_end.py:304
 msgid "Enter fullscreen"
 msgstr "Otwórz tryb pełnoekranowy"
 
-#: ../../eolie/toolbar_end.py:341 ../../data/ActionsMenu.ui.h:12
+#: ../eolie/toolbar_end.py:351 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Zapisz stronę"
 
-#: ../../eolie/toolbar_end.py:344 ../../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:354 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Zapisz"
 
-#: ../../eolie/toolbar_title.py:203
+#: ../eolie/toolbar_title.py:203
 msgid "This page contains insecure content"
 msgstr "Ta strona zawiera niebezpieczną zawartość"
 
-#: ../../eolie/toolbar_title.py:257
+#: ../eolie/toolbar_title.py:257
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
@@ -515,105 +505,100 @@ msgstr ""
 "Jeśli wpiszesz swoje hasło,\n"
 " będzie ono widoczne dla cyberprzestępców!"
 
-#: ../../eolie/toolbar_title.py:303
+#: ../eolie/toolbar_title.py:303
 msgid "Disallow geolocation"
 msgstr "Zablokuj geolokalizację"
 
-#: ../../eolie/toolbar_title.py:309
+#: ../eolie/toolbar_title.py:309
 msgid "Blocked popups"
 msgstr "Zablokowane wyskakujące okienka"
 
-#: ../../eolie/toolbar_title.py:390
+#: ../eolie/toolbar_title.py:390
 msgid "Copy address"
 msgstr "Kopiuj adres"
 
-#: ../../eolie/toolbar_title.py:451
+#: ../eolie/toolbar_title.py:451
 msgid "Paste and load"
 msgstr "Wklej i przejdź do strony"
 
-#: ../../eolie/toolbar_title.py:684 ../../eolie/toolbar_title.py:687
+#: ../eolie/toolbar_title.py:684 ../eolie/toolbar_title.py:687
 msgid "Search or enter address"
 msgstr "Szukaj lub wprowadź adres"
 
-#: ../../eolie/view_signals_handler.py:259
-msgid "Eolie is going to close this page because it is broken"
-msgstr "Eolie ma zamiar zamknąć tę stronę, gdyż jest ona uszkodzona"
-
-#: ../../eolie/view_web_errors.py:72
+#: ../eolie/webview_errors.py:72
 msgid "This page is dangerous"
 msgstr "Ta strona jest niebezpieczna"
 
-#: ../../eolie/view_web_errors.py:73
+#: ../eolie/webview_errors.py:73
 msgid "Eolie will not display this page"
 msgstr "Eolie nie wyświetli tej strony"
 
-#: ../../eolie/view_web_errors.py:80
+#: ../eolie/webview_errors.py:80
 #, python-format
 msgid "%s is a phishing page"
 msgstr "%s jest stroną phishingową"
 
-#: ../../eolie/view_web_errors.py:124
+#: ../eolie/webview_errors.py:124
 msgid "Failed to load this web page"
 msgstr "Nie udało się załadować tej strony internetowej"
 
-#: ../../eolie/view_web_errors.py:125
+#: ../eolie/webview_errors.py:125
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
-"Może ona być tymczasowo niedostępna lub została przeniesiona na inny "
-"adres.<br/>Możesz sprawdzić, czy Twoje połączenie internetowe działa "
-"poprawnie."
+"Może ona być tymczasowo niedostępna lub została przeniesiona na inny adres."
+"<br/>Możesz sprawdzić, czy Twoje połączenie internetowe działa poprawnie."
 
-#: ../../eolie/view_web_errors.py:131
+#: ../eolie/webview_errors.py:131
 msgid "Network not available"
 msgstr "Sieć jest niedostępna"
 
-#: ../../eolie/view_web_errors.py:132
+#: ../eolie/webview_errors.py:132
 msgid "Check your network connection"
 msgstr "Sprawdź swoje połączenie internetowe"
 
-#: ../../eolie/view_web_errors.py:142
+#: ../eolie/webview_errors.py:142
 msgid "Retry"
 msgstr "Ponów"
 
-#: ../../eolie/view_web_errors.py:164
+#: ../eolie/webview_errors.py:164
 msgid "The certificate does not match this website"
 msgstr "Ten certyfikat nie pasuje do strony"
 
-#: ../../eolie/view_web_errors.py:166
+#: ../eolie/webview_errors.py:166
 msgid "The certificate has expired"
 msgstr "Certyfikat wygasł"
 
-#: ../../eolie/view_web_errors.py:168
+#: ../eolie/webview_errors.py:168
 msgid "The signing certificate authority is not known"
 msgstr "Autoryzacja certyfikatu podpisania nie jest znana"
 
-#: ../../eolie/view_web_errors.py:170
+#: ../eolie/webview_errors.py:170
 msgid "The certificate contains errors"
 msgstr "Certyfikat zawiera błędy"
 
-#: ../../eolie/view_web_errors.py:172
+#: ../eolie/webview_errors.py:172
 msgid "The certificate has been revoked"
 msgstr "Certyfikat został unieważniony"
 
-#: ../../eolie/view_web_errors.py:174
+#: ../eolie/webview_errors.py:174
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Certyfikat został podpisany przy użyciu słabego algorytmu podpisu"
 
-#: ../../eolie/view_web_errors.py:177
+#: ../eolie/webview_errors.py:177
 msgid "The certificate activation time is still in the future"
 msgstr "Czas aktywacji certyfikatu nadal jest w przyszłości"
 
-#: ../../eolie/view_web_errors.py:179
+#: ../eolie/webview_errors.py:179
 msgid "The identity of this website has not been verified"
 msgstr "Tożsamość tej witryny nie została zweryfikowana"
 
-#: ../../eolie/view_web_errors.py:180 ../../eolie/view_web_errors.py:185
+#: ../eolie/webview_errors.py:180 ../eolie/webview_errors.py:185
 msgid "Connection is not secure"
 msgstr "Połączenie nie jest bezpieczne"
 
-#: ../../eolie/view_web_errors.py:187
+#: ../eolie/webview_errors.py:187
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -624,18 +609,18 @@ msgstr ""
 "lub zmienić informacje przechodzące przez tę witrynę (np.: prywatne "
 "wiadomości, informacje o kartach kredytowych lub hasła)."
 
-#: ../../eolie/view_web_errors.py:193
+#: ../eolie/webview_errors.py:193
 msgid "Accept Risk and Proceed"
 msgstr "Akceptuj Ryzyko i Idź Dalej"
 
-#: ../../eolie/view_web_errors.py:209 ../../eolie/view_web_errors.py:214
+#: ../eolie/webview_errors.py:209 ../eolie/webview_errors.py:214
 msgid "WebKit web engine crashed"
 msgstr "Silnik internetowy WebKit uległ awarii"
 
-#: ../../eolie/view_web_errors.py:216
+#: ../eolie/webview_errors.py:216
 msgid ""
-"The webpage was terminated unexpectedly.To continue, reload or go to another"
-" page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
+"The webpage was terminated unexpectedly.To continue, reload or go to another "
+"page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
 "<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
 "Strona internetowa została niespodziewanie przerwana. By kontynuować, "
@@ -643,213 +628,227 @@ msgstr ""
 "występuje, możesz zgłosić błąd :)<br/>Użyj <b>'Webkit Gtk'</b> jako "
 "komponentu.<br/>Ustaw <b>[GTK]</b> jako subject prefix'u."
 
-#: ../../eolie/view_web_errors.py:222
+#: ../eolie/webview_errors.py:222
 msgid "Report a bug now"
 msgstr "Zgłoś błąd"
 
-#: ../../eolie/view_web.py:492
+#: ../eolie/webview_signals_js.py:84
+msgid "Eolie is going to close this page because it is broken"
+msgstr "Eolie ma zamiar zamknąć tę stronę, gdyż jest ona uszkodzona"
+
+#: ../eolie/webview_signals_menu.py:56
+#, fuzzy
+msgid "Reload preview"
+msgstr "Odśwież stronę"
+
+#: ../eolie/webview_signals_menu.py:68
 msgid "Open link in a new page"
 msgstr "Otwórz link w nowej karcie"
 
-#: ../../eolie/view_web.py:509
+#: ../eolie/webview_signals_menu.py:82
 msgid "Search on the Web"
 msgstr "Szukaj w sieci"
 
-#: ../../eolie/view_web.py:522
+#: ../eolie/webview_signals_menu.py:93
 msgid "Copy"
 msgstr "Kopiuj"
 
-#: ../../eolie/view_web.py:537 ../../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:105 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Zapisz obrazy"
 
-#: ../../eolie/view_web.py:551
+#: ../eolie/webview_signals_menu.py:119
+#, fuzzy
+msgid "Save videos"
+msgstr "Zapisz obrazy"
+
+#: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
 msgstr "Zapisz stronę jako obraz"
 
-#: ../../eolie/view_web.py:659
+#: ../eolie/webview_signals.py:123
 msgid "Select files to upload"
 msgstr "Wybierz pliki do przesłania"
 
-#: ../../eolie/view_web.py:662
+#: ../eolie/webview_signals.py:126
 msgid "Open"
 msgstr "Otwórz"
 
-#: ../../eolie/widget_find.py:47
+#: ../eolie/widget_find.py:47
 msgid "Search previous occurrence"
 msgstr ""
 
-#: ../../eolie/widget_find.py:56
+#: ../eolie/widget_find.py:56
 msgid "Search next occurrence"
 msgstr ""
 
-#: ../../eolie/widget_find.py:123
+#: ../eolie/widget_find.py:123
 msgid "1000 of 1000 matches"
 msgstr "1000 na 1000 wyników"
 
-#: ../../data/ActionsMenu.ui.h:1
+#: ../data/ActionsMenu.ui.h:1
 msgctxt "Adblock exception"
 msgid "None"
 msgstr "Żadne"
 
-#: ../../data/ActionsMenu.ui.h:2
+#: ../data/ActionsMenu.ui.h:2
 msgid "Current site"
 msgstr "Bieżąca witryna"
 
-#: ../../data/ActionsMenu.ui.h:3
+#: ../data/ActionsMenu.ui.h:3
 msgid "Current page"
 msgstr "Bieżąca strona"
 
-#: ../../data/ActionsMenu.ui.h:4
+#: ../data/ActionsMenu.ui.h:4
 msgid "Exceptions"
 msgstr "Wyjątki"
 
-#: ../../data/ActionsMenu.ui.h:5
+#: ../data/ActionsMenu.ui.h:5
 msgid "Do not block ads"
 msgstr "Nie blokuj reklam"
 
-#: ../../data/ActionsMenu.ui.h:6
+#: ../data/ActionsMenu.ui.h:6
 msgid "Do not block images"
 msgstr "Nie blokuj obrazów"
 
-#: ../../data/ActionsMenu.ui.h:7
+#: ../data/ActionsMenu.ui.h:7
 msgctxt "Image exception"
 msgid "None"
 msgstr "Żadne"
 
-#: ../../data/ActionsMenu.ui.h:8
+#: ../data/ActionsMenu.ui.h:8
 msgid "Do not block popups"
 msgstr "Nie blokuj wyskakujących okienek"
 
-#: ../../data/ActionsMenu.ui.h:9
+#: ../data/ActionsMenu.ui.h:9
 msgctxt "Popup exception"
 msgid "None"
 msgstr "Żadne"
 
-#: ../../data/ActionsMenu.ui.h:10
+#: ../data/ActionsMenu.ui.h:10
 msgid "Do not block JavaScript"
 msgstr "Nie blokuj JavaScript"
 
-#: ../../data/ActionsMenu.ui.h:11
+#: ../data/ActionsMenu.ui.h:11
 msgctxt "JavasSript exception"
 msgid "None"
 msgstr "Żadne"
 
-#: ../../data/ActionsMenu.ui.h:13
+#: ../data/ActionsMenu.ui.h:13
 msgid "Print page"
 msgstr "Drukuj stronę"
 
-#: ../../data/ActionsMenu.ui.h:14
+#: ../data/ActionsMenu.ui.h:14
 msgid "Start page"
 msgstr "Strona startowa"
 
-#: ../../data/ActionsMenu.ui.h:15 ../../data/SettingsDialog.ui.h:2
-#: ../../data/ToolbarEnd.ui.h:2
+#: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:2
+#: ../data/ToolbarEnd.ui.h:2
 msgid "Downloads"
 msgstr "Pobrane"
 
-#: ../../data/ActionsMenu.ui.h:16
+#: ../data/ActionsMenu.ui.h:16
 msgid "Zoom out"
 msgstr "Oddal"
 
-#: ../../data/ActionsMenu.ui.h:17 ../../data/SettingsDialog.ui.h:28
+#: ../data/ActionsMenu.ui.h:17 ../data/SettingsDialog.ui.h:28
 msgid "Default zoom level"
 msgstr "Domyślny rozmiar"
 
-#: ../../data/ActionsMenu.ui.h:18
+#: ../data/ActionsMenu.ui.h:18
 msgid "Zoom in"
 msgstr "Przybliż"
 
-#: ../../data/ActionsMenu.ui.h:19
+#: ../data/ActionsMenu.ui.h:19
 msgid "Block ads"
 msgstr "Blokuj reklamy"
 
-#: ../../data/ActionsMenu.ui.h:20
+#: ../data/ActionsMenu.ui.h:20
 msgid "Block popups"
 msgstr "Blokuj wyskakujące okienka"
 
-#: ../../data/ActionsMenu.ui.h:21
+#: ../data/ActionsMenu.ui.h:21
 msgid "Block images"
 msgstr "Blokuj obrazy"
 
-#: ../../data/ActionsMenu.ui.h:22
+#: ../data/ActionsMenu.ui.h:22
 msgid "Block JavaScript"
 msgstr "Blokuj JavaScript"
 
-#: ../../data/ActionsMenu.ui.h:23
+#: ../data/ActionsMenu.ui.h:23
 msgid "Filtering"
 msgstr "Filtrowanie"
 
-#: ../../data/ActionsMenu.ui.h:24 ../../data/Languages.ui.h:1
+#: ../data/ActionsMenu.ui.h:24 ../data/Languages.ui.h:1
 msgid "Spell checking"
 msgstr "Sprawdzanie pisowni"
 
-#: ../../data/Appmenu.ui.h:1
+#: ../data/Appmenu.ui.h:1
 msgid "_Preferences"
 msgstr "_Preferencje"
 
-#: ../../data/Appmenu.ui.h:2
+#: ../data/Appmenu.ui.h:2
 msgid "_Report a bug"
 msgstr "_Zgłoś błąd"
 
-#: ../../data/Appmenu.ui.h:3
+#: ../data/Appmenu.ui.h:3
 msgid "_Sidebar"
 msgstr "_Panel boczny"
 
-#: ../../data/Appmenu.ui.h:4
+#: ../data/Appmenu.ui.h:4
 msgid "_Keyboard Shortcuts"
 msgstr "_Skroty klawiszowe"
 
-#: ../../data/Appmenu.ui.h:5
+#: ../data/Appmenu.ui.h:5
 msgid "_Help"
 msgstr "_Pomoc"
 
-#: ../../data/Appmenu.ui.h:6
+#: ../data/Appmenu.ui.h:6
 msgid "_About"
 msgstr "_O..."
 
-#: ../../data/Appmenu.ui.h:7
+#: ../data/Appmenu.ui.h:7
 msgid "_Quit"
 msgstr "_Wyjdź"
 
-#: ../../data/BookmarkEdit.ui.h:1 ../../data/DialogSearchEngine.ui.h:3
+#: ../data/BookmarkEdit.ui.h:1 ../data/DialogSearchEngine.ui.h:3
 msgid "Address:"
 msgstr "Adres:"
 
-#: ../../data/BookmarkEdit.ui.h:2
+#: ../data/BookmarkEdit.ui.h:2
 msgid "Title:"
 msgstr "Tytuł:"
 
-#: ../../data/BookmarkEdit.ui.h:3
+#: ../data/BookmarkEdit.ui.h:3
 msgid "Remove bookmark"
 msgstr "Usuń zakładkę"
 
-#: ../../data/BookmarkEdit.ui.h:4
+#: ../data/BookmarkEdit.ui.h:4
 msgid "Add new tag"
 msgstr "Dodaj nową etykietę"
 
-#: ../../data/DialogClearData.ui.h:1 ../../data/SettingsDialog.ui.h:41
+#: ../data/DialogClearData.ui.h:1 ../data/SettingsDialog.ui.h:41
 msgid "Clear Personal Data"
 msgstr "Wyczyść prywatne dane"
 
-#: ../../data/DialogClearData.ui.h:2
+#: ../data/DialogClearData.ui.h:2
 msgid "C_lear"
 msgstr "W_yczyść"
 
-#: ../../data/DialogClearData.ui.h:3 ../../data/PopoverUri.ui.h:4
-#: ../../data/SettingsDialog.ui.h:6
+#: ../data/DialogClearData.ui.h:3 ../data/PopoverUri.ui.h:4
+#: ../data/SettingsDialog.ui.h:6
 msgid "Search"
 msgstr "Szukaj"
 
-#: ../../data/DialogClearData.ui.h:4
+#: ../data/DialogClearData.ui.h:4
 msgid "Filter domains"
 msgstr "Filtr domen"
 
-#: ../../data/DialogClearData.ui.h:5
+#: ../data/DialogClearData.ui.h:5
 msgid "Search domains"
 msgstr "Wyszukaj domeny"
 
-#: ../../data/DialogClearData.ui.h:6
+#: ../data/DialogClearData.ui.h:6
 msgid ""
 "You can select a period of time to clear data for all websites modified in "
 "that period. If you choose from the beginning of time, then you can also "
@@ -859,35 +858,35 @@ msgstr ""
 "internetowych edytowanych w tym okresie. Jeśli wybierzesz od początku, wtedy "
 "także wyczyścić dane ze szczególnych stron internetowych."
 
-#: ../../data/DialogClearData.ui.h:7
+#: ../data/DialogClearData.ui.h:7
 msgid "Clear selected personal data _from:"
 msgstr "Wyczyść wybrane dane prywatne _z:"
 
-#: ../../data/DialogClearData.ui.h:8
+#: ../data/DialogClearData.ui.h:8
 msgid "the past hour"
 msgstr "ostatniej godziny"
 
-#: ../../data/DialogClearData.ui.h:9
+#: ../data/DialogClearData.ui.h:9
 msgid "the past day"
 msgstr "ostatniego dnia"
 
-#: ../../data/DialogClearData.ui.h:10
+#: ../data/DialogClearData.ui.h:10
 msgid "the past week"
 msgstr "ostatniego tygodnia"
 
-#: ../../data/DialogClearData.ui.h:11
+#: ../data/DialogClearData.ui.h:11
 msgid "the past four weeks"
 msgstr "ostatniego miesiąca"
 
-#: ../../data/DialogClearData.ui.h:12
+#: ../data/DialogClearData.ui.h:12
 msgid "the beginning"
 msgstr "od początku"
 
-#: ../../data/DialogClearData.ui.h:13
+#: ../data/DialogClearData.ui.h:13
 msgid "No data found"
 msgstr "Dane nie zostały znalezione"
 
-#: ../../data/DialogClearData.ui.h:14
+#: ../data/DialogClearData.ui.h:14
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
@@ -895,256 +894,252 @@ msgstr ""
 "Nie możesz cofnąć tej akcji. Dane, które wybierzesz, zostaną na zawsze "
 "usunięte."
 
-#: ../../data/DialogImportBookmarks.ui.h:1
+#: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
 msgstr "Importuj zakładki z:"
 
-#: ../../data/DialogImportBookmarks.ui.h:2 ../../data/PopoverUri.ui.h:2
+#: ../data/DialogImportBookmarks.ui.h:2 ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Importuj zakładki"
 
-#: ../../data/DialogImportBookmarks.ui.h:3
+#: ../data/DialogImportBookmarks.ui.h:3
 msgid "Import"
 msgstr "Importuj"
 
-#: ../../data/DialogModifyUA.ui.h:1
+#: ../data/DialogModifyUA.ui.h:1
 msgid "Modify"
 msgstr "Modyfikuj"
 
-#: ../../data/DialogModifyUA.ui.h:2
-msgid "Vivaldi"
-msgstr "Vivaldi"
-
-#: ../../data/DialogSearchEngine.ui.h:1
+#: ../data/DialogSearchEngine.ui.h:1
 msgid "Search engines"
 msgstr "Wyszukiwarki"
 
-#: ../../data/DialogSearchEngine.ui.h:2
+#: ../data/DialogSearchEngine.ui.h:2
 msgid "Name:"
 msgstr "Nazwa:"
 
-#: ../../data/DialogSearchEngine.ui.h:4
+#: ../data/DialogSearchEngine.ui.h:4
 msgid "Default:"
 msgstr "Domyślna:"
 
-#: ../../data/DialogSearchEngine.ui.h:5
+#: ../data/DialogSearchEngine.ui.h:5
 msgid "Bang:"
 msgstr "Skrót wyszukiwarki:"
 
-#: ../../data/DialogSearchEngine.ui.h:6
+#: ../data/DialogSearchEngine.ui.h:6
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
 "Jeśli skrótem wyszukiwarki jest g, użyj g: w panelu wyszukiwania, by "
 "wyszukać za pomocą tego silnika"
 
-#: ../../data/DialogSearchEngine.ui.h:7
+#: ../data/DialogSearchEngine.ui.h:7
 msgid "Search:"
 msgstr "Szukaj:"
 
-#: ../../data/DialogSearchEngine.ui.h:9
+#: ../data/DialogSearchEngine.ui.h:9
 #, no-c-format
 msgid ""
 "To determine the search address, perform a search using the search engine "
-"that you want to add and check the resulting address. Remove the search term"
-" from the resulting address and replace it with %s."
+"that you want to add and check the resulting address. Remove the search term "
+"from the resulting address and replace it with %s."
 msgstr ""
 "By ustalić adres wyszukiwania, użyj wyszukiwarki do znalezienia silnika, "
 "który chcesz dodać oraz sprawdź końcowy adres. Usuń wyszukiwaną frazę oraz "
 "zastąp ją za pomocą %s."
 
-#: ../../data/PopoverCookies.ui.h:1
+#: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
 msgstr "Usuń wszystkie ciasteczka"
 
-#: ../../data/PopoverCredentials.ui.h:1
+#: ../data/PopoverCredentials.ui.h:1
 msgid "Do you want to save this password?"
 msgstr "Czy chcesz zapisać to hasło?"
 
-#: ../../data/PopoverDownloads.ui.h:1
+#: ../data/PopoverDownloads.ui.h:1
 msgid "Open download folder"
 msgstr "Otwórz folder pobierania"
 
-#: ../../data/PopoverDownloads.ui.h:2
+#: ../data/PopoverDownloads.ui.h:2
 msgid "Clear finished downloads"
 msgstr "Wyczyść ukończone pobierania"
 
-#: ../../data/PopoverDownloads.ui.h:3
+#: ../data/PopoverDownloads.ui.h:3
 msgid "No active download"
 msgstr "Brak aktywnych pobrań"
 
-#: ../../data/PopoverGeolocation.ui.h:1 ../../data/PopoverJavaScript.ui.h:1
+#: ../data/PopoverGeolocation.ui.h:1 ../data/PopoverJavaScript.ui.h:1
 msgid "Ok"
 msgstr "Ok"
 
-#: ../../data/PopoverGeolocation.ui.h:3 ../../data/SettingsDialog.ui.h:48
+#: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:48
 msgid "Forever"
 msgstr "Na zawsze"
 
-#: ../../data/PopoverImages.ui.h:2
+#: ../data/PopoverImages.ui.h:2
 msgid "Show links"
 msgstr "Pokazuj linki"
 
-#: ../../data/PopoverPasswords.ui.h:1
+#: ../data/PopoverPasswords.ui.h:1
 msgid "Remove all passwords"
 msgstr "Usuń wszystkie hasła"
 
-#: ../../data/PopoverUri.ui.h:1
+#: ../data/PopoverUri.ui.h:1
 msgid "Sync bookmarks"
 msgstr "Synchronizuj zakładki"
 
-#: ../../data/PopoverUri.ui.h:3
+#: ../data/PopoverUri.ui.h:3
 msgid "Bookmarks"
 msgstr "Zakładki"
 
-#: ../../data/PopoverUri.ui.h:5
+#: ../data/PopoverUri.ui.h:5
 msgid "Clear history"
 msgstr "Wyczyść historię"
 
-#: ../../data/PopoverUri.ui.h:6
+#: ../data/PopoverUri.ui.h:6
 msgid "History"
 msgstr "Historia"
 
-#: ../../data/QuitDialog.ui.h:2
+#: ../data/QuitDialog.ui.h:2
 msgid "Close"
 msgstr "Zamknij"
 
-#: ../../data/RowDownload.ui.h:1
+#: ../data/RowDownload.ui.h:1
 msgid "Cancel download"
 msgstr "Anuluj pobieranie"
 
-#: ../../data/SettingsDialog.ui.h:3
+#: ../data/SettingsDialog.ui.h:3
 msgid "Download folder:"
 msgstr "Folder pobierania:"
 
-#: ../../data/SettingsDialog.ui.h:4
+#: ../data/SettingsDialog.ui.h:4
 msgid "Select download directory"
 msgstr "Wybierz folder pobierania"
 
-#: ../../data/SettingsDialog.ui.h:5
+#: ../data/SettingsDialog.ui.h:5
 msgid "Automatically open downloaded files"
 msgstr "Automatycznie otwórz pobrane pliki"
 
-#: ../../data/SettingsDialog.ui.h:7
+#: ../data/SettingsDialog.ui.h:7
 msgid "Search engines:"
 msgstr "Wyszukiwarki:"
 
-#: ../../data/SettingsDialog.ui.h:10
+#: ../data/SettingsDialog.ui.h:10
 msgid "Startup"
 msgstr "Uruchamianie"
 
-#: ../../data/SettingsDialog.ui.h:11
+#: ../data/SettingsDialog.ui.h:11
 msgid "Start Page:"
 msgstr "Strona Startowa:"
 
-#: ../../data/SettingsDialog.ui.h:12
+#: ../data/SettingsDialog.ui.h:12
 msgid "Search engine"
 msgstr "Wyszukiwarka"
 
-#: ../../data/SettingsDialog.ui.h:14
+#: ../data/SettingsDialog.ui.h:14
 msgid "Popular bookmarks"
 msgstr "Popularne zakładki"
 
-#: ../../data/SettingsDialog.ui.h:15
+#: ../data/SettingsDialog.ui.h:15
 msgid "Blank page"
 msgstr "Pusta strona"
 
-#: ../../data/SettingsDialog.ui.h:16
+#: ../data/SettingsDialog.ui.h:16
 msgid "Set address"
 msgstr "Ustaw adres"
 
-#: ../../data/SettingsDialog.ui.h:17
+#: ../data/SettingsDialog.ui.h:17
 msgid "Remember previous pages on startup"
 msgstr "Pamiętaj poprzednio załadowane strony podczas uruchamiania"
 
-#: ../../data/SettingsDialog.ui.h:18
+#: ../data/SettingsDialog.ui.h:18
 msgid "Configure engines"
 msgstr "Konfiguruj silniki"
 
-#: ../../data/SettingsDialog.ui.h:19
+#: ../data/SettingsDialog.ui.h:19
 msgid "Bookmarks shown"
 msgstr "Pokazane zakładki"
 
-#: ../../data/SettingsDialog.ui.h:21
+#: ../data/SettingsDialog.ui.h:21
 msgid "General"
 msgstr "Ogólne"
 
-#: ../../data/SettingsDialog.ui.h:22
+#: ../data/SettingsDialog.ui.h:22
 msgid "Fonts"
 msgstr "Czcionki"
 
-#: ../../data/SettingsDialog.ui.h:29
+#: ../data/SettingsDialog.ui.h:29
 msgid "Appearance"
 msgstr "Wygląd"
 
-#: ../../data/SettingsDialog.ui.h:31
+#: ../data/SettingsDialog.ui.h:31
 msgid "Tracking"
 msgstr "Śledzenie"
 
-#: ../../data/SettingsDialog.ui.h:33
+#: ../data/SettingsDialog.ui.h:33
 msgid "Passwords"
 msgstr "Hasła"
 
-#: ../../data/SettingsDialog.ui.h:35
+#: ../data/SettingsDialog.ui.h:35
 msgid "Saved data"
 msgstr "Zapisane dane"
 
-#: ../../data/SettingsDialog.ui.h:36
+#: ../data/SettingsDialog.ui.h:36
 msgid "Behaviour:"
 msgstr "Akceptowanie:"
 
-#: ../../data/SettingsDialog.ui.h:37
+#: ../data/SettingsDialog.ui.h:37
 msgid "Always accept"
 msgstr "Zawsze"
 
-#: ../../data/SettingsDialog.ui.h:38
+#: ../data/SettingsDialog.ui.h:38
 msgid "Only from sites you visit"
 msgstr "Tylko z odwiedzanych stron"
 
-#: ../../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:39
 msgid "Never accept"
 msgstr "Nigdy"
 
-#: ../../data/SettingsDialog.ui.h:40
+#: ../data/SettingsDialog.ui.h:40
 msgid "Manage cookies"
 msgstr "Zarządzaj plikami cookies"
 
-#: ../../data/SettingsDialog.ui.h:42
+#: ../data/SettingsDialog.ui.h:42
 msgid "Manage passwords"
 msgstr "Zarządzaj hasłami"
 
-#: ../../data/SettingsDialog.ui.h:43
+#: ../data/SettingsDialog.ui.h:43
 msgid "Keep history:"
 msgstr "Przechowuj historię:"
 
-#: ../../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:44
 msgid "One day"
 msgstr "1 dzień"
 
-#: ../../data/SettingsDialog.ui.h:45
+#: ../data/SettingsDialog.ui.h:45
 msgid "One week"
 msgstr "1 tydzień"
 
-#: ../../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:46
 msgid "Four weeks"
 msgstr "4 tygodnie"
 
-#: ../../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:47
 msgid "A year"
 msgstr "Rok"
 
-#: ../../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:49
 msgid "Do not keep"
 msgstr "Nie przechowuj"
 
-#: ../../data/SettingsDialog.ui.h:50
+#: ../data/SettingsDialog.ui.h:50
 msgid "Predict websites address"
 msgstr "Sugeruj adresy stron internetowych"
 
-#: ../../data/SettingsDialog.ui.h:51
+#: ../data/SettingsDialog.ui.h:51
 msgid "Privacy"
 msgstr "Prywatność"
 
-#: ../../data/SettingsDialog.ui.h:52
+#: ../data/SettingsDialog.ui.h:52
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
@@ -1152,191 +1147,197 @@ msgstr ""
 "Możesz udostępnić swoje zakładki oraz historię\n"
 " na wszystkich urządzeniach z uruchomionymi Eolie lub Firefox"
 
-#: ../../data/SettingsDialog.ui.h:54
+#: ../data/SettingsDialog.ui.h:54
 msgid "Login:"
 msgstr "Login:"
 
-#: ../../data/SettingsDialog.ui.h:55
+#: ../data/SettingsDialog.ui.h:55
 msgid "Password:"
 msgstr "Hasło:"
 
-#: ../../data/SettingsDialog.ui.h:57
+#: ../data/SettingsDialog.ui.h:57
 msgid "Create or manage account"
 msgstr "Utwórz/zarządzaj kontem"
 
-#: ../../data/SettingsDialog.ui.h:58
+#: ../data/SettingsDialog.ui.h:58
 msgid "Synchronization"
 msgstr "Synchronizacja"
 
-#: ../../data/Shortcuts.ui.h:1
+#: ../data/Shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Ogólne"
 
-#: ../../data/Shortcuts.ui.h:2
+#: ../data/Shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "New window"
 msgstr "Nowe okno"
 
-#: ../../data/Shortcuts.ui.h:3
+#: ../data/Shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: ../../data/Shortcuts.ui.h:4
+#: ../data/Shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Pełny ekran"
 
-#: ../../data/Shortcuts.ui.h:5
+#: ../data/Shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Wyjdź"
 
-#: ../../data/Shortcuts.ui.h:6
+#: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Enter location"
 msgstr "Wpisz lokalizację"
 
-#: ../../data/Shortcuts.ui.h:7
+#: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Show bookmarks"
 msgstr "Pokaż zakładki"
 
-#: ../../data/Shortcuts.ui.h:8
+#: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Show history"
 msgstr "Pokaż historię"
 
-#: ../../data/Shortcuts.ui.h:9
+#: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Search"
 msgstr "Wyszukaj"
 
-#: ../../data/Shortcuts.ui.h:10
+#: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Show sidebar"
 msgstr "Pokaż pasek boczny"
 
-#: ../../data/Shortcuts.ui.h:11
+#: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Pages"
 msgstr "Karty"
 
-#: ../../data/Shortcuts.ui.h:12
+#: ../data/Shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "New page"
 msgstr "Nowa karta"
 
-#: ../../data/Shortcuts.ui.h:13
+#: ../data/Shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Last closed page"
 msgstr "Ostatnio zamknięta karta"
 
-#: ../../data/Shortcuts.ui.h:14
+#: ../data/Shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "New private page"
 msgstr "Nowa karta prywatna"
 
-#: ../../data/Shortcuts.ui.h:15
+#: ../data/Shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Close page"
 msgstr "Zamknij kartę"
 
-#: ../../data/Shortcuts.ui.h:16
+#: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Previous page"
 msgstr "Poprzednia strona"
 
-#: ../../data/Shortcuts.ui.h:17
+#: ../data/Shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Next page"
 msgstr "Następna strona"
 
-#: ../../data/Shortcuts.ui.h:18
+#: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "View all pages"
 msgstr "Pokaż wszystkie karty"
 
-#: ../../data/Shortcuts.ui.h:19
+#: ../data/Shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Show source code"
 msgstr "Pokaż źródło strony"
 
-#: ../../data/Shortcuts.ui.h:20
+#: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Web page"
 msgstr "Strona internetowa"
 
-#: ../../data/Shortcuts.ui.h:21
+#: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Save page"
 msgstr "Zapisz stronę"
 
-#: ../../data/Shortcuts.ui.h:22
+#: ../data/Shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Print page"
 msgstr "Drukuj stronę"
 
-#: ../../data/Shortcuts.ui.h:23
+#: ../data/Shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Zoom in"
 msgstr "Powiększ"
 
-#: ../../data/Shortcuts.ui.h:24
+#: ../data/Shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Zoom out"
 msgstr "Zmniejsz"
 
-#: ../../data/Shortcuts.ui.h:25
+#: ../data/Shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Default zoom level"
 msgstr "Domyślne powiększenie"
 
-#: ../../data/Shortcuts.ui.h:26
+#: ../data/Shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Search for"
 msgstr "Wyszukaj"
 
-#: ../../data/Shortcuts.ui.h:27
+#: ../data/Shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
 msgstr "Wyłącz blokowanie reklam na bieżącej stronie"
 
-#: ../../data/Shortcuts.ui.h:28
+#: ../data/Shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "Navigation"
 msgstr "Nawigacja"
 
-#: ../../data/Shortcuts.ui.h:29
+#: ../data/Shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Odśwież stronę"
 
-#: ../../data/ToolbarActions.ui.h:1
+#: ../data/ToolbarActions.ui.h:1
 msgid "Backward"
 msgstr "Poprzednia strona"
 
-#: ../../data/ToolbarActions.ui.h:2
+#: ../data/ToolbarActions.ui.h:2
 msgid "Forward"
 msgstr "Następna strona"
 
-#: ../../data/ToolbarActions.ui.h:3
+#: ../data/ToolbarActions.ui.h:3
 msgid "New page"
 msgstr "Nowa karta"
 
-#: ../../data/ToolbarActions.ui.h:4
+#: ../data/ToolbarActions.ui.h:4
 msgid "View all pages"
 msgstr "Pokaż wszystkie karty"
 
-#: ../../data/ToolbarActions.ui.h:5
+#: ../data/ToolbarActions.ui.h:5
 msgid "Close page"
 msgstr "Zamknij kartę"
 
-#: ../../data/ToolbarActions.ui.h:6
+#: ../data/ToolbarActions.ui.h:6
 msgid "More actions"
 msgstr "Więcej działań"
 
-#: ../../data/ToolbarEnd.ui.h:3
+#: ../data/ToolbarEnd.ui.h:3
 msgid "Startup page"
 msgstr "Strona startowa"
+
+#~ msgid "Download this video:"
+#~ msgstr "Pobierz ten plik video:"
+
+#~ msgid "Vivaldi"
+#~ msgstr "Vivaldi"
