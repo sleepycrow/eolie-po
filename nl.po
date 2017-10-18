@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-20 14:53+0200\n"
-"PO-Revision-Date: 2017-10-18 08:53+0000\n"
+"PO-Revision-Date: 2017-10-22 12:50+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
@@ -1306,7 +1306,6 @@ msgid "Reload page"
 msgstr "Pagina herladen"
 
 #: ../data/Shortcuts.ui.h:30
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Startup page"
 msgstr "Opstartpagina"
