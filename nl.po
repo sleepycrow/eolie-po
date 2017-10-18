@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-17 07:34+0200\n"
-"PO-Revision-Date: 2017-10-13 20:45+0000\n"
+"PO-Revision-Date: 2017-10-18 08:53+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
@@ -283,7 +283,7 @@ msgstr "Site sluiten"
 
 #: ../eolie/menu_videos.py:71
 msgid "No videos"
-msgstr ""
+msgstr "Geen video’s"
 
 #: ../eolie/pages_manager.py:425
 msgid "Do you really want to close this page?"
@@ -634,9 +634,8 @@ msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie zal deze pagina sluiten, want ze werkt niet"
 
 #: ../eolie/webview_signals_menu.py:56
-#, fuzzy
 msgid "Reload preview"
-msgstr "Pagina herladen"
+msgstr "Voorbeeld herladen"
 
 #: ../eolie/webview_signals_menu.py:68
 msgid "Open link in a new page"
@@ -655,9 +654,8 @@ msgid "Save images"
 msgstr "Afbeeldingen opslaan"
 
 #: ../eolie/webview_signals_menu.py:119
-#, fuzzy
 msgid "Save videos"
-msgstr "Afbeeldingen opslaan"
+msgstr "Video’s opslaan"
 
 #: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
