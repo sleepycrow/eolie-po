@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-17 07:34+0200\n"
+"POT-Creation-Date: 2017-10-20 14:53+0200\n"
 "PO-Revision-Date: 2017-10-17 05:37+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
@@ -184,11 +184,11 @@ msgstr "Navigateur web"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie est un nouveau navigateur web pour GNOME."
 
-#: ../eolie/application.py:618
+#: ../eolie/application.py:619
 msgid "Do you really want to quit Eolie?"
 msgstr "Voulez vous vraiment quitter Eolie?"
 
-#: ../eolie/application.py:744
+#: ../eolie/application.py:745
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vous devez installer yelp."
 
@@ -196,19 +196,19 @@ msgstr "Eolie: Vous devez installer yelp."
 msgid "Popular pages"
 msgstr "Pages populaires"
 
-#: ../eolie/context.py:156
+#: ../eolie/context.py:154
 msgid "Name"
 msgstr "Nom"
 
-#: ../eolie/context.py:157
+#: ../eolie/context.py:155
 msgid "Size"
 msgstr "Taille"
 
-#: ../eolie/context.py:159
+#: ../eolie/context.py:157
 msgid "Last modification"
 msgstr "Dernière modification"
 
-#: ../eolie/database_adblock.py:123
+#: ../eolie/database_adblock.py:121
 msgid "For stronger ad blocking, install git command"
 msgstr "Pour un blocage plus fort des publicités, installer la commande git"
 
@@ -289,11 +289,11 @@ msgstr "Fermer le site"
 msgid "No videos"
 msgstr "Pas de vidéos"
 
-#: ../eolie/pages_manager.py:425
+#: ../eolie/pages_manager.py:430
 msgid "Do you really want to close this page?"
 msgstr "Voulez vous vraiment fermer cette page?"
 
-#: ../eolie/popover_credentials.py:141
+#: ../eolie/popover_credentials.py:142
 msgid "Do you want to modify this password?"
 msgstr "Voulez vous modifier ce mot de passe?"
 
@@ -360,7 +360,7 @@ msgid "Continue"
 msgstr "Continuer"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:416
-#: ../eolie/toolbar_end.py:355 ../eolie/webview_signals.py:127
+#: ../eolie/toolbar_end.py:174 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -378,45 +378,50 @@ msgstr "Éditer le marque page"
 msgid "Open all pages for this tag"
 msgstr "Ouvrir toutes les pages pour cette étiquette"
 
+#: ../eolie/popover_uri.py:452 ../data/DialogImportBookmarks.ui.h:2
+#: ../data/PopoverUri.ui.h:2
+msgid "Import bookmarks"
+msgstr "Importer des marques pages"
+
 #. Translators: Plural
-#: ../eolie/popover_uri.py:721
+#: ../eolie/popover_uri.py:738
 msgid "Popular"
 msgstr "Populaires"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:724
+#: ../eolie/popover_uri.py:741
 msgid "Recent"
 msgstr "Récents"
 
-#: ../eolie/popover_uri.py:726
+#: ../eolie/popover_uri.py:743
 msgid "Unclassified"
 msgstr "Non classés"
 
-#: ../eolie/popover_uri.py:749
+#: ../eolie/popover_uri.py:766
 msgid "From the past hour"
 msgstr "Depuis la dernière heure"
 
-#: ../eolie/popover_uri.py:750
+#: ../eolie/popover_uri.py:767
 msgid "From the past day"
 msgstr "Depuis le dernier jour"
 
-#: ../eolie/popover_uri.py:751
+#: ../eolie/popover_uri.py:768
 msgid "From the past week"
 msgstr "Depuis la dernière semaine"
 
-#: ../eolie/popover_uri.py:753
+#: ../eolie/popover_uri.py:770
 msgid "From the past four weeks"
 msgstr "Depuis les quatre dernières semaines"
 
-#: ../eolie/popover_uri.py:754
+#: ../eolie/popover_uri.py:771
 msgid "From selected day"
 msgstr "Depuis le jour sélectionné"
 
-#: ../eolie/popover_uri.py:755
+#: ../eolie/popover_uri.py:772
 msgid "From the beginning"
 msgstr "Depuis le début"
 
-#: ../eolie/popover_uri.py:1013
+#: ../eolie/popover_uri.py:1030
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s marques pages"
@@ -479,27 +484,27 @@ msgstr "Vous avez reçu un email pour valider la synchronisation"
 msgid "Downloading:"
 msgstr "Téléchargement de:"
 
-#: ../eolie/toolbar_end.py:302 ../data/ToolbarEnd.ui.h:1
-msgid "Leave fullscreen"
-msgstr "Quitter le plein écran"
-
-#: ../eolie/toolbar_end.py:304
-msgid "Enter fullscreen"
-msgstr "Entrer en plein écran"
-
-#: ../eolie/toolbar_end.py:351 ../data/ActionsMenu.ui.h:12
+#: ../eolie/toolbar_end.py:170 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Enregistrer la page"
 
-#: ../eolie/toolbar_end.py:354 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:173 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Enregistrer"
 
-#: ../eolie/toolbar_title.py:203
+#: ../eolie/toolbar_end.py:314 ../data/ToolbarEnd.ui.h:1
+msgid "Leave fullscreen"
+msgstr "Quitter le plein écran"
+
+#: ../eolie/toolbar_end.py:316
+msgid "Enter fullscreen"
+msgstr "Entrer en plein écran"
+
+#: ../eolie/toolbar_title.py:265
 msgid "This page contains insecure content"
 msgstr "Cette page contient du contenu non sécurisé"
 
-#: ../eolie/toolbar_title.py:257
+#: ../eolie/toolbar_title.py:319
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
@@ -509,23 +514,23 @@ msgstr ""
 "Si vous entrez votre mot de passe,\n"
 " il sera visible aux cybercriminels !"
 
-#: ../eolie/toolbar_title.py:303
+#: ../eolie/toolbar_title.py:365
 msgid "Disallow geolocation"
 msgstr "Refuser la localisation"
 
-#: ../eolie/toolbar_title.py:309
+#: ../eolie/toolbar_title.py:371
 msgid "Blocked popups"
 msgstr "Popups bloqués"
 
-#: ../eolie/toolbar_title.py:390
+#: ../eolie/toolbar_title.py:452
 msgid "Copy address"
 msgstr "Copier l'adresse"
 
-#: ../eolie/toolbar_title.py:451
+#: ../eolie/toolbar_title.py:513
 msgid "Paste and load"
 msgstr "Coller et charger"
 
-#: ../eolie/toolbar_title.py:684 ../eolie/toolbar_title.py:687
+#: ../eolie/toolbar_title.py:749 ../eolie/toolbar_title.py:752
 msgid "Search or enter address"
 msgstr "Rechercher ou entrer une adresse"
 
@@ -900,10 +905,6 @@ msgstr ""
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
 msgstr "Importer des marques pages depuis:"
-
-#: ../data/DialogImportBookmarks.ui.h:2 ../data/PopoverUri.ui.h:2
-msgid "Import bookmarks"
-msgstr "Importer des marques pages"
 
 #: ../data/DialogImportBookmarks.ui.h:3
 msgid "Import"
@@ -1310,6 +1311,12 @@ msgstr "Navigation"
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Recharger la page"
+
+#: ../data/Shortcuts.ui.h:30
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Startup page"
+msgstr "Page de démarrage"
 
 #: ../data/ToolbarActions.ui.h:1
 msgid "Backward"

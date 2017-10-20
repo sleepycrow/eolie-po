@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-17 07:34+0200\n"
+"POT-Creation-Date: 2017-10-20 14:53+0200\n"
 "PO-Revision-Date: 2017-09-17 06:16-0400\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German\n"
@@ -180,11 +180,11 @@ msgstr "Webbrowser"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie ist ein neuer Webbrowser für GNOME."
 
-#: ../eolie/application.py:618
+#: ../eolie/application.py:619
 msgid "Do you really want to quit Eolie?"
 msgstr "Möchten Sie Eolie wirklich beenden?"
 
-#: ../eolie/application.py:744
+#: ../eolie/application.py:745
 msgid "Eolie: You need to install yelp."
 msgstr "Sie müssen \"yelp\" installieren."
 
@@ -192,19 +192,19 @@ msgstr "Sie müssen \"yelp\" installieren."
 msgid "Popular pages"
 msgstr "Beliebte Seiten"
 
-#: ../eolie/context.py:156
+#: ../eolie/context.py:154
 msgid "Name"
 msgstr "Name"
 
-#: ../eolie/context.py:157
+#: ../eolie/context.py:155
 msgid "Size"
 msgstr "Größe"
 
-#: ../eolie/context.py:159
+#: ../eolie/context.py:157
 msgid "Last modification"
 msgstr "Letzte Änderung"
 
-#: ../eolie/database_adblock.py:123
+#: ../eolie/database_adblock.py:121
 msgid "For stronger ad blocking, install git command"
 msgstr ""
 
@@ -285,11 +285,11 @@ msgstr "Tab schließen"
 msgid "No videos"
 msgstr ""
 
-#: ../eolie/pages_manager.py:425
+#: ../eolie/pages_manager.py:430
 msgid "Do you really want to close this page?"
 msgstr "Soll dieser Tab wirklich geschlossen werden?"
 
-#: ../eolie/popover_credentials.py:141
+#: ../eolie/popover_credentials.py:142
 msgid "Do you want to modify this password?"
 msgstr "Soll dieses Passwort verändert werden?"
 
@@ -356,7 +356,7 @@ msgid "Continue"
 msgstr "Fortfahren"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:416
-#: ../eolie/toolbar_end.py:355 ../eolie/webview_signals.py:127
+#: ../eolie/toolbar_end.py:174 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -374,45 +374,50 @@ msgstr "Lesezeichen bearbeiten"
 msgid "Open all pages for this tag"
 msgstr "Alle Tabs mit diesem Tag bearbeiten"
 
+#: ../eolie/popover_uri.py:452 ../data/DialogImportBookmarks.ui.h:2
+#: ../data/PopoverUri.ui.h:2
+msgid "Import bookmarks"
+msgstr "Lesezeichen importieren"
+
 #. Translators: Plural
-#: ../eolie/popover_uri.py:721
+#: ../eolie/popover_uri.py:738
 msgid "Popular"
 msgstr "Beliebt"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:724
+#: ../eolie/popover_uri.py:741
 msgid "Recent"
 msgstr ""
 
-#: ../eolie/popover_uri.py:726
+#: ../eolie/popover_uri.py:743
 msgid "Unclassified"
 msgstr "Nicht klassifiziert"
 
-#: ../eolie/popover_uri.py:749
+#: ../eolie/popover_uri.py:766
 msgid "From the past hour"
 msgstr "Von der letzten Stunde"
 
-#: ../eolie/popover_uri.py:750
+#: ../eolie/popover_uri.py:767
 msgid "From the past day"
 msgstr "Vom letzten Tag"
 
-#: ../eolie/popover_uri.py:751
+#: ../eolie/popover_uri.py:768
 msgid "From the past week"
 msgstr "Von der letzten Woche"
 
-#: ../eolie/popover_uri.py:753
+#: ../eolie/popover_uri.py:770
 msgid "From the past four weeks"
 msgstr "Von den letzten 4 Wochen"
 
-#: ../eolie/popover_uri.py:754
+#: ../eolie/popover_uri.py:771
 msgid "From selected day"
 msgstr "Vom ausgewählten Tag"
 
-#: ../eolie/popover_uri.py:755
+#: ../eolie/popover_uri.py:772
 msgid "From the beginning"
 msgstr "Vom Anfang"
 
-#: ../eolie/popover_uri.py:1013
+#: ../eolie/popover_uri.py:1030
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s Lesezeichen"
@@ -474,50 +479,50 @@ msgstr "Sie haben eine Bestätiguns-E-Mail für die Synchronisation erhalten"
 msgid "Downloading:"
 msgstr "Download von:"
 
-#: ../eolie/toolbar_end.py:302 ../data/ToolbarEnd.ui.h:1
-msgid "Leave fullscreen"
-msgstr "Vollbildmodus beenden"
-
-#: ../eolie/toolbar_end.py:304
-msgid "Enter fullscreen"
-msgstr "Vollbildmodus"
-
-#: ../eolie/toolbar_end.py:351 ../data/ActionsMenu.ui.h:12
+#: ../eolie/toolbar_end.py:170 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Seite speichern"
 
-#: ../eolie/toolbar_end.py:354 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:173 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Speichern"
 
-#: ../eolie/toolbar_title.py:203
+#: ../eolie/toolbar_end.py:314 ../data/ToolbarEnd.ui.h:1
+msgid "Leave fullscreen"
+msgstr "Vollbildmodus beenden"
+
+#: ../eolie/toolbar_end.py:316
+msgid "Enter fullscreen"
+msgstr "Vollbildmodus"
+
+#: ../eolie/toolbar_title.py:265
 msgid "This page contains insecure content"
 msgstr "Diese Seite enthält unsicheren Inhalt"
 
-#: ../eolie/toolbar_title.py:257
+#: ../eolie/toolbar_title.py:319
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
 " it will be visible to cybercriminals!"
 msgstr ""
 
-#: ../eolie/toolbar_title.py:303
+#: ../eolie/toolbar_title.py:365
 msgid "Disallow geolocation"
 msgstr "Standordbestimmung untersagen"
 
-#: ../eolie/toolbar_title.py:309
+#: ../eolie/toolbar_title.py:371
 msgid "Blocked popups"
 msgstr "Blockierte Popups"
 
-#: ../eolie/toolbar_title.py:390
+#: ../eolie/toolbar_title.py:452
 msgid "Copy address"
 msgstr "Adresse kopieren"
 
-#: ../eolie/toolbar_title.py:451
+#: ../eolie/toolbar_title.py:513
 msgid "Paste and load"
 msgstr "Einfügen und los"
 
-#: ../eolie/toolbar_title.py:684 ../eolie/toolbar_title.py:687
+#: ../eolie/toolbar_title.py:749 ../eolie/toolbar_title.py:752
 msgid "Search or enter address"
 msgstr "Suchen oder Adresse eingeben"
 
@@ -894,10 +899,6 @@ msgstr ""
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
 msgstr "Lesezeichen importieren von:"
-
-#: ../data/DialogImportBookmarks.ui.h:2 ../data/PopoverUri.ui.h:2
-msgid "Import bookmarks"
-msgstr "Lesezeichen importieren"
 
 #: ../data/DialogImportBookmarks.ui.h:3
 msgid "Import"
@@ -1301,6 +1302,12 @@ msgstr "Navigation"
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Seite neu laden"
+
+#: ../data/Shortcuts.ui.h:30
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Startup page"
+msgstr "Startseite"
 
 #: ../data/ToolbarActions.ui.h:1
 msgid "Backward"

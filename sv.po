@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-17 07:34+0200\n"
+"POT-Creation-Date: 2017-10-20 14:53+0200\n"
 "PO-Revision-Date: 2017-10-14 23:45+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
@@ -186,11 +186,11 @@ msgstr "Webbläsare"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie är en ny webbläsare för GNOME."
 
-#: ../eolie/application.py:618
+#: ../eolie/application.py:619
 msgid "Do you really want to quit Eolie?"
 msgstr "Vill du verkligen avsluta Eolie?"
 
-#: ../eolie/application.py:744
+#: ../eolie/application.py:745
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Du behöver installera yelp."
 
@@ -198,19 +198,19 @@ msgstr "Eolie: Du behöver installera yelp."
 msgid "Popular pages"
 msgstr "Populära sidor"
 
-#: ../eolie/context.py:156
+#: ../eolie/context.py:154
 msgid "Name"
 msgstr "Namn"
 
-#: ../eolie/context.py:157
+#: ../eolie/context.py:155
 msgid "Size"
 msgstr "Storlek"
 
-#: ../eolie/context.py:159
+#: ../eolie/context.py:157
 msgid "Last modification"
 msgstr "Senaste ändring"
 
-#: ../eolie/database_adblock.py:123
+#: ../eolie/database_adblock.py:121
 msgid "For stronger ad blocking, install git command"
 msgstr "För starkare annonsblockering, installera kommandot git"
 
@@ -291,11 +291,11 @@ msgstr "Stäng webbplats"
 msgid "No videos"
 msgstr ""
 
-#: ../eolie/pages_manager.py:425
+#: ../eolie/pages_manager.py:430
 msgid "Do you really want to close this page?"
 msgstr "Vill du verkligen stänga denna sida?"
 
-#: ../eolie/popover_credentials.py:141
+#: ../eolie/popover_credentials.py:142
 msgid "Do you want to modify this password?"
 msgstr "Vill du ändra detta lösenord?"
 
@@ -362,7 +362,7 @@ msgid "Continue"
 msgstr "Fortsätt"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:416
-#: ../eolie/toolbar_end.py:355 ../eolie/webview_signals.py:127
+#: ../eolie/toolbar_end.py:174 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -380,45 +380,50 @@ msgstr "Redigera bokmärke"
 msgid "Open all pages for this tag"
 msgstr "Öppna alla sidor för denna tagg"
 
+#: ../eolie/popover_uri.py:452 ../data/DialogImportBookmarks.ui.h:2
+#: ../data/PopoverUri.ui.h:2
+msgid "Import bookmarks"
+msgstr "Importera bokmärken"
+
 #. Translators: Plural
-#: ../eolie/popover_uri.py:721
+#: ../eolie/popover_uri.py:738
 msgid "Popular"
 msgstr "Populära"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:724
+#: ../eolie/popover_uri.py:741
 msgid "Recent"
 msgstr "Senaste"
 
-#: ../eolie/popover_uri.py:726
+#: ../eolie/popover_uri.py:743
 msgid "Unclassified"
 msgstr "Oklassificerade"
 
-#: ../eolie/popover_uri.py:749
+#: ../eolie/popover_uri.py:766
 msgid "From the past hour"
 msgstr "Från den senaste timmen"
 
-#: ../eolie/popover_uri.py:750
+#: ../eolie/popover_uri.py:767
 msgid "From the past day"
 msgstr "Från den senaste dagen"
 
-#: ../eolie/popover_uri.py:751
+#: ../eolie/popover_uri.py:768
 msgid "From the past week"
 msgstr "Från senaste veckan"
 
-#: ../eolie/popover_uri.py:753
+#: ../eolie/popover_uri.py:770
 msgid "From the past four weeks"
 msgstr "Från de senaste fyra veckorna"
 
-#: ../eolie/popover_uri.py:754
+#: ../eolie/popover_uri.py:771
 msgid "From selected day"
 msgstr "Från vald dag"
 
-#: ../eolie/popover_uri.py:755
+#: ../eolie/popover_uri.py:772
 msgid "From the beginning"
 msgstr "Från början"
 
-#: ../eolie/popover_uri.py:1013
+#: ../eolie/popover_uri.py:1030
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bokmärken"
@@ -480,27 +485,27 @@ msgstr "Du har fått ett e-postmeddelande för att validera synkronisering"
 msgid "Downloading:"
 msgstr "Hämtar:"
 
-#: ../eolie/toolbar_end.py:302 ../data/ToolbarEnd.ui.h:1
-msgid "Leave fullscreen"
-msgstr "Lämna helskärm"
-
-#: ../eolie/toolbar_end.py:304
-msgid "Enter fullscreen"
-msgstr "Helskärmsläge"
-
-#: ../eolie/toolbar_end.py:351 ../data/ActionsMenu.ui.h:12
+#: ../eolie/toolbar_end.py:170 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Spara sida"
 
-#: ../eolie/toolbar_end.py:354 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:173 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Spara"
 
-#: ../eolie/toolbar_title.py:203
+#: ../eolie/toolbar_end.py:314 ../data/ToolbarEnd.ui.h:1
+msgid "Leave fullscreen"
+msgstr "Lämna helskärm"
+
+#: ../eolie/toolbar_end.py:316
+msgid "Enter fullscreen"
+msgstr "Helskärmsläge"
+
+#: ../eolie/toolbar_title.py:265
 msgid "This page contains insecure content"
 msgstr "Denna sida innehåller osäkert innehåll"
 
-#: ../eolie/toolbar_title.py:257
+#: ../eolie/toolbar_title.py:319
 #, fuzzy
 msgid ""
 "Heads-up: this page is not secure.\n"
@@ -510,23 +515,23 @@ msgstr ""
 "Varning: denna sida är inte säker.\\nOm du skriver in ditt lösenord\\n "
 "kommer det vara synligt för cyberbrottslingar!"
 
-#: ../eolie/toolbar_title.py:303
+#: ../eolie/toolbar_title.py:365
 msgid "Disallow geolocation"
 msgstr "Förbjud platsdata"
 
-#: ../eolie/toolbar_title.py:309
+#: ../eolie/toolbar_title.py:371
 msgid "Blocked popups"
 msgstr "Blockerade poppupper"
 
-#: ../eolie/toolbar_title.py:390
+#: ../eolie/toolbar_title.py:452
 msgid "Copy address"
 msgstr "Kopiera adress"
 
-#: ../eolie/toolbar_title.py:451
+#: ../eolie/toolbar_title.py:513
 msgid "Paste and load"
 msgstr "Klistra in och läs in"
 
-#: ../eolie/toolbar_title.py:684 ../eolie/toolbar_title.py:687
+#: ../eolie/toolbar_title.py:749 ../eolie/toolbar_title.py:752
 msgid "Search or enter address"
 msgstr "Sök eller ange adress"
 
@@ -904,10 +909,6 @@ msgstr ""
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
 msgstr "Importera bokmärken från:"
-
-#: ../data/DialogImportBookmarks.ui.h:2 ../data/PopoverUri.ui.h:2
-msgid "Import bookmarks"
-msgstr "Importera bokmärken"
 
 #: ../data/DialogImportBookmarks.ui.h:3
 msgid "Import"
@@ -1312,6 +1313,12 @@ msgstr "Navigering"
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Uppdatera sida"
+
+#: ../data/Shortcuts.ui.h:30
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Startup page"
+msgstr "Startsida"
 
 #: ../data/ToolbarActions.ui.h:1
 msgid "Backward"
