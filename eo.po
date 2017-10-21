@@ -8,41 +8,44 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-20 14:53+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-10-22 10:45+0000\n"
+"Last-Translator: Tirifto <tirifto@posteo.cz>\n"
+"Language-Team: Esperanto "
+"<https://hosted.weblate.org/projects/eolie/eolie/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.17\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Window size"
-msgstr ""
+msgstr "Fenestra grando"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:2
 msgid "Window size (width and height)"
-msgstr ""
+msgstr "Fenestra grando (larĝo kaj alto)"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:3
 msgid "Window position"
-msgstr ""
+msgstr "Fenestra loko"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:4
 msgid "Window position (x and y)"
-msgstr ""
+msgstr "Fenestra loko (x kaj y)"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Window maximized"
-msgstr ""
+msgstr "Fenestro plejgranda"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Window maximized state"
-msgstr ""
+msgstr "Plejgranda stato de fenestro"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
 msgid "Show sidebar(sites manager)"
-msgstr ""
+msgstr "Montri flankbreton (retejan administrilon)"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Block ads on pages"
@@ -66,55 +69,55 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:13
 msgid "Open finished downloads"
-msgstr ""
+msgstr "Malfermi finitajn elŝutojn"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:14
 msgid "Web search engine"
-msgstr ""
+msgstr "Retserĉilo"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:15
 msgid "Remember sessions"
-msgstr ""
+msgstr "Memori seancojn"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:34
 msgid "Remember passwords"
-msgstr ""
+msgstr "Memori pasvortojn"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:20
 msgid "Enable developer tools"
-msgstr ""
+msgstr "Ŝalti programistajn ilojn"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:9
 msgid "Enable plugins"
-msgstr ""
+msgstr "Ŝalti kromprogramojn"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:23
 msgid "Use system fonts"
-msgstr ""
+msgstr "Uzi sistemajn tiparojn"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:24
 msgid "Sans serif font"
-msgstr ""
+msgstr "Senkalkana tiparo"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:25
 msgid "Serif font"
-msgstr ""
+msgstr "Kalkana tiparo"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:26
 msgid "Monospace font"
-msgstr ""
+msgstr "Egallarĝa tiparo"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:23
 msgid "Open this page on startup"
-msgstr ""
+msgstr "Malfermi tiun ĉi paĝon je komenco"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Minimum sidebar position"
-msgstr ""
+msgstr "Minimuma flankbreta loko"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:25 ../data/SettingsDialog.ui.h:27
 msgid "Minimum font size"
-msgstr ""
+msgstr "Minimuma tipara grando"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "Popular items shown"
@@ -134,7 +137,7 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:30 ../data/SettingsDialog.ui.h:32
 msgid "Tell websites I do not want to be tracked"
-msgstr ""
+msgstr "Petu retejojn ne spioni min"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:31
 msgid "DNS prediction"
@@ -142,37 +145,37 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:32 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
-msgstr ""
+msgstr "Ŝalti literuman kontrolon"
 
 #: ../data/AboutDialog.ui.in:14 ../data/AboutDialog.ui.in.h:1
 msgid "A web browser for GNOME."
-msgstr ""
+msgstr "Foliumilo por GNOME."
 
 #: ../data/AboutDialog.ui.in:16 ../data/AboutDialog.ui.in.h:2
 msgid "Visit Eolie website"
-msgstr ""
+msgstr "Viziti retejon de Eolie"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:19 ../data/AboutDialog.ui.in.h:4
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr ""
+msgstr "Tirifto <tirifto@posteo.cz>"
 
 #: ../data/AboutDialog.ui.in:51 ../data/AboutDialog.ui.in.h:5
 msgid "Donations:"
-msgstr ""
+msgstr "Donacoj:"
 
 #: ../data/AboutDialog.ui.in:60 ../data/AboutDialog.ui.in.h:6
 msgid "Flattr"
-msgstr ""
+msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:74 ../data/AboutDialog.ui.in.h:7
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in.h:1
 msgid "Eolie"
-msgstr ""
+msgstr "Eolie"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in.h:2
 msgid "Web browser"
@@ -188,23 +191,23 @@ msgstr ""
 
 #: ../eolie/application.py:745
 msgid "Eolie: You need to install yelp."
-msgstr ""
+msgstr "Eolie: Vi devas instali yelp."
 
 #: ../eolie/context.py:92 ../data/SettingsDialog.ui.h:13
 msgid "Popular pages"
-msgstr ""
+msgstr "Ofte vizitataj paĝoj"
 
 #: ../eolie/context.py:154
 msgid "Name"
-msgstr ""
+msgstr "Nomo"
 
 #: ../eolie/context.py:155
 msgid "Size"
-msgstr ""
+msgstr "Grando"
 
 #: ../eolie/context.py:157
 msgid "Last modification"
-msgstr ""
+msgstr "Lasta modifo"
 
 #: ../eolie/database_adblock.py:121
 msgid "For stronger ad blocking, install git command"
