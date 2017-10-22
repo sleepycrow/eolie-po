@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-25 13:10+0200\n"
-"PO-Revision-Date: 2017-10-23 13:45+0000\n"
+"PO-Revision-Date: 2017-10-25 14:28+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
@@ -643,9 +643,8 @@ msgid "Open link in a new page"
 msgstr "Verwijzing openen in een nieuw tabblad"
 
 #: ../eolie/webview_signals_menu.py:78
-#, fuzzy
 msgid "Open link in a new private page"
-msgstr "Verwijzing openen in een nieuw tabblad"
+msgstr "Verwijzing openen in een nieuw privétabblad"
 
 #: ../eolie/webview_signals_menu.py:92
 msgid "Search on the Web"
