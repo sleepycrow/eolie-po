@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-20 14:53+0200\n"
-"PO-Revision-Date: 2017-10-22 12:50+0000\n"
+"PO-Revision-Date: 2017-10-23 13:45+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
@@ -1308,7 +1308,7 @@ msgstr "Pagina herladen"
 #: ../data/Shortcuts.ui.h:30
 msgctxt "shortcut window"
 msgid "Startup page"
-msgstr "Opstartpagina"
+msgstr "Startpagina"
 
 #: ../data/ToolbarActions.ui.h:1
 msgid "Backward"
@@ -1336,7 +1336,7 @@ msgstr "Meer acties"
 
 #: ../data/ToolbarEnd.ui.h:3
 msgid "Startup page"
-msgstr "Opstartpagina"
+msgstr "Startpagina"
 
 #~ msgid "Download this video:"
 #~ msgstr "Deze video downloaden:"
