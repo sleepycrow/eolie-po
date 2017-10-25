@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-25 13:10+0200\n"
-"PO-Revision-Date: 2017-10-17 05:37+0000\n"
+"PO-Revision-Date: 2017-10-25 11:51+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
 "Language: fr\n"
@@ -651,9 +651,8 @@ msgid "Open link in a new page"
 msgstr "Ouvrir le lien dans une nouvelle page"
 
 #: ../eolie/webview_signals_menu.py:78
-#, fuzzy
 msgid "Open link in a new private page"
-msgstr "Ouvrir le lien dans une nouvelle page"
+msgstr "Ouvrir le lien dans une nouvelle page privée"
 
 #: ../eolie/webview_signals_menu.py:92
 msgid "Search on the Web"
@@ -1314,7 +1313,6 @@ msgid "Reload page"
 msgstr "Recharger la page"
 
 #: ../data/Shortcuts.ui.h:30
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Startup page"
 msgstr "Page de démarrage"
