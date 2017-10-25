@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-20 14:53+0200\n"
+"POT-Creation-Date: 2017-10-25 13:10+0200\n"
 "PO-Revision-Date: 2017-10-17 05:37+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
@@ -180,10 +180,6 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Navigateur web"
 
-#: ../data/org.gnome.Eolie.appdata.xml.in.h:3
-msgid "Eolie is a new GNOME web browser."
-msgstr "Eolie est un nouveau navigateur web pour GNOME."
-
 #: ../eolie/application.py:619
 msgid "Do you really want to quit Eolie?"
 msgstr "Voulez vous vraiment quitter Eolie?"
@@ -273,7 +269,7 @@ msgstr "Nouvelle page privée"
 msgid "Closed pages"
 msgstr "Pages fermées"
 
-#: ../eolie/menu_pages.py:101
+#: ../eolie/menu_pages.py:102
 msgid "Open all pages"
 msgstr "Ouvrir toutes les pages"
 
@@ -289,7 +285,7 @@ msgstr "Fermer le site"
 msgid "No videos"
 msgstr "Pas de vidéos"
 
-#: ../eolie/pages_manager.py:430
+#: ../eolie/pages_manager.py:426
 msgid "Do you really want to close this page?"
 msgstr "Voulez vous vraiment fermer cette page?"
 
@@ -359,69 +355,69 @@ msgstr "Autoriser cette page à obtenir votre localisation?"
 msgid "Continue"
 msgstr "Continuer"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:416
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:417
 #: ../eolie/toolbar_end.py:174 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../eolie/popover_uri.py:116
+#: ../eolie/popover_uri.py:117
 msgid "Delete page from history"
 msgstr "Supprimer la page de l'historique"
 
-#: ../eolie/popover_uri.py:131
+#: ../eolie/popover_uri.py:132
 msgid "Edit bookmark"
 msgstr "Éditer le marque page"
 
-#: ../eolie/popover_uri.py:151
+#: ../eolie/popover_uri.py:152
 msgid "Open all pages for this tag"
 msgstr "Ouvrir toutes les pages pour cette étiquette"
 
-#: ../eolie/popover_uri.py:452 ../data/DialogImportBookmarks.ui.h:2
+#: ../eolie/popover_uri.py:453 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Importer des marques pages"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:738
+#: ../eolie/popover_uri.py:742
 msgid "Popular"
 msgstr "Populaires"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:741
+#: ../eolie/popover_uri.py:745
 msgid "Recent"
 msgstr "Récents"
 
-#: ../eolie/popover_uri.py:743
+#: ../eolie/popover_uri.py:747
 msgid "Unclassified"
 msgstr "Non classés"
 
-#: ../eolie/popover_uri.py:766
+#: ../eolie/popover_uri.py:770
 msgid "From the past hour"
 msgstr "Depuis la dernière heure"
 
-#: ../eolie/popover_uri.py:767
+#: ../eolie/popover_uri.py:771
 msgid "From the past day"
 msgstr "Depuis le dernier jour"
 
-#: ../eolie/popover_uri.py:768
+#: ../eolie/popover_uri.py:772
 msgid "From the past week"
 msgstr "Depuis la dernière semaine"
 
-#: ../eolie/popover_uri.py:770
+#: ../eolie/popover_uri.py:774
 msgid "From the past four weeks"
 msgstr "Depuis les quatre dernières semaines"
 
-#: ../eolie/popover_uri.py:771
+#: ../eolie/popover_uri.py:775
 msgid "From selected day"
 msgstr "Depuis le jour sélectionné"
 
-#: ../eolie/popover_uri.py:772
+#: ../eolie/popover_uri.py:776
 msgid "From the beginning"
 msgstr "Depuis le début"
 
-#: ../eolie/popover_uri.py:1030
+#: ../eolie/popover_uri.py:1034
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s marques pages"
@@ -642,7 +638,7 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Rapporter un bug maintenant"
 
-#: ../eolie/webview_signals_js.py:84
+#: ../eolie/webview_signals_js.py:85
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie va fermer cette page car elle ne fonctionne pas"
 
@@ -654,23 +650,28 @@ msgstr "Recharger l'aperçu"
 msgid "Open link in a new page"
 msgstr "Ouvrir le lien dans une nouvelle page"
 
-#: ../eolie/webview_signals_menu.py:82
+#: ../eolie/webview_signals_menu.py:78
+#, fuzzy
+msgid "Open link in a new private page"
+msgstr "Ouvrir le lien dans une nouvelle page"
+
+#: ../eolie/webview_signals_menu.py:92
 msgid "Search on the Web"
 msgstr "Rechercher sur le Web"
 
-#: ../eolie/webview_signals_menu.py:93
+#: ../eolie/webview_signals_menu.py:103
 msgid "Copy"
 msgstr "Copier"
 
-#: ../eolie/webview_signals_menu.py:105 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:115 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Enregistrer les images"
 
-#: ../eolie/webview_signals_menu.py:119
+#: ../eolie/webview_signals_menu.py:129
 msgid "Save videos"
 msgstr "Enregistrer les vidéos"
 
-#: ../eolie/webview_signals_menu.py:133
+#: ../eolie/webview_signals_menu.py:143
 msgid "Save page as image"
 msgstr "Enregistrer comme un image"
 
@@ -1345,6 +1346,9 @@ msgstr "Plus d'actions"
 #: ../data/ToolbarEnd.ui.h:3
 msgid "Startup page"
 msgstr "Page de démarrage"
+
+#~ msgid "Eolie is a new GNOME web browser."
+#~ msgstr "Eolie est un nouveau navigateur web pour GNOME."
 
 #~ msgid "Download this video:"
 #~ msgstr "Télécharger cette vidéo:"

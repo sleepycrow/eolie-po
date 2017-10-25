@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-20 14:53+0200\n"
+"POT-Creation-Date: 2017-10-25 13:10+0200\n"
 "PO-Revision-Date: 2017-10-23 13:45+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
@@ -176,10 +176,6 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Webbrowser"
 
-#: ../data/org.gnome.Eolie.appdata.xml.in.h:3
-msgid "Eolie is a new GNOME web browser."
-msgstr "Eolie is een webbrowser voor Gnome."
-
 #: ../eolie/application.py:619
 msgid "Do you really want to quit Eolie?"
 msgstr "Weet u zeker dat u Eolie wilt afsluiten?"
@@ -269,7 +265,7 @@ msgstr "Nieuw privétabblad"
 msgid "Closed pages"
 msgstr "Gesloten tabbladen"
 
-#: ../eolie/menu_pages.py:101
+#: ../eolie/menu_pages.py:102
 msgid "Open all pages"
 msgstr "Alle pagina’s openen"
 
@@ -285,7 +281,7 @@ msgstr "Site sluiten"
 msgid "No videos"
 msgstr "Geen video’s"
 
-#: ../eolie/pages_manager.py:430
+#: ../eolie/pages_manager.py:426
 msgid "Do you really want to close this page?"
 msgstr "Weet u zeker dat u deze pagina wilt sluiten?"
 
@@ -355,69 +351,69 @@ msgstr "Deze pagina toegang geven tot uw locatie?"
 msgid "Continue"
 msgstr "Verdergaan"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:416
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:417
 #: ../eolie/toolbar_end.py:174 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../eolie/popover_uri.py:116
+#: ../eolie/popover_uri.py:117
 msgid "Delete page from history"
 msgstr "Pagina verwijderen uit geschiedenis"
 
-#: ../eolie/popover_uri.py:131
+#: ../eolie/popover_uri.py:132
 msgid "Edit bookmark"
 msgstr "Bladwijzer bewerken"
 
-#: ../eolie/popover_uri.py:151
+#: ../eolie/popover_uri.py:152
 msgid "Open all pages for this tag"
 msgstr "Alle pagina’s voor deze tag openen"
 
-#: ../eolie/popover_uri.py:452 ../data/DialogImportBookmarks.ui.h:2
+#: ../eolie/popover_uri.py:453 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Bladwijzers importeren"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:738
+#: ../eolie/popover_uri.py:742
 msgid "Popular"
 msgstr "Populair"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:741
+#: ../eolie/popover_uri.py:745
 msgid "Recent"
 msgstr "Recent"
 
-#: ../eolie/popover_uri.py:743
+#: ../eolie/popover_uri.py:747
 msgid "Unclassified"
 msgstr "Ongeclassificeerd"
 
-#: ../eolie/popover_uri.py:766
+#: ../eolie/popover_uri.py:770
 msgid "From the past hour"
 msgstr "Van het voorbije uur"
 
-#: ../eolie/popover_uri.py:767
+#: ../eolie/popover_uri.py:771
 msgid "From the past day"
 msgstr "Van de voorbije dag"
 
-#: ../eolie/popover_uri.py:768
+#: ../eolie/popover_uri.py:772
 msgid "From the past week"
 msgstr "Van de voorbije week"
 
-#: ../eolie/popover_uri.py:770
+#: ../eolie/popover_uri.py:774
 msgid "From the past four weeks"
 msgstr "Van de voorbije vier weken"
 
-#: ../eolie/popover_uri.py:771
+#: ../eolie/popover_uri.py:775
 msgid "From selected day"
 msgstr "Vanaf een bepaalde dag"
 
-#: ../eolie/popover_uri.py:772
+#: ../eolie/popover_uri.py:776
 msgid "From the beginning"
 msgstr "Vanaf het begin"
 
-#: ../eolie/popover_uri.py:1030
+#: ../eolie/popover_uri.py:1034
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bladwijzers"
@@ -634,7 +630,7 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Nu een bug melden"
 
-#: ../eolie/webview_signals_js.py:84
+#: ../eolie/webview_signals_js.py:85
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie zal deze pagina sluiten, want ze werkt niet"
 
@@ -646,23 +642,28 @@ msgstr "Voorbeeld herladen"
 msgid "Open link in a new page"
 msgstr "Verwijzing openen in een nieuw tabblad"
 
-#: ../eolie/webview_signals_menu.py:82
+#: ../eolie/webview_signals_menu.py:78
+#, fuzzy
+msgid "Open link in a new private page"
+msgstr "Verwijzing openen in een nieuw tabblad"
+
+#: ../eolie/webview_signals_menu.py:92
 msgid "Search on the Web"
 msgstr "Zoeken op het internet"
 
-#: ../eolie/webview_signals_menu.py:93
+#: ../eolie/webview_signals_menu.py:103
 msgid "Copy"
 msgstr "Kopiëren"
 
-#: ../eolie/webview_signals_menu.py:105 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:115 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Afbeeldingen opslaan"
 
-#: ../eolie/webview_signals_menu.py:119
+#: ../eolie/webview_signals_menu.py:129
 msgid "Save videos"
 msgstr "Video’s opslaan"
 
-#: ../eolie/webview_signals_menu.py:133
+#: ../eolie/webview_signals_menu.py:143
 msgid "Save page as image"
 msgstr "Pagina opslaan als afbeelding"
 
@@ -1337,6 +1338,9 @@ msgstr "Meer acties"
 #: ../data/ToolbarEnd.ui.h:3
 msgid "Startup page"
 msgstr "Startpagina"
+
+#~ msgid "Eolie is a new GNOME web browser."
+#~ msgstr "Eolie is een webbrowser voor Gnome."
 
 #~ msgid "Download this video:"
 #~ msgstr "Deze video downloaden:"

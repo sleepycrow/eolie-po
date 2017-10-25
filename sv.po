@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-20 14:53+0200\n"
+"POT-Creation-Date: 2017-10-25 13:10+0200\n"
 "PO-Revision-Date: 2017-10-23 23:54+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/>"
-"\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
+">\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -181,10 +181,6 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Webbläsare"
 
-#: ../data/org.gnome.Eolie.appdata.xml.in.h:3
-msgid "Eolie is a new GNOME web browser."
-msgstr "Eolie är en ny webbläsare för GNOME."
-
 #: ../eolie/application.py:619
 msgid "Do you really want to quit Eolie?"
 msgstr "Vill du verkligen avsluta Eolie?"
@@ -274,7 +270,7 @@ msgstr "Ny privat sida"
 msgid "Closed pages"
 msgstr "Stängda sidor"
 
-#: ../eolie/menu_pages.py:101
+#: ../eolie/menu_pages.py:102
 msgid "Open all pages"
 msgstr "Öppna alla sidor"
 
@@ -290,7 +286,7 @@ msgstr "Stäng webbplats"
 msgid "No videos"
 msgstr "Inga videoklipp"
 
-#: ../eolie/pages_manager.py:430
+#: ../eolie/pages_manager.py:426
 msgid "Do you really want to close this page?"
 msgstr "Vill du verkligen stänga denna sida?"
 
@@ -360,69 +356,69 @@ msgstr "Tillåt denna sida att få tillgång till din plats?"
 msgid "Continue"
 msgstr "Fortsätt"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:416
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:417
 #: ../eolie/toolbar_end.py:174 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: ../eolie/popover_uri.py:116
+#: ../eolie/popover_uri.py:117
 msgid "Delete page from history"
 msgstr "Ta bort sida från historik"
 
-#: ../eolie/popover_uri.py:131
+#: ../eolie/popover_uri.py:132
 msgid "Edit bookmark"
 msgstr "Redigera bokmärke"
 
-#: ../eolie/popover_uri.py:151
+#: ../eolie/popover_uri.py:152
 msgid "Open all pages for this tag"
 msgstr "Öppna alla sidor för denna tagg"
 
-#: ../eolie/popover_uri.py:452 ../data/DialogImportBookmarks.ui.h:2
+#: ../eolie/popover_uri.py:453 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Importera bokmärken"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:738
+#: ../eolie/popover_uri.py:742
 msgid "Popular"
 msgstr "Populära"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:741
+#: ../eolie/popover_uri.py:745
 msgid "Recent"
 msgstr "Senaste"
 
-#: ../eolie/popover_uri.py:743
+#: ../eolie/popover_uri.py:747
 msgid "Unclassified"
 msgstr "Oklassificerade"
 
-#: ../eolie/popover_uri.py:766
+#: ../eolie/popover_uri.py:770
 msgid "From the past hour"
 msgstr "Från den senaste timmen"
 
-#: ../eolie/popover_uri.py:767
+#: ../eolie/popover_uri.py:771
 msgid "From the past day"
 msgstr "Från den senaste dagen"
 
-#: ../eolie/popover_uri.py:768
+#: ../eolie/popover_uri.py:772
 msgid "From the past week"
 msgstr "Från senaste veckan"
 
-#: ../eolie/popover_uri.py:770
+#: ../eolie/popover_uri.py:774
 msgid "From the past four weeks"
 msgstr "Från de senaste fyra veckorna"
 
-#: ../eolie/popover_uri.py:771
+#: ../eolie/popover_uri.py:775
 msgid "From selected day"
 msgstr "Från vald dag"
 
-#: ../eolie/popover_uri.py:772
+#: ../eolie/popover_uri.py:776
 msgid "From the beginning"
 msgstr "Från början"
 
-#: ../eolie/popover_uri.py:1030
+#: ../eolie/popover_uri.py:1034
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bokmärken"
@@ -641,7 +637,7 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Rapportera ett fel nu"
 
-#: ../eolie/webview_signals_js.py:84
+#: ../eolie/webview_signals_js.py:85
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie kommer att stänga denna sida för att den är trasig"
 
@@ -653,23 +649,28 @@ msgstr "Uppdatera förhandsvisning"
 msgid "Open link in a new page"
 msgstr "Öppna länk i en ny sida"
 
-#: ../eolie/webview_signals_menu.py:82
+#: ../eolie/webview_signals_menu.py:78
+#, fuzzy
+msgid "Open link in a new private page"
+msgstr "Öppna länk i en ny sida"
+
+#: ../eolie/webview_signals_menu.py:92
 msgid "Search on the Web"
 msgstr "Sök på nätet"
 
-#: ../eolie/webview_signals_menu.py:93
+#: ../eolie/webview_signals_menu.py:103
 msgid "Copy"
 msgstr "Kopiera"
 
-#: ../eolie/webview_signals_menu.py:105 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:115 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Spara bilder"
 
-#: ../eolie/webview_signals_menu.py:119
+#: ../eolie/webview_signals_menu.py:129
 msgid "Save videos"
 msgstr "Spara videoklipp"
 
-#: ../eolie/webview_signals_menu.py:133
+#: ../eolie/webview_signals_menu.py:143
 msgid "Save page as image"
 msgstr "Spara sida som bild"
 
@@ -1341,6 +1342,9 @@ msgstr "Fler åtgärder"
 #: ../data/ToolbarEnd.ui.h:3
 msgid "Startup page"
 msgstr "Startsida"
+
+#~ msgid "Eolie is a new GNOME web browser."
+#~ msgstr "Eolie är en ny webbläsare för GNOME."
 
 #~ msgid "Download this video:"
 #~ msgstr "Hämta denna video:"
