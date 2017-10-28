@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-25 13:10+0200\n"
-"PO-Revision-Date: 2017-10-28 13:08+0000\n"
+"PO-Revision-Date: 2017-10-29 16:44+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -37,11 +37,11 @@ msgstr "موضع النافذة (س، ص)"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Window maximized"
-msgstr ""
+msgstr "النافذة مكبّرة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Window maximized state"
-msgstr ""
+msgstr "حالة تكبير النافذة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
 msgid "Show sidebar(sites manager)"
@@ -52,7 +52,6 @@ msgid "Block ads on pages"
 msgstr "امنع الإغلانات في الصفحات"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:9
-#, fuzzy
 msgid "Block unwanted popups on pages"
 msgstr "امنع النوافذ المنبثقة المزعجة في الصفحات"
 
@@ -98,11 +97,11 @@ msgstr "استعمل خطوط النظام"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:24
 msgid "Sans serif font"
-msgstr ""
+msgstr "الخط غير المذيّل"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:25
 msgid "Serif font"
-msgstr ""
+msgstr "الخط المذيّل"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:26
 msgid "Monospace font"
@@ -122,19 +121,19 @@ msgstr "أصغر حجم للخط"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "Popular items shown"
-msgstr ""
+msgstr "العناصر الشائعة ظاهرة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:27
 msgid "INTERNAL"
-msgstr ""
+msgstr "INTERNAL"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:28
 msgid "Cookies storage type"
-msgstr ""
+msgstr "نوع تخزين الكعكات"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:29
 msgid "History storage type"
-msgstr ""
+msgstr "نوع تخزين التأريخ"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:30 ../data/SettingsDialog.ui.h:32
 msgid "Tell websites I do not want to be tracked"
@@ -142,7 +141,7 @@ msgstr "أخبر مواقع الوب أنني لا أريدها أن تتعقب�
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:31
 msgid "DNS prediction"
-msgstr ""
+msgstr "توقع DNS"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:32 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
@@ -154,7 +153,7 @@ msgstr "متصفح وب لمشروع غنوم."
 
 #: ../data/AboutDialog.ui.in:16 ../data/AboutDialog.ui.in.h:2
 msgid "Visit Eolie website"
-msgstr ""
+msgstr "زر موقع أيولي"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:19 ../data/AboutDialog.ui.in.h:4
@@ -168,7 +167,7 @@ msgstr "التبرعات:"
 
 #: ../data/AboutDialog.ui.in:60 ../data/AboutDialog.ui.in.h:6
 msgid "Flattr"
-msgstr ""
+msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:74 ../data/AboutDialog.ui.in.h:7
 msgid "PayPal"
@@ -176,7 +175,7 @@ msgstr "باي‌بال"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in.h:1
 msgid "Eolie"
-msgstr ""
+msgstr "أيولي"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in.h:2
 msgid "Web browser"
@@ -184,11 +183,11 @@ msgstr "متصفح وب"
 
 #: ../eolie/application.py:629
 msgid "Do you really want to quit Eolie?"
-msgstr ""
+msgstr "هل أنت واثق أنك تريد الخروج من أيولي؟"
 
 #: ../eolie/application.py:755
 msgid "Eolie: You need to install yelp."
-msgstr ""
+msgstr "Eolie: تحتاج إلى تثبيت yelp."
 
 #: ../eolie/context.py:92 ../data/SettingsDialog.ui.h:13
 msgid "Popular pages"
@@ -196,11 +195,11 @@ msgstr "الصفحات الشائعة"
 
 #: ../eolie/context.py:154
 msgid "Name"
-msgstr ""
+msgstr "الاسم"
 
 #: ../eolie/context.py:155
 msgid "Size"
-msgstr ""
+msgstr "الحجم"
 
 #: ../eolie/context.py:157
 msgid "Last modification"
@@ -208,27 +207,27 @@ msgstr "آخر تعديل"
 
 #: ../eolie/database_adblock.py:121
 msgid "For stronger ad blocking, install git command"
-msgstr ""
+msgstr "ثبت الأمر git لأجل منع أقوى للإعلانات"
 
 #: ../eolie/dialog_clear_data.py:179
 msgid "Memory cache"
-msgstr ""
+msgstr "ذاكرة الخبيئة"
 
 #: ../eolie/dialog_clear_data.py:181
 msgid "HTTP disk cache"
-msgstr ""
+msgstr "خبيئة HTTP على القرص"
 
 #: ../eolie/dialog_clear_data.py:183
 msgid "Offline web application cache"
-msgstr ""
+msgstr "خبيئة تطبيقات الوب غير المتصلة"
 
 #: ../eolie/dialog_clear_data.py:185
 msgid "Session storage data"
-msgstr ""
+msgstr "بيانات تخزين الجلسة"
 
 #: ../eolie/dialog_clear_data.py:187
 msgid "Local storage data"
-msgstr ""
+msgstr "بيانات التخزين المحلية"
 
 #: ../eolie/dialog_clear_data.py:189
 msgid "WebSQL databases"
@@ -252,7 +251,7 @@ msgstr "أخرى"
 
 #: ../eolie/dialog_import_bookmarks.py:84
 msgid "Import HTML bookmarks"
-msgstr ""
+msgstr "استورد علامات HTML"
 
 #: ../eolie/dialog_search_engine.py:170 ../eolie/dialog_search_engine.py:174
 msgid "New engine"
@@ -277,15 +276,15 @@ msgstr "افتح كل الصفحات"
 
 #: ../eolie/menu_sites.py:59
 msgid "Modify user agent"
-msgstr ""
+msgstr "غيّر معرّف المستخدم"
 
 #: ../eolie/menu_sites.py:66 ../data/SitesManagerChild.ui.h:1
 msgid "Close site"
-msgstr ""
+msgstr "أغلق الموقع"
 
 #: ../eolie/menu_videos.py:71
 msgid "No videos"
-msgstr ""
+msgstr "لا فيديوهات"
 
 #: ../eolie/pages_manager.py:426
 msgid "Do you really want to close this page?"
@@ -297,7 +296,7 @@ msgstr "هل تريد تعديل كلمة السر هذه؟"
 
 #: ../eolie/popover_downloads.py:47
 msgid "Unknown destination"
-msgstr ""
+msgstr "وجهة مجهولة"
 
 #: ../eolie/popover_downloads.py:100
 msgid "Download speed:"
@@ -309,41 +308,41 @@ msgstr "بايت/ث"
 
 #: ../eolie/popover_downloads.py:105
 msgid "KiB/s"
-msgstr ""
+msgstr "كب/ث"
 
 #: ../eolie/popover_downloads.py:108
 msgid "MiB/s"
-msgstr ""
+msgstr "مب/ث"
 
 #: ../eolie/popover_downloads.py:130 ../eolie/popover_downloads.py:136
 #, python-format
 msgid "%s second"
-msgstr ""
+msgstr "%s ثانية واحدة"
 
 #: ../eolie/popover_downloads.py:132 ../eolie/popover_downloads.py:138
 #, python-format
 msgid "%s seconds"
-msgstr ""
+msgstr "%s من الثواني"
 
 #: ../eolie/popover_downloads.py:144 ../eolie/popover_downloads.py:152
 #, python-format
 msgid "%s minute"
-msgstr ""
+msgstr "%s دقيقة واحدة"
 
 #: ../eolie/popover_downloads.py:147 ../eolie/popover_downloads.py:154
 #, python-format
 msgid "%s minutes"
-msgstr ""
+msgstr "%s من الدقائق"
 
 #: ../eolie/popover_downloads.py:160
 #, python-format
 msgid "%s hours"
-msgstr ""
+msgstr "%s من الساعات"
 
 #: ../eolie/popover_downloads.py:162
 #, python-format
 msgid "%s hour"
-msgstr ""
+msgstr "%s ساعة واحدة"
 
 #: ../eolie/popover_downloads.py:163
 msgid "Remaining time:"
@@ -355,7 +354,7 @@ msgstr "أأسمح لهذه الصفحة بتحديد موقعك؟"
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
-msgstr ""
+msgstr "استمر"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:417
 #: ../eolie/toolbar_end.py:182 ../eolie/webview_signals.py:127
@@ -374,7 +373,7 @@ msgstr "عدّل العلامة"
 
 #: ../eolie/popover_uri.py:152
 msgid "Open all pages for this tag"
-msgstr ""
+msgstr "افتح كل الصفحات التي في هذا الوسم"
 
 #: ../eolie/popover_uri.py:453 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
@@ -384,7 +383,7 @@ msgstr "استورد العلامات"
 #. Translators: Plural
 #: ../eolie/popover_uri.py:742
 msgid "Popular"
-msgstr ""
+msgstr "شائعة"
 
 #. Translators: Plural
 #: ../eolie/popover_uri.py:745
@@ -397,11 +396,11 @@ msgstr "غير المصنفة"
 
 #: ../eolie/popover_uri.py:770
 msgid "From the past hour"
-msgstr ""
+msgstr "من الساعة الفائتة"
 
 #: ../eolie/popover_uri.py:771
 msgid "From the past day"
-msgstr ""
+msgstr "من اليوم الفائت"
 
 #: ../eolie/popover_uri.py:772
 msgid "From the past week"
@@ -422,7 +421,7 @@ msgstr "من البداية"
 #: ../eolie/popover_uri.py:1034
 #, python-format
 msgid "%s bookmarks"
-msgstr ""
+msgstr "%s من العلامات"
 
 #. Translators: Google url for your country
 #: ../eolie/search.py:35
@@ -455,893 +454,3 @@ msgstr "التزامن يعمل"
 #: ../eolie/settings.py:487
 msgid "Cancel synchronization"
 msgstr "ألغ المزامنة"
-
-<<<<<<< HEAD
-#: ../eolie/settings.py:491 ../data/SettingsDialog.ui.h:56
-msgid "Allow synchronization"
-msgstr ""
-
-#: ../eolie/settings.py:496
-msgid "Synchronization is not working"
-msgstr ""
-=======
-#: ../eolie/settings.py:488
-msgid "Synchronization is not working"
-msgstr "المزامنة لا تعمل"
-
-#: ../eolie/settings.py:494 ../data/SettingsDialog.ui.h:56
-msgid "Allow synchronization"
-msgstr "اسمح بالمزامنة"
->>>>>>> weblate/master
-
-#: ../eolie/settings.py:509
-#, python-format
-msgid ""
-"Synchronization is not available on your computer:\n"
-" %s"
-msgstr ""
-"المزامنة ليست متاحة على حاسوبك:\n"
-"%s"
-
-#: ../eolie/settings.py:532
-msgid "You've received an email to validate synchronization"
-msgstr "لقد وصلتك رسالة على البريد الإلكتروني لتأكيد المزامنة"
-
-#: ../eolie/toolbar_end.py:146
-msgid "Downloading:"
-msgstr ""
-
-#: ../eolie/toolbar_end.py:178 ../data/ActionsMenu.ui.h:12
-msgid "Save page"
-msgstr "احفظ الصفحة"
-
-#: ../eolie/toolbar_end.py:181 ../data/PopoverCredentials.ui.h:2
-msgid "Save"
-msgstr ""
-
-#: ../eolie/toolbar_end.py:332 ../data/ToolbarEnd.ui.h:1
-msgid "Leave fullscreen"
-msgstr ""
-
-#: ../eolie/toolbar_end.py:334
-msgid "Enter fullscreen"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:266
-msgid "This page contains insecure content"
-msgstr "هذه الصفحة تحوي محتويات ليست آمنة"
-
-#: ../eolie/toolbar_title.py:320
-msgid ""
-"Heads-up: this page is not secure.\n"
-"If you type your password,\n"
-" it will be visible to cybercriminals!"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:366
-msgid "Disallow geolocation"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:372
-msgid "Blocked popups"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:453
-msgid "Copy address"
-msgstr "انسخ العنوان"
-
-#: ../eolie/toolbar_title.py:514
-msgid "Paste and load"
-msgstr "ألصق واذهب"
-
-#: ../eolie/toolbar_title.py:753 ../eolie/toolbar_title.py:756
-msgid "Search or enter address"
-msgstr "ابحث أو اكتب عنوانًا"
-
-#: ../eolie/webview_errors.py:72
-msgid "This page is dangerous"
-msgstr "هذه الصفحة خطرة"
-
-#: ../eolie/webview_errors.py:73
-msgid "Eolie will not display this page"
-msgstr ""
-
-#: ../eolie/webview_errors.py:80
-#, python-format
-msgid "%s is a phishing page"
-msgstr "إن %s هي صفحة احتيال"
-
-#: ../eolie/webview_errors.py:124
-msgid "Failed to load this web page"
-msgstr "تعذّر فتح هذه الصفحة"
-
-#: ../eolie/webview_errors.py:125
-msgid ""
-"It may be temporarily inaccessible or moved to a new address.<br/>You may "
-"wish to verify that your internet connection is working correctly."
-msgstr ""
-
-#: ../eolie/webview_errors.py:131
-msgid "Network not available"
-msgstr "الشبكة ليست متاحة"
-
-#: ../eolie/webview_errors.py:132
-msgid "Check your network connection"
-msgstr "افحص اتصال الشبكة"
-
-#: ../eolie/webview_errors.py:142
-msgid "Retry"
-msgstr ""
-
-#: ../eolie/webview_errors.py:164
-msgid "The certificate does not match this website"
-msgstr "الشهادة لا تطابق هذا الموقع"
-
-#: ../eolie/webview_errors.py:166
-msgid "The certificate has expired"
-msgstr "الشهادة منتهية"
-
-#: ../eolie/webview_errors.py:168
-msgid "The signing certificate authority is not known"
-msgstr ""
-
-#: ../eolie/webview_errors.py:170
-msgid "The certificate contains errors"
-msgstr "الشهادة تحوي أخطاء"
-
-#: ../eolie/webview_errors.py:172
-msgid "The certificate has been revoked"
-msgstr ""
-
-#: ../eolie/webview_errors.py:174
-msgid "The certificate is signed using a weak signature algorithm"
-msgstr "الشهادة موقّعة بخوارزمية توقيع ضعيفة"
-
-#: ../eolie/webview_errors.py:177
-msgid "The certificate activation time is still in the future"
-msgstr ""
-
-#: ../eolie/webview_errors.py:179
-msgid "The identity of this website has not been verified"
-msgstr ""
-
-#: ../eolie/webview_errors.py:180 ../eolie/webview_errors.py:185
-msgid "Connection is not secure"
-msgstr "الاتصال ليس آمنًا"
-
-#: ../eolie/webview_errors.py:187
-#, python-format
-msgid ""
-"This does not look like the real %s.<br/>Attackers might be trying to steal "
-"or alter information going to or from this site (for example, private "
-"messages, credit card information, or passwords)."
-msgstr ""
-
-#: ../eolie/webview_errors.py:193
-msgid "Accept Risk and Proceed"
-msgstr ""
-
-#: ../eolie/webview_errors.py:209 ../eolie/webview_errors.py:214
-msgid "WebKit web engine crashed"
-msgstr ""
-
-#: ../eolie/webview_errors.py:216
-msgid ""
-"The webpage was terminated unexpectedly.To continue, reload or go to another "
-"page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
-"<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
-msgstr ""
-
-#: ../eolie/webview_errors.py:222
-msgid "Report a bug now"
-msgstr "أبلغ عن علّة الآن"
-
-#: ../eolie/webview_signals_js.py:85
-msgid "Eolie is going to close this page because it is broken"
-msgstr ""
-
-#: ../eolie/webview_signals_menu.py:59
-msgid "Reload preview"
-msgstr ""
-
-#: ../eolie/webview_signals_menu.py:71
-msgid "Open link in a new page"
-msgstr "افتح الرابط في صفحة جديدة"
-
-#: ../eolie/webview_signals_menu.py:81
-msgid "Open link in a new private page"
-msgstr "افتح الرابط في صفحة خاصة جديدة"
-
-<<<<<<< HEAD
-#: ../eolie/webview_signals_menu.py:91
-msgid "Open link in a new window"
-msgstr ""
-=======
-#: ../eolie/webview_signals_menu.py:92
-msgid "Search on the Web"
-msgstr "ابحث في الوب"
->>>>>>> weblate/master
-
-#: ../eolie/webview_signals_menu.py:103
-msgid "Copy link address"
-msgstr ""
-
-#: ../eolie/webview_signals_menu.py:119
-msgid "Search on the Web"
-msgstr ""
-
-#: ../eolie/webview_signals_menu.py:130
-msgid "Copy"
-msgstr "انسخ"
-
-#: ../eolie/webview_signals_menu.py:142 ../data/PopoverImages.ui.h:1
-msgid "Save images"
-msgstr "احفظ الصور"
-
-#: ../eolie/webview_signals_menu.py:156
-msgid "Save videos"
-msgstr ""
-
-#: ../eolie/webview_signals_menu.py:170
-msgid "Save page as image"
-msgstr ""
-
-#: ../eolie/webview_signals.py:123
-msgid "Select files to upload"
-msgstr "اختر ملفات للرفع"
-
-#: ../eolie/webview_signals.py:126
-msgid "Open"
-msgstr ""
-
-#: ../eolie/widget_find.py:47
-msgid "Search previous occurrence"
-msgstr ""
-
-#: ../eolie/widget_find.py:56
-msgid "Search next occurrence"
-msgstr ""
-
-#: ../eolie/widget_find.py:123
-msgid "1000 of 1000 matches"
-msgstr "1000 من 1000 نتيجة"
-
-#: ../data/ActionsMenu.ui.h:1
-msgctxt "Adblock exception"
-msgid "None"
-msgstr ""
-
-#: ../data/ActionsMenu.ui.h:2
-msgid "Current site"
-msgstr "الموقع الحالي"
-
-#: ../data/ActionsMenu.ui.h:3
-msgid "Current page"
-msgstr "الصفحة الحالية"
-
-#: ../data/ActionsMenu.ui.h:4
-msgid "Exceptions"
-msgstr "الاسثناءات"
-
-#: ../data/ActionsMenu.ui.h:5
-msgid "Do not block ads"
-msgstr "لا تمنع الإعلانات"
-
-#: ../data/ActionsMenu.ui.h:6
-msgid "Do not block images"
-msgstr "لا تمنع الصور"
-
-#: ../data/ActionsMenu.ui.h:7
-msgctxt "Image exception"
-msgid "None"
-msgstr ""
-
-#: ../data/ActionsMenu.ui.h:8
-msgid "Do not block popups"
-msgstr ""
-
-#: ../data/ActionsMenu.ui.h:9
-msgctxt "Popup exception"
-msgid "None"
-msgstr ""
-
-#: ../data/ActionsMenu.ui.h:10
-msgid "Do not block JavaScript"
-msgstr "لا تمنع الجافاسكربت"
-
-#: ../data/ActionsMenu.ui.h:11
-msgctxt "JavasSript exception"
-msgid "None"
-msgstr ""
-
-#: ../data/ActionsMenu.ui.h:13
-msgid "Print page"
-msgstr "اطبع الصفحة"
-
-#: ../data/ActionsMenu.ui.h:14
-msgid "Start page"
-msgstr "صفحة البدء"
-
-#: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:2
-#: ../data/ToolbarEnd.ui.h:3
-msgid "Downloads"
-msgstr "التنزيلات"
-
-#: ../data/ActionsMenu.ui.h:16
-msgid "Zoom out"
-msgstr "بعّد"
-
-#: ../data/ActionsMenu.ui.h:17 ../data/SettingsDialog.ui.h:28
-msgid "Default zoom level"
-msgstr ""
-
-#: ../data/ActionsMenu.ui.h:18
-msgid "Zoom in"
-msgstr "قرّب"
-
-#: ../data/ActionsMenu.ui.h:19
-msgid "Block ads"
-msgstr "امنع الاعلانات"
-
-#: ../data/ActionsMenu.ui.h:20
-msgid "Block popups"
-msgstr ""
-
-#: ../data/ActionsMenu.ui.h:21
-msgid "Block images"
-msgstr "امنع الصور"
-
-#: ../data/ActionsMenu.ui.h:22
-msgid "Block JavaScript"
-msgstr "امنع الجافاسكربت"
-
-#: ../data/ActionsMenu.ui.h:23
-msgid "Filtering"
-msgstr ""
-
-#: ../data/ActionsMenu.ui.h:24 ../data/Languages.ui.h:1
-msgid "Spell checking"
-msgstr ""
-
-#: ../data/Appmenu.ui.h:1
-msgid "_Preferences"
-msgstr "ال_تفضيلات"
-
-#: ../data/Appmenu.ui.h:2
-msgid "_Report a bug"
-msgstr "أ_بلغ عن علّة"
-
-#: ../data/Appmenu.ui.h:3
-msgid "_Sidebar"
-msgstr ""
-
-#: ../data/Appmenu.ui.h:4
-msgid "_Keyboard Shortcuts"
-msgstr ""
-
-#: ../data/Appmenu.ui.h:5
-msgid "_Help"
-msgstr "_مساعدة"
-
-#: ../data/Appmenu.ui.h:6
-msgid "_About"
-msgstr ""
-
-#: ../data/Appmenu.ui.h:7
-msgid "_Quit"
-msgstr "أ_غلق"
-
-#: ../data/BookmarkEdit.ui.h:1 ../data/DialogSearchEngine.ui.h:3
-msgid "Address:"
-msgstr ""
-
-#: ../data/BookmarkEdit.ui.h:2
-msgid "Title:"
-msgstr ""
-
-#: ../data/BookmarkEdit.ui.h:3
-msgid "Remove bookmark"
-msgstr "أزل العلامة"
-
-#: ../data/BookmarkEdit.ui.h:4
-msgid "Add new tag"
-msgstr "أضف وسمًا جديدًا"
-
-#: ../data/DialogClearData.ui.h:1 ../data/SettingsDialog.ui.h:41
-msgid "Clear Personal Data"
-msgstr "امح البيانات الشخصية"
-
-#: ../data/DialogClearData.ui.h:2
-msgid "C_lear"
-msgstr "ا_مح"
-
-#: ../data/DialogClearData.ui.h:3 ../data/PopoverUri.ui.h:4
-#: ../data/SettingsDialog.ui.h:6
-msgid "Search"
-msgstr ""
-
-#: ../data/DialogClearData.ui.h:4
-msgid "Filter domains"
-msgstr ""
-
-#: ../data/DialogClearData.ui.h:5
-msgid "Search domains"
-msgstr ""
-
-#: ../data/DialogClearData.ui.h:6
-msgid ""
-"You can select a period of time to clear data for all websites modified in "
-"that period. If you choose from the beginning of time, then you can also "
-"clear data only for particular websites."
-msgstr ""
-
-#: ../data/DialogClearData.ui.h:7
-msgid "Clear selected personal data _from:"
-msgstr "امح البيانات الشخصية المختارة _من:"
-
-#: ../data/DialogClearData.ui.h:8
-msgid "the past hour"
-msgstr "الساعة الفائتة"
-
-#: ../data/DialogClearData.ui.h:9
-msgid "the past day"
-msgstr "اليوم الفائت"
-
-#: ../data/DialogClearData.ui.h:10
-msgid "the past week"
-msgstr "الأسبوع الفائت"
-
-#: ../data/DialogClearData.ui.h:11
-msgid "the past four weeks"
-msgstr "الأسابيع الأربعة الفائتة"
-
-#: ../data/DialogClearData.ui.h:12
-msgid "the beginning"
-msgstr "البداية"
-
-#: ../data/DialogClearData.ui.h:13
-msgid "No data found"
-msgstr ""
-
-#: ../data/DialogClearData.ui.h:14
-msgid ""
-"You cannot undo this action. The data you are choosing to clear will be "
-"removed forever."
-msgstr ""
-"لا يمكن التراجع عن هذا المحو بعد تنفيذه، فالبيانات التي اخترتها ستمحى للأبد."
-
-#: ../data/DialogImportBookmarks.ui.h:1
-msgid "Import bookmarks from:"
-msgstr "استورد العلامات من:"
-
-#: ../data/DialogImportBookmarks.ui.h:3
-msgid "Import"
-msgstr "استورد"
-
-#: ../data/DialogModifyUA.ui.h:1
-msgid "Modify"
-msgstr ""
-
-#: ../data/DialogSearchEngine.ui.h:1
-msgid "Search engines"
-msgstr "محركات البحث"
-
-#: ../data/DialogSearchEngine.ui.h:2
-msgid "Name:"
-msgstr "الاسم:"
-
-#: ../data/DialogSearchEngine.ui.h:4
-msgid "Default:"
-msgstr "المبدئي:"
-
-#: ../data/DialogSearchEngine.ui.h:5
-msgid "Bang:"
-msgstr ""
-
-#: ../data/DialogSearchEngine.ui.h:6
-msgid "If bang is g, use g: in search bar to search using this engine"
-msgstr ""
-
-#: ../data/DialogSearchEngine.ui.h:7
-msgid "Search:"
-msgstr "البحث:"
-
-#: ../data/DialogSearchEngine.ui.h:9
-#, no-c-format
-msgid ""
-"To determine the search address, perform a search using the search engine "
-"that you want to add and check the resulting address. Remove the search term "
-"from the resulting address and replace it with %s."
-msgstr ""
-
-#: ../data/PopoverCookies.ui.h:1
-msgid "Remove all cookies"
-msgstr "احذف كل الكعكات"
-
-#: ../data/PopoverCredentials.ui.h:1
-msgid "Do you want to save this password?"
-msgstr "هل تريد حفظ كلمة السر هذه؟"
-
-#: ../data/PopoverDownloads.ui.h:1
-msgid "Open download folder"
-msgstr "افتح مجلد التنزيلات"
-
-#: ../data/PopoverDownloads.ui.h:2
-msgid "Clear finished downloads"
-msgstr "امح التنزيلات المكتملة"
-
-#: ../data/PopoverDownloads.ui.h:3
-msgid "No active download"
-msgstr "لا يوجد تنزيل نشط"
-
-#: ../data/PopoverGeolocation.ui.h:1 ../data/PopoverJavaScript.ui.h:1
-msgid "Ok"
-msgstr ""
-
-#: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:48
-msgid "Forever"
-msgstr ""
-
-#: ../data/PopoverImages.ui.h:2
-msgid "Show links"
-msgstr "أظهر الروابط"
-
-#: ../data/PopoverPasswords.ui.h:1
-msgid "Remove all passwords"
-msgstr "احذف كل كلمات السر"
-
-#: ../data/PopoverUri.ui.h:1
-msgid "Sync bookmarks"
-msgstr "زامن العلامات"
-
-#: ../data/PopoverUri.ui.h:3
-msgid "Bookmarks"
-msgstr "العلامات"
-
-#: ../data/PopoverUri.ui.h:5
-msgid "Clear history"
-msgstr "امح التأريخ"
-
-#: ../data/PopoverUri.ui.h:6
-msgid "History"
-msgstr "التأريخ"
-
-#: ../data/QuitDialog.ui.h:2
-msgid "Close"
-msgstr ""
-
-#: ../data/RowDownload.ui.h:1
-msgid "Cancel download"
-msgstr "ألغ التنزيل"
-
-#: ../data/SettingsDialog.ui.h:3
-msgid "Download folder:"
-msgstr "مجلد التنزيل:"
-
-#: ../data/SettingsDialog.ui.h:4
-msgid "Select download directory"
-msgstr "اختر دليل التنزيل"
-
-#: ../data/SettingsDialog.ui.h:5
-msgid "Automatically open downloaded files"
-msgstr "افتح الملفات المنزّلة تلقائيًا"
-
-#: ../data/SettingsDialog.ui.h:7
-msgid "Search engines:"
-msgstr "محركات البحث:"
-
-#: ../data/SettingsDialog.ui.h:10
-msgid "Startup"
-msgstr "البدء"
-
-#: ../data/SettingsDialog.ui.h:11
-msgid "Start Page:"
-msgstr "صفحة البدء:"
-
-#: ../data/SettingsDialog.ui.h:12
-msgid "Search engine"
-msgstr "محرك البحث"
-
-#: ../data/SettingsDialog.ui.h:14
-msgid "Popular bookmarks"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:15
-msgid "Blank page"
-msgstr "صفحة فارغة"
-
-#: ../data/SettingsDialog.ui.h:16
-msgid "Set address"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:17
-msgid "Remember previous pages on startup"
-msgstr "تذكّر الصفحات السابقة عند البدء"
-
-#: ../data/SettingsDialog.ui.h:18
-msgid "Configure engines"
-msgstr "اضبط المحركات"
-
-#: ../data/SettingsDialog.ui.h:19
-msgid "Bookmarks shown"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:21
-msgid "General"
-msgstr "عام"
-
-#: ../data/SettingsDialog.ui.h:22
-msgid "Fonts"
-msgstr "الخطوط"
-
-#: ../data/SettingsDialog.ui.h:29
-msgid "Appearance"
-msgstr "المظهر"
-
-#: ../data/SettingsDialog.ui.h:31
-msgid "Tracking"
-msgstr "التتبّع"
-
-#: ../data/SettingsDialog.ui.h:33
-msgid "Passwords"
-msgstr "كلمات السر"
-
-#: ../data/SettingsDialog.ui.h:35
-msgid "Saved data"
-msgstr "البيانات المحفوظة"
-
-#: ../data/SettingsDialog.ui.h:36
-msgid "Behaviour:"
-msgstr "السلوك:"
-
-#: ../data/SettingsDialog.ui.h:37
-msgid "Always accept"
-msgstr "اقبل دائمًا"
-
-#: ../data/SettingsDialog.ui.h:38
-msgid "Only from sites you visit"
-msgstr "فقط من المواقع التي تزورها"
-
-#: ../data/SettingsDialog.ui.h:39
-msgid "Never accept"
-msgstr "لا تقبل أبدًا"
-
-#: ../data/SettingsDialog.ui.h:40
-msgid "Manage cookies"
-msgstr "أدر الكعكات"
-
-#: ../data/SettingsDialog.ui.h:42
-msgid "Manage passwords"
-msgstr "أدر كلمات السر"
-
-#: ../data/SettingsDialog.ui.h:43
-msgid "Keep history:"
-msgstr "أبق التأريخ:"
-
-#: ../data/SettingsDialog.ui.h:44
-msgid "One day"
-msgstr "ليوم واحد"
-
-#: ../data/SettingsDialog.ui.h:45
-msgid "One week"
-msgstr "لأسبوع واحد"
-
-#: ../data/SettingsDialog.ui.h:46
-msgid "Four weeks"
-msgstr "لأربعة أسابيع"
-
-#: ../data/SettingsDialog.ui.h:47
-msgid "A year"
-msgstr "لسنة"
-
-#: ../data/SettingsDialog.ui.h:49
-msgid "Do not keep"
-msgstr "لا تبقه"
-
-#: ../data/SettingsDialog.ui.h:50
-msgid "Predict websites address"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:51
-msgid "Privacy"
-msgstr "الخصوصية"
-
-#: ../data/SettingsDialog.ui.h:52
-msgid ""
-"You can share your bookmarks and history\n"
-" on all your devices running Eolie or Firefox"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:54
-msgid "Login:"
-msgstr "الولوج:"
-
-#: ../data/SettingsDialog.ui.h:55
-msgid "Password:"
-msgstr "كلمة السر:"
-
-#: ../data/SettingsDialog.ui.h:57
-msgid "Create or manage account"
-msgstr "أنشئ حسابًا أو أدره"
-
-#: ../data/SettingsDialog.ui.h:58 ../data/ToolbarEnd.ui.h:2
-msgid "Synchronization"
-msgstr "المزامنة"
-
-#: ../data/Shortcuts.ui.h:1
-msgctxt "shortcut window"
-msgid "General"
-msgstr "عامة"
-
-#: ../data/Shortcuts.ui.h:2
-msgctxt "shortcut window"
-msgid "New window"
-msgstr "نافذة جديدة"
-
-#: ../data/Shortcuts.ui.h:3
-msgctxt "shortcut window"
-msgid "Settings"
-msgstr "الإعدادات"
-
-#: ../data/Shortcuts.ui.h:4
-msgctxt "shortcut window"
-msgid "Fullscreen"
-msgstr "كامل الشاشة"
-
-#: ../data/Shortcuts.ui.h:5
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "أغلق"
-
-#: ../data/Shortcuts.ui.h:6
-msgctxt "shortcut window"
-msgid "Enter location"
-msgstr ""
-
-#: ../data/Shortcuts.ui.h:7
-msgctxt "shortcut window"
-msgid "Show bookmarks"
-msgstr "أظهر العلامات"
-
-#: ../data/Shortcuts.ui.h:8
-msgctxt "shortcut window"
-msgid "Show history"
-msgstr "أظهر التأريخ"
-
-#: ../data/Shortcuts.ui.h:9
-msgctxt "shortcut window"
-msgid "Search"
-msgstr "ابحث"
-
-#: ../data/Shortcuts.ui.h:10
-msgctxt "shortcut window"
-msgid "Show sidebar"
-msgstr ""
-
-#: ../data/Shortcuts.ui.h:11
-msgctxt "shortcut window"
-msgid "Pages"
-msgstr "الصفحات"
-
-#: ../data/Shortcuts.ui.h:12
-msgctxt "shortcut window"
-msgid "New page"
-msgstr "صفحة جديدة"
-
-#: ../data/Shortcuts.ui.h:13
-msgctxt "shortcut window"
-msgid "Last closed page"
-msgstr "آخر صفحة مغلقة"
-
-#: ../data/Shortcuts.ui.h:14
-msgctxt "shortcut window"
-msgid "New private page"
-msgstr "صفحة خاصة جديدة"
-
-#: ../data/Shortcuts.ui.h:15
-msgctxt "shortcut window"
-msgid "Close page"
-msgstr "أغلق الصفحة"
-
-#: ../data/Shortcuts.ui.h:16
-msgctxt "shortcut window"
-msgid "Previous page"
-msgstr "الصفحة السابقة"
-
-#: ../data/Shortcuts.ui.h:17
-msgctxt "shortcut window"
-msgid "Next page"
-msgstr "الصفحة التالية"
-
-#: ../data/Shortcuts.ui.h:18
-msgctxt "shortcut window"
-msgid "View all pages"
-msgstr "أظهر كل الصفحة"
-
-#: ../data/Shortcuts.ui.h:19
-msgctxt "shortcut window"
-msgid "Show source code"
-msgstr "أظهر الكود المصدري"
-
-#: ../data/Shortcuts.ui.h:20
-msgctxt "shortcut window"
-msgid "Web page"
-msgstr "صفحة الوب"
-
-#: ../data/Shortcuts.ui.h:21
-msgctxt "shortcut window"
-msgid "Save page"
-msgstr "احفظ الصغحة"
-
-#: ../data/Shortcuts.ui.h:22
-msgctxt "shortcut window"
-msgid "Print page"
-msgstr "اطبع الصفحة"
-
-#: ../data/Shortcuts.ui.h:23
-msgctxt "shortcut window"
-msgid "Zoom in"
-msgstr "قرّب"
-
-#: ../data/Shortcuts.ui.h:24
-msgctxt "shortcut window"
-msgid "Zoom out"
-msgstr "بعّد"
-
-#: ../data/Shortcuts.ui.h:25
-msgctxt "shortcut window"
-msgid "Default zoom level"
-msgstr ""
-
-#: ../data/Shortcuts.ui.h:26
-msgctxt "shortcut window"
-msgid "Search for"
-msgstr "ابحث"
-
-#: ../data/Shortcuts.ui.h:27
-msgctxt "shortcut window"
-msgid "Disable adblock for current site"
-msgstr "عطّل مانع الإعلانات عن الصفحة الحالية"
-
-#: ../data/Shortcuts.ui.h:28
-msgctxt "shortcut window"
-msgid "Navigation"
-msgstr "التنقل"
-
-#: ../data/Shortcuts.ui.h:29
-msgctxt "shortcut window"
-msgid "Reload page"
-msgstr "أعد تحميل الصفحة"
-
-#: ../data/Shortcuts.ui.h:30
-msgctxt "shortcut window"
-msgid "Startup page"
-msgstr "صفحة البدء"
-
-#: ../data/ToolbarActions.ui.h:1
-msgid "Backward"
-msgstr "للخلف"
-
-#: ../data/ToolbarActions.ui.h:2
-msgid "Forward"
-msgstr "للأمام"
-
-#: ../data/ToolbarActions.ui.h:3
-msgid "New page"
-msgstr "صفحة جديدة"
-
-#: ../data/ToolbarActions.ui.h:4
-msgid "View all pages"
-msgstr "اعرض كل الصفحات"
-
-#: ../data/ToolbarActions.ui.h:5
-msgid "Close page"
-msgstr "أغلق الصفحة"
-
-#: ../data/ToolbarActions.ui.h:6
-msgid "More actions"
-msgstr "أفعال أكثر"
-
-#: ../data/ToolbarEnd.ui.h:4
-msgid "Startup page"
-msgstr "صفحة البدء"
