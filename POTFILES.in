@@ -59,6 +59,7 @@ eolie/toolbar.py
 eolie/toolbar_title.py
 eolie/utils.py
 eolie/view.py
+eolie/webview_artwork.py
 eolie/webview_errors.py
 eolie/webview_navigation.py
 eolie/webview.py

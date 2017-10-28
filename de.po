@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-25 13:10+0200\n"
+"POT-Creation-Date: 2017-10-28 14:14+0200\n"
 "PO-Revision-Date: 2017-09-17 06:16-0400\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German\n"
@@ -176,11 +176,11 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Webbrowser"
 
-#: ../eolie/application.py:619
+#: ../eolie/application.py:629
 msgid "Do you really want to quit Eolie?"
 msgstr "Möchten Sie Eolie wirklich beenden?"
 
-#: ../eolie/application.py:745
+#: ../eolie/application.py:755
 msgid "Eolie: You need to install yelp."
 msgstr "Sie müssen \"yelp\" installieren."
 
@@ -352,7 +352,7 @@ msgid "Continue"
 msgstr "Fortfahren"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:417
-#: ../eolie/toolbar_end.py:174 ../eolie/webview_signals.py:127
+#: ../eolie/toolbar_end.py:182 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -433,32 +433,32 @@ msgstr "https://de.yahoo.com/"
 msgid "https://us.search.yahoo.com"
 msgstr "https://de.search.yahoo.com/"
 
-#: ../eolie/settings.py:65 ../eolie/settings.py:68
+#: ../eolie/settings.py:66 ../eolie/settings.py:69
 #: ../data/SettingsDialog.ui.h:1
 msgid "Preferences"
 msgstr "Einstellungen"
 
-#: ../eolie/settings.py:445
+#: ../eolie/settings.py:447
 msgid "Connecting…"
 msgstr "Verbinde..."
 
-#: ../eolie/settings.py:479
+#: ../eolie/settings.py:481
 msgid "Synchronization is working"
 msgstr "Synchronisation funktioniert"
 
-#: ../eolie/settings.py:485
+#: ../eolie/settings.py:487
 msgid "Cancel synchronization"
 msgstr "Synchronisation abbrechen"
 
-#: ../eolie/settings.py:488
-msgid "Synchronization is not working"
-msgstr "Synchronisation fehlgeschlagen"
-
-#: ../eolie/settings.py:494 ../data/SettingsDialog.ui.h:56
+#: ../eolie/settings.py:491 ../data/SettingsDialog.ui.h:56
 msgid "Allow synchronization"
 msgstr "Synchronisation erlauben"
 
-#: ../eolie/settings.py:505
+#: ../eolie/settings.py:496
+msgid "Synchronization is not working"
+msgstr "Synchronisation fehlgeschlagen"
+
+#: ../eolie/settings.py:509
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -467,58 +467,58 @@ msgstr ""
 "Synchronisation nicht verfügbar auf Ihrem Gerät:\n"
 "%s"
 
-#: ../eolie/settings.py:531
+#: ../eolie/settings.py:532
 msgid "You've received an email to validate synchronization"
 msgstr "Sie haben eine Bestätiguns-E-Mail für die Synchronisation erhalten"
 
-#: ../eolie/toolbar_end.py:138
+#: ../eolie/toolbar_end.py:146
 msgid "Downloading:"
 msgstr "Download von:"
 
-#: ../eolie/toolbar_end.py:170 ../data/ActionsMenu.ui.h:12
+#: ../eolie/toolbar_end.py:178 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Seite speichern"
 
-#: ../eolie/toolbar_end.py:173 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:181 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Speichern"
 
-#: ../eolie/toolbar_end.py:314 ../data/ToolbarEnd.ui.h:1
+#: ../eolie/toolbar_end.py:332 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Vollbildmodus beenden"
 
-#: ../eolie/toolbar_end.py:316
+#: ../eolie/toolbar_end.py:334
 msgid "Enter fullscreen"
 msgstr "Vollbildmodus"
 
-#: ../eolie/toolbar_title.py:265
+#: ../eolie/toolbar_title.py:266
 msgid "This page contains insecure content"
 msgstr "Diese Seite enthält unsicheren Inhalt"
 
-#: ../eolie/toolbar_title.py:319
+#: ../eolie/toolbar_title.py:320
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
 " it will be visible to cybercriminals!"
 msgstr ""
 
-#: ../eolie/toolbar_title.py:365
+#: ../eolie/toolbar_title.py:366
 msgid "Disallow geolocation"
 msgstr "Standordbestimmung untersagen"
 
-#: ../eolie/toolbar_title.py:371
+#: ../eolie/toolbar_title.py:372
 msgid "Blocked popups"
 msgstr "Blockierte Popups"
 
-#: ../eolie/toolbar_title.py:452
+#: ../eolie/toolbar_title.py:453
 msgid "Copy address"
 msgstr "Adresse kopieren"
 
-#: ../eolie/toolbar_title.py:513
+#: ../eolie/toolbar_title.py:514
 msgid "Paste and load"
 msgstr "Einfügen und los"
 
-#: ../eolie/toolbar_title.py:749 ../eolie/toolbar_title.py:752
+#: ../eolie/toolbar_title.py:753 ../eolie/toolbar_title.py:756
 msgid "Search or enter address"
 msgstr "Suchen oder Adresse eingeben"
 
@@ -634,38 +634,48 @@ msgstr "Einen Programmfehler melden"
 msgid "Eolie is going to close this page because it is broken"
 msgstr ""
 
-#: ../eolie/webview_signals_menu.py:56
+#: ../eolie/webview_signals_menu.py:59
 #, fuzzy
 msgid "Reload preview"
 msgstr "Seite neu laden"
 
-#: ../eolie/webview_signals_menu.py:68
+#: ../eolie/webview_signals_menu.py:71
 msgid "Open link in a new page"
 msgstr "Link in neuem Tab öffnen"
 
-#: ../eolie/webview_signals_menu.py:78
+#: ../eolie/webview_signals_menu.py:81
 #, fuzzy
 msgid "Open link in a new private page"
 msgstr "Link in neuem Tab öffnen"
 
-#: ../eolie/webview_signals_menu.py:92
+#: ../eolie/webview_signals_menu.py:91
+#, fuzzy
+msgid "Open link in a new window"
+msgstr "Link in neuem Tab öffnen"
+
+#: ../eolie/webview_signals_menu.py:103
+#, fuzzy
+msgid "Copy link address"
+msgstr "Adresse kopieren"
+
+#: ../eolie/webview_signals_menu.py:119
 msgid "Search on the Web"
 msgstr "Im Internet suchen"
 
-#: ../eolie/webview_signals_menu.py:103
+#: ../eolie/webview_signals_menu.py:130
 msgid "Copy"
 msgstr "Kopieren"
 
-#: ../eolie/webview_signals_menu.py:115 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:142 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Bilder speichern"
 
-#: ../eolie/webview_signals_menu.py:129
+#: ../eolie/webview_signals_menu.py:156
 #, fuzzy
 msgid "Save videos"
 msgstr "Bilder speichern"
 
-#: ../eolie/webview_signals_menu.py:143
+#: ../eolie/webview_signals_menu.py:170
 msgid "Save page as image"
 msgstr ""
 
@@ -746,7 +756,7 @@ msgid "Start page"
 msgstr "Startseite"
 
 #: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:2
-#: ../data/ToolbarEnd.ui.h:2
+#: ../data/ToolbarEnd.ui.h:3
 msgid "Downloads"
 msgstr "Downloads"
 
@@ -1155,7 +1165,7 @@ msgstr "Passwort:"
 msgid "Create or manage account"
 msgstr "Account anlegen oder verwalten"
 
-#: ../data/SettingsDialog.ui.h:58
+#: ../data/SettingsDialog.ui.h:58 ../data/ToolbarEnd.ui.h:2
 msgid "Synchronization"
 msgstr "Synchronisation"
 
@@ -1334,7 +1344,7 @@ msgstr "Tab schließen"
 msgid "More actions"
 msgstr ""
 
-#: ../data/ToolbarEnd.ui.h:3
+#: ../data/ToolbarEnd.ui.h:4
 msgid "Startup page"
 msgstr ""
 

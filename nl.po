@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-25 13:10+0200\n"
+"POT-Creation-Date: 2017-10-28 14:14+0200\n"
 "PO-Revision-Date: 2017-10-25 14:28+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
@@ -176,11 +176,11 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Webbrowser"
 
-#: ../eolie/application.py:619
+#: ../eolie/application.py:629
 msgid "Do you really want to quit Eolie?"
 msgstr "Weet u zeker dat u Eolie wilt afsluiten?"
 
-#: ../eolie/application.py:745
+#: ../eolie/application.py:755
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: u moet yelp installeren."
 
@@ -352,7 +352,7 @@ msgid "Continue"
 msgstr "Verdergaan"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:417
-#: ../eolie/toolbar_end.py:174 ../eolie/webview_signals.py:127
+#: ../eolie/toolbar_end.py:182 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -433,67 +433,67 @@ msgstr "https://be.yahoo.com"
 msgid "https://us.search.yahoo.com"
 msgstr "https://be.search.yahoo.com"
 
-#: ../eolie/settings.py:65 ../eolie/settings.py:68
+#: ../eolie/settings.py:66 ../eolie/settings.py:69
 #: ../data/SettingsDialog.ui.h:1
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: ../eolie/settings.py:445
+#: ../eolie/settings.py:447
 msgid "Connecting…"
 msgstr "Verbinding maken…"
 
-#: ../eolie/settings.py:479
+#: ../eolie/settings.py:481
 msgid "Synchronization is working"
 msgstr "Synchronisatie werkt"
 
-#: ../eolie/settings.py:485
+#: ../eolie/settings.py:487
 msgid "Cancel synchronization"
 msgstr "Synchronisatie annuleren"
 
-#: ../eolie/settings.py:488
-msgid "Synchronization is not working"
-msgstr "Synchronisatie werkt momenteel niet"
-
-#: ../eolie/settings.py:494 ../data/SettingsDialog.ui.h:56
+#: ../eolie/settings.py:491 ../data/SettingsDialog.ui.h:56
 msgid "Allow synchronization"
 msgstr "Synchronisatie toestaan"
 
-#: ../eolie/settings.py:505
+#: ../eolie/settings.py:496
+msgid "Synchronization is not working"
+msgstr "Synchronisatie werkt momenteel niet"
+
+#: ../eolie/settings.py:509
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
 " %s"
 msgstr "Synchronisatie is niet beschikbaar op uw computer: %s"
 
-#: ../eolie/settings.py:531
+#: ../eolie/settings.py:532
 msgid "You've received an email to validate synchronization"
 msgstr "U heeft een e-mail ontvangen om de synchronisatie te valideren"
 
-#: ../eolie/toolbar_end.py:138
+#: ../eolie/toolbar_end.py:146
 msgid "Downloading:"
 msgstr "Downloaden:"
 
-#: ../eolie/toolbar_end.py:170 ../data/ActionsMenu.ui.h:12
+#: ../eolie/toolbar_end.py:178 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Pagina opslaan"
 
-#: ../eolie/toolbar_end.py:173 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:181 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Opslaan"
 
-#: ../eolie/toolbar_end.py:314 ../data/ToolbarEnd.ui.h:1
+#: ../eolie/toolbar_end.py:332 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Volledig scherm verlaten"
 
-#: ../eolie/toolbar_end.py:316
+#: ../eolie/toolbar_end.py:334
 msgid "Enter fullscreen"
 msgstr "Volledig scherm"
 
-#: ../eolie/toolbar_title.py:265
+#: ../eolie/toolbar_title.py:266
 msgid "This page contains insecure content"
 msgstr "Deze pagina bevat niet-beveiligde inhoud"
 
-#: ../eolie/toolbar_title.py:319
+#: ../eolie/toolbar_title.py:320
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
@@ -503,23 +503,23 @@ msgstr ""
 "Als u uw wachtwoord invoert,\n"
 " zullen computercriminelen het kunnen lezen!"
 
-#: ../eolie/toolbar_title.py:365
+#: ../eolie/toolbar_title.py:366
 msgid "Disallow geolocation"
 msgstr "Geolocatie uitschakelen"
 
-#: ../eolie/toolbar_title.py:371
+#: ../eolie/toolbar_title.py:372
 msgid "Blocked popups"
 msgstr "Geblokkeerde pop-ups"
 
-#: ../eolie/toolbar_title.py:452
+#: ../eolie/toolbar_title.py:453
 msgid "Copy address"
 msgstr "Adres kopiëren"
 
-#: ../eolie/toolbar_title.py:513
+#: ../eolie/toolbar_title.py:514
 msgid "Paste and load"
 msgstr "Plakken en laden"
 
-#: ../eolie/toolbar_title.py:749 ../eolie/toolbar_title.py:752
+#: ../eolie/toolbar_title.py:753 ../eolie/toolbar_title.py:756
 msgid "Search or enter address"
 msgstr "Zoek of voer een adres in"
 
@@ -634,35 +634,45 @@ msgstr "Nu een bug melden"
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie zal deze pagina sluiten, want ze werkt niet"
 
-#: ../eolie/webview_signals_menu.py:56
+#: ../eolie/webview_signals_menu.py:59
 msgid "Reload preview"
 msgstr "Voorbeeld herladen"
 
-#: ../eolie/webview_signals_menu.py:68
+#: ../eolie/webview_signals_menu.py:71
 msgid "Open link in a new page"
 msgstr "Verwijzing openen in een nieuw tabblad"
 
-#: ../eolie/webview_signals_menu.py:78
+#: ../eolie/webview_signals_menu.py:81
 msgid "Open link in a new private page"
 msgstr "Verwijzing openen in een nieuw privétabblad"
 
-#: ../eolie/webview_signals_menu.py:92
+#: ../eolie/webview_signals_menu.py:91
+#, fuzzy
+msgid "Open link in a new window"
+msgstr "Verwijzing openen in een nieuw tabblad"
+
+#: ../eolie/webview_signals_menu.py:103
+#, fuzzy
+msgid "Copy link address"
+msgstr "Adres kopiëren"
+
+#: ../eolie/webview_signals_menu.py:119
 msgid "Search on the Web"
 msgstr "Zoeken op het internet"
 
-#: ../eolie/webview_signals_menu.py:103
+#: ../eolie/webview_signals_menu.py:130
 msgid "Copy"
 msgstr "Kopiëren"
 
-#: ../eolie/webview_signals_menu.py:115 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:142 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Afbeeldingen opslaan"
 
-#: ../eolie/webview_signals_menu.py:129
+#: ../eolie/webview_signals_menu.py:156
 msgid "Save videos"
 msgstr "Video’s opslaan"
 
-#: ../eolie/webview_signals_menu.py:143
+#: ../eolie/webview_signals_menu.py:170
 msgid "Save page as image"
 msgstr "Pagina opslaan als afbeelding"
 
@@ -743,7 +753,7 @@ msgid "Start page"
 msgstr "Startpagina"
 
 #: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:2
-#: ../data/ToolbarEnd.ui.h:2
+#: ../data/ToolbarEnd.ui.h:3
 msgid "Downloads"
 msgstr "Downloads"
 
@@ -1156,7 +1166,7 @@ msgstr "Wachtwoord:"
 msgid "Create or manage account"
 msgstr "Account aanmaken of beheren"
 
-#: ../data/SettingsDialog.ui.h:58
+#: ../data/SettingsDialog.ui.h:58 ../data/ToolbarEnd.ui.h:2
 msgid "Synchronization"
 msgstr "Synchronisatie"
 
@@ -1334,7 +1344,7 @@ msgstr "Tabblad sluiten"
 msgid "More actions"
 msgstr "Meer acties"
 
-#: ../data/ToolbarEnd.ui.h:3
+#: ../data/ToolbarEnd.ui.h:4
 msgid "Startup page"
 msgstr "Startpagina"
 
