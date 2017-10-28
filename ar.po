@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-25 13:10+0200\n"
-"PO-Revision-Date: 2017-10-28 12:16+0000\n"
+"PO-Revision-Date: 2017-10-28 13:08+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -232,11 +232,11 @@ msgstr ""
 
 #: ../eolie/dialog_clear_data.py:189
 msgid "WebSQL databases"
-msgstr ""
+msgstr "قواعد بيانات WebSQL"
 
 #: ../eolie/dialog_clear_data.py:191
 msgid "IndexedDB databases"
-msgstr ""
+msgstr "قواعد بيانات IndexedDB"
 
 #: ../eolie/dialog_clear_data.py:193
 msgid "Plugins data"
@@ -260,7 +260,7 @@ msgstr "محرك جديد"
 
 #: ../eolie/menu_form.py:35
 msgid "Saved credentials"
-msgstr ""
+msgstr "الشهادات المحفوظة"
 
 #. Setup menu
 #: ../eolie/menu_pages.py:42
