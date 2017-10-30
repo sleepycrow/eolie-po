@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-25 13:10+0200\n"
-"PO-Revision-Date: 2017-10-29 16:44+0000\n"
+"PO-Revision-Date: 2017-10-31 03:44+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -49,7 +49,7 @@ msgstr "أظهر القائمة الجانبية(مدير المواقع)"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Block ads on pages"
-msgstr "امنع الإغلانات في الصفحات"
+msgstr "امنع الإعلانات في الصفحات"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:9
 msgid "Block unwanted popups on pages"
