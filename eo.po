@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-28 14:14+0200\n"
-"PO-Revision-Date: 2017-10-25 11:11+0000\n"
+"PO-Revision-Date: 2017-10-31 09:00+0000\n"
 "Last-Translator: Tirifto <tirifto@posteo.cz>\n"
-"Language-Team: Esperanto <https://hosted.weblate.org/projects/eolie/eolie/eo/"
-">\n"
+"Language-Team: Esperanto "
+"<https://hosted.weblate.org/projects/eolie/eolie/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,23 +49,23 @@ msgstr "Montri flankbreton (retejan administrilon)"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Block ads on pages"
-msgstr ""
+msgstr "Forbari reklamojn en retpaĝoj"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:9
 msgid "Block unwanted popups on pages"
-msgstr ""
+msgstr "Forbari nepetitajn ŝprucaĵojn en retpaĝoj"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:10
 msgid "Block images on pages"
-msgstr ""
+msgstr "Forbari bildojn en retpaĝoj"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:11
 msgid "Block Javascript on pages"
-msgstr ""
+msgstr "Forbari ĝavoskripton en retpaĝoj"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:12
 msgid "Download folder URI"
-msgstr ""
+msgstr "URI de elŝuta dosierujo"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:13
 msgid "Open finished downloads"
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:27
 msgid "INTERNAL"
-msgstr ""
+msgstr "INTERNA"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:28
 msgid "Cookies storage type"
@@ -179,7 +179,7 @@ msgstr "Eolie"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in.h:2
 msgid "Web browser"
-msgstr ""
+msgstr "Retfoliumilo"
 
 #: ../eolie/application.py:629
 msgid "Do you really want to quit Eolie?"
