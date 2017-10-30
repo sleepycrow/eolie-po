@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-28 14:14+0200\n"
-"PO-Revision-Date: 2017-10-25 20:07+0000\n"
+"PO-Revision-Date: 2017-10-30 16:18+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
-">\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/>"
+"\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -654,14 +654,12 @@ msgid "Open link in a new private page"
 msgstr "Öppna länk i en ny privat sida"
 
 #: ../eolie/webview_signals_menu.py:91
-#, fuzzy
 msgid "Open link in a new window"
-msgstr "Öppna länk i en ny sida"
+msgstr "Öppna länk i ett nytt fönster"
 
 #: ../eolie/webview_signals_menu.py:103
-#, fuzzy
 msgid "Copy link address"
-msgstr "Kopiera adress"
+msgstr "Kopiera länkadress"
 
 #: ../eolie/webview_signals_menu.py:119
 msgid "Search on the Web"
