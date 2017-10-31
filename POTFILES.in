@@ -68,13 +68,15 @@ eolie/webview_signals_js.py
 eolie/webview_signals_load.py
 eolie/webview_signals_menu.py
 eolie/webview_signals.py
-eolie/widget_edit_bookmark.py
+eolie/widget_bookmark_edit.py
+eolie/widget_bookmark_rating.py
 eolie/widget_find.py
 eolie/widget_uri_label.py
 eolie/window.py
 [type: gettext/glade]data/ActionsMenu.ui
 [type: gettext/glade]data/Appmenu.ui
 [type: gettext/glade]data/BookmarkEdit.ui
+[type: gettext/glade]data/BookmarkRatingWidget.ui
 [type: gettext/glade]data/DialogClearData.ui
 [type: gettext/glade]data/DialogImportBookmarks.ui
 [type: gettext/glade]data/DialogModifyUA.ui

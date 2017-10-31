@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-28 14:14+0200\n"
+"POT-Creation-Date: 2017-10-31 10:01+0100\n"
 "PO-Revision-Date: 2017-10-30 16:18+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/>"
-"\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
+">\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -181,11 +181,11 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Webbläsare"
 
-#: ../eolie/application.py:629
+#: ../eolie/application.py:628
 msgid "Do you really want to quit Eolie?"
 msgstr "Vill du verkligen avsluta Eolie?"
 
-#: ../eolie/application.py:755
+#: ../eolie/application.py:754
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Du behöver installera yelp."
 
@@ -298,53 +298,53 @@ msgstr "Vill du ändra detta lösenord?"
 msgid "Unknown destination"
 msgstr "Okänt mål"
 
-#: ../eolie/popover_downloads.py:100
+#: ../eolie/popover_downloads.py:101
 msgid "Download speed:"
 msgstr "Hämtningshastighet:"
 
-#: ../eolie/popover_downloads.py:102
+#: ../eolie/popover_downloads.py:103
 msgid "bytes/s"
 msgstr "byte/s"
 
-#: ../eolie/popover_downloads.py:105
+#: ../eolie/popover_downloads.py:106
 msgid "KiB/s"
 msgstr "KiB/s"
 
-#: ../eolie/popover_downloads.py:108
+#: ../eolie/popover_downloads.py:109
 msgid "MiB/s"
 msgstr "MiB/s"
 
-#: ../eolie/popover_downloads.py:130 ../eolie/popover_downloads.py:136
+#: ../eolie/popover_downloads.py:131 ../eolie/popover_downloads.py:137
 #, python-format
 msgid "%s second"
 msgstr "%s sekund"
 
-#: ../eolie/popover_downloads.py:132 ../eolie/popover_downloads.py:138
+#: ../eolie/popover_downloads.py:133 ../eolie/popover_downloads.py:139
 #, python-format
 msgid "%s seconds"
 msgstr "%s sekunder"
 
-#: ../eolie/popover_downloads.py:144 ../eolie/popover_downloads.py:152
+#: ../eolie/popover_downloads.py:145 ../eolie/popover_downloads.py:153
 #, python-format
 msgid "%s minute"
 msgstr "%s minut"
 
-#: ../eolie/popover_downloads.py:147 ../eolie/popover_downloads.py:154
+#: ../eolie/popover_downloads.py:148 ../eolie/popover_downloads.py:155
 #, python-format
 msgid "%s minutes"
 msgstr "%s minuter"
 
-#: ../eolie/popover_downloads.py:160
+#: ../eolie/popover_downloads.py:161
 #, python-format
 msgid "%s hours"
 msgstr "%s timmar"
 
-#: ../eolie/popover_downloads.py:162
+#: ../eolie/popover_downloads.py:163
 #, python-format
 msgid "%s hour"
 msgstr "%s timme"
 
-#: ../eolie/popover_downloads.py:163
+#: ../eolie/popover_downloads.py:164
 msgid "Remaining time:"
 msgstr "Återstående tid:"
 
@@ -356,69 +356,69 @@ msgstr "Tillåt denna sida att få tillgång till din plats?"
 msgid "Continue"
 msgstr "Fortsätt"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:417
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:418
 #: ../eolie/toolbar_end.py:182 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: ../eolie/popover_uri.py:117
+#: ../eolie/popover_uri.py:118
 msgid "Delete page from history"
 msgstr "Ta bort sida från historik"
 
-#: ../eolie/popover_uri.py:132
+#: ../eolie/popover_uri.py:133
 msgid "Edit bookmark"
 msgstr "Redigera bokmärke"
 
-#: ../eolie/popover_uri.py:152
+#: ../eolie/popover_uri.py:153
 msgid "Open all pages for this tag"
 msgstr "Öppna alla sidor för denna tagg"
 
-#: ../eolie/popover_uri.py:453 ../data/DialogImportBookmarks.ui.h:2
+#: ../eolie/popover_uri.py:454 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Importera bokmärken"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:742
+#: ../eolie/popover_uri.py:743
 msgid "Popular"
 msgstr "Populära"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:745
+#: ../eolie/popover_uri.py:746
 msgid "Recent"
 msgstr "Senaste"
 
-#: ../eolie/popover_uri.py:747
+#: ../eolie/popover_uri.py:748
 msgid "Unclassified"
 msgstr "Oklassificerade"
 
-#: ../eolie/popover_uri.py:770
+#: ../eolie/popover_uri.py:771
 msgid "From the past hour"
 msgstr "Från den senaste timmen"
 
-#: ../eolie/popover_uri.py:771
+#: ../eolie/popover_uri.py:772
 msgid "From the past day"
 msgstr "Från den senaste dagen"
 
-#: ../eolie/popover_uri.py:772
+#: ../eolie/popover_uri.py:773
 msgid "From the past week"
 msgstr "Från senaste veckan"
 
-#: ../eolie/popover_uri.py:774
+#: ../eolie/popover_uri.py:775
 msgid "From the past four weeks"
 msgstr "Från de senaste fyra veckorna"
 
-#: ../eolie/popover_uri.py:775
+#: ../eolie/popover_uri.py:776
 msgid "From selected day"
 msgstr "Från vald dag"
 
-#: ../eolie/popover_uri.py:776
+#: ../eolie/popover_uri.py:777
 msgid "From the beginning"
 msgstr "Från början"
 
-#: ../eolie/popover_uri.py:1034
+#: ../eolie/popover_uri.py:1035
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bokmärken"
@@ -496,11 +496,11 @@ msgstr "Lämna helskärm"
 msgid "Enter fullscreen"
 msgstr "Helskärmsläge"
 
-#: ../eolie/toolbar_title.py:266
+#: ../eolie/toolbar_title.py:265
 msgid "This page contains insecure content"
 msgstr "Denna sida innehåller osäkert innehåll"
 
-#: ../eolie/toolbar_title.py:320
+#: ../eolie/toolbar_title.py:319
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
@@ -510,23 +510,23 @@ msgstr ""
 "Om du skriver in ditt lösenord\n"
 " kommer det vara synligt för cyberbrottslingar!"
 
-#: ../eolie/toolbar_title.py:366
+#: ../eolie/toolbar_title.py:365
 msgid "Disallow geolocation"
 msgstr "Förbjud platsdata"
 
-#: ../eolie/toolbar_title.py:372
+#: ../eolie/toolbar_title.py:371
 msgid "Blocked popups"
 msgstr "Blockerade poppupper"
 
-#: ../eolie/toolbar_title.py:453
+#: ../eolie/toolbar_title.py:452
 msgid "Copy address"
 msgstr "Kopiera adress"
 
-#: ../eolie/toolbar_title.py:514
+#: ../eolie/toolbar_title.py:513
 msgid "Paste and load"
 msgstr "Klistra in och läs in"
 
-#: ../eolie/toolbar_title.py:753 ../eolie/toolbar_title.py:756
+#: ../eolie/toolbar_title.py:752 ../eolie/toolbar_title.py:755
 msgid "Search or enter address"
 msgstr "Sök eller ange adress"
 
@@ -641,39 +641,39 @@ msgstr "Rapportera ett fel nu"
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie kommer att stänga denna sida för att den är trasig"
 
-#: ../eolie/webview_signals_menu.py:59
+#: ../eolie/webview_signals_menu.py:64
 msgid "Reload preview"
 msgstr "Uppdatera förhandsvisning"
 
-#: ../eolie/webview_signals_menu.py:71
+#: ../eolie/webview_signals_menu.py:81
 msgid "Open link in a new page"
 msgstr "Öppna länk i en ny sida"
 
-#: ../eolie/webview_signals_menu.py:81
+#: ../eolie/webview_signals_menu.py:91
 msgid "Open link in a new private page"
 msgstr "Öppna länk i en ny privat sida"
 
-#: ../eolie/webview_signals_menu.py:91
+#: ../eolie/webview_signals_menu.py:101
 msgid "Open link in a new window"
 msgstr "Öppna länk i ett nytt fönster"
 
-#: ../eolie/webview_signals_menu.py:103
-msgid "Copy link address"
-msgstr "Kopiera länkadress"
-
-#: ../eolie/webview_signals_menu.py:119
-msgid "Search on the Web"
-msgstr "Sök på nätet"
-
-#: ../eolie/webview_signals_menu.py:130
+#: ../eolie/webview_signals_menu.py:112
 msgid "Copy"
 msgstr "Kopiera"
 
-#: ../eolie/webview_signals_menu.py:142 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:125
+msgid "Copy link address"
+msgstr "Kopiera länkadress"
+
+#: ../eolie/webview_signals_menu.py:138
+msgid "Search on the Web"
+msgstr "Sök på nätet"
+
+#: ../eolie/webview_signals_menu.py:150 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Spara bilder"
 
-#: ../eolie/webview_signals_menu.py:156
+#: ../eolie/webview_signals_menu.py:160
 msgid "Save videos"
 msgstr "Spara videoklipp"
 

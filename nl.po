@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-28 14:14+0200\n"
+"POT-Creation-Date: 2017-10-31 10:01+0100\n"
 "PO-Revision-Date: 2017-10-29 14:39+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
@@ -176,11 +176,11 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Webbrowser"
 
-#: ../eolie/application.py:629
+#: ../eolie/application.py:628
 msgid "Do you really want to quit Eolie?"
 msgstr "Weet u zeker dat u Eolie wilt afsluiten?"
 
-#: ../eolie/application.py:755
+#: ../eolie/application.py:754
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: u moet yelp installeren."
 
@@ -293,53 +293,53 @@ msgstr "Wilt u dit wachtwoord wijzigen?"
 msgid "Unknown destination"
 msgstr "Onbekende bestemming"
 
-#: ../eolie/popover_downloads.py:100
+#: ../eolie/popover_downloads.py:101
 msgid "Download speed:"
 msgstr "Downloadsnelheid:"
 
-#: ../eolie/popover_downloads.py:102
+#: ../eolie/popover_downloads.py:103
 msgid "bytes/s"
 msgstr "bytes/s"
 
-#: ../eolie/popover_downloads.py:105
+#: ../eolie/popover_downloads.py:106
 msgid "KiB/s"
 msgstr "KiB/s"
 
-#: ../eolie/popover_downloads.py:108
+#: ../eolie/popover_downloads.py:109
 msgid "MiB/s"
 msgstr "MiB/s"
 
-#: ../eolie/popover_downloads.py:130 ../eolie/popover_downloads.py:136
+#: ../eolie/popover_downloads.py:131 ../eolie/popover_downloads.py:137
 #, python-format
 msgid "%s second"
 msgstr "%s seconde"
 
-#: ../eolie/popover_downloads.py:132 ../eolie/popover_downloads.py:138
+#: ../eolie/popover_downloads.py:133 ../eolie/popover_downloads.py:139
 #, python-format
 msgid "%s seconds"
 msgstr "%s seconden"
 
-#: ../eolie/popover_downloads.py:144 ../eolie/popover_downloads.py:152
+#: ../eolie/popover_downloads.py:145 ../eolie/popover_downloads.py:153
 #, python-format
 msgid "%s minute"
 msgstr "%s minuut"
 
-#: ../eolie/popover_downloads.py:147 ../eolie/popover_downloads.py:154
+#: ../eolie/popover_downloads.py:148 ../eolie/popover_downloads.py:155
 #, python-format
 msgid "%s minutes"
 msgstr "%s minuten"
 
-#: ../eolie/popover_downloads.py:160
+#: ../eolie/popover_downloads.py:161
 #, python-format
 msgid "%s hours"
 msgstr "%s uur"
 
-#: ../eolie/popover_downloads.py:162
+#: ../eolie/popover_downloads.py:163
 #, python-format
 msgid "%s hour"
 msgstr "%s uur"
 
-#: ../eolie/popover_downloads.py:163
+#: ../eolie/popover_downloads.py:164
 msgid "Remaining time:"
 msgstr "Resterende tijd:"
 
@@ -351,69 +351,69 @@ msgstr "Deze pagina toegang geven tot uw locatie?"
 msgid "Continue"
 msgstr "Verdergaan"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:417
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:418
 #: ../eolie/toolbar_end.py:182 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../eolie/popover_uri.py:117
+#: ../eolie/popover_uri.py:118
 msgid "Delete page from history"
 msgstr "Pagina verwijderen uit geschiedenis"
 
-#: ../eolie/popover_uri.py:132
+#: ../eolie/popover_uri.py:133
 msgid "Edit bookmark"
 msgstr "Bladwijzer bewerken"
 
-#: ../eolie/popover_uri.py:152
+#: ../eolie/popover_uri.py:153
 msgid "Open all pages for this tag"
 msgstr "Alle pagina’s voor deze tag openen"
 
-#: ../eolie/popover_uri.py:453 ../data/DialogImportBookmarks.ui.h:2
+#: ../eolie/popover_uri.py:454 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Bladwijzers importeren"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:742
+#: ../eolie/popover_uri.py:743
 msgid "Popular"
 msgstr "Populair"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:745
+#: ../eolie/popover_uri.py:746
 msgid "Recent"
 msgstr "Recent"
 
-#: ../eolie/popover_uri.py:747
+#: ../eolie/popover_uri.py:748
 msgid "Unclassified"
 msgstr "Ongeclassificeerd"
 
-#: ../eolie/popover_uri.py:770
+#: ../eolie/popover_uri.py:771
 msgid "From the past hour"
 msgstr "Van het voorbije uur"
 
-#: ../eolie/popover_uri.py:771
+#: ../eolie/popover_uri.py:772
 msgid "From the past day"
 msgstr "Van de voorbije dag"
 
-#: ../eolie/popover_uri.py:772
+#: ../eolie/popover_uri.py:773
 msgid "From the past week"
 msgstr "Van de voorbije week"
 
-#: ../eolie/popover_uri.py:774
+#: ../eolie/popover_uri.py:775
 msgid "From the past four weeks"
 msgstr "Van de voorbije vier weken"
 
-#: ../eolie/popover_uri.py:775
+#: ../eolie/popover_uri.py:776
 msgid "From selected day"
 msgstr "Vanaf een bepaalde dag"
 
-#: ../eolie/popover_uri.py:776
+#: ../eolie/popover_uri.py:777
 msgid "From the beginning"
 msgstr "Vanaf het begin"
 
-#: ../eolie/popover_uri.py:1034
+#: ../eolie/popover_uri.py:1035
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bladwijzers"
@@ -489,11 +489,11 @@ msgstr "Volledig scherm verlaten"
 msgid "Enter fullscreen"
 msgstr "Volledig scherm"
 
-#: ../eolie/toolbar_title.py:266
+#: ../eolie/toolbar_title.py:265
 msgid "This page contains insecure content"
 msgstr "Deze pagina bevat niet-beveiligde inhoud"
 
-#: ../eolie/toolbar_title.py:320
+#: ../eolie/toolbar_title.py:319
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
@@ -503,23 +503,23 @@ msgstr ""
 "Als u uw wachtwoord invoert,\n"
 " zullen computercriminelen het kunnen lezen!"
 
-#: ../eolie/toolbar_title.py:366
+#: ../eolie/toolbar_title.py:365
 msgid "Disallow geolocation"
 msgstr "Geolocatie uitschakelen"
 
-#: ../eolie/toolbar_title.py:372
+#: ../eolie/toolbar_title.py:371
 msgid "Blocked popups"
 msgstr "Geblokkeerde pop-ups"
 
-#: ../eolie/toolbar_title.py:453
+#: ../eolie/toolbar_title.py:452
 msgid "Copy address"
 msgstr "Adres kopiëren"
 
-#: ../eolie/toolbar_title.py:514
+#: ../eolie/toolbar_title.py:513
 msgid "Paste and load"
 msgstr "Plakken en laden"
 
-#: ../eolie/toolbar_title.py:753 ../eolie/toolbar_title.py:756
+#: ../eolie/toolbar_title.py:752 ../eolie/toolbar_title.py:755
 msgid "Search or enter address"
 msgstr "Zoek of voer een adres in"
 
@@ -634,39 +634,39 @@ msgstr "Nu een bug melden"
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie zal deze pagina sluiten, want ze werkt niet"
 
-#: ../eolie/webview_signals_menu.py:59
+#: ../eolie/webview_signals_menu.py:64
 msgid "Reload preview"
 msgstr "Voorbeeld herladen"
 
-#: ../eolie/webview_signals_menu.py:71
+#: ../eolie/webview_signals_menu.py:81
 msgid "Open link in a new page"
 msgstr "Verwijzing openen in een nieuw tabblad"
 
-#: ../eolie/webview_signals_menu.py:81
+#: ../eolie/webview_signals_menu.py:91
 msgid "Open link in a new private page"
 msgstr "Verwijzing openen in een nieuw privétabblad"
 
-#: ../eolie/webview_signals_menu.py:91
+#: ../eolie/webview_signals_menu.py:101
 msgid "Open link in a new window"
 msgstr "Verwijzing openen in een nieuw venster"
 
-#: ../eolie/webview_signals_menu.py:103
-msgid "Copy link address"
-msgstr "Verwijzingsadres kopiëren"
-
-#: ../eolie/webview_signals_menu.py:119
-msgid "Search on the Web"
-msgstr "Zoeken op het internet"
-
-#: ../eolie/webview_signals_menu.py:130
+#: ../eolie/webview_signals_menu.py:112
 msgid "Copy"
 msgstr "Kopiëren"
 
-#: ../eolie/webview_signals_menu.py:142 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:125
+msgid "Copy link address"
+msgstr "Verwijzingsadres kopiëren"
+
+#: ../eolie/webview_signals_menu.py:138
+msgid "Search on the Web"
+msgstr "Zoeken op het internet"
+
+#: ../eolie/webview_signals_menu.py:150 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Afbeeldingen opslaan"
 
-#: ../eolie/webview_signals_menu.py:156
+#: ../eolie/webview_signals_menu.py:160
 msgid "Save videos"
 msgstr "Video’s opslaan"
 
