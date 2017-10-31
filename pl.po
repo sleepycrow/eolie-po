@@ -639,12 +639,7 @@ msgstr "Zgłoś błąd"
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie ma zamiar zamknąć tę stronę, gdyż jest ona uszkodzona"
 
-<<<<<<< HEAD
-#: ../eolie/webview_signals_menu.py:59
-#, fuzzy
-=======
 #: ../eolie/webview_signals_menu.py:56
->>>>>>> weblate/master
 msgid "Reload preview"
 msgstr "Wczytaj ponownie stronę"
 
@@ -652,12 +647,7 @@ msgstr "Wczytaj ponownie stronę"
 msgid "Open link in a new page"
 msgstr "Otwórz odnośnik w nowej karcie"
 
-<<<<<<< HEAD
-#: ../eolie/webview_signals_menu.py:81
-#, fuzzy
-=======
 #: ../eolie/webview_signals_menu.py:78
->>>>>>> weblate/master
 msgid "Open link in a new private page"
 msgstr "Otwórz odnośnik w nowej prywatnej karcie"
 
