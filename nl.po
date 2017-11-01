@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-01 13:06+0100\n"
-"PO-Revision-Date: 2017-10-29 14:39+0000\n"
+"PO-Revision-Date: 2017-11-01 13:16+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
@@ -115,9 +115,8 @@ msgid "DNS prediction"
 msgstr "DNS-voorspelling"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:26
-#, fuzzy
 msgid "Enable search suggestions"
-msgstr "Plug-ins inschakelen"
+msgstr "Zoeksuggesties inschakelen"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
@@ -1047,7 +1046,7 @@ msgstr "Weergegeven bladwijzers"
 
 #: ../data/SettingsDialog.ui.h:21
 msgid "Add suggestions"
-msgstr ""
+msgstr "Suggesties inschakelen"
 
 #: ../data/SettingsDialog.ui.h:22
 msgid "General"
