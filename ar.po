@@ -441,12 +441,7 @@ msgstr "ألغ المزامنة"
 msgid "Allow synchronization"
 msgstr "ألغ المزامنة"
 
-<<<<<<< HEAD
-#: ../eolie/settings.py:507
-#, fuzzy
-=======
 #: ../eolie/settings.py:496
->>>>>>> a33924156914cdefbfbc9ad3a57d39187cebbbc0
 msgid "Synchronization is not working"
 msgstr "التزامن لا يعمل"
 
@@ -463,12 +458,7 @@ msgstr ""
 msgid "You've received an email to validate synchronization"
 msgstr "لقد استقبلت رسالة بريد إلكتروني للتحقق من المزامنة"
 
-<<<<<<< HEAD
-#: ../eolie/toolbar_end.py:147
-#, fuzzy
-=======
 #: ../eolie/toolbar_end.py:146
->>>>>>> a33924156914cdefbfbc9ad3a57d39187cebbbc0
 msgid "Downloading:"
 msgstr "ينزّل:"
 
@@ -639,12 +629,7 @@ msgstr "حدث العينة"
 msgid "Open link in a new page"
 msgstr "افتح الرابط في صفحة جديدة"
 
-<<<<<<< HEAD
-#: ../eolie/webview_signals_menu.py:93
-#, fuzzy
-=======
 #: ../eolie/webview_signals_menu.py:91
->>>>>>> a33924156914cdefbfbc9ad3a57d39187cebbbc0
 msgid "Open link in a new private page"
 msgstr "افتح في صفحة خاصة جديدة"
 
@@ -668,12 +653,7 @@ msgstr "ابحث في الوب"
 msgid "Save images"
 msgstr "احفظ الصور"
 
-<<<<<<< HEAD
-#: ../eolie/webview_signals_menu.py:162
-#, fuzzy
-=======
 #: ../eolie/webview_signals_menu.py:160
->>>>>>> a33924156914cdefbfbc9ad3a57d39187cebbbc0
 msgid "Save videos"
 msgstr "احفظ الفيديوهات"
 
@@ -1066,17 +1046,8 @@ msgid "Bookmarks shown"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:21
-<<<<<<< HEAD
-msgid "Add suggestions"
-msgstr ""
-=======
 msgid "General"
 msgstr "عامة"
->>>>>>> a33924156914cdefbfbc9ad3a57d39187cebbbc0
-
-#: ../data/SettingsDialog.ui.h:22
-msgid "General"
-msgstr ""
 
 #: ../data/SettingsDialog.ui.h:23
 msgid "Fonts"
@@ -1094,12 +1065,7 @@ msgstr "التتبع"
 msgid "Passwords"
 msgstr "كلمات السر"
 
-<<<<<<< HEAD
-#: ../data/SettingsDialog.ui.h:36
-#, fuzzy
-=======
 #: ../data/SettingsDialog.ui.h:35
->>>>>>> a33924156914cdefbfbc9ad3a57d39187cebbbc0
 msgid "Saved data"
 msgstr "البيانات المحفوظة"
 
@@ -1123,12 +1089,7 @@ msgstr "لا تقبل أبدًا"
 msgid "Manage cookies"
 msgstr "أدر الكعكات"
 
-<<<<<<< HEAD
-#: ../data/SettingsDialog.ui.h:43
-#, fuzzy
-=======
 #: ../data/SettingsDialog.ui.h:42
->>>>>>> a33924156914cdefbfbc9ad3a57d39187cebbbc0
 msgid "Manage passwords"
 msgstr "أدر كلمات السر"
 
@@ -1363,26 +1324,4 @@ msgstr "أفعال أكثر"
 
 #: ../data/ToolbarEnd.ui.h:4
 msgid "Startup page"
-<<<<<<< HEAD
-msgstr ""
-
-#~ msgid "Window size"
-#~ msgstr "حجم النافذة"
-
-#~ msgid "Window size (width and height)"
-#~ msgstr "حجم النافذة (العرض والطول)"
-
-#~ msgid "Window position"
-#~ msgstr "موضع النافذة"
-
-#~ msgid "Window position (x and y)"
-#~ msgstr "موضع النافذة (س، ص)"
-
-#~ msgid "Window maximized"
-#~ msgstr "النافذة مكبّرة"
-
-#~ msgid "Window maximized state"
-#~ msgstr "حالة تكبير النافذة"
-=======
 msgstr "صفحة البدء"
->>>>>>> a33924156914cdefbfbc9ad3a57d39187cebbbc0
