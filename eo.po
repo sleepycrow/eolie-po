@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-31 10:01+0100\n"
+"POT-Creation-Date: 2017-11-01 13:06+0100\n"
 "PO-Revision-Date: 2017-10-31 09:00+0000\n"
 "Last-Translator: Tirifto <tirifto@posteo.cz>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/eolie/eolie/eo/"
@@ -20,130 +20,111 @@ msgstr ""
 "X-Generator: Weblate 2.17\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
-msgid "Window size"
-msgstr "Fenestra grando"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:2
-msgid "Window size (width and height)"
-msgstr "Fenestra grando (larĝo kaj alto)"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:3
-msgid "Window position"
-msgstr "Fenestra loko"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:4
-msgid "Window position (x and y)"
-msgstr "Fenestra loko (x kaj y)"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:5
-msgid "Window maximized"
-msgstr "Fenestro plejgranda"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:6
-msgid "Window maximized state"
-msgstr "Plejgranda stato de fenestro"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:7
 msgid "Show sidebar(sites manager)"
 msgstr "Montri flankbreton (retejan administrilon)"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:8
+#: ../data/org.gnome.Eolie.gschema.xml.h:2
 msgid "Block ads on pages"
 msgstr "Forbari reklamojn en retpaĝoj"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:3
 msgid "Block unwanted popups on pages"
 msgstr "Forbari nepetitajn ŝprucaĵojn en retpaĝoj"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:10
+#: ../data/org.gnome.Eolie.gschema.xml.h:4
 msgid "Block images on pages"
 msgstr "Forbari bildojn en retpaĝoj"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:11
+#: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Block Javascript on pages"
 msgstr "Forbari ĝavoskripton en retpaĝoj"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:12
+#: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Download folder URI"
 msgstr "URI de elŝuta dosierujo"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:13
+#: ../data/org.gnome.Eolie.gschema.xml.h:7
 msgid "Open finished downloads"
 msgstr "Malfermi finitajn elŝutojn"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14
+#: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Web search engine"
 msgstr "Retserĉilo"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:15
+#: ../data/org.gnome.Eolie.gschema.xml.h:9
 msgid "Remember sessions"
 msgstr "Memori seancojn"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:34
+#: ../data/org.gnome.Eolie.gschema.xml.h:10 ../data/SettingsDialog.ui.h:35
 msgid "Remember passwords"
 msgstr "Memori pasvortojn"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:20
+#: ../data/org.gnome.Eolie.gschema.xml.h:11 ../data/SettingsDialog.ui.h:20
 msgid "Enable developer tools"
 msgstr "Ŝalti programistajn ilojn"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:12 ../data/SettingsDialog.ui.h:9
 msgid "Enable plugins"
 msgstr "Ŝalti kromprogramojn"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:13 ../data/SettingsDialog.ui.h:24
 msgid "Use system fonts"
 msgstr "Uzi sistemajn tiparojn"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:25
 msgid "Sans serif font"
 msgstr "Senkalkana tiparo"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:21 ../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:15 ../data/SettingsDialog.ui.h:26
 msgid "Serif font"
 msgstr "Kalkana tiparo"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:27
 msgid "Monospace font"
 msgstr "Egallarĝa tiparo"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:17
 msgid "Open this page on startup"
 msgstr "Malfermi tiun ĉi paĝon je komenco"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:18
 msgid "Minimum sidebar position"
 msgstr "Minimuma flankbreta loko"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:25 ../data/SettingsDialog.ui.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:28
 msgid "Minimum font size"
 msgstr "Minimuma tipara grando"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:20
 msgid "Popular items shown"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:21
 msgid "INTERNAL"
 msgstr "INTERNA"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:28
+#: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Cookies storage type"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:29
+#: ../data/org.gnome.Eolie.gschema.xml.h:23
 msgid "History storage type"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:30 ../data/SettingsDialog.ui.h:32
+#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:33
 msgid "Tell websites I do not want to be tracked"
 msgstr "Petu retejojn ne spioni min"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:31
+#: ../data/org.gnome.Eolie.gschema.xml.h:25
 msgid "DNS prediction"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:32 ../data/Languages.ui.h:2
+#: ../data/org.gnome.Eolie.gschema.xml.h:26
+#, fuzzy
+msgid "Enable search suggestions"
+msgstr "Ŝalti kromprogramojn"
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
 msgstr "Ŝalti literuman kontrolon"
 
@@ -181,13 +162,17 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Retfoliumilo"
 
-#: ../eolie/application.py:628
+#: ../eolie/application.py:676
 msgid "Do you really want to quit Eolie?"
 msgstr ""
 
-#: ../eolie/application.py:754
+#: ../eolie/application.py:802
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vi devas instali yelp."
+
+#: ../eolie/container.py:386
+msgid "Do you really want to close this page?"
+msgstr "Ĉu vi certe volas fermi ĉi tiun paĝon?"
 
 #: ../eolie/context.py:92 ../data/SettingsDialog.ui.h:13
 msgid "Popular pages"
@@ -242,7 +227,7 @@ msgstr ""
 msgid "Plugins data"
 msgstr ""
 
-#: ../eolie/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:30
+#: ../eolie/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:31
 msgid "Cookies"
 msgstr ""
 
@@ -286,10 +271,6 @@ msgstr ""
 #: ../eolie/menu_videos.py:71
 msgid "No videos"
 msgstr ""
-
-#: ../eolie/pages_manager.py:426
-msgid "Do you really want to close this page?"
-msgstr "Ĉu vi certe volas fermi ĉi tiun paĝon?"
 
 #: ../eolie/popover_credentials.py:142
 msgid "Do you want to modify this password?"
@@ -357,8 +338,8 @@ msgstr "Ĉu tiu ĉi retpaĝo sciu vian lokon?"
 msgid "Continue"
 msgstr "Pluigi"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:418
-#: ../eolie/toolbar_end.py:182 ../eolie/webview_signals.py:127
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:416
+#: ../eolie/toolbar_end.py:183 ../eolie/webview_signals.py:127
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -376,50 +357,50 @@ msgstr "Redakti paĝosignon"
 msgid "Open all pages for this tag"
 msgstr "Malfermi ĉiujn paĝojn por tiu ĉi etikedo"
 
-#: ../eolie/popover_uri.py:454 ../data/DialogImportBookmarks.ui.h:2
+#: ../eolie/popover_uri.py:452 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Enporti paĝosignojn"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:743
+#: ../eolie/popover_uri.py:741
 msgid "Popular"
 msgstr "Plej ofte vizitataj"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:746
+#: ../eolie/popover_uri.py:744
 msgid "Recent"
 msgstr "Plej freŝe vizititaj"
 
-#: ../eolie/popover_uri.py:748
+#: ../eolie/popover_uri.py:746
 msgid "Unclassified"
 msgstr "Senkategoriaj"
 
-#: ../eolie/popover_uri.py:771
+#: ../eolie/popover_uri.py:769
 msgid "From the past hour"
 msgstr "De la lasta horo"
 
-#: ../eolie/popover_uri.py:772
+#: ../eolie/popover_uri.py:770
 msgid "From the past day"
 msgstr "De la lasta tago"
 
-#: ../eolie/popover_uri.py:773
+#: ../eolie/popover_uri.py:771
 msgid "From the past week"
 msgstr "De la lasta semajno"
 
-#: ../eolie/popover_uri.py:775
+#: ../eolie/popover_uri.py:773
 msgid "From the past four weeks"
 msgstr "De la kvar lastaj semajnoj"
 
-#: ../eolie/popover_uri.py:776
+#: ../eolie/popover_uri.py:774
 msgid "From selected day"
 msgstr "De la elektita tago"
 
-#: ../eolie/popover_uri.py:777
+#: ../eolie/popover_uri.py:775
 msgid "From the beginning"
 msgstr "De la komenco"
 
-#: ../eolie/popover_uri.py:1035
+#: ../eolie/popover_uri.py:1033
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s paĝosignoj"
@@ -444,27 +425,27 @@ msgstr "https://br.yahoo.com/"
 msgid "Preferences"
 msgstr "Agordoj"
 
-#: ../eolie/settings.py:447
+#: ../eolie/settings.py:458
 msgid "Connecting…"
 msgstr "Konektanta…"
 
-#: ../eolie/settings.py:481
+#: ../eolie/settings.py:492
 msgid "Synchronization is working"
 msgstr "Sinĥronigo funkcias"
 
-#: ../eolie/settings.py:487
+#: ../eolie/settings.py:498
 msgid "Cancel synchronization"
 msgstr "Nuligi sinĥronigon"
 
-#: ../eolie/settings.py:491 ../data/SettingsDialog.ui.h:56
+#: ../eolie/settings.py:502 ../data/SettingsDialog.ui.h:57
 msgid "Allow synchronization"
 msgstr "Permesi sinĥronigon"
 
-#: ../eolie/settings.py:496
+#: ../eolie/settings.py:507
 msgid "Synchronization is not working"
 msgstr "Sinĥronigo ne funkcias"
 
-#: ../eolie/settings.py:509
+#: ../eolie/settings.py:520
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -473,27 +454,27 @@ msgstr ""
 "Sinĥronigo ne disponeblas je via komputilo:\n"
 " %s"
 
-#: ../eolie/settings.py:532
+#: ../eolie/settings.py:543
 msgid "You've received an email to validate synchronization"
 msgstr "Vi ricevis retleteron por validigi sinĥronigon"
 
-#: ../eolie/toolbar_end.py:146
+#: ../eolie/toolbar_end.py:147
 msgid "Downloading:"
 msgstr "Elŝutanta:"
 
-#: ../eolie/toolbar_end.py:178 ../data/ActionsMenu.ui.h:12
+#: ../eolie/toolbar_end.py:179 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Konservi retpaĝon"
 
-#: ../eolie/toolbar_end.py:181 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:182 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Konservi"
 
-#: ../eolie/toolbar_end.py:332 ../data/ToolbarEnd.ui.h:1
+#: ../eolie/toolbar_end.py:333 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Refenestrigi"
 
-#: ../eolie/toolbar_end.py:334
+#: ../eolie/toolbar_end.py:335
 msgid "Enter fullscreen"
 msgstr "Tutekranigi"
 
@@ -527,7 +508,7 @@ msgstr "Kopii adreson"
 msgid "Paste and load"
 msgstr "Alglui kaj viziti"
 
-#: ../eolie/toolbar_title.py:752 ../eolie/toolbar_title.py:755
+#: ../eolie/toolbar_title.py:750 ../eolie/toolbar_title.py:753
 msgid "Search or enter address"
 msgstr "Serĉu aŭ enigu adreson"
 
@@ -633,44 +614,44 @@ msgstr ""
 msgid "Eolie is going to close this page because it is broken"
 msgstr ""
 
-#: ../eolie/webview_signals_menu.py:64
+#: ../eolie/webview_signals_menu.py:66
 msgid "Reload preview"
 msgstr ""
 
-#: ../eolie/webview_signals_menu.py:81
+#: ../eolie/webview_signals_menu.py:83
 msgid "Open link in a new page"
 msgstr ""
 
-#: ../eolie/webview_signals_menu.py:91
+#: ../eolie/webview_signals_menu.py:93
 msgid "Open link in a new private page"
 msgstr ""
 
-#: ../eolie/webview_signals_menu.py:101
+#: ../eolie/webview_signals_menu.py:103
 msgid "Open link in a new window"
 msgstr ""
 
-#: ../eolie/webview_signals_menu.py:112
+#: ../eolie/webview_signals_menu.py:114
 msgid "Copy"
 msgstr ""
 
-#: ../eolie/webview_signals_menu.py:125
+#: ../eolie/webview_signals_menu.py:127
 #, fuzzy
 msgid "Copy link address"
 msgstr "Kopii adreson"
 
-#: ../eolie/webview_signals_menu.py:138
+#: ../eolie/webview_signals_menu.py:140
 msgid "Search on the Web"
 msgstr ""
 
-#: ../eolie/webview_signals_menu.py:150 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:152 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr ""
 
-#: ../eolie/webview_signals_menu.py:160
+#: ../eolie/webview_signals_menu.py:162
 msgid "Save videos"
 msgstr ""
 
-#: ../eolie/webview_signals_menu.py:170
+#: ../eolie/webview_signals_menu.py:172
 msgid "Save page as image"
 msgstr ""
 
@@ -759,7 +740,7 @@ msgstr ""
 msgid "Zoom out"
 msgstr ""
 
-#: ../data/ActionsMenu.ui.h:17 ../data/SettingsDialog.ui.h:28
+#: ../data/ActionsMenu.ui.h:17 ../data/SettingsDialog.ui.h:29
 msgid "Default zoom level"
 msgstr ""
 
@@ -835,7 +816,7 @@ msgstr ""
 msgid "Add new tag"
 msgstr ""
 
-#: ../data/DialogClearData.ui.h:1 ../data/SettingsDialog.ui.h:41
+#: ../data/DialogClearData.ui.h:1 ../data/SettingsDialog.ui.h:42
 msgid "Clear Personal Data"
 msgstr ""
 
@@ -965,7 +946,7 @@ msgstr ""
 msgid "Ok"
 msgstr ""
 
-#: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:48
+#: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:49
 msgid "Forever"
 msgstr ""
 
@@ -1054,104 +1035,108 @@ msgid "Bookmarks shown"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:21
-msgid "General"
+msgid "Add suggestions"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:22
+msgid "General"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:23
 msgid "Fonts"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:29
+#: ../data/SettingsDialog.ui.h:30
 msgid "Appearance"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:31
+#: ../data/SettingsDialog.ui.h:32
 msgid "Tracking"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:33
+#: ../data/SettingsDialog.ui.h:34
 msgid "Passwords"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:35
+#: ../data/SettingsDialog.ui.h:36
 msgid "Saved data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:36
+#: ../data/SettingsDialog.ui.h:37
 msgid "Behaviour:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:37
+#: ../data/SettingsDialog.ui.h:38
 msgid "Always accept"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:38
+#: ../data/SettingsDialog.ui.h:39
 msgid "Only from sites you visit"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:40
 msgid "Never accept"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:40
+#: ../data/SettingsDialog.ui.h:41
 msgid "Manage cookies"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:42
+#: ../data/SettingsDialog.ui.h:43
 msgid "Manage passwords"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:43
+#: ../data/SettingsDialog.ui.h:44
 msgid "Keep history:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:45
 msgid "One day"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:45
+#: ../data/SettingsDialog.ui.h:46
 msgid "One week"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:47
 msgid "Four weeks"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:48
 msgid "A year"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:49
+#: ../data/SettingsDialog.ui.h:50
 msgid "Do not keep"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:50
+#: ../data/SettingsDialog.ui.h:51
 msgid "Predict websites address"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:51
+#: ../data/SettingsDialog.ui.h:52
 msgid "Privacy"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:52
+#: ../data/SettingsDialog.ui.h:53
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:54
+#: ../data/SettingsDialog.ui.h:55
 msgid "Login:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:55
+#: ../data/SettingsDialog.ui.h:56
 msgid "Password:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:57
+#: ../data/SettingsDialog.ui.h:58
 msgid "Create or manage account"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:58 ../data/ToolbarEnd.ui.h:2
+#: ../data/SettingsDialog.ui.h:59 ../data/ToolbarEnd.ui.h:2
 msgid "Synchronization"
 msgstr ""
 
@@ -1332,3 +1317,21 @@ msgstr ""
 #: ../data/ToolbarEnd.ui.h:4
 msgid "Startup page"
 msgstr ""
+
+#~ msgid "Window size"
+#~ msgstr "Fenestra grando"
+
+#~ msgid "Window size (width and height)"
+#~ msgstr "Fenestra grando (larĝo kaj alto)"
+
+#~ msgid "Window position"
+#~ msgstr "Fenestra loko"
+
+#~ msgid "Window position (x and y)"
+#~ msgstr "Fenestra loko (x kaj y)"
+
+#~ msgid "Window maximized"
+#~ msgstr "Fenestro plejgranda"
+
+#~ msgid "Window maximized state"
+#~ msgstr "Plejgranda stato de fenestro"
