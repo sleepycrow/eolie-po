@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-01 13:06+0100\n"
-"PO-Revision-Date: 2017-10-30 16:18+0000\n"
+"PO-Revision-Date: 2017-11-02 22:11+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
-">\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/>"
+"\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Show sidebar(sites manager)"
@@ -120,9 +120,8 @@ msgid "DNS prediction"
 msgstr "DNS-förutsägelse"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:26
-#, fuzzy
 msgid "Enable search suggestions"
-msgstr "Aktivera insticksmoduler"
+msgstr "Aktivera sökförslag"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
@@ -1051,7 +1050,7 @@ msgstr "Bokmärken visade"
 
 #: ../data/SettingsDialog.ui.h:21
 msgid "Add suggestions"
-msgstr ""
+msgstr "Lägg till förslag"
 
 #: ../data/SettingsDialog.ui.h:22
 msgid "General"
