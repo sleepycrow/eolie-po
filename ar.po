@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-31 10:01+0100\n"
-"PO-Revision-Date: 2017-10-31 17:53+0000\n"
+"PO-Revision-Date: 2017-11-04 06:44+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Show sidebar(sites manager)"
@@ -41,7 +41,7 @@ msgstr "امنع الجافاسكربت في الصفحات"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Download folder URI"
-msgstr ""
+msgstr "مكان مجلد التنزيل (URI)"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
 msgid "Open finished downloads"
@@ -120,9 +120,8 @@ msgid "DNS prediction"
 msgstr "توقع DNS"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:26
-#, fuzzy
 msgid "Enable search suggestions"
-msgstr "فعّل الملحقات"
+msgstr "فعّل اقتراحات البحث"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
@@ -298,7 +297,7 @@ msgstr "مب/ث"
 #: ../eolie/popover_downloads.py:131 ../eolie/popover_downloads.py:137
 #, python-format
 msgid "%s second"
-msgstr "%s ثانية واحدة"
+msgstr "%.0sثانية واحدة"
 
 #: ../eolie/popover_downloads.py:133 ../eolie/popover_downloads.py:139
 #, python-format
@@ -308,7 +307,7 @@ msgstr "%s من الثواني"
 #: ../eolie/popover_downloads.py:145 ../eolie/popover_downloads.py:153
 #, python-format
 msgid "%s minute"
-msgstr "%s دقيقة واحدة"
+msgstr "%.0sدقيقة واحدة"
 
 #: ../eolie/popover_downloads.py:148 ../eolie/popover_downloads.py:155
 #, python-format
@@ -323,7 +322,7 @@ msgstr "%s من الساعات"
 #: ../eolie/popover_downloads.py:163
 #, python-format
 msgid "%s hour"
-msgstr "%s ساعة واحدة"
+msgstr "%.0sساعة واحدة"
 
 #: ../eolie/popover_downloads.py:164
 msgid "Remaining time:"
@@ -437,9 +436,8 @@ msgid "Cancel synchronization"
 msgstr "ألغ المزامنة"
 
 #: ../eolie/settings.py:502 ../data/SettingsDialog.ui.h:57
-#, fuzzy
 msgid "Allow synchronization"
-msgstr "ألغ المزامنة"
+msgstr "اسمح بالمزامنة"
 
 #: ../eolie/settings.py:496
 msgid "Synchronization is not working"
@@ -471,12 +469,13 @@ msgid "Save"
 msgstr "احفظ"
 
 #: ../eolie/toolbar_end.py:333 ../data/ToolbarEnd.ui.h:1
+#, fuzzy
 msgid "Leave fullscreen"
-msgstr ""
+msgstr "دع وضع ملء الشاشة"
 
 #: ../eolie/toolbar_end.py:335
 msgid "Enter fullscreen"
-msgstr ""
+msgstr "ادخل وضع ملء الشاشة"
 
 #: ../eolie/toolbar_title.py:265
 msgid "This page contains insecure content"
@@ -497,9 +496,8 @@ msgid "Disallow geolocation"
 msgstr "عطّل تحديد الموقع"
 
 #: ../eolie/toolbar_title.py:371
-#, fuzzy
 msgid "Blocked popups"
-msgstr "امنع النوافذ المنبثقة المزعجة في الصفحات"
+msgstr "المنبثقات الممنوعة"
 
 #: ../eolie/toolbar_title.py:452
 msgid "Copy address"
@@ -535,6 +533,8 @@ msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
+"قد تكون الصفحة غير قابلة للوصول أو منقولة إلى عنوان جديد.<br/>تأكد أن اتصال "
+"الانترنت يعمل جيّدا."
 
 #: ../eolie/webview_errors.py:131
 msgid "Network not available"
@@ -558,7 +558,7 @@ msgstr "الشهادة منتهية"
 
 #: ../eolie/webview_errors.py:168
 msgid "The signing certificate authority is not known"
-msgstr ""
+msgstr "الجهة التي وقعت الشهادة غير معروفة"
 
 #: ../eolie/webview_errors.py:170
 msgid "The certificate contains errors"
@@ -574,7 +574,7 @@ msgstr "الشهادة موقّعة بخوارزمية تشفير ضعيفة"
 
 #: ../eolie/webview_errors.py:177
 msgid "The certificate activation time is still in the future"
-msgstr ""
+msgstr "إن وقت تفعيل الشهادة هو في المستقبل"
 
 #: ../eolie/webview_errors.py:179
 msgid "The identity of this website has not been verified"
@@ -671,11 +671,11 @@ msgstr "افتح"
 
 #: ../eolie/widget_find.py:47
 msgid "Search previous occurrence"
-msgstr ""
+msgstr "ابحث عن المطابق السابق"
 
 #: ../eolie/widget_find.py:56
 msgid "Search next occurrence"
-msgstr ""
+msgstr "ابحث عن المطابق التالي"
 
 #: ../eolie/widget_find.py:123
 msgid "1000 of 1000 matches"
@@ -684,7 +684,7 @@ msgstr "1000 من 1000 نتيجة"
 #: ../data/ActionsMenu.ui.h:1
 msgctxt "Adblock exception"
 msgid "None"
-msgstr ""
+msgstr "لا تمنع"
 
 #: ../data/ActionsMenu.ui.h:2
 msgid "Current site"
@@ -709,16 +709,16 @@ msgstr "لا تمنع الصور"
 #: ../data/ActionsMenu.ui.h:7
 msgctxt "Image exception"
 msgid "None"
-msgstr ""
+msgstr "لا تمنع"
 
 #: ../data/ActionsMenu.ui.h:8
 msgid "Do not block popups"
-msgstr ""
+msgstr "لا تمنع المنبثقات"
 
 #: ../data/ActionsMenu.ui.h:9
 msgctxt "Popup exception"
 msgid "None"
-msgstr ""
+msgstr "لا تمنع"
 
 #: ../data/ActionsMenu.ui.h:10
 msgid "Do not block JavaScript"
@@ -727,7 +727,7 @@ msgstr "لا تمنع الجافاسكربت"
 #: ../data/ActionsMenu.ui.h:11
 msgctxt "JavasSript exception"
 msgid "None"
-msgstr ""
+msgstr "لا تمنع"
 
 #: ../data/ActionsMenu.ui.h:13
 msgid "Print page"
@@ -759,9 +759,8 @@ msgid "Block ads"
 msgstr "امنع الإعلانات"
 
 #: ../data/ActionsMenu.ui.h:20
-#, fuzzy
 msgid "Block popups"
-msgstr "امنع الإعلانات في الصفحات"
+msgstr "امنع المنبثقات"
 
 #: ../data/ActionsMenu.ui.h:21
 msgid "Block images"
@@ -772,8 +771,9 @@ msgid "Block JavaScript"
 msgstr "امنع الجافاسكربت"
 
 #: ../data/ActionsMenu.ui.h:23
+#, fuzzy
 msgid "Filtering"
-msgstr ""
+msgstr "الترشيح"
 
 #: ../data/ActionsMenu.ui.h:24 ../data/Languages.ui.h:1
 msgid "Spell checking"
@@ -834,15 +834,16 @@ msgstr "ا_مح"
 #: ../data/DialogClearData.ui.h:3 ../data/PopoverUri.ui.h:4
 #: ../data/SettingsDialog.ui.h:6
 msgid "Search"
-msgstr ""
+msgstr "ابحث"
 
 #: ../data/DialogClearData.ui.h:4
+#, fuzzy
 msgid "Filter domains"
-msgstr ""
+msgstr "رشّح النطاقات"
 
 #: ../data/DialogClearData.ui.h:5
 msgid "Search domains"
-msgstr ""
+msgstr "ابحث في النطاقات"
 
 #: ../data/DialogClearData.ui.h:6
 msgid ""
@@ -850,6 +851,9 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
+"تستطيع اختيار فترة من الزمن لمحو بيانات كل مواقع الوب التي زرتها في تلك في "
+"الفترة، إذا اخترت \"من بداية الوقت\" فإنك تستطيع أيضًا اختيار مواقع مخصوصة "
+"لكي تُمحى بياناتها هي فقط."
 
 #: ../data/DialogClearData.ui.h:7
 msgid "Clear selected personal data _from:"
@@ -877,7 +881,7 @@ msgstr "من البداية"
 
 #: ../data/DialogClearData.ui.h:13
 msgid "No data found"
-msgstr ""
+msgstr "لا بيانات موجودة"
 
 #: ../data/DialogClearData.ui.h:14
 msgid ""
@@ -911,11 +915,12 @@ msgstr "المبدئي:"
 
 #: ../data/DialogSearchEngine.ui.h:5
 msgid "Bang:"
-msgstr ""
+msgstr "الرمز:"
 
 #: ../data/DialogSearchEngine.ui.h:6
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
+"إذا كان الرمز هو ب مثلًا، فيمكنك كتابة ب: في شريط البحث لكي تستخدم هذا المحرك"
 
 #: ../data/DialogSearchEngine.ui.h:7
 msgid "Search:"
@@ -928,6 +933,8 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
 msgstr ""
+"لكي تحصل على عنوان البحث، ابحث باستعمال محرك البحث الذي تريد إضافته وافحص "
+"العنوان الناتج، واحذف كلمة البحث من العنوان الناتج واستبدله بـ %s."
 
 #: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
@@ -946,12 +953,13 @@ msgid "Clear finished downloads"
 msgstr "افتح التنزيلات التي تمت"
 
 #: ../data/PopoverDownloads.ui.h:3
+#, fuzzy
 msgid "No active download"
-msgstr ""
+msgstr "لا تنزيل نشط"
 
 #: ../data/PopoverGeolocation.ui.h:1 ../data/PopoverJavaScript.ui.h:1
 msgid "Ok"
-msgstr ""
+msgstr "حسنًا"
 
 #: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:49
 msgid "Forever"
@@ -966,14 +974,12 @@ msgid "Remove all passwords"
 msgstr "أزل كل كلمات السر"
 
 #: ../data/PopoverUri.ui.h:1
-#, fuzzy
 msgid "Sync bookmarks"
-msgstr "%s من العلامات"
+msgstr "زامن العلامات"
 
 #: ../data/PopoverUri.ui.h:3
-#, fuzzy
 msgid "Bookmarks"
-msgstr "%s من العلامات"
+msgstr "العلامات"
 
 #: ../data/PopoverUri.ui.h:5
 msgid "Clear history"
@@ -984,9 +990,8 @@ msgid "History"
 msgstr "التأريخ"
 
 #: ../data/QuitDialog.ui.h:2
-#, fuzzy
 msgid "Close"
-msgstr "أغلق الموقع"
+msgstr "أغلق"
 
 #: ../data/RowDownload.ui.h:1
 msgid "Cancel download"
@@ -1017,7 +1022,6 @@ msgid "Start Page:"
 msgstr "صفحة البدء:"
 
 #: ../data/SettingsDialog.ui.h:12
-#, fuzzy
 msgid "Search engine"
 msgstr "محرك البحث"
 
@@ -1043,7 +1047,7 @@ msgstr "اضبط المحركات"
 
 #: ../data/SettingsDialog.ui.h:19
 msgid "Bookmarks shown"
-msgstr ""
+msgstr "العلامات الظاهرة"
 
 #: ../data/SettingsDialog.ui.h:21
 msgid "General"
@@ -1130,6 +1134,8 @@ msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
+"يمكنك مشاركة علاماتك وتأريخك\n"
+" على كل أجهزتك التي تشغل أيولي أو فيرفكس"
 
 #: ../data/SettingsDialog.ui.h:55
 msgid "Login:"
@@ -1176,7 +1182,7 @@ msgstr "أغلق"
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "أدخل موقعًا"
 
 #: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
