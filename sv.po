@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 00:26+0100\n"
+"POT-Creation-Date: 2017-11-10 00:31+0100\n"
 "PO-Revision-Date: 2017-11-02 22:11+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
@@ -100,7 +100,7 @@ msgid "Popular items shown"
 msgstr "Visade populära objekt"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21
-msgid "Webview preloaded per window"
+msgid "Webviews preloaded per window"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22

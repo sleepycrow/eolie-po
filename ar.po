@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 00:26+0100\n"
+"POT-Creation-Date: 2017-11-10 00:31+0100\n"
 "PO-Revision-Date: 2017-11-08 10:44+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
@@ -100,7 +100,7 @@ msgid "Popular items shown"
 msgstr "العناصر الشائعة الظاهرة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21
-msgid "Webview preloaded per window"
+msgid "Webviews preloaded per window"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22
