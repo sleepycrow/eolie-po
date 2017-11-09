@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-01 13:06+0100\n"
+"POT-Creation-Date: 2017-11-10 00:26+0100\n"
 "PO-Revision-Date: 2017-11-04 15:48+0000\n"
 "Last-Translator: Daria Szatan <bla_ke@tuta.io>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/eolie/eolie/pl/>\n"
@@ -96,31 +96,40 @@ msgid "Popular items shown"
 msgstr "Ilość wyświetlanych popularnych elementów"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21
-msgid "INTERNAL"
-msgstr "WEWNETRZNY"
+msgid "Webview preloaded per window"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22
+msgid "Restart needed"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/ActionsMenu.ui.h:17
+#: ../data/SettingsDialog.ui.h:29
+msgid "Default zoom level"
+msgstr "Domyślny rozmiar"
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Cookies storage type"
 msgstr "Typ magazynowania ciasteczek"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:25
 msgid "History storage type"
 msgstr "Typ magazynowania historii"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24 ../data/SettingsDialog.ui.h:33
+#: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:33
 msgid "Tell websites I do not want to be tracked"
 msgstr "Powiadom witryny, że nie chcę być śledzony"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:27
 msgid "DNS prediction"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:28
 #, fuzzy
 msgid "Enable search suggestions"
 msgstr "Włącz wtyczki"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/Languages.ui.h:2
+#: ../data/org.gnome.Eolie.gschema.xml.h:29 ../data/Languages.ui.h:2
 msgid "Enable spell checking"
 msgstr "Włącza sprawdzanie pisowni"
 
@@ -160,15 +169,15 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Przeglądarka internetowa"
 
-#: ../eolie/application.py:676
+#: ../eolie/application.py:721
 msgid "Do you really want to quit Eolie?"
 msgstr "Zakończyć działanie programu?"
 
-#: ../eolie/application.py:802
+#: ../eolie/application.py:847
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie:  należy zainstalować program yelp."
 
-#: ../eolie/container.py:386
+#: ../eolie/container.py:487
 msgid "Do you really want to close this page?"
 msgstr "Zamknąć tę stronę?"
 
@@ -240,36 +249,36 @@ msgstr "Importuj zakładki HTML"
 msgid "New engine"
 msgstr "Nowy silnik"
 
-#: ../eolie/menu_form.py:35
+#: ../eolie/menu_form.py:34
 msgid "Saved credentials"
 msgstr "Zapisane poświadczenia"
 
 #. Setup menu
-#: ../eolie/menu_pages.py:42
+#: ../eolie/menu_pages.py:43
 msgid "New private page"
 msgstr "Nowa prywatna karta"
 
-#: ../eolie/menu_pages.py:46
+#: ../eolie/menu_pages.py:47
 msgid "Closed pages"
 msgstr "Zamknięte karty"
 
-#: ../eolie/menu_pages.py:102
+#: ../eolie/menu_pages.py:103
 msgid "Open all pages"
 msgstr "Otwórz wszystkie karty"
 
-#: ../eolie/menu_sites.py:59
+#: ../eolie/menu_sites.py:57
 msgid "Modify user agent"
 msgstr "Modyfikuj user agent"
 
-#: ../eolie/menu_sites.py:66 ../data/SitesManagerChild.ui.h:1
+#: ../eolie/menu_sites.py:64 ../data/SitesManagerChild.ui.h:1
 msgid "Close site"
 msgstr "Zamknij stronę"
 
-#: ../eolie/menu_videos.py:71
+#: ../eolie/menu_videos.py:69
 msgid "No videos"
 msgstr "Brak nagrań wideo"
 
-#: ../eolie/popover_credentials.py:142
+#: ../eolie/popover_credentials.py:58
 msgid "Do you want to modify this password?"
 msgstr "Zmienić to hasło?"
 
@@ -335,69 +344,69 @@ msgstr "Zezwolić tej stronie na uzyskanie aktualnego położenia?"
 msgid "Continue"
 msgstr "Kontynuuj"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:416
-#: ../eolie/toolbar_end.py:183 ../eolie/webview_signals.py:127
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:421
+#: ../eolie/toolbar_end.py:183 ../eolie/webview_signals.py:129
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: ../eolie/popover_uri.py:118
+#: ../eolie/popover_uri.py:119
 msgid "Delete page from history"
 msgstr "Usuń stronę z historii przeglądania"
 
-#: ../eolie/popover_uri.py:133
+#: ../eolie/popover_uri.py:134
 msgid "Edit bookmark"
 msgstr "Edytuj zakładkę"
 
-#: ../eolie/popover_uri.py:153
+#: ../eolie/popover_uri.py:154
 msgid "Open all pages for this tag"
 msgstr "Otwórz wszystkie strony z tą etykietą"
 
-#: ../eolie/popover_uri.py:452 ../data/DialogImportBookmarks.ui.h:2
+#: ../eolie/popover_uri.py:457 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Importuj zakładki"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:741
+#: ../eolie/popover_uri.py:746
 msgid "Popular"
 msgstr "Popularne"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:744
+#: ../eolie/popover_uri.py:749
 msgid "Recent"
 msgstr "Ostatnie"
 
-#: ../eolie/popover_uri.py:746
+#: ../eolie/popover_uri.py:751
 msgid "Unclassified"
 msgstr "Niesklasyfikowane"
 
-#: ../eolie/popover_uri.py:769
+#: ../eolie/popover_uri.py:774
 msgid "From the past hour"
 msgstr "Z ostatniej godziny"
 
-#: ../eolie/popover_uri.py:770
+#: ../eolie/popover_uri.py:775
 msgid "From the past day"
 msgstr "Z ostatniego dnia"
 
-#: ../eolie/popover_uri.py:771
+#: ../eolie/popover_uri.py:776
 msgid "From the past week"
 msgstr "Z ostatniego tygodnia"
 
-#: ../eolie/popover_uri.py:773
+#: ../eolie/popover_uri.py:778
 msgid "From the past four weeks"
 msgstr "Z ostatnich 4 tygodni"
 
-#: ../eolie/popover_uri.py:774
+#: ../eolie/popover_uri.py:779
 msgid "From selected day"
 msgstr "Z wybranego dnia"
 
-#: ../eolie/popover_uri.py:775
+#: ../eolie/popover_uri.py:780
 msgid "From the beginning"
 msgstr "Od początku"
 
-#: ../eolie/popover_uri.py:1033
+#: ../eolie/popover_uri.py:1038
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s zakładek"
@@ -434,15 +443,20 @@ msgstr "Synchronizacja działa"
 msgid "Cancel synchronization"
 msgstr "Anuluj synchronizację"
 
-#: ../eolie/settings.py:502 ../data/SettingsDialog.ui.h:57
+#: ../eolie/settings.py:503
+#, fuzzy
+msgid "Start synchronization"
+msgstr "Synchronizacja"
+
+#: ../eolie/settings.py:508 ../data/SettingsDialog.ui.h:57
 msgid "Allow synchronization"
 msgstr "Pozwól na synchronizację"
 
-#: ../eolie/settings.py:507
+#: ../eolie/settings.py:513
 msgid "Synchronization is not working"
 msgstr "Synchronizacja nie działa"
 
-#: ../eolie/settings.py:520
+#: ../eolie/settings.py:524
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -451,7 +465,7 @@ msgstr ""
 "Synchronizacja nie jest dostępna na Twój komputer: \n"
 "%s"
 
-#: ../eolie/settings.py:543
+#: ../eolie/settings.py:547
 msgid "You've received an email to validate synchronization"
 msgstr "Otrzymałeś e-mail służący do aktywowania synchronizacji"
 
@@ -489,19 +503,19 @@ msgstr ""
 "Po wpisaniu własnego hasła,\n"
 " będzie ono widoczne dla cyberprzestępców!"
 
-#: ../eolie/toolbar_title.py:365
+#: ../eolie/toolbar_title.py:368
 msgid "Disallow geolocation"
 msgstr "Zablokuj geolokalizację"
 
-#: ../eolie/toolbar_title.py:371
+#: ../eolie/toolbar_title.py:374
 msgid "Blocked popups"
 msgstr "Zablokowane wyskakujące okienka"
 
-#: ../eolie/toolbar_title.py:452
+#: ../eolie/toolbar_title.py:455
 msgid "Copy address"
 msgstr "Kopiuje adres"
 
-#: ../eolie/toolbar_title.py:513
+#: ../eolie/toolbar_title.py:516
 msgid "Paste and load"
 msgstr "Wklej i przejdź do strony"
 
@@ -616,7 +630,7 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Zgłoś błąd"
 
-#: ../eolie/webview_signals_js.py:85
+#: ../eolie/webview_signals_js.py:84
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie ma zamiar zamknąć tę stronę, gdyż jest ona uszkodzona"
 
@@ -637,37 +651,42 @@ msgstr "Otwórz odnośnik w nowej prywatnej karcie"
 msgid "Open link in a new window"
 msgstr "Otwórz link w nowej karcie"
 
-#: ../eolie/webview_signals_menu.py:114
+#: ../eolie/webview_signals_menu.py:116
 msgid "Copy"
 msgstr "Skopiuj"
 
-#: ../eolie/webview_signals_menu.py:127
+#: ../eolie/webview_signals_menu.py:131
 #, fuzzy
 msgid "Copy link address"
 msgstr "Kopiuj adres"
 
-#: ../eolie/webview_signals_menu.py:140
+#: ../eolie/webview_signals_menu.py:142
 msgid "Search on the Web"
 msgstr "Wyszukaj w sieci"
 
-#: ../eolie/webview_signals_menu.py:152 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:160
+#, fuzzy
+msgid "Download this file"
+msgstr "Pobierz ten plik video:"
+
+#: ../eolie/webview_signals_menu.py:173 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Zapisz obrazy"
 
-#: ../eolie/webview_signals_menu.py:162
+#: ../eolie/webview_signals_menu.py:183
 #, fuzzy
 msgid "Save videos"
 msgstr "Zapisz obrazy"
 
-#: ../eolie/webview_signals_menu.py:172
+#: ../eolie/webview_signals_menu.py:193
 msgid "Save page as image"
 msgstr "Zapisz stronę jako obraz"
 
-#: ../eolie/webview_signals.py:123
+#: ../eolie/webview_signals.py:125
 msgid "Select files to upload"
 msgstr "Wybierz pliki do przesłania"
 
-#: ../eolie/webview_signals.py:126
+#: ../eolie/webview_signals.py:128
 msgid "Open"
 msgstr "Otwórz"
 
@@ -679,7 +698,7 @@ msgstr "Wyszukaj poprzedniego wystąpienia"
 msgid "Search next occurrence"
 msgstr "Wyszukaj następnego wystąpienia"
 
-#: ../eolie/widget_find.py:123
+#: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 na 1000 dopasowań"
 
@@ -747,10 +766,6 @@ msgstr "Wyświetla pobrane"
 #: ../data/ActionsMenu.ui.h:16
 msgid "Zoom out"
 msgstr "Oddal"
-
-#: ../data/ActionsMenu.ui.h:17 ../data/SettingsDialog.ui.h:29
-msgid "Default zoom level"
-msgstr "Domyślny rozmiar"
 
 #: ../data/ActionsMenu.ui.h:18
 msgid "Zoom in"
@@ -1337,6 +1352,9 @@ msgstr "Więcej działań"
 msgid "Startup page"
 msgstr "Strona startowa"
 
+#~ msgid "INTERNAL"
+#~ msgstr "WEWNETRZNY"
+
 #~ msgid "Window size"
 #~ msgstr "Rozmiar okna"
 
@@ -1357,9 +1375,6 @@ msgstr "Strona startowa"
 
 #~ msgid "Eolie is a new GNOME web browser."
 #~ msgstr "Eolie jest nową przeglądarka internetową GNOME."
-
-#~ msgid "Download this video:"
-#~ msgstr "Pobierz ten plik video:"
 
 #~ msgid "Vivaldi"
 #~ msgstr "Vivaldi"
