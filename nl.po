@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-15 12:25+0100\n"
-"PO-Revision-Date: 2017-11-01 13:16+0000\n"
+"PO-Revision-Date: 2017-11-16 07:31+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
@@ -171,7 +171,7 @@ msgstr "Weet u zeker dat u Eolie wilt afsluiten?"
 
 #: ../eolie/application.py:773
 msgid "Downloads running, are you sure you want quit?"
-msgstr ""
+msgstr "Er zijn nog downloads actief, weet u zeker dat u Eolie wilt afsluiten?"
 
 #: ../eolie/application.py:871
 msgid "Eolie: You need to install yelp."
