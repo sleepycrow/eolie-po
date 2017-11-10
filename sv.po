@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 00:31+0100\n"
-"PO-Revision-Date: 2017-11-02 22:11+0000\n"
+"PO-Revision-Date: 2017-11-10 10:20+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
-">\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/>"
+"\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -101,11 +101,11 @@ msgstr "Visade populära objekt"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21
 msgid "Webviews preloaded per window"
-msgstr ""
+msgstr "Webbvyer förinlästa per fönster"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Restart needed"
-msgstr ""
+msgstr "Omstart krävs"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/ActionsMenu.ui.h:17
 #: ../data/SettingsDialog.ui.h:29
@@ -445,9 +445,8 @@ msgid "Cancel synchronization"
 msgstr "Avbryt synkronisering"
 
 #: ../eolie/settings.py:503
-#, fuzzy
 msgid "Start synchronization"
-msgstr "Synkronisering"
+msgstr "Starta synkronisering"
 
 #: ../eolie/settings.py:508 ../data/SettingsDialog.ui.h:57
 msgid "Allow synchronization"
@@ -664,9 +663,8 @@ msgid "Search on the Web"
 msgstr "Sök på nätet"
 
 #: ../eolie/webview_signals_menu.py:160
-#, fuzzy
 msgid "Download this file"
-msgstr "Hämta denna video:"
+msgstr "Hämta denna fil"
 
 #: ../eolie/webview_signals_menu.py:173 ../data/PopoverImages.ui.h:1
 msgid "Save images"
