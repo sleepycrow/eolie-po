@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 00:31+0100\n"
-"PO-Revision-Date: 2017-11-01 13:16+0000\n"
+"PO-Revision-Date: 2017-11-10 17:37+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Show sidebar(sites manager)"
@@ -96,11 +96,11 @@ msgstr "Weergegeven populaire items"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21
 msgid "Webviews preloaded per window"
-msgstr ""
+msgstr "Webweergaven vooraf laden per venster"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Restart needed"
-msgstr ""
+msgstr "Herstart vereist"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/ActionsMenu.ui.h:17
 #: ../data/SettingsDialog.ui.h:29
@@ -440,9 +440,8 @@ msgid "Cancel synchronization"
 msgstr "Synchronisatie annuleren"
 
 #: ../eolie/settings.py:503
-#, fuzzy
 msgid "Start synchronization"
-msgstr "Synchronisatie"
+msgstr "Synchronisatie starten"
 
 #: ../eolie/settings.py:508 ../data/SettingsDialog.ui.h:57
 msgid "Allow synchronization"
@@ -657,9 +656,8 @@ msgid "Search on the Web"
 msgstr "Zoeken op het internet"
 
 #: ../eolie/webview_signals_menu.py:160
-#, fuzzy
 msgid "Download this file"
-msgstr "Deze video downloaden:"
+msgstr "Dit bestand downloaden"
 
 #: ../eolie/webview_signals_menu.py:173 ../data/PopoverImages.ui.h:1
 msgid "Save images"
