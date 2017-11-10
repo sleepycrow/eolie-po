@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 00:31+0100\n"
-"PO-Revision-Date: 2017-11-08 10:44+0000\n"
+"PO-Revision-Date: 2017-11-10 20:43+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -89,7 +89,7 @@ msgstr "افتح هذه الصفحة عند البدء"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:18
 msgid "Minimum sidebar position"
-msgstr ""
+msgstr "الموضع الأدنى للقائمة الجانبية"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:28
 msgid "Minimum font size"
@@ -101,11 +101,11 @@ msgstr "العناصر الشائعة الظاهرة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21
 msgid "Webviews preloaded per window"
-msgstr ""
+msgstr "المشاهد المحمّلة لكل نافذة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Restart needed"
-msgstr ""
+msgstr "إعادة التشغيل مطلوبة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/ActionsMenu.ui.h:17
 #: ../data/SettingsDialog.ui.h:29
@@ -445,9 +445,8 @@ msgid "Cancel synchronization"
 msgstr "ألغ المزامنة"
 
 #: ../eolie/settings.py:503
-#, fuzzy
 msgid "Start synchronization"
-msgstr "ألغ المزامنة"
+msgstr "ابدأ المزامنة"
 
 #: ../eolie/settings.py:508 ../data/SettingsDialog.ui.h:57
 msgid "Allow synchronization"
@@ -483,9 +482,8 @@ msgid "Save"
 msgstr "احفظ"
 
 #: ../eolie/toolbar_end.py:333 ../data/ToolbarEnd.ui.h:1
-#, fuzzy
 msgid "Leave fullscreen"
-msgstr "دع وضع ملء الشاشة"
+msgstr "اترك وضع ملء الشاشة"
 
 #: ../eolie/toolbar_end.py:335
 msgid "Enter fullscreen"
@@ -519,7 +517,7 @@ msgstr "انسخ العنوان"
 
 #: ../eolie/toolbar_title.py:516
 msgid "Paste and load"
-msgstr "انسخ واذهب"
+msgstr "ألصق واذهب"
 
 #: ../eolie/toolbar_title.py:750 ../eolie/toolbar_title.py:753
 msgid "Search or enter address"
@@ -618,14 +616,14 @@ msgid "WebKit web engine crashed"
 msgstr "إنهار محرك وب‌كت"
 
 #: ../eolie/webview_errors.py:216
-#, fuzzy
 msgid ""
 "The webpage was terminated unexpectedly.To continue, reload or go to another "
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
 "<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
-"إنهارت الصفحة فجأة. إن أردت الاستمرار، فحدّث الصفحة أو اذهب إلى صفحة أخرى.<br/"
-"><br/>إن بقيت المشكلة، فيمكنك التبليغ عن علة :)<br/>استخدم <b>"
+"إنهارت الصفحة فجأة. إن أردت الاستمرار، فحدّث الصفحة أو اذهب إلى صفحة "
+"أخرى.<br/><br/>إن بقيت المشكلة، فيمكنك التبليغ عن علة :)<br/>اختر المكون <b>"
+"'Webkit Gtk'</b>.<br/>اجعل <b>[GTK]</b> في بداية موضوع الرسالة."
 
 #: ../eolie/webview_errors.py:222
 msgid "Report a bug now"
@@ -664,9 +662,8 @@ msgid "Search on the Web"
 msgstr "ابحث في الوب"
 
 #: ../eolie/webview_signals_menu.py:160
-#, fuzzy
 msgid "Download this file"
-msgstr "مجلد التنزيل:"
+msgstr "نزّل هذا الملف"
 
 #: ../eolie/webview_signals_menu.py:173 ../data/PopoverImages.ui.h:1
 msgid "Save images"
@@ -786,7 +783,6 @@ msgid "Block JavaScript"
 msgstr "امنع الجافاسكربت"
 
 #: ../data/ActionsMenu.ui.h:23
-#, fuzzy
 msgid "Filtering"
 msgstr "الترشيح"
 
@@ -852,7 +848,6 @@ msgid "Search"
 msgstr "ابحث"
 
 #: ../data/DialogClearData.ui.h:4
-#, fuzzy
 msgid "Filter domains"
 msgstr "رشّح النطاقات"
 
@@ -968,9 +963,8 @@ msgid "Clear finished downloads"
 msgstr "افتح التنزيلات التي تمت"
 
 #: ../data/PopoverDownloads.ui.h:3
-#, fuzzy
 msgid "No active download"
-msgstr "لا تنزيل نشط"
+msgstr "لا يوجد تنزيل نشط"
 
 #: ../data/PopoverGeolocation.ui.h:1 ../data/PopoverJavaScript.ui.h:1
 msgid "Ok"
@@ -1065,9 +1059,8 @@ msgid "Bookmarks shown"
 msgstr "العلامات الظاهرة"
 
 #: ../data/SettingsDialog.ui.h:21
-#, fuzzy
 msgid "Add suggestions"
-msgstr "فعّل اقتراحات البحث"
+msgstr "أضف الاقتراحات"
 
 #: ../data/SettingsDialog.ui.h:22
 msgid "General"
@@ -1170,9 +1163,8 @@ msgid "Create or manage account"
 msgstr "أنشئ حسابًا أو أدره"
 
 #: ../data/SettingsDialog.ui.h:59 ../data/ToolbarEnd.ui.h:2
-#, fuzzy
 msgid "Synchronization"
-msgstr "ألغ المزامنة"
+msgstr "زامن"
 
 #: ../data/Shortcuts.ui.h:1
 msgctxt "shortcut window"
