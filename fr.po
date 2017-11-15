@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 00:31+0100\n"
+"POT-Creation-Date: 2017-11-15 12:13+0100\n"
 "PO-Revision-Date: 2017-11-09 23:37+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
@@ -173,11 +173,15 @@ msgstr "Navigateur web"
 msgid "Do you really want to quit Eolie?"
 msgstr "Voulez vous vraiment quitter Eolie?"
 
-#: ../eolie/application.py:847
+#: ../eolie/application.py:773
+msgid "You are downloading a file, are you sure you want quit?"
+msgstr ""
+
+#: ../eolie/application.py:872
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vous devez installer yelp."
 
-#: ../eolie/container.py:487
+#: ../eolie/container.py:550
 msgid "Do you really want to close this page?"
 msgstr "Voulez vous vraiment fermer cette page?"
 
@@ -270,7 +274,7 @@ msgstr "Ouvrir toutes les pages"
 msgid "Modify user agent"
 msgstr "Modifier le \"user agent\""
 
-#: ../eolie/menu_sites.py:64 ../data/SitesManagerChild.ui.h:1
+#: ../eolie/menu_sites.py:64
 msgid "Close site"
 msgstr "Fermer le site"
 
@@ -344,69 +348,69 @@ msgstr "Autoriser cette page à obtenir votre localisation?"
 msgid "Continue"
 msgstr "Continuer"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:421
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:433
 #: ../eolie/toolbar_end.py:183 ../eolie/webview_signals.py:129
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../eolie/popover_uri.py:119
+#: ../eolie/popover_uri.py:124
 msgid "Delete page from history"
 msgstr "Supprimer la page de l'historique"
 
-#: ../eolie/popover_uri.py:134
+#: ../eolie/popover_uri.py:139
 msgid "Edit bookmark"
 msgstr "Éditer le marque page"
 
-#: ../eolie/popover_uri.py:154
+#: ../eolie/popover_uri.py:159
 msgid "Open all pages for this tag"
 msgstr "Ouvrir toutes les pages pour cette étiquette"
 
-#: ../eolie/popover_uri.py:457 ../data/DialogImportBookmarks.ui.h:2
+#: ../eolie/popover_uri.py:468 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Importer des marques pages"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:746
+#: ../eolie/popover_uri.py:794
 msgid "Popular"
 msgstr "Populaires"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:749
+#: ../eolie/popover_uri.py:797
 msgid "Recent"
 msgstr "Récents"
 
-#: ../eolie/popover_uri.py:751
+#: ../eolie/popover_uri.py:799
 msgid "Unclassified"
 msgstr "Non classés"
 
-#: ../eolie/popover_uri.py:774
+#: ../eolie/popover_uri.py:822
 msgid "From the past hour"
 msgstr "Depuis la dernière heure"
 
-#: ../eolie/popover_uri.py:775
+#: ../eolie/popover_uri.py:823
 msgid "From the past day"
 msgstr "Depuis le dernier jour"
 
-#: ../eolie/popover_uri.py:776
+#: ../eolie/popover_uri.py:824
 msgid "From the past week"
 msgstr "Depuis la dernière semaine"
 
-#: ../eolie/popover_uri.py:778
+#: ../eolie/popover_uri.py:826
 msgid "From the past four weeks"
 msgstr "Depuis les quatre dernières semaines"
 
-#: ../eolie/popover_uri.py:779
+#: ../eolie/popover_uri.py:827
 msgid "From selected day"
 msgstr "Depuis le jour sélectionné"
 
-#: ../eolie/popover_uri.py:780
+#: ../eolie/popover_uri.py:828
 msgid "From the beginning"
 msgstr "Depuis le début"
 
-#: ../eolie/popover_uri.py:1038
+#: ../eolie/popover_uri.py:1105
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s marques pages"
@@ -417,12 +421,12 @@ msgid "https://www.google.com"
 msgstr "https://www.google.fr"
 
 #. Translators: Yahoo url for your country
-#: ../eolie/search.py:50
+#: ../eolie/search.py:57
 msgid "https://www.yahoo.com"
 msgstr "https://www.yahoo.fr"
 
 #. Translators: Yahoo url for your country
-#: ../eolie/search.py:52
+#: ../eolie/search.py:59
 msgid "https://us.search.yahoo.com"
 msgstr "https://fr.search.yahoo.com"
 
@@ -443,7 +447,7 @@ msgstr "La synchronisation fonctionne"
 msgid "Cancel synchronization"
 msgstr "Annuler la synchronisation"
 
-#: ../eolie/settings.py:503
+#: ../eolie/settings.py:503 ../data/ToolbarEnd.ui.h:2
 msgid "Start synchronization"
 msgstr "Démarrer la synchronisation"
 
@@ -489,11 +493,11 @@ msgstr "Quitter le plein écran"
 msgid "Enter fullscreen"
 msgstr "Entrer en plein écran"
 
-#: ../eolie/toolbar_title.py:265
+#: ../eolie/toolbar_title.py:264
 msgid "This page contains insecure content"
 msgstr "Cette page contient du contenu non sécurisé"
 
-#: ../eolie/toolbar_title.py:319
+#: ../eolie/toolbar_title.py:318
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
@@ -503,23 +507,23 @@ msgstr ""
 "Si vous entrez votre mot de passe,\n"
 " il sera visible aux cybercriminels !"
 
-#: ../eolie/toolbar_title.py:368
+#: ../eolie/toolbar_title.py:367
 msgid "Disallow geolocation"
 msgstr "Refuser la localisation"
 
-#: ../eolie/toolbar_title.py:374
+#: ../eolie/toolbar_title.py:373
 msgid "Blocked popups"
 msgstr "Popups bloqués"
 
-#: ../eolie/toolbar_title.py:455
+#: ../eolie/toolbar_title.py:454
 msgid "Copy address"
 msgstr "Copier l'adresse"
 
-#: ../eolie/toolbar_title.py:516
+#: ../eolie/toolbar_title.py:514
 msgid "Paste and load"
 msgstr "Coller et charger"
 
-#: ../eolie/toolbar_title.py:750 ../eolie/toolbar_title.py:753
+#: ../eolie/toolbar_title.py:745 ../eolie/toolbar_title.py:748
 msgid "Search or enter address"
 msgstr "Rechercher ou entrer une adresse"
 
@@ -1168,7 +1172,7 @@ msgstr "Mot de passe:"
 msgid "Create or manage account"
 msgstr "Créer ou gérer votre compte"
 
-#: ../data/SettingsDialog.ui.h:59 ../data/ToolbarEnd.ui.h:2
+#: ../data/SettingsDialog.ui.h:59
 msgid "Synchronization"
 msgstr "Synchronisation"
 

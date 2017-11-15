@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 00:31+0100\n"
+"POT-Creation-Date: 2017-11-15 12:13+0100\n"
 "PO-Revision-Date: 2017-10-31 09:00+0000\n"
 "Last-Translator: Tirifto <tirifto@posteo.cz>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/eolie/eolie/eo/"
@@ -175,11 +175,15 @@ msgstr "Retfoliumilo"
 msgid "Do you really want to quit Eolie?"
 msgstr ""
 
-#: ../eolie/application.py:847
+#: ../eolie/application.py:773
+msgid "You are downloading a file, are you sure you want quit?"
+msgstr ""
+
+#: ../eolie/application.py:872
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vi devas instali yelp."
 
-#: ../eolie/container.py:487
+#: ../eolie/container.py:550
 msgid "Do you really want to close this page?"
 msgstr "Ĉu vi certe volas fermi ĉi tiun paĝon?"
 
@@ -273,7 +277,7 @@ msgstr ""
 msgid "Modify user agent"
 msgstr ""
 
-#: ../eolie/menu_sites.py:64 ../data/SitesManagerChild.ui.h:1
+#: ../eolie/menu_sites.py:64
 msgid "Close site"
 msgstr ""
 
@@ -347,69 +351,69 @@ msgstr "Ĉu tiu ĉi retpaĝo sciu vian lokon?"
 msgid "Continue"
 msgstr "Pluigi"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:421
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:433
 #: ../eolie/toolbar_end.py:183 ../eolie/webview_signals.py:129
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
 msgstr "Nuligi"
 
-#: ../eolie/popover_uri.py:119
+#: ../eolie/popover_uri.py:124
 msgid "Delete page from history"
 msgstr "Forigi paĝon de historio"
 
-#: ../eolie/popover_uri.py:134
+#: ../eolie/popover_uri.py:139
 msgid "Edit bookmark"
 msgstr "Redakti paĝosignon"
 
-#: ../eolie/popover_uri.py:154
+#: ../eolie/popover_uri.py:159
 msgid "Open all pages for this tag"
 msgstr "Malfermi ĉiujn paĝojn por tiu ĉi etikedo"
 
-#: ../eolie/popover_uri.py:457 ../data/DialogImportBookmarks.ui.h:2
+#: ../eolie/popover_uri.py:468 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Enporti paĝosignojn"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:746
+#: ../eolie/popover_uri.py:794
 msgid "Popular"
 msgstr "Plej ofte vizitataj"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:749
+#: ../eolie/popover_uri.py:797
 msgid "Recent"
 msgstr "Plej freŝe vizititaj"
 
-#: ../eolie/popover_uri.py:751
+#: ../eolie/popover_uri.py:799
 msgid "Unclassified"
 msgstr "Senkategoriaj"
 
-#: ../eolie/popover_uri.py:774
+#: ../eolie/popover_uri.py:822
 msgid "From the past hour"
 msgstr "De la lasta horo"
 
-#: ../eolie/popover_uri.py:775
+#: ../eolie/popover_uri.py:823
 msgid "From the past day"
 msgstr "De la lasta tago"
 
-#: ../eolie/popover_uri.py:776
+#: ../eolie/popover_uri.py:824
 msgid "From the past week"
 msgstr "De la lasta semajno"
 
-#: ../eolie/popover_uri.py:778
+#: ../eolie/popover_uri.py:826
 msgid "From the past four weeks"
 msgstr "De la kvar lastaj semajnoj"
 
-#: ../eolie/popover_uri.py:779
+#: ../eolie/popover_uri.py:827
 msgid "From selected day"
 msgstr "De la elektita tago"
 
-#: ../eolie/popover_uri.py:780
+#: ../eolie/popover_uri.py:828
 msgid "From the beginning"
 msgstr "De la komenco"
 
-#: ../eolie/popover_uri.py:1038
+#: ../eolie/popover_uri.py:1105
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s paĝosignoj"
@@ -420,12 +424,12 @@ msgid "https://www.google.com"
 msgstr "https://www.google.pt/"
 
 #. Translators: Yahoo url for your country
-#: ../eolie/search.py:50
+#: ../eolie/search.py:57
 msgid "https://www.yahoo.com"
 msgstr "https://br.yahoo.com/"
 
 #. Translators: Yahoo url for your country
-#: ../eolie/search.py:52
+#: ../eolie/search.py:59
 msgid "https://us.search.yahoo.com"
 msgstr "https://br.yahoo.com/"
 
@@ -446,7 +450,7 @@ msgstr "Sinĥronigo funkcias"
 msgid "Cancel synchronization"
 msgstr "Nuligi sinĥronigon"
 
-#: ../eolie/settings.py:503
+#: ../eolie/settings.py:503 ../data/ToolbarEnd.ui.h:2
 #, fuzzy
 msgid "Start synchronization"
 msgstr "Nuligi sinĥronigon"
@@ -492,11 +496,11 @@ msgstr "Refenestrigi"
 msgid "Enter fullscreen"
 msgstr "Tutekranigi"
 
-#: ../eolie/toolbar_title.py:265
+#: ../eolie/toolbar_title.py:264
 msgid "This page contains insecure content"
 msgstr "Ĉi tiu paĝo enhavas malsekuraĵojn"
 
-#: ../eolie/toolbar_title.py:319
+#: ../eolie/toolbar_title.py:318
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
@@ -506,23 +510,23 @@ msgstr ""
 "Se vi entajpos vian pasvorton,\n"
 " ĝi videblos por retkrimuloj!"
 
-#: ../eolie/toolbar_title.py:368
+#: ../eolie/toolbar_title.py:367
 msgid "Disallow geolocation"
 msgstr "Malpermesi geolokigon"
 
-#: ../eolie/toolbar_title.py:374
+#: ../eolie/toolbar_title.py:373
 msgid "Blocked popups"
 msgstr ""
 
-#: ../eolie/toolbar_title.py:455
+#: ../eolie/toolbar_title.py:454
 msgid "Copy address"
 msgstr "Kopii adreson"
 
-#: ../eolie/toolbar_title.py:516
+#: ../eolie/toolbar_title.py:514
 msgid "Paste and load"
 msgstr "Alglui kaj viziti"
 
-#: ../eolie/toolbar_title.py:750 ../eolie/toolbar_title.py:753
+#: ../eolie/toolbar_title.py:745 ../eolie/toolbar_title.py:748
 msgid "Search or enter address"
 msgstr "Serĉu aŭ enigu adreson"
 
@@ -1151,7 +1155,7 @@ msgstr ""
 msgid "Create or manage account"
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:59 ../data/ToolbarEnd.ui.h:2
+#: ../data/SettingsDialog.ui.h:59
 msgid "Synchronization"
 msgstr ""
 
