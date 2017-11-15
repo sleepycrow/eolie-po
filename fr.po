@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-15 12:13+0100\n"
+"POT-Creation-Date: 2017-11-15 12:20+0100\n"
 "PO-Revision-Date: 2017-11-09 23:37+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
@@ -174,10 +174,10 @@ msgid "Do you really want to quit Eolie?"
 msgstr "Voulez vous vraiment quitter Eolie?"
 
 #: ../eolie/application.py:773
-msgid "You are downloading a file, are you sure you want quit?"
+msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 
-#: ../eolie/application.py:872
+#: ../eolie/application.py:871
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vous devez installer yelp."
 

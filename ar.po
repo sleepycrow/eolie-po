@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-15 12:13+0100\n"
+"POT-Creation-Date: 2017-11-15 12:20+0100\n"
 "PO-Revision-Date: 2017-11-08 10:44+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
@@ -176,10 +176,10 @@ msgid "Do you really want to quit Eolie?"
 msgstr "هل أنت واثق أنك تريد الخروج من أيولي؟"
 
 #: ../eolie/application.py:773
-msgid "You are downloading a file, are you sure you want quit?"
+msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 
-#: ../eolie/application.py:872
+#: ../eolie/application.py:871
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: تحتاج إلى تثبيت yelp."
 
@@ -626,9 +626,9 @@ msgid ""
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
 "<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
-"إنهارت الصفحة فجأة. إن أردت الاستمرار، فحدّث الصفحة أو اذهب إلى صفحة "
-"أخرى.<br/><br/>إن بقيت المشكلة، فيمكنك التبليغ عن علة :)<br/>اختر المكون <b>"
-"'Webkit Gtk'</b>.<br/>اجعل <b>[GTK]</b> في بداية موضوع الرسالة."
+"إنهارت الصفحة فجأة. إن أردت الاستمرار، فحدّث الصفحة أو اذهب إلى صفحة أخرى.<br/"
+"><br/>إن بقيت المشكلة، فيمكنك التبليغ عن علة :)<br/>اختر المكون <b>'Webkit "
+"Gtk'</b>.<br/>اجعل <b>[GTK]</b> في بداية موضوع الرسالة."
 
 #: ../eolie/webview_errors.py:222
 msgid "Report a bug now"
