@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Show sidebar(sites manager)"
@@ -96,11 +96,11 @@ msgstr "Weergegeven populaire items"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21
 msgid "Webviews preloaded per window"
-msgstr ""
+msgstr "Webweergaven vooraf laden per venster"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Restart needed"
-msgstr ""
+msgstr "Herstart vereist"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/ActionsMenu.ui.h:17
 #: ../data/SettingsDialog.ui.h:29
@@ -444,9 +444,8 @@ msgid "Cancel synchronization"
 msgstr "Synchronisatie annuleren"
 
 #: ../eolie/settings.py:503 ../data/ToolbarEnd.ui.h:2
-#, fuzzy
 msgid "Start synchronization"
-msgstr "Synchronisatie"
+msgstr "Synchronisatie starten"
 
 #: ../eolie/settings.py:508 ../data/SettingsDialog.ui.h:57
 msgid "Allow synchronization"
@@ -661,9 +660,8 @@ msgid "Search on the Web"
 msgstr "Zoeken op het internet"
 
 #: ../eolie/webview_signals_menu.py:160
-#, fuzzy
 msgid "Download this file"
-msgstr "Deze video downloaden:"
+msgstr "Dit bestand downloaden"
 
 #: ../eolie/webview_signals_menu.py:173 ../data/PopoverImages.ui.h:1
 msgid "Save images"
