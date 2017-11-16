@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-16 23:13+0100\n"
+"POT-Creation-Date: 2017-11-16 23:18+0100\n"
 "PO-Revision-Date: 2017-11-16 22:13+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
@@ -176,10 +176,11 @@ msgid "Do you really want to quit Eolie?"
 msgstr "هل أنت واثق أنك تريد الخروج من أيولي؟"
 
 #: ../eolie/application.py:782
-msgid "Downloads running, are you sure you want quit?"
+#, fuzzy
+msgid "Downloads running, are you sure you want quit ?"
 msgstr "ما تزال بعض التنزيلات تعمل، هل أنت واثق أنك تريد الخروج؟"
 
-#: ../eolie/application.py:880
+#: ../eolie/application.py:881
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: تحتاج إلى تثبيت yelp."
 
