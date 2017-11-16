@@ -476,9 +476,8 @@ msgstr ""
 "moteur de recherche %s?"
 
 #: ../eolie/search.py:247
-#, fuzzy
 msgid "Unsupported search engine"
-msgstr "Moteur de recherche"
+msgstr "Moteur de recherche non supporté"
 
 #: ../eolie/settings.py:66 ../eolie/settings.py:69
 #: ../data/SettingsDialog.ui.h:1
