@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-15 12:25+0100\n"
+"POT-Creation-Date: 2017-11-16 23:13+0100\n"
 "PO-Revision-Date: 2017-11-04 15:48+0000\n"
 "Last-Translator: Daria Szatan <bla_ke@tuta.io>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/eolie/eolie/pl/>\n"
@@ -169,15 +169,15 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Przeglądarka internetowa"
 
-#: ../eolie/application.py:721
+#: ../eolie/application.py:730
 msgid "Do you really want to quit Eolie?"
 msgstr "Zakończyć działanie programu?"
 
-#: ../eolie/application.py:773
+#: ../eolie/application.py:782
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 
-#: ../eolie/application.py:871
+#: ../eolie/application.py:880
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie:  należy zainstalować program yelp."
 
@@ -185,25 +185,56 @@ msgstr "Eolie:  należy zainstalować program yelp."
 msgid "Do you really want to close this page?"
 msgstr "Zamknąć tę stronę?"
 
-#: ../eolie/context.py:92 ../data/SettingsDialog.ui.h:13
+#: ../eolie/context.py:89 ../data/SettingsDialog.ui.h:13
 msgid "Popular pages"
 msgstr "Popularne strony"
 
-#: ../eolie/context.py:154
+#: ../eolie/context.py:151
 msgid "Name"
 msgstr "Nazwa"
 
-#: ../eolie/context.py:155
+#: ../eolie/context.py:152
 msgid "Size"
 msgstr "Wielkość"
 
-#: ../eolie/context.py:157
+#: ../eolie/context.py:154
 msgid "Last modification"
 msgstr "Ostatnia modyfikacja"
 
 #: ../eolie/database_adblock.py:121
 msgid "For stronger ad blocking, install git command"
 msgstr "Dla lepszego blokowania reklam zainstaluj komendę git"
+
+#: ../eolie/define.py:27
+#, fuzzy
+msgid "Default"
+msgstr "Domyślna:"
+
+#: ../eolie/define.py:28
+msgid "Social networks"
+msgstr ""
+
+#: ../eolie/define.py:29
+msgid "Work"
+msgstr ""
+
+#: ../eolie/define.py:30
+msgid "Shopping"
+msgstr ""
+
+#: ../eolie/define.py:31
+msgid "Personal"
+msgstr ""
+
+#: ../eolie/define.py:32
+#, fuzzy
+msgid "Finance"
+msgstr "Anuluj"
+
+#: ../eolie/define.py:33
+#, fuzzy
+msgid "Sport"
+msgstr "Importuj"
 
 #: ../eolie/dialog_clear_data.py:179
 msgid "Memory cache"
@@ -249,7 +280,7 @@ msgstr "Inne"
 msgid "Import HTML bookmarks"
 msgstr "Importuj zakładki HTML"
 
-#: ../eolie/dialog_search_engine.py:170 ../eolie/dialog_search_engine.py:174
+#: ../eolie/dialog_search_engine.py:173 ../eolie/dialog_search_engine.py:177
 msgid "New engine"
 msgstr "Nowy silnik"
 
@@ -270,13 +301,21 @@ msgstr "Zamknięte karty"
 msgid "Open all pages"
 msgstr "Otwórz wszystkie karty"
 
-#: ../eolie/menu_sites.py:57
+#: ../eolie/menu_sites.py:60
+msgid "Profiles"
+msgstr ""
+
+#: ../eolie/menu_sites.py:65
 msgid "Modify user agent"
 msgstr "Modyfikuj user agent"
 
-#: ../eolie/menu_sites.py:64
+#: ../eolie/menu_sites.py:72
 msgid "Close site"
 msgstr "Zamknij stronę"
+
+#: ../eolie/menu_sites.py:114
+msgid "Edit profiles"
+msgstr ""
 
 #: ../eolie/menu_videos.py:69
 msgid "No videos"
@@ -435,32 +474,32 @@ msgstr "https://pl.search.yahoo.com"
 msgid "Preferences"
 msgstr "Preferencje"
 
-#: ../eolie/settings.py:458
+#: ../eolie/settings.py:456
 msgid "Connecting…"
 msgstr "Łączenie…"
 
-#: ../eolie/settings.py:492
+#: ../eolie/settings.py:490
 msgid "Synchronization is working"
 msgstr "Synchronizacja działa"
 
-#: ../eolie/settings.py:498
+#: ../eolie/settings.py:496
 msgid "Cancel synchronization"
 msgstr "Anuluj synchronizację"
 
-#: ../eolie/settings.py:503 ../data/ToolbarEnd.ui.h:2
+#: ../eolie/settings.py:501 ../data/ToolbarEnd.ui.h:2
 #, fuzzy
 msgid "Start synchronization"
 msgstr "Synchronizacja"
 
-#: ../eolie/settings.py:508 ../data/SettingsDialog.ui.h:57
+#: ../eolie/settings.py:506 ../data/SettingsDialog.ui.h:57
 msgid "Allow synchronization"
 msgstr "Pozwól na synchronizację"
 
-#: ../eolie/settings.py:513
+#: ../eolie/settings.py:511
 msgid "Synchronization is not working"
 msgstr "Synchronizacja nie działa"
 
-#: ../eolie/settings.py:524
+#: ../eolie/settings.py:522
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -469,7 +508,7 @@ msgstr ""
 "Synchronizacja nie jest dostępna na Twój komputer: \n"
 "%s"
 
-#: ../eolie/settings.py:547
+#: ../eolie/settings.py:545
 msgid "You've received an email to validate synchronization"
 msgstr "Otrzymałeś e-mail służący do aktywowania synchronizacji"
 
@@ -907,6 +946,16 @@ msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr "Nie można cofnąć tej czynności. Wybrane dane zostaną trwale usunięte."
+
+#: ../data/DialogCookies.ui.h:1
+#, fuzzy
+msgid "New profile"
+msgstr "Nowa karta"
+
+#: ../data/DialogCookies.ui.h:2
+#, fuzzy
+msgid "Delete cookies"
+msgstr "Zarządzaj plikami cookies"
 
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"

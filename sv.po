@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-15 12:25+0100\n"
+"POT-Creation-Date: 2017-11-16 23:13+0100\n"
 "PO-Revision-Date: 2017-11-02 22:11+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
@@ -170,15 +170,15 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Webbläsare"
 
-#: ../eolie/application.py:721
+#: ../eolie/application.py:730
 msgid "Do you really want to quit Eolie?"
 msgstr "Vill du verkligen avsluta Eolie?"
 
-#: ../eolie/application.py:773
+#: ../eolie/application.py:782
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 
-#: ../eolie/application.py:871
+#: ../eolie/application.py:880
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Du behöver installera yelp."
 
@@ -186,25 +186,56 @@ msgstr "Eolie: Du behöver installera yelp."
 msgid "Do you really want to close this page?"
 msgstr "Vill du verkligen stänga denna sida?"
 
-#: ../eolie/context.py:92 ../data/SettingsDialog.ui.h:13
+#: ../eolie/context.py:89 ../data/SettingsDialog.ui.h:13
 msgid "Popular pages"
 msgstr "Populära sidor"
 
-#: ../eolie/context.py:154
+#: ../eolie/context.py:151
 msgid "Name"
 msgstr "Namn"
 
-#: ../eolie/context.py:155
+#: ../eolie/context.py:152
 msgid "Size"
 msgstr "Storlek"
 
-#: ../eolie/context.py:157
+#: ../eolie/context.py:154
 msgid "Last modification"
 msgstr "Senaste ändring"
 
 #: ../eolie/database_adblock.py:121
 msgid "For stronger ad blocking, install git command"
 msgstr "För starkare annonsblockering, installera kommandot git"
+
+#: ../eolie/define.py:27
+#, fuzzy
+msgid "Default"
+msgstr "Standard:"
+
+#: ../eolie/define.py:28
+msgid "Social networks"
+msgstr ""
+
+#: ../eolie/define.py:29
+msgid "Work"
+msgstr ""
+
+#: ../eolie/define.py:30
+msgid "Shopping"
+msgstr ""
+
+#: ../eolie/define.py:31
+msgid "Personal"
+msgstr ""
+
+#: ../eolie/define.py:32
+#, fuzzy
+msgid "Finance"
+msgstr "Avbryt"
+
+#: ../eolie/define.py:33
+#, fuzzy
+msgid "Sport"
+msgstr "Importera"
 
 #: ../eolie/dialog_clear_data.py:179
 msgid "Memory cache"
@@ -250,7 +281,7 @@ msgstr "Andra"
 msgid "Import HTML bookmarks"
 msgstr "Importera HTML-bokmärken"
 
-#: ../eolie/dialog_search_engine.py:170 ../eolie/dialog_search_engine.py:174
+#: ../eolie/dialog_search_engine.py:173 ../eolie/dialog_search_engine.py:177
 msgid "New engine"
 msgstr "Ny motor"
 
@@ -271,13 +302,21 @@ msgstr "Stängda sidor"
 msgid "Open all pages"
 msgstr "Öppna alla sidor"
 
-#: ../eolie/menu_sites.py:57
+#: ../eolie/menu_sites.py:60
+msgid "Profiles"
+msgstr ""
+
+#: ../eolie/menu_sites.py:65
 msgid "Modify user agent"
 msgstr "Ändra användaragent"
 
-#: ../eolie/menu_sites.py:64
+#: ../eolie/menu_sites.py:72
 msgid "Close site"
 msgstr "Stäng webbplats"
+
+#: ../eolie/menu_sites.py:114
+msgid "Edit profiles"
+msgstr ""
 
 #: ../eolie/menu_videos.py:69
 msgid "No videos"
@@ -436,31 +475,31 @@ msgstr "https://se.search.yahoo.com"
 msgid "Preferences"
 msgstr "Inställningar"
 
-#: ../eolie/settings.py:458
+#: ../eolie/settings.py:456
 msgid "Connecting…"
 msgstr "Ansluter…"
 
-#: ../eolie/settings.py:492
+#: ../eolie/settings.py:490
 msgid "Synchronization is working"
 msgstr "Synkronisering pågår"
 
-#: ../eolie/settings.py:498
+#: ../eolie/settings.py:496
 msgid "Cancel synchronization"
 msgstr "Avbryt synkronisering"
 
-#: ../eolie/settings.py:503 ../data/ToolbarEnd.ui.h:2
+#: ../eolie/settings.py:501 ../data/ToolbarEnd.ui.h:2
 msgid "Start synchronization"
 msgstr "Starta synkronisering"
 
-#: ../eolie/settings.py:508 ../data/SettingsDialog.ui.h:57
+#: ../eolie/settings.py:506 ../data/SettingsDialog.ui.h:57
 msgid "Allow synchronization"
 msgstr "Tillåt synkronisering"
 
-#: ../eolie/settings.py:513
+#: ../eolie/settings.py:511
 msgid "Synchronization is not working"
 msgstr "Synkronisering pågår inte"
 
-#: ../eolie/settings.py:524
+#: ../eolie/settings.py:522
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -469,7 +508,7 @@ msgstr ""
 "Synkronisering finns inte tillgänglig på din dator:\n"
 " %s"
 
-#: ../eolie/settings.py:547
+#: ../eolie/settings.py:545
 msgid "You've received an email to validate synchronization"
 msgstr "Du har fått ett e-postmeddelande för att validera synkronisering"
 
@@ -905,6 +944,16 @@ msgid ""
 msgstr ""
 "Du kan inte ångra denna åtgärd. De data du väljer att rensa kommer att tas "
 "bort för alltid."
+
+#: ../data/DialogCookies.ui.h:1
+#, fuzzy
+msgid "New profile"
+msgstr "Ny sida"
+
+#: ../data/DialogCookies.ui.h:2
+#, fuzzy
+msgid "Delete cookies"
+msgstr "Hantera kakor"
 
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"

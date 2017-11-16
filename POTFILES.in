@@ -16,6 +16,7 @@ eolie/database_phishing.py
 eolie/database_settings.py
 eolie/define.py
 eolie/dialog_clear_data.py
+eolie/dialog_cookies.py
 eolie/dialog_import_bookmarks.py
 eolie/dialog_modify_ua.py
 eolie/dialog_search_engine.py
@@ -38,7 +39,6 @@ eolie/menu_videos.py
 eolie/mozilla_sync.py
 eolie/pages_manager_child.py
 eolie/pages_manager.py
-eolie/popover_cookies.py
 eolie/popover_credentials.py
 eolie/popover_downloads.py
 eolie/popover_geolocation.py
@@ -78,6 +78,7 @@ eolie/window.py
 [type: gettext/glade]data/BookmarkEdit.ui
 [type: gettext/glade]data/BookmarkRatingWidget.ui
 [type: gettext/glade]data/DialogClearData.ui
+[type: gettext/glade]data/DialogCookies.ui
 [type: gettext/glade]data/DialogImportBookmarks.ui
 [type: gettext/glade]data/DialogModifyUA.ui
 [type: gettext/glade]data/DialogSearchEngine.ui
