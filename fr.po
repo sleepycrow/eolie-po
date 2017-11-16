@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 23:13+0100\n"
-"PO-Revision-Date: 2017-11-15 11:27+0000\n"
+"PO-Revision-Date: 2017-11-16 22:16+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
 "Language: fr\n"
@@ -206,35 +206,32 @@ msgid "For stronger ad blocking, install git command"
 msgstr "Pour un blocage plus fort des publicités, installer la commande git"
 
 #: ../eolie/define.py:27
-#, fuzzy
 msgid "Default"
-msgstr "Par défaut:"
+msgstr "Défaut"
 
 #: ../eolie/define.py:28
 msgid "Social networks"
-msgstr ""
+msgstr "Réseaux sociaux"
 
 #: ../eolie/define.py:29
 msgid "Work"
-msgstr ""
+msgstr "Travail"
 
 #: ../eolie/define.py:30
 msgid "Shopping"
-msgstr ""
+msgstr "Commerce"
 
 #: ../eolie/define.py:31
 msgid "Personal"
-msgstr ""
+msgstr "Personnel"
 
 #: ../eolie/define.py:32
-#, fuzzy
 msgid "Finance"
-msgstr "Annuler"
+msgstr "Finances"
 
 #: ../eolie/define.py:33
-#, fuzzy
 msgid "Sport"
-msgstr "Importer"
+msgstr "Sport"
 
 #: ../eolie/dialog_clear_data.py:179
 msgid "Memory cache"
@@ -303,7 +300,7 @@ msgstr "Ouvrir toutes les pages"
 
 #: ../eolie/menu_sites.py:60
 msgid "Profiles"
-msgstr ""
+msgstr "Profils"
 
 #: ../eolie/menu_sites.py:65
 msgid "Modify user agent"
@@ -315,7 +312,7 @@ msgstr "Fermer le site"
 
 #: ../eolie/menu_sites.py:114
 msgid "Edit profiles"
-msgstr ""
+msgstr "Modifier les profils"
 
 #: ../eolie/menu_videos.py:69
 msgid "No videos"
@@ -947,14 +944,12 @@ msgstr ""
 "d'effacer le seront définitivement."
 
 #: ../data/DialogCookies.ui.h:1
-#, fuzzy
 msgid "New profile"
-msgstr "Nouvelle page"
+msgstr "Nouveau profil"
 
 #: ../data/DialogCookies.ui.h:2
-#, fuzzy
 msgid "Delete cookies"
-msgstr "Gérer les cookies"
+msgstr "Supprimer les cookies"
 
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
