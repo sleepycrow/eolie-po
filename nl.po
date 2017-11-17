@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-17 08:04+0100\n"
-"PO-Revision-Date: 2017-11-16 07:31+0000\n"
+"PO-Revision-Date: 2017-11-17 21:01+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
@@ -166,42 +166,38 @@ msgid "Web browser"
 msgstr "Webbrowser"
 
 #: ../eolie/application.py:230
-#, fuzzy
 msgid "Default"
-msgstr "Standaard:"
+msgstr "Standaard"
 
 #: ../eolie/application.py:231
 msgid "Social networks"
-msgstr ""
+msgstr "Sociale netwerken"
 
 #: ../eolie/application.py:232
 msgid "Work"
-msgstr ""
+msgstr "Werk"
 
 #: ../eolie/application.py:233
 msgid "Shopping"
-msgstr ""
+msgstr "Winkelen"
 
 #: ../eolie/application.py:234
 msgid "Personal"
-msgstr ""
+msgstr "Persoonlijk"
 
 #: ../eolie/application.py:235
-#, fuzzy
 msgid "Finance"
-msgstr "Annuleren"
+msgstr "Financiën"
 
 #: ../eolie/application.py:236
-#, fuzzy
 msgid "Sport"
-msgstr "Importeren"
+msgstr "Sport"
 
 #: ../eolie/application.py:736
 msgid "Do you really want to quit Eolie?"
 msgstr "Weet u zeker dat u Eolie wilt afsluiten?"
 
 #: ../eolie/application.py:788
-#, fuzzy
 msgid "Downloads running, are you sure you want quit ?"
 msgstr "Er zijn nog downloads actief, weet u zeker dat u Eolie wilt afsluiten?"
 
@@ -300,7 +296,7 @@ msgstr "Alle pagina’s openen"
 
 #: ../eolie/menu_sites.py:60
 msgid "Profiles"
-msgstr ""
+msgstr "Profielen"
 
 #: ../eolie/menu_sites.py:65
 msgid "Modify user agent"
@@ -312,7 +308,7 @@ msgstr "Site sluiten"
 
 #: ../eolie/menu_sites.py:114
 msgid "Edit profiles"
-msgstr ""
+msgstr "Profielen bewerken"
 
 #: ../eolie/menu_videos.py:69
 msgid "No videos"
@@ -941,18 +937,16 @@ msgstr ""
 "voorgoed verwijderd worden."
 
 #: ../data/DialogCookies.ui.h:1
-#, fuzzy
 msgid "New profile"
-msgstr "Nieuw tabblad"
+msgstr "Nieuw profiel"
 
 #: ../data/DialogCookies.ui.h:2
 msgid "Profiles manager"
-msgstr ""
+msgstr "Profielbeheer"
 
 #: ../data/DialogCookies.ui.h:3
-#, fuzzy
 msgid "Delete cookies"
-msgstr "Cookies beheren"
+msgstr "Cookies verwijderen"
 
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
