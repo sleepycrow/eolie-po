@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-16 23:18+0100\n"
+"POT-Creation-Date: 2017-11-17 08:04+0100\n"
 "PO-Revision-Date: 2017-10-31 09:00+0000\n"
 "Last-Translator: Tirifto <tirifto@posteo.cz>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/eolie/eolie/eo/"
@@ -171,15 +171,44 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Retfoliumilo"
 
-#: ../eolie/application.py:730
+#: ../eolie/application.py:230
+msgid "Default"
+msgstr ""
+
+#: ../eolie/application.py:231
+msgid "Social networks"
+msgstr ""
+
+#: ../eolie/application.py:232
+msgid "Work"
+msgstr ""
+
+#: ../eolie/application.py:233
+msgid "Shopping"
+msgstr ""
+
+#: ../eolie/application.py:234
+msgid "Personal"
+msgstr ""
+
+#: ../eolie/application.py:235
+#, fuzzy
+msgid "Finance"
+msgstr "Nuligi"
+
+#: ../eolie/application.py:236
+msgid "Sport"
+msgstr ""
+
+#: ../eolie/application.py:736
 msgid "Do you really want to quit Eolie?"
 msgstr ""
 
-#: ../eolie/application.py:782
+#: ../eolie/application.py:788
 msgid "Downloads running, are you sure you want quit ?"
 msgstr ""
 
-#: ../eolie/application.py:881
+#: ../eolie/application.py:887
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vi devas instali yelp."
 
@@ -205,35 +234,6 @@ msgstr "Lasta modifo"
 
 #: ../eolie/database_adblock.py:121
 msgid "For stronger ad blocking, install git command"
-msgstr ""
-
-#: ../eolie/define.py:27
-msgid "Default"
-msgstr ""
-
-#: ../eolie/define.py:28
-msgid "Social networks"
-msgstr ""
-
-#: ../eolie/define.py:29
-msgid "Work"
-msgstr ""
-
-#: ../eolie/define.py:30
-msgid "Shopping"
-msgstr ""
-
-#: ../eolie/define.py:31
-msgid "Personal"
-msgstr ""
-
-#: ../eolie/define.py:32
-#, fuzzy
-msgid "Finance"
-msgstr "Nuligi"
-
-#: ../eolie/define.py:33
-msgid "Sport"
 msgstr ""
 
 #: ../eolie/dialog_clear_data.py:179
@@ -939,6 +939,10 @@ msgid "New profile"
 msgstr ""
 
 #: ../data/DialogCookies.ui.h:2
+msgid "Profiles manager"
+msgstr ""
+
+#: ../data/DialogCookies.ui.h:3
 msgid "Delete cookies"
 msgstr ""
 
