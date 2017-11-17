@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-17 08:04+0100\n"
-"PO-Revision-Date: 2017-11-16 22:13+0000\n"
+"PO-Revision-Date: 2017-11-18 16:44+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -102,7 +102,7 @@ msgstr "العناصر الشائعة الظاهرة"
 #: ../data/org.gnome.Eolie.gschema.xml.h:21
 #, fuzzy
 msgid "Webviews preloaded per window"
-msgstr "المشاهد المحمّلة لكل نافذة"
+msgstr "المنظورات المحمّلة لكل نافذة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Restart needed"
@@ -172,44 +172,40 @@ msgid "Web browser"
 msgstr "متصفح وب"
 
 #: ../eolie/application.py:230
-#, fuzzy
 msgid "Default"
-msgstr "المبدئي:"
+msgstr "المبدئي"
 
 #: ../eolie/application.py:231
 msgid "Social networks"
-msgstr ""
+msgstr "الشبكات الاجتماعية"
 
 #: ../eolie/application.py:232
 msgid "Work"
-msgstr ""
+msgstr "العمل"
 
 #: ../eolie/application.py:233
 msgid "Shopping"
-msgstr ""
+msgstr "التسوّق"
 
 #: ../eolie/application.py:234
 msgid "Personal"
-msgstr ""
+msgstr "شخصي"
 
 #: ../eolie/application.py:235
-#, fuzzy
 msgid "Finance"
-msgstr "ألغ"
+msgstr "الاقتصاد"
 
 #: ../eolie/application.py:236
-#, fuzzy
 msgid "Sport"
-msgstr "استورد"
+msgstr "الرياضة"
 
 #: ../eolie/application.py:736
 msgid "Do you really want to quit Eolie?"
-msgstr "هل أنت واثق أنك تريد الخروج من أيولي؟"
+msgstr "هل أنت واثق أنك تريد إغلاق أيولي؟"
 
 #: ../eolie/application.py:788
-#, fuzzy
 msgid "Downloads running, are you sure you want quit ?"
-msgstr "ما تزال بعض التنزيلات تعمل، هل أنت واثق أنك تريد الخروج؟"
+msgstr "ما تزال بعض التنزيلات تعمل، هل أنت واثق أنك تريد الإغلاق؟"
 
 #: ../eolie/application.py:887
 msgid "Eolie: You need to install yelp."
@@ -861,7 +857,7 @@ msgstr "_حول أيولي"
 
 #: ../data/Appmenu.ui.h:7
 msgid "_Quit"
-msgstr "ا_خرج"
+msgstr "أ_غلق"
 
 #: ../data/BookmarkEdit.ui.h:1 ../data/DialogSearchEngine.ui.h:3
 msgid "Address:"
@@ -954,9 +950,8 @@ msgid "Profiles manager"
 msgstr ""
 
 #: ../data/DialogCookies.ui.h:3
-#, fuzzy
 msgid "Delete cookies"
-msgstr "أدر الكعكات"
+msgstr "امسح الكعكات"
 
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
