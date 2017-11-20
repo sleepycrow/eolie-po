@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-17 08:05+0100\n"
-"PO-Revision-Date: 2017-11-02 22:11+0000\n"
+"PO-Revision-Date: 2017-11-22 00:50+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
-">\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/>"
+"\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,35 +171,32 @@ msgid "Web browser"
 msgstr "Webbläsare"
 
 #: ../eolie/application.py:230
-#, fuzzy
 msgid "Default"
-msgstr "Standard:"
+msgstr "Standard"
 
 #: ../eolie/application.py:231
 msgid "Social networks"
-msgstr ""
+msgstr "Sociala nätverk"
 
 #: ../eolie/application.py:232
 msgid "Work"
-msgstr ""
+msgstr "Arbete"
 
 #: ../eolie/application.py:233
 msgid "Shopping"
-msgstr ""
+msgstr "Shopping"
 
 #: ../eolie/application.py:234
 msgid "Personal"
-msgstr ""
+msgstr "Personligt"
 
 #: ../eolie/application.py:235
-#, fuzzy
 msgid "Finance"
-msgstr "Avbryt"
+msgstr "Finans"
 
 #: ../eolie/application.py:236
-#, fuzzy
 msgid "Sport"
-msgstr "Importera"
+msgstr "Sport"
 
 #: ../eolie/application.py:736
 msgid "Do you really want to quit Eolie?"
@@ -207,7 +204,7 @@ msgstr "Vill du verkligen avsluta Eolie?"
 
 #: ../eolie/application.py:788
 msgid "Downloads running, are you sure you want quit ?"
-msgstr ""
+msgstr "Hämtningar pågår, är du säker att du vill avsluta ?"
 
 #: ../eolie/application.py:887
 msgid "Eolie: You need to install yelp."
@@ -304,7 +301,7 @@ msgstr "Öppna alla sidor"
 
 #: ../eolie/menu_sites.py:60
 msgid "Profiles"
-msgstr ""
+msgstr "Profiler"
 
 #: ../eolie/menu_sites.py:65
 msgid "Modify user agent"
@@ -316,7 +313,7 @@ msgstr "Stäng webbplats"
 
 #: ../eolie/menu_sites.py:114
 msgid "Edit profiles"
-msgstr ""
+msgstr "Redigera profiler"
 
 #: ../eolie/menu_videos.py:69
 msgid "No videos"
@@ -946,18 +943,16 @@ msgstr ""
 "bort för alltid."
 
 #: ../data/DialogCookies.ui.h:1
-#, fuzzy
 msgid "New profile"
-msgstr "Ny sida"
+msgstr "Ny profil"
 
 #: ../data/DialogCookies.ui.h:2
 msgid "Profiles manager"
-msgstr ""
+msgstr "Profilhanterare"
 
 #: ../data/DialogCookies.ui.h:3
-#, fuzzy
 msgid "Delete cookies"
-msgstr "Hantera kakor"
+msgstr "Ta bort kakor"
 
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
