@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-17 08:04+0100\n"
-"PO-Revision-Date: 2017-11-18 16:44+0000\n"
+"PO-Revision-Date: 2017-11-22 11:17+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -100,9 +100,8 @@ msgid "Popular items shown"
 msgstr "العناصر الشائعة الظاهرة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:21
-#, fuzzy
 msgid "Webviews preloaded per window"
-msgstr "المنظورات المحمّلة لكل نافذة"
+msgstr "المنظورات المحمّلة مسبقًا لكل نافذة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Restart needed"
@@ -302,7 +301,7 @@ msgstr "افتح كل الصفحات"
 
 #: ../eolie/menu_sites.py:60
 msgid "Profiles"
-msgstr ""
+msgstr "الأطوار"
 
 #: ../eolie/menu_sites.py:65
 msgid "Modify user agent"
@@ -314,7 +313,7 @@ msgstr "أغلق الموقع"
 
 #: ../eolie/menu_sites.py:114
 msgid "Edit profiles"
-msgstr ""
+msgstr "عدّل الأطوار"
 
 #: ../eolie/menu_videos.py:69
 msgid "No videos"
@@ -941,13 +940,12 @@ msgid ""
 msgstr "لا يمكنك التراجع عن هذا المحو، والبيانات التي حددتها ستمحى إلى الأبد."
 
 #: ../data/DialogCookies.ui.h:1
-#, fuzzy
 msgid "New profile"
-msgstr "صفحة جديدة"
+msgstr "طور جديد"
 
 #: ../data/DialogCookies.ui.h:2
 msgid "Profiles manager"
-msgstr ""
+msgstr "مدير الأطوار"
 
 #: ../data/DialogCookies.ui.h:3
 msgid "Delete cookies"
