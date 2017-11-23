@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-23 14:56+0100\n"
-"PO-Revision-Date: 2017-11-17 07:06+0000\n"
+"PO-Revision-Date: 2017-11-23 14:01+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
 "Language: fr\n"
@@ -472,6 +472,8 @@ msgid ""
 "Do you want to install\n"
 "%s search engine?"
 msgstr ""
+"Voulez vous installer le\n"
+"moteur de recherche %s?"
 
 #: ../eolie/search.py:247
 #, fuzzy
