@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-23 14:56+0100\n"
+"POT-Creation-Date: 2017-11-23 15:00+0100\n"
 "PO-Revision-Date: 2017-11-22 00:50+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
@@ -471,7 +471,7 @@ msgstr "https://se.search.yahoo.com"
 #, python-format
 msgid ""
 "Do you want to install\n"
-"%s search engine?"
+"%s search engine ?"
 msgstr ""
 
 #: ../eolie/search.py:247
