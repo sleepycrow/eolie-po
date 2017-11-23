@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-23 15:00+0100\n"
-"PO-Revision-Date: 2017-11-17 21:01+0000\n"
+"PO-Revision-Date: 2017-11-23 17:11+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
@@ -468,11 +468,12 @@ msgid ""
 "Do you want to install\n"
 "%s search engine ?"
 msgstr ""
+"Wil u de\n"
+"%s-zoekmachine installeren?"
 
 #: ../eolie/search.py:247
-#, fuzzy
 msgid "Unsupported search engine"
-msgstr "Zoekmachine"
+msgstr "Niet-ondersteunde zoekmachine"
 
 #: ../eolie/settings.py:66 ../eolie/settings.py:69
 #: ../data/SettingsDialog.ui.h:1
