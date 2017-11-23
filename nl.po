@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-17 08:04+0100\n"
+"POT-Creation-Date: 2017-11-23 14:56+0100\n"
 "PO-Revision-Date: 2017-11-17 21:01+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
@@ -205,7 +205,7 @@ msgstr "Er zijn nog downloads actief, weet u zeker dat u Eolie wilt afsluiten?"
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: u moet yelp installeren."
 
-#: ../eolie/container.py:550
+#: ../eolie/container.py:549
 msgid "Do you really want to close this page?"
 msgstr "Weet u zeker dat u deze pagina wilt sluiten?"
 
@@ -273,7 +273,7 @@ msgstr "Andere"
 msgid "Import HTML bookmarks"
 msgstr "HTML-bladwijzers importeren"
 
-#: ../eolie/dialog_search_engine.py:173 ../eolie/dialog_search_engine.py:177
+#: ../eolie/dialog_search_engine.py:162 ../eolie/dialog_search_engine.py:166
 msgid "New engine"
 msgstr "Nieuwe zoekmachine"
 
@@ -448,19 +448,31 @@ msgid "%s bookmarks"
 msgstr "%s bladwijzers"
 
 #. Translators: Google url for your country
-#: ../eolie/search.py:35
+#: ../eolie/search.py:36
 msgid "https://www.google.com"
 msgstr "https://www.google.be"
 
 #. Translators: Yahoo url for your country
-#: ../eolie/search.py:57
+#: ../eolie/search.py:58
 msgid "https://www.yahoo.com"
 msgstr "https://be.yahoo.com"
 
 #. Translators: Yahoo url for your country
-#: ../eolie/search.py:59
+#: ../eolie/search.py:60
 msgid "https://us.search.yahoo.com"
 msgstr "https://be.search.yahoo.com"
+
+#: ../eolie/search.py:243
+#, python-format
+msgid ""
+"Do you want to install\n"
+"%s search engine?"
+msgstr ""
+
+#: ../eolie/search.py:247
+#, fuzzy
+msgid "Unsupported search engine"
+msgstr "Zoekmachine"
 
 #: ../eolie/settings.py:66 ../eolie/settings.py:69
 #: ../data/SettingsDialog.ui.h:1
@@ -526,7 +538,7 @@ msgstr "Volledig scherm"
 msgid "This page contains insecure content"
 msgstr "Deze pagina bevat niet-beveiligde inhoud"
 
-#: ../eolie/toolbar_title.py:318
+#: ../eolie/toolbar_title.py:317
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
@@ -536,23 +548,23 @@ msgstr ""
 "Als u uw wachtwoord invoert,\n"
 " zullen computercriminelen het kunnen lezen!"
 
-#: ../eolie/toolbar_title.py:367
+#: ../eolie/toolbar_title.py:366
 msgid "Disallow geolocation"
 msgstr "Geolocatie uitschakelen"
 
-#: ../eolie/toolbar_title.py:373
+#: ../eolie/toolbar_title.py:372
 msgid "Blocked popups"
 msgstr "Geblokkeerde pop-ups"
 
-#: ../eolie/toolbar_title.py:454
+#: ../eolie/toolbar_title.py:453
 msgid "Copy address"
 msgstr "Adres kopiëren"
 
-#: ../eolie/toolbar_title.py:514
+#: ../eolie/toolbar_title.py:513
 msgid "Paste and load"
 msgstr "Plakken en laden"
 
-#: ../eolie/toolbar_title.py:745 ../eolie/toolbar_title.py:748
+#: ../eolie/toolbar_title.py:744 ../eolie/toolbar_title.py:747
 msgid "Search or enter address"
 msgstr "Zoek of voer een adres in"
 
@@ -663,7 +675,7 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Nu een bug melden"
 
-#: ../eolie/webview_signals_js.py:84
+#: ../eolie/webview_signals_js.py:92
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie zal deze pagina sluiten, want ze werkt niet"
 
@@ -941,10 +953,6 @@ msgid "New profile"
 msgstr "Nieuw profiel"
 
 #: ../data/DialogCookies.ui.h:2
-msgid "Profiles manager"
-msgstr "Profielbeheer"
-
-#: ../data/DialogCookies.ui.h:3
 msgid "Delete cookies"
 msgstr "Cookies verwijderen"
 
@@ -1394,6 +1402,9 @@ msgstr "Meer acties"
 #: ../data/ToolbarEnd.ui.h:4
 msgid "Startup page"
 msgstr "Startpagina"
+
+#~ msgid "Profiles manager"
+#~ msgstr "Profielbeheer"
 
 #~ msgid "INTERNAL"
 #~ msgstr "INTERN"

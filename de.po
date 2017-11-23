@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-17 08:04+0100\n"
+"POT-Creation-Date: 2017-11-23 14:56+0100\n"
 "PO-Revision-Date: 2017-11-03 14:46+0000\n"
 "Last-Translator: Giax T <giax@protonmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/eolie/eolie/de/>\n"
@@ -208,7 +208,7 @@ msgstr ""
 msgid "Eolie: You need to install yelp."
 msgstr "Sie müssen \"yelp\" installieren."
 
-#: ../eolie/container.py:550
+#: ../eolie/container.py:549
 msgid "Do you really want to close this page?"
 msgstr "Soll dieser Tab wirklich geschlossen werden?"
 
@@ -276,7 +276,7 @@ msgstr "Andere"
 msgid "Import HTML bookmarks"
 msgstr "HTML-Lesezeichen importieren"
 
-#: ../eolie/dialog_search_engine.py:173 ../eolie/dialog_search_engine.py:177
+#: ../eolie/dialog_search_engine.py:162 ../eolie/dialog_search_engine.py:166
 msgid "New engine"
 msgstr "Neue Engine"
 
@@ -451,19 +451,31 @@ msgid "%s bookmarks"
 msgstr "%s Lesezeichen"
 
 #. Translators: Google url for your country
-#: ../eolie/search.py:35
+#: ../eolie/search.py:36
 msgid "https://www.google.com"
 msgstr "https://www.google.de/"
 
 #. Translators: Yahoo url for your country
-#: ../eolie/search.py:57
+#: ../eolie/search.py:58
 msgid "https://www.yahoo.com"
 msgstr "https://de.yahoo.com/"
 
 #. Translators: Yahoo url for your country
-#: ../eolie/search.py:59
+#: ../eolie/search.py:60
 msgid "https://us.search.yahoo.com"
 msgstr "https://de.search.yahoo.com/"
+
+#: ../eolie/search.py:243
+#, python-format
+msgid ""
+"Do you want to install\n"
+"%s search engine?"
+msgstr ""
+
+#: ../eolie/search.py:247
+#, fuzzy
+msgid "Unsupported search engine"
+msgstr "Suchmaschine"
 
 #: ../eolie/settings.py:66 ../eolie/settings.py:69
 #: ../data/SettingsDialog.ui.h:1
@@ -532,7 +544,7 @@ msgstr "Vollbildmodus"
 msgid "This page contains insecure content"
 msgstr "Diese Seite enthält unsicheren Inhalt"
 
-#: ../eolie/toolbar_title.py:318
+#: ../eolie/toolbar_title.py:317
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
@@ -542,23 +554,23 @@ msgstr ""
 "Wenn Sie ihr Passwort eingeben,\n"
 "wird es für Cyberkriminelle sichtbar sein!"
 
-#: ../eolie/toolbar_title.py:367
+#: ../eolie/toolbar_title.py:366
 msgid "Disallow geolocation"
 msgstr "Standordbestimmung untersagen"
 
-#: ../eolie/toolbar_title.py:373
+#: ../eolie/toolbar_title.py:372
 msgid "Blocked popups"
 msgstr "Blockierte Popups"
 
-#: ../eolie/toolbar_title.py:454
+#: ../eolie/toolbar_title.py:453
 msgid "Copy address"
 msgstr "Adresse kopieren"
 
-#: ../eolie/toolbar_title.py:514
+#: ../eolie/toolbar_title.py:513
 msgid "Paste and load"
 msgstr "Einfügen und los"
 
-#: ../eolie/toolbar_title.py:745 ../eolie/toolbar_title.py:748
+#: ../eolie/toolbar_title.py:744 ../eolie/toolbar_title.py:747
 msgid "Search or enter address"
 msgstr "Suchen oder Adresse eingeben"
 
@@ -670,7 +682,7 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Einen Programmfehler melden"
 
-#: ../eolie/webview_signals_js.py:84
+#: ../eolie/webview_signals_js.py:92
 #, fuzzy
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Diese Seite wird geschlossen, weil sie Defekt ist"
@@ -950,10 +962,6 @@ msgid "New profile"
 msgstr "Neuer Tab"
 
 #: ../data/DialogCookies.ui.h:2
-msgid "Profiles manager"
-msgstr ""
-
-#: ../data/DialogCookies.ui.h:3
 #, fuzzy
 msgid "Delete cookies"
 msgstr "Cookies verwalten"
