@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-23 15:00+0100\n"
+"POT-Creation-Date: 2017-11-26 21:32+0100\n"
 "PO-Revision-Date: 2017-11-23 14:06+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
@@ -688,47 +688,47 @@ msgstr "Rapporter un bug maintenant"
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie va fermer cette page car elle ne fonctionne pas"
 
-#: ../eolie/webview_signals_menu.py:66
+#: ../eolie/webview_signals_menu.py:67
 msgid "Reload preview"
 msgstr "Recharger l'aperçu"
 
-#: ../eolie/webview_signals_menu.py:83
+#: ../eolie/webview_signals_menu.py:84
 msgid "Open link in a new page"
 msgstr "Ouvrir le lien dans une nouvelle page"
 
-#: ../eolie/webview_signals_menu.py:93
+#: ../eolie/webview_signals_menu.py:94
 msgid "Open link in a new private page"
 msgstr "Ouvrir le lien dans une nouvelle page privée"
 
-#: ../eolie/webview_signals_menu.py:103
+#: ../eolie/webview_signals_menu.py:104
 msgid "Open link in a new window"
 msgstr "Ouvrir le lien dans une nouvelle fenêtre"
 
-#: ../eolie/webview_signals_menu.py:116
+#: ../eolie/webview_signals_menu.py:117
 msgid "Copy"
 msgstr "Copier"
 
-#: ../eolie/webview_signals_menu.py:131
+#: ../eolie/webview_signals_menu.py:132
 msgid "Copy link address"
 msgstr "Copier l'adresse du lien"
 
-#: ../eolie/webview_signals_menu.py:142
+#: ../eolie/webview_signals_menu.py:143
 msgid "Search on the Web"
 msgstr "Rechercher sur le Web"
 
-#: ../eolie/webview_signals_menu.py:160
+#: ../eolie/webview_signals_menu.py:161
 msgid "Download this file"
 msgstr "Télécharger ce fichier"
 
-#: ../eolie/webview_signals_menu.py:173 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:174 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Enregistrer les images"
 
-#: ../eolie/webview_signals_menu.py:183
+#: ../eolie/webview_signals_menu.py:184
 msgid "Save videos"
 msgstr "Enregistrer les vidéos"
 
-#: ../eolie/webview_signals_menu.py:193
+#: ../eolie/webview_signals_menu.py:194
 msgid "Save page as image"
 msgstr "Enregistrer comme une image"
 

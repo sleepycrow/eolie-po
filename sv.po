@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-23 15:00+0100\n"
+"POT-Creation-Date: 2017-11-26 21:32+0100\n"
 "PO-Revision-Date: 2017-11-24 11:27+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/>"
-"\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
+">\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -687,47 +687,47 @@ msgstr "Rapportera ett fel nu"
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie kommer att stänga denna sida för att den är trasig"
 
-#: ../eolie/webview_signals_menu.py:66
+#: ../eolie/webview_signals_menu.py:67
 msgid "Reload preview"
 msgstr "Uppdatera förhandsvisning"
 
-#: ../eolie/webview_signals_menu.py:83
+#: ../eolie/webview_signals_menu.py:84
 msgid "Open link in a new page"
 msgstr "Öppna länk i en ny sida"
 
-#: ../eolie/webview_signals_menu.py:93
+#: ../eolie/webview_signals_menu.py:94
 msgid "Open link in a new private page"
 msgstr "Öppna länk i en ny privat sida"
 
-#: ../eolie/webview_signals_menu.py:103
+#: ../eolie/webview_signals_menu.py:104
 msgid "Open link in a new window"
 msgstr "Öppna länk i ett nytt fönster"
 
-#: ../eolie/webview_signals_menu.py:116
+#: ../eolie/webview_signals_menu.py:117
 msgid "Copy"
 msgstr "Kopiera"
 
-#: ../eolie/webview_signals_menu.py:131
+#: ../eolie/webview_signals_menu.py:132
 msgid "Copy link address"
 msgstr "Kopiera länkadress"
 
-#: ../eolie/webview_signals_menu.py:142
+#: ../eolie/webview_signals_menu.py:143
 msgid "Search on the Web"
 msgstr "Sök på nätet"
 
-#: ../eolie/webview_signals_menu.py:160
+#: ../eolie/webview_signals_menu.py:161
 msgid "Download this file"
 msgstr "Hämta denna fil"
 
-#: ../eolie/webview_signals_menu.py:173 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:174 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Spara bilder"
 
-#: ../eolie/webview_signals_menu.py:183
+#: ../eolie/webview_signals_menu.py:184
 msgid "Save videos"
 msgstr "Spara videoklipp"
 
-#: ../eolie/webview_signals_menu.py:193
+#: ../eolie/webview_signals_menu.py:194
 msgid "Save page as image"
 msgstr "Spara sida som bild"
 

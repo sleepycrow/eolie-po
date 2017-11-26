@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-23 15:00+0100\n"
+"POT-Creation-Date: 2017-11-26 21:32+0100\n"
 "PO-Revision-Date: 2017-11-04 15:48+0000\n"
 "Last-Translator: Daria Szatan <bla_ke@tuta.io>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/eolie/eolie/pl/>\n"
@@ -689,51 +689,51 @@ msgstr "Zgłoś błąd"
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie ma zamiar zamknąć tę stronę, gdyż jest ona uszkodzona"
 
-#: ../eolie/webview_signals_menu.py:66
+#: ../eolie/webview_signals_menu.py:67
 msgid "Reload preview"
 msgstr "Wczytaj ponownie stronę"
 
-#: ../eolie/webview_signals_menu.py:83
+#: ../eolie/webview_signals_menu.py:84
 msgid "Open link in a new page"
 msgstr "Otwórz odnośnik w nowej karcie"
 
-#: ../eolie/webview_signals_menu.py:93
+#: ../eolie/webview_signals_menu.py:94
 msgid "Open link in a new private page"
 msgstr "Otwórz odnośnik w nowej prywatnej karcie"
 
-#: ../eolie/webview_signals_menu.py:103
+#: ../eolie/webview_signals_menu.py:104
 #, fuzzy
 msgid "Open link in a new window"
 msgstr "Otwórz link w nowej karcie"
 
-#: ../eolie/webview_signals_menu.py:116
+#: ../eolie/webview_signals_menu.py:117
 msgid "Copy"
 msgstr "Skopiuj"
 
-#: ../eolie/webview_signals_menu.py:131
+#: ../eolie/webview_signals_menu.py:132
 #, fuzzy
 msgid "Copy link address"
 msgstr "Kopiuj adres"
 
-#: ../eolie/webview_signals_menu.py:142
+#: ../eolie/webview_signals_menu.py:143
 msgid "Search on the Web"
 msgstr "Wyszukaj w sieci"
 
-#: ../eolie/webview_signals_menu.py:160
+#: ../eolie/webview_signals_menu.py:161
 #, fuzzy
 msgid "Download this file"
 msgstr "Pobierz ten plik video:"
 
-#: ../eolie/webview_signals_menu.py:173 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:174 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Zapisz obrazy"
 
-#: ../eolie/webview_signals_menu.py:183
+#: ../eolie/webview_signals_menu.py:184
 #, fuzzy
 msgid "Save videos"
 msgstr "Zapisz obrazy"
 
-#: ../eolie/webview_signals_menu.py:193
+#: ../eolie/webview_signals_menu.py:194
 msgid "Save page as image"
 msgstr "Zapisz stronę jako obraz"
 

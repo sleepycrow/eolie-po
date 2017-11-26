@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-23 15:00+0100\n"
+"POT-Creation-Date: 2017-11-26 21:32+0100\n"
 "PO-Revision-Date: 2017-11-23 16:00+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
@@ -684,47 +684,47 @@ msgstr "أبلغ عن علة الآن"
 msgid "Eolie is going to close this page because it is broken"
 msgstr "سيغلق أيولي هذه الصفحة المتعطلة"
 
-#: ../eolie/webview_signals_menu.py:66
+#: ../eolie/webview_signals_menu.py:67
 msgid "Reload preview"
 msgstr "حدث العينة"
 
-#: ../eolie/webview_signals_menu.py:83
+#: ../eolie/webview_signals_menu.py:84
 msgid "Open link in a new page"
 msgstr "افتح الرابط في صفحة جديدة"
 
-#: ../eolie/webview_signals_menu.py:93
+#: ../eolie/webview_signals_menu.py:94
 msgid "Open link in a new private page"
 msgstr "افتح في صفحة خاصة جديدة"
 
-#: ../eolie/webview_signals_menu.py:103
+#: ../eolie/webview_signals_menu.py:104
 msgid "Open link in a new window"
 msgstr "افتح الرابط في نافذة جديدة"
 
-#: ../eolie/webview_signals_menu.py:116
+#: ../eolie/webview_signals_menu.py:117
 msgid "Copy"
 msgstr "انسخ"
 
-#: ../eolie/webview_signals_menu.py:131
+#: ../eolie/webview_signals_menu.py:132
 msgid "Copy link address"
 msgstr "انسخ عنوان الرابط"
 
-#: ../eolie/webview_signals_menu.py:142
+#: ../eolie/webview_signals_menu.py:143
 msgid "Search on the Web"
 msgstr "ابحث في الوب"
 
-#: ../eolie/webview_signals_menu.py:160
+#: ../eolie/webview_signals_menu.py:161
 msgid "Download this file"
 msgstr "نزّل هذا الملف"
 
-#: ../eolie/webview_signals_menu.py:173 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:174 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "احفظ الصور"
 
-#: ../eolie/webview_signals_menu.py:183
+#: ../eolie/webview_signals_menu.py:184
 msgid "Save videos"
 msgstr "احفظ الفيديوهات"
 
-#: ../eolie/webview_signals_menu.py:193
+#: ../eolie/webview_signals_menu.py:194
 msgid "Save page as image"
 msgstr "احفظ صورة الصفحة"
 
