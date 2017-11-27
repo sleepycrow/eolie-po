@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-26 21:32+0100\n"
-"PO-Revision-Date: 2017-11-24 17:46+0000\n"
-"Last-Translator: Nathan Follens <nathan@email.is>\n"
+"PO-Revision-Date: 2017-11-28 09:12+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -105,7 +105,7 @@ msgstr "Herstart vereist"
 #: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/ActionsMenu.ui.h:17
 #: ../data/SettingsDialog.ui.h:29
 msgid "Default zoom level"
-msgstr "Standaardzoomniveau"
+msgstr "Standaard zoomniveau"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Cookies storage type"
@@ -117,7 +117,7 @@ msgstr "Geschiedenisopslagtype"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:33
 msgid "Tell websites I do not want to be tracked"
-msgstr "Websites vertellen dat ik niet gevolgd wil worden"
+msgstr "Aan websites melden dat ik niet gevolgd wil worden"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:27
 msgid "DNS prediction"
@@ -137,13 +137,14 @@ msgstr "Een webbrowser voor Gnome."
 
 #: ../data/AboutDialog.ui.in:16 ../data/AboutDialog.ui.in.h:2
 msgid "Visit Eolie website"
-msgstr "Bezoek de website van Eolie"
+msgstr "Eolie-website bezoeken"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:19 ../data/AboutDialog.ui.in.h:4
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Nathan Follens <nthn@unseen.is>"
+msgstr ""
+"Nathan Follens <nthn@unseen.is>, Heimen Stoffels <vistausss@outlook.com>"
 
 #: ../data/AboutDialog.ui.in:51 ../data/AboutDialog.ui.in.h:5
 msgid "Donations:"
@@ -199,7 +200,7 @@ msgstr "Weet u zeker dat u Eolie wilt afsluiten?"
 
 #: ../eolie/application.py:788
 msgid "Downloads running, are you sure you want quit ?"
-msgstr "Er zijn nog downloads actief, weet u zeker dat u Eolie wilt afsluiten?"
+msgstr "Er zijn nog actieve downloads. Weet u zeker dat u Eolie wilt afsluiten?"
 
 #: ../eolie/application.py:887
 msgid "Eolie: You need to install yelp."
@@ -243,7 +244,7 @@ msgstr "Offline webtoepassingsgegevens"
 
 #: ../eolie/dialog_clear_data.py:185
 msgid "Session storage data"
-msgstr "Sessieopslaggegevens"
+msgstr "Sessie-opslaggegevens"
 
 #: ../eolie/dialog_clear_data.py:187
 msgid "Local storage data"
