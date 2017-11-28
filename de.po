@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-26 21:32+0100\n"
+"POT-Creation-Date: 2017-11-28 10:11+0100\n"
 "PO-Revision-Date: 2017-11-03 14:46+0000\n"
 "Last-Translator: Giax T <giax@protonmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/eolie/eolie/de/>\n"
@@ -208,7 +208,7 @@ msgstr ""
 msgid "Eolie: You need to install yelp."
 msgstr "Sie müssen \"yelp\" installieren."
 
-#: ../eolie/container.py:549
+#: ../eolie/container.py:550
 msgid "Do you really want to close this page?"
 msgstr "Soll dieser Tab wirklich geschlossen werden?"
 
@@ -715,20 +715,30 @@ msgstr "Linkadresse kopieren"
 msgid "Search on the Web"
 msgstr "Im Internet suchen"
 
-#: ../eolie/webview_signals_menu.py:161
+#: ../eolie/webview_signals_menu.py:153
+#, fuzzy
+msgid "Download this image"
+msgstr "Dieses Video herunterladen:"
+
+#: ../eolie/webview_signals_menu.py:156
+#, fuzzy
+msgid "Download this video"
+msgstr "Dieses Video herunterladen:"
+
+#: ../eolie/webview_signals_menu.py:159
 #, fuzzy
 msgid "Download this file"
 msgstr "Dieses Video herunterladen:"
 
-#: ../eolie/webview_signals_menu.py:174 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:181 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Bilder speichern"
 
-#: ../eolie/webview_signals_menu.py:184
+#: ../eolie/webview_signals_menu.py:191
 msgid "Save videos"
 msgstr "Videos speichern"
 
-#: ../eolie/webview_signals_menu.py:194
+#: ../eolie/webview_signals_menu.py:201
 msgid "Save page as image"
 msgstr "Website als Bild speichern"
 
