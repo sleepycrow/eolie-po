@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-28 10:11+0100\n"
-"PO-Revision-Date: 2017-11-23 16:00+0000\n"
+"PO-Revision-Date: 2017-11-28 13:16+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -713,14 +713,12 @@ msgid "Search on the Web"
 msgstr "ابحث في الوب"
 
 #: ../eolie/webview_signals_menu.py:153
-#, fuzzy
 msgid "Download this image"
-msgstr "نزّل هذا الملف"
+msgstr "نزّل هذه الصورة"
 
 #: ../eolie/webview_signals_menu.py:156
-#, fuzzy
 msgid "Download this video"
-msgstr "نزّل هذا الملف"
+msgstr "نزّل هذا الفيديو"
 
 #: ../eolie/webview_signals_menu.py:159
 msgid "Download this file"
