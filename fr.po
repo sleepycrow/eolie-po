@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-28 10:11+0100\n"
-"PO-Revision-Date: 2017-11-23 14:06+0000\n"
+"PO-Revision-Date: 2017-11-28 09:13+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
 "Language: fr\n"
@@ -717,14 +717,12 @@ msgid "Search on the Web"
 msgstr "Rechercher sur le Web"
 
 #: ../eolie/webview_signals_menu.py:153
-#, fuzzy
 msgid "Download this image"
-msgstr "Télécharger ce fichier"
+msgstr "Télécharger cette image"
 
 #: ../eolie/webview_signals_menu.py:156
-#, fuzzy
 msgid "Download this video"
-msgstr "Télécharger ce fichier"
+msgstr "Télécharger cette vidéo"
 
 #: ../eolie/webview_signals_menu.py:159
 msgid "Download this file"
