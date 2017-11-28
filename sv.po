@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-26 21:32+0100\n"
+"POT-Creation-Date: 2017-11-28 10:11+0100\n"
 "PO-Revision-Date: 2017-11-24 11:27+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
@@ -210,7 +210,7 @@ msgstr "Hämtningar pågår, är du säker att du vill avsluta ?"
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Du behöver installera yelp."
 
-#: ../eolie/container.py:549
+#: ../eolie/container.py:550
 msgid "Do you really want to close this page?"
 msgstr "Vill du verkligen stänga denna sida?"
 
@@ -715,19 +715,29 @@ msgstr "Kopiera länkadress"
 msgid "Search on the Web"
 msgstr "Sök på nätet"
 
-#: ../eolie/webview_signals_menu.py:161
+#: ../eolie/webview_signals_menu.py:153
+#, fuzzy
+msgid "Download this image"
+msgstr "Hämta denna fil"
+
+#: ../eolie/webview_signals_menu.py:156
+#, fuzzy
+msgid "Download this video"
+msgstr "Hämta denna fil"
+
+#: ../eolie/webview_signals_menu.py:159
 msgid "Download this file"
 msgstr "Hämta denna fil"
 
-#: ../eolie/webview_signals_menu.py:174 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:181 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Spara bilder"
 
-#: ../eolie/webview_signals_menu.py:184
+#: ../eolie/webview_signals_menu.py:191
 msgid "Save videos"
 msgstr "Spara videoklipp"
 
-#: ../eolie/webview_signals_menu.py:194
+#: ../eolie/webview_signals_menu.py:201
 msgid "Save page as image"
 msgstr "Spara sida som bild"
 

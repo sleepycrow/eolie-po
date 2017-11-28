@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-26 21:32+0100\n"
+"POT-Creation-Date: 2017-11-28 10:11+0100\n"
 "PO-Revision-Date: 2017-11-28 09:12+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
@@ -206,7 +206,7 @@ msgstr "Er zijn nog actieve downloads. Weet u zeker dat u Eolie wilt afsluiten?"
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: u moet yelp installeren."
 
-#: ../eolie/container.py:549
+#: ../eolie/container.py:550
 msgid "Do you really want to close this page?"
 msgstr "Weet u zeker dat u deze pagina wilt sluiten?"
 
@@ -709,19 +709,29 @@ msgstr "Verwijzingsadres kopiëren"
 msgid "Search on the Web"
 msgstr "Zoeken op het internet"
 
-#: ../eolie/webview_signals_menu.py:161
+#: ../eolie/webview_signals_menu.py:153
+#, fuzzy
+msgid "Download this image"
+msgstr "Dit bestand downloaden"
+
+#: ../eolie/webview_signals_menu.py:156
+#, fuzzy
+msgid "Download this video"
+msgstr "Dit bestand downloaden"
+
+#: ../eolie/webview_signals_menu.py:159
 msgid "Download this file"
 msgstr "Dit bestand downloaden"
 
-#: ../eolie/webview_signals_menu.py:174 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:181 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Afbeeldingen opslaan"
 
-#: ../eolie/webview_signals_menu.py:184
+#: ../eolie/webview_signals_menu.py:191
 msgid "Save videos"
 msgstr "Video’s opslaan"
 
-#: ../eolie/webview_signals_menu.py:194
+#: ../eolie/webview_signals_menu.py:201
 msgid "Save page as image"
 msgstr "Pagina opslaan als afbeelding"
 
