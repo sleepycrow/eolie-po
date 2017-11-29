@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-28 10:11+0100\n"
-"PO-Revision-Date: 2017-11-24 11:27+0000\n"
+"PO-Revision-Date: 2017-11-29 00:32+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
-">\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/>"
+"\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -716,14 +716,12 @@ msgid "Search on the Web"
 msgstr "Sök på nätet"
 
 #: ../eolie/webview_signals_menu.py:153
-#, fuzzy
 msgid "Download this image"
-msgstr "Hämta denna fil"
+msgstr "Hämta denna bild"
 
 #: ../eolie/webview_signals_menu.py:156
-#, fuzzy
 msgid "Download this video"
-msgstr "Hämta denna fil"
+msgstr "Hämta denna video"
 
 #: ../eolie/webview_signals_menu.py:159
 msgid "Download this file"
