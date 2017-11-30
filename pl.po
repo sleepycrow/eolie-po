@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 10:11+0100\n"
+"POT-Creation-Date: 2017-11-30 10:18+0100\n"
 "PO-Revision-Date: 2017-11-04 15:48+0000\n"
 "Last-Translator: Daria Szatan <bla_ke@tuta.io>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/eolie/eolie/pl/>\n"
@@ -388,7 +388,7 @@ msgid "Continue"
 msgstr "Kontynuuj"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:433
-#: ../eolie/toolbar_end.py:183 ../eolie/webview_signals.py:129
+#: ../eolie/toolbar_end.py:194 ../eolie/webview_signals.py:129
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -524,23 +524,23 @@ msgstr ""
 msgid "You've received an email to validate synchronization"
 msgstr "Otrzymałeś e-mail służący do aktywowania synchronizacji"
 
-#: ../eolie/toolbar_end.py:147
+#: ../eolie/toolbar_end.py:158
 msgid "Downloading:"
 msgstr "Pobieranie:"
 
-#: ../eolie/toolbar_end.py:179 ../data/ActionsMenu.ui.h:12
+#: ../eolie/toolbar_end.py:190 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Zapisz stronę"
 
-#: ../eolie/toolbar_end.py:182 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:193 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Zapisz"
 
-#: ../eolie/toolbar_end.py:333 ../data/ToolbarEnd.ui.h:1
+#: ../eolie/toolbar_end.py:354 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Opuszcza tryb pełnoekranowy"
 
-#: ../eolie/toolbar_end.py:335
+#: ../eolie/toolbar_end.py:356
 msgid "Enter fullscreen"
 msgstr "Przechodzi w tryb pełnoekranowy"
 
@@ -578,24 +578,24 @@ msgstr "Wklej i przejdź do strony"
 msgid "Search or enter address"
 msgstr "Szukaj lub wprowadź adres"
 
-#: ../eolie/webview_errors.py:72
+#: ../eolie/webview_errors.py:74
 msgid "This page is dangerous"
 msgstr "Ta strona jest niebezpieczna"
 
-#: ../eolie/webview_errors.py:73
+#: ../eolie/webview_errors.py:75
 msgid "Eolie will not display this page"
 msgstr "Eolie nie wyświetli tej strony"
 
-#: ../eolie/webview_errors.py:80
+#: ../eolie/webview_errors.py:82
 #, python-format
 msgid "%s is a phishing page"
 msgstr "%s jest stroną phishingową"
 
-#: ../eolie/webview_errors.py:124
+#: ../eolie/webview_errors.py:126
 msgid "Failed to load this web page"
 msgstr "Nie udało się wczytać tej strony internetowej"
 
-#: ../eolie/webview_errors.py:125
+#: ../eolie/webview_errors.py:127
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -603,55 +603,55 @@ msgstr ""
 "Może ona być tymczasowo niedostępna lub została przeniesiona pod inny adres."
 "<br/>Proszę sprawdzić, czy połączenie internetowe działa prawidłowo."
 
-#: ../eolie/webview_errors.py:131
+#: ../eolie/webview_errors.py:133
 msgid "Network not available"
 msgstr "Sieć jest niedostępna"
 
-#: ../eolie/webview_errors.py:132
+#: ../eolie/webview_errors.py:134
 msgid "Check your network connection"
 msgstr "Sprawdź swoje połączenie internetowe"
 
-#: ../eolie/webview_errors.py:142
+#: ../eolie/webview_errors.py:144
 msgid "Retry"
 msgstr "Ponów"
 
-#: ../eolie/webview_errors.py:164
+#: ../eolie/webview_errors.py:170
 msgid "The certificate does not match this website"
 msgstr "Ten certyfikat nie pasuje do strony"
 
-#: ../eolie/webview_errors.py:166
+#: ../eolie/webview_errors.py:172
 msgid "The certificate has expired"
 msgstr "Certyfikat wygasł"
 
-#: ../eolie/webview_errors.py:168
+#: ../eolie/webview_errors.py:174
 msgid "The signing certificate authority is not known"
 msgstr "Autoryzacja certyfikatu podpisania nie jest znana"
 
-#: ../eolie/webview_errors.py:170
+#: ../eolie/webview_errors.py:176
 msgid "The certificate contains errors"
 msgstr "Certyfikat zawiera błędy"
 
-#: ../eolie/webview_errors.py:172
+#: ../eolie/webview_errors.py:178
 msgid "The certificate has been revoked"
 msgstr "Certyfikat został unieważniony"
 
-#: ../eolie/webview_errors.py:174
+#: ../eolie/webview_errors.py:180
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Certyfikat został podpisany przy użyciu słabego algorytmu podpisu"
 
-#: ../eolie/webview_errors.py:177
+#: ../eolie/webview_errors.py:184
 msgid "The certificate activation time is still in the future"
 msgstr "Czas aktywacji certyfikatu nadal jest w przyszłości"
 
-#: ../eolie/webview_errors.py:179
+#: ../eolie/webview_errors.py:186
 msgid "The identity of this website has not been verified"
 msgstr "Tożsamość tej witryny nie została zweryfikowana"
 
-#: ../eolie/webview_errors.py:180 ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:187 ../eolie/webview_errors.py:191
 msgid "Connection is not secure"
 msgstr "Połączenie nie jest bezpieczne"
 
-#: ../eolie/webview_errors.py:187
+#: ../eolie/webview_errors.py:193
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -662,15 +662,15 @@ msgstr ""
 "lub zmienić informacje przechodzące przez tę witrynę (np.: prywatne "
 "wiadomości, informacje o kartach kredytowych lub hasła)."
 
-#: ../eolie/webview_errors.py:193
+#: ../eolie/webview_errors.py:199
 msgid "Accept Risk and Proceed"
 msgstr "Zaakceptuj ryzyko i kontynuuj"
 
-#: ../eolie/webview_errors.py:209 ../eolie/webview_errors.py:214
+#: ../eolie/webview_errors.py:215 ../eolie/webview_errors.py:220
 msgid "WebKit web engine crashed"
 msgstr "Silnik internetowy WebKit uległ awarii"
 
-#: ../eolie/webview_errors.py:216
+#: ../eolie/webview_errors.py:222
 msgid ""
 "The webpage was terminated unexpectedly.To continue, reload or go to another "
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
@@ -681,7 +681,7 @@ msgstr ""
 "występuje, możesz zgłosić błąd :)<br/>Użyj <b>'Webkit Gtk'</b> jako "
 "komponentu.<br/>Ustaw <b>[GTK]</b> jako subject prefix'u."
 
-#: ../eolie/webview_errors.py:222
+#: ../eolie/webview_errors.py:228
 msgid "Report a bug now"
 msgstr "Zgłoś błąd"
 
@@ -824,7 +824,7 @@ msgid "Start page"
 msgstr "Przechodzi do strony startowej"
 
 #: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:2
-#: ../data/ToolbarEnd.ui.h:3
+#: ../data/ToolbarEnd.ui.h:4
 msgid "Downloads"
 msgstr "Wyświetla pobrane"
 
@@ -1423,7 +1423,11 @@ msgstr "Zamknij kartę"
 msgid "More actions"
 msgstr "Więcej działań"
 
-#: ../data/ToolbarEnd.ui.h:4
+#: ../data/ToolbarEnd.ui.h:3
+msgid "Disallow access to this site"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui.h:5
 msgid "Startup page"
 msgstr "Strona startowa"
 

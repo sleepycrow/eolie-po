@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 10:11+0100\n"
+"POT-Creation-Date: 2017-11-30 10:18+0100\n"
 "PO-Revision-Date: 2017-11-25 16:48+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/eolie/"
@@ -387,7 +387,7 @@ msgid "Continue"
 msgstr "Fortsett"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:433
-#: ../eolie/toolbar_end.py:183 ../eolie/webview_signals.py:129
+#: ../eolie/toolbar_end.py:194 ../eolie/webview_signals.py:129
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -521,23 +521,23 @@ msgstr ""
 msgid "You've received an email to validate synchronization"
 msgstr ""
 
-#: ../eolie/toolbar_end.py:147
+#: ../eolie/toolbar_end.py:158
 msgid "Downloading:"
 msgstr "Laster ned:"
 
-#: ../eolie/toolbar_end.py:179 ../data/ActionsMenu.ui.h:12
+#: ../eolie/toolbar_end.py:190 ../data/ActionsMenu.ui.h:12
 msgid "Save page"
 msgstr "Lagre side"
 
-#: ../eolie/toolbar_end.py:182 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:193 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Lagre"
 
-#: ../eolie/toolbar_end.py:333 ../data/ToolbarEnd.ui.h:1
+#: ../eolie/toolbar_end.py:354 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Forlat fullskjermsvisning"
 
-#: ../eolie/toolbar_end.py:335
+#: ../eolie/toolbar_end.py:356
 msgid "Enter fullscreen"
 msgstr "Fullskjermsvisning"
 
@@ -572,78 +572,78 @@ msgstr "Lim inn og gå"
 msgid "Search or enter address"
 msgstr "Søk eller skriv inn adresse"
 
-#: ../eolie/webview_errors.py:72
+#: ../eolie/webview_errors.py:74
 msgid "This page is dangerous"
 msgstr "Denne siden er skadelig"
 
-#: ../eolie/webview_errors.py:73
+#: ../eolie/webview_errors.py:75
 msgid "Eolie will not display this page"
 msgstr "Eolie vil ikke vise denne siden"
 
-#: ../eolie/webview_errors.py:80
+#: ../eolie/webview_errors.py:82
 #, fuzzy, python-format
 msgid "%s is a phishing page"
 msgstr "%s er en nettfiskeside"
 
-#: ../eolie/webview_errors.py:124
+#: ../eolie/webview_errors.py:126
 msgid "Failed to load this web page"
 msgstr "Klarte ikke å laste denne nettsiden"
 
-#: ../eolie/webview_errors.py:125
+#: ../eolie/webview_errors.py:127
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
 
-#: ../eolie/webview_errors.py:131
+#: ../eolie/webview_errors.py:133
 msgid "Network not available"
 msgstr "Nettverk utilgjengelig"
 
-#: ../eolie/webview_errors.py:132
+#: ../eolie/webview_errors.py:134
 msgid "Check your network connection"
 msgstr "Sjekk din nettverkstilknytning"
 
-#: ../eolie/webview_errors.py:142
+#: ../eolie/webview_errors.py:144
 msgid "Retry"
 msgstr "Prøv igjen"
 
-#: ../eolie/webview_errors.py:164
+#: ../eolie/webview_errors.py:170
 msgid "The certificate does not match this website"
 msgstr "Sertifikatet samsvarer ikke med denne nettsiden"
 
-#: ../eolie/webview_errors.py:166
+#: ../eolie/webview_errors.py:172
 msgid "The certificate has expired"
 msgstr "Sertifikatet har utløpt"
 
-#: ../eolie/webview_errors.py:168
+#: ../eolie/webview_errors.py:174
 msgid "The signing certificate authority is not known"
 msgstr ""
 
-#: ../eolie/webview_errors.py:170
+#: ../eolie/webview_errors.py:176
 msgid "The certificate contains errors"
 msgstr "Sertifikatet inneholder feil"
 
-#: ../eolie/webview_errors.py:172
+#: ../eolie/webview_errors.py:178
 msgid "The certificate has been revoked"
 msgstr "Sertifikatet har blitt tilbakekalt"
 
-#: ../eolie/webview_errors.py:174
+#: ../eolie/webview_errors.py:180
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr ""
 
-#: ../eolie/webview_errors.py:177
+#: ../eolie/webview_errors.py:184
 msgid "The certificate activation time is still in the future"
 msgstr ""
 
-#: ../eolie/webview_errors.py:179
+#: ../eolie/webview_errors.py:186
 msgid "The identity of this website has not been verified"
 msgstr ""
 
-#: ../eolie/webview_errors.py:180 ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:187 ../eolie/webview_errors.py:191
 msgid "Connection is not secure"
 msgstr "Tilkoblingen er ikke sikker"
 
-#: ../eolie/webview_errors.py:187
+#: ../eolie/webview_errors.py:193
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -651,22 +651,22 @@ msgid ""
 "messages, credit card information, or passwords)."
 msgstr ""
 
-#: ../eolie/webview_errors.py:193
+#: ../eolie/webview_errors.py:199
 msgid "Accept Risk and Proceed"
 msgstr "Løp risikoen og fortsett"
 
-#: ../eolie/webview_errors.py:209 ../eolie/webview_errors.py:214
+#: ../eolie/webview_errors.py:215 ../eolie/webview_errors.py:220
 msgid "WebKit web engine crashed"
 msgstr "WebKit-vevmotoren kræsjet"
 
-#: ../eolie/webview_errors.py:216
+#: ../eolie/webview_errors.py:222
 msgid ""
 "The webpage was terminated unexpectedly.To continue, reload or go to another "
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
 "<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
 
-#: ../eolie/webview_errors.py:222
+#: ../eolie/webview_errors.py:228
 msgid "Report a bug now"
 msgstr "Rapporter en feil nå"
 
@@ -807,7 +807,7 @@ msgid "Start page"
 msgstr "Startside"
 
 #: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:2
-#: ../data/ToolbarEnd.ui.h:3
+#: ../data/ToolbarEnd.ui.h:4
 msgid "Downloads"
 msgstr "Nedlastinger"
 
@@ -1400,6 +1400,10 @@ msgstr "Lukk side"
 msgid "More actions"
 msgstr "Flere handlinger"
 
-#: ../data/ToolbarEnd.ui.h:4
+#: ../data/ToolbarEnd.ui.h:3
+msgid "Disallow access to this site"
+msgstr ""
+
+#: ../data/ToolbarEnd.ui.h:5
 msgid "Startup page"
 msgstr "Oppstartsside"
