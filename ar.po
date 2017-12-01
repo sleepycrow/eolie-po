@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 10:18+0100\n"
-"PO-Revision-Date: 2017-12-01 12:39+0000\n"
+"PO-Revision-Date: 2017-12-02 16:34+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -734,7 +734,7 @@ msgstr "احفظ الفيديوهات"
 
 #: ../eolie/webview_signals_menu.py:201
 msgid "Save page as image"
-msgstr "احفظ صورة الصفحة"
+msgstr "صوّر الصفحة"
 
 #: ../eolie/webview_signals.py:125
 msgid "Select files to upload"
