@@ -23,17 +23,19 @@ eolie/dialog_search_engine.py
 eolie/download_manager.py
 eolie/extension_adblock.py
 eolie/extension_forms.py
+eolie/extension_jsblock.py
 eolie/extension_proxy.py
 eolie/helper_dbus.py
 eolie/helper_passwords.py
 eolie/helper_task.py
 eolie/label_indicator.py
-eolie/languages.py
 eolie/list.py
 eolie/localized.py
 eolie/menu_form.py
 eolie/menu_history.py
+eolie/menu_languages.py
 eolie/menu_pages.py
+eolie/menu_scripts.py
 eolie/menu_sites.py
 eolie/menu_videos.py
 eolie/mozilla_sync.py
@@ -82,7 +84,7 @@ eolie/window.py
 [type: gettext/glade]data/DialogImportBookmarks.ui
 [type: gettext/glade]data/DialogModifyUA.ui
 [type: gettext/glade]data/DialogSearchEngine.ui
-[type: gettext/glade]data/Languages.ui
+[type: gettext/glade]data/LanguagesMenu.ui
 [type: gettext/glade]data/PagesManagerChild.ui
 [type: gettext/glade]data/PopoverCookies.ui
 [type: gettext/glade]data/PopoverCredentials.ui
@@ -95,6 +97,7 @@ eolie/window.py
 [type: gettext/glade]data/PopoverWebView.ui
 [type: gettext/glade]data/QuitDialog.ui
 [type: gettext/glade]data/RowDownload.ui
+[type: gettext/glade]data/ScriptsMenu.ui
 [type: gettext/glade]data/SettingsDialog.ui
 [type: gettext/glade]data/Shortcuts.ui
 [type: gettext/glade]data/SitesManagerChild.ui

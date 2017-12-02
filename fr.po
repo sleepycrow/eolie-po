@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-30 10:18+0100\n"
+"POT-Creation-Date: 2017-12-02 17:34+0100\n"
 "PO-Revision-Date: 2017-11-30 09:19+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
@@ -31,107 +31,103 @@ msgid "Block unwanted popups on pages"
 msgstr "Bloquer les popups non voulu sur les pages"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:4
-msgid "Block images on pages"
-msgstr "Bloquer les images sur les pages"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Block Javascript on pages"
 msgstr "Bloquer Javascript sur les pages"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:6
+#: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Download folder URI"
 msgstr "Adresse du dossier de téléchargement"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:7
+#: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Open finished downloads"
 msgstr "Ouvrir les téléchargements terminés"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:8
+#: ../data/org.gnome.Eolie.gschema.xml.h:7
 msgid "Web search engine"
 msgstr "Moteur de recherche"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Remember sessions"
 msgstr "Se souvenir des sessions"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:10 ../data/SettingsDialog.ui.h:35
+#: ../data/org.gnome.Eolie.gschema.xml.h:9 ../data/SettingsDialog.ui.h:35
 msgid "Remember passwords"
 msgstr "Se souvenir des mots de passe"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:11 ../data/SettingsDialog.ui.h:20
+#: ../data/org.gnome.Eolie.gschema.xml.h:10 ../data/SettingsDialog.ui.h:20
 msgid "Enable developer tools"
 msgstr "Activer les outils pour les développeurs"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:12 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:11 ../data/SettingsDialog.ui.h:9
 msgid "Enable plugins"
 msgstr "Activer les plugins"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:13 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:12 ../data/SettingsDialog.ui.h:24
 msgid "Use system fonts"
 msgstr "Utiliser les polices systèmes"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:13 ../data/SettingsDialog.ui.h:25
 msgid "Sans serif font"
 msgstr "Police Sans serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:15 ../data/SettingsDialog.ui.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:26
 msgid "Serif font"
 msgstr "Police Serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:15 ../data/SettingsDialog.ui.h:27
 msgid "Monospace font"
 msgstr "Police à largeur fixe"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17
+#: ../data/org.gnome.Eolie.gschema.xml.h:16
 msgid "Open this page on startup"
 msgstr "Ouvrir cette page au démarrage"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:18
+#: ../data/org.gnome.Eolie.gschema.xml.h:17
 msgid "Minimum sidebar position"
 msgstr "Position minimale de barre latérale"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:28
+#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:28
 msgid "Minimum font size"
 msgstr "Taille de police minimale"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20
+#: ../data/org.gnome.Eolie.gschema.xml.h:19
 msgid "Popular items shown"
 msgstr "Items populaires affichés"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:21
+#: ../data/org.gnome.Eolie.gschema.xml.h:20
 msgid "Webviews preloaded per window"
 msgstr "Vues web pré-chargées par fenêtre"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22
+#: ../data/org.gnome.Eolie.gschema.xml.h:21
 msgid "Restart needed"
 msgstr "Redémarrage nécessaire"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/ActionsMenu.ui.h:17
+#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/ActionsMenu.ui.h:13
 #: ../data/SettingsDialog.ui.h:29
 msgid "Default zoom level"
 msgstr "Niveau de zoom par défaut"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:23
 msgid "Cookies storage type"
 msgstr "Type de stockage des cookies"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "History storage type"
 msgstr "Type de stockage de l'historique"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:33
+#: ../data/org.gnome.Eolie.gschema.xml.h:25 ../data/SettingsDialog.ui.h:33
 msgid "Tell websites I do not want to be tracked"
 msgstr "Dire aux sites web de ne pas me suivre"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "DNS prediction"
 msgstr "Prédiction DNS"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:28
+#: ../data/org.gnome.Eolie.gschema.xml.h:27
 msgid "Enable search suggestions"
 msgstr "Activer les suggestions de recherche"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:29 ../data/Languages.ui.h:2
+#: ../data/org.gnome.Eolie.gschema.xml.h:28 ../data/LanguagesMenu.ui.h:2
 msgid "Enable spell checking"
 msgstr "Activer la correction orthographique"
 
@@ -322,57 +318,53 @@ msgstr "Pas de vidéos"
 msgid "Do you want to modify this password?"
 msgstr "Voulez vous modifier ce mot de passe?"
 
-#: ../eolie/popover_downloads.py:47
-msgid "Unknown destination"
-msgstr "Destination inconnue"
-
-#: ../eolie/popover_downloads.py:101
+#: ../eolie/popover_downloads.py:97
 msgid "Download speed:"
 msgstr "Vitesse de téléchargement:"
 
-#: ../eolie/popover_downloads.py:103
+#: ../eolie/popover_downloads.py:99
 msgid "bytes/s"
 msgstr "octets/s"
 
-#: ../eolie/popover_downloads.py:106
+#: ../eolie/popover_downloads.py:102
 msgid "KiB/s"
 msgstr "Kio/s"
 
-#: ../eolie/popover_downloads.py:109
+#: ../eolie/popover_downloads.py:105
 msgid "MiB/s"
 msgstr "Mio/s"
 
-#: ../eolie/popover_downloads.py:131 ../eolie/popover_downloads.py:137
+#: ../eolie/popover_downloads.py:127 ../eolie/popover_downloads.py:133
 #, python-format
 msgid "%s second"
 msgstr "%s seconde"
 
-#: ../eolie/popover_downloads.py:133 ../eolie/popover_downloads.py:139
+#: ../eolie/popover_downloads.py:129 ../eolie/popover_downloads.py:135
 #, python-format
 msgid "%s seconds"
 msgstr "%s secondes"
 
-#: ../eolie/popover_downloads.py:145 ../eolie/popover_downloads.py:153
+#: ../eolie/popover_downloads.py:141 ../eolie/popover_downloads.py:149
 #, python-format
 msgid "%s minute"
 msgstr "%s minute"
 
-#: ../eolie/popover_downloads.py:148 ../eolie/popover_downloads.py:155
+#: ../eolie/popover_downloads.py:144 ../eolie/popover_downloads.py:151
 #, python-format
 msgid "%s minutes"
 msgstr "%s minutes"
 
-#: ../eolie/popover_downloads.py:161
+#: ../eolie/popover_downloads.py:157
 #, python-format
 msgid "%s hours"
 msgstr "%s heures"
 
-#: ../eolie/popover_downloads.py:163
+#: ../eolie/popover_downloads.py:159
 #, python-format
 msgid "%s hour"
 msgstr "%s heure"
 
-#: ../eolie/popover_downloads.py:164
+#: ../eolie/popover_downloads.py:160
 msgid "Remaining time:"
 msgstr "Temps restant:"
 
@@ -385,7 +377,7 @@ msgid "Continue"
 msgstr "Continuer"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:433
-#: ../eolie/toolbar_end.py:194 ../eolie/webview_signals.py:129
+#: ../eolie/toolbar_end.py:169 ../eolie/webview_signals.py:129
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -522,23 +514,23 @@ msgstr ""
 msgid "You've received an email to validate synchronization"
 msgstr "Vous avez reçu un email pour valider la synchronisation"
 
-#: ../eolie/toolbar_end.py:158
+#: ../eolie/toolbar_end.py:133
 msgid "Downloading:"
 msgstr "Téléchargement de:"
 
-#: ../eolie/toolbar_end.py:190 ../data/ActionsMenu.ui.h:12
+#: ../eolie/toolbar_end.py:165 ../data/ActionsMenu.ui.h:8
 msgid "Save page"
 msgstr "Enregistrer la page"
 
-#: ../eolie/toolbar_end.py:193 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:168 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Enregistrer"
 
-#: ../eolie/toolbar_end.py:354 ../data/ToolbarEnd.ui.h:1
+#: ../eolie/toolbar_end.py:308 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Quitter le plein écran"
 
-#: ../eolie/toolbar_end.py:356
+#: ../eolie/toolbar_end.py:310
 msgid "Enter fullscreen"
 msgstr "Entrer en plein écran"
 
@@ -546,7 +538,7 @@ msgstr "Entrer en plein écran"
 msgid "This page contains insecure content"
 msgstr "Cette page contient du contenu non sécurisé"
 
-#: ../eolie/toolbar_title.py:317
+#: ../eolie/toolbar_title.py:318
 msgid ""
 "Heads-up: this page is not secure.\n"
 "If you type your password,\n"
@@ -556,23 +548,23 @@ msgstr ""
 "Si vous entrez votre mot de passe,\n"
 " il sera visible aux cybercriminels !"
 
-#: ../eolie/toolbar_title.py:366
+#: ../eolie/toolbar_title.py:367
 msgid "Disallow geolocation"
 msgstr "Refuser la localisation"
 
-#: ../eolie/toolbar_title.py:372
+#: ../eolie/toolbar_title.py:373
 msgid "Blocked popups"
 msgstr "Popups bloqués"
 
-#: ../eolie/toolbar_title.py:453
+#: ../eolie/toolbar_title.py:454
 msgid "Copy address"
 msgstr "Copier l'adresse"
 
-#: ../eolie/toolbar_title.py:513
+#: ../eolie/toolbar_title.py:514
 msgid "Paste and load"
 msgstr "Coller et charger"
 
-#: ../eolie/toolbar_title.py:744 ../eolie/toolbar_title.py:747
+#: ../eolie/toolbar_title.py:745 ../eolie/toolbar_title.py:748
 msgid "Search or enter address"
 msgstr "Rechercher ou entrer une adresse"
 
@@ -613,43 +605,43 @@ msgstr "Vérifiez votre connexion réseau"
 msgid "Retry"
 msgstr "Réessayer"
 
-#: ../eolie/webview_errors.py:170
+#: ../eolie/webview_errors.py:171
 msgid "The certificate does not match this website"
 msgstr "Ce certificat ne correspond pas à ce site web"
 
-#: ../eolie/webview_errors.py:172
+#: ../eolie/webview_errors.py:173
 msgid "The certificate has expired"
 msgstr "Le certificat a expiré"
 
-#: ../eolie/webview_errors.py:174
+#: ../eolie/webview_errors.py:175
 msgid "The signing certificate authority is not known"
 msgstr "L’autorité de certification n'est pas connue"
 
-#: ../eolie/webview_errors.py:176
+#: ../eolie/webview_errors.py:177
 msgid "The certificate contains errors"
 msgstr "Le certificat contient des erreurs"
 
-#: ../eolie/webview_errors.py:178
+#: ../eolie/webview_errors.py:179
 msgid "The certificate has been revoked"
 msgstr "Le certificat a été révoqué"
 
-#: ../eolie/webview_errors.py:180
+#: ../eolie/webview_errors.py:181
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Le certificat utilise une signature trop faible"
 
-#: ../eolie/webview_errors.py:184
+#: ../eolie/webview_errors.py:185
 msgid "The certificate activation time is still in the future"
 msgstr "La date d'activation du certificat est dans le futur"
 
-#: ../eolie/webview_errors.py:186
+#: ../eolie/webview_errors.py:187
 msgid "The identity of this website has not been verified"
 msgstr "L'identité du site web n'a pas été vérifiée"
 
-#: ../eolie/webview_errors.py:187 ../eolie/webview_errors.py:191
+#: ../eolie/webview_errors.py:188 ../eolie/webview_errors.py:192
 msgid "Connection is not secure"
 msgstr "La connexion n'est pas sécurisée"
 
-#: ../eolie/webview_errors.py:193
+#: ../eolie/webview_errors.py:194
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -661,15 +653,15 @@ msgstr ""
 "informations allant ou provenant de ce site (par exemple : des messages "
 "privés, des informations de carte de crédit, ou des mots de passe)."
 
-#: ../eolie/webview_errors.py:199
+#: ../eolie/webview_errors.py:200
 msgid "Accept Risk and Proceed"
 msgstr "Accepter le risque et continuer"
 
-#: ../eolie/webview_errors.py:215 ../eolie/webview_errors.py:220
+#: ../eolie/webview_errors.py:216 ../eolie/webview_errors.py:221
 msgid "WebKit web engine crashed"
 msgstr "Le moteur web de WebKit a cessé de fonctionner"
 
-#: ../eolie/webview_errors.py:222
+#: ../eolie/webview_errors.py:223
 msgid ""
 "The webpage was terminated unexpectedly.To continue, reload or go to another "
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
@@ -680,7 +672,7 @@ msgstr ""
 "vous pouvez rapporter un bug :)<br/>Utiliser <b>Webkit Gtk</b> comme "
 "composant.<br/>Ajouter <b>[GTK]</b> comme préfixe du sujet."
 
-#: ../eolie/webview_errors.py:228
+#: ../eolie/webview_errors.py:229
 msgid "Report a bug now"
 msgstr "Rapporter un bug maintenant"
 
@@ -782,74 +774,56 @@ msgid "Do not block ads"
 msgstr "Ne pas bloquer les publicités"
 
 #: ../data/ActionsMenu.ui.h:6
-msgid "Do not block images"
-msgstr "Ne pas bloquer les images"
-
-#: ../data/ActionsMenu.ui.h:7
-msgctxt "Image exception"
-msgid "None"
-msgstr "Aucune"
-
-#: ../data/ActionsMenu.ui.h:8
 msgid "Do not block popups"
 msgstr "Ne pas bloquer les popups"
 
-#: ../data/ActionsMenu.ui.h:9
+#: ../data/ActionsMenu.ui.h:7
 msgctxt "Popup exception"
 msgid "None"
 msgstr "Aucune"
 
-#: ../data/ActionsMenu.ui.h:10
-msgid "Do not block JavaScript"
-msgstr "Ne pas bloquer JavaScript"
-
-#: ../data/ActionsMenu.ui.h:11
-msgctxt "JavasSript exception"
-msgid "None"
-msgstr "Aucune"
-
-#: ../data/ActionsMenu.ui.h:13
+#: ../data/ActionsMenu.ui.h:9
 msgid "Print page"
 msgstr "Imprimer la page"
 
-#: ../data/ActionsMenu.ui.h:14
+#: ../data/ActionsMenu.ui.h:10
 msgid "Start page"
 msgstr "Page de démarrage"
 
-#: ../data/ActionsMenu.ui.h:15 ../data/SettingsDialog.ui.h:2
+#: ../data/ActionsMenu.ui.h:11 ../data/SettingsDialog.ui.h:2
 #: ../data/ToolbarEnd.ui.h:4
 msgid "Downloads"
 msgstr "Téléchargements"
 
-#: ../data/ActionsMenu.ui.h:16
+#: ../data/ActionsMenu.ui.h:12
 msgid "Zoom out"
 msgstr "Dé-zoomer"
 
-#: ../data/ActionsMenu.ui.h:18
+#: ../data/ActionsMenu.ui.h:14
 msgid "Zoom in"
 msgstr "Zoomer"
 
-#: ../data/ActionsMenu.ui.h:19
+#: ../data/ActionsMenu.ui.h:15
 msgid "Block ads"
 msgstr "Bloquer les publicités"
 
-#: ../data/ActionsMenu.ui.h:20
+#: ../data/ActionsMenu.ui.h:16
 msgid "Block popups"
 msgstr "Bloquer les popups"
 
-#: ../data/ActionsMenu.ui.h:21
+#: ../data/ActionsMenu.ui.h:17
 msgid "Block images"
 msgstr "Bloquer les images"
 
-#: ../data/ActionsMenu.ui.h:22
+#: ../data/ActionsMenu.ui.h:18
 msgid "Block JavaScript"
 msgstr "Bloquer JavaScript"
 
-#: ../data/ActionsMenu.ui.h:23
+#: ../data/ActionsMenu.ui.h:19
 msgid "Filtering"
 msgstr "Filtrage"
 
-#: ../data/ActionsMenu.ui.h:24 ../data/Languages.ui.h:1
+#: ../data/ActionsMenu.ui.h:20 ../data/LanguagesMenu.ui.h:1
 msgid "Spell checking"
 msgstr "Correction orthographique"
 
@@ -1080,6 +1054,15 @@ msgstr "Fermer"
 #: ../data/RowDownload.ui.h:1
 msgid "Cancel download"
 msgstr "Annuler le téléchargement"
+
+#: ../data/ScriptsMenu.ui.h:1
+#, fuzzy
+msgid "Block javascript"
+msgstr "Bloquer JavaScript"
+
+#: ../data/ScriptsMenu.ui.h:2
+msgid "Enable javascript blocker"
+msgstr ""
 
 #: ../data/SettingsDialog.ui.h:3
 msgid "Download folder:"
@@ -1422,6 +1405,26 @@ msgstr "Ne plus autoriser l'accès à ce site"
 #: ../data/ToolbarEnd.ui.h:5
 msgid "Startup page"
 msgstr "Page de démarrage"
+
+#~ msgid "Block images on pages"
+#~ msgstr "Bloquer les images sur les pages"
+
+#~ msgid "Unknown destination"
+#~ msgstr "Destination inconnue"
+
+#~ msgid "Do not block images"
+#~ msgstr "Ne pas bloquer les images"
+
+#~ msgctxt "Image exception"
+#~ msgid "None"
+#~ msgstr "Aucune"
+
+#~ msgid "Do not block JavaScript"
+#~ msgstr "Ne pas bloquer JavaScript"
+
+#~ msgctxt "JavasSript exception"
+#~ msgid "None"
+#~ msgstr "Aucune"
 
 #~ msgid "Profiles manager"
 #~ msgstr "Gestionnaire de profils"
