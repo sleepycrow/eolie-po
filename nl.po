@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-02 17:34+0100\n"
-"PO-Revision-Date: 2017-11-28 09:22+0000\n"
+"PO-Revision-Date: 2017-12-02 20:50+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
 "Language: nl\n"
@@ -1051,13 +1051,12 @@ msgid "Cancel download"
 msgstr "Download annuleren"
 
 #: ../data/ScriptsMenu.ui.h:1
-#, fuzzy
 msgid "Block javascript"
 msgstr "JavaScript blokkeren"
 
 #: ../data/ScriptsMenu.ui.h:2
 msgid "Enable javascript blocker"
-msgstr ""
+msgstr "JavaScript-blokkering inschakelen"
 
 #: ../data/SettingsDialog.ui.h:3
 msgid "Download folder:"
@@ -1395,7 +1394,7 @@ msgstr "Meer acties"
 
 #: ../data/ToolbarEnd.ui.h:3
 msgid "Disallow access to this site"
-msgstr ""
+msgstr "Toegang tot deze site blokkeren"
 
 #: ../data/ToolbarEnd.ui.h:5
 msgid "Startup page"
