@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-02 17:34+0100\n"
-"PO-Revision-Date: 2017-12-05 02:51+0000\n"
+"PO-Revision-Date: 2017-12-06 03:44+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -184,7 +184,7 @@ msgstr "التسوّق"
 
 #: ../eolie/application.py:234
 msgid "Personal"
-msgstr "شخصي"
+msgstr "الشخصي"
 
 #: ../eolie/application.py:235
 msgid "Finance"
@@ -425,7 +425,7 @@ msgstr "من اليوم الفائت"
 
 #: ../eolie/popover_uri.py:824
 msgid "From the past week"
-msgstr "من الأسبوع الماضي"
+msgstr "من الأسبوع الفائت"
 
 #: ../eolie/popover_uri.py:826
 msgid "From the past four weeks"
@@ -625,7 +625,7 @@ msgstr "الشهادة منقوضة"
 
 #: ../eolie/webview_errors.py:181
 msgid "The certificate is signed using a weak signature algorithm"
-msgstr "الشهادة موقّعة بخوارزمية تشفير ضعيفة"
+msgstr "الشهادة موقّعة بخوارزمية توقيع ضعيفة"
 
 #: ../eolie/webview_errors.py:185
 msgid "The certificate activation time is still in the future"
@@ -674,7 +674,7 @@ msgstr "أبلغ عن علة الآن"
 
 #: ../eolie/webview_signals_js.py:92
 msgid "Eolie is going to close this page because it is broken"
-msgstr "سيغلق أيولي هذه الصفحة المتعطلة"
+msgstr "سيغلق أيولي هذه الصفحة لأنها قد تعطلت"
 
 #: ../eolie/webview_signals_menu.py:67
 msgid "Reload preview"
@@ -912,7 +912,7 @@ msgstr "اليوم الفائت"
 
 #: ../data/DialogClearData.ui.h:10
 msgid "the past week"
-msgstr "الأسبوع الماضي"
+msgstr "الأسبوع الفائت"
 
 #: ../data/DialogClearData.ui.h:11
 msgid "the past four weeks"
@@ -985,7 +985,7 @@ msgid ""
 "from the resulting address and replace it with %s."
 msgstr ""
 "لكي تحصل على عنوان البحث، ابحث باستعمال محرك البحث الذي تريد إضافته وافحص "
-"العنوان الناتج، واحذف كلمة البحث من العنوان الناتج واستبدله بـ %s."
+"العنوان الناتج، ثم احذف كلمة البحث من العنوان الناتج وضع مكانه %s."
 
 #: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
@@ -1001,7 +1001,7 @@ msgstr "افتح مجلد التنزيلات"
 
 #: ../data/PopoverDownloads.ui.h:2
 msgid "Clear finished downloads"
-msgstr "افتح التنزيلات التي تمت"
+msgstr "امح التنزيلات التامّة"
 
 #: ../data/PopoverDownloads.ui.h:3
 msgid "No active download"
@@ -1145,7 +1145,7 @@ msgstr "اقبل دائمًا"
 
 #: ../data/SettingsDialog.ui.h:39
 msgid "Only from sites you visit"
-msgstr "فقط من الصفحات التي زرتها"
+msgstr "اقبل من الصفحات التي زرتها فقط"
 
 #: ../data/SettingsDialog.ui.h:40
 msgid "Never accept"
