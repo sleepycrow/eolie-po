@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-07 16:10+0100\n"
-"PO-Revision-Date: 2017-12-06 03:44+0000\n"
+"PO-Revision-Date: 2017-12-07 15:20+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/eolie/eolie/ar/>\n"
 "Language: ar\n"
@@ -284,10 +284,9 @@ msgstr "الشهادات المحفوظة"
 
 #: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:74
 msgid "Move to"
-msgstr ""
+msgstr "انقل إلى"
 
 #: ../eolie/menu_move_to.py:63
-#, fuzzy
 msgid "New window"
 msgstr "نافذة جديدة"
 
