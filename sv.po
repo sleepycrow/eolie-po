@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-07 16:10+0100\n"
-"PO-Revision-Date: 2017-12-07 13:15+0000\n"
+"PO-Revision-Date: 2017-12-07 20:56+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
-">\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/>"
+"\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -284,10 +284,9 @@ msgstr "Sparade användaruppgifter"
 
 #: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:74
 msgid "Move to"
-msgstr ""
+msgstr "Flytta till"
 
 #: ../eolie/menu_move_to.py:63
-#, fuzzy
 msgid "New window"
 msgstr "Nytt fönster"
 
