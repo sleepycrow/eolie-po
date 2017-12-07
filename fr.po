@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-02 17:34+0100\n"
+"POT-Creation-Date: 2017-12-07 16:10+0100\n"
 "PO-Revision-Date: 2017-12-02 17:53+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
@@ -205,7 +205,7 @@ msgstr "Des téléchargements sont en cours, voulez vous vraiment quitter ?"
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Vous devez installer yelp."
 
-#: ../eolie/container.py:550
+#: ../eolie/container.py:597
 msgid "Do you really want to close this page?"
 msgstr "Voulez vous vraiment fermer cette page?"
 
@@ -277,9 +277,18 @@ msgstr "Importer des marques pages HTML"
 msgid "New engine"
 msgstr "Nouveau moteur"
 
-#: ../eolie/menu_form.py:34
+#: ../eolie/menu_form.py:36
 msgid "Saved credentials"
 msgstr "Identifiants enregistrés"
+
+#: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:74
+msgid "Move to"
+msgstr ""
+
+#: ../eolie/menu_move_to.py:63
+#, fuzzy
+msgid "New window"
+msgstr "Nouvelle fenêtre"
 
 #. Setup menu
 #: ../eolie/menu_pages.py:43
@@ -294,23 +303,23 @@ msgstr "Pages fermées"
 msgid "Open all pages"
 msgstr "Ouvrir toutes les pages"
 
-#: ../eolie/menu_sites.py:60
+#: ../eolie/menu_profiles.py:44 ../eolie/menu_sites.py:68
 msgid "Profiles"
 msgstr "Profils"
 
-#: ../eolie/menu_sites.py:65
-msgid "Modify user agent"
-msgstr "Modifier le \"user agent\""
-
-#: ../eolie/menu_sites.py:72
-msgid "Close site"
-msgstr "Fermer le site"
-
-#: ../eolie/menu_sites.py:114
+#: ../eolie/menu_profiles.py:90
 msgid "Edit profiles"
 msgstr "Modifier les profils"
 
-#: ../eolie/menu_videos.py:69
+#: ../eolie/menu_sites.py:84
+msgid "Modify user agent"
+msgstr "Modifier le \"user agent\""
+
+#: ../eolie/menu_sites.py:93
+msgid "Close site"
+msgstr "Fermer le site"
+
+#: ../eolie/menu_videos.py:78
 msgid "No videos"
 msgstr "Pas de vidéos"
 
@@ -377,7 +386,7 @@ msgid "Continue"
 msgstr "Continuer"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:433
-#: ../eolie/toolbar_end.py:169 ../eolie/webview_signals.py:129
+#: ../eolie/toolbar_end.py:170 ../eolie/webview_signals.py:129
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -444,7 +453,7 @@ msgid "%s bookmarks"
 msgstr "%s marques pages"
 
 #. Translators: Google url for your country
-#: ../eolie/search.py:36
+#: ../eolie/search.py:36 ../eolie/search.py:37
 msgid "https://www.google.com"
 msgstr "https://www.google.fr"
 
@@ -514,23 +523,23 @@ msgstr ""
 msgid "You've received an email to validate synchronization"
 msgstr "Vous avez reçu un email pour valider la synchronisation"
 
-#: ../eolie/toolbar_end.py:133
+#: ../eolie/toolbar_end.py:134
 msgid "Downloading:"
 msgstr "Téléchargement de:"
 
-#: ../eolie/toolbar_end.py:165 ../data/ActionsMenu.ui.h:8
+#: ../eolie/toolbar_end.py:166 ../data/ActionsMenu.ui.h:8
 msgid "Save page"
 msgstr "Enregistrer la page"
 
-#: ../eolie/toolbar_end.py:168 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:169 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Enregistrer"
 
-#: ../eolie/toolbar_end.py:308 ../data/ToolbarEnd.ui.h:1
+#: ../eolie/toolbar_end.py:310 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Quitter le plein écran"
 
-#: ../eolie/toolbar_end.py:310
+#: ../eolie/toolbar_end.py:312
 msgid "Enter fullscreen"
 msgstr "Entrer en plein écran"
 
@@ -568,24 +577,24 @@ msgstr "Coller et charger"
 msgid "Search or enter address"
 msgstr "Rechercher ou entrer une adresse"
 
-#: ../eolie/webview_errors.py:74
+#: ../eolie/webview_errors.py:66
 msgid "This page is dangerous"
 msgstr "Cette page est dangereuse"
 
-#: ../eolie/webview_errors.py:75
+#: ../eolie/webview_errors.py:67
 msgid "Eolie will not display this page"
 msgstr "Eolie n'affichera pas cette page"
 
-#: ../eolie/webview_errors.py:82
+#: ../eolie/webview_errors.py:74
 #, python-format
 msgid "%s is a phishing page"
 msgstr "%s est une page de hameçonnage"
 
-#: ../eolie/webview_errors.py:126
+#: ../eolie/webview_errors.py:118
 msgid "Failed to load this web page"
 msgstr "Erreur lors du chargement de cette page"
 
-#: ../eolie/webview_errors.py:127
+#: ../eolie/webview_errors.py:119
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -593,55 +602,55 @@ msgstr ""
 "Elle est peut être temporairement inaccessible ou déplacée à une nouvelle "
 "adresse.<br/>Vérifiez que votre connexion fonctionne correctement."
 
-#: ../eolie/webview_errors.py:133
+#: ../eolie/webview_errors.py:125
 msgid "Network not available"
 msgstr "Réseau non disponible"
 
-#: ../eolie/webview_errors.py:134
+#: ../eolie/webview_errors.py:126
 msgid "Check your network connection"
 msgstr "Vérifiez votre connexion réseau"
 
-#: ../eolie/webview_errors.py:144
+#: ../eolie/webview_errors.py:136
 msgid "Retry"
 msgstr "Réessayer"
 
-#: ../eolie/webview_errors.py:171
+#: ../eolie/webview_errors.py:162
 msgid "The certificate does not match this website"
 msgstr "Ce certificat ne correspond pas à ce site web"
 
-#: ../eolie/webview_errors.py:173
+#: ../eolie/webview_errors.py:164
 msgid "The certificate has expired"
 msgstr "Le certificat a expiré"
 
-#: ../eolie/webview_errors.py:175
+#: ../eolie/webview_errors.py:166
 msgid "The signing certificate authority is not known"
 msgstr "L’autorité de certification n'est pas connue"
 
-#: ../eolie/webview_errors.py:177
+#: ../eolie/webview_errors.py:168
 msgid "The certificate contains errors"
 msgstr "Le certificat contient des erreurs"
 
-#: ../eolie/webview_errors.py:179
+#: ../eolie/webview_errors.py:170
 msgid "The certificate has been revoked"
 msgstr "Le certificat a été révoqué"
 
-#: ../eolie/webview_errors.py:181
+#: ../eolie/webview_errors.py:172
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Le certificat utilise une signature trop faible"
 
-#: ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:176
 msgid "The certificate activation time is still in the future"
 msgstr "La date d'activation du certificat est dans le futur"
 
-#: ../eolie/webview_errors.py:187
+#: ../eolie/webview_errors.py:178
 msgid "The identity of this website has not been verified"
 msgstr "L'identité du site web n'a pas été vérifiée"
 
-#: ../eolie/webview_errors.py:188 ../eolie/webview_errors.py:192
+#: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:183
 msgid "Connection is not secure"
 msgstr "La connexion n'est pas sécurisée"
 
-#: ../eolie/webview_errors.py:194
+#: ../eolie/webview_errors.py:185
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -653,15 +662,15 @@ msgstr ""
 "informations allant ou provenant de ce site (par exemple : des messages "
 "privés, des informations de carte de crédit, ou des mots de passe)."
 
-#: ../eolie/webview_errors.py:200
+#: ../eolie/webview_errors.py:191
 msgid "Accept Risk and Proceed"
 msgstr "Accepter le risque et continuer"
 
-#: ../eolie/webview_errors.py:216 ../eolie/webview_errors.py:221
+#: ../eolie/webview_errors.py:207 ../eolie/webview_errors.py:212
 msgid "WebKit web engine crashed"
 msgstr "Le moteur web de WebKit a cessé de fonctionner"
 
-#: ../eolie/webview_errors.py:223
+#: ../eolie/webview_errors.py:214
 msgid ""
 "The webpage was terminated unexpectedly.To continue, reload or go to another "
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
@@ -672,7 +681,7 @@ msgstr ""
 "vous pouvez rapporter un bug :)<br/>Utiliser <b>Webkit Gtk</b> comme "
 "composant.<br/>Ajouter <b>[GTK]</b> comme préfixe du sujet."
 
-#: ../eolie/webview_errors.py:229
+#: ../eolie/webview_errors.py:220
 msgid "Report a bug now"
 msgstr "Rapporter un bug maintenant"
 
@@ -815,7 +824,7 @@ msgstr "Bloquer les popups"
 msgid "Block images"
 msgstr "Bloquer les images"
 
-#: ../data/ActionsMenu.ui.h:18
+#: ../data/ActionsMenu.ui.h:18 ../data/ScriptsMenu.ui.h:1
 msgid "Block JavaScript"
 msgstr "Bloquer JavaScript"
 
@@ -1054,11 +1063,6 @@ msgstr "Fermer"
 #: ../data/RowDownload.ui.h:1
 msgid "Cancel download"
 msgstr "Annuler le téléchargement"
-
-#: ../data/ScriptsMenu.ui.h:1
-#, fuzzy
-msgid "Block javascript"
-msgstr "Bloquer JavaScript"
 
 #: ../data/ScriptsMenu.ui.h:2
 msgid "Enable javascript blocker"
@@ -1405,6 +1409,10 @@ msgstr "Ne plus autoriser l'accès à ce site"
 #: ../data/ToolbarEnd.ui.h:5
 msgid "Startup page"
 msgstr "Page de démarrage"
+
+#, fuzzy
+#~ msgid "Block javascript"
+#~ msgstr "Bloquer JavaScript"
 
 #~ msgid "Block images on pages"
 #~ msgstr "Bloquer les images sur les pages"

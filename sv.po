@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-02 17:34+0100\n"
+"POT-Creation-Date: 2017-12-07 16:10+0100\n"
 "PO-Revision-Date: 2017-12-07 13:15+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/>"
-"\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/eolie/eolie/sv/"
+">\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -206,7 +206,7 @@ msgstr "Hämtningar pågår, är du säker att du vill avsluta ?"
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: Du behöver installera yelp."
 
-#: ../eolie/container.py:550
+#: ../eolie/container.py:597
 msgid "Do you really want to close this page?"
 msgstr "Vill du verkligen stänga denna sida?"
 
@@ -278,9 +278,18 @@ msgstr "Importera HTML-bokmärken"
 msgid "New engine"
 msgstr "Ny motor"
 
-#: ../eolie/menu_form.py:34
+#: ../eolie/menu_form.py:36
 msgid "Saved credentials"
 msgstr "Sparade användaruppgifter"
+
+#: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:74
+msgid "Move to"
+msgstr ""
+
+#: ../eolie/menu_move_to.py:63
+#, fuzzy
+msgid "New window"
+msgstr "Nytt fönster"
 
 #. Setup menu
 #: ../eolie/menu_pages.py:43
@@ -295,23 +304,23 @@ msgstr "Stängda sidor"
 msgid "Open all pages"
 msgstr "Öppna alla sidor"
 
-#: ../eolie/menu_sites.py:60
+#: ../eolie/menu_profiles.py:44 ../eolie/menu_sites.py:68
 msgid "Profiles"
 msgstr "Profiler"
 
-#: ../eolie/menu_sites.py:65
-msgid "Modify user agent"
-msgstr "Ändra användaragent"
-
-#: ../eolie/menu_sites.py:72
-msgid "Close site"
-msgstr "Stäng webbplats"
-
-#: ../eolie/menu_sites.py:114
+#: ../eolie/menu_profiles.py:90
 msgid "Edit profiles"
 msgstr "Redigera profiler"
 
-#: ../eolie/menu_videos.py:69
+#: ../eolie/menu_sites.py:84
+msgid "Modify user agent"
+msgstr "Ändra användaragent"
+
+#: ../eolie/menu_sites.py:93
+msgid "Close site"
+msgstr "Stäng webbplats"
+
+#: ../eolie/menu_videos.py:78
 msgid "No videos"
 msgstr "Inga videoklipp"
 
@@ -378,7 +387,7 @@ msgid "Continue"
 msgstr "Fortsätt"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:433
-#: ../eolie/toolbar_end.py:169 ../eolie/webview_signals.py:129
+#: ../eolie/toolbar_end.py:170 ../eolie/webview_signals.py:129
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -445,7 +454,7 @@ msgid "%s bookmarks"
 msgstr "%s bokmärken"
 
 #. Translators: Google url for your country
-#: ../eolie/search.py:36
+#: ../eolie/search.py:36 ../eolie/search.py:37
 msgid "https://www.google.com"
 msgstr "https://www.google.se/"
 
@@ -514,23 +523,23 @@ msgstr ""
 msgid "You've received an email to validate synchronization"
 msgstr "Du har fått ett e-postmeddelande för att validera synkronisering"
 
-#: ../eolie/toolbar_end.py:133
+#: ../eolie/toolbar_end.py:134
 msgid "Downloading:"
 msgstr "Hämtar:"
 
-#: ../eolie/toolbar_end.py:165 ../data/ActionsMenu.ui.h:8
+#: ../eolie/toolbar_end.py:166 ../data/ActionsMenu.ui.h:8
 msgid "Save page"
 msgstr "Spara sida"
 
-#: ../eolie/toolbar_end.py:168 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:169 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Spara"
 
-#: ../eolie/toolbar_end.py:308 ../data/ToolbarEnd.ui.h:1
+#: ../eolie/toolbar_end.py:310 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Lämna helskärm"
 
-#: ../eolie/toolbar_end.py:310
+#: ../eolie/toolbar_end.py:312
 msgid "Enter fullscreen"
 msgstr "Helskärmsläge"
 
@@ -568,24 +577,24 @@ msgstr "Klistra in och läs in"
 msgid "Search or enter address"
 msgstr "Sök eller ange adress"
 
-#: ../eolie/webview_errors.py:74
+#: ../eolie/webview_errors.py:66
 msgid "This page is dangerous"
 msgstr "Denna sida är farlig"
 
-#: ../eolie/webview_errors.py:75
+#: ../eolie/webview_errors.py:67
 msgid "Eolie will not display this page"
 msgstr "Eolie kommer inte att visa denna sida"
 
-#: ../eolie/webview_errors.py:82
+#: ../eolie/webview_errors.py:74
 #, python-format
 msgid "%s is a phishing page"
 msgstr "%s är en nätfiskesida"
 
-#: ../eolie/webview_errors.py:126
+#: ../eolie/webview_errors.py:118
 msgid "Failed to load this web page"
 msgstr "Misslyckades med att läsa in denna webbsida"
 
-#: ../eolie/webview_errors.py:127
+#: ../eolie/webview_errors.py:119
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -593,55 +602,55 @@ msgstr ""
 "Den kan vara tillfälligt oåtkomlig eller ha flyttat till en ny adress.<br/"
 ">Du kan vilja bekräfta att din internetanslutning fungerar korrekt."
 
-#: ../eolie/webview_errors.py:133
+#: ../eolie/webview_errors.py:125
 msgid "Network not available"
 msgstr "Nätverket är inte tillgängligt"
 
-#: ../eolie/webview_errors.py:134
+#: ../eolie/webview_errors.py:126
 msgid "Check your network connection"
 msgstr "Kontrollera din nätverksanslutning"
 
-#: ../eolie/webview_errors.py:144
+#: ../eolie/webview_errors.py:136
 msgid "Retry"
 msgstr "Försök igen"
 
-#: ../eolie/webview_errors.py:171
+#: ../eolie/webview_errors.py:162
 msgid "The certificate does not match this website"
 msgstr "Certifikatet överensstämmer inte med denna webbplats"
 
-#: ../eolie/webview_errors.py:173
+#: ../eolie/webview_errors.py:164
 msgid "The certificate has expired"
 msgstr "Certifikatet har gått ut"
 
-#: ../eolie/webview_errors.py:175
+#: ../eolie/webview_errors.py:166
 msgid "The signing certificate authority is not known"
 msgstr "Signeringscertifikatets utfärdare är okänd"
 
-#: ../eolie/webview_errors.py:177
+#: ../eolie/webview_errors.py:168
 msgid "The certificate contains errors"
 msgstr "Certifikatet innehåller fel"
 
-#: ../eolie/webview_errors.py:179
+#: ../eolie/webview_errors.py:170
 msgid "The certificate has been revoked"
 msgstr "Certifikatet har spärrats"
 
-#: ../eolie/webview_errors.py:181
+#: ../eolie/webview_errors.py:172
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Certifikatet är signerat med en svag algoritm på signaturen"
 
-#: ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:176
 msgid "The certificate activation time is still in the future"
 msgstr "Aktiveringstiden för certifikatet ligger fortfarande i framtiden"
 
-#: ../eolie/webview_errors.py:187
+#: ../eolie/webview_errors.py:178
 msgid "The identity of this website has not been verified"
 msgstr "Denna webbplats identitet har inte verifierats"
 
-#: ../eolie/webview_errors.py:188 ../eolie/webview_errors.py:192
+#: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:183
 msgid "Connection is not secure"
 msgstr "Anslutning är inte säker"
 
-#: ../eolie/webview_errors.py:194
+#: ../eolie/webview_errors.py:185
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -652,15 +661,15 @@ msgstr ""
 "eller ändra information som går till eller från denna webbplats (till "
 "exempel privata meddelanden, kreditkortsinformation eller lösenord)."
 
-#: ../eolie/webview_errors.py:200
+#: ../eolie/webview_errors.py:191
 msgid "Accept Risk and Proceed"
 msgstr "Acceptera risken och fortsätt"
 
-#: ../eolie/webview_errors.py:216 ../eolie/webview_errors.py:221
+#: ../eolie/webview_errors.py:207 ../eolie/webview_errors.py:212
 msgid "WebKit web engine crashed"
 msgstr "WebKit-webbmotor kraschade"
 
-#: ../eolie/webview_errors.py:223
+#: ../eolie/webview_errors.py:214
 msgid ""
 "The webpage was terminated unexpectedly.To continue, reload or go to another "
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
@@ -671,7 +680,7 @@ msgstr ""
 ">Använd <b>'Webkit Gtk'</b> som komponent.<br/>Ställ in <b>[GTK]</b> som "
 "ämnesprefix."
 
-#: ../eolie/webview_errors.py:229
+#: ../eolie/webview_errors.py:220
 msgid "Report a bug now"
 msgstr "Rapportera ett fel nu"
 
@@ -814,7 +823,7 @@ msgstr "Blockera poppupper"
 msgid "Block images"
 msgstr "Blockera bilder"
 
-#: ../data/ActionsMenu.ui.h:18
+#: ../data/ActionsMenu.ui.h:18 ../data/ScriptsMenu.ui.h:1
 msgid "Block JavaScript"
 msgstr "Blockera JavaScript"
 
@@ -1051,10 +1060,6 @@ msgstr "Stäng"
 #: ../data/RowDownload.ui.h:1
 msgid "Cancel download"
 msgstr "Avbryt hämtning"
-
-#: ../data/ScriptsMenu.ui.h:1
-msgid "Block javascript"
-msgstr "Blockera Javascript"
 
 #: ../data/ScriptsMenu.ui.h:2
 msgid "Enable javascript blocker"
@@ -1401,6 +1406,9 @@ msgstr "Neka åtkomst för denna webbplats"
 #: ../data/ToolbarEnd.ui.h:5
 msgid "Startup page"
 msgstr "Startsida"
+
+#~ msgid "Block javascript"
+#~ msgstr "Blockera Javascript"
 
 #~ msgid "Block images on pages"
 #~ msgstr "Blockera bilder på sidor"

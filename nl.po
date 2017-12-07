@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-02 17:34+0100\n"
+"POT-Creation-Date: 2017-12-07 16:10+0100\n"
 "PO-Revision-Date: 2017-12-02 20:50+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/eolie/eolie/nl/>\n"
@@ -203,7 +203,7 @@ msgstr ""
 msgid "Eolie: You need to install yelp."
 msgstr "Eolie: u moet yelp installeren."
 
-#: ../eolie/container.py:550
+#: ../eolie/container.py:597
 msgid "Do you really want to close this page?"
 msgstr "Weet u zeker dat u deze pagina wilt sluiten?"
 
@@ -275,9 +275,18 @@ msgstr "HTML-bladwijzers importeren"
 msgid "New engine"
 msgstr "Nieuwe zoekmachine"
 
-#: ../eolie/menu_form.py:34
+#: ../eolie/menu_form.py:36
 msgid "Saved credentials"
 msgstr "Opgeslagen gebruikersreferenties"
+
+#: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:74
+msgid "Move to"
+msgstr ""
+
+#: ../eolie/menu_move_to.py:63
+#, fuzzy
+msgid "New window"
+msgstr "Nieuw venster"
 
 #. Setup menu
 #: ../eolie/menu_pages.py:43
@@ -292,23 +301,23 @@ msgstr "Gesloten tabbladen"
 msgid "Open all pages"
 msgstr "Alle pagina’s openen"
 
-#: ../eolie/menu_sites.py:60
+#: ../eolie/menu_profiles.py:44 ../eolie/menu_sites.py:68
 msgid "Profiles"
 msgstr "Profielen"
 
-#: ../eolie/menu_sites.py:65
-msgid "Modify user agent"
-msgstr "Gebruikersagent wijzigen"
-
-#: ../eolie/menu_sites.py:72
-msgid "Close site"
-msgstr "Site sluiten"
-
-#: ../eolie/menu_sites.py:114
+#: ../eolie/menu_profiles.py:90
 msgid "Edit profiles"
 msgstr "Profielen bewerken"
 
-#: ../eolie/menu_videos.py:69
+#: ../eolie/menu_sites.py:84
+msgid "Modify user agent"
+msgstr "Gebruikersagent wijzigen"
+
+#: ../eolie/menu_sites.py:93
+msgid "Close site"
+msgstr "Site sluiten"
+
+#: ../eolie/menu_videos.py:78
 msgid "No videos"
 msgstr "Geen video’s"
 
@@ -375,7 +384,7 @@ msgid "Continue"
 msgstr "Verdergaan"
 
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:433
-#: ../eolie/toolbar_end.py:169 ../eolie/webview_signals.py:129
+#: ../eolie/toolbar_end.py:170 ../eolie/webview_signals.py:129
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -442,7 +451,7 @@ msgid "%s bookmarks"
 msgstr "%s bladwijzers"
 
 #. Translators: Google url for your country
-#: ../eolie/search.py:36
+#: ../eolie/search.py:36 ../eolie/search.py:37
 msgid "https://www.google.com"
 msgstr "https://www.google.be"
 
@@ -509,23 +518,23 @@ msgstr "Synchronisatie is niet beschikbaar op uw computer: %s"
 msgid "You've received an email to validate synchronization"
 msgstr "U heeft een e-mail ontvangen om de synchronisatie te valideren"
 
-#: ../eolie/toolbar_end.py:133
+#: ../eolie/toolbar_end.py:134
 msgid "Downloading:"
 msgstr "Downloaden:"
 
-#: ../eolie/toolbar_end.py:165 ../data/ActionsMenu.ui.h:8
+#: ../eolie/toolbar_end.py:166 ../data/ActionsMenu.ui.h:8
 msgid "Save page"
 msgstr "Pagina opslaan"
 
-#: ../eolie/toolbar_end.py:168 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:169 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Opslaan"
 
-#: ../eolie/toolbar_end.py:308 ../data/ToolbarEnd.ui.h:1
+#: ../eolie/toolbar_end.py:310 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
 msgstr "Volledig scherm verlaten"
 
-#: ../eolie/toolbar_end.py:310
+#: ../eolie/toolbar_end.py:312
 msgid "Enter fullscreen"
 msgstr "Volledig scherm"
 
@@ -563,24 +572,24 @@ msgstr "Plakken en laden"
 msgid "Search or enter address"
 msgstr "Zoek of voer een adres in"
 
-#: ../eolie/webview_errors.py:74
+#: ../eolie/webview_errors.py:66
 msgid "This page is dangerous"
 msgstr "Deze pagina is gevaarlijk"
 
-#: ../eolie/webview_errors.py:75
+#: ../eolie/webview_errors.py:67
 msgid "Eolie will not display this page"
 msgstr "Eolie zal deze pagina niet weergeven"
 
-#: ../eolie/webview_errors.py:82
+#: ../eolie/webview_errors.py:74
 #, python-format
 msgid "%s is a phishing page"
 msgstr "%s is een phishing-pagina"
 
-#: ../eolie/webview_errors.py:126
+#: ../eolie/webview_errors.py:118
 msgid "Failed to load this web page"
 msgstr "Laden van webpagina mislukt"
 
-#: ../eolie/webview_errors.py:127
+#: ../eolie/webview_errors.py:119
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -588,55 +597,55 @@ msgstr ""
 "Mogelijk is ze tijdelijk niet beschikbaar, of verplaatst naar een nieuw "
 "adres.<br/>U kunt ook controleren of uw internetverbinding wel correct werkt."
 
-#: ../eolie/webview_errors.py:133
+#: ../eolie/webview_errors.py:125
 msgid "Network not available"
 msgstr "Netwerk niet beschikbaar"
 
-#: ../eolie/webview_errors.py:134
+#: ../eolie/webview_errors.py:126
 msgid "Check your network connection"
 msgstr "Controleer uw netwerkverbinding"
 
-#: ../eolie/webview_errors.py:144
+#: ../eolie/webview_errors.py:136
 msgid "Retry"
 msgstr "Opnieuw proberen"
 
-#: ../eolie/webview_errors.py:171
+#: ../eolie/webview_errors.py:162
 msgid "The certificate does not match this website"
 msgstr "Het certificaat komt niet overeen met deze website"
 
-#: ../eolie/webview_errors.py:173
+#: ../eolie/webview_errors.py:164
 msgid "The certificate has expired"
 msgstr "Het certificaat is verlopen"
 
-#: ../eolie/webview_errors.py:175
+#: ../eolie/webview_errors.py:166
 msgid "The signing certificate authority is not known"
 msgstr "De ondertekenende certificaatautoriteit is niet gekend"
 
-#: ../eolie/webview_errors.py:177
+#: ../eolie/webview_errors.py:168
 msgid "The certificate contains errors"
 msgstr "Het certificaat bevat fouten"
 
-#: ../eolie/webview_errors.py:179
+#: ../eolie/webview_errors.py:170
 msgid "The certificate has been revoked"
 msgstr "Het certificaat is ingetrokken"
 
-#: ../eolie/webview_errors.py:181
+#: ../eolie/webview_errors.py:172
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Het certificaat is ondertekend met een zwak algoritme"
 
-#: ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:176
 msgid "The certificate activation time is still in the future"
 msgstr "De activatietijd van het certificaat ligt in de toekomst"
 
-#: ../eolie/webview_errors.py:187
+#: ../eolie/webview_errors.py:178
 msgid "The identity of this website has not been verified"
 msgstr "De identiteit van deze website is niet geverifieerd"
 
-#: ../eolie/webview_errors.py:188 ../eolie/webview_errors.py:192
+#: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:183
 msgid "Connection is not secure"
 msgstr "Verbinding is niet beveiligd"
 
-#: ../eolie/webview_errors.py:194
+#: ../eolie/webview_errors.py:185
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -647,15 +656,15 @@ msgstr ""
 "die u naar deze site stuurt of ervan ontvangt te stelen of aan te passen "
 "(bijvoorbeeld privéberichten, kredietkaartgegevens of wachtwoorden)."
 
-#: ../eolie/webview_errors.py:200
+#: ../eolie/webview_errors.py:191
 msgid "Accept Risk and Proceed"
 msgstr "Risico aanvaarden en verdergaan"
 
-#: ../eolie/webview_errors.py:216 ../eolie/webview_errors.py:221
+#: ../eolie/webview_errors.py:207 ../eolie/webview_errors.py:212
 msgid "WebKit web engine crashed"
 msgstr "WebKit is gecrasht"
 
-#: ../eolie/webview_errors.py:223
+#: ../eolie/webview_errors.py:214
 msgid ""
 "The webpage was terminated unexpectedly.To continue, reload or go to another "
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
@@ -666,7 +675,7 @@ msgstr ""
 "stellen, kunt u een bug melden :)<br/>Gebruik <b>‘Webkit Gtk’</b> als "
 "component.<br/>Stel <b>[GTK]</b> in als voorvoegsel voor het onderwerp."
 
-#: ../eolie/webview_errors.py:229
+#: ../eolie/webview_errors.py:220
 msgid "Report a bug now"
 msgstr "Nu een bug melden"
 
@@ -809,7 +818,7 @@ msgstr "Pop-ups blokkeren"
 msgid "Block images"
 msgstr "Afbeeldingen blokkeren"
 
-#: ../data/ActionsMenu.ui.h:18
+#: ../data/ActionsMenu.ui.h:18 ../data/ScriptsMenu.ui.h:1
 msgid "Block JavaScript"
 msgstr "JavaScript blokkeren"
 
@@ -1049,10 +1058,6 @@ msgstr "Sluiten"
 #: ../data/RowDownload.ui.h:1
 msgid "Cancel download"
 msgstr "Download annuleren"
-
-#: ../data/ScriptsMenu.ui.h:1
-msgid "Block javascript"
-msgstr "JavaScript blokkeren"
 
 #: ../data/ScriptsMenu.ui.h:2
 msgid "Enable javascript blocker"
@@ -1399,6 +1404,9 @@ msgstr "Toegang tot deze site blokkeren"
 #: ../data/ToolbarEnd.ui.h:5
 msgid "Startup page"
 msgstr "Startpagina"
+
+#~ msgid "Block javascript"
+#~ msgstr "JavaScript blokkeren"
 
 #~ msgid "Block images on pages"
 #~ msgstr "Afbeeldingen blokkeren"

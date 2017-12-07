@@ -34,7 +34,9 @@ eolie/localized.py
 eolie/menu_form.py
 eolie/menu_history.py
 eolie/menu_languages.py
+eolie/menu_move_to.py
 eolie/menu_pages.py
+eolie/menu_profiles.py
 eolie/menu_scripts.py
 eolie/menu_sites.py
 eolie/menu_videos.py
