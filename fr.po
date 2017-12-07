@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-07 16:10+0100\n"
-"PO-Revision-Date: 2017-12-02 17:53+0000\n"
+"PO-Revision-Date: 2017-12-07 15:11+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
 "Language: fr\n"
@@ -283,7 +283,7 @@ msgstr "Identifiants enregistrés"
 
 #: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:74
 msgid "Move to"
-msgstr ""
+msgstr "Déplacer vers"
 
 #: ../eolie/menu_move_to.py:63
 #, fuzzy
