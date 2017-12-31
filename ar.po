@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-07 16:10+0100\n"
-"PO-Revision-Date: 2017-12-21 21:02+0000\n"
+"PO-Revision-Date: 2018-01-08 09:41+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
 "\n"
@@ -169,7 +169,7 @@ msgstr "متصفح وب"
 
 #: ../eolie/application.py:230
 msgid "Default"
-msgstr "المبدئي"
+msgstr "المبدئية"
 
 #: ../eolie/application.py:231
 msgid "Social networks"
@@ -185,7 +185,7 @@ msgstr "التسوّق"
 
 #: ../eolie/application.py:234
 msgid "Personal"
-msgstr "الشخصي"
+msgstr "الشخصية"
 
 #: ../eolie/application.py:235
 msgid "Finance"
@@ -205,7 +205,7 @@ msgstr "ما تزال بعض التنزيلات تعمل، هل أنت واثق 
 
 #: ../eolie/application.py:887
 msgid "Eolie: You need to install yelp."
-msgstr "Eolie: تحتاج إلى تثبيت yelp."
+msgstr "أيولي: تحتاج إلى تثبيت yelp."
 
 #: ../eolie/container.py:597
 msgid "Do you really want to close this page?"
@@ -306,11 +306,11 @@ msgstr "افتح كل الصفحات"
 
 #: ../eolie/menu_profiles.py:44 ../eolie/menu_sites.py:68
 msgid "Profiles"
-msgstr "الأطوار"
+msgstr "اللاحات"
 
 #: ../eolie/menu_profiles.py:90
 msgid "Edit profiles"
-msgstr "عدّل الأطوار"
+msgstr "عدّل اللاحات"
 
 #: ../eolie/menu_sites.py:84
 msgid "Modify user agent"
@@ -473,7 +473,7 @@ msgstr "https://search.yahoo.com"
 msgid ""
 "Do you want to install\n"
 "%s search engine ?"
-msgstr "هل تريد أن تثبت مجرك البحث %s ؟"
+msgstr "هل تريد أن تثبت محرك البحث %s ؟"
 
 #: ../eolie/search.py:247
 msgid "Unsupported search engine"
@@ -687,7 +687,7 @@ msgstr "سيغلق أيولي هذه الصفحة لأنها قد تعطلت"
 
 #: ../eolie/webview_signals_menu.py:67
 msgid "Reload preview"
-msgstr "حدث العينة"
+msgstr "حدّث العينة"
 
 #: ../eolie/webview_signals_menu.py:84
 msgid "Open link in a new page"
@@ -695,7 +695,7 @@ msgstr "افتح الرابط في صفحة جديدة"
 
 #: ../eolie/webview_signals_menu.py:94
 msgid "Open link in a new private page"
-msgstr "افتح في صفحة خاصة جديدة"
+msgstr "افتح الرابط في صفحة خاصة جديدة"
 
 #: ../eolie/webview_signals_menu.py:104
 msgid "Open link in a new window"
@@ -1022,7 +1022,7 @@ msgstr "حسنًا"
 
 #: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:49
 msgid "Forever"
-msgstr "للأبد"
+msgstr "إلى الأبد"
 
 #: ../data/PopoverImages.ui.h:2
 msgid "Show links"
@@ -1170,19 +1170,19 @@ msgstr "أبق التأريخ:"
 
 #: ../data/SettingsDialog.ui.h:45
 msgid "One day"
-msgstr "ليوم واحد"
+msgstr "مدة يوم واحد"
 
 #: ../data/SettingsDialog.ui.h:46
 msgid "One week"
-msgstr "لأسبوع واحد"
+msgstr "مدة أسبوع واحد"
 
 #: ../data/SettingsDialog.ui.h:47
 msgid "Four weeks"
-msgstr "لأربعة أسابيع"
+msgstr "مدة أربعة أسابيع"
 
 #: ../data/SettingsDialog.ui.h:48
 msgid "A year"
-msgstr "لسنة"
+msgstr "مدة سنة"
 
 #: ../data/SettingsDialog.ui.h:50
 msgid "Do not keep"
