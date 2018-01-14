@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-07 16:10+0100\n"
-"PO-Revision-Date: 2017-12-11 17:49+0000\n"
+"PO-Revision-Date: 2018-01-22 17:54+0000\n"
 "Last-Translator: Дмитрий Нужнов <sergash.mail@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/eolie/eolie/ru/>"
+"Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/>"
 "\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.18-dev\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Show sidebar(sites manager)"
@@ -428,37 +428,37 @@ msgstr "Не классифицировано"
 
 #: ../eolie/popover_uri.py:822
 msgid "From the past hour"
-msgstr ""
+msgstr "За последний час"
 
 #: ../eolie/popover_uri.py:823
 msgid "From the past day"
-msgstr ""
+msgstr "За последний день"
 
 #: ../eolie/popover_uri.py:824
 msgid "From the past week"
-msgstr ""
+msgstr "За последний неделю"
 
 #: ../eolie/popover_uri.py:826
 msgid "From the past four weeks"
-msgstr ""
+msgstr "За последние четыре недели"
 
 #: ../eolie/popover_uri.py:827
 msgid "From selected day"
-msgstr ""
+msgstr "За выбранный день"
 
 #: ../eolie/popover_uri.py:828
 msgid "From the beginning"
-msgstr ""
+msgstr "С начала"
 
 #: ../eolie/popover_uri.py:1105
 #, python-format
 msgid "%s bookmarks"
-msgstr ""
+msgstr "%s закладок"
 
 #. Translators: Google url for your country
 #: ../eolie/search.py:36 ../eolie/search.py:37
 msgid "https://www.google.com"
-msgstr ""
+msgstr "https://www.google.ru"
 
 #. Translators: Yahoo url for your country
 #: ../eolie/search.py:58
@@ -476,10 +476,12 @@ msgid ""
 "Do you want to install\n"
 "%s search engine ?"
 msgstr ""
+"Вы хотите установить\n"
+"поисковую систему %s?"
 
 #: ../eolie/search.py:247
 msgid "Unsupported search engine"
-msgstr ""
+msgstr "Неподдерживаемая поисковая система"
 
 #: ../eolie/settings.py:66 ../eolie/settings.py:69
 #: ../data/SettingsDialog.ui.h:1
@@ -488,27 +490,27 @@ msgstr "Настройки"
 
 #: ../eolie/settings.py:456
 msgid "Connecting…"
-msgstr ""
+msgstr "Подключение…"
 
 #: ../eolie/settings.py:490
 msgid "Synchronization is working"
-msgstr ""
+msgstr "Производится синхронизация"
 
 #: ../eolie/settings.py:496
 msgid "Cancel synchronization"
-msgstr ""
+msgstr "Отменить синхронизацию"
 
 #: ../eolie/settings.py:501 ../data/ToolbarEnd.ui.h:2
 msgid "Start synchronization"
-msgstr ""
+msgstr "Начать синхронизацию"
 
 #: ../eolie/settings.py:506 ../data/SettingsDialog.ui.h:57
 msgid "Allow synchronization"
-msgstr ""
+msgstr "Разрешить синхронизацию"
 
 #: ../eolie/settings.py:511
 msgid "Synchronization is not working"
-msgstr ""
+msgstr "Синхронизация не работает"
 
 #: ../eolie/settings.py:522
 #, python-format
@@ -516,34 +518,36 @@ msgid ""
 "Synchronization is not available on your computer:\n"
 " %s"
 msgstr ""
+"Синхронизация недоступна на вашем компьютере:\n"
+"%s"
 
 #: ../eolie/settings.py:545
 msgid "You've received an email to validate synchronization"
-msgstr ""
+msgstr "Вы получили электронное письмо для проверки синхронизации"
 
 #: ../eolie/toolbar_end.py:134
 msgid "Downloading:"
-msgstr ""
+msgstr "Загрузка:"
 
 #: ../eolie/toolbar_end.py:166 ../data/ActionsMenu.ui.h:8
 msgid "Save page"
-msgstr ""
+msgstr "Сохранить страницу"
 
 #: ../eolie/toolbar_end.py:169 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: ../eolie/toolbar_end.py:310 ../data/ToolbarEnd.ui.h:1
 msgid "Leave fullscreen"
-msgstr ""
+msgstr "Выйти из полноэкранного режима"
 
 #: ../eolie/toolbar_end.py:312
 msgid "Enter fullscreen"
-msgstr ""
+msgstr "Войти в полноэкранный режим"
 
 #: ../eolie/toolbar_title.py:264
 msgid "This page contains insecure content"
-msgstr ""
+msgstr "Эта страница содержит небезопасный контент"
 
 #: ../eolie/toolbar_title.py:318
 msgid ""
@@ -551,97 +555,102 @@ msgid ""
 "If you type your password,\n"
 " it will be visible to cybercriminals!"
 msgstr ""
+"Внимание: эта страница небезопасна.\n"
+"Если вы вводите пароль,\n"
+" это будет видно для киберпреступников!"
 
 #: ../eolie/toolbar_title.py:367
 msgid "Disallow geolocation"
-msgstr ""
+msgstr "Запретить геолокацию"
 
 #: ../eolie/toolbar_title.py:373
 msgid "Blocked popups"
-msgstr ""
+msgstr "Заблокированные всплывающие окна"
 
 #: ../eolie/toolbar_title.py:454
 msgid "Copy address"
-msgstr ""
+msgstr "Копировать адрес"
 
 #: ../eolie/toolbar_title.py:514
 msgid "Paste and load"
-msgstr ""
+msgstr "Вставить и перейти"
 
 #: ../eolie/toolbar_title.py:745 ../eolie/toolbar_title.py:748
 msgid "Search or enter address"
-msgstr ""
+msgstr "Поиск или ввод адреса"
 
 #: ../eolie/webview_errors.py:66
 msgid "This page is dangerous"
-msgstr ""
+msgstr "Эта страница опасна"
 
 #: ../eolie/webview_errors.py:67
 msgid "Eolie will not display this page"
-msgstr ""
+msgstr "Eolie не отобразит эту страницу"
 
 #: ../eolie/webview_errors.py:74
 #, python-format
 msgid "%s is a phishing page"
-msgstr ""
+msgstr "%s является фишинговой страницей"
 
 #: ../eolie/webview_errors.py:118
 msgid "Failed to load this web page"
-msgstr ""
+msgstr "Не удалось загрузить эту веб-страницу"
 
 #: ../eolie/webview_errors.py:119
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
+"Он может быть временно недоступен или перемещен на новый адрес. <br/> Вы "
+"можете проверить правильность работы вашего интернет-соединения."
 
 #: ../eolie/webview_errors.py:125
 msgid "Network not available"
-msgstr ""
+msgstr "Сеть недоступна"
 
 #: ../eolie/webview_errors.py:126
 msgid "Check your network connection"
-msgstr ""
+msgstr "Проверьте сетевое подключение"
 
 #: ../eolie/webview_errors.py:136
 msgid "Retry"
-msgstr ""
+msgstr "Повторить"
 
 #: ../eolie/webview_errors.py:162
 msgid "The certificate does not match this website"
-msgstr ""
+msgstr "Сертификат не соответствует этому веб-сайту"
 
 #: ../eolie/webview_errors.py:164
 msgid "The certificate has expired"
-msgstr ""
+msgstr "Срок действия сертификата истек"
 
 #: ../eolie/webview_errors.py:166
 msgid "The signing certificate authority is not known"
-msgstr ""
+msgstr "Подпись центра сертификации не известна"
 
 #: ../eolie/webview_errors.py:168
 msgid "The certificate contains errors"
-msgstr ""
+msgstr "Сертификат содержит ошибки"
 
 #: ../eolie/webview_errors.py:170
 msgid "The certificate has been revoked"
-msgstr ""
+msgstr "Сертификат отменен"
 
 #: ../eolie/webview_errors.py:172
 msgid "The certificate is signed using a weak signature algorithm"
-msgstr ""
+msgstr "Сертификат подписывается с использованием слабого алгоритма подписи"
 
 #: ../eolie/webview_errors.py:176
 msgid "The certificate activation time is still in the future"
-msgstr ""
+msgstr "Время активации сертификата все еще в будущем"
 
 #: ../eolie/webview_errors.py:178
 msgid "The identity of this website has not been verified"
-msgstr ""
+msgstr "Подлинность этого веб-сайта не проверено"
 
 #: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:183
 msgid "Connection is not secure"
-msgstr ""
+msgstr "Соединение не безопасно"
 
 #: ../eolie/webview_errors.py:185
 #, python-format
@@ -650,14 +659,17 @@ msgid ""
 "or alter information going to or from this site (for example, private "
 "messages, credit card information, or passwords)."
 msgstr ""
+"Это не похоже на реальный %s . <br/> Взломщики могут пытаться украсть или "
+"изменить информацию, поступающую на этот сайт или с этого сайта (например, "
+"личные сообщения, информацию о кредитной карте или пароли)."
 
 #: ../eolie/webview_errors.py:191
 msgid "Accept Risk and Proceed"
-msgstr ""
+msgstr "Принять риск и продолжить"
 
 #: ../eolie/webview_errors.py:207 ../eolie/webview_errors.py:212
 msgid "WebKit web engine crashed"
-msgstr ""
+msgstr "Веб-движок WebKit остановлен"
 
 #: ../eolie/webview_errors.py:214
 msgid ""
@@ -665,226 +677,231 @@ msgid ""
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
 "<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
+"Веб-страница была прервана неожиданно. Для продолжения работы, перезагрузить "
+"или перейти на другую страницу. <br/> <br/> Если проблема сохраняется, вы "
+"можете сообщить об ошибке :) <br/> Используйте <b> 'Webkit Gtk '</b> в "
+"качестве компонента. <br/> Установите <b> [GTK] </b> в качестве префикса "
+"темы."
 
 #: ../eolie/webview_errors.py:220
 msgid "Report a bug now"
-msgstr ""
+msgstr "Сообщить об ошибке сейчас"
 
 #: ../eolie/webview_signals_js.py:92
 msgid "Eolie is going to close this page because it is broken"
-msgstr ""
+msgstr "Eolie собирается закрыть эту страницу, потому что она сломана"
 
 #: ../eolie/webview_signals_menu.py:67
 msgid "Reload preview"
-msgstr ""
+msgstr "Перезагрузить привью"
 
 #: ../eolie/webview_signals_menu.py:84
 msgid "Open link in a new page"
-msgstr ""
+msgstr "Открыть ссылку в новой вкладке"
 
 #: ../eolie/webview_signals_menu.py:94
 msgid "Open link in a new private page"
-msgstr ""
+msgstr "Открыть ссылку в новой приватной вкладке"
 
 #: ../eolie/webview_signals_menu.py:104
 msgid "Open link in a new window"
-msgstr ""
+msgstr "Открыть ссылку в новом окне"
 
 #: ../eolie/webview_signals_menu.py:117
 msgid "Copy"
-msgstr ""
+msgstr "Копировать"
 
 #: ../eolie/webview_signals_menu.py:132
 msgid "Copy link address"
-msgstr ""
+msgstr "Скопировать адрес ссылки"
 
 #: ../eolie/webview_signals_menu.py:143
 msgid "Search on the Web"
-msgstr ""
+msgstr "Поиск в Интернете"
 
 #: ../eolie/webview_signals_menu.py:153
 msgid "Download this image"
-msgstr ""
+msgstr "Загрузить это изображение"
 
 #: ../eolie/webview_signals_menu.py:156
 msgid "Download this video"
-msgstr ""
+msgstr "Загрузить это видео"
 
 #: ../eolie/webview_signals_menu.py:159
 msgid "Download this file"
-msgstr ""
+msgstr "Загрузить этот файл"
 
 #: ../eolie/webview_signals_menu.py:181 ../data/PopoverImages.ui.h:1
 msgid "Save images"
-msgstr ""
+msgstr "Сохранить изображения"
 
 #: ../eolie/webview_signals_menu.py:191
 msgid "Save videos"
-msgstr ""
+msgstr "Сохранить видео"
 
 #: ../eolie/webview_signals_menu.py:201
 msgid "Save page as image"
-msgstr ""
+msgstr "Сохранить страницу как изображение"
 
 #: ../eolie/webview_signals.py:125
 msgid "Select files to upload"
-msgstr ""
+msgstr "Выберите файлы для загрузки"
 
 #: ../eolie/webview_signals.py:128
 msgid "Open"
-msgstr ""
+msgstr "Открыть"
 
 #: ../eolie/widget_find.py:47
 msgid "Search previous occurrence"
-msgstr ""
+msgstr "Поиск назад"
 
 #: ../eolie/widget_find.py:56
 msgid "Search next occurrence"
-msgstr ""
+msgstr "Поиск вперед"
 
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
-msgstr ""
+msgstr "1000 из 1000 совпадений"
 
 #: ../data/ActionsMenu.ui.h:1
 msgctxt "Adblock exception"
 msgid "None"
-msgstr ""
+msgstr "Нет"
 
 #: ../data/ActionsMenu.ui.h:2
 msgid "Current site"
-msgstr ""
+msgstr "Текущий сайт"
 
 #: ../data/ActionsMenu.ui.h:3
 msgid "Current page"
-msgstr ""
+msgstr "Текущая страница"
 
 #: ../data/ActionsMenu.ui.h:4
 msgid "Exceptions"
-msgstr ""
+msgstr "Исключения"
 
 #: ../data/ActionsMenu.ui.h:5
 msgid "Do not block ads"
-msgstr ""
+msgstr "Не блокировать рекламу"
 
 #: ../data/ActionsMenu.ui.h:6
 msgid "Do not block popups"
-msgstr ""
+msgstr "Не блокировать всплывающие окна"
 
 #: ../data/ActionsMenu.ui.h:7
 msgctxt "Popup exception"
 msgid "None"
-msgstr ""
+msgstr "Нет"
 
 #: ../data/ActionsMenu.ui.h:9
 msgid "Print page"
-msgstr ""
+msgstr "Печать страницы"
 
 #: ../data/ActionsMenu.ui.h:10
 msgid "Start page"
-msgstr ""
+msgstr "Начальная страница"
 
 #: ../data/ActionsMenu.ui.h:11 ../data/SettingsDialog.ui.h:2
 #: ../data/ToolbarEnd.ui.h:4
 msgid "Downloads"
-msgstr ""
+msgstr "Загрузки"
 
 #: ../data/ActionsMenu.ui.h:12
 msgid "Zoom out"
-msgstr ""
+msgstr "Уменьшить"
 
 #: ../data/ActionsMenu.ui.h:14
 msgid "Zoom in"
-msgstr ""
+msgstr "Приблизить"
 
 #: ../data/ActionsMenu.ui.h:15
 msgid "Block ads"
-msgstr ""
+msgstr "Блокировка рекламы"
 
 #: ../data/ActionsMenu.ui.h:16
 msgid "Block popups"
-msgstr ""
+msgstr "Блокировать всплывающие окна"
 
 #: ../data/ActionsMenu.ui.h:17
 msgid "Block images"
-msgstr ""
+msgstr "Блокировать изображения"
 
 #: ../data/ActionsMenu.ui.h:18 ../data/ScriptsMenu.ui.h:1
 msgid "Block JavaScript"
-msgstr ""
+msgstr "Блокировать JavaScript"
 
 #: ../data/ActionsMenu.ui.h:19
 msgid "Filtering"
-msgstr ""
+msgstr "Фильтрация"
 
 #: ../data/ActionsMenu.ui.h:20 ../data/LanguagesMenu.ui.h:1
 msgid "Spell checking"
-msgstr ""
+msgstr "Проверка орфографии"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Preferences"
-msgstr ""
+msgstr "_Настройки"
 
 #: ../data/Appmenu.ui.h:2
 msgid "_Report a bug"
-msgstr ""
+msgstr "_Сообщить об ошибке"
 
 #: ../data/Appmenu.ui.h:3
 msgid "_Sidebar"
-msgstr ""
+msgstr "_Боковая панель"
 
 #: ../data/Appmenu.ui.h:4
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Горячие клавиши"
 
 #: ../data/Appmenu.ui.h:5
 msgid "_Help"
-msgstr ""
+msgstr "_Помощь"
 
 #: ../data/Appmenu.ui.h:6
 msgid "_About"
-msgstr ""
+msgstr "_Информация"
 
 #: ../data/Appmenu.ui.h:7
 msgid "_Quit"
-msgstr ""
+msgstr "_Выход"
 
 #: ../data/BookmarkEdit.ui.h:1 ../data/DialogSearchEngine.ui.h:3
 msgid "Address:"
-msgstr ""
+msgstr "Адрес:"
 
 #: ../data/BookmarkEdit.ui.h:2
 msgid "Title:"
-msgstr ""
+msgstr "Заголовок:"
 
 #: ../data/BookmarkEdit.ui.h:3
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Удалить закладку"
 
 #: ../data/BookmarkEdit.ui.h:4
 msgid "Add new tag"
-msgstr ""
+msgstr "Добавить новый тег"
 
 #: ../data/DialogClearData.ui.h:1 ../data/SettingsDialog.ui.h:42
 msgid "Clear Personal Data"
-msgstr ""
+msgstr "Очистить личные данные"
 
 #: ../data/DialogClearData.ui.h:2
 msgid "C_lear"
-msgstr ""
+msgstr "_Очистить"
 
 #: ../data/DialogClearData.ui.h:3 ../data/PopoverUri.ui.h:4
 #: ../data/SettingsDialog.ui.h:6
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
 #: ../data/DialogClearData.ui.h:4
 msgid "Filter domains"
-msgstr ""
+msgstr "Фильтр доменов"
 
 #: ../data/DialogClearData.ui.h:5
 msgid "Search domains"
-msgstr ""
+msgstr "Поиск доменов"
 
 #: ../data/DialogClearData.ui.h:6
 msgid ""
@@ -892,72 +909,77 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
+"Вы можете выбрать период времени для очистки данных для всех веб-сайтов, "
+"измененных в этот период. Если вы выбираете с самого начала времени, вы "
+"также можете очищать данные только для определенных сайтов."
 
 #: ../data/DialogClearData.ui.h:7
 msgid "Clear selected personal data _from:"
-msgstr ""
+msgstr "Очистить выбранные личные данные _из:"
 
 #: ../data/DialogClearData.ui.h:8
 msgid "the past hour"
-msgstr ""
+msgstr "за прошедший час"
 
 #: ../data/DialogClearData.ui.h:9
 msgid "the past day"
-msgstr ""
+msgstr "за прошедший день"
 
 #: ../data/DialogClearData.ui.h:10
 msgid "the past week"
-msgstr ""
+msgstr "за прошедшую неделю"
 
 #: ../data/DialogClearData.ui.h:11
 msgid "the past four weeks"
-msgstr ""
+msgstr "за прошедшие 4 часа"
 
 #: ../data/DialogClearData.ui.h:12
 msgid "the beginning"
-msgstr ""
+msgstr "с начала"
 
 #: ../data/DialogClearData.ui.h:13
 msgid "No data found"
-msgstr ""
+msgstr "Данные не найдены"
 
 #: ../data/DialogClearData.ui.h:14
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
+"Вы не можете отменить это действие. Данные, которые вы выбрали для очистки, "
+"будут удалены навсегда."
 
 #: ../data/DialogCookies.ui.h:1
 msgid "New profile"
-msgstr ""
+msgstr "Новый профиль"
 
 #: ../data/DialogCookies.ui.h:2
 msgid "Delete cookies"
-msgstr ""
+msgstr "Удалить файлы cookie"
 
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
-msgstr ""
+msgstr "Импорт закладок из:"
 
 #: ../data/DialogImportBookmarks.ui.h:3
 msgid "Import"
-msgstr ""
+msgstr "Импортировать"
 
 #: ../data/DialogModifyUA.ui.h:1
 msgid "Modify"
-msgstr ""
+msgstr "Изменять"
 
 #: ../data/DialogSearchEngine.ui.h:1
 msgid "Search engines"
-msgstr ""
+msgstr "Поисковые системы"
 
 #: ../data/DialogSearchEngine.ui.h:2
 msgid "Name:"
-msgstr ""
+msgstr "Название:"
 
 #: ../data/DialogSearchEngine.ui.h:4
 msgid "Default:"
-msgstr ""
+msgstr "По умолчанию:"
 
 #: ../data/DialogSearchEngine.ui.h:5
 msgid "Bang:"
@@ -966,10 +988,12 @@ msgstr ""
 #: ../data/DialogSearchEngine.ui.h:6
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
+"Если bang g, используйте g: в строке поиска для поиска с использованием "
+"этого движка"
 
 #: ../data/DialogSearchEngine.ui.h:7
 msgid "Search:"
-msgstr ""
+msgstr "Адрес:"
 
 #: ../data/DialogSearchEngine.ui.h:9
 #, no-c-format
@@ -978,407 +1002,412 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
 msgstr ""
+"Чтобы определить адрес поиска, выполните поиск с помощью поисковой системы, "
+"которую вы хотите добавить, и проверьте полученный адрес. Удалите поисковый "
+"запрос из результирующего адреса и замените его %s."
 
 #: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
-msgstr ""
+msgstr "Удалить все файлы cookie"
 
 #: ../data/PopoverCredentials.ui.h:1
 msgid "Do you want to save this password?"
-msgstr ""
+msgstr "Вы хотите сохранить этот пароль?"
 
 #: ../data/PopoverDownloads.ui.h:1
 msgid "Open download folder"
-msgstr ""
+msgstr "Открыть папку для скачивания"
 
 #: ../data/PopoverDownloads.ui.h:2
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Очистить законченные загрузки"
 
 #: ../data/PopoverDownloads.ui.h:3
 msgid "No active download"
-msgstr ""
+msgstr "Нет активной загрузки"
 
 #: ../data/PopoverGeolocation.ui.h:1 ../data/PopoverJavaScript.ui.h:1
 msgid "Ok"
-msgstr ""
+msgstr "Хорошо"
 
 #: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:49
 msgid "Forever"
-msgstr ""
+msgstr "Всегда"
 
 #: ../data/PopoverImages.ui.h:2
 msgid "Show links"
-msgstr ""
+msgstr "Показать ссылки"
 
 #: ../data/PopoverPasswords.ui.h:1
 msgid "Remove all passwords"
-msgstr ""
+msgstr "Удалить все пароли"
 
 #: ../data/PopoverUri.ui.h:1
 msgid "Sync bookmarks"
-msgstr ""
+msgstr "Синхронизация закладок"
 
 #: ../data/PopoverUri.ui.h:3
 msgid "Bookmarks"
-msgstr ""
+msgstr "Закладки"
 
 #: ../data/PopoverUri.ui.h:5
 msgid "Clear history"
-msgstr ""
+msgstr "Очистить историю"
 
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
-msgstr ""
+msgstr "История"
 
 #: ../data/QuitDialog.ui.h:2
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: ../data/RowDownload.ui.h:1
 msgid "Cancel download"
-msgstr ""
+msgstr "Отменить загрузку"
 
 #: ../data/ScriptsMenu.ui.h:2
 msgid "Enable javascript blocker"
-msgstr ""
+msgstr "Включить блокировщик javascript"
 
 #: ../data/SettingsDialog.ui.h:3
 msgid "Download folder:"
-msgstr ""
+msgstr "Папка загрузки:"
 
 #: ../data/SettingsDialog.ui.h:4
 msgid "Select download directory"
-msgstr ""
+msgstr "Выберите каталог загрузки"
 
 #: ../data/SettingsDialog.ui.h:5
 msgid "Automatically open downloaded files"
-msgstr ""
+msgstr "Автоматически открывать загруженные файлы"
 
 #: ../data/SettingsDialog.ui.h:7
 msgid "Search engines:"
-msgstr ""
+msgstr "Поисковые системы:"
 
 #: ../data/SettingsDialog.ui.h:10
 msgid "Startup"
-msgstr ""
+msgstr "Запускать"
 
 #: ../data/SettingsDialog.ui.h:11
 msgid "Start Page:"
-msgstr ""
+msgstr "Начальная страница:"
 
 #: ../data/SettingsDialog.ui.h:12
 msgid "Search engine"
-msgstr ""
+msgstr "Поисковый движок"
 
 #: ../data/SettingsDialog.ui.h:14
 msgid "Popular bookmarks"
-msgstr ""
+msgstr "Популярные закладки"
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Blank page"
-msgstr ""
+msgstr "Пустая страница"
 
 #: ../data/SettingsDialog.ui.h:16
 msgid "Set address"
-msgstr ""
+msgstr "Установить адрес"
 
 #: ../data/SettingsDialog.ui.h:17
 msgid "Remember previous pages on startup"
-msgstr ""
+msgstr "Помнить предыдущие страницы при запуске"
 
 #: ../data/SettingsDialog.ui.h:18
 msgid "Configure engines"
-msgstr ""
+msgstr "Настроить системы"
 
 #: ../data/SettingsDialog.ui.h:19
 msgid "Bookmarks shown"
-msgstr ""
+msgstr "Показать закладки"
 
 #: ../data/SettingsDialog.ui.h:21
 msgid "Add suggestions"
-msgstr ""
+msgstr "Добавить предложения"
 
 #: ../data/SettingsDialog.ui.h:22
 msgid "General"
-msgstr ""
+msgstr "Общее"
 
 #: ../data/SettingsDialog.ui.h:23
 msgid "Fonts"
-msgstr ""
+msgstr "Шрифты"
 
 #: ../data/SettingsDialog.ui.h:30
 msgid "Appearance"
-msgstr ""
+msgstr "Внешний вид"
 
 #: ../data/SettingsDialog.ui.h:32
 msgid "Tracking"
-msgstr ""
+msgstr "Отслеживание"
 
 #: ../data/SettingsDialog.ui.h:34
 msgid "Passwords"
-msgstr ""
+msgstr "Пароли"
 
 #: ../data/SettingsDialog.ui.h:36
 msgid "Saved data"
-msgstr ""
+msgstr "Сохраненные данные"
 
 #: ../data/SettingsDialog.ui.h:37
 msgid "Behaviour:"
-msgstr ""
+msgstr "Поведение:"
 
 #: ../data/SettingsDialog.ui.h:38
 msgid "Always accept"
-msgstr ""
+msgstr "Всегда принимать"
 
 #: ../data/SettingsDialog.ui.h:39
 msgid "Only from sites you visit"
-msgstr ""
+msgstr "Только с сайтов, которые вы посещаете"
 
 #: ../data/SettingsDialog.ui.h:40
 msgid "Never accept"
-msgstr ""
+msgstr "Никогда не принимать"
 
 #: ../data/SettingsDialog.ui.h:41
 msgid "Manage cookies"
-msgstr ""
+msgstr "Управление cookie"
 
 #: ../data/SettingsDialog.ui.h:43
 msgid "Manage passwords"
-msgstr ""
+msgstr "Управление паролями"
 
 #: ../data/SettingsDialog.ui.h:44
 msgid "Keep history:"
-msgstr ""
+msgstr "Хранить историю:"
 
 #: ../data/SettingsDialog.ui.h:45
 msgid "One day"
-msgstr ""
+msgstr "Один день"
 
 #: ../data/SettingsDialog.ui.h:46
 msgid "One week"
-msgstr ""
+msgstr "Одна неделя"
 
 #: ../data/SettingsDialog.ui.h:47
 msgid "Four weeks"
-msgstr ""
+msgstr "Четыре недели"
 
 #: ../data/SettingsDialog.ui.h:48
 msgid "A year"
-msgstr ""
+msgstr "Год"
 
 #: ../data/SettingsDialog.ui.h:50
 msgid "Do not keep"
-msgstr ""
+msgstr "Не хранить"
 
 #: ../data/SettingsDialog.ui.h:51
 msgid "Predict websites address"
-msgstr ""
+msgstr "Предсказать адрес веб-сайта"
 
 #: ../data/SettingsDialog.ui.h:52
 msgid "Privacy"
-msgstr ""
+msgstr "Конфиденциальность"
 
 #: ../data/SettingsDialog.ui.h:53
 msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
+"Вы можете делиться своими записями и историей\n"
+" на всех устройствах под управлением Eolie или Firefox"
 
 #: ../data/SettingsDialog.ui.h:55
 msgid "Login:"
-msgstr ""
+msgstr "Логин:"
 
 #: ../data/SettingsDialog.ui.h:56
 msgid "Password:"
-msgstr ""
+msgstr "Пароль:"
 
 #: ../data/SettingsDialog.ui.h:58
 msgid "Create or manage account"
-msgstr ""
+msgstr "Создание учетной записи или управление ею"
 
 #: ../data/SettingsDialog.ui.h:59
 msgid "Synchronization"
-msgstr ""
+msgstr "синхронизация"
 
 #: ../data/Shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Общее"
 
 #: ../data/Shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "Новое окно"
 
 #: ../data/Shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: ../data/Shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr ""
+msgstr "Полноэкранный режим"
 
 #: ../data/Shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Выход"
 
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "Ввести местоположение"
 
 #: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Show bookmarks"
-msgstr ""
+msgstr "Показать закладки"
 
 #: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Show history"
-msgstr ""
+msgstr "Показать историю"
 
 #: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Show sidebar"
-msgstr ""
+msgstr "Показать боковую панель"
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Pages"
-msgstr ""
+msgstr "Страницы"
 
 #: ../data/Shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "New page"
-msgstr ""
+msgstr "Новая страница"
 
 #: ../data/Shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Last closed page"
-msgstr ""
+msgstr "Последняя закрытая страница"
 
 #: ../data/Shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "New private page"
-msgstr ""
+msgstr "Новая приватная страница"
 
 #: ../data/Shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Close page"
-msgstr ""
+msgstr "Закрыть страницу"
 
 #: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Previous page"
-msgstr ""
+msgstr "Предыдущая страница"
 
 #: ../data/Shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Next page"
-msgstr ""
+msgstr "Следущая страница"
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "View all pages"
-msgstr ""
+msgstr "Просмотреть все страницы"
 
 #: ../data/Shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Show source code"
-msgstr ""
+msgstr "Показать исходный код"
 
 #: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Web page"
-msgstr ""
+msgstr "Веб-страница"
 
 #: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Save page"
-msgstr ""
+msgstr "Сохранить страницу"
 
 #: ../data/Shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Print page"
-msgstr ""
+msgstr "Печать страницы"
 
 #: ../data/Shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Приблизить"
 
 #: ../data/Shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Уменьшить"
 
 #: ../data/Shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Default zoom level"
-msgstr ""
+msgstr "Уровень масштабирования по умолчанию"
 
 #: ../data/Shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Search for"
-msgstr ""
+msgstr "Искать"
 
 #: ../data/Shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
-msgstr ""
+msgstr "Отключить рекламный блокировщик для текущего сайта"
 
 #: ../data/Shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr ""
+msgstr "Навигация"
 
 #: ../data/Shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Reload page"
-msgstr ""
+msgstr "Перезагрузить страницу"
 
 #: ../data/Shortcuts.ui.h:30
 msgctxt "shortcut window"
 msgid "Startup page"
-msgstr ""
+msgstr "Начальная страница"
 
 #: ../data/ToolbarActions.ui.h:1
 msgid "Backward"
-msgstr ""
+msgstr "Назад"
 
 #: ../data/ToolbarActions.ui.h:2
 msgid "Forward"
-msgstr ""
+msgstr "Вперед"
 
 #: ../data/ToolbarActions.ui.h:3
 msgid "New page"
-msgstr ""
+msgstr "Новая страница"
 
 #: ../data/ToolbarActions.ui.h:4
 msgid "View all pages"
-msgstr ""
+msgstr "Просмотреть все страницы"
 
 #: ../data/ToolbarActions.ui.h:5
 msgid "Close page"
-msgstr ""
+msgstr "Закрыть страницу"
 
 #: ../data/ToolbarActions.ui.h:6
 msgid "More actions"
-msgstr ""
+msgstr "Другие действия"
 
 #: ../data/ToolbarEnd.ui.h:3
 msgid "Disallow access to this site"
-msgstr ""
+msgstr "Запретить доступ к этому сайту"
 
 #: ../data/ToolbarEnd.ui.h:5
 msgid "Startup page"
-msgstr ""
+msgstr "Начальная страница"
