@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-07 16:10+0100\n"
-"PO-Revision-Date: 2018-01-27 23:39+0000\n"
+"PO-Revision-Date: 2018-01-29 18:39+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian "
 "<https://hosted.weblate.org/projects/gnumdk/eolie/lt/>\n"
@@ -46,7 +46,7 @@ msgstr "Atverti užbaigtus atsiuntimus"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
 msgid "Web search engine"
-msgstr ""
+msgstr "Saityno paieškos sistema"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Remember sessions"
@@ -90,7 +90,7 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:28
 msgid "Minimum font size"
-msgstr ""
+msgstr "Mažiausias šrifto dydis"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:19
 msgid "Popular items shown"
@@ -107,7 +107,7 @@ msgstr "Reikalingas paleidimas iš naujo"
 #: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/ActionsMenu.ui.h:13
 #: ../data/SettingsDialog.ui.h:29
 msgid "Default zoom level"
-msgstr ""
+msgstr "Numatytasis mastelio lygis"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:23
 msgid "Cookies storage type"
@@ -119,7 +119,7 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:25 ../data/SettingsDialog.ui.h:33
 msgid "Tell websites I do not want to be tracked"
-msgstr ""
+msgstr "Nurodyti svetainėms, jog aš nenoriu, kad mane sektų"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "DNS prediction"
@@ -139,7 +139,7 @@ msgstr "Saityno naršyklė, skirta GNOME."
 
 #: ../data/AboutDialog.ui.in:16 ../data/AboutDialog.ui.in.h:2
 msgid "Visit Eolie website"
-msgstr ""
+msgstr "Apsilankyti Eolie internetinėje svetainėje"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:19 ../data/AboutDialog.ui.in.h:4
@@ -169,7 +169,7 @@ msgstr "Saityno naršyklė"
 
 #: ../eolie/application.py:230
 msgid "Default"
-msgstr ""
+msgstr "Numatytasis"
 
 #: ../eolie/application.py:231
 msgid "Social networks"
@@ -177,19 +177,19 @@ msgstr "Socialiniai tinklai"
 
 #: ../eolie/application.py:232
 msgid "Work"
-msgstr ""
+msgstr "Darbas"
 
 #: ../eolie/application.py:233
 msgid "Shopping"
-msgstr ""
+msgstr "Apsipirkimai"
 
 #: ../eolie/application.py:234
 msgid "Personal"
-msgstr ""
+msgstr "Asmeninis"
 
 #: ../eolie/application.py:235
 msgid "Finance"
-msgstr ""
+msgstr "Finansai"
 
 #: ../eolie/application.py:236
 msgid "Sport"
@@ -209,7 +209,7 @@ msgstr "Eolie: Turite įsidiegti yelp."
 
 #: ../eolie/container.py:597
 msgid "Do you really want to close this page?"
-msgstr ""
+msgstr "Ar tikrai norite užverti šį puslapį?"
 
 #: ../eolie/context.py:89 ../data/SettingsDialog.ui.h:13
 msgid "Popular pages"
@@ -229,7 +229,7 @@ msgstr ""
 
 #: ../eolie/database_adblock.py:121
 msgid "For stronger ad blocking, install git command"
-msgstr ""
+msgstr "Griežtesniam reklamų blokavimui, įdiekite git komandą"
 
 #: ../eolie/dialog_clear_data.py:179
 msgid "Memory cache"
@@ -245,11 +245,11 @@ msgstr ""
 
 #: ../eolie/dialog_clear_data.py:185
 msgid "Session storage data"
-msgstr ""
+msgstr "Seansų kaupiklio duomenys"
 
 #: ../eolie/dialog_clear_data.py:187
 msgid "Local storage data"
-msgstr ""
+msgstr "Vietinio kaupiklio duomenys"
 
 #: ../eolie/dialog_clear_data.py:189
 msgid "WebSQL databases"
@@ -261,7 +261,7 @@ msgstr "IndexedDB duomenų bazės"
 
 #: ../eolie/dialog_clear_data.py:193
 msgid "Plugins data"
-msgstr ""
+msgstr "Įskiepių duomenys"
 
 #: ../eolie/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:31
 msgid "Cookies"
@@ -269,15 +269,15 @@ msgstr "Slapukai"
 
 #: ../eolie/dialog_import_bookmarks.py:47 ../data/SettingsDialog.ui.h:8
 msgid "Others"
-msgstr ""
+msgstr "Kiti"
 
 #: ../eolie/dialog_import_bookmarks.py:84
 msgid "Import HTML bookmarks"
-msgstr ""
+msgstr "Importuoti HTML adresyną"
 
 #: ../eolie/dialog_search_engine.py:162 ../eolie/dialog_search_engine.py:166
 msgid "New engine"
-msgstr ""
+msgstr "Nauja paieškos sistema"
 
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
@@ -318,11 +318,11 @@ msgstr ""
 
 #: ../eolie/menu_sites.py:93
 msgid "Close site"
-msgstr ""
+msgstr "Užverti svetainę"
 
 #: ../eolie/menu_videos.py:78
 msgid "No videos"
-msgstr ""
+msgstr "Nėra vaizdo įrašų"
 
 #: ../eolie/popover_credentials.py:58
 msgid "Do you want to modify this password?"
@@ -347,32 +347,32 @@ msgstr "MiB/s"
 #: ../eolie/popover_downloads.py:127 ../eolie/popover_downloads.py:133
 #, python-format
 msgid "%s second"
-msgstr ""
+msgstr "%s sekundė"
 
 #: ../eolie/popover_downloads.py:129 ../eolie/popover_downloads.py:135
 #, python-format
 msgid "%s seconds"
-msgstr ""
+msgstr "%s sekundės(-ių)"
 
 #: ../eolie/popover_downloads.py:141 ../eolie/popover_downloads.py:149
 #, python-format
 msgid "%s minute"
-msgstr ""
+msgstr "%s minutė"
 
 #: ../eolie/popover_downloads.py:144 ../eolie/popover_downloads.py:151
 #, python-format
 msgid "%s minutes"
-msgstr ""
+msgstr "%s minutės(-ių)"
 
 #: ../eolie/popover_downloads.py:157
 #, python-format
 msgid "%s hours"
-msgstr ""
+msgstr "%s valandos(-ų)"
 
 #: ../eolie/popover_downloads.py:159
 #, python-format
 msgid "%s hour"
-msgstr ""
+msgstr "%s valanda"
 
 #: ../eolie/popover_downloads.py:160
 msgid "Remaining time:"
@@ -395,34 +395,34 @@ msgstr "Atsisakyti"
 
 #: ../eolie/popover_uri.py:124
 msgid "Delete page from history"
-msgstr ""
+msgstr "Ištrinti puslapį iš istorijos"
 
 #: ../eolie/popover_uri.py:139
 msgid "Edit bookmark"
-msgstr ""
+msgstr "Taisyti adresyno įrašą"
 
 #: ../eolie/popover_uri.py:159
 msgid "Open all pages for this tag"
-msgstr ""
+msgstr "Atverti visus puslapius su šia žyme"
 
 #: ../eolie/popover_uri.py:468 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
-msgstr ""
+msgstr "Importuoti adresyną"
 
 #. Translators: Plural
 #: ../eolie/popover_uri.py:794
 msgid "Popular"
-msgstr ""
+msgstr "Populiarūs"
 
 #. Translators: Plural
 #: ../eolie/popover_uri.py:797
 msgid "Recent"
-msgstr ""
+msgstr "Paskiausi"
 
 #: ../eolie/popover_uri.py:799
 msgid "Unclassified"
-msgstr ""
+msgstr "Nesuskirstyti"
 
 #: ../eolie/popover_uri.py:822
 msgid "From the past hour"
@@ -451,7 +451,7 @@ msgstr ""
 #: ../eolie/popover_uri.py:1105
 #, python-format
 msgid "%s bookmarks"
-msgstr ""
+msgstr "%s adresyno įrašai(-ų)"
 
 #. Translators: Google url for your country
 #: ../eolie/search.py:36 ../eolie/search.py:37
@@ -492,7 +492,7 @@ msgstr "Jungiamasi…"
 
 #: ../eolie/settings.py:490
 msgid "Synchronization is working"
-msgstr ""
+msgstr "Sinchronizacija veikia"
 
 #: ../eolie/settings.py:496
 msgid "Cancel synchronization"
@@ -521,7 +521,7 @@ msgstr ""
 
 #: ../eolie/settings.py:545
 msgid "You've received an email to validate synchronization"
-msgstr ""
+msgstr "Jūs gavote el. laišką, skirtą patvirtinti sinchronizaciją"
 
 #: ../eolie/toolbar_end.py:134
 msgid "Downloading:"
@@ -572,7 +572,7 @@ msgstr "Įdėti ir įkelti"
 
 #: ../eolie/toolbar_title.py:745 ../eolie/toolbar_title.py:748
 msgid "Search or enter address"
-msgstr ""
+msgstr "Įveskite paiešką arba adresą"
 
 #: ../eolie/webview_errors.py:66
 msgid "This page is dangerous"
@@ -619,7 +619,7 @@ msgstr "Pasibaigė liudijimo galiojimas"
 
 #: ../eolie/webview_errors.py:166
 msgid "The signing certificate authority is not known"
-msgstr ""
+msgstr "Pasirašiusi liudijimų įstaiga nėra žinoma"
 
 #: ../eolie/webview_errors.py:168
 msgid "The certificate contains errors"
@@ -639,7 +639,7 @@ msgstr "Liudijimo aktyvavimo laikas yra vis dar ateityje"
 
 #: ../eolie/webview_errors.py:178
 msgid "The identity of this website has not been verified"
-msgstr ""
+msgstr "Šios svetainės tapatybė nebuvo patvirtinta"
 
 #: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:183
 msgid "Connection is not secure"
@@ -655,7 +655,7 @@ msgstr ""
 
 #: ../eolie/webview_errors.py:191
 msgid "Accept Risk and Proceed"
-msgstr ""
+msgstr "Prisiimti riziką ir tęsti"
 
 #: ../eolie/webview_errors.py:207 ../eolie/webview_errors.py:212
 msgid "WebKit web engine crashed"
@@ -702,7 +702,7 @@ msgstr "Kopijuoti nuorodos adresą"
 
 #: ../eolie/webview_signals_menu.py:143
 msgid "Search on the Web"
-msgstr ""
+msgstr "Ieškoti internete"
 
 #: ../eolie/webview_signals_menu.py:153
 msgid "Download this image"
@@ -755,15 +755,15 @@ msgstr "Nėra"
 
 #: ../data/ActionsMenu.ui.h:2
 msgid "Current site"
-msgstr ""
+msgstr "Dabartinė svetainė"
 
 #: ../data/ActionsMenu.ui.h:3
 msgid "Current page"
-msgstr ""
+msgstr "Dabartinis puslapis"
 
 #: ../data/ActionsMenu.ui.h:4
 msgid "Exceptions"
-msgstr ""
+msgstr "Išimtys"
 
 #: ../data/ActionsMenu.ui.h:5
 msgid "Do not block ads"
@@ -784,7 +784,7 @@ msgstr "Spausdinti puslapį"
 
 #: ../data/ActionsMenu.ui.h:10
 msgid "Start page"
-msgstr ""
+msgstr "Pradžios puslapis"
 
 #: ../data/ActionsMenu.ui.h:11 ../data/SettingsDialog.ui.h:2
 #: ../data/ToolbarEnd.ui.h:4
@@ -861,7 +861,7 @@ msgstr "Pavadinimas:"
 
 #: ../data/BookmarkEdit.ui.h:3
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Šalinti adresyno įrašą"
 
 #: ../data/BookmarkEdit.ui.h:4
 msgid "Add new tag"
@@ -878,7 +878,7 @@ msgstr "Išva_lyti"
 #: ../data/DialogClearData.ui.h:3 ../data/PopoverUri.ui.h:4
 #: ../data/SettingsDialog.ui.h:6
 msgid "Search"
-msgstr ""
+msgstr "Paieška"
 
 #: ../data/DialogClearData.ui.h:4
 msgid "Filter domains"
@@ -897,27 +897,27 @@ msgstr ""
 
 #: ../data/DialogClearData.ui.h:7
 msgid "Clear selected personal data _from:"
-msgstr ""
+msgstr "Išvalyti pažymėtus asmeninius duomenis _nuo:"
 
 #: ../data/DialogClearData.ui.h:8
 msgid "the past hour"
-msgstr ""
+msgstr "praeitos valandos"
 
 #: ../data/DialogClearData.ui.h:9
 msgid "the past day"
-msgstr ""
+msgstr "praeitos dienos"
 
 #: ../data/DialogClearData.ui.h:10
 msgid "the past week"
-msgstr ""
+msgstr "praeitos savaitės"
 
 #: ../data/DialogClearData.ui.h:11
 msgid "the past four weeks"
-msgstr ""
+msgstr "praeitų keturių savaičių"
 
 #: ../data/DialogClearData.ui.h:12
 msgid "the beginning"
-msgstr ""
+msgstr "pradžios"
 
 #: ../data/DialogClearData.ui.h:13
 msgid "No data found"
@@ -928,6 +928,8 @@ msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
+"Jūs negalėsite atšaukti šio veiksmo. Išvalymui pasirinkti duomenys bus "
+"pašalinti visiems laikams."
 
 #: ../data/DialogCookies.ui.h:1
 msgid "New profile"
@@ -939,7 +941,7 @@ msgstr "Ištrinti slapukus"
 
 #: ../data/DialogImportBookmarks.ui.h:1
 msgid "Import bookmarks from:"
-msgstr ""
+msgstr "Importuoti adresyną iš:"
 
 #: ../data/DialogImportBookmarks.ui.h:3
 msgid "Import"
@@ -959,7 +961,7 @@ msgstr "Pavadinimas:"
 
 #: ../data/DialogSearchEngine.ui.h:4
 msgid "Default:"
-msgstr ""
+msgstr "Numatytoji:"
 
 #: ../data/DialogSearchEngine.ui.h:5
 msgid "Bang:"
@@ -971,7 +973,7 @@ msgstr ""
 
 #: ../data/DialogSearchEngine.ui.h:7
 msgid "Search:"
-msgstr ""
+msgstr "Paieška:"
 
 #: ../data/DialogSearchEngine.ui.h:9
 #, no-c-format
@@ -999,7 +1001,7 @@ msgstr "Išvalyti užbaigtus atsiuntimus"
 
 #: ../data/PopoverDownloads.ui.h:3
 msgid "No active download"
-msgstr ""
+msgstr "Nėra aktyvių atsiuntimų"
 
 #: ../data/PopoverGeolocation.ui.h:1 ../data/PopoverJavaScript.ui.h:1
 msgid "Ok"
@@ -1007,7 +1009,7 @@ msgstr "Gerai"
 
 #: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:49
 msgid "Forever"
-msgstr ""
+msgstr "Visiems laikams"
 
 #: ../data/PopoverImages.ui.h:2
 msgid "Show links"
@@ -1031,7 +1033,7 @@ msgstr ""
 
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
-msgstr ""
+msgstr "Istorija"
 
 #: ../data/QuitDialog.ui.h:2
 msgid "Close"
@@ -1051,7 +1053,7 @@ msgstr "Atsiuntimo aplankas:"
 
 #: ../data/SettingsDialog.ui.h:4
 msgid "Select download directory"
-msgstr ""
+msgstr "Pasirinkite atsiuntimų katalogą"
 
 #: ../data/SettingsDialog.ui.h:5
 msgid "Automatically open downloaded files"
@@ -1063,11 +1065,11 @@ msgstr "Paieškos sistemos:"
 
 #: ../data/SettingsDialog.ui.h:10
 msgid "Startup"
-msgstr ""
+msgstr "Programos paleidimas"
 
 #: ../data/SettingsDialog.ui.h:11
 msgid "Start Page:"
-msgstr ""
+msgstr "Pradžios puslapis:"
 
 #: ../data/SettingsDialog.ui.h:12
 msgid "Search engine"
@@ -1075,7 +1077,7 @@ msgstr "Paieškos sistema"
 
 #: ../data/SettingsDialog.ui.h:14
 msgid "Popular bookmarks"
-msgstr ""
+msgstr "Populiarūs adresyno įrašai"
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Blank page"
@@ -1083,15 +1085,15 @@ msgstr "Tuščias puslapis"
 
 #: ../data/SettingsDialog.ui.h:16
 msgid "Set address"
-msgstr ""
+msgstr "Nustatyti adresą"
 
 #: ../data/SettingsDialog.ui.h:17
 msgid "Remember previous pages on startup"
-msgstr ""
+msgstr "Paleidimo metu, prisiminti ankstesnius puslapius"
 
 #: ../data/SettingsDialog.ui.h:18
 msgid "Configure engines"
-msgstr ""
+msgstr "Konfigūruoti paieškos sistemas"
 
 #: ../data/SettingsDialog.ui.h:19
 msgid "Bookmarks shown"
@@ -1115,7 +1117,7 @@ msgstr "Išvaizda"
 
 #: ../data/SettingsDialog.ui.h:32
 msgid "Tracking"
-msgstr ""
+msgstr "Sekimas"
 
 #: ../data/SettingsDialog.ui.h:34
 msgid "Passwords"
@@ -1151,27 +1153,27 @@ msgstr "Tvarkyti slaptažodžius"
 
 #: ../data/SettingsDialog.ui.h:44
 msgid "Keep history:"
-msgstr ""
+msgstr "Saugoti istoriją:"
 
 #: ../data/SettingsDialog.ui.h:45
 msgid "One day"
-msgstr ""
+msgstr "Vieną dieną"
 
 #: ../data/SettingsDialog.ui.h:46
 msgid "One week"
-msgstr ""
+msgstr "Vieną savaitę"
 
 #: ../data/SettingsDialog.ui.h:47
 msgid "Four weeks"
-msgstr ""
+msgstr "Keturias savaites"
 
 #: ../data/SettingsDialog.ui.h:48
 msgid "A year"
-msgstr ""
+msgstr "Vienerius metus"
 
 #: ../data/SettingsDialog.ui.h:50
 msgid "Do not keep"
-msgstr ""
+msgstr "Nesaugoti"
 
 #: ../data/SettingsDialog.ui.h:51
 msgid "Predict websites address"
@@ -1197,7 +1199,7 @@ msgstr "Slaptažodis:"
 
 #: ../data/SettingsDialog.ui.h:58
 msgid "Create or manage account"
-msgstr ""
+msgstr "Susikurti ar tvarkyti paskyrą"
 
 #: ../data/SettingsDialog.ui.h:59
 msgid "Synchronization"
@@ -1231,22 +1233,22 @@ msgstr "Išeiti"
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "Įvesti vietą"
 
 #: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Show bookmarks"
-msgstr ""
+msgstr "Rodyti adresyną"
 
 #: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Show history"
-msgstr ""
+msgstr "Rodyti istoriją"
 
 #: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "Paieška"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
@@ -1301,7 +1303,7 @@ msgstr ""
 #: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Web page"
-msgstr ""
+msgstr "Internetinis puslapis"
 
 #: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
@@ -1331,12 +1333,12 @@ msgstr "Numatytasis mastelis"
 #: ../data/Shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Search for"
-msgstr ""
+msgstr "Ieškoti"
 
 #: ../data/Shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
-msgstr ""
+msgstr "Išjungti dabartinei svetainei reklamos blokavimą"
 
 #: ../data/Shortcuts.ui.h:28
 msgctxt "shortcut window"
