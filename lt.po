@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-07 16:10+0100\n"
-"PO-Revision-Date: 2018-01-29 18:39+0000\n"
+"PO-Revision-Date: 2018-01-31 23:38+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian "
 "<https://hosted.weblate.org/projects/gnumdk/eolie/lt/>\n"
@@ -16,8 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
-"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
 "X-Generator: Weblate 2.19-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
@@ -58,7 +59,7 @@ msgstr "Prisiminti slaptažodžius"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:10 ../data/SettingsDialog.ui.h:20
 msgid "Enable developer tools"
-msgstr ""
+msgstr "Įjungti kūrėjo įrankius"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:11 ../data/SettingsDialog.ui.h:9
 msgid "Enable plugins"
@@ -553,6 +554,9 @@ msgid ""
 "If you type your password,\n"
 " it will be visible to cybercriminals!"
 msgstr ""
+"Saugokitės: šis puslapis nėra saugus.\n"
+"Jeigu įrašysite savo slaptažodį,\n"
+" jis taps matomas kibernetiniams nusikaltėliams!"
 
 #: ../eolie/toolbar_title.py:367
 msgid "Disallow geolocation"
@@ -585,7 +589,7 @@ msgstr "Eolie nerodys šio puslapio"
 #: ../eolie/webview_errors.py:74
 #, python-format
 msgid "%s is a phishing page"
-msgstr ""
+msgstr "%s yra duomenų išviliojimo puslapis"
 
 #: ../eolie/webview_errors.py:118
 msgid "Failed to load this web page"
@@ -596,6 +600,9 @@ msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
+"Galbūt, jis yra laikinai nepasiekiamas arba perkeltas į naują adresą..<br/>"
+"Jūs, tikriausiai, norėtumėte patikrinti ar tinkamai veikia jūsų interneto "
+"ryšys."
 
 #: ../eolie/webview_errors.py:125
 msgid "Network not available"
@@ -652,6 +659,9 @@ msgid ""
 "or alter information going to or from this site (for example, private "
 "messages, credit card information, or passwords)."
 msgstr ""
+"Tai nepanašu į tikrąjį %s.<br/>Tikriausiai, užpuolikai bando pavogti ar "
+"pakeisti į šią svetainę ar iš jos keliaujančią informaciją (pavyzdžiui, "
+"privačias žinutes, kreditinių kortelių informaciją ar slaptažodžius)."
 
 #: ../eolie/webview_errors.py:191
 msgid "Accept Risk and Proceed"
@@ -667,18 +677,22 @@ msgid ""
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
 "<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
+"Ši internetinė svetainė buvo netikėtai nutraukta. Norėdami tęsti, įkelkite "
+"ją iš naujo arba pereikite į kitą puslapį.<br/><br/>Jei problema išlieka, "
+"galite pranešti apie klaidą :)<br/>Kaip komponentą, naudokite <b>\"Webkit "
+"Gtk\"</b>.<br/>Kaip temos priešdėlį, nustatykite <b>[GTK]</b>."
 
 #: ../eolie/webview_errors.py:220
 msgid "Report a bug now"
-msgstr ""
+msgstr "Pranešti apie klaidą dabar"
 
 #: ../eolie/webview_signals_js.py:92
 msgid "Eolie is going to close this page because it is broken"
-msgstr ""
+msgstr "Eolie ketina užverti šį puslapį, nes jis yra sugadintas"
 
 #: ../eolie/webview_signals_menu.py:67
 msgid "Reload preview"
-msgstr ""
+msgstr "Įkelti peržiūrą iš naujo"
 
 #: ../eolie/webview_signals_menu.py:84
 msgid "Open link in a new page"
@@ -965,11 +979,13 @@ msgstr "Numatytoji:"
 
 #: ../data/DialogSearchEngine.ui.h:5
 msgid "Bang:"
-msgstr ""
+msgstr "Trumpinys:"
 
 #: ../data/DialogSearchEngine.ui.h:6
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
+"Jei trumpinys yra g, tuomet norėdami atlikti paiešką naudojant šią sistemą, "
+"paieškos juostoje naudokite g:"
 
 #: ../data/DialogSearchEngine.ui.h:7
 msgid "Search:"
@@ -982,6 +998,9 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
 msgstr ""
+"Norėdami nustatyti paieškos adresą, atlikite paiešką norimoje pridėti "
+"paieškos sistemoje ir patikrinkite galutinį adresą.  Pašalinkite iš "
+"galutinio adreso paieškos žodį ir pakeiskite jį į %s."
 
 #: ../data/PopoverCookies.ui.h:1
 msgid "Remove all cookies"
@@ -1188,6 +1207,8 @@ msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
+"Jūs galite bendrinti savo adresyną ir istoriją\n"
+" visuose įrenginiuose, kuriuose naudojate Eolie ar Firefox"
 
 #: ../data/SettingsDialog.ui.h:55
 msgid "Login:"
