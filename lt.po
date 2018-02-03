@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-07 16:10+0100\n"
-"PO-Revision-Date: 2018-01-31 23:38+0000\n"
+"PO-Revision-Date: 2018-02-04 21:38+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian "
 "<https://hosted.weblate.org/projects/gnumdk/eolie/lt/>\n"
@@ -39,7 +39,7 @@ msgstr "Blokuoti puslapiuose Javascript"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Download folder URI"
-msgstr ""
+msgstr "Atsiuntimų aplanko URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Open finished downloads"
@@ -218,7 +218,7 @@ msgstr "Populiarūs puslapiai"
 
 #: ../eolie/context.py:151
 msgid "Name"
-msgstr ""
+msgstr "Pavadinimas"
 
 #: ../eolie/context.py:152
 msgid "Size"
@@ -226,7 +226,7 @@ msgstr "Dydis"
 
 #: ../eolie/context.py:154
 msgid "Last modification"
-msgstr ""
+msgstr "Paskutinis pakeitimas"
 
 #: ../eolie/database_adblock.py:121
 msgid "For stronger ad blocking, install git command"
@@ -315,7 +315,7 @@ msgstr "Taisyti profilius"
 
 #: ../eolie/menu_sites.py:84
 msgid "Modify user agent"
-msgstr ""
+msgstr "Pakeisti naršyklės atpažinimą"
 
 #: ../eolie/menu_sites.py:93
 msgid "Close site"
@@ -327,7 +327,7 @@ msgstr "Nėra vaizdo įrašų"
 
 #: ../eolie/popover_credentials.py:58
 msgid "Do you want to modify this password?"
-msgstr ""
+msgstr "Ar norite pakeisti šį slaptažodį?"
 
 #: ../eolie/popover_downloads.py:97
 msgid "Download speed:"
