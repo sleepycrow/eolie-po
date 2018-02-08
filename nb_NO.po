@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-07 16:10+0100\n"
-"PO-Revision-Date: 2017-12-25 10:10+0000\n"
+"PO-Revision-Date: 2018-02-09 08:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål "
 "<https://hosted.weblate.org/projects/gnumdk/eolie/nb_NO/>\n"
@@ -291,7 +291,7 @@ msgstr "Lagrede identitetsdetaljer"
 
 #: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:74
 msgid "Move to"
-msgstr ""
+msgstr "Flytt til"
 
 #: ../eolie/menu_move_to.py:63
 #, fuzzy
