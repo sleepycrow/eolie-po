@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-07 16:10+0100\n"
-"PO-Revision-Date: 2018-02-04 21:38+0000\n"
+"PO-Revision-Date: 2018-02-12 21:38+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian "
 "<https://hosted.weblate.org/projects/gnumdk/eolie/lt/>\n"
@@ -427,27 +427,27 @@ msgstr "Nesuskirstyti"
 
 #: ../eolie/popover_uri.py:822
 msgid "From the past hour"
-msgstr ""
+msgstr "Nuo praeitos valandos"
 
 #: ../eolie/popover_uri.py:823
 msgid "From the past day"
-msgstr ""
+msgstr "Nuo praeitos dienos"
 
 #: ../eolie/popover_uri.py:824
 msgid "From the past week"
-msgstr ""
+msgstr "Nuo praeitos savaitės"
 
 #: ../eolie/popover_uri.py:826
 msgid "From the past four weeks"
-msgstr ""
+msgstr "Nuo praeitų keturių savaičių"
 
 #: ../eolie/popover_uri.py:827
 msgid "From selected day"
-msgstr ""
+msgstr "Nuo pasirinktos dienos"
 
 #: ../eolie/popover_uri.py:828
 msgid "From the beginning"
-msgstr ""
+msgstr "Nuo pradžios"
 
 #: ../eolie/popover_uri.py:1105
 #, python-format
@@ -908,6 +908,9 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
+"Galite pasirinkti laikotarpį ir išvalyti visas per šį laikotarpį "
+"modifikuotas svetaines. Jei pasirinksite nuo laiko pradžios, tuomet taip pat "
+"galėsite išvalyti tik tam tikrų svetainių duomenis."
 
 #: ../data/DialogClearData.ui.h:7
 msgid "Clear selected personal data _from:"
@@ -1040,15 +1043,15 @@ msgstr "Šalinti visus slaptažodžius"
 
 #: ../data/PopoverUri.ui.h:1
 msgid "Sync bookmarks"
-msgstr ""
+msgstr "Sinchronizuoti adresyną"
 
 #: ../data/PopoverUri.ui.h:3
 msgid "Bookmarks"
-msgstr ""
+msgstr "Adresynas"
 
 #: ../data/PopoverUri.ui.h:5
 msgid "Clear history"
-msgstr ""
+msgstr "Išvalyti istoriją"
 
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
@@ -1319,7 +1322,7 @@ msgstr "Rodyti visus puslapius"
 #: ../data/Shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Show source code"
-msgstr ""
+msgstr "Rodyti pirminį kodą"
 
 #: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
