@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 22:23+0100\n"
-"PO-Revision-Date: 2017-12-07 15:14+0000\n"
+"PO-Revision-Date: 2018-02-19 21:31+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/eolie/eolie/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
+"\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.18-dev\n"
+"X-Generator: Weblate 2.19\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Show sidebar(sites manager)"
@@ -29,23 +30,28 @@ msgstr "Bloquer les publicités sur les pages"
 #: ../data/org.gnome.Eolie.gschema.xml.h:3
 msgid "Trust websites: no adblock for internal URIs"
 msgstr ""
+"Faire confiance aux sites web: pas de blocage des publicités pour les "
+"adresses internes"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:4
 msgid "Trust websites: no JavaScript blocking for internal URIs"
 msgstr ""
+"Faire confiance aux sites web: pas de blocage de JavaScript pour les "
+"adresses internes"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Trust websites: no popup blocking for internal URIs"
 msgstr ""
+"Faire confiance aux sites web: pas de blocage de popup pour les adresses "
+"internes"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Block unwanted popups on pages"
 msgstr "Bloquer les popups non voulu sur les pages"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
-#, fuzzy
 msgid "Block images on page"
-msgstr "Bloquer les images sur les pages"
+msgstr "Bloquer les images sur la page"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
 msgid "Block Javascript on pages"
@@ -172,7 +178,7 @@ msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:66 ../data/AboutDialog.ui.in.h:7
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:76 ../data/AboutDialog.ui.in.h:8
 msgid "PayPal"
@@ -783,13 +789,13 @@ msgstr "1000 occurrences sur 1000"
 
 #: ../data/AdblockMenu.ui.h:1
 msgid "Do not block current website content"
-msgstr ""
+msgstr "Ne pas bloquer le contenu du site web courrant"
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
 #: ../data/PopupBlockMenu.ui.h:2
 msgctxt "Trust web sites"
 msgid "Trust web sites"
-msgstr ""
+msgstr "Faire confiance aux sites web"
 
 #: ../data/AdblockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:8
 msgid "Block ads"
@@ -798,46 +804,40 @@ msgstr "Bloquer les publicités"
 #: ../data/AdblockMenu.ui.h:4 ../data/ImageBlockMenu.ui.h:2
 #: ../data/JSBlockMenu.ui.h:4 ../data/PopupBlockMenu.ui.h:4
 #: ../data/ScriptsMenu.ui.h:3
-#, fuzzy
 msgid "Block policy"
-msgstr "Bloquer les popups"
+msgstr "Politique de blocage"
 
 #: ../data/AdblockMenu.ui.h:5
-#, fuzzy
 msgid "Enable adblock"
-msgstr "Activer le bloqueur javascript"
+msgstr "Activer le bloqueur de publicités"
 
 #: ../data/AdblockMenu.ui.h:6
 msgctxt "Adblock"
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: ../data/AdblockMenu.ui.h:7 ../data/ImageBlockMenu.ui.h:5
 #: ../data/PopupBlockMenu.ui.h:7
-#, fuzzy
 msgid "By default"
-msgstr "Défaut"
+msgstr "Par défaut"
 
 #: ../data/AdblockMenu.ui.h:8
-#, fuzzy
 msgid "Do not block ads for this site"
-msgstr "Ne pas bloquer les publicités"
+msgstr "Ne pas bloquer les publicités pour ce site"
 
 #: ../data/AdblockMenu.ui.h:9 ../data/ImageBlockMenu.ui.h:6
 #: ../data/PopupBlockMenu.ui.h:8
 msgid "Not for this site"
-msgstr ""
+msgstr "Pas pour ce site"
 
 #: ../data/AdblockMenu.ui.h:10
-#, fuzzy
 msgid "Do not block ads for this page"
-msgstr "Ne pas bloquer les publicités"
+msgstr "Ne pas bloquer les publicités pour cette page"
 
 #: ../data/AdblockMenu.ui.h:11 ../data/ImageBlockMenu.ui.h:8
 #: ../data/PopupBlockMenu.ui.h:10
-#, fuzzy
 msgid "Not for this page"
-msgstr "Télécharger cette image"
+msgstr "Pas pour cette page"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Preferences"
@@ -1014,42 +1014,36 @@ msgstr "Bloquer les images"
 #: ../data/ImageBlockMenu.ui.h:3 ../data/PopupBlockMenu.ui.h:5
 msgctxt "popup"
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: ../data/ImageBlockMenu.ui.h:4
-#, fuzzy
 msgid "Enable image blocking"
-msgstr "Activer la correction orthographique"
+msgstr "Activer le blocage des images"
 
 #: ../data/ImageBlockMenu.ui.h:7
-#, fuzzy
 msgid "Do not block images for this site"
-msgstr "Ne pas bloquer les images"
+msgstr "Ne pas bloquer les images pour ce site"
 
 #: ../data/ImageBlockMenu.ui.h:9
-#, fuzzy
 msgid "Do not block images for this page"
-msgstr "Ne pas bloquer les images"
+msgstr "Ne pas bloquer les images pour cette page"
 
 #: ../data/JSBlockMenu.ui.h:1
-#, fuzzy
 msgid "Do not block current website JavaScript"
-msgstr "Ne pas bloquer JavaScript"
+msgstr "Ne pas bloquer JavaScript pour le site courrant"
 
 #: ../data/JSBlockMenu.ui.h:3
-#, fuzzy
 msgid "JavaScript block"
-msgstr "Activer le bloqueur javascript"
+msgstr "Bloquer JavaScript"
 
 #: ../data/JSBlockMenu.ui.h:5
-#, fuzzy
 msgid "Enable Javascript blocking"
-msgstr "Activer le bloqueur javascript"
+msgstr "Activer le bloqueur JavaScript"
 
 #: ../data/JSBlockMenu.ui.h:6
 msgctxt "Trust web sites"
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: ../data/LanguagesMenu.ui.h:1 ../data/ToolbarMenu.ui.h:13
 msgid "Spell checking"
@@ -1108,28 +1102,24 @@ msgid "History"
 msgstr "Historique"
 
 #: ../data/PopupBlockMenu.ui.h:1
-#, fuzzy
 msgid "Do not block current website popups"
-msgstr "Ne pas bloquer les popups"
+msgstr "Ne pas bloquer les popups pour le site courrant"
 
 #: ../data/PopupBlockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:10
 msgid "Block popups"
 msgstr "Bloquer les popups"
 
 #: ../data/PopupBlockMenu.ui.h:6
-#, fuzzy
 msgid "Enable popup blocking"
-msgstr "Activer la correction orthographique"
+msgstr "Activer le blocage de popup"
 
 #: ../data/PopupBlockMenu.ui.h:9
-#, fuzzy
 msgid "Do not block popups for this site"
-msgstr "Ne pas bloquer les popups"
+msgstr "Ne pas bloquer les popups pour le site"
 
 #: ../data/PopupBlockMenu.ui.h:11
-#, fuzzy
 msgid "Do not block popups for this page"
-msgstr "Ne pas bloquer les popups"
+msgstr "Ne pas bloquer les popups pour la page"
 
 #: ../data/QuitDialog.ui.h:2
 msgid "Close"
@@ -1148,9 +1138,8 @@ msgid "Enable javascript blocker"
 msgstr "Activer le bloqueur javascript"
 
 #: ../data/ScriptsMenu.ui.h:4
-#, fuzzy
 msgid "Trust websites"
-msgstr "Visiter le site web d'Eolie"
+msgstr "Sites web de confiances"
 
 #: ../data/SettingsDialog.ui.h:2 ../data/ToolbarEnd.ui.h:4
 #: ../data/ToolbarMenu.ui.h:4
@@ -1453,10 +1442,9 @@ msgid "Disable adblock for current site"
 msgstr "Désactiver adblock pour le site courant"
 
 #: ../data/Shortcuts.ui.h:28
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Temporarily enable JavaScript for current site"
-msgstr "Désactiver adblock pour le site courant"
+msgstr "Activer JavaScript temporairement pour le site courrant"
 
 #: ../data/Shortcuts.ui.h:29
 msgctxt "shortcut window"
