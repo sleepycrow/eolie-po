@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 22:23+0100\n"
+"POT-Creation-Date: 2018-02-19 22:33+0100\n"
 "PO-Revision-Date: 2018-01-31 14:36+0000\n"
 "Last-Translator: Philipp Wolfer <ph.wolfer@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/eolie/de/"
@@ -45,7 +45,8 @@ msgid "Block images on page"
 msgstr "Bilder blockieren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
-msgid "Block Javascript on pages"
+#, fuzzy
+msgid "Block JavaScript on pages"
 msgstr "Javascript auf Seiten blockieren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:9
@@ -1051,7 +1052,7 @@ msgstr "Javascript blockieren"
 
 #: ../data/JSBlockMenu.ui.h:5
 #, fuzzy
-msgid "Enable Javascript blocking"
+msgid "Enable JavaScript blocking"
 msgstr "Rechtschreibprüfung aktivieren"
 
 #: ../data/JSBlockMenu.ui.h:6
