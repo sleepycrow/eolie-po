@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 22:33+0100\n"
-"PO-Revision-Date: 2017-12-21 21:02+0000\n"
-"Last-Translator: Nathan Follens <nathan@email.is>\n"
+"PO-Revision-Date: 2018-02-19 21:49+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 2.19\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Show sidebar(sites manager)"
@@ -24,29 +24,27 @@ msgstr "Advertenties blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:3
 msgid "Trust websites: no adblock for internal URIs"
-msgstr ""
+msgstr "Vertrouwde websites: geen advertentieblokkering op interne URL's"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:4
 msgid "Trust websites: no JavaScript blocking for internal URIs"
-msgstr ""
+msgstr "Vertrouwde websites: geen JavaScript-blokkering op interne URL's"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Trust websites: no popup blocking for internal URIs"
-msgstr ""
+msgstr "Vertrouwde websites: geen pop-upblokkering op interne URL's"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Block unwanted popups on pages"
 msgstr "Ongewenste pop-ups blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:7
-#, fuzzy
 msgid "Block images on page"
-msgstr "Afbeeldingen blokkeren"
+msgstr "Afbeeldingen op pagina blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
-#, fuzzy
 msgid "Block JavaScript on pages"
-msgstr "JavaScript blokkeren"
+msgstr "JavaScript op pagina's blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:9
 msgid "Download folder URI"
@@ -171,7 +169,7 @@ msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:66 ../data/AboutDialog.ui.in.h:7
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:76 ../data/AboutDialog.ui.in.h:8
 msgid "PayPal"
@@ -767,11 +765,11 @@ msgstr "Openen"
 
 #: ../eolie/widget_find.py:47
 msgid "Search previous occurrence"
-msgstr "Vorig voorkomen zoeken"
+msgstr "Vorig vermelding zoeken"
 
 #: ../eolie/widget_find.py:56
 msgid "Search next occurrence"
-msgstr "Volgend voorkomen zoeken"
+msgstr "Volgende vermelding zoeken"
 
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
@@ -779,13 +777,13 @@ msgstr "1000 van 1000 resultaten"
 
 #: ../data/AdblockMenu.ui.h:1
 msgid "Do not block current website content"
-msgstr ""
+msgstr "Huidige website-inhoud niet blokkeren"
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
 #: ../data/PopupBlockMenu.ui.h:2
 msgctxt "Trust web sites"
 msgid "Trust web sites"
-msgstr ""
+msgstr "Vertrouwde websites"
 
 #: ../data/AdblockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:8
 msgid "Block ads"
@@ -794,46 +792,40 @@ msgstr "Advertenties blokkeren"
 #: ../data/AdblockMenu.ui.h:4 ../data/ImageBlockMenu.ui.h:2
 #: ../data/JSBlockMenu.ui.h:4 ../data/PopupBlockMenu.ui.h:4
 #: ../data/ScriptsMenu.ui.h:3
-#, fuzzy
 msgid "Block policy"
-msgstr "Pop-ups blokkeren"
+msgstr "Blokkeerbeleid"
 
 #: ../data/AdblockMenu.ui.h:5
-#, fuzzy
 msgid "Enable adblock"
-msgstr "JavaScript-blokkering inschakelen"
+msgstr "Advertentieblokkering inschakelen"
 
 #: ../data/AdblockMenu.ui.h:6
 msgctxt "Adblock"
 msgid "Enabled"
-msgstr ""
+msgstr "Ingeschakeld"
 
 #: ../data/AdblockMenu.ui.h:7 ../data/ImageBlockMenu.ui.h:5
 #: ../data/PopupBlockMenu.ui.h:7
-#, fuzzy
 msgid "By default"
 msgstr "Standaard"
 
 #: ../data/AdblockMenu.ui.h:8
-#, fuzzy
 msgid "Do not block ads for this site"
-msgstr "Advertenties niet blokkeren"
+msgstr "Advertenties op deze website niet blokkeren"
 
 #: ../data/AdblockMenu.ui.h:9 ../data/ImageBlockMenu.ui.h:6
 #: ../data/PopupBlockMenu.ui.h:8
 msgid "Not for this site"
-msgstr ""
+msgstr "Niet op deze website"
 
 #: ../data/AdblockMenu.ui.h:10
-#, fuzzy
 msgid "Do not block ads for this page"
-msgstr "Advertenties niet blokkeren"
+msgstr "Advertenties op deze pagina niet blokkeren"
 
 #: ../data/AdblockMenu.ui.h:11 ../data/ImageBlockMenu.ui.h:8
 #: ../data/PopupBlockMenu.ui.h:10
-#, fuzzy
 msgid "Not for this page"
-msgstr "Deze afbeelding downloaden"
+msgstr "Niet op deze pagina"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Preferences"
@@ -1011,42 +1003,36 @@ msgstr "Afbeeldingen blokkeren"
 #: ../data/ImageBlockMenu.ui.h:3 ../data/PopupBlockMenu.ui.h:5
 msgctxt "popup"
 msgid "Enabled"
-msgstr ""
+msgstr "Ingeschakeld"
 
 #: ../data/ImageBlockMenu.ui.h:4
-#, fuzzy
 msgid "Enable image blocking"
-msgstr "Spellingcontrole inschakelen"
+msgstr "Afbeeldingsblokkering inschakelen"
 
 #: ../data/ImageBlockMenu.ui.h:7
-#, fuzzy
 msgid "Do not block images for this site"
-msgstr "Afbeeldingen niet blokkeren"
+msgstr "Afbeeldingen op deze website niet blokkeren"
 
 #: ../data/ImageBlockMenu.ui.h:9
-#, fuzzy
 msgid "Do not block images for this page"
-msgstr "Afbeeldingen niet blokkeren"
+msgstr "Afbeeldingen op deze pagina niet blokkeren"
 
 #: ../data/JSBlockMenu.ui.h:1
-#, fuzzy
 msgid "Do not block current website JavaScript"
-msgstr "JavaScript niet blokkeren"
+msgstr "JavaScript op deze website niet blokkeren"
 
 #: ../data/JSBlockMenu.ui.h:3
-#, fuzzy
 msgid "JavaScript block"
-msgstr "JavaScript-blokkering inschakelen"
+msgstr "JavaScript-blokkering"
 
 #: ../data/JSBlockMenu.ui.h:5
-#, fuzzy
 msgid "Enable JavaScript blocking"
 msgstr "JavaScript-blokkering inschakelen"
 
 #: ../data/JSBlockMenu.ui.h:6
 msgctxt "Trust web sites"
 msgid "Enabled"
-msgstr ""
+msgstr "Ingeschakeld"
 
 #: ../data/LanguagesMenu.ui.h:1 ../data/ToolbarMenu.ui.h:13
 msgid "Spell checking"
@@ -1105,28 +1091,24 @@ msgid "History"
 msgstr "Geschiedenis"
 
 #: ../data/PopupBlockMenu.ui.h:1
-#, fuzzy
 msgid "Do not block current website popups"
-msgstr "Pop-ups niet blokkeren"
+msgstr "Pop-ups op de huidige website niet blokkeren"
 
 #: ../data/PopupBlockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:10
 msgid "Block popups"
 msgstr "Pop-ups blokkeren"
 
 #: ../data/PopupBlockMenu.ui.h:6
-#, fuzzy
 msgid "Enable popup blocking"
-msgstr "Spellingcontrole inschakelen"
+msgstr "Pop-upblokkering inschakelen"
 
 #: ../data/PopupBlockMenu.ui.h:9
-#, fuzzy
 msgid "Do not block popups for this site"
-msgstr "Pop-ups niet blokkeren"
+msgstr "Pop-ups op deze website niet blokkeren"
 
 #: ../data/PopupBlockMenu.ui.h:11
-#, fuzzy
 msgid "Do not block popups for this page"
-msgstr "Pop-ups niet blokkeren"
+msgstr "Pop-ups op deze pagina niet blokkeren"
 
 #: ../data/QuitDialog.ui.h:2
 msgid "Close"
@@ -1145,9 +1127,8 @@ msgid "Enable javascript blocker"
 msgstr "JavaScript-blokkering inschakelen"
 
 #: ../data/ScriptsMenu.ui.h:4
-#, fuzzy
 msgid "Trust websites"
-msgstr "Eolie-website bezoeken"
+msgstr "Vertrouwde websites"
 
 #: ../data/SettingsDialog.ui.h:2 ../data/ToolbarEnd.ui.h:4
 #: ../data/ToolbarMenu.ui.h:4
@@ -1450,10 +1431,9 @@ msgid "Disable adblock for current site"
 msgstr "Advertentieblokkering uitschakelen op deze website"
 
 #: ../data/Shortcuts.ui.h:28
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Temporarily enable JavaScript for current site"
-msgstr "Advertentieblokkering uitschakelen op deze website"
+msgstr "JavaScript tijdelijk inschakelen op huidige website"
 
 #: ../data/Shortcuts.ui.h:29
 msgctxt "shortcut window"
