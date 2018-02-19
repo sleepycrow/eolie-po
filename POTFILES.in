@@ -31,14 +31,15 @@ eolie/helper_task.py
 eolie/label_indicator.py
 eolie/list.py
 eolie/localized.py
+eolie/menu_block.py
 eolie/menu_form.py
 eolie/menu_history.py
 eolie/menu_languages.py
 eolie/menu_move_to.py
 eolie/menu_pages.py
 eolie/menu_profiles.py
-eolie/menu_scripts.py
 eolie/menu_sites.py
+eolie/menu_toolbar.py
 eolie/menu_videos.py
 eolie/mozilla_sync.py
 eolie/pages_manager_child.py
@@ -77,7 +78,7 @@ eolie/widget_bookmark_rating.py
 eolie/widget_find.py
 eolie/widget_uri_label.py
 eolie/window.py
-[type: gettext/glade]data/ActionsMenu.ui
+[type: gettext/glade]data/AdblockMenu.ui
 [type: gettext/glade]data/Appmenu.ui
 [type: gettext/glade]data/BookmarkEdit.ui
 [type: gettext/glade]data/BookmarkRatingWidget.ui
@@ -86,6 +87,8 @@ eolie/window.py
 [type: gettext/glade]data/DialogImportBookmarks.ui
 [type: gettext/glade]data/DialogModifyUA.ui
 [type: gettext/glade]data/DialogSearchEngine.ui
+[type: gettext/glade]data/ImageBlockMenu.ui
+[type: gettext/glade]data/JSBlockMenu.ui
 [type: gettext/glade]data/LanguagesMenu.ui
 [type: gettext/glade]data/PagesManagerChild.ui
 [type: gettext/glade]data/PopoverCookies.ui
@@ -97,6 +100,7 @@ eolie/window.py
 [type: gettext/glade]data/PopoverPasswords.ui
 [type: gettext/glade]data/PopoverUri.ui
 [type: gettext/glade]data/PopoverWebView.ui
+[type: gettext/glade]data/PopupBlockMenu.ui
 [type: gettext/glade]data/QuitDialog.ui
 [type: gettext/glade]data/RowDownload.ui
 [type: gettext/glade]data/ScriptsMenu.ui
@@ -106,5 +110,6 @@ eolie/window.py
 [type: gettext/glade]data/TagWidget.ui
 [type: gettext/glade]data/ToolbarActions.ui
 [type: gettext/glade]data/ToolbarEnd.ui
+[type: gettext/glade]data/ToolbarMenu.ui
 [type: gettext/glade]data/ToolbarTitle.ui
 [type: gettext/glade]data/AboutDialog.ui.in
