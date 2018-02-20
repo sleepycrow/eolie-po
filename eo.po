@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 22:33+0100\n"
+"POT-Creation-Date: 2018-02-20 08:25+0100\n"
 "PO-Revision-Date: 2017-10-31 09:00+0000\n"
 "Last-Translator: Tirifto <tirifto@posteo.cz>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/eolie/eolie/eo/"
@@ -779,8 +779,9 @@ msgstr ""
 msgid "1000 of 1000 matches"
 msgstr ""
 
-#: ../data/AdblockMenu.ui.h:1
-msgid "Do not block current website content"
+#: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
+#: ../data/PopupBlockMenu.ui.h:1
+msgid "Do not filter current website content"
 msgstr ""
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
@@ -1016,10 +1017,6 @@ msgstr "Malfermi ĉiujn paĝojn por tiu ĉi etikedo"
 msgid "Do not block images for this page"
 msgstr "Malfermi ĉiujn paĝojn por tiu ĉi etikedo"
 
-#: ../data/JSBlockMenu.ui.h:1
-msgid "Do not block current website JavaScript"
-msgstr ""
-
 #: ../data/JSBlockMenu.ui.h:3
 msgid "JavaScript block"
 msgstr ""
@@ -1088,10 +1085,6 @@ msgstr ""
 
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
-msgstr ""
-
-#: ../data/PopupBlockMenu.ui.h:1
-msgid "Do not block current website popups"
 msgstr ""
 
 #: ../data/PopupBlockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:10

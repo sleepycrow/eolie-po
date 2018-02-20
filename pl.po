@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 22:33+0100\n"
+"POT-Creation-Date: 2018-02-20 08:25+0100\n"
 "PO-Revision-Date: 2017-12-02 16:34+0000\n"
 "Last-Translator: Piotr Sokół <psokol.l10n@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/eolie/eolie/pl/>\n"
@@ -790,9 +790,11 @@ msgstr "Wyszukaj następnego wystąpienia"
 msgid "1000 of 1000 matches"
 msgstr "1000 na 1000 dopasowań"
 
-#: ../data/AdblockMenu.ui.h:1
-msgid "Do not block current website content"
-msgstr ""
+#: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
+#: ../data/PopupBlockMenu.ui.h:1
+#, fuzzy
+msgid "Do not filter current website content"
+msgstr "Nie blokuj wyskakujących okienek"
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
 #: ../data/PopupBlockMenu.ui.h:2
@@ -1039,11 +1041,6 @@ msgstr "Nie blokuj obrazów"
 msgid "Do not block images for this page"
 msgstr "Nie blokuj obrazów"
 
-#: ../data/JSBlockMenu.ui.h:1
-#, fuzzy
-msgid "Do not block current website JavaScript"
-msgstr "Nie blokuj JavaScript"
-
 #: ../data/JSBlockMenu.ui.h:3
 #, fuzzy
 msgid "JavaScript block"
@@ -1114,11 +1111,6 @@ msgstr "Wyczyść historię"
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
 msgstr "Historia"
-
-#: ../data/PopupBlockMenu.ui.h:1
-#, fuzzy
-msgid "Do not block current website popups"
-msgstr "Nie blokuj wyskakujących okienek"
 
 #: ../data/PopupBlockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:10
 msgid "Block popups"
@@ -1533,6 +1525,10 @@ msgstr "Przybliż"
 #: ../data/ToolbarMenu.ui.h:12
 msgid "Filtering"
 msgstr "Filtrowanie"
+
+#, fuzzy
+#~ msgid "Do not block current website JavaScript"
+#~ msgstr "Nie blokuj JavaScript"
 
 #~ msgctxt "Adblock exception"
 #~ msgid "None"

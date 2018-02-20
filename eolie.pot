@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 22:33+0100\n"
+"POT-Creation-Date: 2018-02-20 08:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -761,8 +761,9 @@ msgstr ""
 msgid "1000 of 1000 matches"
 msgstr ""
 
-#: ../data/AdblockMenu.ui.h:1
-msgid "Do not block current website content"
+#: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
+#: ../data/PopupBlockMenu.ui.h:1
+msgid "Do not filter current website content"
 msgstr ""
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
@@ -992,10 +993,6 @@ msgstr ""
 msgid "Do not block images for this page"
 msgstr ""
 
-#: ../data/JSBlockMenu.ui.h:1
-msgid "Do not block current website JavaScript"
-msgstr ""
-
 #: ../data/JSBlockMenu.ui.h:3
 msgid "JavaScript block"
 msgstr ""
@@ -1063,10 +1060,6 @@ msgstr ""
 
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
-msgstr ""
-
-#: ../data/PopupBlockMenu.ui.h:1
-msgid "Do not block current website popups"
 msgstr ""
 
 #: ../data/PopupBlockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:10

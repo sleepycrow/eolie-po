@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 22:33+0100\n"
+"POT-Creation-Date: 2018-02-20 08:25+0100\n"
 "PO-Revision-Date: 2018-02-19 21:49+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
@@ -775,8 +775,10 @@ msgstr "Volgende vermelding zoeken"
 msgid "1000 of 1000 matches"
 msgstr "1000 van 1000 resultaten"
 
-#: ../data/AdblockMenu.ui.h:1
-msgid "Do not block current website content"
+#: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
+#: ../data/PopupBlockMenu.ui.h:1
+#, fuzzy
+msgid "Do not filter current website content"
 msgstr "Huidige website-inhoud niet blokkeren"
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
@@ -1017,10 +1019,6 @@ msgstr "Afbeeldingen op deze website niet blokkeren"
 msgid "Do not block images for this page"
 msgstr "Afbeeldingen op deze pagina niet blokkeren"
 
-#: ../data/JSBlockMenu.ui.h:1
-msgid "Do not block current website JavaScript"
-msgstr "JavaScript op deze website niet blokkeren"
-
 #: ../data/JSBlockMenu.ui.h:3
 msgid "JavaScript block"
 msgstr "JavaScript-blokkering"
@@ -1089,10 +1087,6 @@ msgstr "Geschiedenis wissen"
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
 msgstr "Geschiedenis"
-
-#: ../data/PopupBlockMenu.ui.h:1
-msgid "Do not block current website popups"
-msgstr "Pop-ups op de huidige website niet blokkeren"
 
 #: ../data/PopupBlockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:10
 msgid "Block popups"
@@ -1501,6 +1495,12 @@ msgstr "Inzoomen"
 #: ../data/ToolbarMenu.ui.h:12
 msgid "Filtering"
 msgstr "Filters"
+
+#~ msgid "Do not block current website JavaScript"
+#~ msgstr "JavaScript op deze website niet blokkeren"
+
+#~ msgid "Do not block current website popups"
+#~ msgstr "Pop-ups op de huidige website niet blokkeren"
 
 #~ msgctxt "Adblock exception"
 #~ msgid "None"

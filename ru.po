@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 22:33+0100\n"
+"POT-Creation-Date: 2018-02-20 08:25+0100\n"
 "PO-Revision-Date: 2018-01-22 17:54+0000\n"
 "Last-Translator: Дмитрий Нужнов <sergash.mail@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/"
@@ -785,9 +785,11 @@ msgstr "Поиск вперед"
 msgid "1000 of 1000 matches"
 msgstr "1000 из 1000 совпадений"
 
-#: ../data/AdblockMenu.ui.h:1
-msgid "Do not block current website content"
-msgstr ""
+#: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
+#: ../data/PopupBlockMenu.ui.h:1
+#, fuzzy
+msgid "Do not filter current website content"
+msgstr "Не блокировать всплывающие окна"
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
 #: ../data/PopupBlockMenu.ui.h:2
@@ -1036,10 +1038,6 @@ msgstr "Открыть все страницы для этого тега"
 msgid "Do not block images for this page"
 msgstr "Открыть все страницы для этого тега"
 
-#: ../data/JSBlockMenu.ui.h:1
-msgid "Do not block current website JavaScript"
-msgstr ""
-
 #: ../data/JSBlockMenu.ui.h:3
 #, fuzzy
 msgid "JavaScript block"
@@ -1110,11 +1108,6 @@ msgstr "Очистить историю"
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
 msgstr "История"
-
-#: ../data/PopupBlockMenu.ui.h:1
-#, fuzzy
-msgid "Do not block current website popups"
-msgstr "Не блокировать всплывающие окна"
 
 #: ../data/PopupBlockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:10
 msgid "Block popups"

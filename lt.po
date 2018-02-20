@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 22:33+0100\n"
+"POT-Creation-Date: 2018-02-20 08:25+0100\n"
 "PO-Revision-Date: 2018-02-12 21:38+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -784,9 +784,11 @@ msgstr "Ieškoti kito atitikmens"
 msgid "1000 of 1000 matches"
 msgstr "1000 iš 1000 atitikmenų"
 
-#: ../data/AdblockMenu.ui.h:1
-msgid "Do not block current website content"
-msgstr ""
+#: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
+#: ../data/PopupBlockMenu.ui.h:1
+#, fuzzy
+msgid "Do not filter current website content"
+msgstr "Neblokuoti iškylančiųjų langų"
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
 #: ../data/PopupBlockMenu.ui.h:2
@@ -1035,10 +1037,6 @@ msgstr "Atverti visus puslapius su šia žyme"
 msgid "Do not block images for this page"
 msgstr "Atverti visus puslapius su šia žyme"
 
-#: ../data/JSBlockMenu.ui.h:1
-msgid "Do not block current website JavaScript"
-msgstr ""
-
 #: ../data/JSBlockMenu.ui.h:3
 #, fuzzy
 msgid "JavaScript block"
@@ -1109,11 +1107,6 @@ msgstr "Išvalyti istoriją"
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
 msgstr "Istorija"
-
-#: ../data/PopupBlockMenu.ui.h:1
-#, fuzzy
-msgid "Do not block current website popups"
-msgstr "Neblokuoti iškylančiųjų langų"
 
 #: ../data/PopupBlockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:10
 msgid "Block popups"

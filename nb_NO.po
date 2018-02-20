@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 22:33+0100\n"
+"POT-Creation-Date: 2018-02-20 08:25+0100\n"
 "PO-Revision-Date: 2018-02-09 08:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -800,9 +800,11 @@ msgstr "Søk etter neste forekomst"
 msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 treff"
 
-#: ../data/AdblockMenu.ui.h:1
-msgid "Do not block current website content"
-msgstr ""
+#: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
+#: ../data/PopupBlockMenu.ui.h:1
+#, fuzzy
+msgid "Do not filter current website content"
+msgstr "Ikke blokker oppsprettsvinduer"
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
 #: ../data/PopupBlockMenu.ui.h:2
@@ -1055,11 +1057,6 @@ msgstr "Ikke blokker bilder"
 msgid "Do not block images for this page"
 msgstr "Ikke blokker bilder"
 
-#: ../data/JSBlockMenu.ui.h:1
-#, fuzzy
-msgid "Do not block current website JavaScript"
-msgstr "Ikke blokker JavaScript"
-
 #: ../data/JSBlockMenu.ui.h:3
 #, fuzzy
 msgid "JavaScript block"
@@ -1133,11 +1130,6 @@ msgstr "Tøm historikk"
 #: ../data/PopoverUri.ui.h:6
 msgid "History"
 msgstr "Historikk"
-
-#: ../data/PopupBlockMenu.ui.h:1
-#, fuzzy
-msgid "Do not block current website popups"
-msgstr "Ikke blokker oppsprettsvinduer"
 
 #: ../data/PopupBlockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:10
 msgid "Block popups"
@@ -1561,6 +1553,10 @@ msgstr "Forstørr"
 #: ../data/ToolbarMenu.ui.h:12
 msgid "Filtering"
 msgstr "Filtrering"
+
+#, fuzzy
+#~ msgid "Do not block current website JavaScript"
+#~ msgstr "Ikke blokker JavaScript"
 
 #~ msgctxt "Adblock exception"
 #~ msgid "None"
