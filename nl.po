@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 08:25+0100\n"
-"PO-Revision-Date: 2018-02-19 21:49+0000\n"
+"PO-Revision-Date: 2018-02-20 09:20+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
 "Language: nl\n"
@@ -777,9 +777,8 @@ msgstr "1000 van 1000 resultaten"
 
 #: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
 #: ../data/PopupBlockMenu.ui.h:1
-#, fuzzy
 msgid "Do not filter current website content"
-msgstr "Huidige website-inhoud niet blokkeren"
+msgstr "Huidige website-inhoud niet filteren"
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
 #: ../data/PopupBlockMenu.ui.h:2
