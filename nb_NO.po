@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 08:25+0100\n"
-"PO-Revision-Date: 2018-02-09 08:39+0000\n"
+"PO-Revision-Date: 2018-02-24 14:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
-"eolie/nb_NO/>\n"
+"Language-Team: Norwegian Bokmål "
+"<https://hosted.weblate.org/projects/gnumdk/eolie/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 2.20-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Show sidebar(sites manager)"
@@ -28,16 +28,18 @@ msgid "Block ads on pages"
 msgstr "Blokker reklame på sider"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:3
+#, fuzzy
 msgid "Trust websites: no adblock for internal URIs"
-msgstr ""
+msgstr "Stol på nettsider: Ingen reklameblokkering for interne URI-er"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:4
+#, fuzzy
 msgid "Trust websites: no JavaScript blocking for internal URIs"
-msgstr ""
+msgstr "Stol på nettsider: Ingen JavaScript-blokkering for interne URI-er"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:5
 msgid "Trust websites: no popup blocking for internal URIs"
-msgstr ""
+msgstr "Stol på nettsider: Ingen oppsprettsblokkering for interne URI-er"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:6
 msgid "Block unwanted popups on pages"
@@ -175,7 +177,7 @@ msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:66 ../data/AboutDialog.ui.in.h:7
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:76 ../data/AboutDialog.ui.in.h:8
 msgid "PayPal"
@@ -810,7 +812,7 @@ msgstr "Ikke blokker oppsprettsvinduer"
 #: ../data/PopupBlockMenu.ui.h:2
 msgctxt "Trust web sites"
 msgid "Trust web sites"
-msgstr ""
+msgstr "Stol på nettsider"
 
 #: ../data/AdblockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:8
 msgid "Block ads"
@@ -831,7 +833,7 @@ msgstr "Blokker JavaScript"
 #: ../data/AdblockMenu.ui.h:6
 msgctxt "Adblock"
 msgid "Enabled"
-msgstr ""
+msgstr "Påskrudd"
 
 #: ../data/AdblockMenu.ui.h:7 ../data/ImageBlockMenu.ui.h:5
 #: ../data/PopupBlockMenu.ui.h:7
@@ -847,7 +849,7 @@ msgstr "Ikke blokker reklame"
 #: ../data/AdblockMenu.ui.h:9 ../data/ImageBlockMenu.ui.h:6
 #: ../data/PopupBlockMenu.ui.h:8
 msgid "Not for this site"
-msgstr ""
+msgstr "Ikke for denne siden"
 
 #: ../data/AdblockMenu.ui.h:10
 #, fuzzy
@@ -1040,7 +1042,7 @@ msgstr "Blokker bilder"
 #: ../data/ImageBlockMenu.ui.h:3 ../data/PopupBlockMenu.ui.h:5
 msgctxt "popup"
 msgid "Enabled"
-msgstr ""
+msgstr "Påskrudd"
 
 #: ../data/ImageBlockMenu.ui.h:4
 #, fuzzy
@@ -1070,7 +1072,7 @@ msgstr "Blokker JavaScript"
 #: ../data/JSBlockMenu.ui.h:6
 msgctxt "Trust web sites"
 msgid "Enabled"
-msgstr ""
+msgstr "Påskrudd"
 
 #: ../data/LanguagesMenu.ui.h:1 ../data/ToolbarMenu.ui.h:13
 msgid "Spell checking"
