@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-28 15:15+0100\n"
-"PO-Revision-Date: 2018-02-20 09:20+0000\n"
+"PO-Revision-Date: 2018-02-28 14:54+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
 "Language: nl\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19\n"
+"X-Generator: Weblate 2.20-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Show debug messages"
-msgstr ""
+msgstr "Foutopsporingsberichten weergeven"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:2
 msgid "Show Mozilla sync debug messages"
-msgstr ""
+msgstr "Mozilla Sync-foutopsporingsberichten weergeven"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:3
 msgid "Show sidebar(sites manager)"
@@ -1427,10 +1427,9 @@ msgid "Temporarily enable JavaScript for current site"
 msgstr "JavaScript tijdelijk inschakelen op huidige website"
 
 #: ../data/Shortcuts.ui.h:29
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Temporarily enable \"Media Source Extension\""
-msgstr "JavaScript tijdelijk inschakelen op huidige website"
+msgstr "\"Media Source Extension\" tijdelijk inschakelen"
 
 #: ../data/Shortcuts.ui.h:30
 msgctxt "shortcut window"
