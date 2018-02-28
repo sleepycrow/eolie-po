@@ -31,6 +31,7 @@ eolie/helper_task.py
 eolie/label_indicator.py
 eolie/list.py
 eolie/localized.py
+eolie/logger.py
 eolie/menu_block.py
 eolie/menu_form.py
 eolie/menu_history.py

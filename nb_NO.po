@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-20 08:25+0100\n"
+"POT-Creation-Date: 2018-02-28 15:15+0100\n"
 "PO-Revision-Date: 2018-02-24 14:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål "
-"<https://hosted.weblate.org/projects/gnumdk/eolie/nb_NO/>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
+"eolie/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,136 +20,140 @@ msgstr ""
 "X-Generator: Weblate 2.20-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
+msgid "Show debug messages"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:2
+msgid "Show Mozilla sync debug messages"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml.h:3
 msgid "Show sidebar(sites manager)"
 msgstr "Vis sidepanel (sidebehandler)"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:2
+#: ../data/org.gnome.Eolie.gschema.xml.h:4
 msgid "Block ads on pages"
 msgstr "Blokker reklame på sider"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:3
+#: ../data/org.gnome.Eolie.gschema.xml.h:5
 #, fuzzy
 msgid "Trust websites: no adblock for internal URIs"
 msgstr "Stol på nettsider: Ingen reklameblokkering for interne URI-er"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:4
+#: ../data/org.gnome.Eolie.gschema.xml.h:6
 #, fuzzy
 msgid "Trust websites: no JavaScript blocking for internal URIs"
 msgstr "Stol på nettsider: Ingen JavaScript-blokkering for interne URI-er"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:5
-msgid "Trust websites: no popup blocking for internal URIs"
-msgstr "Stol på nettsider: Ingen oppsprettsblokkering for interne URI-er"
-
-#: ../data/org.gnome.Eolie.gschema.xml.h:6
+#: ../data/org.gnome.Eolie.gschema.xml.h:7
 msgid "Block unwanted popups on pages"
 msgstr "Blokker uønskede oppsprettsvinduer på vinduer"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:7
+#: ../data/org.gnome.Eolie.gschema.xml.h:8
 #, fuzzy
 msgid "Block images on page"
 msgstr "Blokker bilder på sider"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:8
+#: ../data/org.gnome.Eolie.gschema.xml.h:9
 #, fuzzy
 msgid "Block JavaScript on pages"
 msgstr "Blokker JavaScript på sider"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:10
 #, fuzzy
 msgid "Download folder URI"
 msgstr "Last ned mappe-URI"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:10
+#: ../data/org.gnome.Eolie.gschema.xml.h:11
 msgid "Open finished downloads"
 msgstr "Åpne fullførte nedlastinger"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:11
+#: ../data/org.gnome.Eolie.gschema.xml.h:12
 msgid "Web search engine"
 msgstr "Søkemotor for veven"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:12
+#: ../data/org.gnome.Eolie.gschema.xml.h:13
 msgid "Remember sessions"
 msgstr "Husk økter"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:13 ../data/SettingsDialog.ui.h:35
+#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:35
 msgid "Remember passwords"
 msgstr "Husk passord"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:20
+#: ../data/org.gnome.Eolie.gschema.xml.h:15 ../data/SettingsDialog.ui.h:20
 msgid "Enable developer tools"
 msgstr "Skru på utviklerverktøy"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:15 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:9
 msgid "Enable plugins"
 msgstr "Skru på programtillegg"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:24
 msgid "Use system fonts"
 msgstr "Bruk systemets skrifter"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:25
 msgid "Sans serif font"
 msgstr "Seriffskrift"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:26
+#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:26
 msgid "Serif font"
 msgstr "Seriffløs skrift"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:27
 msgid "Monospace font"
 msgstr "Fastbreddeskrift"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20
+#: ../data/org.gnome.Eolie.gschema.xml.h:21
 msgid "Open this page on startup"
 msgstr "Åpne denne siden ved oppstart"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:21
+#: ../data/org.gnome.Eolie.gschema.xml.h:22
 msgid "Minimum sidebar position"
 msgstr "Minimal sidefeltsposisjon"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22 ../data/SettingsDialog.ui.h:28
+#: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/SettingsDialog.ui.h:28
 msgid "Minimum font size"
 msgstr "Minste skriftstørrelse"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23
+#: ../data/org.gnome.Eolie.gschema.xml.h:24
 msgid "Popular items shown"
 msgstr "Populære elementer vist"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24
+#: ../data/org.gnome.Eolie.gschema.xml.h:25
 msgid "Webviews preloaded per window"
 msgstr "Nettvisning forhåndslastet per vindu"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:25
+#: ../data/org.gnome.Eolie.gschema.xml.h:26
 msgid "Restart needed"
 msgstr "Omstart nødvendig"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26 ../data/SettingsDialog.ui.h:29
+#: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/SettingsDialog.ui.h:29
 #: ../data/ToolbarMenu.ui.h:6
 msgid "Default zoom level"
 msgstr "Forvalgt forstørrelsesnivå"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27
+#: ../data/org.gnome.Eolie.gschema.xml.h:28
 msgid "Cookies storage type"
 msgstr "Lagringstype for kaker"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:28
+#: ../data/org.gnome.Eolie.gschema.xml.h:29
 msgid "History storage type"
 msgstr "Lagringstype for historikk"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:29 ../data/SettingsDialog.ui.h:33
+#: ../data/org.gnome.Eolie.gschema.xml.h:30 ../data/SettingsDialog.ui.h:33
 msgid "Tell websites I do not want to be tracked"
 msgstr "Fortell nettsider at jeg ikke ønsker å bli sporet"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:30
+#: ../data/org.gnome.Eolie.gschema.xml.h:31
 msgid "DNS prediction"
 msgstr "DNS-forutsigelse"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:31
+#: ../data/org.gnome.Eolie.gschema.xml.h:32
 msgid "Enable search suggestions"
 msgstr "Skru på søkeforslag"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:32 ../data/LanguagesMenu.ui.h:2
+#: ../data/org.gnome.Eolie.gschema.xml.h:33 ../data/LanguagesMenu.ui.h:2
 msgid "Enable spell checking"
 msgstr "Skru på stavekontroll"
 
@@ -191,47 +195,42 @@ msgstr "Eolie"
 msgid "Web browser"
 msgstr "Nettleser"
 
-#: ../eolie/application.py:232
+#: ../eolie/application.py:226
 msgid "Default"
 msgstr "Forvalg"
 
-#: ../eolie/application.py:233
+#: ../eolie/application.py:227
 msgid "Social networks"
 msgstr "Sosiale nettverk"
 
-#: ../eolie/application.py:234
+#: ../eolie/application.py:228
 msgid "Work"
 msgstr "Arbeid"
 
-#: ../eolie/application.py:235
+#: ../eolie/application.py:229
 msgid "Shopping"
 msgstr "Handling"
 
-#: ../eolie/application.py:236
+#: ../eolie/application.py:230
 msgid "Personal"
 msgstr "Personlig"
 
-#: ../eolie/application.py:237
+#: ../eolie/application.py:231
 msgid "Finance"
 msgstr "Finans"
 
-#: ../eolie/application.py:238
+#: ../eolie/application.py:232
 msgid "Sport"
 msgstr "Sport"
 
-#: ../eolie/application.py:727
+#: ../eolie/application.py:720
 msgid "Do you really want to quit Eolie?"
 msgstr "Vil du virkelig avslutte Eolie?"
 
-#: ../eolie/application.py:779
+#: ../eolie/application.py:773
 #, fuzzy
 msgid "Downloads running, are you sure you want quit ?"
 msgstr "Nedlastinger underveis, er du sikker på at du vil avslutte?"
-
-#: ../eolie/application.py:837
-#, fuzzy
-msgid "Eolie: You need to install yelp."
-msgstr "Eolia: Du må installere yelp."
 
 #: ../eolie/container.py:602
 msgid "Do you really want to close this page?"
@@ -253,59 +252,59 @@ msgstr "Størrelse"
 msgid "Last modification"
 msgstr "Siste endring"
 
-#: ../eolie/database_adblock.py:203
+#: ../eolie/database_adblock.py:204
 #, fuzzy
 msgid "For stronger ad blocking, install git command"
 msgstr "For hardere reklameblokkering, installer git-kommandoen"
 
-#: ../eolie/dialog_clear_data.py:179
+#: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
 msgstr "Minnehurtiglager"
 
-#: ../eolie/dialog_clear_data.py:181
+#: ../eolie/dialog_clear_data.py:182
 msgid "HTTP disk cache"
 msgstr "HTTP-diskhurtiglager"
 
-#: ../eolie/dialog_clear_data.py:183
+#: ../eolie/dialog_clear_data.py:184
 #, fuzzy
 msgid "Offline web application cache"
 msgstr "Frakoblet hurtiglager for vevprogram"
 
-#: ../eolie/dialog_clear_data.py:185
+#: ../eolie/dialog_clear_data.py:186
 #, fuzzy
 msgid "Session storage data"
 msgstr "Lagringsdata for økt"
 
-#: ../eolie/dialog_clear_data.py:187
+#: ../eolie/dialog_clear_data.py:188
 msgid "Local storage data"
 msgstr "Lokal lagringsdata"
 
-#: ../eolie/dialog_clear_data.py:189
+#: ../eolie/dialog_clear_data.py:190
 msgid "WebSQL databases"
 msgstr "WebSQL-databaser"
 
-#: ../eolie/dialog_clear_data.py:191
+#: ../eolie/dialog_clear_data.py:192
 msgid "IndexedDB databases"
 msgstr "IndexedDB-databaser"
 
-#: ../eolie/dialog_clear_data.py:193
+#: ../eolie/dialog_clear_data.py:194
 #, fuzzy
 msgid "Plugins data"
 msgstr "Programtilleggsdata"
 
-#: ../eolie/dialog_clear_data.py:195 ../data/SettingsDialog.ui.h:31
+#: ../eolie/dialog_clear_data.py:196 ../data/SettingsDialog.ui.h:31
 msgid "Cookies"
 msgstr "Kaker"
 
-#: ../eolie/dialog_import_bookmarks.py:47 ../data/SettingsDialog.ui.h:8
+#: ../eolie/dialog_import_bookmarks.py:48 ../data/SettingsDialog.ui.h:8
 msgid "Others"
 msgstr "Annet"
 
-#: ../eolie/dialog_import_bookmarks.py:84
+#: ../eolie/dialog_import_bookmarks.py:85
 msgid "Import HTML bookmarks"
 msgstr "Importer HTML-bokmerker"
 
-#: ../eolie/dialog_search_engine.py:162 ../eolie/dialog_search_engine.py:166
+#: ../eolie/dialog_search_engine.py:163 ../eolie/dialog_search_engine.py:167
 msgid "New engine"
 msgstr "Ny motor"
 
@@ -313,7 +312,7 @@ msgstr "Ny motor"
 msgid "Saved credentials"
 msgstr "Lagrede identitetsdetaljer"
 
-#: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:74
+#: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:75
 msgid "Move to"
 msgstr "Flytt til"
 
@@ -335,19 +334,19 @@ msgstr "Lukkede sider"
 msgid "Open all pages"
 msgstr "Åpne alle sider"
 
-#: ../eolie/menu_profiles.py:44 ../eolie/menu_sites.py:68
+#: ../eolie/menu_profiles.py:45 ../eolie/menu_sites.py:69
 msgid "Profiles"
 msgstr "Profiler"
 
-#: ../eolie/menu_profiles.py:90
+#: ../eolie/menu_profiles.py:91
 msgid "Edit profiles"
 msgstr "Rediger profiler"
 
-#: ../eolie/menu_sites.py:84
+#: ../eolie/menu_sites.py:85
 msgid "Modify user agent"
 msgstr "Endre brukeragent"
 
-#: ../eolie/menu_sites.py:93
+#: ../eolie/menu_sites.py:94
 msgid "Close site"
 msgstr "Lukk side"
 
@@ -359,61 +358,61 @@ msgstr "Forlat fullskjermsvisning"
 msgid "Enter fullscreen"
 msgstr "Fullskjermsvisning"
 
-#: ../eolie/menu_videos.py:78
+#: ../eolie/menu_videos.py:79
 msgid "No videos"
 msgstr "Ingen videoer"
 
-#: ../eolie/popover_credentials.py:58
+#: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
 msgstr "Ønsker du å endre dette passordet?"
 
-#: ../eolie/popover_downloads.py:108
+#: ../eolie/popover_downloads.py:109
 msgid "Download speed:"
 msgstr "Nedlastingshastighet:"
 
-#: ../eolie/popover_downloads.py:110
+#: ../eolie/popover_downloads.py:111
 msgid "bytes/s"
 msgstr "byte/s"
 
-#: ../eolie/popover_downloads.py:113
+#: ../eolie/popover_downloads.py:114
 msgid "KiB/s"
 msgstr "KiB/s"
 
-#: ../eolie/popover_downloads.py:116
+#: ../eolie/popover_downloads.py:117
 msgid "MiB/s"
 msgstr "MiB/s"
 
-#: ../eolie/popover_downloads.py:138 ../eolie/popover_downloads.py:144
+#: ../eolie/popover_downloads.py:139 ../eolie/popover_downloads.py:145
 #, python-format
 msgid "%s second"
 msgstr "%s sekund"
 
-#: ../eolie/popover_downloads.py:140 ../eolie/popover_downloads.py:146
+#: ../eolie/popover_downloads.py:141 ../eolie/popover_downloads.py:147
 #, python-format
 msgid "%s seconds"
 msgstr "%s sekunder"
 
-#: ../eolie/popover_downloads.py:152 ../eolie/popover_downloads.py:160
+#: ../eolie/popover_downloads.py:153 ../eolie/popover_downloads.py:161
 #, python-format
 msgid "%s minute"
 msgstr "%s minutt"
 
-#: ../eolie/popover_downloads.py:155 ../eolie/popover_downloads.py:162
+#: ../eolie/popover_downloads.py:156 ../eolie/popover_downloads.py:163
 #, python-format
 msgid "%s minutes"
 msgstr "%s minutter"
 
-#: ../eolie/popover_downloads.py:168
+#: ../eolie/popover_downloads.py:169
 #, python-format
 msgid "%s hours"
 msgstr "%s timer"
 
-#: ../eolie/popover_downloads.py:170
+#: ../eolie/popover_downloads.py:171
 #, python-format
 msgid "%s hour"
 msgstr "%s time"
 
-#: ../eolie/popover_downloads.py:171
+#: ../eolie/popover_downloads.py:172
 msgid "Remaining time:"
 msgstr "Gjenstående tid:"
 
@@ -426,8 +425,8 @@ msgstr "Gi denne siden tilgang til din plassering?"
 msgid "Continue"
 msgstr "Fortsett"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:425
-#: ../eolie/toolbar_end.py:134 ../eolie/webview_signals.py:138
+#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:426
+#: ../eolie/toolbar_end.py:135 ../eolie/webview_signals.py:140
 #: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
 #: ../data/QuitDialog.ui.h:1
 msgid "Cancel"
@@ -437,81 +436,81 @@ msgstr "Avbryt"
 msgid "Delete page from history"
 msgstr "Slett side fra historikk"
 
-#: ../eolie/popover_uri.py:143
+#: ../eolie/popover_uri.py:144
 msgid "Edit bookmark"
 msgstr "Rediger bokmerke"
 
-#: ../eolie/popover_uri.py:160
+#: ../eolie/popover_uri.py:161
 #, fuzzy
 msgid "Open all pages for this tag"
 msgstr "Åpne alle sidene for denne etiketten"
 
-#: ../eolie/popover_uri.py:460 ../data/DialogImportBookmarks.ui.h:2
+#: ../eolie/popover_uri.py:461 ../data/DialogImportBookmarks.ui.h:2
 #: ../data/PopoverUri.ui.h:2
 msgid "Import bookmarks"
 msgstr "Importer bokmerker"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:784
+#: ../eolie/popover_uri.py:785
 msgid "Popular"
 msgstr "Populær"
 
 #. Translators: Plural
-#: ../eolie/popover_uri.py:787
+#: ../eolie/popover_uri.py:788
 msgid "Recent"
 msgstr "Nylig"
 
-#: ../eolie/popover_uri.py:789
+#: ../eolie/popover_uri.py:790
 msgid "Unclassified"
 msgstr "Uklassifisert"
 
-#: ../eolie/popover_uri.py:812
+#: ../eolie/popover_uri.py:813
 msgid "From the past hour"
 msgstr "Fra siste time"
 
-#: ../eolie/popover_uri.py:813
+#: ../eolie/popover_uri.py:814
 msgid "From the past day"
 msgstr "Fra den siste dagen"
 
-#: ../eolie/popover_uri.py:814
+#: ../eolie/popover_uri.py:815
 msgid "From the past week"
 msgstr "Fra siste uke"
 
-#: ../eolie/popover_uri.py:816
+#: ../eolie/popover_uri.py:817
 msgid "From the past four weeks"
 msgstr "Fra de siste fire timene"
 
-#: ../eolie/popover_uri.py:817
+#: ../eolie/popover_uri.py:818
 msgid "From selected day"
 msgstr "Fra valgt dag"
 
-#: ../eolie/popover_uri.py:818
+#: ../eolie/popover_uri.py:819
 msgid "From the beginning"
 msgstr "Fra begynnelsen"
 
-#: ../eolie/popover_uri.py:1096
+#: ../eolie/popover_uri.py:1097
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bokmerker"
 
 #. Translators: Google url for your country
-#: ../eolie/search.py:38 ../eolie/search.py:39
+#: ../eolie/search.py:39 ../eolie/search.py:40
 msgid "https://www.google.com"
 msgstr "https://www.google.no"
 
 #. Translators: Yahoo url for your country
-#: ../eolie/search.py:60
+#: ../eolie/search.py:61
 #, fuzzy
 msgid "https://www.yahoo.com"
 msgstr "https://www.yahoo.com"
 
 #. Translators: Yahoo url for your country
-#: ../eolie/search.py:62
+#: ../eolie/search.py:63
 #, fuzzy
 msgid "https://us.search.yahoo.com"
 msgstr "https://www.yahoo.com"
 
-#: ../eolie/search.py:245
+#: ../eolie/search.py:246
 #, fuzzy, python-format
 msgid ""
 "Do you want to install\n"
@@ -520,40 +519,40 @@ msgstr ""
 "Ønsker du å installere\n"
 "søkemotoren %s?"
 
-#: ../eolie/search.py:249
+#: ../eolie/search.py:250
 msgid "Unsupported search engine"
 msgstr "Ustøttet søkemotor"
 
-#: ../eolie/settings.py:66 ../eolie/settings.py:69
+#: ../eolie/settings.py:67 ../eolie/settings.py:70
 #: ../data/SettingsDialog.ui.h:1
 msgid "Preferences"
 msgstr "Innstillinger"
 
-#: ../eolie/settings.py:456
+#: ../eolie/settings.py:461
 msgid "Connecting…"
 msgstr "Kobler til…"
 
-#: ../eolie/settings.py:490
+#: ../eolie/settings.py:495
 msgid "Synchronization is working"
 msgstr "Synkronisering pågår"
 
-#: ../eolie/settings.py:496
+#: ../eolie/settings.py:501
 msgid "Cancel synchronization"
 msgstr "Avbryt synkronisering"
 
-#: ../eolie/settings.py:501 ../data/ToolbarEnd.ui.h:2
+#: ../eolie/settings.py:506 ../data/ToolbarEnd.ui.h:2
 msgid "Start synchronization"
 msgstr "Start synkronisering"
 
-#: ../eolie/settings.py:506 ../data/SettingsDialog.ui.h:57
+#: ../eolie/settings.py:511 ../data/SettingsDialog.ui.h:57
 msgid "Allow synchronization"
 msgstr "Tillat synkronisering"
 
-#: ../eolie/settings.py:511
+#: ../eolie/settings.py:516
 msgid "Synchronization is not working"
 msgstr "Synkroniseringen fungerer ikke"
 
-#: ../eolie/settings.py:522
+#: ../eolie/settings.py:527
 #, fuzzy, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
@@ -562,27 +561,27 @@ msgstr ""
 "Synkronisering er ikke tilgjengelig på din datamaskin:\n"
 "%s"
 
-#: ../eolie/settings.py:545
+#: ../eolie/settings.py:550
 msgid "You've received an email to validate synchronization"
 msgstr "Du har mottatt en e-post for å bekrefte synkronisering"
 
-#: ../eolie/toolbar_end.py:98
+#: ../eolie/toolbar_end.py:99
 msgid "Downloading:"
 msgstr "Laster ned:"
 
-#: ../eolie/toolbar_end.py:130 ../data/ToolbarMenu.ui.h:1
+#: ../eolie/toolbar_end.py:131 ../data/ToolbarMenu.ui.h:1
 msgid "Save page"
 msgstr "Lagre side"
 
-#: ../eolie/toolbar_end.py:133 ../data/PopoverCredentials.ui.h:2
+#: ../eolie/toolbar_end.py:134 ../data/PopoverCredentials.ui.h:2
 msgid "Save"
 msgstr "Lagre"
 
-#: ../eolie/toolbar_title.py:265
+#: ../eolie/toolbar_title.py:271
 msgid "This page contains insecure content"
 msgstr "Siden inneholder usikkert innhold"
 
-#: ../eolie/toolbar_title.py:319
+#: ../eolie/toolbar_title.py:325
 #, fuzzy
 msgid ""
 "Heads-up: this page is not secure.\n"
@@ -593,24 +592,24 @@ msgstr ""
 "Hvis du skriver passordet ditt,\n"
 "vil det være synlig for kyberkriminelle!"
 
-#: ../eolie/toolbar_title.py:368
+#: ../eolie/toolbar_title.py:374
 #, fuzzy
 msgid "Disallow geolocation"
 msgstr "Nekt plasseringsdata"
 
-#: ../eolie/toolbar_title.py:374
+#: ../eolie/toolbar_title.py:380
 msgid "Blocked popups"
 msgstr "Blokkerte oppsprettsvinduer"
 
-#: ../eolie/toolbar_title.py:455
+#: ../eolie/toolbar_title.py:449
 msgid "Copy address"
 msgstr "Kopier adresse"
 
-#: ../eolie/toolbar_title.py:515
+#: ../eolie/toolbar_title.py:509
 msgid "Paste and load"
 msgstr "Lim inn og gå"
 
-#: ../eolie/toolbar_title.py:746 ../eolie/toolbar_title.py:749
+#: ../eolie/toolbar_title.py:740 ../eolie/toolbar_title.py:743
 msgid "Search or enter address"
 msgstr "Søk eller skriv inn adresse"
 
@@ -728,65 +727,65 @@ msgstr "Rapporter en feil nå"
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie vil lukke denne siden fordi den er knekt"
 
-#: ../eolie/webview_signals_menu.py:66
+#: ../eolie/webview_signals_menu.py:70
 msgid "Reload preview"
 msgstr "Gjeninnlast forhåndsvisning"
 
-#: ../eolie/webview_signals_menu.py:83
+#: ../eolie/webview_signals_menu.py:87
 msgid "Open link in a new page"
 msgstr "Åpne lenke i ny side"
 
-#: ../eolie/webview_signals_menu.py:93
+#: ../eolie/webview_signals_menu.py:97
 msgid "Open link in a new private page"
 msgstr "Åpne lenke i ny privat side"
 
-#: ../eolie/webview_signals_menu.py:103
+#: ../eolie/webview_signals_menu.py:107
 msgid "Open link in a new window"
 msgstr "Åpne lenke i nytt vindu"
 
-#: ../eolie/webview_signals_menu.py:116
+#: ../eolie/webview_signals_menu.py:120
 msgid "Copy"
 msgstr "Kopier"
 
-#: ../eolie/webview_signals_menu.py:131
+#: ../eolie/webview_signals_menu.py:135
 msgid "Copy link address"
 msgstr "Kopier lenkeadresse"
 
-#: ../eolie/webview_signals_menu.py:142
+#: ../eolie/webview_signals_menu.py:146
 msgid "Search on the Web"
 msgstr "Søk på nettet"
 
-#: ../eolie/webview_signals_menu.py:152
+#: ../eolie/webview_signals_menu.py:156
 #, fuzzy
 msgid "Download this image"
 msgstr "Last ned dene fila"
 
-#: ../eolie/webview_signals_menu.py:155
+#: ../eolie/webview_signals_menu.py:159
 #, fuzzy
 msgid "Download this video"
 msgstr "Last ned dene fila"
 
-#: ../eolie/webview_signals_menu.py:158
+#: ../eolie/webview_signals_menu.py:162
 msgid "Download this file"
 msgstr "Last ned dene fila"
 
-#: ../eolie/webview_signals_menu.py:180 ../data/PopoverImages.ui.h:1
+#: ../eolie/webview_signals_menu.py:184 ../data/PopoverImages.ui.h:1
 msgid "Save images"
 msgstr "Lagre bilder"
 
-#: ../eolie/webview_signals_menu.py:190
+#: ../eolie/webview_signals_menu.py:194
 msgid "Save videos"
 msgstr "Lagre videoer"
 
-#: ../eolie/webview_signals_menu.py:200
+#: ../eolie/webview_signals_menu.py:204
 msgid "Save page as image"
 msgstr "Lagre side som bilde"
 
-#: ../eolie/webview_signals.py:134
+#: ../eolie/webview_signals.py:136
 msgid "Select files to upload"
 msgstr "Velg filer å laste opp"
 
-#: ../eolie/webview_signals.py:137
+#: ../eolie/webview_signals.py:139
 msgid "Open"
 msgstr "Åpne"
 
@@ -803,13 +802,11 @@ msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 treff"
 
 #: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
-#: ../data/PopupBlockMenu.ui.h:1
 #, fuzzy
 msgid "Do not filter current website content"
 msgstr "Ikke blokker oppsprettsvinduer"
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
-#: ../data/PopupBlockMenu.ui.h:2
 msgctxt "Trust web sites"
 msgid "Trust web sites"
 msgstr "Stol på nettsider"
@@ -819,7 +816,7 @@ msgid "Block ads"
 msgstr "Blokker reklame"
 
 #: ../data/AdblockMenu.ui.h:4 ../data/ImageBlockMenu.ui.h:2
-#: ../data/JSBlockMenu.ui.h:4 ../data/PopupBlockMenu.ui.h:4
+#: ../data/JSBlockMenu.ui.h:4 ../data/PopupBlockMenu.ui.h:2
 #: ../data/ScriptsMenu.ui.h:3
 #, fuzzy
 msgid "Block policy"
@@ -836,7 +833,7 @@ msgid "Enabled"
 msgstr "Påskrudd"
 
 #: ../data/AdblockMenu.ui.h:7 ../data/ImageBlockMenu.ui.h:5
-#: ../data/PopupBlockMenu.ui.h:7
+#: ../data/PopupBlockMenu.ui.h:5
 #, fuzzy
 msgid "By default"
 msgstr "Forvalg"
@@ -847,7 +844,7 @@ msgid "Do not block ads for this site"
 msgstr "Ikke blokker reklame"
 
 #: ../data/AdblockMenu.ui.h:9 ../data/ImageBlockMenu.ui.h:6
-#: ../data/PopupBlockMenu.ui.h:8
+#: ../data/PopupBlockMenu.ui.h:6
 msgid "Not for this site"
 msgstr "Ikke for denne siden"
 
@@ -857,7 +854,7 @@ msgid "Do not block ads for this page"
 msgstr "Ikke blokker reklame"
 
 #: ../data/AdblockMenu.ui.h:11 ../data/ImageBlockMenu.ui.h:8
-#: ../data/PopupBlockMenu.ui.h:10
+#: ../data/PopupBlockMenu.ui.h:8
 #, fuzzy
 msgid "Not for this page"
 msgstr "Last ned dene fila"
@@ -1039,7 +1036,7 @@ msgstr ""
 msgid "Block images"
 msgstr "Blokker bilder"
 
-#: ../data/ImageBlockMenu.ui.h:3 ../data/PopupBlockMenu.ui.h:5
+#: ../data/ImageBlockMenu.ui.h:3 ../data/PopupBlockMenu.ui.h:3
 msgctxt "popup"
 msgid "Enabled"
 msgstr "Påskrudd"
@@ -1133,21 +1130,21 @@ msgstr "Tøm historikk"
 msgid "History"
 msgstr "Historikk"
 
-#: ../data/PopupBlockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:10
+#: ../data/PopupBlockMenu.ui.h:1 ../data/ToolbarMenu.ui.h:10
 msgid "Block popups"
 msgstr "Blokker oppsprettsvinduer"
 
-#: ../data/PopupBlockMenu.ui.h:6
+#: ../data/PopupBlockMenu.ui.h:4
 #, fuzzy
 msgid "Enable popup blocking"
 msgstr "Skru på stavekontroll"
 
-#: ../data/PopupBlockMenu.ui.h:9
+#: ../data/PopupBlockMenu.ui.h:7
 #, fuzzy
 msgid "Do not block popups for this site"
 msgstr "Ikke blokker oppsprettsvinduer"
 
-#: ../data/PopupBlockMenu.ui.h:11
+#: ../data/PopupBlockMenu.ui.h:9
 #, fuzzy
 msgid "Do not block popups for this page"
 msgstr "Ikke blokker oppsprettsvinduer"
@@ -1488,16 +1485,22 @@ msgid "Temporarily enable JavaScript for current site"
 msgstr "Skru av reklameblokkering for denne siden"
 
 #: ../data/Shortcuts.ui.h:29
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Temporarily enable \"Media Source Extension\""
+msgstr "Skru av reklameblokkering for denne siden"
+
+#: ../data/Shortcuts.ui.h:30
 msgctxt "shortcut window"
 msgid "Navigation"
 msgstr "Navigasjon"
 
-#: ../data/Shortcuts.ui.h:30
+#: ../data/Shortcuts.ui.h:31
 msgctxt "shortcut window"
 msgid "Reload page"
 msgstr "Gjeninnlast side"
 
-#: ../data/Shortcuts.ui.h:31
+#: ../data/Shortcuts.ui.h:32
 msgctxt "shortcut window"
 msgid "Startup page"
 msgstr "Startside"
@@ -1555,6 +1558,13 @@ msgstr "Forstørr"
 #: ../data/ToolbarMenu.ui.h:12
 msgid "Filtering"
 msgstr "Filtrering"
+
+#~ msgid "Trust websites: no popup blocking for internal URIs"
+#~ msgstr "Stol på nettsider: Ingen oppsprettsblokkering for interne URI-er"
+
+#, fuzzy
+#~ msgid "Eolie: You need to install yelp."
+#~ msgstr "Eolia: Du må installere yelp."
 
 #, fuzzy
 #~ msgid "Do not block current website JavaScript"
