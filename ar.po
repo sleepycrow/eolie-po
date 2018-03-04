@@ -8,25 +8,25 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-28 15:15+0100\n"
-"PO-Revision-Date: 2018-02-05 15:34+0000\n"
-"Last-Translator: Michal Čihař <michal@cihar.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/"
-">\n"
+"PO-Revision-Date: 2018-03-05 04:34+0000\n"
+"Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
+"\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 2.20-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:1
 msgid "Show debug messages"
-msgstr ""
+msgstr "أظهر رسائل التنقيح"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:2
 msgid "Show Mozilla sync debug messages"
-msgstr ""
+msgstr "أظهر رسائل تنقيح مزامنة موزيلا"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:3
 msgid "Show sidebar(sites manager)"
@@ -49,12 +49,10 @@ msgid "Block unwanted popups on pages"
 msgstr "امنع النوافذ المنبثقة المزعجة في الصفحات"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:8
-#, fuzzy
 msgid "Block images on page"
-msgstr "امنع الصور في الصفحات"
+msgstr "امنع الصور في الصفحة"
 
 #: ../data/org.gnome.Eolie.gschema.xml.h:9
-#, fuzzy
 msgid "Block JavaScript on pages"
 msgstr "امنع الجافاسكربت في الصفحات"
 
@@ -179,7 +177,7 @@ msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:66 ../data/AboutDialog.ui.in.h:7
 msgid "Liberapay"
-msgstr ""
+msgstr "ليبرابَي"
 
 #: ../data/AboutDialog.ui.in:76 ../data/AboutDialog.ui.in.h:8
 msgid "PayPal"
@@ -780,14 +778,13 @@ msgid "1000 of 1000 matches"
 msgstr "1000 من 1000 نتيجة"
 
 #: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
-#, fuzzy
 msgid "Do not filter current website content"
-msgstr "لا تمنع منبثقات"
+msgstr "لا تُصفّ محتوى الموقع الحالي"
 
 #: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
 msgctxt "Trust web sites"
 msgid "Trust web sites"
-msgstr ""
+msgstr "مواقع الوِب الموثوقة"
 
 #: ../data/AdblockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:8
 msgid "Block ads"
@@ -796,19 +793,17 @@ msgstr "امنع الإعلانات"
 #: ../data/AdblockMenu.ui.h:4 ../data/ImageBlockMenu.ui.h:2
 #: ../data/JSBlockMenu.ui.h:4 ../data/PopupBlockMenu.ui.h:2
 #: ../data/ScriptsMenu.ui.h:3
-#, fuzzy
 msgid "Block policy"
-msgstr "امنع المنبثقات"
+msgstr "سياسة المنع"
 
 #: ../data/AdblockMenu.ui.h:5
-#, fuzzy
 msgid "Enable adblock"
-msgstr "فعّل مانع الجافاسكربت"
+msgstr "فعّل مانع الإعلانات"
 
 #: ../data/AdblockMenu.ui.h:6
 msgctxt "Adblock"
 msgid "Enabled"
-msgstr ""
+msgstr "مفعّل"
 
 #: ../data/AdblockMenu.ui.h:7 ../data/ImageBlockMenu.ui.h:5
 #: ../data/PopupBlockMenu.ui.h:5
@@ -817,25 +812,22 @@ msgid "By default"
 msgstr "المبدئية"
 
 #: ../data/AdblockMenu.ui.h:8
-#, fuzzy
 msgid "Do not block ads for this site"
-msgstr "لا تمنع إعلانات"
+msgstr "لا تمنع إعلانات هذا الموقع"
 
 #: ../data/AdblockMenu.ui.h:9 ../data/ImageBlockMenu.ui.h:6
 #: ../data/PopupBlockMenu.ui.h:6
 msgid "Not for this site"
-msgstr ""
+msgstr "ليس لهذا الموقع"
 
 #: ../data/AdblockMenu.ui.h:10
-#, fuzzy
 msgid "Do not block ads for this page"
-msgstr "لا تمنع إعلانات"
+msgstr "لا تمنع إعلانات هذا الموقع"
 
 #: ../data/AdblockMenu.ui.h:11 ../data/ImageBlockMenu.ui.h:8
 #: ../data/PopupBlockMenu.ui.h:8
-#, fuzzy
 msgid "Not for this page"
-msgstr "نزّل هذه الصورة"
+msgstr "ليس لهذه الصفحة"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Preferences"
@@ -1008,37 +1000,32 @@ msgstr "امنع الصور"
 #: ../data/ImageBlockMenu.ui.h:3 ../data/PopupBlockMenu.ui.h:3
 msgctxt "popup"
 msgid "Enabled"
-msgstr ""
+msgstr "مفعّل"
 
 #: ../data/ImageBlockMenu.ui.h:4
-#, fuzzy
 msgid "Enable image blocking"
-msgstr "فعّل التصحيح الإملائي"
+msgstr "فعّل منع الصور"
 
 #: ../data/ImageBlockMenu.ui.h:7
-#, fuzzy
 msgid "Do not block images for this site"
-msgstr "لا تمنع صور"
+msgstr "لا تمنع صور هذا الموقع"
 
 #: ../data/ImageBlockMenu.ui.h:9
-#, fuzzy
 msgid "Do not block images for this page"
-msgstr "لا تمنع صور"
+msgstr "لا تمنع صور هذه الصفحة"
 
 #: ../data/JSBlockMenu.ui.h:3
-#, fuzzy
 msgid "JavaScript block"
-msgstr "فعّل مانع الجافاسكربت"
+msgstr "امنع الجافاسكربت"
 
 #: ../data/JSBlockMenu.ui.h:5
-#, fuzzy
 msgid "Enable JavaScript blocking"
-msgstr "فعّل مانع الجافاسكربت"
+msgstr "فعّل منع الجافاسكربت"
 
 #: ../data/JSBlockMenu.ui.h:6
 msgctxt "Trust web sites"
 msgid "Enabled"
-msgstr ""
+msgstr "مفعّل"
 
 #: ../data/LanguagesMenu.ui.h:1 ../data/ToolbarMenu.ui.h:13
 msgid "Spell checking"
@@ -1101,19 +1088,16 @@ msgid "Block popups"
 msgstr "امنع المنبثقات"
 
 #: ../data/PopupBlockMenu.ui.h:4
-#, fuzzy
 msgid "Enable popup blocking"
-msgstr "فعّل التصحيح الإملائي"
+msgstr "فعّل منع المنبثقات"
 
 #: ../data/PopupBlockMenu.ui.h:7
-#, fuzzy
 msgid "Do not block popups for this site"
-msgstr "لا تمنع منبثقات"
+msgstr "لا تمنع منبثقات هذا الموقع"
 
 #: ../data/PopupBlockMenu.ui.h:9
-#, fuzzy
 msgid "Do not block popups for this page"
-msgstr "لا تمنع منبثقات"
+msgstr "لا تمنع منبثقات هذه الصفحة"
 
 #: ../data/QuitDialog.ui.h:2
 msgid "Close"
@@ -1132,9 +1116,8 @@ msgid "Enable javascript blocker"
 msgstr "فعّل مانع الجافاسكربت"
 
 #: ../data/ScriptsMenu.ui.h:4
-#, fuzzy
 msgid "Trust websites"
-msgstr "زر موقع أيولي"
+msgstr "مواقع الوِب الموثوقة"
 
 #: ../data/SettingsDialog.ui.h:2 ../data/ToolbarEnd.ui.h:4
 #: ../data/ToolbarMenu.ui.h:4
@@ -1437,16 +1420,14 @@ msgid "Disable adblock for current site"
 msgstr "عطّل مانع الإعلانات للموقع الحالي"
 
 #: ../data/Shortcuts.ui.h:28
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Temporarily enable JavaScript for current site"
-msgstr "عطّل مانع الإعلانات للموقع الحالي"
+msgstr "فعّل الجافاسكربت للموقع الحالي مؤقتًا"
 
 #: ../data/Shortcuts.ui.h:29
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Temporarily enable \"Media Source Extension\""
-msgstr "عطّل مانع الإعلانات للموقع الحالي"
+msgstr "فعّل «امتدادات مصادر الوسائط» مؤقتًا"
 
 #: ../data/Shortcuts.ui.h:30
 msgctxt "shortcut window"
