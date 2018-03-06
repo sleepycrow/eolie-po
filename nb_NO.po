@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-06 11:01+0100\n"
+"POT-Creation-Date: 2018-03-06 11:06+0100\n"
 "PO-Revision-Date: 2018-02-24 14:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -192,19 +192,19 @@ msgstr "PayPal"
 msgid "Eolie is a new GNOME web browser."
 msgstr ""
 
-#: ../data/org.gnome.Eolie.desktop.in:3
+#: ../data/org.gnome.Eolie.desktop.in:4
 msgid "Eolie"
 msgstr "Eolie"
 
-#: ../data/org.gnome.Eolie.desktop.in:4 ../data/org.gnome.Eolie.desktop.in:5
+#: ../data/org.gnome.Eolie.desktop.in:5 ../data/org.gnome.Eolie.desktop.in:6
 msgid "Web browser"
 msgstr "Nettleser"
 
-#: ../data/org.gnome.Eolie.desktop.in:6
+#: ../data/org.gnome.Eolie.desktop.in:8
 msgid "org.gnome.Eolie"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.desktop.in:16 ../eolie/menu_pages.py:44
+#: ../data/org.gnome.Eolie.desktop.in:18 ../eolie/menu_pages.py:44
 msgid "New private page"
 msgstr "Ny privat side"
 
