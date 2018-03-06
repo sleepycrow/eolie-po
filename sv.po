@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-28 15:15+0100\n"
+"POT-Creation-Date: 2018-03-06 11:01+0100\n"
 "PO-Revision-Date: 2018-01-08 09:41+0000\n"
 "Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/"
@@ -19,222 +19,1020 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.19-dev\n"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:1
+#: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:2
+#: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Mozilla sync debug messages"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:3
+#: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Show sidebar(sites manager)"
 msgstr "Visa sidopanel (webbplatshanterare)"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:4
+#: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Block ads on pages"
 msgstr "Blockera annonser på sidor"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:5
+#: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Trust websites: no adblock for internal URIs"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:6
+#: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: no JavaScript blocking for internal URIs"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:7
+#: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Block unwanted popups on pages"
 msgstr "Blockera oönskade poppupper på sidor"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:8
+#: ../data/org.gnome.Eolie.gschema.xml:54
 #, fuzzy
 msgid "Block images on page"
 msgstr "Blockera bilder på sidor"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:9
+#: ../data/org.gnome.Eolie.gschema.xml:59
 #, fuzzy
 msgid "Block JavaScript on pages"
 msgstr "Blockera Javascript på sidor"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:10
+#: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Download folder URI"
 msgstr "URI för hämtningsmapp"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:11
+#: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Open finished downloads"
 msgstr "Öppna slutförda hämtningar"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:12
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Web search engine"
 msgstr "Sökmotor för webben"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:13
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Remember sessions"
 msgstr "Kom ihåg sessioner"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:14 ../data/SettingsDialog.ui.h:35
+#: ../data/org.gnome.Eolie.gschema.xml:84 ../data/SettingsDialog.ui:646
 msgid "Remember passwords"
 msgstr "Kom ihåg lösenord"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:15 ../data/SettingsDialog.ui.h:20
+#: ../data/org.gnome.Eolie.gschema.xml:89 ../data/SettingsDialog.ui:301
 msgid "Enable developer tools"
 msgstr "Aktivera utvecklarverktyg"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:16 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:157
 msgid "Enable plugins"
 msgstr "Aktivera insticksmoduler"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:17 ../data/SettingsDialog.ui.h:24
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:375
 msgid "Use system fonts"
 msgstr "Använd systemtypsnitt"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:18 ../data/SettingsDialog.ui.h:25
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:404
 msgid "Sans serif font"
 msgstr "Sans serif-typsnitt"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:19 ../data/SettingsDialog.ui.h:26
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:416
 msgid "Serif font"
 msgstr "Serif-typsnitt"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:20 ../data/SettingsDialog.ui.h:27
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:428
 msgid "Monospace font"
 msgstr "Typsnitt med fast breddsteg"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:21
+#: ../data/org.gnome.Eolie.gschema.xml:119
 msgid "Open this page on startup"
 msgstr "Öppna denna sida vid uppstart"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:22
+#: ../data/org.gnome.Eolie.gschema.xml:124
 msgid "Minimum sidebar position"
 msgstr "Minimal sidopanelsposition"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:23 ../data/SettingsDialog.ui.h:28
+#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:490
 msgid "Minimum font size"
 msgstr "Minsta typsnittsstorlek"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:24
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Popular items shown"
 msgstr "Visade populära objekt"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:25
+#: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Webviews preloaded per window"
 msgstr "Webbvyer förinlästa per fönster"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:26
+#: ../data/org.gnome.Eolie.gschema.xml:140
 msgid "Restart needed"
 msgstr "Omstart krävs"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:27 ../data/SettingsDialog.ui.h:29
-#: ../data/ToolbarMenu.ui.h:6
+#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:516
+#: ../data/ToolbarMenu.ui:189
 msgid "Default zoom level"
 msgstr "Standardzoomnivå"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:28
+#: ../data/org.gnome.Eolie.gschema.xml:149
 msgid "Cookies storage type"
 msgstr "Lagringstyp för kakor"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:29
+#: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "History storage type"
 msgstr "Lagringstyp för historik"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:30 ../data/SettingsDialog.ui.h:33
+#: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:613
 msgid "Tell websites I do not want to be tracked"
 msgstr "Säg till webbplatser att jag inte vill bli spårad"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:31
+#: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "DNS prediction"
 msgstr "DNS-förutsägelse"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:32
+#: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "Enable search suggestions"
 msgstr "Aktivera sökförslag"
 
-#: ../data/org.gnome.Eolie.gschema.xml.h:33 ../data/LanguagesMenu.ui.h:2
+#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/LanguagesMenu.ui:59
+#: ../data/LanguagesMenu.ui:76
 msgid "Enable spell checking"
 msgstr "Aktivera stavningskontroll"
 
-#: ../data/AboutDialog.ui.in:14 ../data/AboutDialog.ui.in.h:1
+#: ../data/AboutDialog.ui.in:14
 msgid "A web browser for GNOME."
 msgstr "En webbläsare för GNOME."
 
-#: ../data/AboutDialog.ui.in:16 ../data/AboutDialog.ui.in.h:2
+#: ../data/AboutDialog.ui.in:16
 msgid "Visit Eolie website"
 msgstr "Besök webbplatsen för Eolie"
 
 #. Replace me with your names
-#: ../data/AboutDialog.ui.in:19 ../data/AboutDialog.ui.in.h:4
+#: ../data/AboutDialog.ui.in:19
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>"
 
-#: ../data/AboutDialog.ui.in:51 ../data/AboutDialog.ui.in.h:5
+#: ../data/AboutDialog.ui.in:51
 msgid "Donations:"
 msgstr "Donationer:"
 
-#: ../data/AboutDialog.ui.in:56 ../data/AboutDialog.ui.in.h:6
+#: ../data/AboutDialog.ui.in:56
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:66 ../data/AboutDialog.ui.in.h:7
+#: ../data/AboutDialog.ui.in:66
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:76 ../data/AboutDialog.ui.in.h:8
+#: ../data/AboutDialog.ui.in:76
 msgid "PayPal"
 msgstr "PayPal"
 
-#: ../data/org.gnome.Eolie.appdata.xml.in.h:1
+#: ../data/org.gnome.Eolie.appdata.xml.in:7
+msgid "Eolie is a new GNOME web browser."
+msgstr "Eolie är en ny webbläsare för GNOME."
+
+#: ../data/org.gnome.Eolie.desktop.in:3
 msgid "Eolie"
 msgstr "Eolie"
 
-#: ../data/org.gnome.Eolie.appdata.xml.in.h:2
+#: ../data/org.gnome.Eolie.desktop.in:4 ../data/org.gnome.Eolie.desktop.in:5
 msgid "Web browser"
 msgstr "Webbläsare"
 
-#: ../eolie/application.py:226
+#: ../data/org.gnome.Eolie.desktop.in:6
+msgid "org.gnome.Eolie"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.desktop.in:16 ../eolie/menu_pages.py:44
+msgid "New private page"
+msgstr "Ny privat sida"
+
+#: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
+#, fuzzy
+msgid "Do not filter current website content"
+msgstr "Blockera inte poppupper"
+
+#: ../data/AdblockMenu.ui:15 ../data/JSBlockMenu.ui:15
+msgctxt "Trust web sites"
+msgid "Trust web sites"
+msgstr ""
+
+#: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
+#: ../data/ToolbarMenu.ui:230
+msgid "Block ads"
+msgstr "Blockera annonser"
+
+#: ../data/AdblockMenu.ui:47 ../data/ImageBlockMenu.ui:33
+#: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
+#: ../data/ScriptsMenu.ui:109
+#, fuzzy
+msgid "Block policy"
+msgstr "Blockera poppupper"
+
+#: ../data/AdblockMenu.ui:93
+#, fuzzy
+msgid "Enable adblock"
+msgstr "Aktivera Javascriptblockerare"
+
+#: ../data/AdblockMenu.ui:94
+msgctxt "Adblock"
+msgid "Enabled"
+msgstr ""
+
+#: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
+#: ../data/PopupBlockMenu.ui:93
+#, fuzzy
+msgid "By default"
+msgstr "Standard"
+
+#: ../data/AdblockMenu.ui:123
+#, fuzzy
+msgid "Do not block ads for this site"
+msgstr "Blockera inte annonser"
+
+#: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
+#: ../data/PopupBlockMenu.ui:108
+msgid "Not for this site"
+msgstr ""
+
+#: ../data/AdblockMenu.ui:137
+#, fuzzy
+msgid "Do not block ads for this page"
+msgstr "Blockera inte annonser"
+
+#: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
+#: ../data/PopupBlockMenu.ui:124
+#, fuzzy
+msgid "Not for this page"
+msgstr "Hämta denna bild"
+
+#: ../data/Appmenu.ui:7
+msgid "_Preferences"
+msgstr "_Inställningar"
+
+#: ../data/Appmenu.ui:13
+msgid "_Sidebar"
+msgstr "_Sidopanel"
+
+#: ../data/Appmenu.ui:19
+msgid "_Keyboard Shortcuts"
+msgstr "_Tangentbordsgenvägar"
+
+#: ../data/Appmenu.ui:29
+msgid "_About"
+msgstr "_Om"
+
+#: ../data/Appmenu.ui:33
+msgid "_Quit"
+msgstr "A_vsluta"
+
+#: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
+msgid "Address:"
+msgstr "Adress:"
+
+#: ../data/BookmarkEdit.ui:41
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../data/BookmarkEdit.ui:96
+msgid "Remove bookmark"
+msgstr "Ta bort bokmärke"
+
+#: ../data/BookmarkEdit.ui:164 ../data/BookmarkEdit.ui:167
+msgid "Add new tag"
+msgstr "Lägg till ny tagg"
+
+#: ../data/DialogClearData.ui:6 ../data/SettingsDialog.ui:740
+msgid "Clear Personal Data"
+msgstr "Rensa personliga data"
+
+#: ../data/DialogClearData.ui:10
+msgid "C_lear"
+msgstr "R_ensa"
+
+#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
+#: ../data/SettingsDialog.ui:114
+msgid "Search"
+msgstr "Sök"
+
+#: ../data/DialogClearData.ui:30
+msgid "Filter domains"
+msgstr "Filtrera domäner"
+
+#: ../data/DialogClearData.ui:67
+msgid "Search domains"
+msgstr "Sök domäner"
+
+#: ../data/DialogClearData.ui:83
+msgid ""
+"You can select a period of time to clear data for all websites modified in "
+"that period. If you choose from the beginning of time, then you can also "
+"clear data only for particular websites."
+msgstr ""
+"Du kan välja en tidsperiod för vilken data ska rensas för alla webbplatser "
+"som ändrats under den perioden. Om du väljer sedan tidens början kan du "
+"också rensa data för enbart särskilda webbplatser."
+
+#: ../data/DialogClearData.ui:100
+msgid "Clear selected personal data _from:"
+msgstr "Rensa valda personliga data _från:"
+
+#: ../data/DialogClearData.ui:111
+msgid "the past hour"
+msgstr "senaste timmen"
+
+#: ../data/DialogClearData.ui:112
+msgid "the past day"
+msgstr "senaste dagen"
+
+#: ../data/DialogClearData.ui:113
+msgid "the past week"
+msgstr "senaste veckan"
+
+#: ../data/DialogClearData.ui:114
+msgid "the past four weeks"
+msgstr "senaste fyra veckorna"
+
+#: ../data/DialogClearData.ui:115
+msgid "the beginning"
+msgstr "början"
+
+#: ../data/DialogClearData.ui:192
+msgid "No data found"
+msgstr "Inga data hittades"
+
+#: ../data/DialogClearData.ui:209
+msgid ""
+"You cannot undo this action. The data you are choosing to clear will be "
+"removed forever."
+msgstr ""
+"Du kan inte ångra denna åtgärd. De data du väljer att rensa kommer att tas "
+"bort för alltid."
+
+#: ../data/DialogCookies.ui:83
+msgid "New profile"
+msgstr "Ny profil"
+
+#: ../data/DialogCookies.ui:227
+msgid "Profiles manager"
+msgstr "Profilhanterare"
+
+#: ../data/DialogCookies.ui:231
+msgid "Delete cookies"
+msgstr "Ta bort kakor"
+
+#: ../data/DialogImportBookmarks.ui:37
+msgid "Import bookmarks from:"
+msgstr "Importera bokmärken från:"
+
+#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:192
+#: ../eolie/popover_uri.py:461
+msgid "Import bookmarks"
+msgstr "Importera bokmärken"
+
+#: ../data/DialogImportBookmarks.ui:87
+msgid "Import"
+msgstr "Importera"
+
+#: ../data/DialogModifyUA.ui:12
+msgid "Modify"
+msgstr "Modifiera"
+
+#: ../data/DialogSearchEngine.ui:7
+msgid "Search engines"
+msgstr "Sökmotorer"
+
+#: ../data/DialogSearchEngine.ui:155
+msgid "Name:"
+msgstr "Namn:"
+
+#: ../data/DialogSearchEngine.ui:207
+msgid "Default:"
+msgstr "Standard:"
+
+#: ../data/DialogSearchEngine.ui:233
+msgid "Bang:"
+msgstr "Bang:"
+
+#: ../data/DialogSearchEngine.ui:246
+msgid "If bang is g, use g: in search bar to search using this engine"
+msgstr "Om bang är g, använd g: i sökraden för att söka med denna motor"
+
+#: ../data/DialogSearchEngine.ui:263
+msgid "Search:"
+msgstr "Sök:"
+
+#: ../data/DialogSearchEngine.ui:320
+msgid ""
+"To determine the search address, perform a search using the search engine "
+"that you want to add and check the resulting address. Remove the search term "
+"from the resulting address and replace it with %s."
+msgstr ""
+"För att avgöra sökadressen, utför en sökning med sökmotorn du vill lägga "
+"till och kontrollera den resulterande adressen. Ta bort söktermen från den "
+"resulterande adressen och ersätt den med %s."
+
+#: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
+#: ../data/ToolbarMenu.ui:269
+msgid "Block images"
+msgstr "Blockera bilder"
+
+#: ../data/ImageBlockMenu.ui:79 ../data/PopupBlockMenu.ui:79
+msgctxt "popup"
+msgid "Enabled"
+msgstr ""
+
+#: ../data/ImageBlockMenu.ui:80
+#, fuzzy
+msgid "Enable image blocking"
+msgstr "Aktivera stavningskontroll"
+
+#: ../data/ImageBlockMenu.ui:110
+#, fuzzy
+msgid "Do not block images for this site"
+msgstr "Blockera inte bilder"
+
+#: ../data/ImageBlockMenu.ui:125
+#, fuzzy
+msgid "Do not block images for this page"
+msgstr "Blockera inte bilder"
+
+#: ../data/JSBlockMenu.ui:28
+#, fuzzy
+msgid "JavaScript block"
+msgstr "Aktivera Javascriptblockerare"
+
+#: ../data/JSBlockMenu.ui:92
+#, fuzzy
+msgid "Enable JavaScript blocking"
+msgstr "Aktivera Javascriptblockerare"
+
+#: ../data/JSBlockMenu.ui:94
+msgctxt "Trust web sites"
+msgid "Enabled"
+msgstr ""
+
+#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:330
+msgid "Spell checking"
+msgstr "Stavningskontroll"
+
+#: ../data/PopoverCookies.ui:10
+msgid "Remove all cookies"
+msgstr "Ta bort alla kakor"
+
+#: ../data/PopoverCredentials.ui:19
+msgid "Do you want to save this password?"
+msgstr "Vill du spara detta lösenord?"
+
+#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:134
+msgid "Save"
+msgstr "Spara"
+
+#: ../data/PopoverDownloads.ui:53
+msgid "Open download folder"
+msgstr "Öppna hämtningsmapp"
+
+#: ../data/PopoverDownloads.ui:73
+msgid "Clear finished downloads"
+msgstr "Rensa slutförda hämtningar"
+
+#: ../data/PopoverDownloads.ui:103
+msgid "No active download"
+msgstr "Ingen aktiv hämtning"
+
+#: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
+msgid "Ok"
+msgstr "OK"
+
+#: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
+#: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
+#: ../eolie/popover_uri.py:426 ../eolie/toolbar_end.py:135
+#: ../eolie/webview_signals.py:140
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:812
+msgid "Forever"
+msgstr "För alltid"
+
+#: ../data/PopoverImages.ui:72 ../eolie/webview_signals_menu.py:184
+msgid "Save images"
+msgstr "Spara bilder"
+
+#: ../data/PopoverImages.ui:106
+msgid "Show links"
+msgstr "Visa länkar"
+
+#: ../data/PopoverPasswords.ui:10
+msgid "Remove all passwords"
+msgstr "Ta bort alla lösenord"
+
+#: ../data/PopoverUri.ui:157
+msgid "Sync bookmarks"
+msgstr "Synkronisera bokmärken"
+
+#: ../data/PopoverUri.ui:217
+msgid "Bookmarks"
+msgstr "Bokmärken"
+
+#: ../data/PopoverUri.ui:355
+msgid "Clear history"
+msgstr "Rensa historik"
+
+#: ../data/PopoverUri.ui:379
+msgid "History"
+msgstr "Historik"
+
+#: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
+#: ../data/ToolbarMenu.ui:256
+msgid "Block popups"
+msgstr "Blockera poppupper"
+
+#: ../data/PopupBlockMenu.ui:80
+#, fuzzy
+msgid "Enable popup blocking"
+msgstr "Aktivera stavningskontroll"
+
+#: ../data/PopupBlockMenu.ui:110
+#, fuzzy
+msgid "Do not block popups for this site"
+msgstr "Blockera inte poppupper"
+
+#: ../data/PopupBlockMenu.ui:125
+#, fuzzy
+msgid "Do not block popups for this page"
+msgstr "Blockera inte poppupper"
+
+#: ../data/QuitDialog.ui:36
+msgid "Close"
+msgstr "Stäng"
+
+#: ../data/RowDownload.ui:49
+msgid "Cancel download"
+msgstr "Avbryt hämtning"
+
+#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:243
+msgid "Block JavaScript"
+msgstr "Blockera JavaScript"
+
+#: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
+msgid "Enable javascript blocker"
+msgstr "Aktivera Javascriptblockerare"
+
+#: ../data/ScriptsMenu.ui:138
+#, fuzzy
+msgid "Trust websites"
+msgstr "Besök webbplatsen för Eolie"
+
+#: ../data/SettingsDialog.ui:25 ../eolie/settings.py:67 ../eolie/settings.py:70
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: ../data/SettingsDialog.ui:54 ../data/ToolbarEnd.ui:112
+#: ../data/ToolbarMenu.ui:144
+msgid "Downloads"
+msgstr "Hämtningar"
+
+#: ../data/SettingsDialog.ui:71
+msgid "Download folder:"
+msgstr "Hämtningsmapp:"
+
+#: ../data/SettingsDialog.ui:83
+msgid "Select download directory"
+msgstr "Välj hämtningskatalog"
+
+#: ../data/SettingsDialog.ui:93
+msgid "Automatically open downloaded files"
+msgstr "Öppna automatiskt hämtade filer"
+
+#: ../data/SettingsDialog.ui:131
+msgid "Search engines:"
+msgstr "Sökmotorer:"
+
+#: ../data/SettingsDialog.ui:144 ../eolie/dialog_import_bookmarks.py:48
+msgid "Others"
+msgstr "Andra"
+
+#: ../data/SettingsDialog.ui:178
+msgid "Startup"
+msgstr "Uppstart"
+
+#: ../data/SettingsDialog.ui:195
+msgid "Start Page:"
+msgstr "Startsida:"
+
+#: ../data/SettingsDialog.ui:207
+msgid "Search engine"
+msgstr "Sökmotor"
+
+#: ../data/SettingsDialog.ui:208 ../eolie/context.py:89
+msgid "Popular pages"
+msgstr "Populära sidor"
+
+#: ../data/SettingsDialog.ui:209
+msgid "Popular bookmarks"
+msgstr "Populära bokmärken"
+
+#: ../data/SettingsDialog.ui:210
+msgid "Blank page"
+msgstr "Tom sida"
+
+#: ../data/SettingsDialog.ui:211
+msgid "Set address"
+msgstr "Ställ in adress"
+
+#: ../data/SettingsDialog.ui:233
+msgid "Remember previous pages on startup"
+msgstr "Kom ihåg tidigare sidor vid uppstart"
+
+#: ../data/SettingsDialog.ui:250
+msgid "Configure engines"
+msgstr "Konfigurera motorer"
+
+#: ../data/SettingsDialog.ui:271
+msgid "Bookmarks shown"
+msgstr "Bokmärken visade"
+
+#: ../data/SettingsDialog.ui:315
+msgid "Add suggestions"
+msgstr "Lägg till förslag"
+
+#: ../data/SettingsDialog.ui:339
+msgid "General"
+msgstr "Allmänt"
+
+#: ../data/SettingsDialog.ui:362
+msgid "Fonts"
+msgstr "Typsnitt"
+
+#: ../data/SettingsDialog.ui:560
+msgid "Appearance"
+msgstr "Utseende"
+
+#: ../data/SettingsDialog.ui:584 ../eolie/dialog_clear_data.py:196
+msgid "Cookies"
+msgstr "Kakor"
+
+#: ../data/SettingsDialog.ui:600
+msgid "Tracking"
+msgstr "Spårning"
+
+#: ../data/SettingsDialog.ui:634
+msgid "Passwords"
+msgstr "Lösenord"
+
+#: ../data/SettingsDialog.ui:666
+msgid "Saved data"
+msgstr "Sparade data"
+
+#: ../data/SettingsDialog.ui:688
+msgid "Behaviour:"
+msgstr "Beteende:"
+
+#: ../data/SettingsDialog.ui:703
+msgid "Always accept"
+msgstr "Acceptera alltid"
+
+#: ../data/SettingsDialog.ui:704
+msgid "Only from sites you visit"
+msgstr "Endast från sidor du besöker"
+
+#: ../data/SettingsDialog.ui:705
+msgid "Never accept"
+msgstr "Acceptera aldrig"
+
+#: ../data/SettingsDialog.ui:724
+msgid "Manage cookies"
+msgstr "Hantera kakor"
+
+#: ../data/SettingsDialog.ui:761
+msgid "Manage passwords"
+msgstr "Hantera lösenord"
+
+#: ../data/SettingsDialog.ui:793
+msgid "Keep history:"
+msgstr "Behåll historik:"
+
+#: ../data/SettingsDialog.ui:808
+msgid "One day"
+msgstr "En dag"
+
+#: ../data/SettingsDialog.ui:809
+msgid "One week"
+msgstr "En vecka"
+
+#: ../data/SettingsDialog.ui:810
+msgid "Four weeks"
+msgstr "Fyra veckor"
+
+#: ../data/SettingsDialog.ui:811
+msgid "A year"
+msgstr "Ett år"
+
+#: ../data/SettingsDialog.ui:813
+msgid "Do not keep"
+msgstr "Behåll inte"
+
+#: ../data/SettingsDialog.ui:832
+msgid "Predict websites address"
+msgstr "Förutse webbplatsadresser"
+
+#: ../data/SettingsDialog.ui:862
+msgid "Privacy"
+msgstr "Sekretess"
+
+#: ../data/SettingsDialog.ui:884
+msgid ""
+"You can share your bookmarks and history\n"
+" on all your devices running Eolie or Firefox"
+msgstr ""
+"Du kan dela dina bokmärken och historik\n"
+" på alla enheter som kör Eolie eller Firefox"
+
+#: ../data/SettingsDialog.ui:901
+msgid "Login:"
+msgstr "Inloggning:"
+
+#: ../data/SettingsDialog.ui:923
+msgid "Password:"
+msgstr "Lösenord:"
+
+#: ../data/SettingsDialog.ui:944 ../eolie/settings.py:511
+msgid "Allow synchronization"
+msgstr "Tillåt synkronisering"
+
+#: ../data/SettingsDialog.ui:981
+msgid "Create or manage account"
+msgstr "Skapa eller hantera konto"
+
+#: ../data/SettingsDialog.ui:1007
+msgid "Synchronization"
+msgstr "Synkronisering"
+
+#: ../data/Shortcuts.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Allmänt"
+
+#: ../data/Shortcuts.ui:17
+msgctxt "shortcut window"
+msgid "New window"
+msgstr "Nytt fönster"
+
+#: ../data/Shortcuts.ui:24
+msgctxt "shortcut window"
+msgid "Settings"
+msgstr "Inställningar"
+
+#: ../data/Shortcuts.ui:31
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Helskärm"
+
+#: ../data/Shortcuts.ui:38
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avsluta"
+
+#: ../data/Shortcuts.ui:45
+msgctxt "shortcut window"
+msgid "Enter location"
+msgstr "Ange plats"
+
+#: ../data/Shortcuts.ui:52
+msgctxt "shortcut window"
+msgid "Show bookmarks"
+msgstr "Visa bokmärken"
+
+#: ../data/Shortcuts.ui:59
+msgctxt "shortcut window"
+msgid "Show history"
+msgstr "Visa historik"
+
+#: ../data/Shortcuts.ui:66
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Sök"
+
+#: ../data/Shortcuts.ui:73
+msgctxt "shortcut window"
+msgid "Show sidebar"
+msgstr "Visa sidopanel"
+
+#: ../data/Shortcuts.ui:82
+msgctxt "shortcut window"
+msgid "Pages"
+msgstr "Sidor"
+
+#: ../data/Shortcuts.ui:86
+msgctxt "shortcut window"
+msgid "New page"
+msgstr "Ny sida"
+
+#: ../data/Shortcuts.ui:93
+msgctxt "shortcut window"
+msgid "Last closed page"
+msgstr "Senast stängda sida"
+
+#: ../data/Shortcuts.ui:100
+msgctxt "shortcut window"
+msgid "New private page"
+msgstr "Ny privat sida"
+
+#: ../data/Shortcuts.ui:107
+msgctxt "shortcut window"
+msgid "Close page"
+msgstr "Stäng sida"
+
+#: ../data/Shortcuts.ui:114 ../data/Shortcuts.ui:217
+msgctxt "shortcut window"
+msgid "Previous page"
+msgstr "Föregående sida"
+
+#: ../data/Shortcuts.ui:121 ../data/Shortcuts.ui:224
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Nästa sida"
+
+#: ../data/Shortcuts.ui:128
+msgctxt "shortcut window"
+msgid "View all pages"
+msgstr "Visa alla sidor"
+
+#: ../data/Shortcuts.ui:135
+msgctxt "shortcut window"
+msgid "Show source code"
+msgstr "Visa källkod"
+
+#: ../data/Shortcuts.ui:144
+msgctxt "shortcut window"
+msgid "Web page"
+msgstr "Webbsida"
+
+#: ../data/Shortcuts.ui:148
+msgctxt "shortcut window"
+msgid "Save page"
+msgstr "Spara sida"
+
+#: ../data/Shortcuts.ui:155
+msgctxt "shortcut window"
+msgid "Print page"
+msgstr "Skriv ut sida"
+
+#: ../data/Shortcuts.ui:162
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr "Zooma in"
+
+#: ../data/Shortcuts.ui:169
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr "Zooma ut"
+
+#: ../data/Shortcuts.ui:176
+msgctxt "shortcut window"
+msgid "Default zoom level"
+msgstr "Standardzoomnivå"
+
+#: ../data/Shortcuts.ui:183
+msgctxt "shortcut window"
+msgid "Search for"
+msgstr "Sök efter"
+
+#: ../data/Shortcuts.ui:190
+msgctxt "shortcut window"
+msgid "Disable adblock for current site"
+msgstr "Inaktivera annonsblockering för aktuell webbplats"
+
+#: ../data/Shortcuts.ui:197
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Temporarily enable JavaScript for current site"
+msgstr "Inaktivera annonsblockering för aktuell webbplats"
+
+#: ../data/Shortcuts.ui:204
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Temporarily enable \"Media Source Extension\""
+msgstr "Inaktivera annonsblockering för aktuell webbplats"
+
+#: ../data/Shortcuts.ui:213
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navigering"
+
+#: ../data/Shortcuts.ui:231
+msgctxt "shortcut window"
+msgid "Reload page"
+msgstr "Uppdatera sida"
+
+#: ../data/Shortcuts.ui:238
+msgctxt "shortcut window"
+msgid "Startup page"
+msgstr "Startsida"
+
+#: ../data/ToolbarActions.ui:50
+msgid "Backward"
+msgstr "Bakåt"
+
+#: ../data/ToolbarActions.ui:70
+msgid "Forward"
+msgstr "Framåt"
+
+#: ../data/ToolbarActions.ui:102
+msgid "New page"
+msgstr "Ny sida"
+
+#: ../data/ToolbarActions.ui:117
+msgid "View all pages"
+msgstr "Visa alla sidor"
+
+#: ../data/ToolbarActions.ui:167
+msgid "Close page"
+msgstr "Stäng sida"
+
+#: ../data/ToolbarActions.ui:182
+msgid "More actions"
+msgstr "Fler åtgärder"
+
+#: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
+#: ../eolie/menu_toolbar.py:46
+msgid "Leave fullscreen"
+msgstr "Lämna helskärm"
+
+#: ../data/ToolbarEnd.ui:37 ../eolie/settings.py:506
+msgid "Start synchronization"
+msgstr "Starta synkronisering"
+
+#: ../data/ToolbarEnd.ui:69
+msgid "Disallow access to this site"
+msgstr "Neka åtkomst för denna webbplats"
+
+#: ../data/ToolbarEnd.ui:146
+msgid "Startup page"
+msgstr "Startsida"
+
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:131
+msgid "Save page"
+msgstr "Spara sida"
+
+#: ../data/ToolbarMenu.ui:81
+msgid "Print page"
+msgstr "Skriv ut sida"
+
+#: ../data/ToolbarMenu.ui:127
+msgid "Start page"
+msgstr "Startsida"
+
+#: ../data/ToolbarMenu.ui:173
+msgid "Zoom out"
+msgstr "Zooma ut"
+
+#: ../data/ToolbarMenu.ui:204
+msgid "Zoom in"
+msgstr "Zooma in"
+
+#: ../data/ToolbarMenu.ui:285
+msgid "Filtering"
+msgstr "Filtrering"
+
+#: ../eolie/application.py:225
 msgid "Default"
 msgstr "Standard"
 
-#: ../eolie/application.py:227
+#: ../eolie/application.py:226
 msgid "Social networks"
 msgstr "Sociala nätverk"
 
-#: ../eolie/application.py:228
+#: ../eolie/application.py:227
 msgid "Work"
 msgstr "Arbete"
 
-#: ../eolie/application.py:229
+#: ../eolie/application.py:228
 msgid "Shopping"
 msgstr "Shopping"
 
-#: ../eolie/application.py:230
+#: ../eolie/application.py:229
 msgid "Personal"
 msgstr "Personligt"
 
-#: ../eolie/application.py:231
+#: ../eolie/application.py:230
 msgid "Finance"
 msgstr "Finans"
 
-#: ../eolie/application.py:232
+#: ../eolie/application.py:231
 msgid "Sport"
 msgstr "Sport"
 
-#: ../eolie/application.py:720
+#: ../eolie/application.py:721
 msgid "Do you really want to quit Eolie?"
 msgstr "Vill du verkligen avsluta Eolie?"
 
-#: ../eolie/application.py:773
+#: ../eolie/application.py:774
 msgid "Downloads running, are you sure you want quit ?"
 msgstr "Hämtningar pågår, är du säker att du vill avsluta ?"
 
 #: ../eolie/container.py:602
 msgid "Do you really want to close this page?"
 msgstr "Vill du verkligen stänga denna sida?"
-
-#: ../eolie/context.py:89 ../data/SettingsDialog.ui.h:13
-msgid "Popular pages"
-msgstr "Populära sidor"
 
 #: ../eolie/context.py:151
 msgid "Name"
@@ -284,14 +1082,6 @@ msgstr "IndexedDB-databaser"
 msgid "Plugins data"
 msgstr "Insticksmoduldata"
 
-#: ../eolie/dialog_clear_data.py:196 ../data/SettingsDialog.ui.h:31
-msgid "Cookies"
-msgstr "Kakor"
-
-#: ../eolie/dialog_import_bookmarks.py:48 ../data/SettingsDialog.ui.h:8
-msgid "Others"
-msgstr "Andra"
-
 #: ../eolie/dialog_import_bookmarks.py:85
 msgid "Import HTML bookmarks"
 msgstr "Importera HTML-bokmärken"
@@ -311,11 +1101,6 @@ msgstr "Flytta till"
 #: ../eolie/menu_move_to.py:63
 msgid "New window"
 msgstr "Nytt fönster"
-
-#. Setup menu
-#: ../eolie/menu_pages.py:44
-msgid "New private page"
-msgstr "Ny privat sida"
 
 #: ../eolie/menu_pages.py:48
 msgid "Closed pages"
@@ -340,10 +1125,6 @@ msgstr "Ändra användaragent"
 #: ../eolie/menu_sites.py:94
 msgid "Close site"
 msgstr "Stäng webbplats"
-
-#: ../eolie/menu_toolbar.py:46 ../data/ToolbarEnd.ui.h:1
-msgid "Leave fullscreen"
-msgstr "Lämna helskärm"
 
 #: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
@@ -415,13 +1196,6 @@ msgstr "Tillåt denna sida att få tillgång till din plats?"
 msgid "Continue"
 msgstr "Fortsätt"
 
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:426
-#: ../eolie/toolbar_end.py:135 ../eolie/webview_signals.py:140
-#: ../data/PopoverGeolocation.ui.h:2 ../data/PopoverJavaScript.ui.h:2
-#: ../data/QuitDialog.ui.h:1
-msgid "Cancel"
-msgstr "Avbryt"
-
 #: ../eolie/popover_uri.py:132
 msgid "Delete page from history"
 msgstr "Ta bort sida från historik"
@@ -434,17 +1208,10 @@ msgstr "Redigera bokmärke"
 msgid "Open all pages for this tag"
 msgstr "Öppna alla sidor för denna tagg"
 
-#: ../eolie/popover_uri.py:461 ../data/DialogImportBookmarks.ui.h:2
-#: ../data/PopoverUri.ui.h:2
-msgid "Import bookmarks"
-msgstr "Importera bokmärken"
-
-#. Translators: Plural
 #: ../eolie/popover_uri.py:785
 msgid "Popular"
 msgstr "Populära"
 
-#. Translators: Plural
 #: ../eolie/popover_uri.py:788
 msgid "Recent"
 msgstr "Senaste"
@@ -482,17 +1249,14 @@ msgstr "Från början"
 msgid "%s bookmarks"
 msgstr "%s bokmärken"
 
-#. Translators: Google url for your country
 #: ../eolie/search.py:39 ../eolie/search.py:40
 msgid "https://www.google.com"
 msgstr "https://www.google.se/"
 
-#. Translators: Yahoo url for your country
 #: ../eolie/search.py:61
 msgid "https://www.yahoo.com"
 msgstr "https://se.yahoo.com/"
 
-#. Translators: Yahoo url for your country
 #: ../eolie/search.py:63
 msgid "https://us.search.yahoo.com"
 msgstr "https://se.search.yahoo.com"
@@ -510,11 +1274,6 @@ msgstr ""
 msgid "Unsupported search engine"
 msgstr "Sökmotor som inte stöds"
 
-#: ../eolie/settings.py:67 ../eolie/settings.py:70
-#: ../data/SettingsDialog.ui.h:1
-msgid "Preferences"
-msgstr "Inställningar"
-
 #: ../eolie/settings.py:461
 msgid "Connecting…"
 msgstr "Ansluter…"
@@ -526,14 +1285,6 @@ msgstr "Synkronisering pågår"
 #: ../eolie/settings.py:501
 msgid "Cancel synchronization"
 msgstr "Avbryt synkronisering"
-
-#: ../eolie/settings.py:506 ../data/ToolbarEnd.ui.h:2
-msgid "Start synchronization"
-msgstr "Starta synkronisering"
-
-#: ../eolie/settings.py:511 ../data/SettingsDialog.ui.h:57
-msgid "Allow synchronization"
-msgstr "Tillåt synkronisering"
 
 #: ../eolie/settings.py:516
 msgid "Synchronization is not working"
@@ -555,14 +1306,6 @@ msgstr "Du har fått ett e-postmeddelande för att validera synkronisering"
 #: ../eolie/toolbar_end.py:99
 msgid "Downloading:"
 msgstr "Hämtar:"
-
-#: ../eolie/toolbar_end.py:131 ../data/ToolbarMenu.ui.h:1
-msgid "Save page"
-msgstr "Spara sida"
-
-#: ../eolie/toolbar_end.py:134 ../data/PopoverCredentials.ui.h:2
-msgid "Save"
-msgstr "Spara"
 
 #: ../eolie/toolbar_title.py:271
 msgid "This page contains insecure content"
@@ -749,10 +1492,6 @@ msgstr "Hämta denna video"
 msgid "Download this file"
 msgstr "Hämta denna fil"
 
-#: ../eolie/webview_signals_menu.py:184 ../data/PopoverImages.ui.h:1
-msgid "Save images"
-msgstr "Spara bilder"
-
 #: ../eolie/webview_signals_menu.py:194
 msgid "Save videos"
 msgstr "Spara videoklipp"
@@ -781,743 +1520,8 @@ msgstr "Sök nästa förekomst"
 msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 träffar"
 
-#: ../data/AdblockMenu.ui.h:1 ../data/JSBlockMenu.ui.h:1
-#, fuzzy
-msgid "Do not filter current website content"
-msgstr "Blockera inte poppupper"
-
-#: ../data/AdblockMenu.ui.h:2 ../data/JSBlockMenu.ui.h:2
-msgctxt "Trust web sites"
-msgid "Trust web sites"
-msgstr ""
-
-#: ../data/AdblockMenu.ui.h:3 ../data/ToolbarMenu.ui.h:8
-msgid "Block ads"
-msgstr "Blockera annonser"
-
-#: ../data/AdblockMenu.ui.h:4 ../data/ImageBlockMenu.ui.h:2
-#: ../data/JSBlockMenu.ui.h:4 ../data/PopupBlockMenu.ui.h:2
-#: ../data/ScriptsMenu.ui.h:3
-#, fuzzy
-msgid "Block policy"
-msgstr "Blockera poppupper"
-
-#: ../data/AdblockMenu.ui.h:5
-#, fuzzy
-msgid "Enable adblock"
-msgstr "Aktivera Javascriptblockerare"
-
-#: ../data/AdblockMenu.ui.h:6
-msgctxt "Adblock"
-msgid "Enabled"
-msgstr ""
-
-#: ../data/AdblockMenu.ui.h:7 ../data/ImageBlockMenu.ui.h:5
-#: ../data/PopupBlockMenu.ui.h:5
-#, fuzzy
-msgid "By default"
-msgstr "Standard"
-
-#: ../data/AdblockMenu.ui.h:8
-#, fuzzy
-msgid "Do not block ads for this site"
-msgstr "Blockera inte annonser"
-
-#: ../data/AdblockMenu.ui.h:9 ../data/ImageBlockMenu.ui.h:6
-#: ../data/PopupBlockMenu.ui.h:6
-msgid "Not for this site"
-msgstr ""
-
-#: ../data/AdblockMenu.ui.h:10
-#, fuzzy
-msgid "Do not block ads for this page"
-msgstr "Blockera inte annonser"
-
-#: ../data/AdblockMenu.ui.h:11 ../data/ImageBlockMenu.ui.h:8
-#: ../data/PopupBlockMenu.ui.h:8
-#, fuzzy
-msgid "Not for this page"
-msgstr "Hämta denna bild"
-
-#: ../data/Appmenu.ui.h:1
-msgid "_Preferences"
-msgstr "_Inställningar"
-
-#: ../data/Appmenu.ui.h:2
-msgid "_Sidebar"
-msgstr "_Sidopanel"
-
-#: ../data/Appmenu.ui.h:3
-msgid "_Keyboard Shortcuts"
-msgstr "_Tangentbordsgenvägar"
-
-#: ../data/Appmenu.ui.h:4
-msgid "_Help"
-msgstr "_Hjälp"
-
-#: ../data/Appmenu.ui.h:5
-msgid "_About"
-msgstr "_Om"
-
-#: ../data/Appmenu.ui.h:6
-msgid "_Quit"
-msgstr "A_vsluta"
-
-#: ../data/BookmarkEdit.ui.h:1 ../data/DialogSearchEngine.ui.h:3
-msgid "Address:"
-msgstr "Adress:"
-
-#: ../data/BookmarkEdit.ui.h:2
-msgid "Title:"
-msgstr "Titel:"
-
-#: ../data/BookmarkEdit.ui.h:3
-msgid "Remove bookmark"
-msgstr "Ta bort bokmärke"
-
-#: ../data/BookmarkEdit.ui.h:4
-msgid "Add new tag"
-msgstr "Lägg till ny tagg"
-
-#: ../data/DialogClearData.ui.h:1 ../data/SettingsDialog.ui.h:42
-msgid "Clear Personal Data"
-msgstr "Rensa personliga data"
-
-#: ../data/DialogClearData.ui.h:2
-msgid "C_lear"
-msgstr "R_ensa"
-
-#: ../data/DialogClearData.ui.h:3 ../data/PopoverUri.ui.h:4
-#: ../data/SettingsDialog.ui.h:6
-msgid "Search"
-msgstr "Sök"
-
-#: ../data/DialogClearData.ui.h:4
-msgid "Filter domains"
-msgstr "Filtrera domäner"
-
-#: ../data/DialogClearData.ui.h:5
-msgid "Search domains"
-msgstr "Sök domäner"
-
-#: ../data/DialogClearData.ui.h:6
-msgid ""
-"You can select a period of time to clear data for all websites modified in "
-"that period. If you choose from the beginning of time, then you can also "
-"clear data only for particular websites."
-msgstr ""
-"Du kan välja en tidsperiod för vilken data ska rensas för alla webbplatser "
-"som ändrats under den perioden. Om du väljer sedan tidens början kan du "
-"också rensa data för enbart särskilda webbplatser."
-
-#: ../data/DialogClearData.ui.h:7
-msgid "Clear selected personal data _from:"
-msgstr "Rensa valda personliga data _från:"
-
-#: ../data/DialogClearData.ui.h:8
-msgid "the past hour"
-msgstr "senaste timmen"
-
-#: ../data/DialogClearData.ui.h:9
-msgid "the past day"
-msgstr "senaste dagen"
-
-#: ../data/DialogClearData.ui.h:10
-msgid "the past week"
-msgstr "senaste veckan"
-
-#: ../data/DialogClearData.ui.h:11
-msgid "the past four weeks"
-msgstr "senaste fyra veckorna"
-
-#: ../data/DialogClearData.ui.h:12
-msgid "the beginning"
-msgstr "början"
-
-#: ../data/DialogClearData.ui.h:13
-msgid "No data found"
-msgstr "Inga data hittades"
-
-#: ../data/DialogClearData.ui.h:14
-msgid ""
-"You cannot undo this action. The data you are choosing to clear will be "
-"removed forever."
-msgstr ""
-"Du kan inte ångra denna åtgärd. De data du väljer att rensa kommer att tas "
-"bort för alltid."
-
-#: ../data/DialogCookies.ui.h:1
-msgid "New profile"
-msgstr "Ny profil"
-
-#: ../data/DialogCookies.ui.h:2
-msgid "Profiles manager"
-msgstr "Profilhanterare"
-
-#: ../data/DialogCookies.ui.h:3
-msgid "Delete cookies"
-msgstr "Ta bort kakor"
-
-#: ../data/DialogImportBookmarks.ui.h:1
-msgid "Import bookmarks from:"
-msgstr "Importera bokmärken från:"
-
-#: ../data/DialogImportBookmarks.ui.h:3
-msgid "Import"
-msgstr "Importera"
-
-#: ../data/DialogModifyUA.ui.h:1
-msgid "Modify"
-msgstr "Modifiera"
-
-#: ../data/DialogSearchEngine.ui.h:1
-msgid "Search engines"
-msgstr "Sökmotorer"
-
-#: ../data/DialogSearchEngine.ui.h:2
-msgid "Name:"
-msgstr "Namn:"
-
-#: ../data/DialogSearchEngine.ui.h:4
-msgid "Default:"
-msgstr "Standard:"
-
-#: ../data/DialogSearchEngine.ui.h:5
-msgid "Bang:"
-msgstr "Bang:"
-
-#: ../data/DialogSearchEngine.ui.h:6
-msgid "If bang is g, use g: in search bar to search using this engine"
-msgstr "Om bang är g, använd g: i sökraden för att söka med denna motor"
-
-#: ../data/DialogSearchEngine.ui.h:7
-msgid "Search:"
-msgstr "Sök:"
-
-#: ../data/DialogSearchEngine.ui.h:9
-#, no-c-format
-msgid ""
-"To determine the search address, perform a search using the search engine "
-"that you want to add and check the resulting address. Remove the search term "
-"from the resulting address and replace it with %s."
-msgstr ""
-"För att avgöra sökadressen, utför en sökning med sökmotorn du vill lägga "
-"till och kontrollera den resulterande adressen. Ta bort söktermen från den "
-"resulterande adressen och ersätt den med %s."
-
-#: ../data/ImageBlockMenu.ui.h:1 ../data/ToolbarMenu.ui.h:11
-msgid "Block images"
-msgstr "Blockera bilder"
-
-#: ../data/ImageBlockMenu.ui.h:3 ../data/PopupBlockMenu.ui.h:3
-msgctxt "popup"
-msgid "Enabled"
-msgstr ""
-
-#: ../data/ImageBlockMenu.ui.h:4
-#, fuzzy
-msgid "Enable image blocking"
-msgstr "Aktivera stavningskontroll"
-
-#: ../data/ImageBlockMenu.ui.h:7
-#, fuzzy
-msgid "Do not block images for this site"
-msgstr "Blockera inte bilder"
-
-#: ../data/ImageBlockMenu.ui.h:9
-#, fuzzy
-msgid "Do not block images for this page"
-msgstr "Blockera inte bilder"
-
-#: ../data/JSBlockMenu.ui.h:3
-#, fuzzy
-msgid "JavaScript block"
-msgstr "Aktivera Javascriptblockerare"
-
-#: ../data/JSBlockMenu.ui.h:5
-#, fuzzy
-msgid "Enable JavaScript blocking"
-msgstr "Aktivera Javascriptblockerare"
-
-#: ../data/JSBlockMenu.ui.h:6
-msgctxt "Trust web sites"
-msgid "Enabled"
-msgstr ""
-
-#: ../data/LanguagesMenu.ui.h:1 ../data/ToolbarMenu.ui.h:13
-msgid "Spell checking"
-msgstr "Stavningskontroll"
-
-#: ../data/PopoverCookies.ui.h:1
-msgid "Remove all cookies"
-msgstr "Ta bort alla kakor"
-
-#: ../data/PopoverCredentials.ui.h:1
-msgid "Do you want to save this password?"
-msgstr "Vill du spara detta lösenord?"
-
-#: ../data/PopoverDownloads.ui.h:1
-msgid "Open download folder"
-msgstr "Öppna hämtningsmapp"
-
-#: ../data/PopoverDownloads.ui.h:2
-msgid "Clear finished downloads"
-msgstr "Rensa slutförda hämtningar"
-
-#: ../data/PopoverDownloads.ui.h:3
-msgid "No active download"
-msgstr "Ingen aktiv hämtning"
-
-#: ../data/PopoverGeolocation.ui.h:1 ../data/PopoverJavaScript.ui.h:1
-msgid "Ok"
-msgstr "OK"
-
-#: ../data/PopoverGeolocation.ui.h:3 ../data/SettingsDialog.ui.h:49
-msgid "Forever"
-msgstr "För alltid"
-
-#: ../data/PopoverImages.ui.h:2
-msgid "Show links"
-msgstr "Visa länkar"
-
-#: ../data/PopoverPasswords.ui.h:1
-msgid "Remove all passwords"
-msgstr "Ta bort alla lösenord"
-
-#: ../data/PopoverUri.ui.h:1
-msgid "Sync bookmarks"
-msgstr "Synkronisera bokmärken"
-
-#: ../data/PopoverUri.ui.h:3
-msgid "Bookmarks"
-msgstr "Bokmärken"
-
-#: ../data/PopoverUri.ui.h:5
-msgid "Clear history"
-msgstr "Rensa historik"
-
-#: ../data/PopoverUri.ui.h:6
-msgid "History"
-msgstr "Historik"
-
-#: ../data/PopupBlockMenu.ui.h:1 ../data/ToolbarMenu.ui.h:10
-msgid "Block popups"
-msgstr "Blockera poppupper"
-
-#: ../data/PopupBlockMenu.ui.h:4
-#, fuzzy
-msgid "Enable popup blocking"
-msgstr "Aktivera stavningskontroll"
-
-#: ../data/PopupBlockMenu.ui.h:7
-#, fuzzy
-msgid "Do not block popups for this site"
-msgstr "Blockera inte poppupper"
-
-#: ../data/PopupBlockMenu.ui.h:9
-#, fuzzy
-msgid "Do not block popups for this page"
-msgstr "Blockera inte poppupper"
-
-#: ../data/QuitDialog.ui.h:2
-msgid "Close"
-msgstr "Stäng"
-
-#: ../data/RowDownload.ui.h:1
-msgid "Cancel download"
-msgstr "Avbryt hämtning"
-
-#: ../data/ScriptsMenu.ui.h:1 ../data/ToolbarMenu.ui.h:9
-msgid "Block JavaScript"
-msgstr "Blockera JavaScript"
-
-#: ../data/ScriptsMenu.ui.h:2
-msgid "Enable javascript blocker"
-msgstr "Aktivera Javascriptblockerare"
-
-#: ../data/ScriptsMenu.ui.h:4
-#, fuzzy
-msgid "Trust websites"
-msgstr "Besök webbplatsen för Eolie"
-
-#: ../data/SettingsDialog.ui.h:2 ../data/ToolbarEnd.ui.h:4
-#: ../data/ToolbarMenu.ui.h:4
-msgid "Downloads"
-msgstr "Hämtningar"
-
-#: ../data/SettingsDialog.ui.h:3
-msgid "Download folder:"
-msgstr "Hämtningsmapp:"
-
-#: ../data/SettingsDialog.ui.h:4
-msgid "Select download directory"
-msgstr "Välj hämtningskatalog"
-
-#: ../data/SettingsDialog.ui.h:5
-msgid "Automatically open downloaded files"
-msgstr "Öppna automatiskt hämtade filer"
-
-#: ../data/SettingsDialog.ui.h:7
-msgid "Search engines:"
-msgstr "Sökmotorer:"
-
-#: ../data/SettingsDialog.ui.h:10
-msgid "Startup"
-msgstr "Uppstart"
-
-#: ../data/SettingsDialog.ui.h:11
-msgid "Start Page:"
-msgstr "Startsida:"
-
-#: ../data/SettingsDialog.ui.h:12
-msgid "Search engine"
-msgstr "Sökmotor"
-
-#: ../data/SettingsDialog.ui.h:14
-msgid "Popular bookmarks"
-msgstr "Populära bokmärken"
-
-#: ../data/SettingsDialog.ui.h:15
-msgid "Blank page"
-msgstr "Tom sida"
-
-#: ../data/SettingsDialog.ui.h:16
-msgid "Set address"
-msgstr "Ställ in adress"
-
-#: ../data/SettingsDialog.ui.h:17
-msgid "Remember previous pages on startup"
-msgstr "Kom ihåg tidigare sidor vid uppstart"
-
-#: ../data/SettingsDialog.ui.h:18
-msgid "Configure engines"
-msgstr "Konfigurera motorer"
-
-#: ../data/SettingsDialog.ui.h:19
-msgid "Bookmarks shown"
-msgstr "Bokmärken visade"
-
-#: ../data/SettingsDialog.ui.h:21
-msgid "Add suggestions"
-msgstr "Lägg till förslag"
-
-#: ../data/SettingsDialog.ui.h:22
-msgid "General"
-msgstr "Allmänt"
-
-#: ../data/SettingsDialog.ui.h:23
-msgid "Fonts"
-msgstr "Typsnitt"
-
-#: ../data/SettingsDialog.ui.h:30
-msgid "Appearance"
-msgstr "Utseende"
-
-#: ../data/SettingsDialog.ui.h:32
-msgid "Tracking"
-msgstr "Spårning"
-
-#: ../data/SettingsDialog.ui.h:34
-msgid "Passwords"
-msgstr "Lösenord"
-
-#: ../data/SettingsDialog.ui.h:36
-msgid "Saved data"
-msgstr "Sparade data"
-
-#: ../data/SettingsDialog.ui.h:37
-msgid "Behaviour:"
-msgstr "Beteende:"
-
-#: ../data/SettingsDialog.ui.h:38
-msgid "Always accept"
-msgstr "Acceptera alltid"
-
-#: ../data/SettingsDialog.ui.h:39
-msgid "Only from sites you visit"
-msgstr "Endast från sidor du besöker"
-
-#: ../data/SettingsDialog.ui.h:40
-msgid "Never accept"
-msgstr "Acceptera aldrig"
-
-#: ../data/SettingsDialog.ui.h:41
-msgid "Manage cookies"
-msgstr "Hantera kakor"
-
-#: ../data/SettingsDialog.ui.h:43
-msgid "Manage passwords"
-msgstr "Hantera lösenord"
-
-#: ../data/SettingsDialog.ui.h:44
-msgid "Keep history:"
-msgstr "Behåll historik:"
-
-#: ../data/SettingsDialog.ui.h:45
-msgid "One day"
-msgstr "En dag"
-
-#: ../data/SettingsDialog.ui.h:46
-msgid "One week"
-msgstr "En vecka"
-
-#: ../data/SettingsDialog.ui.h:47
-msgid "Four weeks"
-msgstr "Fyra veckor"
-
-#: ../data/SettingsDialog.ui.h:48
-msgid "A year"
-msgstr "Ett år"
-
-#: ../data/SettingsDialog.ui.h:50
-msgid "Do not keep"
-msgstr "Behåll inte"
-
-#: ../data/SettingsDialog.ui.h:51
-msgid "Predict websites address"
-msgstr "Förutse webbplatsadresser"
-
-#: ../data/SettingsDialog.ui.h:52
-msgid "Privacy"
-msgstr "Sekretess"
-
-#: ../data/SettingsDialog.ui.h:53
-msgid ""
-"You can share your bookmarks and history\n"
-" on all your devices running Eolie or Firefox"
-msgstr ""
-"Du kan dela dina bokmärken och historik\n"
-" på alla enheter som kör Eolie eller Firefox"
-
-#: ../data/SettingsDialog.ui.h:55
-msgid "Login:"
-msgstr "Inloggning:"
-
-#: ../data/SettingsDialog.ui.h:56
-msgid "Password:"
-msgstr "Lösenord:"
-
-#: ../data/SettingsDialog.ui.h:58
-msgid "Create or manage account"
-msgstr "Skapa eller hantera konto"
-
-#: ../data/SettingsDialog.ui.h:59
-msgid "Synchronization"
-msgstr "Synkronisering"
-
-#: ../data/Shortcuts.ui.h:1
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Allmänt"
-
-#: ../data/Shortcuts.ui.h:2
-msgctxt "shortcut window"
-msgid "New window"
-msgstr "Nytt fönster"
-
-#: ../data/Shortcuts.ui.h:3
-msgctxt "shortcut window"
-msgid "Settings"
-msgstr "Inställningar"
-
-#: ../data/Shortcuts.ui.h:4
-msgctxt "shortcut window"
-msgid "Fullscreen"
-msgstr "Helskärm"
-
-#: ../data/Shortcuts.ui.h:5
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "Avsluta"
-
-#: ../data/Shortcuts.ui.h:6
-msgctxt "shortcut window"
-msgid "Enter location"
-msgstr "Ange plats"
-
-#: ../data/Shortcuts.ui.h:7
-msgctxt "shortcut window"
-msgid "Show bookmarks"
-msgstr "Visa bokmärken"
-
-#: ../data/Shortcuts.ui.h:8
-msgctxt "shortcut window"
-msgid "Show history"
-msgstr "Visa historik"
-
-#: ../data/Shortcuts.ui.h:9
-msgctxt "shortcut window"
-msgid "Search"
-msgstr "Sök"
-
-#: ../data/Shortcuts.ui.h:10
-msgctxt "shortcut window"
-msgid "Show sidebar"
-msgstr "Visa sidopanel"
-
-#: ../data/Shortcuts.ui.h:11
-msgctxt "shortcut window"
-msgid "Pages"
-msgstr "Sidor"
-
-#: ../data/Shortcuts.ui.h:12
-msgctxt "shortcut window"
-msgid "New page"
-msgstr "Ny sida"
-
-#: ../data/Shortcuts.ui.h:13
-msgctxt "shortcut window"
-msgid "Last closed page"
-msgstr "Senast stängda sida"
-
-#: ../data/Shortcuts.ui.h:14
-msgctxt "shortcut window"
-msgid "New private page"
-msgstr "Ny privat sida"
-
-#: ../data/Shortcuts.ui.h:15
-msgctxt "shortcut window"
-msgid "Close page"
-msgstr "Stäng sida"
-
-#: ../data/Shortcuts.ui.h:16
-msgctxt "shortcut window"
-msgid "Previous page"
-msgstr "Föregående sida"
-
-#: ../data/Shortcuts.ui.h:17
-msgctxt "shortcut window"
-msgid "Next page"
-msgstr "Nästa sida"
-
-#: ../data/Shortcuts.ui.h:18
-msgctxt "shortcut window"
-msgid "View all pages"
-msgstr "Visa alla sidor"
-
-#: ../data/Shortcuts.ui.h:19
-msgctxt "shortcut window"
-msgid "Show source code"
-msgstr "Visa källkod"
-
-#: ../data/Shortcuts.ui.h:20
-msgctxt "shortcut window"
-msgid "Web page"
-msgstr "Webbsida"
-
-#: ../data/Shortcuts.ui.h:21
-msgctxt "shortcut window"
-msgid "Save page"
-msgstr "Spara sida"
-
-#: ../data/Shortcuts.ui.h:22
-msgctxt "shortcut window"
-msgid "Print page"
-msgstr "Skriv ut sida"
-
-#: ../data/Shortcuts.ui.h:23
-msgctxt "shortcut window"
-msgid "Zoom in"
-msgstr "Zooma in"
-
-#: ../data/Shortcuts.ui.h:24
-msgctxt "shortcut window"
-msgid "Zoom out"
-msgstr "Zooma ut"
-
-#: ../data/Shortcuts.ui.h:25
-msgctxt "shortcut window"
-msgid "Default zoom level"
-msgstr "Standardzoomnivå"
-
-#: ../data/Shortcuts.ui.h:26
-msgctxt "shortcut window"
-msgid "Search for"
-msgstr "Sök efter"
-
-#: ../data/Shortcuts.ui.h:27
-msgctxt "shortcut window"
-msgid "Disable adblock for current site"
-msgstr "Inaktivera annonsblockering för aktuell webbplats"
-
-#: ../data/Shortcuts.ui.h:28
-#, fuzzy
-msgctxt "shortcut window"
-msgid "Temporarily enable JavaScript for current site"
-msgstr "Inaktivera annonsblockering för aktuell webbplats"
-
-#: ../data/Shortcuts.ui.h:29
-#, fuzzy
-msgctxt "shortcut window"
-msgid "Temporarily enable \"Media Source Extension\""
-msgstr "Inaktivera annonsblockering för aktuell webbplats"
-
-#: ../data/Shortcuts.ui.h:30
-msgctxt "shortcut window"
-msgid "Navigation"
-msgstr "Navigering"
-
-#: ../data/Shortcuts.ui.h:31
-msgctxt "shortcut window"
-msgid "Reload page"
-msgstr "Uppdatera sida"
-
-#: ../data/Shortcuts.ui.h:32
-msgctxt "shortcut window"
-msgid "Startup page"
-msgstr "Startsida"
-
-#: ../data/ToolbarActions.ui.h:1
-msgid "Backward"
-msgstr "Bakåt"
-
-#: ../data/ToolbarActions.ui.h:2
-msgid "Forward"
-msgstr "Framåt"
-
-#: ../data/ToolbarActions.ui.h:3
-msgid "New page"
-msgstr "Ny sida"
-
-#: ../data/ToolbarActions.ui.h:4
-msgid "View all pages"
-msgstr "Visa alla sidor"
-
-#: ../data/ToolbarActions.ui.h:5
-msgid "Close page"
-msgstr "Stäng sida"
-
-#: ../data/ToolbarActions.ui.h:6
-msgid "More actions"
-msgstr "Fler åtgärder"
-
-#: ../data/ToolbarEnd.ui.h:3
-msgid "Disallow access to this site"
-msgstr "Neka åtkomst för denna webbplats"
-
-#: ../data/ToolbarEnd.ui.h:5
-msgid "Startup page"
-msgstr "Startsida"
-
-#: ../data/ToolbarMenu.ui.h:2
-msgid "Print page"
-msgstr "Skriv ut sida"
-
-#: ../data/ToolbarMenu.ui.h:3
-msgid "Start page"
-msgstr "Startsida"
-
-#: ../data/ToolbarMenu.ui.h:5
-msgid "Zoom out"
-msgstr "Zooma ut"
-
-#: ../data/ToolbarMenu.ui.h:7
-msgid "Zoom in"
-msgstr "Zooma in"
-
-#: ../data/ToolbarMenu.ui.h:12
-msgid "Filtering"
-msgstr "Filtrering"
+#~ msgid "_Help"
+#~ msgstr "_Hjälp"
 
 #~ msgid "Eolie: You need to install yelp."
 #~ msgstr "Eolie: Du behöver installera yelp."
@@ -1580,9 +1584,6 @@ msgstr "Filtrering"
 
 #~ msgid "Window maximized state"
 #~ msgstr "Maximerat fönstertillstånd"
-
-#~ msgid "Eolie is a new GNOME web browser."
-#~ msgstr "Eolie är en ny webbläsare för GNOME."
 
 #~ msgid "Web content"
 #~ msgstr "Webbinnehåll"
