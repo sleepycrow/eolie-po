@@ -8,24 +8,24 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 11:06+0100\n"
-"PO-Revision-Date: 2018-01-08 09:41+0000\n"
-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/"
-">\n"
+"PO-Revision-Date: 2018-03-18 14:42+0000\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/>"
+"\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 2.20-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
-msgstr ""
+msgstr "Visa felsökningsmeddelanden"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Mozilla sync debug messages"
-msgstr ""
+msgstr "Visa felsökningsmeddelanden för Mozilla sync"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Show sidebar(sites manager)"
@@ -48,14 +48,12 @@ msgid "Block unwanted popups on pages"
 msgstr "Blockera oönskade poppupper på sidor"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
-#, fuzzy
 msgid "Block images on page"
-msgstr "Blockera bilder på sidor"
+msgstr "Blockera bilder på sida"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
-#, fuzzy
 msgid "Block JavaScript on pages"
-msgstr "Blockera Javascript på sidor"
+msgstr "Blockera JavaScript på sidor"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Download folder URI"
@@ -179,7 +177,7 @@ msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:66
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:76
 msgid "PayPal"
@@ -199,16 +197,15 @@ msgstr "Webbläsare"
 
 #: ../data/org.gnome.Eolie.desktop.in:8
 msgid "org.gnome.Eolie"
-msgstr ""
+msgstr "org.gnome.Eolie"
 
 #: ../data/org.gnome.Eolie.desktop.in:18 ../eolie/menu_pages.py:44
 msgid "New private page"
 msgstr "Ny privat sida"
 
 #: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
-#, fuzzy
 msgid "Do not filter current website content"
-msgstr "Blockera inte poppupper"
+msgstr "Filtrera inte innehåll för aktuell webbplats"
 
 #: ../data/AdblockMenu.ui:15 ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
@@ -228,41 +225,36 @@ msgid "Block policy"
 msgstr "Blockera poppupper"
 
 #: ../data/AdblockMenu.ui:93
-#, fuzzy
 msgid "Enable adblock"
-msgstr "Aktivera Javascriptblockerare"
+msgstr "Aktivera annonsblockerare"
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiverad"
 
 #: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
 #: ../data/PopupBlockMenu.ui:93
-#, fuzzy
 msgid "By default"
-msgstr "Standard"
+msgstr "Som standard"
 
 #: ../data/AdblockMenu.ui:123
-#, fuzzy
 msgid "Do not block ads for this site"
-msgstr "Blockera inte annonser"
+msgstr "Blockera inte annonser för denna webbplats"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not for this site"
-msgstr ""
+msgstr "Inte för denna webbplats"
 
 #: ../data/AdblockMenu.ui:137
-#, fuzzy
 msgid "Do not block ads for this page"
-msgstr "Blockera inte annonser"
+msgstr "Blockera inte annonser för denna sida"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
-#, fuzzy
 msgid "Not for this page"
-msgstr "Hämta denna bild"
+msgstr "Inte för denna sida"
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -438,37 +430,32 @@ msgstr "Blockera bilder"
 #: ../data/ImageBlockMenu.ui:79 ../data/PopupBlockMenu.ui:79
 msgctxt "popup"
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiverad"
 
 #: ../data/ImageBlockMenu.ui:80
-#, fuzzy
 msgid "Enable image blocking"
-msgstr "Aktivera stavningskontroll"
+msgstr "Aktivera bildblockering"
 
 #: ../data/ImageBlockMenu.ui:110
-#, fuzzy
 msgid "Do not block images for this site"
-msgstr "Blockera inte bilder"
+msgstr "Blockera inte bilder för denna webbplats"
 
 #: ../data/ImageBlockMenu.ui:125
-#, fuzzy
 msgid "Do not block images for this page"
-msgstr "Blockera inte bilder"
+msgstr "Blockera inte bilder för denna sida"
 
 #: ../data/JSBlockMenu.ui:28
-#, fuzzy
 msgid "JavaScript block"
-msgstr "Aktivera Javascriptblockerare"
+msgstr "JavaScriptblockerare"
 
 #: ../data/JSBlockMenu.ui:92
-#, fuzzy
 msgid "Enable JavaScript blocking"
-msgstr "Aktivera Javascriptblockerare"
+msgstr "Aktivera JavaScriptblockering"
 
 #: ../data/JSBlockMenu.ui:94
 msgctxt "Trust web sites"
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiverad"
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:330
 msgid "Spell checking"
@@ -547,19 +534,16 @@ msgid "Block popups"
 msgstr "Blockera poppupper"
 
 #: ../data/PopupBlockMenu.ui:80
-#, fuzzy
 msgid "Enable popup blocking"
-msgstr "Aktivera stavningskontroll"
+msgstr "Aktivera poppuppblockering"
 
 #: ../data/PopupBlockMenu.ui:110
-#, fuzzy
 msgid "Do not block popups for this site"
-msgstr "Blockera inte poppupper"
+msgstr "Blockera inte poppupper för denna webbplats"
 
 #: ../data/PopupBlockMenu.ui:125
-#, fuzzy
 msgid "Do not block popups for this page"
-msgstr "Blockera inte poppupper"
+msgstr "Blockera inte poppupper för denna sida"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -903,10 +887,9 @@ msgid "Disable adblock for current site"
 msgstr "Inaktivera annonsblockering för aktuell webbplats"
 
 #: ../data/Shortcuts.ui:197
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Temporarily enable JavaScript for current site"
-msgstr "Inaktivera annonsblockering för aktuell webbplats"
+msgstr "Aktivera tillfälligt JavaScript för aktuell webbplats"
 
 #: ../data/Shortcuts.ui:204
 #, fuzzy
