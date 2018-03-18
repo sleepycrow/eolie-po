@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 11:06+0100\n"
-"PO-Revision-Date: 2018-03-05 19:39+0000\n"
+"PO-Revision-Date: 2018-03-19 23:39+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "lt/>\n"
@@ -187,7 +187,7 @@ msgstr "PayPal"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:7
 msgid "Eolie is a new GNOME web browser."
-msgstr ""
+msgstr "Eolie yra nauja GNOME saityno naršyklė."
 
 #: ../data/org.gnome.Eolie.desktop.in:4
 msgid "Eolie"
@@ -199,7 +199,7 @@ msgstr "Saityno naršyklė"
 
 #: ../data/org.gnome.Eolie.desktop.in:8
 msgid "org.gnome.Eolie"
-msgstr ""
+msgstr "org.gnome.Eolie"
 
 #: ../data/org.gnome.Eolie.desktop.in:18 ../eolie/menu_pages.py:44
 msgid "New private page"
@@ -212,7 +212,7 @@ msgstr "Nefiltruoti esamos svetainės turinio"
 #: ../data/AdblockMenu.ui:15 ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust web sites"
-msgstr ""
+msgstr "Pasitikėti svetainėmis"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
 #: ../data/ToolbarMenu.ui:230
@@ -240,25 +240,22 @@ msgid "By default"
 msgstr "Pagal numatymą"
 
 #: ../data/AdblockMenu.ui:123
-#, fuzzy
 msgid "Do not block ads for this site"
-msgstr "Neblokuoti reklamų"
+msgstr "Neblokuoti reklamų šiai svetainei"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not for this site"
-msgstr ""
+msgstr "Šiai svetainei ne"
 
 #: ../data/AdblockMenu.ui:137
-#, fuzzy
 msgid "Do not block ads for this page"
-msgstr "Neblokuoti reklamų"
+msgstr "Neblokuoti reklamų šiam puslapiui"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
-#, fuzzy
 msgid "Not for this page"
-msgstr "Atsisiųsti šį paveikslą"
+msgstr "Šiam puslapiui ne"
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -390,7 +387,7 @@ msgstr "Importuoti"
 
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
-msgstr ""
+msgstr "Keisti"
 
 #: ../data/DialogSearchEngine.ui:7
 msgid "Search engines"
@@ -443,14 +440,12 @@ msgid "Enable image blocking"
 msgstr "Įjungti paveikslų blokavimą"
 
 #: ../data/ImageBlockMenu.ui:110
-#, fuzzy
 msgid "Do not block images for this site"
-msgstr "Atverti visus puslapius su šia žyme"
+msgstr "Neblokuoti paveikslus šiai svetainei"
 
 #: ../data/ImageBlockMenu.ui:125
-#, fuzzy
 msgid "Do not block images for this page"
-msgstr "Atverti visus puslapius su šia žyme"
+msgstr "Neblokuoti paveikslus šiam puslapiui"
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript block"
@@ -546,14 +541,12 @@ msgid "Enable popup blocking"
 msgstr "Įjungti iškylančiųjų langų blokavimą"
 
 #: ../data/PopupBlockMenu.ui:110
-#, fuzzy
 msgid "Do not block popups for this site"
-msgstr "Neblokuoti iškylančiųjų langų"
+msgstr "Neblokuoti iškylančiuosius langus šiai svetainei"
 
 #: ../data/PopupBlockMenu.ui:125
-#, fuzzy
 msgid "Do not block popups for this page"
-msgstr "Neblokuoti iškylančiųjų langų"
+msgstr "Neblokuoti iškylančiuosius langus šiam puslapiui"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -572,9 +565,8 @@ msgid "Enable javascript blocker"
 msgstr "Įjungti javascript blokavimo programą"
 
 #: ../data/ScriptsMenu.ui:138
-#, fuzzy
 msgid "Trust websites"
-msgstr "Apsilankyti Eolie internetinėje svetainėje"
+msgstr "Pasitikėti svetainėmis"
 
 #: ../data/SettingsDialog.ui:25 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
@@ -635,7 +627,7 @@ msgstr "Nustatyti adresą"
 
 #: ../data/SettingsDialog.ui:233
 msgid "Remember previous pages on startup"
-msgstr "Paleidimo metu, prisiminti ankstesnius puslapius"
+msgstr "Paleidimo metu prisiminti ankstesnius puslapius"
 
 #: ../data/SettingsDialog.ui:250
 msgid "Configure engines"
@@ -897,16 +889,14 @@ msgid "Disable adblock for current site"
 msgstr "Išjungti dabartinei svetainei reklamos blokavimą"
 
 #: ../data/Shortcuts.ui:197
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Temporarily enable JavaScript for current site"
-msgstr "Išjungti dabartinei svetainei reklamos blokavimą"
+msgstr "Laikinai įjungti JavaScript esamai svetainei"
 
 #: ../data/Shortcuts.ui:204
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Temporarily enable \"Media Source Extension\""
-msgstr "Išjungti dabartinei svetainei reklamos blokavimą"
+msgstr "Laikinai įjungti \"Media Source Extension\""
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -921,7 +911,7 @@ msgstr "Iš naujo įkelti puslapį"
 #: ../data/Shortcuts.ui:238
 msgctxt "shortcut window"
 msgid "Startup page"
-msgstr ""
+msgstr "Paleidimo puslapis"
 
 #: ../data/ToolbarActions.ui:50
 msgid "Backward"
@@ -962,7 +952,7 @@ msgstr ""
 
 #: ../data/ToolbarEnd.ui:146
 msgid "Startup page"
-msgstr ""
+msgstr "Paleidimo puslapis"
 
 #: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:131
 msgid "Save page"
@@ -1282,7 +1272,7 @@ msgstr "Atsisakyti sinchronizacijos"
 
 #: ../eolie/settings.py:516
 msgid "Synchronization is not working"
-msgstr "Sinchronizacija veikia"
+msgstr "Sinchronizacija neveikia"
 
 #: ../eolie/settings.py:527
 #, python-format
