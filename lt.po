@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 11:06+0100\n"
-"PO-Revision-Date: 2018-03-19 23:39+0000\n"
+"PO-Revision-Date: 2018-03-28 21:38+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "lt/>\n"
@@ -39,11 +39,11 @@ msgstr "Blokuoti puslapiuose reklamas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Trust websites: no adblock for internal URIs"
-msgstr ""
+msgstr "Pasitikėti svetainėmis: jokio reklamos blokavimo vidiniams URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: no JavaScript blocking for internal URIs"
-msgstr ""
+msgstr "Pasitikėti svetainėmis: jokio JavaScript blokavimo vidiniams URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Block unwanted popups on pages"
@@ -132,11 +132,11 @@ msgstr "Numatytasis mastelio lygis"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149
 msgid "Cookies storage type"
-msgstr ""
+msgstr "Slapukų saugyklos tipas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "History storage type"
-msgstr ""
+msgstr "Istorijos saugyklos tipas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:613
 msgid "Tell websites I do not want to be tracked"
@@ -599,7 +599,7 @@ msgstr "Kiti"
 
 #: ../data/SettingsDialog.ui:178
 msgid "Startup"
-msgstr "Programos paleidimas"
+msgstr "Paleidimas"
 
 #: ../data/SettingsDialog.ui:195
 msgid "Start Page:"
@@ -1340,7 +1340,7 @@ msgstr "%s yra duomenų išviliojimo puslapis"
 
 #: ../eolie/webview_errors.py:118
 msgid "Failed to load this web page"
-msgstr "Nepavyko įkelti šį saityno puslapį"
+msgstr "Nepavyko įkelti šio saityno puslapio"
 
 #: ../eolie/webview_errors.py:119
 msgid ""
