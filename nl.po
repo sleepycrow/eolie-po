@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 11:06+0100\n"
-"PO-Revision-Date: 2018-03-17 20:35+0000\n"
+"PO-Revision-Date: 2018-04-02 10:36+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
 "Language: nl\n"
@@ -146,7 +146,7 @@ msgstr "Zoeksuggesties inschakelen"
 #: ../data/org.gnome.Eolie.gschema.xml:174 ../data/LanguagesMenu.ui:59
 #: ../data/LanguagesMenu.ui:76
 msgid "Enable spell checking"
-msgstr "Spellingcontrole inschakelen"
+msgstr "Spellingscontrole inschakelen"
 
 #: ../data/AboutDialog.ui.in:14
 msgid "A web browser for GNOME."
@@ -458,7 +458,7 @@ msgstr "Ingeschakeld"
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:330
 msgid "Spell checking"
-msgstr "Spellingcontrole"
+msgstr "Spellingscontrole"
 
 #: ../data/PopoverCookies.ui:10
 msgid "Remove all cookies"
@@ -777,7 +777,7 @@ msgstr "Afsluiten"
 #: ../data/Shortcuts.ui:45
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr "Voer adres in"
+msgstr "Adres invoeren"
 
 #: ../data/Shortcuts.ui:52
 msgctxt "shortcut window"
