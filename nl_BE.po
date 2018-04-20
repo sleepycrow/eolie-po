@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 11:06+0100\n"
-"PO-Revision-Date: 2018-04-13 17:53+0000\n"
+"PO-Revision-Date: 2018-04-20 23:27+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "nl_BE/>\n"
@@ -33,11 +33,11 @@ msgstr "Zijbalk weergeven (sitebeheerder)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Block ads on pages"
-msgstr "Advertenties blokkeren"
+msgstr "Reclame blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Trust websites: no adblock for internal URIs"
-msgstr "Vertrouwde websites: geen advertentieblokkering op interne URL’s"
+msgstr "Vertrouwde websites: geen reclameblokkering op interne URL’s"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: no JavaScript blocking for internal URIs"
@@ -126,7 +126,7 @@ msgstr "Herstart vereist"
 #: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:516
 #: ../data/ToolbarMenu.ui:189
 msgid "Default zoom level"
-msgstr "Standaard zoomniveau"
+msgstr "Standaardzoomniveau"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149
 msgid "Cookies storage type"
@@ -217,7 +217,7 @@ msgstr "Vertrouwde websites"
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
 #: ../data/ToolbarMenu.ui:230
 msgid "Block ads"
-msgstr "Advertenties blokkeren"
+msgstr "Reclame blokkeren"
 
 #: ../data/AdblockMenu.ui:47 ../data/ImageBlockMenu.ui:33
 #: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
@@ -227,7 +227,7 @@ msgstr "Blokkeerbeleid"
 
 #: ../data/AdblockMenu.ui:93
 msgid "Enable adblock"
-msgstr "Advertentieblokkering inschakelen"
+msgstr "Reclameblokkering inschakelen"
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
@@ -241,7 +241,7 @@ msgstr "Standaard"
 
 #: ../data/AdblockMenu.ui:123
 msgid "Do not block ads for this site"
-msgstr "Advertenties op deze website niet blokkeren"
+msgstr "Reclame op deze website niet blokkeren"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
@@ -250,7 +250,7 @@ msgstr "Niet op deze website"
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads for this page"
-msgstr "Advertenties op deze pagina niet blokkeren"
+msgstr "Reclame op deze pagina niet blokkeren"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
@@ -308,11 +308,11 @@ msgstr "Zoeken"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
-msgstr "Filter domeinen"
+msgstr "Filterd domeinen"
 
 #: ../data/DialogClearData.ui:67
 msgid "Search domains"
-msgstr "Zoek op domeinen"
+msgstr "Zoekt op domeinen"
 
 #: ../data/DialogClearData.ui:83
 msgid ""
@@ -320,10 +320,10 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
-"U kunt een tijdsperiode selecteren waarvan dat u uw gegevens voor alle "
-"websites die in die periode gewijzigd zijn wilt wissen. Als u dervoor kiest "
-"alle gegevens vanaf het begin te wissen, kunt u der ook voor kiezen enkel de "
-"gegevens voor bepaalde websites te wissen."
+"Ge kund een tijdsperiode selecteren waarvan dat ge uw gegevens voor alle "
+"websites die in die periode gewijzigd zijn wild wissen. Als ge dervoor kiesd "
+"alle gegevens vanaf het begin te wissen, kund ge der ook voor kiezen enkel "
+"de gegevens voor bepaalde websites te wissen."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
@@ -358,7 +358,7 @@ msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
-"Deze actie kan niet ongedaan gemaakt worden. De gegevens die u wist zullen "
+"Deze actie kan niet ongedaan gemaakt worden. De gegevens die ge wist zullen "
 "voorgoed verwijderd worden."
 
 #: ../data/DialogCookies.ui:83
@@ -409,8 +409,8 @@ msgstr "Bang:"
 #: ../data/DialogSearchEngine.ui:246
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
-"Gebruik: als den bang ‘g’ is, typ dan ‘g:’ in de zoekbalk om dit zoekmachien "
-"te gebruiken"
+"Gebruik: als den bang ‘g’ is, typt dan ‘g:’ in de zoekbalk voor dit "
+"zoekmachien te gebruiken"
 
 #: ../data/DialogSearchEngine.ui:263
 msgid "Search:"
@@ -422,9 +422,10 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
 msgstr ""
-"Voer een zoekopdracht uit met het zoekmachien dat u wilt toevoegen voor het "
-"zoekadres te bepalen, en controleer het adres van de pagina waarop u "
-"terechtkomt. Verwijder de zoekterm uit dit adres en vervang deze door ‘%s’."
+"Voerd een zoekopdracht uit met het zoekmachien dat ge wild toevoegen voor "
+"het zoekadres te bepalen, en controleerd het adres van de pagina waarop dat "
+"ge terechtkomd. Verwijderd de zoekterm uit dit adres en vervangd deze door "
+"‘%s’."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
 #: ../data/ToolbarMenu.ui:269
@@ -471,7 +472,7 @@ msgstr "Alle cookies verwijderen"
 
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
-msgstr "Wilt u dit paswoord opslaan?"
+msgstr "Wild ge dit paswoord opslaan?"
 
 #: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:134
 msgid "Save"
@@ -624,7 +625,7 @@ msgstr "Blanco pagina"
 
 #: ../data/SettingsDialog.ui:211
 msgid "Set address"
-msgstr "Stel adres in"
+msgstr "Steld adres in"
 
 #: ../data/SettingsDialog.ui:233
 msgid "Remember previous pages on startup"
@@ -720,7 +721,7 @@ msgstr "Niet bijhouden"
 
 #: ../data/SettingsDialog.ui:832
 msgid "Predict websites address"
-msgstr "Website-adressen voorspellen"
+msgstr "Websiteadressen voorspellen"
 
 #: ../data/SettingsDialog.ui:862
 msgid "Privacy"
@@ -731,8 +732,8 @@ msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
-"U kunt uw bladwijzers en geschiedenis delen met alle\n"
-"apparaten waarop dat u Eolie of Firefox gebruikt"
+"Ge kunt uw bladwijzers en geschiedenis delen met alle\n"
+"apparaten waarop dat ge Eolie of Firefox gebruikt"
 
 #: ../data/SettingsDialog.ui:901
 msgid "Login:"
@@ -887,7 +888,7 @@ msgstr "Zoeken naar"
 #: ../data/Shortcuts.ui:190
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
-msgstr "Advertentieblokkering uitschakelen op deze website"
+msgstr "Reclameblokkering uitschakelen op deze website"
 
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
@@ -897,7 +898,7 @@ msgstr "JavaScript tijdelijk inschakelen op deze website"
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
 msgid "Temporarily enable \"Media Source Extension\""
-msgstr "“Media Source Extension” tijdelijk inschakelen"
+msgstr "‘Media Source Extension’ tijdelijk inschakelen"
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -1009,16 +1010,16 @@ msgstr "Sport"
 
 #: ../eolie/application.py:721
 msgid "Do you really want to quit Eolie?"
-msgstr "Weet u zeker dat u Eolie wilt afsluiten?"
+msgstr "Zijde zeker dat ge Eolie wild afsluiten?"
 
 #: ../eolie/application.py:774
 msgid "Downloads running, are you sure you want quit ?"
 msgstr ""
-"Der zijn nog actieve downloads. Weet u zeker dat u Eolie wilt afsluiten?"
+"Der zijn nog actieve downloads. Zijde zeker dat ge Eolie wild afsluiten?"
 
 #: ../eolie/container.py:602
 msgid "Do you really want to close this page?"
-msgstr "Weet u zeker dat u deze pagina wilt sluiten?"
+msgstr "Zijde zeker dat ge deze pagina wild sluiten?"
 
 #: ../eolie/context.py:151
 msgid "Name"
@@ -1034,7 +1035,7 @@ msgstr "Laatst gewijzigd"
 
 #: ../eolie/database_adblock.py:204
 msgid "For stronger ad blocking, install git command"
-msgstr "Installeer ‘git’ voor krachtigere advertentieblokkering"
+msgstr "Installeerd ‘git’ voor krachtigere reclameblokkering"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
@@ -1122,7 +1123,7 @@ msgstr "Geen video’s"
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
-msgstr "Wilt u dit paswoord wijzigen?"
+msgstr "Wild ge dit paswoord wijzigen?"
 
 #: ../eolie/popover_downloads.py:109
 msgid "Download speed:"
@@ -1253,7 +1254,7 @@ msgid ""
 "Do you want to install\n"
 "%s search engine ?"
 msgstr ""
-"Wilt u het \n"
+"Wild ge het \n"
 "%s-zoekmachien installeren?"
 
 #: ../eolie/search.py:250
@@ -1285,7 +1286,7 @@ msgstr "Synchronisatie is niet beschikbaar op uwe computer: %s"
 
 #: ../eolie/settings.py:550
 msgid "You've received an email to validate synchronization"
-msgstr "U hebt een e-mail ontvangen voor de synchronisatie te valideren"
+msgstr "Ge hebd een e-mail ontvangen voor de synchronisatie te valideren"
 
 #: ../eolie/toolbar_end.py:99
 msgid "Downloading:"
@@ -1302,7 +1303,7 @@ msgid ""
 " it will be visible to cybercriminals!"
 msgstr ""
 "Let op: deze pagina is niet beveiligd.\n"
-"Als u uw paswoord invoert,\n"
+"Als ge uw paswoord invoert,\n"
 " zullen computercriminelen het kunnen lezen!"
 
 #: ../eolie/toolbar_title.py:374
@@ -1323,7 +1324,7 @@ msgstr "Plakken en laden"
 
 #: ../eolie/toolbar_title.py:740 ../eolie/toolbar_title.py:743
 msgid "Search or enter address"
-msgstr "Zoek of voer een adres in"
+msgstr "Zoekt of voerd een adres in"
 
 #: ../eolie/webview_errors.py:66
 msgid "This page is dangerous"
@@ -1348,7 +1349,7 @@ msgid ""
 "wish to verify that your internet connection is working correctly."
 msgstr ""
 "Mogelijk is ze tijdelijk niet beschikbaar, of verplaatst naar een nieuw "
-"adres.<br/>U kunt ook controleren of dat uw internetverbinding wel correct "
+"adres.<br/>Ge kund ook controleren of dat uw internetverbinding wel correct "
 "werkt."
 
 #: ../eolie/webview_errors.py:125
@@ -1357,7 +1358,7 @@ msgstr "Netwerk niet beschikbaar"
 
 #: ../eolie/webview_errors.py:126
 msgid "Check your network connection"
-msgstr "Controleer uw netwerkverbinding"
+msgstr "Controleerd uw netwerkverbinding"
 
 #: ../eolie/webview_errors.py:136
 msgid "Retry"
@@ -1365,7 +1366,7 @@ msgstr "Opnieuw proberen"
 
 #: ../eolie/webview_errors.py:162
 msgid "The certificate does not match this website"
-msgstr "Het certificaat komt niet overeen met deze website"
+msgstr "Het certificaat komd niet overeen met deze website"
 
 #: ../eolie/webview_errors.py:164
 msgid "The certificate has expired"
@@ -1389,7 +1390,7 @@ msgstr "Het certificaat is ondertekend met een zwak algoritme"
 
 #: ../eolie/webview_errors.py:176
 msgid "The certificate activation time is still in the future"
-msgstr "Den activatietijd van het certificaat ligt in de toekomst"
+msgstr "Den activatietijd van het certificaat ligd in de toekomst"
 
 #: ../eolie/webview_errors.py:178
 msgid "The identity of this website has not been verified"
@@ -1407,7 +1408,7 @@ msgid ""
 "messages, credit card information, or passwords)."
 msgstr ""
 "Dit gelijkt niet op de echte %s.<br/>Mogelijk proberen aanvallers de "
-"gegevens die u naar deze site stuurt of dervan ontvangt te stelen of aan te "
+"gegevens die ge naar deze site stuurd of dervan ontvangd te stelen of aan te "
 "passen (bijvoorbeeld privéberichten, kredietkaartgegevens of paswoorden)."
 
 #: ../eolie/webview_errors.py:191
@@ -1425,9 +1426,9 @@ msgid ""
 "<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
 "De webpagina is onverwacht beëindigd. Herlaad de pagina of ga naar een "
-"andere pagina voor verder te gaan.<br/><br/>Als het probleem zich blijft "
-"stellen, kunt u een bug melden :)<br/>Gebruik <b>‘Webkit Gtk’</b> als "
-"component.<br/>Stel <b>[GTK]</b> in als voorvoegsel voor het onderwerp."
+"andere pagina voor verder te gaan.<br/><br/>Als het probleem zich blijfd "
+"stellen, kund ge een bug melden :)<br/>Gebruikt <b>‘Webkit Gtk’</b> als "
+"component.<br/>Steld <b>[GTK]</b> in als voorvoegsel voor het onderwerp."
 
 #: ../eolie/webview_errors.py:220
 msgid "Report a bug now"
@@ -1487,7 +1488,7 @@ msgstr "Pagina opslaan als afbeelding"
 
 #: ../eolie/webview_signals.py:136
 msgid "Select files to upload"
-msgstr "Selecteer bestanden voor te uploaden"
+msgstr "Selecteerd bestanden voor te uploaden"
 
 #: ../eolie/webview_signals.py:139
 msgid "Open"
