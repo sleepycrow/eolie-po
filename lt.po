@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 11:06+0100\n"
-"PO-Revision-Date: 2018-03-28 21:38+0000\n"
+"PO-Revision-Date: 2018-04-22 19:38+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "lt/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 2.20-dev\n"
+"X-Generator: Weblate 3.0-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -719,7 +719,7 @@ msgstr "Nesaugoti"
 
 #: ../data/SettingsDialog.ui:832
 msgid "Predict websites address"
-msgstr ""
+msgstr "Nuspėti svetainių adresus"
 
 #: ../data/SettingsDialog.ui:862
 msgid "Privacy"
@@ -1076,7 +1076,7 @@ msgstr "Nauja paieškos sistema"
 
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
-msgstr ""
+msgstr "Įrašyti prisijungimo duomenys"
 
 #: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:75
 msgid "Move to"
