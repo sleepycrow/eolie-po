@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 11:06+0100\n"
-"PO-Revision-Date: 2018-04-20 23:27+0000\n"
+"PO-Revision-Date: 2018-04-22 22:04+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "nl_BE/>\n"
@@ -65,7 +65,7 @@ msgstr "Voltooide downloads openen"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Web search engine"
-msgstr "Zoekmachine"
+msgstr "Zoekmachien"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Remember sessions"
@@ -97,7 +97,7 @@ msgstr "Met schreef"
 
 #: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:428
 msgid "Monospace font"
-msgstr "Niet-proportioneel"
+msgstr "Nie-proportioneel"
 
 #: ../data/org.gnome.Eolie.gschema.xml:119
 msgid "Open this page on startup"
@@ -138,7 +138,7 @@ msgstr "Geschiedenisopslagtype"
 
 #: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:613
 msgid "Tell websites I do not want to be tracked"
-msgstr "Aan websites melden dat ik niet gevolgd wil worden"
+msgstr "Aan websites melden da ik nie gevolgd wil worden"
 
 #: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "DNS prediction"
@@ -246,7 +246,7 @@ msgstr "Reclame op deze website niet blokkeren"
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not for this site"
-msgstr "Niet op deze website"
+msgstr "Nie op deze website"
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads for this page"
@@ -255,7 +255,7 @@ msgstr "Reclame op deze pagina niet blokkeren"
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not for this page"
-msgstr "Niet op deze pagina"
+msgstr "Nie op deze pagina"
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -320,10 +320,10 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
-"Ge kund een tijdsperiode selecteren waarvan dat ge uw gegevens voor alle "
+"Ge kund een tijdsperiode selecteren waarvan da’ g’uw gegevens voor alle "
 "websites die in die periode gewijzigd zijn wild wissen. Als ge dervoor kiesd "
-"alle gegevens vanaf het begin te wissen, kund ge der ook voor kiezen enkel "
-"de gegevens voor bepaalde websites te wissen."
+"alle gegevens vanaf ’t begin te wissen, kund ge der ook voor kiezen enkel de "
+"gegevens voor bepaalde websites te wissen."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
@@ -331,7 +331,7 @@ msgstr "Persoonlijke gegevens wissen _van:"
 
 #: ../data/DialogClearData.ui:111
 msgid "the past hour"
-msgstr "het voorbije uur"
+msgstr "’t voorbije uur"
 
 #: ../data/DialogClearData.ui:112
 msgid "the past day"
@@ -347,7 +347,7 @@ msgstr "de voorbije vier weken"
 
 #: ../data/DialogClearData.ui:115
 msgid "the beginning"
-msgstr "het begin"
+msgstr "’t begin"
 
 #: ../data/DialogClearData.ui:192
 msgid "No data found"
@@ -358,7 +358,7 @@ msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
-"Deze actie kan niet ongedaan gemaakt worden. De gegevens die ge wist zullen "
+"Deze actie kan nie ongedaan gemaakt worden. De gegevens die ge wist zullen "
 "voorgoed verwijderd worden."
 
 #: ../data/DialogCookies.ui:83
@@ -392,7 +392,7 @@ msgstr "Wijzigen"
 
 #: ../data/DialogSearchEngine.ui:7
 msgid "Search engines"
-msgstr "Zoekmachines"
+msgstr "Zoekmachienen"
 
 #: ../data/DialogSearchEngine.ui:155
 msgid "Name:"
@@ -422,10 +422,9 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
 msgstr ""
-"Voerd een zoekopdracht uit met het zoekmachien dat ge wild toevoegen voor "
-"het zoekadres te bepalen, en controleerd het adres van de pagina waarop dat "
-"ge terechtkomd. Verwijderd de zoekterm uit dit adres en vervangd deze door "
-"‘%s’."
+"Voerd een zoekopdracht uit met het zoekmachien da’ ge wild toevoegen voor ’t "
+"zoekadres te bepalen, en controleerd het adres van de pagina waarop da’ ge "
+"terechtkomd. Verwijderd de zoekterm uit dit adres en vervangd deze door ‘%s’."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
 #: ../data/ToolbarMenu.ui:269
@@ -544,11 +543,11 @@ msgstr "Pop-upblokkering inschakelen"
 
 #: ../data/PopupBlockMenu.ui:110
 msgid "Do not block popups for this site"
-msgstr "Pop-ups op deze website niet blokkeren"
+msgstr "Pop-ups op deze website nie blokkeren"
 
 #: ../data/PopupBlockMenu.ui:125
 msgid "Do not block popups for this page"
-msgstr "Pop-ups op deze pagina niet blokkeren"
+msgstr "Pop-ups op deze pagina nie blokkeren"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -701,7 +700,7 @@ msgstr "Geschiedenis bijhouden:"
 
 #: ../data/SettingsDialog.ui:808
 msgid "One day"
-msgstr "Een dag"
+msgstr "Enen dag"
 
 #: ../data/SettingsDialog.ui:809
 msgid "One week"
@@ -717,7 +716,7 @@ msgstr "Een jaar"
 
 #: ../data/SettingsDialog.ui:813
 msgid "Do not keep"
-msgstr "Niet bijhouden"
+msgstr "Nie bijhouden"
 
 #: ../data/SettingsDialog.ui:832
 msgid "Predict websites address"
@@ -732,8 +731,8 @@ msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
-"Ge kunt uw bladwijzers en geschiedenis delen met alle\n"
-"apparaten waarop dat ge Eolie of Firefox gebruikt"
+"Ge kund uw bladwijzers en geschiedenis delen met alle\n"
+"apparaten waarop da’ g’Eolie of Firefox gebruikt"
 
 #: ../data/SettingsDialog.ui:901
 msgid "Login:"
@@ -1010,16 +1009,15 @@ msgstr "Sport"
 
 #: ../eolie/application.py:721
 msgid "Do you really want to quit Eolie?"
-msgstr "Zijde zeker dat ge Eolie wild afsluiten?"
+msgstr "Zijde zeker da’ g’Eolie wild afsluiten?"
 
 #: ../eolie/application.py:774
 msgid "Downloads running, are you sure you want quit ?"
-msgstr ""
-"Der zijn nog actieve downloads. Zijde zeker dat ge Eolie wild afsluiten?"
+msgstr "Der zijn nog actieve downloads. Zijde zeker da’ g’Eolie wild afsluiten?"
 
 #: ../eolie/container.py:602
 msgid "Do you really want to close this page?"
-msgstr "Zijde zeker dat ge deze pagina wild sluiten?"
+msgstr "Zijde zeker da’ ge deze pagina wild sluiten?"
 
 #: ../eolie/context.py:151
 msgid "Name"
@@ -1209,7 +1207,7 @@ msgstr "Ongeclassificeerd"
 
 #: ../eolie/popover_uri.py:813
 msgid "From the past hour"
-msgstr "Van het voorbije uur"
+msgstr "Van ’t voorbije uur"
 
 #: ../eolie/popover_uri.py:814
 msgid "From the past day"
@@ -1254,12 +1252,12 @@ msgid ""
 "Do you want to install\n"
 "%s search engine ?"
 msgstr ""
-"Wild ge het \n"
+"Wild g’het\n"
 "%s-zoekmachien installeren?"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
-msgstr "Niet-ondersteund zoekmachien"
+msgstr "Nie-ondersteund zoekmachien"
 
 #: ../eolie/settings.py:461
 msgid "Connecting…"
@@ -1275,14 +1273,14 @@ msgstr "Synchronisatie annuleren"
 
 #: ../eolie/settings.py:516
 msgid "Synchronization is not working"
-msgstr "Synchronisatie werkt momenteel niet"
+msgstr "Synchronisatie werkt momenteel nie"
 
 #: ../eolie/settings.py:527
 #, python-format
 msgid ""
 "Synchronization is not available on your computer:\n"
 " %s"
-msgstr "Synchronisatie is niet beschikbaar op uwe computer: %s"
+msgstr "Synchronisatie is nie beschikbaar op uwe computer: %s"
 
 #: ../eolie/settings.py:550
 msgid "You've received an email to validate synchronization"
@@ -1294,7 +1292,7 @@ msgstr "Downloaden:"
 
 #: ../eolie/toolbar_title.py:271
 msgid "This page contains insecure content"
-msgstr "Deze pagina bevat niet-beveiligde inhoud"
+msgstr "Deze pagina bevat onbeveiligde inhoud"
 
 #: ../eolie/toolbar_title.py:325
 msgid ""
@@ -1302,8 +1300,8 @@ msgid ""
 "If you type your password,\n"
 " it will be visible to cybercriminals!"
 msgstr ""
-"Let op: deze pagina is niet beveiligd.\n"
-"Als ge uw paswoord invoert,\n"
+"Let op: deze pagina is nie beveiligd.\n"
+"Als g’uw paswoord invoert,\n"
 " zullen computercriminelen het kunnen lezen!"
 
 #: ../eolie/toolbar_title.py:374
@@ -1332,7 +1330,7 @@ msgstr "Deze pagina is gevaarlijk"
 
 #: ../eolie/webview_errors.py:67
 msgid "Eolie will not display this page"
-msgstr "Eolie zal deze pagina niet weergeven"
+msgstr "Eolie zal deze pagina nie weergeven"
 
 #: ../eolie/webview_errors.py:74
 #, python-format
@@ -1348,13 +1346,13 @@ msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
-"Mogelijk is ze tijdelijk niet beschikbaar, of verplaatst naar een nieuw "
+"Mogelijks is ze tijdelijk nie beschikbaar, of verplaatst naar een nieuw "
 "adres.<br/>Ge kund ook controleren of dat uw internetverbinding wel correct "
 "werkt."
 
 #: ../eolie/webview_errors.py:125
 msgid "Network not available"
-msgstr "Netwerk niet beschikbaar"
+msgstr "Netwerk nie beschikbaar"
 
 #: ../eolie/webview_errors.py:126
 msgid "Check your network connection"
@@ -1366,39 +1364,39 @@ msgstr "Opnieuw proberen"
 
 #: ../eolie/webview_errors.py:162
 msgid "The certificate does not match this website"
-msgstr "Het certificaat komd niet overeen met deze website"
+msgstr "’t Certificaat komd nie overeen met deze website"
 
 #: ../eolie/webview_errors.py:164
 msgid "The certificate has expired"
-msgstr "Het certificaat is verlopen"
+msgstr "’t Certificaat is verlopen"
 
 #: ../eolie/webview_errors.py:166
 msgid "The signing certificate authority is not known"
-msgstr "De ondertekenende certificaatautoriteit is niet gekend"
+msgstr "D’ondertekenende certificaatautoriteit is nie’ gekend"
 
 #: ../eolie/webview_errors.py:168
 msgid "The certificate contains errors"
-msgstr "Het certificaat bevat fouten"
+msgstr "’t Certificaat bevat fouten"
 
 #: ../eolie/webview_errors.py:170
 msgid "The certificate has been revoked"
-msgstr "Het certificaat is ingetrokken"
+msgstr "’t Certificaat is ingetrokken"
 
 #: ../eolie/webview_errors.py:172
 msgid "The certificate is signed using a weak signature algorithm"
-msgstr "Het certificaat is ondertekend met een zwak algoritme"
+msgstr "’t Certificaat is ondertekend met een zwak algoritme"
 
 #: ../eolie/webview_errors.py:176
 msgid "The certificate activation time is still in the future"
-msgstr "Den activatietijd van het certificaat ligd in de toekomst"
+msgstr "Den activatietijd van ’t certificaat ligd in de toekomst"
 
 #: ../eolie/webview_errors.py:178
 msgid "The identity of this website has not been verified"
-msgstr "De identiteit van deze website is niet geverifieerd"
+msgstr "D’identiteit van deze website is nie’ geverifieerd"
 
 #: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:183
 msgid "Connection is not secure"
-msgstr "Verbinding is niet beveiligd"
+msgstr "Verbinding is nie beveiligd"
 
 #: ../eolie/webview_errors.py:185
 #, python-format
@@ -1407,9 +1405,9 @@ msgid ""
 "or alter information going to or from this site (for example, private "
 "messages, credit card information, or passwords)."
 msgstr ""
-"Dit gelijkt niet op de echte %s.<br/>Mogelijk proberen aanvallers de "
-"gegevens die ge naar deze site stuurd of dervan ontvangd te stelen of aan te "
-"passen (bijvoorbeeld privéberichten, kredietkaartgegevens of paswoorden)."
+"Dit gelijkt nie op d’echte %s.<br/>Mogelijk proberen aanvallers de gegevens "
+"die ge naar deze site stuurd of dervan ontvangd te stelen of aan te passen ("
+"bijvoorbeeld privéberichten, kredietkaartgegevens of paswoorden)."
 
 #: ../eolie/webview_errors.py:191
 msgid "Accept Risk and Proceed"
@@ -1425,10 +1423,10 @@ msgid ""
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
 "<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
-"De webpagina is onverwacht beëindigd. Herlaad de pagina of ga naar een "
-"andere pagina voor verder te gaan.<br/><br/>Als het probleem zich blijfd "
+"De webpagina is onverwachts beëindigd. Herlaad de pagina of ga naar een "
+"andere pagina voor verder te gaan.<br/><br/>Als ’t probleem zich blijfd "
 "stellen, kund ge een bug melden :)<br/>Gebruikt <b>‘Webkit Gtk’</b> als "
-"component.<br/>Steld <b>[GTK]</b> in als voorvoegsel voor het onderwerp."
+"component.<br/>Steld <b>[GTK]</b> in als voorvoegsel voor ’t onderwerp."
 
 #: ../eolie/webview_errors.py:220
 msgid "Report a bug now"
@@ -1436,7 +1434,7 @@ msgstr "Nu nen bug melden"
 
 #: ../eolie/webview_signals_js.py:92
 msgid "Eolie is going to close this page because it is broken"
-msgstr "Eolie zal deze pagina sluiten, want ze werkt niet"
+msgstr "Eolie zal deze pagina sluiten, want ze werkt nie"
 
 #: ../eolie/webview_signals_menu.py:70
 msgid "Reload preview"
@@ -1464,7 +1462,7 @@ msgstr "Verwijzingsadres kopiëren"
 
 #: ../eolie/webview_signals_menu.py:146
 msgid "Search on the Web"
-msgstr "Zoeken op het internet"
+msgstr "Zoeken op ’t internet"
 
 #: ../eolie/webview_signals_menu.py:156
 msgid "Download this image"
@@ -1488,7 +1486,7 @@ msgstr "Pagina opslaan als afbeelding"
 
 #: ../eolie/webview_signals.py:136
 msgid "Select files to upload"
-msgstr "Selecteerd bestanden voor te uploaden"
+msgstr "Selecteerd bestanden voor t’uploaden"
 
 #: ../eolie/webview_signals.py:139
 msgid "Open"
