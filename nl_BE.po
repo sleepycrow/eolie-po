@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-25 21:54+0200\n"
-"PO-Revision-Date: 2018-04-22 22:04+0000\n"
+"PO-Revision-Date: 2018-04-26 22:36+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "nl_BE/>\n"
@@ -25,11 +25,11 @@ msgstr "Foutopsporingsberichten weergeven"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
-msgstr ""
+msgstr "Debugberichten van Firefox Sync tonen"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
-msgstr ""
+msgstr "Gebruiker toelaten van te doneren aan het project"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
@@ -1016,11 +1016,11 @@ msgstr ""
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr ""
+msgstr "Gelieve een donatie aan het project t’overwegen"
 
 #: ../eolie/container.py:515
 msgid "Paypal"
-msgstr ""
+msgstr "PayPal"
 
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
