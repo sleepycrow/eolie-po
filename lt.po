@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-25 21:54+0200\n"
-"PO-Revision-Date: 2018-04-22 19:38+0000\n"
+"PO-Revision-Date: 2018-04-27 05:10+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "lt/>\n"
@@ -27,11 +27,11 @@ msgstr "Rodyti derinimo pranešimus"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
-msgstr ""
+msgstr "Rodyti Firefox Sync derinimo pranešimus"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
-msgstr ""
+msgstr "Leisti naudotojui paaukoti projektui"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
@@ -1014,11 +1014,11 @@ msgstr "Yra vykdomi atsiuntimai, ar tikrai norite išeiti?"
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr ""
+msgstr "Pasvarstykite paaukoti šiam projektui"
 
 #: ../eolie/container.py:515
 msgid "Paypal"
-msgstr ""
+msgstr "Paypal"
 
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
