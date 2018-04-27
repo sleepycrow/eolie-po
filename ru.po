@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-25 21:54+0200\n"
+"POT-Creation-Date: 2018-04-27 07:10+0200\n"
 "PO-Revision-Date: 2018-01-22 17:54+0000\n"
 "Last-Translator: Дмитрий Нужнов <sergash.mail@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/"
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:76
+#: ../data/AboutDialog.ui.in:76 ../eolie/container.py:515
 msgid "PayPal"
 msgstr ""
 
@@ -1035,10 +1035,6 @@ msgstr "Скачивание не закончено, вы уверены, чт�
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr ""
-
-#: ../eolie/container.py:515
-msgid "Paypal"
 msgstr ""
 
 #: ../eolie/container.py:586

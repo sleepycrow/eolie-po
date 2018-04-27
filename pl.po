@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-25 21:54+0200\n"
+"POT-Creation-Date: 2018-04-27 07:10+0200\n"
 "PO-Revision-Date: 2017-12-02 16:34+0000\n"
 "Last-Translator: Piotr Sokół <psokol.l10n@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/eolie/eolie/pl/>\n"
@@ -176,7 +176,7 @@ msgstr "Flattr"
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:76
+#: ../data/AboutDialog.ui.in:76 ../eolie/container.py:515
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1035,10 +1035,6 @@ msgstr ""
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr ""
-
-#: ../eolie/container.py:515
-msgid "Paypal"
 msgstr ""
 
 #: ../eolie/container.py:586

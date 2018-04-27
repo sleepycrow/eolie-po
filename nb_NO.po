@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-25 21:54+0200\n"
+"POT-Creation-Date: 2018-04-27 07:10+0200\n"
 "PO-Revision-Date: 2018-04-27 05:10+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -180,7 +180,7 @@ msgstr "Flattr"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:76
+#: ../data/AboutDialog.ui.in:76 ../eolie/container.py:515
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1056,10 +1056,6 @@ msgstr "Nedlastinger underveis, er du sikker på at du vil avslutte?"
 msgid "Please consider a donation to the project"
 msgstr "Overvei å donere til prosjektet"
 
-#: ../eolie/container.py:515
-msgid "Paypal"
-msgstr "PayPal"
-
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
 msgstr "Ønsker du virkelig å lukke denne siden?"
@@ -1565,6 +1561,9 @@ msgstr "Søk etter neste forekomst"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 treff"
+
+#~ msgid "Paypal"
+#~ msgstr "PayPal"
 
 #~ msgid "Show Mozilla sync debug messages"
 #~ msgstr "Vis feilsøkingsmeldinger for Firefox Sync"

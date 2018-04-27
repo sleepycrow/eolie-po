@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-25 21:54+0200\n"
+"POT-Creation-Date: 2018-04-27 07:10+0200\n"
 "PO-Revision-Date: 2018-04-27 05:10+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -177,7 +177,7 @@ msgstr "Flattr"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:76
+#: ../data/AboutDialog.ui.in:76 ../eolie/container.py:515
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1016,10 +1016,6 @@ msgstr "Yra vykdomi atsiuntimai, ar tikrai norite išeiti?"
 msgid "Please consider a donation to the project"
 msgstr "Pasvarstykite paaukoti šiam projektui"
 
-#: ../eolie/container.py:515
-msgid "Paypal"
-msgstr "Paypal"
-
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
 msgstr "Ar tikrai norite užverti šį puslapį?"
@@ -1510,6 +1506,9 @@ msgstr "Ieškoti kito atitikmens"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 iš 1000 atitikmenų"
+
+#~ msgid "Paypal"
+#~ msgstr "Paypal"
 
 #~ msgid "Show Mozilla sync debug messages"
 #~ msgstr "Rodyti Mozilla sinchronizavimo derinimo pranešimus"

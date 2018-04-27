@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-25 21:54+0200\n"
+"POT-Creation-Date: 2018-04-27 07:10+0200\n"
 "PO-Revision-Date: 2018-01-16 19:35+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/eolie/es/"
@@ -177,7 +177,7 @@ msgstr "Flattr"
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:76
+#: ../data/AboutDialog.ui.in:76 ../eolie/container.py:515
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1033,10 +1033,6 @@ msgstr "Hay descargas en curso. ¿Confirma que quiere salir?"
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr ""
-
-#: ../eolie/container.py:515
-msgid "Paypal"
 msgstr ""
 
 #: ../eolie/container.py:586

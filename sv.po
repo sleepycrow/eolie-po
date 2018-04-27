@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-25 21:54+0200\n"
+"POT-Creation-Date: 2018-04-27 07:10+0200\n"
 "PO-Revision-Date: 2018-04-27 05:10+0000\n"
 "Last-Translator: Göran Olsson <kronstadt21@gmail.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/>"
-"\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/"
+">\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,7 +175,7 @@ msgstr "Flattr"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:76
+#: ../data/AboutDialog.ui.in:76 ../eolie/container.py:515
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -1012,10 +1012,6 @@ msgstr "Hämtningar pågår, är du säker att du vill avsluta ?"
 msgid "Please consider a donation to the project"
 msgstr "Överväg gärna en donation till projektet"
 
-#: ../eolie/container.py:515
-msgid "Paypal"
-msgstr "Paypal"
-
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
 msgstr "Vill du verkligen stänga denna sida?"
@@ -1505,6 +1501,9 @@ msgstr "Sök nästa förekomst"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 träffar"
+
+#~ msgid "Paypal"
+#~ msgstr "Paypal"
 
 #~ msgid "Show Mozilla sync debug messages"
 #~ msgstr "Visa felsökningsmeddelanden för Mozilla sync"
