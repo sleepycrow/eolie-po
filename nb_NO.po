@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-27 07:10+0200\n"
-"PO-Revision-Date: 2018-04-27 05:10+0000\n"
+"POT-Creation-Date: 2018-04-25 21:54+0200\n"
+"PO-Revision-Date: 2018-04-29 02:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "eolie/nb_NO/>\n"
@@ -25,7 +25,7 @@ msgstr "Vis feilrettingsmeldinger"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
-msgstr ""
+msgstr "Vis Firefox Sync-feilrettingsmeldinger"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
