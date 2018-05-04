@@ -4,10 +4,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-25 21:54+0200\n"
-"PO-Revision-Date: 2018-04-21 10:37+0000\n"
-"Last-Translator: Philipp Wolfer <ph.wolfer@gmail.com>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/gnumdk/eolie/de/"
-">\n"
+"PO-Revision-Date: 2018-05-05 11:37+0000\n"
+"Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/gnumdk/eolie/de/>"
+"\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
-msgstr ""
+msgstr "Benutzer Spenden an das Projekt ermöglichen"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
@@ -1040,7 +1040,7 @@ msgstr ""
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr ""
+msgstr "Bitte erwägen Sie eine Spende an das Projekt"
 
 #: ../eolie/container.py:515
 msgid "Paypal"
