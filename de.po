@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
-msgstr ""
+msgstr "Benutzer Spenden an das Projekt ermöglichen"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
@@ -1040,7 +1040,7 @@ msgstr ""
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr ""
+msgstr "Bitte erwägen Sie eine Spende an das Projekt"
 
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
