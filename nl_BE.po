@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-25 21:54+0200\n"
-"PO-Revision-Date: 2018-04-26 22:36+0000\n"
-"Last-Translator: Nathan Follens <nathan@email.is>\n"
+"PO-Revision-Date: 2018-05-15 19:15+0000\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "nl_BE/>\n"
 "Language: nl_BE\n"
@@ -97,7 +97,7 @@ msgstr "Schreefloos"
 
 #: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:416
 msgid "Serif font"
-msgstr "Met schreef"
+msgstr "Me schreef"
 
 #: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:428
 msgid "Monospace font"
@@ -420,7 +420,7 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
 msgstr ""
-"Voerd een zoekopdracht uit met het zoekmachien da’ ge wild toevoegen voor ’t "
+"Voerd een zoekopdracht uit me het zoekmachien da’ ge wild toevoegen voor ’t "
 "zoekadres te bepalen, en controleerd het adres van de pagina waarop da’ ge "
 "terechtkomd. Verwijderd de zoekterm uit dit adres en vervangd deze door ‘%s’."
 
@@ -729,7 +729,7 @@ msgid ""
 "You can share your bookmarks and history\n"
 " on all your devices running Eolie or Firefox"
 msgstr ""
-"Ge kund uw bladwijzers en geschiedenis delen met alle\n"
+"Ge kund uw bladwijzers en geschiedenis delen me alle\n"
 "apparaten waarop da’ g’Eolie of Firefox gebruikt"
 
 #: ../data/SettingsDialog.ui:901
@@ -1007,12 +1007,12 @@ msgstr "Sport"
 
 #: ../eolie/application.py:730
 msgid "Do you really want to quit Eolie?"
-msgstr "Zijde zeker da’ g’Eolie wild afsluiten?"
+msgstr "Zij’ ge zeker da’ g’Eolie wild afsluiten?"
 
 #: ../eolie/application.py:783
 msgid "Downloads running, are you sure you want quit ?"
 msgstr ""
-"Der zijn nog actieve downloads. Zijde zeker da’ g’Eolie wild afsluiten?"
+"Der zijn nog actieve downloads. Zij’ ge zeker da’ g’Eolie wild afsluiten?"
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
@@ -1024,7 +1024,7 @@ msgstr "PayPal"
 
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
-msgstr "Zijde zeker da’ ge deze pagina wild sluiten?"
+msgstr "Zij’ ge zeker da’ ge deze pagina wild sluiten?"
 
 #: ../eolie/context.py:146
 msgid "Name"
@@ -1291,7 +1291,7 @@ msgstr "Synchronisatie is nie beschikbaar op uwe computer: %s"
 
 #: ../eolie/settings.py:550
 msgid "You've received an email to validate synchronization"
-msgstr "Ge hebd een e-mail ontvangen voor de synchronisatie te valideren"
+msgstr "G’hebd nen e-mail ontvangen voor de synchronisatie te valideren"
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
@@ -1308,7 +1308,7 @@ msgid ""
 " it will be visible to cybercriminals!"
 msgstr ""
 "Let op: deze pagina is nie beveiligd.\n"
-"Als g’uw paswoord invoert,\n"
+"Als g’uw paswoord invoerd,\n"
 " zullen computercriminelen het kunnen lezen!"
 
 #: ../eolie/toolbar_title.py:383
@@ -1354,7 +1354,7 @@ msgid ""
 "wish to verify that your internet connection is working correctly."
 msgstr ""
 "Mogelijks is ze tijdelijk nie beschikbaar, of verplaatst naar een nieuw "
-"adres.<br/>Ge kund ook controleren of dat uw internetverbinding wel correct "
+"adres.<br/>Ge kund ook controleren of da uw internetverbinding wel correct "
 "werkt."
 
 #: ../eolie/webview_errors.py:125
@@ -1371,7 +1371,7 @@ msgstr "Opnieuw proberen"
 
 #: ../eolie/webview_errors.py:162
 msgid "The certificate does not match this website"
-msgstr "’t Certificaat komd nie overeen met deze website"
+msgstr "’t Certificaat komd nie overeen me’ deze website"
 
 #: ../eolie/webview_errors.py:164
 msgid "The certificate has expired"
@@ -1391,7 +1391,7 @@ msgstr "’t Certificaat is ingetrokken"
 
 #: ../eolie/webview_errors.py:172
 msgid "The certificate is signed using a weak signature algorithm"
-msgstr "’t Certificaat is ondertekend met een zwak algoritme"
+msgstr "’t Certificaat is ondertekend me een zwak algoritme"
 
 #: ../eolie/webview_errors.py:176
 msgid "The certificate activation time is still in the future"
@@ -1412,9 +1412,9 @@ msgid ""
 "or alter information going to or from this site (for example, private "
 "messages, credit card information, or passwords)."
 msgstr ""
-"Dit gelijkt nie op d’echte %s.<br/>Mogelijk proberen aanvallers de gegevens "
-"die ge naar deze site stuurd of dervan ontvangd te stelen of aan te passen "
-"(bijvoorbeeld privéberichten, kredietkaartgegevens of paswoorden)."
+"Dit gelijkt nie op d’echte %s.<br/>Mogelijks proberen aanvallers de gegevens "
+"die ge naar deze site stuurd of dervan ontvangd te stelen of aan te passen ("
+"bijvoorbeeld privéberichten, kredietkaartgegevens of paswoorden)."
 
 #: ../eolie/webview_errors.py:191
 msgid "Accept Risk and Proceed"
@@ -1430,7 +1430,7 @@ msgid ""
 "page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
 "<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
-"De webpagina is onverwachts beëindigd. Herlaad de pagina of ga naar een "
+"De webpagina is onverwachts b’eindigd. Herlaad de pagina of ga naar een "
 "andere pagina voor verder te gaan.<br/><br/>Als ’t probleem zich blijfd "
 "stellen, kund ge een bug melden :)<br/>Gebruikt <b>‘Webkit Gtk’</b> als "
 "component.<br/>Steld <b>[GTK]</b> in als voorvoegsel voor ’t onderwerp."
