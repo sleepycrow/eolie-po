@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 11:33+0200\n"
+"POT-Creation-Date: 2018-05-24 11:57+0200\n"
 "PO-Revision-Date: 2018-05-20 11:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -314,11 +314,15 @@ msgid "Search domains"
 msgstr "Søk i domener"
 
 #: ../data/DialogClearData.ui:83
+#, fuzzy
 msgid ""
 "You can select a period of time to clear data for all websites modified in "
 "that period. If you choose from the beginning of time, then you can also "
-"clear data only for particular websites"
+"clear data only for particular websites."
 msgstr ""
+"Du kan velge en periode eller tid for å tømme all data for alle nettsider "
+"endret i den perioden. Hvis du velger fra begynnelsen, kan du tømme data kun "
+"for spesifikke nettsider."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
@@ -1562,16 +1566,6 @@ msgstr "1000 av 1000 treff"
 #, fuzzy
 #~ msgid "Not for this page"
 #~ msgstr "Last ned dene fila"
-
-#, fuzzy
-#~ msgid ""
-#~ "You can select a period of time to clear data for all websites modified "
-#~ "in that period. If you choose from the beginning of time, then you can "
-#~ "also clear data only for particular websites."
-#~ msgstr ""
-#~ "Du kan velge en periode eller tid for å tømme all data for alle nettsider "
-#~ "endret i den perioden. Hvis du velger fra begynnelsen, kan du tømme data "
-#~ "kun for spesifikke nettsider."
 
 #~ msgid "Do not block images for this site"
 #~ msgstr "Ikke blokker bilder på denne siden"
