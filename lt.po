@@ -119,7 +119,7 @@ msgstr "Mažiausias šrifto dydis"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Popular items shown"
-msgstr ""
+msgstr "Rodoma populiarių elementų"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:516
 #: ../data/ToolbarMenu.ui:189
@@ -633,7 +633,7 @@ msgstr "Konfigūruoti paieškos sistemas"
 
 #: ../data/SettingsDialog.ui:271
 msgid "Bookmarks shown"
-msgstr ""
+msgstr "Rodoma adresyno įrašų"
 
 #: ../data/SettingsDialog.ui:315
 msgid "Add suggestions"

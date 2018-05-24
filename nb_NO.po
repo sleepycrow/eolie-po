@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-25 21:54+0200\n"
-"PO-Revision-Date: 2018-05-11 00:40+0000\n"
+"PO-Revision-Date: 2018-05-20 11:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "eolie/nb/>\n"
@@ -207,9 +207,8 @@ msgid "New private page"
 msgstr "Ny privat side"
 
 #: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
-#, fuzzy
 msgid "Do not filter current website content"
-msgstr "Ikke blokker oppsprettsvinduer"
+msgstr "Ikke filtrer nettsideinnhold"
 
 #: ../data/AdblockMenu.ui:15 ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
@@ -224,14 +223,12 @@ msgstr "Blokker reklame"
 #: ../data/AdblockMenu.ui:47 ../data/ImageBlockMenu.ui:33
 #: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
 #: ../data/ScriptsMenu.ui:109
-#, fuzzy
 msgid "Block policy"
-msgstr "Blokker oppsprettsvinduer"
+msgstr "Blokkeringspraksis"
 
 #: ../data/AdblockMenu.ui:93
-#, fuzzy
 msgid "Enable adblock"
-msgstr "Blokker JavaScript"
+msgstr "Skru på reklameblokkering"
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
@@ -240,14 +237,13 @@ msgstr "Påskrudd"
 
 #: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
 #: ../data/PopupBlockMenu.ui:93
-#, fuzzy
 msgid "By default"
-msgstr "Forvalg"
+msgstr "Som forvalg"
 
 #: ../data/AdblockMenu.ui:123
 #, fuzzy
 msgid "Do not block ads for this site"
-msgstr "Ikke blokker reklame"
+msgstr "Ikke blokker reklame på denne siden"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
@@ -257,7 +253,7 @@ msgstr "Ikke for denne siden"
 #: ../data/AdblockMenu.ui:137
 #, fuzzy
 msgid "Do not block ads for this page"
-msgstr "Ikke blokker reklame"
+msgstr "Ikke blokker reklame på denne siden"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
@@ -448,19 +444,16 @@ msgid "Enabled"
 msgstr "Påskrudd"
 
 #: ../data/ImageBlockMenu.ui:80
-#, fuzzy
 msgid "Enable image blocking"
-msgstr "Skru på stavekontroll"
+msgstr "Skru på bildeblokkering"
 
 #: ../data/ImageBlockMenu.ui:110
-#, fuzzy
 msgid "Do not block images for this site"
-msgstr "Ikke blokker bilder"
+msgstr "Ikke blokker bilder på denne siden"
 
 #: ../data/ImageBlockMenu.ui:125
-#, fuzzy
 msgid "Do not block images for this page"
-msgstr "Ikke blokker bilder"
+msgstr "Ikke blokker bilder på denne siden"
 
 #: ../data/JSBlockMenu.ui:28
 #, fuzzy
@@ -589,9 +582,8 @@ msgid "Enable javascript blocker"
 msgstr "Blokker JavaScript"
 
 #: ../data/ScriptsMenu.ui:138
-#, fuzzy
 msgid "Trust websites"
-msgstr "Besøk Eolie-nettsiden"
+msgstr "Stol på nettsider"
 
 #: ../data/SettingsDialog.ui:25 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
@@ -607,9 +599,8 @@ msgid "Download folder:"
 msgstr "Nedlastingsmappe:"
 
 #: ../data/SettingsDialog.ui:83
-#, fuzzy
 msgid "Select download directory"
-msgstr "Velg ei nedlastingsmappe:"
+msgstr "Velg nedlastingsmappe:"
 
 #: ../data/SettingsDialog.ui:93
 msgid "Automatically open downloaded files"
@@ -625,7 +616,7 @@ msgstr "Annet"
 
 #: ../data/SettingsDialog.ui:178
 msgid "Startup"
-msgstr "Oppstart"
+msgstr "Programstart"
 
 #: ../data/SettingsDialog.ui:195
 msgid "Start Page:"
@@ -1072,9 +1063,8 @@ msgid "Last modification"
 msgstr "Siste endring"
 
 #: ../eolie/database_adblock.py:205
-#, fuzzy
 msgid "For stronger ad blocking, install git command"
-msgstr "For hardere reklameblokkering, installer git-kommandoen"
+msgstr "For hardere reklameblokkering, installer Git-kommandoen"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
@@ -1520,14 +1510,12 @@ msgid "Search on the Web"
 msgstr "Søk på nettet"
 
 #: ../eolie/webview_signals_menu.py:156
-#, fuzzy
 msgid "Download this image"
-msgstr "Last ned dene fila"
+msgstr "Last ned dette bildet"
 
 #: ../eolie/webview_signals_menu.py:159
-#, fuzzy
 msgid "Download this video"
-msgstr "Last ned dene fila"
+msgstr "Last ned denne videoen"
 
 #: ../eolie/webview_signals_menu.py:162
 msgid "Download this file"
