@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-27 07:10+0200\n"
+"POT-Creation-Date: 2018-05-24 11:33+0200\n"
 "PO-Revision-Date: 2018-01-22 17:54+0000\n"
 "Last-Translator: Дмитрий Нужнов <sergash.mail@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/"
@@ -41,26 +41,24 @@ msgid "Block ads on pages"
 msgstr "Блокировать рекламу на страницах"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
-msgid "Trust websites: no adblock for internal URIs"
+msgid "Trust websites: No adblocking of internal URIs"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
-msgid "Trust websites: no JavaScript blocking for internal URIs"
+msgid "Trust websites: No JavaScript blocking of internal URIs"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
-msgid "Block unwanted popups on pages"
-msgstr "Блокировать нежелательные всплывающие окна на страницах"
+msgid "Block all unwanted popups"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
-#, fuzzy
-msgid "Block images on page"
-msgstr "Блокировать рекламу на страницах"
+msgid "Block all images"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
-#, fuzzy
-msgid "Block JavaScript on pages"
-msgstr "Блокировать Javascript на страницах"
+msgid "Block all JavaScript"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Download folder URI"
@@ -162,24 +160,24 @@ msgid "Visit Eolie website"
 msgstr "Посетите веб-сайт Eolie"
 
 #. Replace me with your names
-#: ../data/AboutDialog.ui.in:19
+#: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:51
+#: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
 msgstr "Пожертвования:"
 
-#: ../data/AboutDialog.ui.in:56
+#: ../data/AboutDialog.ui.in:57
 msgid "Flattr"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:66 ../eolie/container.py:515
+#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:515
 msgid "Liberapay"
 msgstr ""
 
-#: ../data/AboutDialog.ui.in:76 ../eolie/container.py:515
+#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
 msgid "PayPal"
 msgstr ""
 
@@ -210,7 +208,7 @@ msgstr "Новая приватная страница"
 msgid "Do not filter current website content"
 msgstr "Не блокировать всплывающие окна"
 
-#: ../data/AdblockMenu.ui:15 ../data/JSBlockMenu.ui:15
+#: ../data/AdblockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust web sites"
 msgstr ""
@@ -228,9 +226,8 @@ msgid "Block policy"
 msgstr "Блокировать всплывающие окна"
 
 #: ../data/AdblockMenu.ui:93
-#, fuzzy
-msgid "Enable adblock"
-msgstr "Включить блокировщик javascript"
+msgid "Enable adblocking"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
@@ -244,25 +241,22 @@ msgid "By default"
 msgstr "По умолчанию"
 
 #: ../data/AdblockMenu.ui:123
-#, fuzzy
-msgid "Do not block ads for this site"
-msgstr "Не блокировать рекламу"
+msgid "Do not block ads on this site"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
-msgid "Not for this site"
+msgid "Not on this site"
 msgstr ""
 
 #: ../data/AdblockMenu.ui:137
-#, fuzzy
-msgid "Do not block ads for this page"
-msgstr "Не блокировать рекламу"
+msgid "Do not block ads on this page"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
-#, fuzzy
-msgid "Not for this page"
-msgstr "Загрузить это изображение"
+msgid "Not on this page"
+msgstr ""
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -300,7 +294,7 @@ msgstr "Удалить закладку"
 msgid "Add new tag"
 msgstr "Добавить новый тег"
 
-#: ../data/DialogClearData.ui:6 ../data/SettingsDialog.ui:740
+#: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
 msgstr "Очистить личные данные"
 
@@ -325,11 +319,8 @@ msgstr "Поиск доменов"
 msgid ""
 "You can select a period of time to clear data for all websites modified in "
 "that period. If you choose from the beginning of time, then you can also "
-"clear data only for particular websites."
+"clear data only for particular websites"
 msgstr ""
-"Вы можете выбрать период времени для очистки данных для всех веб-сайтов, "
-"измененных в этот период. Если вы выбираете с самого начала времени, вы "
-"также можете очищать данные только для определенных сайтов."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
@@ -449,19 +440,21 @@ msgid "Enable image blocking"
 msgstr "Включить проверку орфографии"
 
 #: ../data/ImageBlockMenu.ui:110
-#, fuzzy
-msgid "Do not block images for this site"
-msgstr "Открыть все страницы для этого тега"
+msgid "Do not block images on this site"
+msgstr ""
 
 #: ../data/ImageBlockMenu.ui:125
-#, fuzzy
-msgid "Do not block images for this page"
-msgstr "Открыть все страницы для этого тега"
+msgid "Do not block images on this page"
+msgstr ""
+
+#: ../data/JSBlockMenu.ui:15
+msgctxt "Trust web sites"
+msgid "Trust websites"
+msgstr ""
 
 #: ../data/JSBlockMenu.ui:28
-#, fuzzy
-msgid "JavaScript block"
-msgstr "Включить блокировщик javascript"
+msgid "JavaScript blocker"
+msgstr ""
 
 #: ../data/JSBlockMenu.ui:92
 #, fuzzy
@@ -502,8 +495,8 @@ msgid "No active download"
 msgstr "Нет активной загрузки"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
-msgid "Ok"
-msgstr "Хорошо"
+msgid "OK"
+msgstr ""
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
@@ -555,14 +548,12 @@ msgid "Enable popup blocking"
 msgstr "Включить проверку орфографии"
 
 #: ../data/PopupBlockMenu.ui:110
-#, fuzzy
-msgid "Do not block popups for this site"
-msgstr "Не блокировать всплывающие окна"
+msgid "Do not block popups on this site"
+msgstr ""
 
 #: ../data/PopupBlockMenu.ui:125
-#, fuzzy
-msgid "Do not block popups for this page"
-msgstr "Не блокировать всплывающие окна"
+msgid "Do not block popups on this page"
+msgstr ""
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -577,8 +568,8 @@ msgid "Block JavaScript"
 msgstr "Блокировать JavaScript"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
-msgid "Enable javascript blocker"
-msgstr "Включить блокировщик javascript"
+msgid "Enable JavaScript blocker"
+msgstr ""
 
 #: ../data/ScriptsMenu.ui:138
 #, fuzzy
@@ -599,8 +590,8 @@ msgid "Download folder:"
 msgstr "Папка загрузки:"
 
 #: ../data/SettingsDialog.ui:83
-msgid "Select download directory"
-msgstr "Выберите каталог загрузки"
+msgid "Select download folder"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:93
 msgid "Automatically open downloaded files"
@@ -651,8 +642,8 @@ msgid "Configure engines"
 msgstr "Настроить системы"
 
 #: ../data/SettingsDialog.ui:271
-msgid "Bookmarks shown"
-msgstr "Показать закладки"
+msgid "Shown bookmarks"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:315
 msgid "Add suggestions"
@@ -695,8 +686,8 @@ msgid "Always accept"
 msgstr "Всегда принимать"
 
 #: ../data/SettingsDialog.ui:704
-msgid "Only from sites you visit"
-msgstr "Только с сайтов, которые вы посещаете"
+msgid "Only from visited sites"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:705
 msgid "Never accept"
@@ -705,6 +696,10 @@ msgstr "Никогда не принимать"
 #: ../data/SettingsDialog.ui:724
 msgid "Manage cookies"
 msgstr "Управление cookie"
+
+#: ../data/SettingsDialog.ui:740
+msgid "Clear personal data"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:761
 msgid "Manage passwords"
@@ -745,10 +740,8 @@ msgstr "Конфиденциальность"
 #: ../data/SettingsDialog.ui:884
 msgid ""
 "You can share your bookmarks and history\n"
-" on all your devices running Eolie or Firefox"
+"on all your devices running Eolie or Firefox"
 msgstr ""
-"Вы можете делиться своими записями и историей\n"
-" на всех устройствах под управлением Eolie или Firefox"
 
 #: ../data/SettingsDialog.ui:901
 msgid "Login:"
@@ -758,7 +751,7 @@ msgstr "Логин:"
 msgid "Password:"
 msgstr "Пароль:"
 
-#: ../data/SettingsDialog.ui:944 ../eolie/settings.py:511
+#: ../data/SettingsDialog.ui:944
 msgid "Allow synchronization"
 msgstr "Разрешить синхронизацию"
 
@@ -767,8 +760,8 @@ msgid "Create or manage account"
 msgstr "Создание учетной записи или управление ею"
 
 #: ../data/SettingsDialog.ui:1007
-msgid "Synchronization"
-msgstr "синхронизация"
+msgid "Syncing"
+msgstr ""
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -906,16 +899,14 @@ msgid "Disable adblock for current site"
 msgstr "Отключить рекламный блокировщик для текущего сайта"
 
 #: ../data/Shortcuts.ui:197
-#, fuzzy
 msgctxt "shortcut window"
-msgid "Temporarily enable JavaScript for current site"
-msgstr "Отключить рекламный блокировщик для текущего сайта"
+msgid "Enable JavaScript for current site temporarily"
+msgstr ""
 
 #: ../data/Shortcuts.ui:204
-#, fuzzy
 msgctxt "shortcut window"
-msgid "Temporarily enable \"Media Source Extension\""
-msgstr "Отключить рекламный блокировщик для текущего сайта"
+msgid "Enable \"Media Source Extension\" temporarily"
+msgstr ""
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -948,11 +939,11 @@ msgstr "Новая страница"
 msgid "View all pages"
 msgstr "Просмотреть все страницы"
 
-#: ../data/ToolbarActions.ui:167
+#: ../data/ToolbarActions.ui:168
 msgid "Close page"
 msgstr "Закрыть страницу"
 
-#: ../data/ToolbarActions.ui:182
+#: ../data/ToolbarActions.ui:183
 msgid "More actions"
 msgstr "Другие действия"
 
@@ -961,7 +952,7 @@ msgstr "Другие действия"
 msgid "Leave fullscreen"
 msgstr "Выйти из полноэкранного режима"
 
-#: ../data/ToolbarEnd.ui:37 ../eolie/settings.py:506
+#: ../data/ToolbarEnd.ui:37
 msgid "Start synchronization"
 msgstr "Начать синхронизацию"
 
@@ -1025,13 +1016,13 @@ msgstr "Финансы"
 msgid "Sport"
 msgstr "Спорт"
 
-#: ../eolie/application.py:730
+#: ../eolie/application.py:732
 msgid "Do you really want to quit Eolie?"
 msgstr "Вы действительно хотите выйти из Эоли?"
 
-#: ../eolie/application.py:783
-msgid "Downloads running, are you sure you want quit ?"
-msgstr "Скачивание не закончено, вы уверены, что хотите выйти?"
+#: ../eolie/application.py:785
+msgid "Downloads running, are you sure you want quit?"
+msgstr ""
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
@@ -1196,8 +1187,8 @@ msgid "Remaining time:"
 msgstr "Оставшееся время:"
 
 #: ../eolie/popover_geolocation.py:45
-msgid "Allow this page to get your location?"
-msgstr "Разрешить этой странице получать ваше местоположение?"
+msgid "Grant this page access to your location?"
+msgstr ""
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
@@ -1212,8 +1203,8 @@ msgid "Edit bookmark"
 msgstr "Изменить закладку"
 
 #: ../eolie/popover_uri.py:161
-msgid "Open all pages for this tag"
-msgstr "Открыть все страницы для этого тега"
+msgid "Open all pages with this tag"
+msgstr ""
 
 #: ../eolie/popover_uri.py:786
 msgid "Popular"
@@ -1272,10 +1263,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Do you want to install\n"
-"%s search engine ?"
+"the %s search engine?"
 msgstr ""
-"Вы хотите установить\n"
-"поисковую систему %s?"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
@@ -1286,86 +1275,89 @@ msgid "Connecting…"
 msgstr "Подключение…"
 
 #: ../eolie/settings.py:495
-msgid "Synchronization is working"
-msgstr "Производится синхронизация"
+msgid "Syncing operational"
+msgstr ""
 
 #: ../eolie/settings.py:501
-msgid "Cancel synchronization"
-msgstr "Отменить синхронизацию"
+msgid "Cancel syncing"
+msgstr ""
+
+#: ../eolie/settings.py:506
+msgid "Start syncing"
+msgstr ""
+
+#: ../eolie/settings.py:511
+msgid "Allow syncing"
+msgstr ""
 
 #: ../eolie/settings.py:516
-msgid "Synchronization is not working"
-msgstr "Синхронизация не работает"
+msgid "Syncing is not working"
+msgstr ""
 
 #: ../eolie/settings.py:527
 #, python-format
 msgid ""
-"Synchronization is not available on your computer:\n"
-" %s"
-msgstr ""
-"Синхронизация недоступна на вашем компьютере:\n"
+"Syncing is not available on your computer:\n"
 "%s"
+msgstr ""
 
 #: ../eolie/settings.py:550
-msgid "You've received an email to validate synchronization"
-msgstr "Вы получили электронное письмо для проверки синхронизации"
+msgid "You've received an email to validate syncing"
+msgstr ""
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
 msgstr "Загрузка:"
 
-#: ../eolie/toolbar_title.py:280
+#: ../eolie/toolbar_title.py:293
 msgid "This page contains insecure content"
 msgstr "Эта страница содержит небезопасный контент"
 
-#: ../eolie/toolbar_title.py:334
+#: ../eolie/toolbar_title.py:347
 msgid ""
-"Heads-up: this page is not secure.\n"
+"Heads-up: This page is insecure.\n"
 "If you type your password,\n"
-" it will be visible to cybercriminals!"
+"it will be visible to cybercriminals!"
 msgstr ""
-"Внимание: эта страница небезопасна.\n"
-"Если вы вводите пароль,\n"
-" это будет видно для киберпреступников!"
 
-#: ../eolie/toolbar_title.py:383
-msgid "Disallow geolocation"
-msgstr "Запретить геолокацию"
+#: ../eolie/toolbar_title.py:396
+msgid "Deny geolocation"
+msgstr ""
 
-#: ../eolie/toolbar_title.py:389
+#: ../eolie/toolbar_title.py:402
 msgid "Blocked popups"
 msgstr "Заблокированные всплывающие окна"
 
-#: ../eolie/toolbar_title.py:457
+#: ../eolie/toolbar_title.py:470
 msgid "Copy address"
 msgstr "Копировать адрес"
 
-#: ../eolie/toolbar_title.py:517
+#: ../eolie/toolbar_title.py:530
 msgid "Paste and load"
 msgstr "Вставить и перейти"
 
-#: ../eolie/toolbar_title.py:748 ../eolie/toolbar_title.py:751
+#: ../eolie/toolbar_title.py:761 ../eolie/toolbar_title.py:764
 msgid "Search or enter address"
 msgstr "Поиск или ввод адреса"
 
-#: ../eolie/webview_errors.py:66
+#: ../eolie/webview_errors.py:81
 msgid "This page is dangerous"
 msgstr "Эта страница опасна"
 
-#: ../eolie/webview_errors.py:67
+#: ../eolie/webview_errors.py:82
 msgid "Eolie will not display this page"
 msgstr "Eolie не отобразит эту страницу"
 
-#: ../eolie/webview_errors.py:74
+#: ../eolie/webview_errors.py:89
 #, python-format
 msgid "%s is a phishing page"
 msgstr "%s является фишинговой страницей"
 
-#: ../eolie/webview_errors.py:118
+#: ../eolie/webview_errors.py:133
 msgid "Failed to load this web page"
 msgstr "Не удалось загрузить эту веб-страницу"
 
-#: ../eolie/webview_errors.py:119
+#: ../eolie/webview_errors.py:134
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -1373,55 +1365,55 @@ msgstr ""
 "Он может быть временно недоступен или перемещен на новый адрес. <br/> Вы "
 "можете проверить правильность работы вашего интернет-соединения."
 
-#: ../eolie/webview_errors.py:125
+#: ../eolie/webview_errors.py:140
 msgid "Network not available"
 msgstr "Сеть недоступна"
 
-#: ../eolie/webview_errors.py:126
+#: ../eolie/webview_errors.py:141
 msgid "Check your network connection"
 msgstr "Проверьте сетевое подключение"
 
-#: ../eolie/webview_errors.py:136
+#: ../eolie/webview_errors.py:151
 msgid "Retry"
 msgstr "Повторить"
 
-#: ../eolie/webview_errors.py:162
+#: ../eolie/webview_errors.py:177
 msgid "The certificate does not match this website"
 msgstr "Сертификат не соответствует этому веб-сайту"
 
-#: ../eolie/webview_errors.py:164
+#: ../eolie/webview_errors.py:179
 msgid "The certificate has expired"
 msgstr "Срок действия сертификата истек"
 
-#: ../eolie/webview_errors.py:166
+#: ../eolie/webview_errors.py:181
 msgid "The signing certificate authority is not known"
 msgstr "Подпись центра сертификации не известна"
 
-#: ../eolie/webview_errors.py:168
+#: ../eolie/webview_errors.py:183
 msgid "The certificate contains errors"
 msgstr "Сертификат содержит ошибки"
 
-#: ../eolie/webview_errors.py:170
+#: ../eolie/webview_errors.py:185
 msgid "The certificate has been revoked"
 msgstr "Сертификат отменен"
 
-#: ../eolie/webview_errors.py:172
+#: ../eolie/webview_errors.py:187
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Сертификат подписывается с использованием слабого алгоритма подписи"
 
-#: ../eolie/webview_errors.py:176
+#: ../eolie/webview_errors.py:191
 msgid "The certificate activation time is still in the future"
 msgstr "Время активации сертификата все еще в будущем"
 
-#: ../eolie/webview_errors.py:178
+#: ../eolie/webview_errors.py:193
 msgid "The identity of this website has not been verified"
 msgstr "Подлинность этого веб-сайта не проверено"
 
-#: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:183
+#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:198
 msgid "Connection is not secure"
 msgstr "Соединение не безопасно"
 
-#: ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:200
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1432,31 +1424,26 @@ msgstr ""
 "изменить информацию, поступающую на этот сайт или с этого сайта (например, "
 "личные сообщения, информацию о кредитной карте или пароли)."
 
-#: ../eolie/webview_errors.py:191
+#: ../eolie/webview_errors.py:206
 msgid "Accept Risk and Proceed"
 msgstr "Принять риск и продолжить"
 
-#: ../eolie/webview_errors.py:207 ../eolie/webview_errors.py:212
+#: ../eolie/webview_errors.py:222 ../eolie/webview_errors.py:227
 msgid "WebKit web engine crashed"
 msgstr "Веб-движок WebKit остановлен"
 
-#: ../eolie/webview_errors.py:214
+#: ../eolie/webview_errors.py:229
 msgid ""
-"The webpage was terminated unexpectedly.To continue, reload or go to another "
-"page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
-"<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
+"The webpage was terminated unexpectedly. To continue, reload or go to "
+"another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
+"<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
-"Веб-страница была прервана неожиданно. Для продолжения работы, перезагрузить "
-"или перейти на другую страницу. <br/> <br/> Если проблема сохраняется, вы "
-"можете сообщить об ошибке :) <br/> Используйте <b> 'Webkit Gtk '</b> в "
-"качестве компонента. <br/> Установите <b> [GTK] </b> в качестве префикса "
-"темы."
 
-#: ../eolie/webview_errors.py:220
+#: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
 msgstr "Сообщить об ошибке сейчас"
 
-#: ../eolie/webview_signals_js.py:78
+#: ../eolie/webview_signals_js.py:77
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie собирается закрыть эту страницу, потому что она сломана"
 
@@ -1527,6 +1514,156 @@ msgstr "Поиск вперед"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 из 1000 совпадений"
+
+#~ msgid "Block unwanted popups on pages"
+#~ msgstr "Блокировать нежелательные всплывающие окна на страницах"
+
+#, fuzzy
+#~ msgid "Block images on page"
+#~ msgstr "Блокировать рекламу на страницах"
+
+#, fuzzy
+#~ msgid "Block JavaScript on pages"
+#~ msgstr "Блокировать Javascript на страницах"
+
+#, fuzzy
+#~ msgid "Enable adblock"
+#~ msgstr "Включить блокировщик javascript"
+
+#, fuzzy
+#~ msgid "Do not block ads for this site"
+#~ msgstr "Не блокировать рекламу"
+
+#, fuzzy
+#~ msgid "Do not block ads for this page"
+#~ msgstr "Не блокировать рекламу"
+
+#, fuzzy
+#~ msgid "Not for this page"
+#~ msgstr "Загрузить это изображение"
+
+#~ msgid ""
+#~ "You can select a period of time to clear data for all websites modified "
+#~ "in that period. If you choose from the beginning of time, then you can "
+#~ "also clear data only for particular websites."
+#~ msgstr ""
+#~ "Вы можете выбрать период времени для очистки данных для всех веб-сайтов, "
+#~ "измененных в этот период. Если вы выбираете с самого начала времени, вы "
+#~ "также можете очищать данные только для определенных сайтов."
+
+#, fuzzy
+#~ msgid "Do not block images for this site"
+#~ msgstr "Открыть все страницы для этого тега"
+
+#, fuzzy
+#~ msgid "Do not block images for this page"
+#~ msgstr "Открыть все страницы для этого тега"
+
+#, fuzzy
+#~ msgid "JavaScript block"
+#~ msgstr "Включить блокировщик javascript"
+
+#~ msgid "Ok"
+#~ msgstr "Хорошо"
+
+#, fuzzy
+#~ msgid "Do not block popups for this site"
+#~ msgstr "Не блокировать всплывающие окна"
+
+#, fuzzy
+#~ msgid "Do not block popups for this page"
+#~ msgstr "Не блокировать всплывающие окна"
+
+#~ msgid "Enable javascript blocker"
+#~ msgstr "Включить блокировщик javascript"
+
+#~ msgid "Select download directory"
+#~ msgstr "Выберите каталог загрузки"
+
+#~ msgid "Bookmarks shown"
+#~ msgstr "Показать закладки"
+
+#~ msgid "Only from sites you visit"
+#~ msgstr "Только с сайтов, которые вы посещаете"
+
+#~ msgid ""
+#~ "You can share your bookmarks and history\n"
+#~ " on all your devices running Eolie or Firefox"
+#~ msgstr ""
+#~ "Вы можете делиться своими записями и историей\n"
+#~ " на всех устройствах под управлением Eolie или Firefox"
+
+#~ msgid "Synchronization"
+#~ msgstr "синхронизация"
+
+#, fuzzy
+#~ msgctxt "shortcut window"
+#~ msgid "Temporarily enable JavaScript for current site"
+#~ msgstr "Отключить рекламный блокировщик для текущего сайта"
+
+#, fuzzy
+#~ msgctxt "shortcut window"
+#~ msgid "Temporarily enable \"Media Source Extension\""
+#~ msgstr "Отключить рекламный блокировщик для текущего сайта"
+
+#~ msgid "Downloads running, are you sure you want quit ?"
+#~ msgstr "Скачивание не закончено, вы уверены, что хотите выйти?"
+
+#~ msgid "Allow this page to get your location?"
+#~ msgstr "Разрешить этой странице получать ваше местоположение?"
+
+#~ msgid "Open all pages for this tag"
+#~ msgstr "Открыть все страницы для этого тега"
+
+#~ msgid ""
+#~ "Do you want to install\n"
+#~ "%s search engine ?"
+#~ msgstr ""
+#~ "Вы хотите установить\n"
+#~ "поисковую систему %s?"
+
+#~ msgid "Synchronization is working"
+#~ msgstr "Производится синхронизация"
+
+#~ msgid "Cancel synchronization"
+#~ msgstr "Отменить синхронизацию"
+
+#~ msgid "Synchronization is not working"
+#~ msgstr "Синхронизация не работает"
+
+#~ msgid ""
+#~ "Synchronization is not available on your computer:\n"
+#~ " %s"
+#~ msgstr ""
+#~ "Синхронизация недоступна на вашем компьютере:\n"
+#~ "%s"
+
+#~ msgid "You've received an email to validate synchronization"
+#~ msgstr "Вы получили электронное письмо для проверки синхронизации"
+
+#~ msgid ""
+#~ "Heads-up: this page is not secure.\n"
+#~ "If you type your password,\n"
+#~ " it will be visible to cybercriminals!"
+#~ msgstr ""
+#~ "Внимание: эта страница небезопасна.\n"
+#~ "Если вы вводите пароль,\n"
+#~ " это будет видно для киберпреступников!"
+
+#~ msgid "Disallow geolocation"
+#~ msgstr "Запретить геолокацию"
+
+#~ msgid ""
+#~ "The webpage was terminated unexpectedly.To continue, reload or go to "
+#~ "another page.<br/><br/>If problem persist, you can report a bug :)<br/"
+#~ ">Use <b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject "
+#~ "prefix."
+#~ msgstr ""
+#~ "Веб-страница была прервана неожиданно. Для продолжения работы, "
+#~ "перезагрузить или перейти на другую страницу. <br/> <br/> Если проблема "
+#~ "сохраняется, вы можете сообщить об ошибке :) <br/> Используйте <b> "
+#~ "'Webkit Gtk '</b> в качестве компонента. <br/> Установите <b> [GTK] </b> "
+#~ "в качестве префикса темы."
 
 #, fuzzy
 #~ msgid "Webviews preloaded per window"

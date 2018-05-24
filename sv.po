@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-27 07:10+0200\n"
+"POT-Creation-Date: 2018-05-24 11:33+0200\n"
 "PO-Revision-Date: 2018-04-27 05:10+0000\n"
 "Last-Translator: Göran Olsson <kronstadt21@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/"
@@ -40,24 +40,24 @@ msgid "Block ads on pages"
 msgstr "Blockera annonser på sidor"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
-msgid "Trust websites: no adblock for internal URIs"
-msgstr "Betrodda webbplatser: ingen annonsblockering för interna URI:er"
+msgid "Trust websites: No adblocking of internal URIs"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
-msgid "Trust websites: no JavaScript blocking for internal URIs"
-msgstr "Betrodda webbplatser: ingen JavaScript-blockering för interna URI:er"
+msgid "Trust websites: No JavaScript blocking of internal URIs"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
-msgid "Block unwanted popups on pages"
-msgstr "Blockera oönskade poppupper på sidor"
+msgid "Block all unwanted popups"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
-msgid "Block images on page"
-msgstr "Blockera bilder på sida"
+msgid "Block all images"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
-msgid "Block JavaScript on pages"
-msgstr "Blockera JavaScript på sidor"
+msgid "Block all JavaScript"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Download folder URI"
@@ -158,24 +158,24 @@ msgid "Visit Eolie website"
 msgstr "Besök webbplatsen för Eolie"
 
 #. Replace me with your names
-#: ../data/AboutDialog.ui.in:19
+#: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>"
 
-#: ../data/AboutDialog.ui.in:51
+#: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
 msgstr "Donationer:"
 
-#: ../data/AboutDialog.ui.in:56
+#: ../data/AboutDialog.ui.in:57
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:66 ../eolie/container.py:515
+#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:515
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:76 ../eolie/container.py:515
+#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -205,7 +205,7 @@ msgstr "Ny privat sida"
 msgid "Do not filter current website content"
 msgstr "Filtrera inte innehåll för aktuell webbplats"
 
-#: ../data/AdblockMenu.ui:15 ../data/JSBlockMenu.ui:15
+#: ../data/AdblockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust web sites"
 msgstr "Betrodda webbplatser"
@@ -222,8 +222,8 @@ msgid "Block policy"
 msgstr "Blockeringspolicy"
 
 #: ../data/AdblockMenu.ui:93
-msgid "Enable adblock"
-msgstr "Aktivera annonsblockerare"
+msgid "Enable adblocking"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
@@ -236,22 +236,22 @@ msgid "By default"
 msgstr "Som standard"
 
 #: ../data/AdblockMenu.ui:123
-msgid "Do not block ads for this site"
-msgstr "Blockera inte annonser för denna webbplats"
+msgid "Do not block ads on this site"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
-msgid "Not for this site"
-msgstr "Inte för denna webbplats"
+msgid "Not on this site"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:137
-msgid "Do not block ads for this page"
-msgstr "Blockera inte annonser för denna sida"
+msgid "Do not block ads on this page"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
-msgid "Not for this page"
-msgstr "Inte för denna sida"
+msgid "Not on this page"
+msgstr ""
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -289,7 +289,7 @@ msgstr "Ta bort bokmärke"
 msgid "Add new tag"
 msgstr "Lägg till ny tagg"
 
-#: ../data/DialogClearData.ui:6 ../data/SettingsDialog.ui:740
+#: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
 msgstr "Rensa personliga data"
 
@@ -314,11 +314,8 @@ msgstr "Sök domäner"
 msgid ""
 "You can select a period of time to clear data for all websites modified in "
 "that period. If you choose from the beginning of time, then you can also "
-"clear data only for particular websites."
+"clear data only for particular websites"
 msgstr ""
-"Du kan välja en tidsperiod för vilken data ska rensas för alla webbplatser "
-"som ändrats under den perioden. Om du väljer sedan tidens början kan du "
-"också rensa data för enbart särskilda webbplatser."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
@@ -434,16 +431,21 @@ msgid "Enable image blocking"
 msgstr "Aktivera bildblockering"
 
 #: ../data/ImageBlockMenu.ui:110
-msgid "Do not block images for this site"
-msgstr "Blockera inte bilder för denna webbplats"
+msgid "Do not block images on this site"
+msgstr ""
 
 #: ../data/ImageBlockMenu.ui:125
-msgid "Do not block images for this page"
-msgstr "Blockera inte bilder för denna sida"
+msgid "Do not block images on this page"
+msgstr ""
+
+#: ../data/JSBlockMenu.ui:15
+msgctxt "Trust web sites"
+msgid "Trust websites"
+msgstr ""
 
 #: ../data/JSBlockMenu.ui:28
-msgid "JavaScript block"
-msgstr "JavaScriptblockerare"
+msgid "JavaScript blocker"
+msgstr ""
 
 #: ../data/JSBlockMenu.ui:92
 msgid "Enable JavaScript blocking"
@@ -483,8 +485,8 @@ msgid "No active download"
 msgstr "Ingen aktiv hämtning"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
-msgid "Ok"
-msgstr "OK"
+msgid "OK"
+msgstr ""
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
@@ -535,12 +537,12 @@ msgid "Enable popup blocking"
 msgstr "Aktivera poppuppblockering"
 
 #: ../data/PopupBlockMenu.ui:110
-msgid "Do not block popups for this site"
-msgstr "Blockera inte poppupper för denna webbplats"
+msgid "Do not block popups on this site"
+msgstr ""
 
 #: ../data/PopupBlockMenu.ui:125
-msgid "Do not block popups for this page"
-msgstr "Blockera inte poppupper för denna sida"
+msgid "Do not block popups on this page"
+msgstr ""
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -555,8 +557,8 @@ msgid "Block JavaScript"
 msgstr "Blockera JavaScript"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
-msgid "Enable javascript blocker"
-msgstr "Aktivera Javascriptblockerare"
+msgid "Enable JavaScript blocker"
+msgstr ""
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
@@ -576,8 +578,8 @@ msgid "Download folder:"
 msgstr "Hämtningsmapp:"
 
 #: ../data/SettingsDialog.ui:83
-msgid "Select download directory"
-msgstr "Välj hämtningskatalog"
+msgid "Select download folder"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:93
 msgid "Automatically open downloaded files"
@@ -628,8 +630,8 @@ msgid "Configure engines"
 msgstr "Konfigurera motorer"
 
 #: ../data/SettingsDialog.ui:271
-msgid "Bookmarks shown"
-msgstr "Bokmärken visade"
+msgid "Shown bookmarks"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:315
 msgid "Add suggestions"
@@ -672,8 +674,8 @@ msgid "Always accept"
 msgstr "Acceptera alltid"
 
 #: ../data/SettingsDialog.ui:704
-msgid "Only from sites you visit"
-msgstr "Endast från sidor du besöker"
+msgid "Only from visited sites"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:705
 msgid "Never accept"
@@ -682,6 +684,10 @@ msgstr "Acceptera aldrig"
 #: ../data/SettingsDialog.ui:724
 msgid "Manage cookies"
 msgstr "Hantera kakor"
+
+#: ../data/SettingsDialog.ui:740
+msgid "Clear personal data"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:761
 msgid "Manage passwords"
@@ -722,10 +728,8 @@ msgstr "Sekretess"
 #: ../data/SettingsDialog.ui:884
 msgid ""
 "You can share your bookmarks and history\n"
-" on all your devices running Eolie or Firefox"
+"on all your devices running Eolie or Firefox"
 msgstr ""
-"Du kan dela dina bokmärken och historik\n"
-" på alla enheter som kör Eolie eller Firefox"
 
 #: ../data/SettingsDialog.ui:901
 msgid "Login:"
@@ -735,7 +739,7 @@ msgstr "Inloggning:"
 msgid "Password:"
 msgstr "Lösenord:"
 
-#: ../data/SettingsDialog.ui:944 ../eolie/settings.py:511
+#: ../data/SettingsDialog.ui:944
 msgid "Allow synchronization"
 msgstr "Tillåt synkronisering"
 
@@ -744,8 +748,8 @@ msgid "Create or manage account"
 msgstr "Skapa eller hantera konto"
 
 #: ../data/SettingsDialog.ui:1007
-msgid "Synchronization"
-msgstr "Synkronisering"
+msgid "Syncing"
+msgstr ""
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -884,13 +888,13 @@ msgstr "Inaktivera annonsblockering för aktuell webbplats"
 
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
-msgid "Temporarily enable JavaScript for current site"
-msgstr "Aktivera tillfälligt JavaScript för aktuell webbplats"
+msgid "Enable JavaScript for current site temporarily"
+msgstr ""
 
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
-msgid "Temporarily enable \"Media Source Extension\""
-msgstr "Aktivera tillfälligt ”Media Source Extension”"
+msgid "Enable \"Media Source Extension\" temporarily"
+msgstr ""
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -923,11 +927,11 @@ msgstr "Ny sida"
 msgid "View all pages"
 msgstr "Visa alla sidor"
 
-#: ../data/ToolbarActions.ui:167
+#: ../data/ToolbarActions.ui:168
 msgid "Close page"
 msgstr "Stäng sida"
 
-#: ../data/ToolbarActions.ui:182
+#: ../data/ToolbarActions.ui:183
 msgid "More actions"
 msgstr "Fler åtgärder"
 
@@ -936,7 +940,7 @@ msgstr "Fler åtgärder"
 msgid "Leave fullscreen"
 msgstr "Lämna helskärm"
 
-#: ../data/ToolbarEnd.ui:37 ../eolie/settings.py:506
+#: ../data/ToolbarEnd.ui:37
 msgid "Start synchronization"
 msgstr "Starta synkronisering"
 
@@ -1000,13 +1004,13 @@ msgstr "Finans"
 msgid "Sport"
 msgstr "Sport"
 
-#: ../eolie/application.py:730
+#: ../eolie/application.py:732
 msgid "Do you really want to quit Eolie?"
 msgstr "Vill du verkligen avsluta Eolie?"
 
-#: ../eolie/application.py:783
-msgid "Downloads running, are you sure you want quit ?"
-msgstr "Hämtningar pågår, är du säker att du vill avsluta ?"
+#: ../eolie/application.py:785
+msgid "Downloads running, are you sure you want quit?"
+msgstr ""
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
@@ -1171,8 +1175,8 @@ msgid "Remaining time:"
 msgstr "Återstående tid:"
 
 #: ../eolie/popover_geolocation.py:45
-msgid "Allow this page to get your location?"
-msgstr "Tillåt denna sida att få tillgång till din plats?"
+msgid "Grant this page access to your location?"
+msgstr ""
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
@@ -1187,8 +1191,8 @@ msgid "Edit bookmark"
 msgstr "Redigera bokmärke"
 
 #: ../eolie/popover_uri.py:161
-msgid "Open all pages for this tag"
-msgstr "Öppna alla sidor för denna tagg"
+msgid "Open all pages with this tag"
+msgstr ""
 
 #: ../eolie/popover_uri.py:786
 msgid "Popular"
@@ -1247,10 +1251,8 @@ msgstr "https://se.search.yahoo.com"
 #, python-format
 msgid ""
 "Do you want to install\n"
-"%s search engine ?"
+"the %s search engine?"
 msgstr ""
-"Vill du installera\n"
-"sökmotorn %s ?"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
@@ -1261,86 +1263,89 @@ msgid "Connecting…"
 msgstr "Ansluter…"
 
 #: ../eolie/settings.py:495
-msgid "Synchronization is working"
-msgstr "Synkronisering pågår"
+msgid "Syncing operational"
+msgstr ""
 
 #: ../eolie/settings.py:501
-msgid "Cancel synchronization"
-msgstr "Avbryt synkronisering"
+msgid "Cancel syncing"
+msgstr ""
+
+#: ../eolie/settings.py:506
+msgid "Start syncing"
+msgstr ""
+
+#: ../eolie/settings.py:511
+msgid "Allow syncing"
+msgstr ""
 
 #: ../eolie/settings.py:516
-msgid "Synchronization is not working"
-msgstr "Synkronisering pågår inte"
+msgid "Syncing is not working"
+msgstr ""
 
 #: ../eolie/settings.py:527
 #, python-format
 msgid ""
-"Synchronization is not available on your computer:\n"
-" %s"
+"Syncing is not available on your computer:\n"
+"%s"
 msgstr ""
-"Synkronisering finns inte tillgänglig på din dator:\n"
-" %s"
 
 #: ../eolie/settings.py:550
-msgid "You've received an email to validate synchronization"
-msgstr "Du har fått ett e-postmeddelande för att validera synkronisering"
+msgid "You've received an email to validate syncing"
+msgstr ""
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
 msgstr "Hämtar:"
 
-#: ../eolie/toolbar_title.py:280
+#: ../eolie/toolbar_title.py:293
 msgid "This page contains insecure content"
 msgstr "Denna sida innehåller osäkert innehåll"
 
-#: ../eolie/toolbar_title.py:334
+#: ../eolie/toolbar_title.py:347
 msgid ""
-"Heads-up: this page is not secure.\n"
+"Heads-up: This page is insecure.\n"
 "If you type your password,\n"
-" it will be visible to cybercriminals!"
+"it will be visible to cybercriminals!"
 msgstr ""
-"Varning: denna sida är inte säker.\n"
-"Om du skriver in ditt lösenord\n"
-" kommer det vara synligt för cyberbrottslingar!"
 
-#: ../eolie/toolbar_title.py:383
-msgid "Disallow geolocation"
-msgstr "Förbjud platsdata"
+#: ../eolie/toolbar_title.py:396
+msgid "Deny geolocation"
+msgstr ""
 
-#: ../eolie/toolbar_title.py:389
+#: ../eolie/toolbar_title.py:402
 msgid "Blocked popups"
 msgstr "Blockerade poppupper"
 
-#: ../eolie/toolbar_title.py:457
+#: ../eolie/toolbar_title.py:470
 msgid "Copy address"
 msgstr "Kopiera adress"
 
-#: ../eolie/toolbar_title.py:517
+#: ../eolie/toolbar_title.py:530
 msgid "Paste and load"
 msgstr "Klistra in och läs in"
 
-#: ../eolie/toolbar_title.py:748 ../eolie/toolbar_title.py:751
+#: ../eolie/toolbar_title.py:761 ../eolie/toolbar_title.py:764
 msgid "Search or enter address"
 msgstr "Sök eller ange adress"
 
-#: ../eolie/webview_errors.py:66
+#: ../eolie/webview_errors.py:81
 msgid "This page is dangerous"
 msgstr "Denna sida är farlig"
 
-#: ../eolie/webview_errors.py:67
+#: ../eolie/webview_errors.py:82
 msgid "Eolie will not display this page"
 msgstr "Eolie kommer inte att visa denna sida"
 
-#: ../eolie/webview_errors.py:74
+#: ../eolie/webview_errors.py:89
 #, python-format
 msgid "%s is a phishing page"
 msgstr "%s är en nätfiskesida"
 
-#: ../eolie/webview_errors.py:118
+#: ../eolie/webview_errors.py:133
 msgid "Failed to load this web page"
 msgstr "Misslyckades med att läsa in denna webbsida"
 
-#: ../eolie/webview_errors.py:119
+#: ../eolie/webview_errors.py:134
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -1348,55 +1353,55 @@ msgstr ""
 "Den kan vara tillfälligt oåtkomlig eller ha flyttat till en ny adress.<br/"
 ">Du kan vilja bekräfta att din internetanslutning fungerar korrekt."
 
-#: ../eolie/webview_errors.py:125
+#: ../eolie/webview_errors.py:140
 msgid "Network not available"
 msgstr "Nätverket är inte tillgängligt"
 
-#: ../eolie/webview_errors.py:126
+#: ../eolie/webview_errors.py:141
 msgid "Check your network connection"
 msgstr "Kontrollera din nätverksanslutning"
 
-#: ../eolie/webview_errors.py:136
+#: ../eolie/webview_errors.py:151
 msgid "Retry"
 msgstr "Försök igen"
 
-#: ../eolie/webview_errors.py:162
+#: ../eolie/webview_errors.py:177
 msgid "The certificate does not match this website"
 msgstr "Certifikatet överensstämmer inte med denna webbplats"
 
-#: ../eolie/webview_errors.py:164
+#: ../eolie/webview_errors.py:179
 msgid "The certificate has expired"
 msgstr "Certifikatet har gått ut"
 
-#: ../eolie/webview_errors.py:166
+#: ../eolie/webview_errors.py:181
 msgid "The signing certificate authority is not known"
 msgstr "Signeringscertifikatets utfärdare är okänd"
 
-#: ../eolie/webview_errors.py:168
+#: ../eolie/webview_errors.py:183
 msgid "The certificate contains errors"
 msgstr "Certifikatet innehåller fel"
 
-#: ../eolie/webview_errors.py:170
+#: ../eolie/webview_errors.py:185
 msgid "The certificate has been revoked"
 msgstr "Certifikatet har spärrats"
 
-#: ../eolie/webview_errors.py:172
+#: ../eolie/webview_errors.py:187
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Certifikatet är signerat med en svag algoritm på signaturen"
 
-#: ../eolie/webview_errors.py:176
+#: ../eolie/webview_errors.py:191
 msgid "The certificate activation time is still in the future"
 msgstr "Aktiveringstiden för certifikatet ligger fortfarande i framtiden"
 
-#: ../eolie/webview_errors.py:178
+#: ../eolie/webview_errors.py:193
 msgid "The identity of this website has not been verified"
 msgstr "Denna webbplats identitet har inte verifierats"
 
-#: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:183
+#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:198
 msgid "Connection is not secure"
 msgstr "Anslutning är inte säker"
 
-#: ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:200
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1407,30 +1412,26 @@ msgstr ""
 "eller ändra information som går till eller från denna webbplats (till "
 "exempel privata meddelanden, kreditkortsinformation eller lösenord)."
 
-#: ../eolie/webview_errors.py:191
+#: ../eolie/webview_errors.py:206
 msgid "Accept Risk and Proceed"
 msgstr "Acceptera risken och fortsätt"
 
-#: ../eolie/webview_errors.py:207 ../eolie/webview_errors.py:212
+#: ../eolie/webview_errors.py:222 ../eolie/webview_errors.py:227
 msgid "WebKit web engine crashed"
 msgstr "WebKit-webbmotor kraschade"
 
-#: ../eolie/webview_errors.py:214
+#: ../eolie/webview_errors.py:229
 msgid ""
-"The webpage was terminated unexpectedly.To continue, reload or go to another "
-"page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
-"<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
+"The webpage was terminated unexpectedly. To continue, reload or go to "
+"another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
+"<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
-"Webbplatsen avbröts oväntat. För att fortsätta, uppdatera eller gå till en "
-"annan sida.<br/><br/>Om problem kvarstår kan du rapportera ett fel :)<br/"
-">Använd <b>'Webkit Gtk'</b> som komponent.<br/>Ställ in <b>[GTK]</b> som "
-"ämnesprefix."
 
-#: ../eolie/webview_errors.py:220
+#: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
 msgstr "Rapportera ett fel nu"
 
-#: ../eolie/webview_signals_js.py:78
+#: ../eolie/webview_signals_js.py:77
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie kommer att stänga denna sida för att den är trasig"
 
@@ -1501,6 +1502,152 @@ msgstr "Sök nästa förekomst"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 träffar"
+
+#~ msgid "Trust websites: no adblock for internal URIs"
+#~ msgstr "Betrodda webbplatser: ingen annonsblockering för interna URI:er"
+
+#~ msgid "Trust websites: no JavaScript blocking for internal URIs"
+#~ msgstr ""
+#~ "Betrodda webbplatser: ingen JavaScript-blockering för interna URI:er"
+
+#~ msgid "Block unwanted popups on pages"
+#~ msgstr "Blockera oönskade poppupper på sidor"
+
+#~ msgid "Block images on page"
+#~ msgstr "Blockera bilder på sida"
+
+#~ msgid "Block JavaScript on pages"
+#~ msgstr "Blockera JavaScript på sidor"
+
+#~ msgid "Enable adblock"
+#~ msgstr "Aktivera annonsblockerare"
+
+#~ msgid "Do not block ads for this site"
+#~ msgstr "Blockera inte annonser för denna webbplats"
+
+#~ msgid "Not for this site"
+#~ msgstr "Inte för denna webbplats"
+
+#~ msgid "Do not block ads for this page"
+#~ msgstr "Blockera inte annonser för denna sida"
+
+#~ msgid "Not for this page"
+#~ msgstr "Inte för denna sida"
+
+#~ msgid ""
+#~ "You can select a period of time to clear data for all websites modified "
+#~ "in that period. If you choose from the beginning of time, then you can "
+#~ "also clear data only for particular websites."
+#~ msgstr ""
+#~ "Du kan välja en tidsperiod för vilken data ska rensas för alla "
+#~ "webbplatser som ändrats under den perioden. Om du väljer sedan tidens "
+#~ "början kan du också rensa data för enbart särskilda webbplatser."
+
+#~ msgid "Do not block images for this site"
+#~ msgstr "Blockera inte bilder för denna webbplats"
+
+#~ msgid "Do not block images for this page"
+#~ msgstr "Blockera inte bilder för denna sida"
+
+#~ msgid "JavaScript block"
+#~ msgstr "JavaScriptblockerare"
+
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#~ msgid "Do not block popups for this site"
+#~ msgstr "Blockera inte poppupper för denna webbplats"
+
+#~ msgid "Do not block popups for this page"
+#~ msgstr "Blockera inte poppupper för denna sida"
+
+#~ msgid "Enable javascript blocker"
+#~ msgstr "Aktivera Javascriptblockerare"
+
+#~ msgid "Select download directory"
+#~ msgstr "Välj hämtningskatalog"
+
+#~ msgid "Bookmarks shown"
+#~ msgstr "Bokmärken visade"
+
+#~ msgid "Only from sites you visit"
+#~ msgstr "Endast från sidor du besöker"
+
+#~ msgid ""
+#~ "You can share your bookmarks and history\n"
+#~ " on all your devices running Eolie or Firefox"
+#~ msgstr ""
+#~ "Du kan dela dina bokmärken och historik\n"
+#~ " på alla enheter som kör Eolie eller Firefox"
+
+#~ msgid "Synchronization"
+#~ msgstr "Synkronisering"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Temporarily enable JavaScript for current site"
+#~ msgstr "Aktivera tillfälligt JavaScript för aktuell webbplats"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Temporarily enable \"Media Source Extension\""
+#~ msgstr "Aktivera tillfälligt ”Media Source Extension”"
+
+#~ msgid "Downloads running, are you sure you want quit ?"
+#~ msgstr "Hämtningar pågår, är du säker att du vill avsluta ?"
+
+#~ msgid "Allow this page to get your location?"
+#~ msgstr "Tillåt denna sida att få tillgång till din plats?"
+
+#~ msgid "Open all pages for this tag"
+#~ msgstr "Öppna alla sidor för denna tagg"
+
+#~ msgid ""
+#~ "Do you want to install\n"
+#~ "%s search engine ?"
+#~ msgstr ""
+#~ "Vill du installera\n"
+#~ "sökmotorn %s ?"
+
+#~ msgid "Synchronization is working"
+#~ msgstr "Synkronisering pågår"
+
+#~ msgid "Cancel synchronization"
+#~ msgstr "Avbryt synkronisering"
+
+#~ msgid "Synchronization is not working"
+#~ msgstr "Synkronisering pågår inte"
+
+#~ msgid ""
+#~ "Synchronization is not available on your computer:\n"
+#~ " %s"
+#~ msgstr ""
+#~ "Synkronisering finns inte tillgänglig på din dator:\n"
+#~ " %s"
+
+#~ msgid "You've received an email to validate synchronization"
+#~ msgstr "Du har fått ett e-postmeddelande för att validera synkronisering"
+
+#~ msgid ""
+#~ "Heads-up: this page is not secure.\n"
+#~ "If you type your password,\n"
+#~ " it will be visible to cybercriminals!"
+#~ msgstr ""
+#~ "Varning: denna sida är inte säker.\n"
+#~ "Om du skriver in ditt lösenord\n"
+#~ " kommer det vara synligt för cyberbrottslingar!"
+
+#~ msgid "Disallow geolocation"
+#~ msgstr "Förbjud platsdata"
+
+#~ msgid ""
+#~ "The webpage was terminated unexpectedly.To continue, reload or go to "
+#~ "another page.<br/><br/>If problem persist, you can report a bug :)<br/"
+#~ ">Use <b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject "
+#~ "prefix."
+#~ msgstr ""
+#~ "Webbplatsen avbröts oväntat. För att fortsätta, uppdatera eller gå till "
+#~ "en annan sida.<br/><br/>Om problem kvarstår kan du rapportera ett "
+#~ "fel :)<br/>Använd <b>'Webkit Gtk'</b> som komponent.<br/>Ställ in "
+#~ "<b>[GTK]</b> som ämnesprefix."
 
 #~ msgid "Paypal"
 #~ msgstr "Paypal"

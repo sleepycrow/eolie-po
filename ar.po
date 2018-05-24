@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-27 07:10+0200\n"
+"POT-Creation-Date: 2018-05-24 11:33+0200\n"
 "PO-Revision-Date: 2018-03-29 07:34+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/"
@@ -41,24 +41,24 @@ msgid "Block ads on pages"
 msgstr "احجب الإعلانات في الصفحات"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
-msgid "Trust websites: no adblock for internal URIs"
-msgstr "المواقع الموثوقة التي لن تُمنع الإعلانات في روابطها الداخلية"
+msgid "Trust websites: No adblocking of internal URIs"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
-msgid "Trust websites: no JavaScript blocking for internal URIs"
-msgstr "المواقع الموثوقة التي لن يُحجب الجافاسكربت في روابطها الداخلية"
+msgid "Trust websites: No JavaScript blocking of internal URIs"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
-msgid "Block unwanted popups on pages"
-msgstr "احجب النوافذ المنبثقة المزعجة في الصفحات"
+msgid "Block all unwanted popups"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
-msgid "Block images on page"
-msgstr "احجب الصور في الصفحة"
+msgid "Block all images"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
-msgid "Block JavaScript on pages"
-msgstr "احجب الجافاسكربت في الصفحات"
+msgid "Block all JavaScript"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Download folder URI"
@@ -159,24 +159,24 @@ msgid "Visit Eolie website"
 msgstr "زر موقع أيولي"
 
 #. Replace me with your names
-#: ../data/AboutDialog.ui.in:19
+#: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Muhammad Abdulhadi"
 
-#: ../data/AboutDialog.ui.in:51
+#: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
 msgstr "التبرعات:"
 
-#: ../data/AboutDialog.ui.in:56
+#: ../data/AboutDialog.ui.in:57
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:66 ../eolie/container.py:515
+#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:515
 msgid "Liberapay"
 msgstr "ليبرابَي"
 
-#: ../data/AboutDialog.ui.in:76 ../eolie/container.py:515
+#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
 msgid "PayPal"
 msgstr "باي‌بال"
 
@@ -206,7 +206,7 @@ msgstr "صفحة خاصة جديدة"
 msgid "Do not filter current website content"
 msgstr "لا تُصفّ محتوى الموقع الحالي"
 
-#: ../data/AdblockMenu.ui:15 ../data/JSBlockMenu.ui:15
+#: ../data/AdblockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust web sites"
 msgstr "مواقع الوِب الموثوقة"
@@ -223,8 +223,8 @@ msgid "Block policy"
 msgstr "سياسة الحجب"
 
 #: ../data/AdblockMenu.ui:93
-msgid "Enable adblock"
-msgstr "فعّل مانع الإعلانات"
+msgid "Enable adblocking"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
@@ -237,22 +237,22 @@ msgid "By default"
 msgstr "مبدئيًا"
 
 #: ../data/AdblockMenu.ui:123
-msgid "Do not block ads for this site"
-msgstr "لا تحجب إعلانات هذا الموقع"
+msgid "Do not block ads on this site"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
-msgid "Not for this site"
-msgstr "ليس لهذا الموقع"
+msgid "Not on this site"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:137
-msgid "Do not block ads for this page"
-msgstr "لا تحجب إعلانات هذه الصفحة"
+msgid "Do not block ads on this page"
+msgstr ""
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
-msgid "Not for this page"
-msgstr "ليس لهذه الصفحة"
+msgid "Not on this page"
+msgstr ""
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -290,7 +290,7 @@ msgstr "أزل العلامة"
 msgid "Add new tag"
 msgstr "أضف وسمًا جديدًا"
 
-#: ../data/DialogClearData.ui:6 ../data/SettingsDialog.ui:740
+#: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
 msgstr "امح البيانات الشخصية"
 
@@ -315,11 +315,8 @@ msgstr "ابحث في النطاقات"
 msgid ""
 "You can select a period of time to clear data for all websites modified in "
 "that period. If you choose from the beginning of time, then you can also "
-"clear data only for particular websites."
+"clear data only for particular websites"
 msgstr ""
-"تستطيع اختيار فترة من الزمن لمحو بيانات كل مواقع الوب التي زرتها في تلك في "
-"الفترة، إذا اخترت \"من بداية الوقت\" فإنك تستطيع أيضًا اختيار مواقع مخصوصة "
-"لكي تُمحى بياناتها هي فقط."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
@@ -433,16 +430,21 @@ msgid "Enable image blocking"
 msgstr "فعّل حجب الصور"
 
 #: ../data/ImageBlockMenu.ui:110
-msgid "Do not block images for this site"
-msgstr "لا تحجب صور هذا الموقع"
+msgid "Do not block images on this site"
+msgstr ""
 
 #: ../data/ImageBlockMenu.ui:125
-msgid "Do not block images for this page"
-msgstr "لا تحجب صور هذه الصفحة"
+msgid "Do not block images on this page"
+msgstr ""
+
+#: ../data/JSBlockMenu.ui:15
+msgctxt "Trust web sites"
+msgid "Trust websites"
+msgstr ""
 
 #: ../data/JSBlockMenu.ui:28
-msgid "JavaScript block"
-msgstr "احجب الجافاسكربت"
+msgid "JavaScript blocker"
+msgstr ""
 
 #: ../data/JSBlockMenu.ui:92
 msgid "Enable JavaScript blocking"
@@ -482,8 +484,8 @@ msgid "No active download"
 msgstr "لا يوجد تنزيل نشط"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
-msgid "Ok"
-msgstr "حسنًا"
+msgid "OK"
+msgstr ""
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
@@ -534,12 +536,12 @@ msgid "Enable popup blocking"
 msgstr "فعّل حجب المنبثقات"
 
 #: ../data/PopupBlockMenu.ui:110
-msgid "Do not block popups for this site"
-msgstr "لا تحجب منبثقات هذا الموقع"
+msgid "Do not block popups on this site"
+msgstr ""
 
 #: ../data/PopupBlockMenu.ui:125
-msgid "Do not block popups for this page"
-msgstr "لا تحجب منبثقات هذه الصفحة"
+msgid "Do not block popups on this page"
+msgstr ""
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -554,8 +556,8 @@ msgid "Block JavaScript"
 msgstr "احجب الجافاسكربت"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
-msgid "Enable javascript blocker"
-msgstr "فعّل حاجب الجافاسكربت"
+msgid "Enable JavaScript blocker"
+msgstr ""
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
@@ -575,8 +577,8 @@ msgid "Download folder:"
 msgstr "مجلد التنزيل:"
 
 #: ../data/SettingsDialog.ui:83
-msgid "Select download directory"
-msgstr "اختر دليل التنزيل"
+msgid "Select download folder"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:93
 msgid "Automatically open downloaded files"
@@ -627,8 +629,8 @@ msgid "Configure engines"
 msgstr "اضبط المحركات"
 
 #: ../data/SettingsDialog.ui:271
-msgid "Bookmarks shown"
-msgstr "العلامات الظاهرة"
+msgid "Shown bookmarks"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:315
 msgid "Add suggestions"
@@ -671,8 +673,8 @@ msgid "Always accept"
 msgstr "اقبل دائمًا"
 
 #: ../data/SettingsDialog.ui:704
-msgid "Only from sites you visit"
-msgstr "اقبل من الصفحات التي زرتها فقط"
+msgid "Only from visited sites"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:705
 msgid "Never accept"
@@ -681,6 +683,10 @@ msgstr "لا تقبل أبدًا"
 #: ../data/SettingsDialog.ui:724
 msgid "Manage cookies"
 msgstr "أدر الكعكات"
+
+#: ../data/SettingsDialog.ui:740
+msgid "Clear personal data"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:761
 msgid "Manage passwords"
@@ -721,10 +727,8 @@ msgstr "الخصوصية"
 #: ../data/SettingsDialog.ui:884
 msgid ""
 "You can share your bookmarks and history\n"
-" on all your devices running Eolie or Firefox"
+"on all your devices running Eolie or Firefox"
 msgstr ""
-"يمكنك مشاركة علاماتك وتأريخك\n"
-" على كل أجهزتك التي تشغل أيولي أو فيرفكس"
 
 #: ../data/SettingsDialog.ui:901
 msgid "Login:"
@@ -734,7 +738,7 @@ msgstr "الولوج:"
 msgid "Password:"
 msgstr "كلمة السر:"
 
-#: ../data/SettingsDialog.ui:944 ../eolie/settings.py:511
+#: ../data/SettingsDialog.ui:944
 msgid "Allow synchronization"
 msgstr "اسمح بالمزامنة"
 
@@ -743,8 +747,8 @@ msgid "Create or manage account"
 msgstr "أنشئ حسابًا أو أدره"
 
 #: ../data/SettingsDialog.ui:1007
-msgid "Synchronization"
-msgstr "زامن"
+msgid "Syncing"
+msgstr ""
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -883,13 +887,13 @@ msgstr "عطّل مانع الإعلانات للموقع الحالي"
 
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
-msgid "Temporarily enable JavaScript for current site"
-msgstr "فعّل الجافاسكربت للموقع الحالي مؤقتًا"
+msgid "Enable JavaScript for current site temporarily"
+msgstr ""
 
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
-msgid "Temporarily enable \"Media Source Extension\""
-msgstr "فعّل «امتدادات مصادر الوسائط» مؤقتًا"
+msgid "Enable \"Media Source Extension\" temporarily"
+msgstr ""
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -922,11 +926,11 @@ msgstr "صفحة جديدة"
 msgid "View all pages"
 msgstr "اعرض كل الصفحات"
 
-#: ../data/ToolbarActions.ui:167
+#: ../data/ToolbarActions.ui:168
 msgid "Close page"
 msgstr "أغلق الصفحة"
 
-#: ../data/ToolbarActions.ui:182
+#: ../data/ToolbarActions.ui:183
 msgid "More actions"
 msgstr "أفعال أكثر"
 
@@ -935,7 +939,7 @@ msgstr "أفعال أكثر"
 msgid "Leave fullscreen"
 msgstr "اترك وضع ملء الشاشة"
 
-#: ../data/ToolbarEnd.ui:37 ../eolie/settings.py:506
+#: ../data/ToolbarEnd.ui:37
 msgid "Start synchronization"
 msgstr "ابدأ المزامنة"
 
@@ -999,13 +1003,13 @@ msgstr "الاقتصاد"
 msgid "Sport"
 msgstr "الرياضة"
 
-#: ../eolie/application.py:730
+#: ../eolie/application.py:732
 msgid "Do you really want to quit Eolie?"
 msgstr "هل أنت واثق أنك تريد إغلاق أيولي؟"
 
-#: ../eolie/application.py:783
-msgid "Downloads running, are you sure you want quit ?"
-msgstr "ما تزال بعض التنزيلات تعمل، هل أنت واثق أنك تريد الإغلاق؟"
+#: ../eolie/application.py:785
+msgid "Downloads running, are you sure you want quit?"
+msgstr ""
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
@@ -1170,8 +1174,8 @@ msgid "Remaining time:"
 msgstr "الوقت الباقي:"
 
 #: ../eolie/popover_geolocation.py:45
-msgid "Allow this page to get your location?"
-msgstr "أأسمح لهذه الصفحة بتحديد موقعك؟"
+msgid "Grant this page access to your location?"
+msgstr ""
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
@@ -1186,8 +1190,8 @@ msgid "Edit bookmark"
 msgstr "عدّل العلامة"
 
 #: ../eolie/popover_uri.py:161
-msgid "Open all pages for this tag"
-msgstr "افتح كل الصفحات التي في هذا الوسم"
+msgid "Open all pages with this tag"
+msgstr ""
 
 #: ../eolie/popover_uri.py:786
 msgid "Popular"
@@ -1246,8 +1250,8 @@ msgstr "https://search.yahoo.com"
 #, python-format
 msgid ""
 "Do you want to install\n"
-"%s search engine ?"
-msgstr "هل تريد أن تثبت محرك البحث %s ؟"
+"the %s search engine?"
+msgstr ""
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
@@ -1258,86 +1262,89 @@ msgid "Connecting…"
 msgstr "يتصل…"
 
 #: ../eolie/settings.py:495
-msgid "Synchronization is working"
-msgstr "التزامن يعمل"
+msgid "Syncing operational"
+msgstr ""
 
 #: ../eolie/settings.py:501
-msgid "Cancel synchronization"
-msgstr "ألغ المزامنة"
+msgid "Cancel syncing"
+msgstr ""
+
+#: ../eolie/settings.py:506
+msgid "Start syncing"
+msgstr ""
+
+#: ../eolie/settings.py:511
+msgid "Allow syncing"
+msgstr ""
 
 #: ../eolie/settings.py:516
-msgid "Synchronization is not working"
-msgstr "التزامن لا يعمل"
+msgid "Syncing is not working"
+msgstr ""
 
 #: ../eolie/settings.py:527
 #, python-format
 msgid ""
-"Synchronization is not available on your computer:\n"
-" %s"
-msgstr ""
-"التزامن لا يعمل على حاسوبك:\n"
+"Syncing is not available on your computer:\n"
 "%s"
+msgstr ""
 
 #: ../eolie/settings.py:550
-msgid "You've received an email to validate synchronization"
-msgstr "لقد استقبلت رسالة بريد إلكتروني للتحقق من المزامنة"
+msgid "You've received an email to validate syncing"
+msgstr ""
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
 msgstr "ينزّل:"
 
-#: ../eolie/toolbar_title.py:280
+#: ../eolie/toolbar_title.py:293
 msgid "This page contains insecure content"
 msgstr "هذه الصفحة تحوي محتوى ليس آمنًا"
 
-#: ../eolie/toolbar_title.py:334
+#: ../eolie/toolbar_title.py:347
 msgid ""
-"Heads-up: this page is not secure.\n"
+"Heads-up: This page is insecure.\n"
 "If you type your password,\n"
-" it will be visible to cybercriminals!"
+"it will be visible to cybercriminals!"
 msgstr ""
-"انتبه: هذه الصفحة ليست آمنة.\n"
-"إن كتبت كلمة سر في هذه الصفحة،\n"
-" فستظهر للمخترقين والمتجسسين!"
 
-#: ../eolie/toolbar_title.py:383
-msgid "Disallow geolocation"
-msgstr "عطّل تحديد الموقع"
+#: ../eolie/toolbar_title.py:396
+msgid "Deny geolocation"
+msgstr ""
 
-#: ../eolie/toolbar_title.py:389
+#: ../eolie/toolbar_title.py:402
 msgid "Blocked popups"
 msgstr "المنبثقات الممنوعة"
 
-#: ../eolie/toolbar_title.py:457
+#: ../eolie/toolbar_title.py:470
 msgid "Copy address"
 msgstr "انسخ العنوان"
 
-#: ../eolie/toolbar_title.py:517
+#: ../eolie/toolbar_title.py:530
 msgid "Paste and load"
 msgstr "ألصق واذهب"
 
-#: ../eolie/toolbar_title.py:748 ../eolie/toolbar_title.py:751
+#: ../eolie/toolbar_title.py:761 ../eolie/toolbar_title.py:764
 msgid "Search or enter address"
 msgstr "ابحث أو أدخل عنوانًا"
 
-#: ../eolie/webview_errors.py:66
+#: ../eolie/webview_errors.py:81
 msgid "This page is dangerous"
 msgstr "هذه الصفحة خطرة"
 
-#: ../eolie/webview_errors.py:67
+#: ../eolie/webview_errors.py:82
 msgid "Eolie will not display this page"
 msgstr "لن يعرض أيولي هذه الصفحة"
 
-#: ../eolie/webview_errors.py:74
+#: ../eolie/webview_errors.py:89
 #, python-format
 msgid "%s is a phishing page"
 msgstr "إن %s هي صفحة احتيال"
 
-#: ../eolie/webview_errors.py:118
+#: ../eolie/webview_errors.py:133
 msgid "Failed to load this web page"
 msgstr "تعذر تحميل هذه الصفحة"
 
-#: ../eolie/webview_errors.py:119
+#: ../eolie/webview_errors.py:134
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -1345,55 +1352,55 @@ msgstr ""
 "قد تكون الصفحة غير قابلة للوصول أو منقولة إلى عنوان جديد.<br/>تأكد أن اتصال "
 "الانترنت يعمل جيّدا."
 
-#: ../eolie/webview_errors.py:125
+#: ../eolie/webview_errors.py:140
 msgid "Network not available"
 msgstr "الشبكة ليست متاحة"
 
-#: ../eolie/webview_errors.py:126
+#: ../eolie/webview_errors.py:141
 msgid "Check your network connection"
 msgstr "افحص اتصال الشيكة"
 
-#: ../eolie/webview_errors.py:136
+#: ../eolie/webview_errors.py:151
 msgid "Retry"
 msgstr "أعد المحاولة"
 
-#: ../eolie/webview_errors.py:162
+#: ../eolie/webview_errors.py:177
 msgid "The certificate does not match this website"
 msgstr "لا تطابق الشهادة هذا الموقع"
 
-#: ../eolie/webview_errors.py:164
+#: ../eolie/webview_errors.py:179
 msgid "The certificate has expired"
 msgstr "الشهادة منتهية"
 
-#: ../eolie/webview_errors.py:166
+#: ../eolie/webview_errors.py:181
 msgid "The signing certificate authority is not known"
 msgstr "الجهة التي وقعت الشهادة غير معروفة"
 
-#: ../eolie/webview_errors.py:168
+#: ../eolie/webview_errors.py:183
 msgid "The certificate contains errors"
 msgstr "تحوي الشهادة أخطاء"
 
-#: ../eolie/webview_errors.py:170
+#: ../eolie/webview_errors.py:185
 msgid "The certificate has been revoked"
 msgstr "الشهادة منقوضة"
 
-#: ../eolie/webview_errors.py:172
+#: ../eolie/webview_errors.py:187
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "الشهادة موقّعة بخوارزمية توقيع ضعيفة"
 
-#: ../eolie/webview_errors.py:176
+#: ../eolie/webview_errors.py:191
 msgid "The certificate activation time is still in the future"
 msgstr "إن وقت تفعيل الشهادة هو في المستقبل"
 
-#: ../eolie/webview_errors.py:178
+#: ../eolie/webview_errors.py:193
 msgid "The identity of this website has not been verified"
 msgstr "لم يُتحقق من هوية هذا الموقع"
 
-#: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:183
+#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:198
 msgid "Connection is not secure"
 msgstr "الاتصال ليس آمنًا"
 
-#: ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:200
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1404,29 +1411,26 @@ msgstr ""
 "المعلومات أو تبديلها التي تذهب إلى الموقع أو تعود منه (مثل الرسائل الخاصة، "
 "ومعلومات البطاقة البنكية، وكلمات السر)."
 
-#: ../eolie/webview_errors.py:191
+#: ../eolie/webview_errors.py:206
 msgid "Accept Risk and Proceed"
 msgstr "أقبلُ الخطر واستمر"
 
-#: ../eolie/webview_errors.py:207 ../eolie/webview_errors.py:212
+#: ../eolie/webview_errors.py:222 ../eolie/webview_errors.py:227
 msgid "WebKit web engine crashed"
 msgstr "إنهار محرك وب‌كت"
 
-#: ../eolie/webview_errors.py:214
+#: ../eolie/webview_errors.py:229
 msgid ""
-"The webpage was terminated unexpectedly.To continue, reload or go to another "
-"page.<br/><br/>If problem persist, you can report a bug :)<br/>Use "
-"<b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
+"The webpage was terminated unexpectedly. To continue, reload or go to "
+"another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
+"<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
-"إنهارت الصفحة فجأة. إن أردت الاستمرار، فحدّث الصفحة أو اذهب إلى صفحة أخرى.<br/"
-"><br/>إن بقيت المشكلة، فيمكنك التبليغ عن علة :)<br/>اختر المكون <b>'Webkit "
-"Gtk'</b>.<br/>اجعل <b>[GTK]</b> في بداية موضوع الرسالة."
 
-#: ../eolie/webview_errors.py:220
+#: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
 msgstr "أبلغ عن علة الآن"
 
-#: ../eolie/webview_signals_js.py:78
+#: ../eolie/webview_signals_js.py:77
 msgid "Eolie is going to close this page because it is broken"
 msgstr "سيغلق أيولي هذه الصفحة لأنها قد تعطلت"
 
@@ -1497,6 +1501,148 @@ msgstr "ابحث عن المطابق التالي"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 من 1000 نتيجة"
+
+#~ msgid "Trust websites: no adblock for internal URIs"
+#~ msgstr "المواقع الموثوقة التي لن تُمنع الإعلانات في روابطها الداخلية"
+
+#~ msgid "Trust websites: no JavaScript blocking for internal URIs"
+#~ msgstr "المواقع الموثوقة التي لن يُحجب الجافاسكربت في روابطها الداخلية"
+
+#~ msgid "Block unwanted popups on pages"
+#~ msgstr "احجب النوافذ المنبثقة المزعجة في الصفحات"
+
+#~ msgid "Block images on page"
+#~ msgstr "احجب الصور في الصفحة"
+
+#~ msgid "Block JavaScript on pages"
+#~ msgstr "احجب الجافاسكربت في الصفحات"
+
+#~ msgid "Enable adblock"
+#~ msgstr "فعّل مانع الإعلانات"
+
+#~ msgid "Do not block ads for this site"
+#~ msgstr "لا تحجب إعلانات هذا الموقع"
+
+#~ msgid "Not for this site"
+#~ msgstr "ليس لهذا الموقع"
+
+#~ msgid "Do not block ads for this page"
+#~ msgstr "لا تحجب إعلانات هذه الصفحة"
+
+#~ msgid "Not for this page"
+#~ msgstr "ليس لهذه الصفحة"
+
+#~ msgid ""
+#~ "You can select a period of time to clear data for all websites modified "
+#~ "in that period. If you choose from the beginning of time, then you can "
+#~ "also clear data only for particular websites."
+#~ msgstr ""
+#~ "تستطيع اختيار فترة من الزمن لمحو بيانات كل مواقع الوب التي زرتها في تلك "
+#~ "في الفترة، إذا اخترت \"من بداية الوقت\" فإنك تستطيع أيضًا اختيار مواقع "
+#~ "مخصوصة لكي تُمحى بياناتها هي فقط."
+
+#~ msgid "Do not block images for this site"
+#~ msgstr "لا تحجب صور هذا الموقع"
+
+#~ msgid "Do not block images for this page"
+#~ msgstr "لا تحجب صور هذه الصفحة"
+
+#~ msgid "JavaScript block"
+#~ msgstr "احجب الجافاسكربت"
+
+#~ msgid "Ok"
+#~ msgstr "حسنًا"
+
+#~ msgid "Do not block popups for this site"
+#~ msgstr "لا تحجب منبثقات هذا الموقع"
+
+#~ msgid "Do not block popups for this page"
+#~ msgstr "لا تحجب منبثقات هذه الصفحة"
+
+#~ msgid "Enable javascript blocker"
+#~ msgstr "فعّل حاجب الجافاسكربت"
+
+#~ msgid "Select download directory"
+#~ msgstr "اختر دليل التنزيل"
+
+#~ msgid "Bookmarks shown"
+#~ msgstr "العلامات الظاهرة"
+
+#~ msgid "Only from sites you visit"
+#~ msgstr "اقبل من الصفحات التي زرتها فقط"
+
+#~ msgid ""
+#~ "You can share your bookmarks and history\n"
+#~ " on all your devices running Eolie or Firefox"
+#~ msgstr ""
+#~ "يمكنك مشاركة علاماتك وتأريخك\n"
+#~ " على كل أجهزتك التي تشغل أيولي أو فيرفكس"
+
+#~ msgid "Synchronization"
+#~ msgstr "زامن"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Temporarily enable JavaScript for current site"
+#~ msgstr "فعّل الجافاسكربت للموقع الحالي مؤقتًا"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Temporarily enable \"Media Source Extension\""
+#~ msgstr "فعّل «امتدادات مصادر الوسائط» مؤقتًا"
+
+#~ msgid "Downloads running, are you sure you want quit ?"
+#~ msgstr "ما تزال بعض التنزيلات تعمل، هل أنت واثق أنك تريد الإغلاق؟"
+
+#~ msgid "Allow this page to get your location?"
+#~ msgstr "أأسمح لهذه الصفحة بتحديد موقعك؟"
+
+#~ msgid "Open all pages for this tag"
+#~ msgstr "افتح كل الصفحات التي في هذا الوسم"
+
+#~ msgid ""
+#~ "Do you want to install\n"
+#~ "%s search engine ?"
+#~ msgstr "هل تريد أن تثبت محرك البحث %s ؟"
+
+#~ msgid "Synchronization is working"
+#~ msgstr "التزامن يعمل"
+
+#~ msgid "Cancel synchronization"
+#~ msgstr "ألغ المزامنة"
+
+#~ msgid "Synchronization is not working"
+#~ msgstr "التزامن لا يعمل"
+
+#~ msgid ""
+#~ "Synchronization is not available on your computer:\n"
+#~ " %s"
+#~ msgstr ""
+#~ "التزامن لا يعمل على حاسوبك:\n"
+#~ "%s"
+
+#~ msgid "You've received an email to validate synchronization"
+#~ msgstr "لقد استقبلت رسالة بريد إلكتروني للتحقق من المزامنة"
+
+#~ msgid ""
+#~ "Heads-up: this page is not secure.\n"
+#~ "If you type your password,\n"
+#~ " it will be visible to cybercriminals!"
+#~ msgstr ""
+#~ "انتبه: هذه الصفحة ليست آمنة.\n"
+#~ "إن كتبت كلمة سر في هذه الصفحة،\n"
+#~ " فستظهر للمخترقين والمتجسسين!"
+
+#~ msgid "Disallow geolocation"
+#~ msgstr "عطّل تحديد الموقع"
+
+#~ msgid ""
+#~ "The webpage was terminated unexpectedly.To continue, reload or go to "
+#~ "another page.<br/><br/>If problem persist, you can report a bug :)<br/"
+#~ ">Use <b>'Webkit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject "
+#~ "prefix."
+#~ msgstr ""
+#~ "إنهارت الصفحة فجأة. إن أردت الاستمرار، فحدّث الصفحة أو اذهب إلى صفحة أخرى."
+#~ "<br/><br/>إن بقيت المشكلة، فيمكنك التبليغ عن علة :)<br/>اختر المكون "
+#~ "<b>'Webkit Gtk'</b>.<br/>اجعل <b>[GTK]</b> في بداية موضوع الرسالة."
 
 #~ msgid "Show Mozilla sync debug messages"
 #~ msgstr "أظهر رسائل تنقيح مزامنة موزيلا"
