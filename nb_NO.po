@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-24 11:57+0200\n"
-"PO-Revision-Date: 2018-05-20 11:39+0000\n"
+"PO-Revision-Date: 2018-05-25 21:40+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "eolie/nb/>\n"
@@ -41,28 +41,28 @@ msgstr "Blokker reklame på sider"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: No adblocking of internal URIs"
-msgstr ""
+msgstr "Stol på nettsider: Ingen reklameblokkering av interne URI-er"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr ""
+msgstr "Stol på nettsider: Ingen JavaScript-blokkering av interne URI-er"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block all unwanted popups"
-msgstr ""
+msgstr "Blokker alle uønskede oppsprettsvinduer"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all images"
-msgstr ""
+msgstr "Blokker alle bilder"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Block all JavaScript"
-msgstr ""
+msgstr "Blokker all JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 #, fuzzy
 msgid "Download folder URI"
-msgstr "Last ned mappe-URI"
+msgstr "Nedlastingsmappe-URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Open finished downloads"
@@ -224,7 +224,7 @@ msgstr "Blokkeringspraksis"
 
 #: ../data/AdblockMenu.ui:93
 msgid "Enable adblocking"
-msgstr ""
+msgstr "Skru på reklameblokkering"
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
@@ -238,21 +238,21 @@ msgstr "Som forvalg"
 
 #: ../data/AdblockMenu.ui:123
 msgid "Do not block ads on this site"
-msgstr ""
+msgstr "Ikke blokker reklame på denne siden"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not on this site"
-msgstr ""
+msgstr "Ikke på denne siden"
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads on this page"
-msgstr ""
+msgstr "Ikke blokker reklame på denne siden"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
-msgstr ""
+msgstr "Ikke på denne siden"
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -441,21 +441,22 @@ msgid "Enable image blocking"
 msgstr "Skru på bildeblokkering"
 
 #: ../data/ImageBlockMenu.ui:110
+#, fuzzy
 msgid "Do not block images on this site"
-msgstr ""
+msgstr "Ikke blokker bilder på denne siden"
 
 #: ../data/ImageBlockMenu.ui:125
 msgid "Do not block images on this page"
-msgstr ""
+msgstr "IKke blokker bilder på denne siden"
 
 #: ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust websites"
-msgstr ""
+msgstr "Stol på nettsider"
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript blocker"
-msgstr ""
+msgstr "JavaScript-blokkerer"
 
 #: ../data/JSBlockMenu.ui:92
 #, fuzzy
@@ -499,7 +500,7 @@ msgstr "Ingen aktiv nedlasting"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
@@ -552,11 +553,11 @@ msgstr "Skru på stavekontroll"
 
 #: ../data/PopupBlockMenu.ui:110
 msgid "Do not block popups on this site"
-msgstr ""
+msgstr "Ikke blokker oppsprettsvinduer på denne siden"
 
 #: ../data/PopupBlockMenu.ui:125
 msgid "Do not block popups on this page"
-msgstr ""
+msgstr "Ikke blokker oppsprettsvinduer på denne siden"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -572,7 +573,7 @@ msgstr "Blokker JavaScript"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
-msgstr ""
+msgstr "Skru på JavaScript-blokkerer"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
@@ -593,7 +594,7 @@ msgstr "Nedlastingsmappe:"
 
 #: ../data/SettingsDialog.ui:83
 msgid "Select download folder"
-msgstr ""
+msgstr "Velg nedlastingsmappe"
 
 #: ../data/SettingsDialog.ui:93
 msgid "Automatically open downloaded files"
@@ -646,7 +647,7 @@ msgstr "Sett opp søkemotorer"
 
 #: ../data/SettingsDialog.ui:271
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "Viste bokmerker"
 
 #: ../data/SettingsDialog.ui:315
 msgid "Add suggestions"
@@ -690,7 +691,7 @@ msgstr "Alltid godta"
 
 #: ../data/SettingsDialog.ui:704
 msgid "Only from visited sites"
-msgstr ""
+msgstr "Kun fra besøkte sider"
 
 #: ../data/SettingsDialog.ui:705
 msgid "Never accept"
@@ -702,7 +703,7 @@ msgstr "Behandle kaker"
 
 #: ../data/SettingsDialog.ui:740
 msgid "Clear personal data"
-msgstr ""
+msgstr "Tøm personlig data"
 
 #: ../data/SettingsDialog.ui:761
 msgid "Manage passwords"
@@ -745,6 +746,8 @@ msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
 msgstr ""
+"Du kan dele dine bokmerker og historikk\n"
+"på alle dine enheter som kjører Eolie eller Firefox"
 
 #: ../data/SettingsDialog.ui:901
 #, fuzzy
@@ -765,7 +768,7 @@ msgstr "Opprett eller behandle konto"
 
 #: ../data/SettingsDialog.ui:1007
 msgid "Syncing"
-msgstr ""
+msgstr "Synkronisering"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -906,12 +909,13 @@ msgstr "Skru av reklameblokkering for denne siden"
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
 msgid "Enable JavaScript for current site temporarily"
-msgstr ""
+msgstr "Skru på JavaScript for gjeldende side midlertidig"
 
 #: ../data/Shortcuts.ui:204
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Enable \"Media Source Extension\" temporarily"
-msgstr ""
+msgstr "Skru på \"Mediakilde-utvidelse\" midlertidig"
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -1029,7 +1033,7 @@ msgstr "Vil du virkelig avslutte Eolie?"
 
 #: ../eolie/application.py:785
 msgid "Downloads running, are you sure you want quit?"
-msgstr ""
+msgstr "Nedlastinger kjører, er du sikker på at du vil avslutte?"
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
@@ -1199,7 +1203,7 @@ msgstr "Gjenstående tid:"
 
 #: ../eolie/popover_geolocation.py:45
 msgid "Grant this page access to your location?"
-msgstr ""
+msgstr "Innvilg denne siden tilgang til din plassering?"
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
@@ -1214,8 +1218,9 @@ msgid "Edit bookmark"
 msgstr "Rediger bokmerke"
 
 #: ../eolie/popover_uri.py:161
+#, fuzzy
 msgid "Open all pages with this tag"
-msgstr ""
+msgstr "Åpne alle sidene med denne merkelappen"
 
 #: ../eolie/popover_uri.py:786
 msgid "Popular"
@@ -1278,6 +1283,8 @@ msgid ""
 "Do you want to install\n"
 "the %s search engine?"
 msgstr ""
+"Ønsker du å installere\n"
+"%s-søkemotoren?"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
@@ -1289,23 +1296,23 @@ msgstr "Kobler til…"
 
 #: ../eolie/settings.py:495
 msgid "Syncing operational"
-msgstr ""
+msgstr "Synkronisering virksomt"
 
 #: ../eolie/settings.py:501
 msgid "Cancel syncing"
-msgstr ""
+msgstr "Avbryt synkronisering"
 
 #: ../eolie/settings.py:506
 msgid "Start syncing"
-msgstr ""
+msgstr "Start synkronisering"
 
 #: ../eolie/settings.py:511
 msgid "Allow syncing"
-msgstr ""
+msgstr "Tillat synkronisering"
 
 #: ../eolie/settings.py:516
 msgid "Syncing is not working"
-msgstr ""
+msgstr "Synkronisering fungerer ikke"
 
 #: ../eolie/settings.py:527
 #, python-format
@@ -1313,10 +1320,12 @@ msgid ""
 "Syncing is not available on your computer:\n"
 "%s"
 msgstr ""
+"Synkronisering er ikke tilgjengelig på din datamaskin:\n"
+"%s"
 
 #: ../eolie/settings.py:550
 msgid "You've received an email to validate syncing"
-msgstr ""
+msgstr "Du har mottatt en e-post for å bekrefte synkronisering"
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
@@ -1332,10 +1341,13 @@ msgid ""
 "If you type your password,\n"
 "it will be visible to cybercriminals!"
 msgstr ""
+"Merk: Denne siden er usikker.\n"
+"Hvis du skriver inn passordet ditt,\n"
+"vil det være synlig for kyberkriminelle!"
 
 #: ../eolie/toolbar_title.py:396
 msgid "Deny geolocation"
-msgstr ""
+msgstr "Nekt geoplassering"
 
 #: ../eolie/toolbar_title.py:402
 msgid "Blocked popups"
@@ -1448,11 +1460,16 @@ msgid "WebKit web engine crashed"
 msgstr "WebKit-vevmotoren kræsjet"
 
 #: ../eolie/webview_errors.py:229
+#, fuzzy
 msgid ""
 "The webpage was terminated unexpectedly. To continue, reload or go to "
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
 "<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
+"Nettsiden lukket seg selv uventet. For å fortsette, gjeninnlast eller gå til "
+"en annen siden.<br/><br/>Hvis problemet vedvarer, kan du innrapportere en "
+"feil :)<br/>Bruk<b>'WebKit Gtk'</b> som komponent.<br/>Sett<b>[GTK]</b> som "
+"emneinnledelsesknagg."
 
 #: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
