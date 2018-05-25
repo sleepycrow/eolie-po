@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-24 11:57+0200\n"
-"PO-Revision-Date: 2018-04-26 22:36+0000\n"
-"Last-Translator: Nathan Follens <nathan@email.is>\n"
+"PO-Revision-Date: 2018-05-25 10:43+0000\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "nl_BE/>\n"
 "Language: nl_BE\n"
@@ -41,23 +41,23 @@ msgstr "Reclame blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: No adblocking of internal URIs"
-msgstr ""
+msgstr "Websites vertrouwen: geen reclame blokkeren op interne URI’s"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr ""
+msgstr "Websites vertrouwen: geen JavaScript blokkeren op interne URI’s"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block all unwanted popups"
-msgstr ""
+msgstr "Alle ongewenste pop-upvensters blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all images"
-msgstr ""
+msgstr "Alle afbeeldingen blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Block all JavaScript"
-msgstr ""
+msgstr "Alle JavaScript blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Download folder URI"
@@ -225,7 +225,7 @@ msgstr "Blokkeerbeleid"
 
 #: ../data/AdblockMenu.ui:93
 msgid "Enable adblocking"
-msgstr ""
+msgstr "Reclameblokkering inschakelen"
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
@@ -239,21 +239,21 @@ msgstr "Standaard"
 
 #: ../data/AdblockMenu.ui:123
 msgid "Do not block ads on this site"
-msgstr ""
+msgstr "Geen reclame blokkeren op deze site"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not on this site"
-msgstr ""
+msgstr "Nie op deze site"
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads on this page"
-msgstr ""
+msgstr "Geen reclame blokkeren op deze pagina"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
-msgstr ""
+msgstr "Nie op deze pagina"
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -440,20 +440,20 @@ msgstr "Afbeeldingsblokkering inschakelen"
 
 #: ../data/ImageBlockMenu.ui:110
 msgid "Do not block images on this site"
-msgstr ""
+msgstr "Geen afbeeldingen blokkeren op deze site"
 
 #: ../data/ImageBlockMenu.ui:125
 msgid "Do not block images on this page"
-msgstr ""
+msgstr "Geen afbeeldingen blokkeren op deze pagina"
 
 #: ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust websites"
-msgstr ""
+msgstr "Websites vertrouwen"
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript blocker"
-msgstr ""
+msgstr "JavaScript-blokkering"
 
 #: ../data/JSBlockMenu.ui:92
 msgid "Enable JavaScript blocking"
@@ -494,7 +494,7 @@ msgstr "Geen downloads actief"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
 msgid "OK"
-msgstr ""
+msgstr "Oké"
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
@@ -546,11 +546,11 @@ msgstr "Pop-upblokkering inschakelen"
 
 #: ../data/PopupBlockMenu.ui:110
 msgid "Do not block popups on this site"
-msgstr ""
+msgstr "Geen pop-ups blokkeren op deze site"
 
 #: ../data/PopupBlockMenu.ui:125
 msgid "Do not block popups on this page"
-msgstr ""
+msgstr "Geen pop-ups blokkeren op deze pagina"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -566,7 +566,7 @@ msgstr "JavaScript blokkeren"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
-msgstr ""
+msgstr "JavaScript-blokkering inschakelen"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
@@ -587,7 +587,7 @@ msgstr "Downloadmap:"
 
 #: ../data/SettingsDialog.ui:83
 msgid "Select download folder"
-msgstr ""
+msgstr "Selecteerd een downloadmap"
 
 #: ../data/SettingsDialog.ui:93
 msgid "Automatically open downloaded files"
@@ -639,7 +639,7 @@ msgstr "Zoekmachienen configureren"
 
 #: ../data/SettingsDialog.ui:271
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "Getoonde bladwijzers"
 
 #: ../data/SettingsDialog.ui:315
 msgid "Add suggestions"
@@ -683,7 +683,7 @@ msgstr "Altijd aanvaarden"
 
 #: ../data/SettingsDialog.ui:704
 msgid "Only from visited sites"
-msgstr ""
+msgstr "Alleen van bezochte sites"
 
 #: ../data/SettingsDialog.ui:705
 msgid "Never accept"
@@ -695,7 +695,7 @@ msgstr "Cookies beheren"
 
 #: ../data/SettingsDialog.ui:740
 msgid "Clear personal data"
-msgstr ""
+msgstr "Persoonlijke gegevens wissen"
 
 #: ../data/SettingsDialog.ui:761
 msgid "Manage passwords"
@@ -738,6 +738,8 @@ msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
 msgstr ""
+"Ge kund uw bladwijzers en geschiedenis delen\n"
+"me al uw apparaten waarop da Eolie of Firefox draaid"
 
 #: ../data/SettingsDialog.ui:901
 msgid "Login:"
@@ -757,7 +759,7 @@ msgstr "Account aanmaken of beheren"
 
 #: ../data/SettingsDialog.ui:1007
 msgid "Syncing"
-msgstr ""
+msgstr "Bezig me synchroniseren"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -892,17 +894,17 @@ msgstr "Zoeken naar"
 #: ../data/Shortcuts.ui:190
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
-msgstr "Reclameblokkering uitschakelen op deze website"
+msgstr "Reclameblokkering uitschakelen op deze site"
 
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
 msgid "Enable JavaScript for current site temporarily"
-msgstr ""
+msgstr "JavaScript tijdelijk inschakelen voor deze site"
 
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
 msgid "Enable \"Media Source Extension\" temporarily"
-msgstr ""
+msgstr "‘Media Source Extension’ tijdelijk inschakelen"
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -1019,6 +1021,7 @@ msgstr "Zij’ ge zeker da’ g’Eolie wild afsluiten?"
 #: ../eolie/application.py:785
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
+"Der worden nog bestanden gedownload, zij’ ge zeker da’ ge wild afsluiten?"
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
@@ -1184,7 +1187,7 @@ msgstr "Resterende tijd:"
 
 #: ../eolie/popover_geolocation.py:45
 msgid "Grant this page access to your location?"
-msgstr ""
+msgstr "Wild ge deze pagina toegang geven tot uw locatie?"
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
@@ -1200,7 +1203,7 @@ msgstr "Bladwijzer bewerken"
 
 #: ../eolie/popover_uri.py:161
 msgid "Open all pages with this tag"
-msgstr ""
+msgstr "Alle pagina’s me’ dezen tag openen"
 
 #: ../eolie/popover_uri.py:786
 msgid "Popular"
@@ -1261,6 +1264,8 @@ msgid ""
 "Do you want to install\n"
 "the %s search engine?"
 msgstr ""
+"Wild ge %s installeren\n"
+"als zoekmachien?"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
@@ -1272,23 +1277,23 @@ msgstr "Verbinding maken…"
 
 #: ../eolie/settings.py:495
 msgid "Syncing operational"
-msgstr ""
+msgstr "Synchronisatie werkt"
 
 #: ../eolie/settings.py:501
 msgid "Cancel syncing"
-msgstr ""
+msgstr "Synchronisatie annuleren"
 
 #: ../eolie/settings.py:506
 msgid "Start syncing"
-msgstr ""
+msgstr "Synchronisatie starten"
 
 #: ../eolie/settings.py:511
 msgid "Allow syncing"
-msgstr ""
+msgstr "Synchronisatie toelaten"
 
 #: ../eolie/settings.py:516
 msgid "Syncing is not working"
-msgstr ""
+msgstr "Synchronisatie werkt nie"
 
 #: ../eolie/settings.py:527
 #, python-format
@@ -1296,10 +1301,12 @@ msgid ""
 "Syncing is not available on your computer:\n"
 "%s"
 msgstr ""
+"Synchronisatie is nie beschikbaar op uwe computer:\n"
+"%s"
 
 #: ../eolie/settings.py:550
 msgid "You've received an email to validate syncing"
-msgstr ""
+msgstr "G’hebd nen e-mail ontvangen voor synchronisatie toe te laten"
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
@@ -1315,10 +1322,13 @@ msgid ""
 "If you type your password,\n"
 "it will be visible to cybercriminals!"
 msgstr ""
+"Past op: deze pagina is onveilig.\n"
+"Als ge uw wachtwoord invoerd,\n"
+"gaad ’t zichtbaar zijn voor cybercriminelen!"
 
 #: ../eolie/toolbar_title.py:396
 msgid "Deny geolocation"
-msgstr ""
+msgstr "Geolocatie weigeren"
 
 #: ../eolie/toolbar_title.py:402
 msgid "Blocked popups"
@@ -1435,6 +1445,10 @@ msgid ""
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
 "<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
+"Deze webpagina is onverwachts afgesloten. Als ge door wild gaan, herlaad dan "
+"de pagina of ga naar een andere.<br/><br/>Als ’t probleem zich blijfd "
+"voordoen, kund ge een foutmelding indienen :)<br/>Gebruikt<b>‘WebKit Gtk’</b>"
+" als component.<br/>Steld<b>GTK</b> in als voorvoegsel voor ’t onderwerp."
 
 #: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
