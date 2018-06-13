@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-24 11:57+0200\n"
-"PO-Revision-Date: 2018-03-29 07:34+0000\n"
+"PO-Revision-Date: 2018-06-14 12:34+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/"
-">\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
+"\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 2.20-dev\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
-msgstr ""
+msgstr "اسمح للمستخدم بالتبرع لهذا المشروع"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
@@ -50,15 +50,15 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block all unwanted popups"
-msgstr ""
+msgstr "احجب كل المنبثقات غير المرغوبة"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all images"
-msgstr ""
+msgstr "احجب كل الصور"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Block all JavaScript"
-msgstr ""
+msgstr "احجب كل الجافاسكربت"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Download folder URI"
@@ -224,7 +224,7 @@ msgstr "سياسة الحجب"
 
 #: ../data/AdblockMenu.ui:93
 msgid "Enable adblocking"
-msgstr ""
+msgstr "فعّل حجب الإعلانات"
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
@@ -238,7 +238,7 @@ msgstr "مبدئيًا"
 
 #: ../data/AdblockMenu.ui:123
 msgid "Do not block ads on this site"
-msgstr ""
+msgstr "لا تحجب الإعلانات في هذا الموفع"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
@@ -247,7 +247,7 @@ msgstr ""
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads on this page"
-msgstr ""
+msgstr "لا تحجب الإعلانات في هذا الموقع"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
@@ -318,8 +318,8 @@ msgid ""
 "clear data only for particular websites."
 msgstr ""
 "تستطيع اختيار فترة من الزمن لمحو بيانات كل مواقع الوب التي زرتها في تلك في "
-"الفترة، إذا اخترت \"من بداية الوقت\" فإنك تستطيع أيضًا اختيار مواقع مخصوصة "
-"لكي تُمحى بياناتها هي فقط."
+"الفترة، إذا اخترت \"من البداية\" فإنك تستطيع أيضًا اختيار مواقع مخصوصة لكي تُ"
+"محى بياناتها هي فقط."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
@@ -434,11 +434,11 @@ msgstr "فعّل حجب الصور"
 
 #: ../data/ImageBlockMenu.ui:110
 msgid "Do not block images on this site"
-msgstr ""
+msgstr "لا تحجب الصور في هذا الموقع"
 
 #: ../data/ImageBlockMenu.ui:125
 msgid "Do not block images on this page"
-msgstr ""
+msgstr "لا تحجب الصور في هذا الموقع"
 
 #: ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
@@ -447,7 +447,7 @@ msgstr ""
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript blocker"
-msgstr ""
+msgstr "حاجب الجافاسكربت"
 
 #: ../data/JSBlockMenu.ui:92
 msgid "Enable JavaScript blocking"
@@ -488,7 +488,7 @@ msgstr "لا يوجد تنزيل نشط"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
 msgid "OK"
-msgstr ""
+msgstr "حسنًا"
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
@@ -540,11 +540,11 @@ msgstr "فعّل حجب المنبثقات"
 
 #: ../data/PopupBlockMenu.ui:110
 msgid "Do not block popups on this site"
-msgstr ""
+msgstr "لا تحجب المنبثقات في هذا الموقع"
 
 #: ../data/PopupBlockMenu.ui:125
 msgid "Do not block popups on this page"
-msgstr ""
+msgstr "لا تحجب المنبثقات في هذا الموقع"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -560,7 +560,7 @@ msgstr "احجب الجافاسكربت"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
-msgstr ""
+msgstr "فعّل حاجب الجافاسكربت"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
@@ -581,7 +581,7 @@ msgstr "مجلد التنزيل:"
 
 #: ../data/SettingsDialog.ui:83
 msgid "Select download folder"
-msgstr ""
+msgstr "اختر مجلّد التنزيل"
 
 #: ../data/SettingsDialog.ui:93
 msgid "Automatically open downloaded files"
@@ -633,7 +633,7 @@ msgstr "اضبط المحركات"
 
 #: ../data/SettingsDialog.ui:271
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "العلامات الظاهرة"
 
 #: ../data/SettingsDialog.ui:315
 msgid "Add suggestions"
@@ -689,7 +689,7 @@ msgstr "أدر الكعكات"
 
 #: ../data/SettingsDialog.ui:740
 msgid "Clear personal data"
-msgstr ""
+msgstr "امح البيانات الشخصية"
 
 #: ../data/SettingsDialog.ui:761
 msgid "Manage passwords"
@@ -732,6 +732,8 @@ msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
 msgstr ""
+"تستطيع مشاركة علاماتك وتأريخك بين كل\n"
+"أجهزتك التي تشغل أيولي أو فيرفُكس"
 
 #: ../data/SettingsDialog.ui:901
 msgid "Login:"
@@ -891,12 +893,12 @@ msgstr "عطّل مانع الإعلانات للموقع الحالي"
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
 msgid "Enable JavaScript for current site temporarily"
-msgstr ""
+msgstr "فعّل الجافاسكربت للموقع الحالي مؤقتًا"
 
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
 msgid "Enable \"Media Source Extension\" temporarily"
-msgstr ""
+msgstr "فعّل «امتدادات مصادر الوسائط» مؤقتًا"
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -1012,7 +1014,7 @@ msgstr "هل أنت واثق أنك تريد إغلاق أيولي؟"
 
 #: ../eolie/application.py:785
 msgid "Downloads running, are you sure you want quit?"
-msgstr ""
+msgstr "توجد تنزيلات تعمل، فهل أنت واثق أنك تريد الخروج؟"
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
@@ -1194,7 +1196,7 @@ msgstr "عدّل العلامة"
 
 #: ../eolie/popover_uri.py:161
 msgid "Open all pages with this tag"
-msgstr ""
+msgstr "افتح كل الصفحات في هذا الوسم"
 
 #: ../eolie/popover_uri.py:786
 msgid "Popular"
@@ -1255,6 +1257,8 @@ msgid ""
 "Do you want to install\n"
 "the %s search engine?"
 msgstr ""
+"هل تريد تثبيت محرك\n"
+"البحث %s؟"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
@@ -1270,19 +1274,19 @@ msgstr ""
 
 #: ../eolie/settings.py:501
 msgid "Cancel syncing"
-msgstr ""
+msgstr "ألغ المزامنة"
 
 #: ../eolie/settings.py:506
 msgid "Start syncing"
-msgstr ""
+msgstr "ابدأ المزامنة"
 
 #: ../eolie/settings.py:511
 msgid "Allow syncing"
-msgstr ""
+msgstr "اسمح بالمزامنة"
 
 #: ../eolie/settings.py:516
 msgid "Syncing is not working"
-msgstr ""
+msgstr "المزامنة لا تعمل"
 
 #: ../eolie/settings.py:527
 #, python-format
@@ -1290,6 +1294,8 @@ msgid ""
 "Syncing is not available on your computer:\n"
 "%s"
 msgstr ""
+"المزامنة غير متاحة على حاسوبك:\n"
+"%s"
 
 #: ../eolie/settings.py:550
 msgid "You've received an email to validate syncing"
