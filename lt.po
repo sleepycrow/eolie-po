@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-24 11:57+0200\n"
-"PO-Revision-Date: 2018-05-25 20:40+0000\n"
+"PO-Revision-Date: 2018-06-15 10:40+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "lt/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -43,11 +43,11 @@ msgstr "Blokuoti puslapiuose reklamas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: No adblocking of internal URIs"
-msgstr ""
+msgstr "Pasitikėti svetainėmis: Neblokuoti reklamų vidiniams URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr ""
+msgstr "Pasitikėti svetainėmis: Neblokuoti JavaScript vidiniams URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block all unwanted popups"
@@ -239,21 +239,21 @@ msgstr "Pagal numatymą"
 
 #: ../data/AdblockMenu.ui:123
 msgid "Do not block ads on this site"
-msgstr ""
+msgstr "Neblokuoti reklamų šioje svetainėje"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not on this site"
-msgstr ""
+msgstr "Ne šioje svetainėje"
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads on this page"
-msgstr ""
+msgstr "Neblokuoti reklamų šiame puslapyje"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
-msgstr ""
+msgstr "Ne šiame puslapyje"
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -439,20 +439,20 @@ msgstr "Įjungti paveikslų blokavimą"
 
 #: ../data/ImageBlockMenu.ui:110
 msgid "Do not block images on this site"
-msgstr ""
+msgstr "Neblokuoti paveikslų šioje svetainėje"
 
 #: ../data/ImageBlockMenu.ui:125
 msgid "Do not block images on this page"
-msgstr ""
+msgstr "Neblokuoti paveikslų šiame puslapyje"
 
 #: ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust websites"
-msgstr ""
+msgstr "Pasitikėti svetainėmis"
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript blocker"
-msgstr ""
+msgstr "JavaScript blokavimo programa"
 
 #: ../data/JSBlockMenu.ui:92
 msgid "Enable JavaScript blocking"
@@ -493,7 +493,7 @@ msgstr "Nėra aktyvių atsiuntimų"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
 msgid "OK"
-msgstr ""
+msgstr "Gerai"
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
@@ -545,11 +545,11 @@ msgstr "Įjungti iškylančiųjų langų blokavimą"
 
 #: ../data/PopupBlockMenu.ui:110
 msgid "Do not block popups on this site"
-msgstr ""
+msgstr "Neblokuoti iškylančiuosius langus šioje svetainėje"
 
 #: ../data/PopupBlockMenu.ui:125
 msgid "Do not block popups on this page"
-msgstr ""
+msgstr "Neblokuoti iškylančiuosius langus šiame puslapyje"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -565,7 +565,7 @@ msgstr "Blokuoti JavaScript"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
-msgstr ""
+msgstr "Įjungti JavaScript blokavimo programą"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
@@ -586,7 +586,7 @@ msgstr "Atsiuntimo aplankas:"
 
 #: ../data/SettingsDialog.ui:83
 msgid "Select download folder"
-msgstr ""
+msgstr "Pasirinkti atsiuntimų aplanką"
 
 #: ../data/SettingsDialog.ui:93
 msgid "Automatically open downloaded files"
@@ -694,7 +694,7 @@ msgstr "Tvarkyti slapukus"
 
 #: ../data/SettingsDialog.ui:740
 msgid "Clear personal data"
-msgstr ""
+msgstr "Išvalyti asmeninius duomenis"
 
 #: ../data/SettingsDialog.ui:761
 msgid "Manage passwords"
@@ -737,6 +737,9 @@ msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
 msgstr ""
+"Galite bendrinti savo adresyną ir istoriją\n"
+"visuose įrenginiuose, kuriuose veikia Eolie\n"
+"ar Firefox"
 
 #: ../data/SettingsDialog.ui:901
 msgid "Login:"
@@ -896,12 +899,12 @@ msgstr "Išjungti dabartinei svetainei reklamos blokavimą"
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
 msgid "Enable JavaScript for current site temporarily"
-msgstr ""
+msgstr "Įjungti laikinai esamai svetainei JavaScript"
 
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
 msgid "Enable \"Media Source Extension\" temporarily"
-msgstr ""
+msgstr "Įjungti laikinai \"Media Source Extension\""
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -1017,7 +1020,7 @@ msgstr "Ar tikrai norite išeiti iš Eolie?"
 
 #: ../eolie/application.py:785
 msgid "Downloads running, are you sure you want quit?"
-msgstr ""
+msgstr "Yra vykdomi atsiuntimai, ar tikrai norite išeiti?"
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
@@ -1053,7 +1056,7 @@ msgstr "HTTP disko podėlis"
 
 #: ../eolie/dialog_clear_data.py:184
 msgid "Offline web application cache"
-msgstr ""
+msgstr "Autonominis saityno programų podėlis"
 
 #: ../eolie/dialog_clear_data.py:186
 msgid "Session storage data"
@@ -1183,7 +1186,7 @@ msgstr "Liko:"
 
 #: ../eolie/popover_geolocation.py:45
 msgid "Grant this page access to your location?"
-msgstr ""
+msgstr "Suteikti šiam puslapiui prieigą prie jūsų buvimo vietos?"
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
@@ -1199,7 +1202,7 @@ msgstr "Taisyti adresyno įrašą"
 
 #: ../eolie/popover_uri.py:161
 msgid "Open all pages with this tag"
-msgstr ""
+msgstr "Atverti visus puslapius, turinčius šią žymę"
 
 #: ../eolie/popover_uri.py:786
 msgid "Popular"
@@ -1260,6 +1263,8 @@ msgid ""
 "Do you want to install\n"
 "the %s search engine?"
 msgstr ""
+"Ar norite įdiegti %s\n"
+"paieškos sistemą?"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
@@ -1275,19 +1280,19 @@ msgstr ""
 
 #: ../eolie/settings.py:501
 msgid "Cancel syncing"
-msgstr ""
+msgstr "Atsisakyti sinchronizavimo"
 
 #: ../eolie/settings.py:506
 msgid "Start syncing"
-msgstr ""
+msgstr "Pradėti sinchronizavimą"
 
 #: ../eolie/settings.py:511
 msgid "Allow syncing"
-msgstr ""
+msgstr "Leisti sinchronizavimą"
 
 #: ../eolie/settings.py:516
 msgid "Syncing is not working"
-msgstr ""
+msgstr "Sinchronizavimas neveikia"
 
 #: ../eolie/settings.py:527
 #, python-format
@@ -1295,10 +1300,12 @@ msgid ""
 "Syncing is not available on your computer:\n"
 "%s"
 msgstr ""
+"Jūsų kompiuteryje sinchronizavimas nėra prieinamas:\n"
+"%s"
 
 #: ../eolie/settings.py:550
 msgid "You've received an email to validate syncing"
-msgstr ""
+msgstr "Jūs gavote el. laišką, skirtą patvirtinti sinchronizavimą"
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
@@ -1314,6 +1321,9 @@ msgid ""
 "If you type your password,\n"
 "it will be visible to cybercriminals!"
 msgstr ""
+"Atsargiai: Šis puslapis yra nesaugus.\n"
+"Jeigu įrašysite savo slaptažodį,\n"
+"jis bus matomas kibernetiniams nusikaltėliams!"
 
 #: ../eolie/toolbar_title.py:396
 msgid "Deny geolocation"
