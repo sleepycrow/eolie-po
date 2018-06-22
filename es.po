@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-24 11:57+0200\n"
-"PO-Revision-Date: 2018-01-16 19:35+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/eolie/es/"
-">\n"
+"PO-Revision-Date: 2018-06-24 17:43+0000\n"
+"Last-Translator: Wilfer Daniel Ciro Maya <wilcirom@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/eolie/es/>"
+"\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 3.1-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
-msgstr ""
+msgstr "Mostrar mensajes de depurado"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
-msgstr ""
+msgstr "Permite que el usuario done al proyecto"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
@@ -41,7 +41,7 @@ msgstr "Bloquear anuncios en las páginas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: No adblocking of internal URIs"
-msgstr ""
+msgstr "Sitios web de confianza: sin anuncios de URI internos"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Trust websites: No JavaScript blocking of internal URIs"
@@ -53,15 +53,15 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all images"
-msgstr ""
+msgstr "Bloquear todas las imágenes"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Block all JavaScript"
-msgstr ""
+msgstr "Bloquear todo el Javascript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Download folder URI"
-msgstr "URI de la carpeta Descargas"
+msgstr "URL de la carpeta Descargas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Open finished downloads"
@@ -173,7 +173,7 @@ msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:515
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
 msgid "PayPal"
@@ -262,7 +262,7 @@ msgstr "_Preferencias"
 
 #: ../data/Appmenu.ui:13
 msgid "_Sidebar"
-msgstr "_Barra lateral"
+msgstr "_Panel Lateral"
 
 #: ../data/Appmenu.ui:19
 msgid "_Keyboard Shortcuts"
@@ -1027,7 +1027,7 @@ msgstr ""
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr ""
+msgstr "Por favor considere una donación al proyecto"
 
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
