@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-24 11:57+0200\n"
-"PO-Revision-Date: 2018-06-14 12:34+0000\n"
+"PO-Revision-Date: 2018-06-28 20:34+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.1-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -26,7 +26,7 @@ msgstr "أظهر رسائل التنقيح"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
-msgstr ""
+msgstr "أظهر رسائل تنقيح مزامنة فيرفكس"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
@@ -243,7 +243,7 @@ msgstr "لا تحجب الإعلانات في هذا الموفع"
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not on this site"
-msgstr ""
+msgstr "ليس في هذا الموقع"
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads on this page"
@@ -252,7 +252,7 @@ msgstr "لا تحجب الإعلانات في هذا الموقع"
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
-msgstr ""
+msgstr "ليس في هذه الصفحة"
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -443,7 +443,7 @@ msgstr "لا تحجب الصور في هذا الموقع"
 #: ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust websites"
-msgstr ""
+msgstr "مواقع الوِب الموثوقة"
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript blocker"
@@ -677,7 +677,7 @@ msgstr "اقبل دائمًا"
 
 #: ../data/SettingsDialog.ui:704
 msgid "Only from visited sites"
-msgstr ""
+msgstr "فقط من المواقع المُزارة"
 
 #: ../data/SettingsDialog.ui:705
 msgid "Never accept"
@@ -753,7 +753,7 @@ msgstr "أنشئ حسابًا أو أدره"
 
 #: ../data/SettingsDialog.ui:1007
 msgid "Syncing"
-msgstr ""
+msgstr "يزامن"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -1180,7 +1180,7 @@ msgstr "الوقت الباقي:"
 
 #: ../eolie/popover_geolocation.py:45
 msgid "Grant this page access to your location?"
-msgstr ""
+msgstr "هل أمنح لهذه الصفحة النفاذ إلى موقعك؟"
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
