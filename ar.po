@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-24 11:57+0200\n"
-"PO-Revision-Date: 2018-06-28 20:34+0000\n"
+"PO-Revision-Date: 2018-07-10 12:34+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
 "\n"
@@ -42,11 +42,11 @@ msgstr "احجب الإعلانات في الصفحات"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: No adblocking of internal URIs"
-msgstr ""
+msgstr "مواقع الوِب الموثوقة: لا منع للإعلانات في الروابط الداخلية"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr ""
+msgstr "مواقع الوِب الموثوقة: لا منع للجافاسكربت في الروابط الداخلية"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block all unwanted popups"
@@ -1270,7 +1270,7 @@ msgstr "يتصل…"
 
 #: ../eolie/settings.py:495
 msgid "Syncing operational"
-msgstr ""
+msgstr "المزامنة تعمل"
 
 #: ../eolie/settings.py:501
 msgid "Cancel syncing"
@@ -1299,7 +1299,7 @@ msgstr ""
 
 #: ../eolie/settings.py:550
 msgid "You've received an email to validate syncing"
-msgstr ""
+msgstr "ستتلقى رسالة بريد إلكتروني لتأكيد المزامنة"
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
@@ -1315,10 +1315,13 @@ msgid ""
 "If you type your password,\n"
 "it will be visible to cybercriminals!"
 msgstr ""
+"تحذير: الصفحة ليست آمنة.\n"
+"قد يستطيع المخترقون ومجرمو الشبكة\n"
+"رؤية كلمات السرّ التي تكتبها في الصفحة!"
 
 #: ../eolie/toolbar_title.py:396
 msgid "Deny geolocation"
-msgstr ""
+msgstr "ارفض تحديد الموقع"
 
 #: ../eolie/toolbar_title.py:402
 msgid "Blocked popups"
@@ -1434,6 +1437,9 @@ msgid ""
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
 "<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
+"لقد إنهارت الصفحة فجأة. إن أردت إكمال التصفّح فأعد تحميل الصفحة أو اذهب إلى "
+"صفحة أخرى.<br/><br/>إذا تكررت المشكلة فإنك تستطيع الإبلاغ عن علة :)<br/>اختر "
+"<b>'WebKit Gtk'</b> في خانة المكوّن.<br/>ضع <b>[GTK]</b> في بداية الموضوع."
 
 #: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
