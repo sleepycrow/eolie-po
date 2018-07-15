@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-24 11:57+0200\n"
-"PO-Revision-Date: 2018-07-15 12:56+0000\n"
+"PO-Revision-Date: 2018-07-15 12:57+0000\n"
 "Last-Translator: Tobia Tesan <tobia.tesan@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/eolie/it/>"
 "\n"
@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_pages.py:44
 msgid "New private page"
-msgstr ""
+msgstr "Nuova pagina privata"
 
 #: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
 msgid "Do not filter current website content"
@@ -213,7 +213,7 @@ msgstr ""
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
 #: ../data/ToolbarMenu.ui:230
 msgid "Block ads"
-msgstr ""
+msgstr "Blocca pubblicità"
 
 #: ../data/AdblockMenu.ui:47 ../data/ImageBlockMenu.ui:33
 #: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
@@ -228,7 +228,7 @@ msgstr ""
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
 msgid "Enabled"
-msgstr ""
+msgstr "Abilitato"
 
 #: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
 #: ../data/PopupBlockMenu.ui:93
@@ -237,16 +237,16 @@ msgstr ""
 
 #: ../data/AdblockMenu.ui:123
 msgid "Do not block ads on this site"
-msgstr ""
+msgstr "Non bloccare la pubblicità su questo sito"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not on this site"
-msgstr ""
+msgstr "Non per questo sito"
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads on this page"
-msgstr ""
+msgstr "Non bloccare la pubblicità in questa pagina"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
@@ -255,7 +255,7 @@ msgstr ""
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
-msgstr ""
+msgstr "_Preferenze"
 
 #: ../data/Appmenu.ui:13
 msgid "_Sidebar"
