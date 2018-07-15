@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-24 11:57+0200\n"
-"PO-Revision-Date: 2018-07-15 12:57+0000\n"
+"PO-Revision-Date: 2018-07-16 13:39+0000\n"
 "Last-Translator: Tobia Tesan <tobia.tesan@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/eolie/it/>"
 "\n"
@@ -275,15 +275,15 @@ msgstr ""
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
-msgstr ""
+msgstr "Indirizzo:"
 
 #: ../data/BookmarkEdit.ui:41
 msgid "Title:"
-msgstr ""
+msgstr "Titolo:"
 
 #: ../data/BookmarkEdit.ui:98
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Rimuovi segnalibro"
 
 #: ../data/BookmarkEdit.ui:166 ../data/BookmarkEdit.ui:169
 msgid "Add new tag"
@@ -300,7 +300,7 @@ msgstr ""
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
 #: ../data/SettingsDialog.ui:114
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
@@ -319,27 +319,27 @@ msgstr ""
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
-msgstr ""
+msgstr "Cancella i dati personali selezionati a partire da:"
 
 #: ../data/DialogClearData.ui:111
 msgid "the past hour"
-msgstr ""
+msgstr "un'ora fa"
 
 #: ../data/DialogClearData.ui:112
 msgid "the past day"
-msgstr ""
+msgstr "un giorno fa"
 
 #: ../data/DialogClearData.ui:113
 msgid "the past week"
-msgstr ""
+msgstr "una settimana fa"
 
 #: ../data/DialogClearData.ui:114
 msgid "the past four weeks"
-msgstr ""
+msgstr "quattro settimane fa"
 
 #: ../data/DialogClearData.ui:115
 msgid "the beginning"
-msgstr ""
+msgstr "dal principio"
 
 #: ../data/DialogClearData.ui:192
 msgid "No data found"
@@ -350,10 +350,12 @@ msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
+"Questa azione non può essere annullata. I dati selezionati saranno rimossi "
+"in modo permanente."
 
 #: ../data/DialogCookies.ui:83
 msgid "New profile"
-msgstr ""
+msgstr "Nuovo profilo"
 
 #: ../data/DialogCookies.ui:227
 msgid "Profiles manager"
@@ -361,7 +363,7 @@ msgstr ""
 
 #: ../data/DialogCookies.ui:231
 msgid "Delete cookies"
-msgstr ""
+msgstr "Elimina cookie"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
@@ -370,11 +372,11 @@ msgstr ""
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:192
 #: ../eolie/popover_uri.py:461
 msgid "Import bookmarks"
-msgstr ""
+msgstr "Importa segnalibri"
 
 #: ../data/DialogImportBookmarks.ui:87
 msgid "Import"
-msgstr ""
+msgstr "Importa"
 
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
@@ -382,7 +384,7 @@ msgstr ""
 
 #: ../data/DialogSearchEngine.ui:7
 msgid "Search engines"
-msgstr ""
+msgstr "Motori di ricerca"
 
 #: ../data/DialogSearchEngine.ui:155
 msgid "Name:"
