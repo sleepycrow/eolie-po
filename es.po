@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-24 11:57+0200\n"
-"PO-Revision-Date: 2018-06-25 23:45+0000\n"
+"PO-Revision-Date: 2018-07-18 01:42+0000\n"
 "Last-Translator: Wilfer Daniel Ciro Maya <wilcirom@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/eolie/es/>"
 "\n"
@@ -25,7 +25,7 @@ msgstr "Mostrar mensajes de depurado"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
-msgstr ""
+msgstr "Mostrar mensajes de depuración de Firefox Sync"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
@@ -45,11 +45,11 @@ msgstr "Sitios web de confianza: sin anuncios de URI internos"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr ""
+msgstr "Sitios web de confianza: Sin bloqueo de JavaScript de los URI internos"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block all unwanted popups"
-msgstr ""
+msgstr "Bloquear todas las ventanas emergentes no deseadas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all images"
@@ -191,25 +191,24 @@ msgstr "Navegador web"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:9
 msgid "Eolie is a new GNOME web browser."
-msgstr ""
+msgstr "Eolie es un nuevo navegador de GNOME."
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
-msgstr ""
+msgstr "org.gnome.Eolie"
 
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_pages.py:44
 msgid "New private page"
 msgstr "Página privada nueva"
 
 #: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
-#, fuzzy
 msgid "Do not filter current website content"
-msgstr "No bloquear ventanas emergentes"
+msgstr "No filtrar el contenido actual del sitio web"
 
 #: ../data/AdblockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust web sites"
-msgstr ""
+msgstr "Confiar en sitios web"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
 #: ../data/ToolbarMenu.ui:230
@@ -219,42 +218,41 @@ msgstr "Bloquear anuncios"
 #: ../data/AdblockMenu.ui:47 ../data/ImageBlockMenu.ui:33
 #: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
 #: ../data/ScriptsMenu.ui:109
-#, fuzzy
 msgid "Block policy"
-msgstr "Bloquear ventanas emergentes"
+msgstr "Política de bloqueo"
 
 #: ../data/AdblockMenu.ui:93
 msgid "Enable adblocking"
-msgstr ""
+msgstr "Habilitar el bloqueo de anuncios"
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
 msgid "Enabled"
-msgstr ""
+msgstr "Activado"
 
 #: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
 #: ../data/PopupBlockMenu.ui:93
 #, fuzzy
 msgid "By default"
-msgstr "Predeterminado"
+msgstr "Por defecto"
 
 #: ../data/AdblockMenu.ui:123
 msgid "Do not block ads on this site"
-msgstr ""
+msgstr "No bloquear los anuncios en este sitio"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not on this site"
-msgstr ""
+msgstr "No en este sitio"
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads on this page"
-msgstr ""
+msgstr "No bloquear los anuncios en esta página"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
-msgstr ""
+msgstr "No en esta página"
 
 #: ../data/Appmenu.ui:7
 msgid "_Preferences"
@@ -366,7 +364,7 @@ msgstr "Perfil nuevo"
 #: ../data/DialogCookies.ui:227
 #, fuzzy
 msgid "Profiles manager"
-msgstr "Perfiles"
+msgstr "Gestor de perfiles"
 
 #: ../data/DialogCookies.ui:231
 msgid "Delete cookies"
@@ -433,39 +431,39 @@ msgstr "Bloquear imágenes"
 #: ../data/ImageBlockMenu.ui:79 ../data/PopupBlockMenu.ui:79
 msgctxt "popup"
 msgid "Enabled"
-msgstr ""
+msgstr "habilitado"
 
 #: ../data/ImageBlockMenu.ui:80
 #, fuzzy
 msgid "Enable image blocking"
-msgstr "Activar la revisión ortográfica"
+msgstr "Habilitar bloqueo de imagen"
 
 #: ../data/ImageBlockMenu.ui:110
 msgid "Do not block images on this site"
-msgstr ""
+msgstr "No bloquear imágenes en este sitio"
 
 #: ../data/ImageBlockMenu.ui:125
 msgid "Do not block images on this page"
-msgstr ""
+msgstr "No bloquear imágenes en esta página"
 
 #: ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust websites"
-msgstr ""
+msgstr "Sitios web de confianza"
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript blocker"
-msgstr ""
+msgstr "Bloqueador de JavaScript"
 
 #: ../data/JSBlockMenu.ui:92
 #, fuzzy
 msgid "Enable JavaScript blocking"
-msgstr "Activar el bloqueador de JavaScript"
+msgstr "Habilitar el bloqueo de JavaScript"
 
 #: ../data/JSBlockMenu.ui:94
 msgctxt "Trust web sites"
 msgid "Enabled"
-msgstr ""
+msgstr "habilitado"
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:330
 msgid "Spell checking"
@@ -497,7 +495,7 @@ msgstr "No hay ninguna descarga activa"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
 msgid "OK"
-msgstr ""
+msgstr "Aceptar"
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
@@ -546,15 +544,15 @@ msgstr "Bloquear ventanas emergentes"
 #: ../data/PopupBlockMenu.ui:80
 #, fuzzy
 msgid "Enable popup blocking"
-msgstr "Activar la revisión ortográfica"
+msgstr "Habilitar el bloqueo de ventanas emergentes"
 
 #: ../data/PopupBlockMenu.ui:110
 msgid "Do not block popups on this site"
-msgstr ""
+msgstr "No bloquee las ventanas emergentes en este sitio"
 
 #: ../data/PopupBlockMenu.ui:125
 msgid "Do not block popups on this page"
-msgstr ""
+msgstr "No bloquee las ventanas emergentes de esta página"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -570,12 +568,12 @@ msgstr "Bloquear JavaScript"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
-msgstr ""
+msgstr "Habilitar el bloqueador de JavaScript"
 
 #: ../data/ScriptsMenu.ui:138
 #, fuzzy
 msgid "Trust websites"
-msgstr "Visitar el sitio web de Eolie"
+msgstr "Sitios web de confianza"
 
 #: ../data/SettingsDialog.ui:25 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
@@ -592,7 +590,7 @@ msgstr "Carpeta de descargas:"
 
 #: ../data/SettingsDialog.ui:83
 msgid "Select download folder"
-msgstr ""
+msgstr "Seleccione la carpeta de descarga"
 
 #: ../data/SettingsDialog.ui:93
 msgid "Automatically open downloaded files"
@@ -644,7 +642,7 @@ msgstr "Configurar buscadores"
 
 #: ../data/SettingsDialog.ui:271
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "Marcadores mostrados"
 
 #: ../data/SettingsDialog.ui:315
 msgid "Add suggestions"
@@ -688,7 +686,7 @@ msgstr "Aceptar siempre"
 
 #: ../data/SettingsDialog.ui:704
 msgid "Only from visited sites"
-msgstr ""
+msgstr "Sólo de los sitios visitados"
 
 #: ../data/SettingsDialog.ui:705
 msgid "Never accept"
@@ -700,7 +698,7 @@ msgstr "Gestionar las «cookies»"
 
 #: ../data/SettingsDialog.ui:740
 msgid "Clear personal data"
-msgstr ""
+msgstr "Borrar datos personales"
 
 #: ../data/SettingsDialog.ui:761
 msgid "Manage passwords"
@@ -743,6 +741,8 @@ msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
 msgstr ""
+"Puedes compartir tus favoritos e historial\n"
+"en todos los dispositivos que ejecuten Eolie o Firefox"
 
 #: ../data/SettingsDialog.ui:901
 msgid "Login:"
@@ -762,7 +762,7 @@ msgstr "Crear o gestionar la cuenta"
 
 #: ../data/SettingsDialog.ui:1007
 msgid "Syncing"
-msgstr ""
+msgstr "Sincronizando"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -902,12 +902,12 @@ msgstr "Desactivar el bloqueo de anuncios en este sitio"
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
 msgid "Enable JavaScript for current site temporarily"
-msgstr ""
+msgstr "Habilitar JavaScript para el sitio actual temporalmente"
 
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
 msgid "Enable \"Media Source Extension\" temporarily"
-msgstr ""
+msgstr "Habilitar \"Media Source Extension\" temporalmente"
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -1023,7 +1023,7 @@ msgstr "¿Confirma que quiere salir de Eolie?"
 
 #: ../eolie/application.py:785
 msgid "Downloads running, are you sure you want quit?"
-msgstr ""
+msgstr "Las descargas se están ejecutando, ¿estás seguro de que quieres salir?"
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
@@ -1189,7 +1189,7 @@ msgstr "Tiempo restante:"
 
 #: ../eolie/popover_geolocation.py:45
 msgid "Grant this page access to your location?"
-msgstr ""
+msgstr "¿Dar acceso a esta página a su ubicación?"
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
@@ -1205,7 +1205,7 @@ msgstr "Editar el marcador"
 
 #: ../eolie/popover_uri.py:161
 msgid "Open all pages with this tag"
-msgstr ""
+msgstr "Abrir todas las páginas con esta etiqueta"
 
 #: ../eolie/popover_uri.py:786
 msgid "Popular"
@@ -1266,6 +1266,8 @@ msgid ""
 "Do you want to install\n"
 "the %s search engine?"
 msgstr ""
+"¿Desea instalar\n"
+"el motor de búsqueda %s?"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
@@ -1277,23 +1279,23 @@ msgstr "Conectando…"
 
 #: ../eolie/settings.py:495
 msgid "Syncing operational"
-msgstr ""
+msgstr "Sincronización operativa"
 
 #: ../eolie/settings.py:501
 msgid "Cancel syncing"
-msgstr ""
+msgstr "Cancelar la sincronización"
 
 #: ../eolie/settings.py:506
 msgid "Start syncing"
-msgstr ""
+msgstr "Comienza la sincronización"
 
 #: ../eolie/settings.py:511
 msgid "Allow syncing"
-msgstr ""
+msgstr "Permitir la sincronización"
 
 #: ../eolie/settings.py:516
 msgid "Syncing is not working"
-msgstr ""
+msgstr "La sincronización no funciona"
 
 #: ../eolie/settings.py:527
 #, python-format
@@ -1301,10 +1303,12 @@ msgid ""
 "Syncing is not available on your computer:\n"
 "%s"
 msgstr ""
+"La sincronización no está disponible en su ordenador:\n"
+"%s"
 
 #: ../eolie/settings.py:550
 msgid "You've received an email to validate syncing"
-msgstr ""
+msgstr "Has recibido un correo electrónico para validar la sincronización"
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
@@ -1320,10 +1324,13 @@ msgid ""
 "If you type your password,\n"
 "it will be visible to cybercriminals!"
 msgstr ""
+"Aviso: Esta página es insegura.\n"
+"Si escribes tu contraseña,\n"
+"será visible para los ciberdelincuentes!"
 
 #: ../eolie/toolbar_title.py:396
 msgid "Deny geolocation"
-msgstr ""
+msgstr "Denegar geolocalización"
 
 #: ../eolie/toolbar_title.py:402
 msgid "Blocked popups"
@@ -1440,6 +1447,10 @@ msgid ""
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
 "<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
+"La página web se cerró inesperadamente. Para continuar, recargar o ir a otra "
+"página.<br/><br/>Si el problema persiste, puede informar de un error <br/>"
+"Use <b>'WebKit Gtk'</b> como componente.<br/>Configurar <b>[GTK]</b> como "
+"prefijo de asunto."
 
 #: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
