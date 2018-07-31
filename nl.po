@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-31 15:52+0200\n"
-"PO-Revision-Date: 2018-07-31 14:07+0000\n"
+"PO-Revision-Date: 2018-08-01 14:36+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
 "Language: nl\n"
@@ -28,7 +28,7 @@ msgstr "Gebruiker toestaan te doneren aan het project"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
-msgstr "Zijbalk weergeven (sitebeheerder)"
+msgstr "Zijbalk tonen (sitebeheerder)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Block ads on pages"
@@ -492,7 +492,7 @@ msgstr "Afbeeldingen opslaan"
 
 #: ../data/PopoverImages.ui:106
 msgid "Show links"
-msgstr "Verwijzingen weergeven"
+msgstr "Koppelingen tonen"
 
 #: ../data/PopoverPasswords.ui:10
 msgid "Remove all passwords"
