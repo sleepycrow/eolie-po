@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 11:57+0200\n"
+"POT-Creation-Date: 2018-07-31 15:52+0200\n"
 "PO-Revision-Date: 2018-05-28 15:41+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -121,7 +121,7 @@ msgid "Popular items shown"
 msgstr "Populære elementer vist"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:516
-#: ../data/ToolbarMenu.ui:189
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Forvalgt forstørrelsesnivå"
 
@@ -194,6 +194,10 @@ msgstr "Nettleser"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie er en ny GNOME-nettleser."
 
+#: ../data/org.gnome.Eolie.appdata.xml.in:15
+msgid "Fix Ctrl+clic feature"
+msgstr ""
+
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
 msgstr "org.gnome.Eolie"
@@ -212,7 +216,7 @@ msgid "Trust web sites"
 msgstr "Stol på nettsider"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:230
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "Blokker reklame"
 
@@ -253,26 +257,6 @@ msgstr "Ikke blokker reklame på denne siden"
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
 msgstr "Ikke på denne siden"
-
-#: ../data/Appmenu.ui:7
-msgid "_Preferences"
-msgstr "_Innstillinger"
-
-#: ../data/Appmenu.ui:13
-msgid "_Sidebar"
-msgstr "_Sidefelt"
-
-#: ../data/Appmenu.ui:19
-msgid "_Keyboard Shortcuts"
-msgstr "_Tastatursnarveier"
-
-#: ../data/Appmenu.ui:29
-msgid "_About"
-msgstr "_Om"
-
-#: ../data/Appmenu.ui:33
-msgid "_Quit"
-msgstr "_Avslutt"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -426,7 +410,7 @@ msgstr ""
 "adresse og erstatt det med %s."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:269
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "Blokker bilder"
 
@@ -467,7 +451,7 @@ msgctxt "Trust web sites"
 msgid "Enabled"
 msgstr "Påskrudd"
 
-#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:330
+#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
 msgid "Spell checking"
 msgstr "Stavekontroll"
 
@@ -504,7 +488,7 @@ msgstr "OK"
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
 #: ../eolie/popover_uri.py:426 ../eolie/toolbar_end.py:136
-#: ../eolie/webview_signals.py:147
+#: ../eolie/webview_signals.py:148
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -541,7 +525,7 @@ msgid "History"
 msgstr "Historikk"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:256
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "Blokker oppsprettsvinduer"
 
@@ -566,7 +550,7 @@ msgstr "Lukk"
 msgid "Cancel download"
 msgstr "Avbryt nedlasting"
 
-#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:243
+#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
 msgid "Block JavaScript"
 msgstr "Blokker JavaScript"
 
@@ -583,7 +567,7 @@ msgid "Preferences"
 msgstr "Innstillinger"
 
 #: ../data/SettingsDialog.ui:54 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:144
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Nedlastinger"
 
@@ -619,7 +603,7 @@ msgstr "Startside:"
 msgid "Search engine"
 msgstr "Søkemotor"
 
-#: ../data/SettingsDialog.ui:208 ../eolie/context.py:83
+#: ../data/SettingsDialog.ui:208 ../eolie/context.py:82
 msgid "Popular pages"
 msgstr "Populære sider"
 
@@ -957,7 +941,7 @@ msgid "More actions"
 msgstr "Flere handlinger"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../eolie/menu_toolbar.py:47
 msgid "Leave fullscreen"
 msgstr "Forlat fullskjermsvisning"
 
@@ -982,55 +966,75 @@ msgstr "Lagre side"
 msgid "Print page"
 msgstr "Skriv ut side"
 
-#: ../data/ToolbarMenu.ui:127
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "Startside"
 
-#: ../data/ToolbarMenu.ui:173
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "Forminsk"
 
-#: ../data/ToolbarMenu.ui:204
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "Forstørr"
 
-#: ../data/ToolbarMenu.ui:285
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "Filtrering"
 
-#: ../eolie/application.py:227
+#: ../data/ToolbarMenu.ui:343
+msgid "_Preferences"
+msgstr "_Innstillinger"
+
+#: ../data/ToolbarMenu.ui:366
+msgid "_Sidebar"
+msgstr "_Sidefelt"
+
+#: ../data/ToolbarMenu.ui:379
+msgid "_Keyboard Shortcuts"
+msgstr "_Tastatursnarveier"
+
+#: ../data/ToolbarMenu.ui:393
+msgid "_Quit"
+msgstr "_Avslutt"
+
+#: ../data/ToolbarMenu.ui:406
+msgid "_About"
+msgstr "_Om"
+
+#: ../eolie/application.py:193
 msgid "Default"
 msgstr "Forvalg"
 
-#: ../eolie/application.py:228
+#: ../eolie/application.py:194
 msgid "Social networks"
 msgstr "Sosiale nettverk"
 
-#: ../eolie/application.py:229
+#: ../eolie/application.py:195
 msgid "Work"
 msgstr "Arbeid"
 
-#: ../eolie/application.py:230
+#: ../eolie/application.py:196
 msgid "Shopping"
 msgstr "Handling"
 
-#: ../eolie/application.py:231
+#: ../eolie/application.py:197
 msgid "Personal"
 msgstr "Personlig"
 
-#: ../eolie/application.py:232
+#: ../eolie/application.py:198
 msgid "Finance"
 msgstr "Finans"
 
-#: ../eolie/application.py:233
+#: ../eolie/application.py:199
 msgid "Sport"
 msgstr "Sport"
 
-#: ../eolie/application.py:732
+#: ../eolie/application.py:695
 msgid "Do you really want to quit Eolie?"
 msgstr "Vil du virkelig avslutte Eolie?"
 
-#: ../eolie/application.py:785
+#: ../eolie/application.py:748
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Nedlastinger kjører, er du sikker på at du vil avslutte?"
 
@@ -1042,21 +1046,17 @@ msgstr "Overvei å donere til prosjektet"
 msgid "Do you really want to close this page?"
 msgstr "Ønsker du virkelig å lukke denne siden?"
 
-#: ../eolie/context.py:146
+#: ../eolie/context.py:145
 msgid "Name"
 msgstr "Navn"
 
-#: ../eolie/context.py:147
+#: ../eolie/context.py:146
 msgid "Size"
 msgstr "Størrelse"
 
-#: ../eolie/context.py:149
+#: ../eolie/context.py:148
 msgid "Last modification"
 msgstr "Siste endring"
-
-#: ../eolie/database_adblock.py:205
-msgid "For stronger ad blocking, install git command"
-msgstr "For hardere reklameblokkering, installer Git-kommandoen"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
@@ -1138,7 +1138,7 @@ msgstr "Endre brukeragent"
 msgid "Close site"
 msgstr "Lukk side"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:49
 msgid "Enter fullscreen"
 msgstr "Fullskjermsvisning"
 
@@ -1525,11 +1525,11 @@ msgstr "Lagre videoer"
 msgid "Save page as image"
 msgstr "Lagre side som bilde"
 
-#: ../eolie/webview_signals.py:143
+#: ../eolie/webview_signals.py:144
 msgid "Select files to upload"
 msgstr "Velg filer å laste opp"
 
-#: ../eolie/webview_signals.py:146
+#: ../eolie/webview_signals.py:147
 msgid "Open"
 msgstr "Åpne"
 
@@ -1544,6 +1544,9 @@ msgstr "Søk etter neste forekomst"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 treff"
+
+#~ msgid "For stronger ad blocking, install git command"
+#~ msgstr "For hardere reklameblokkering, installer Git-kommandoen"
 
 #, fuzzy
 #~ msgid "Trust websites: no adblock for internal URIs"

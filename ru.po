@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 11:57+0200\n"
+"POT-Creation-Date: 2018-07-31 15:52+0200\n"
 "PO-Revision-Date: 2018-01-22 17:54+0000\n"
 "Last-Translator: Дмитрий Нужнов <sergash.mail@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/"
@@ -122,7 +122,7 @@ msgid "Popular items shown"
 msgstr "Часто просматриваемые"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:516
-#: ../data/ToolbarMenu.ui:189
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Уровень масштабирования по умолчанию"
 
@@ -195,6 +195,10 @@ msgstr "Веб-браузер"
 msgid "Eolie is a new GNOME web browser."
 msgstr ""
 
+#: ../data/org.gnome.Eolie.appdata.xml.in:15
+msgid "Fix Ctrl+clic feature"
+msgstr ""
+
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
 msgstr ""
@@ -214,7 +218,7 @@ msgid "Trust web sites"
 msgstr ""
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:230
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "Блокировка рекламы"
 
@@ -257,26 +261,6 @@ msgstr ""
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
 msgstr ""
-
-#: ../data/Appmenu.ui:7
-msgid "_Preferences"
-msgstr "_Настройки"
-
-#: ../data/Appmenu.ui:13
-msgid "_Sidebar"
-msgstr "_Боковая панель"
-
-#: ../data/Appmenu.ui:19
-msgid "_Keyboard Shortcuts"
-msgstr "_Горячие клавиши"
-
-#: ../data/Appmenu.ui:29
-msgid "_About"
-msgstr "_Информация"
-
-#: ../data/Appmenu.ui:33
-msgid "_Quit"
-msgstr "_Выход"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -428,7 +412,7 @@ msgstr ""
 "запрос из результирующего адреса и замените его %s."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:269
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "Блокировать изображения"
 
@@ -469,7 +453,7 @@ msgctxt "Trust web sites"
 msgid "Enabled"
 msgstr ""
 
-#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:330
+#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
 msgid "Spell checking"
 msgstr "Проверка орфографии"
 
@@ -504,7 +488,7 @@ msgstr ""
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
 #: ../eolie/popover_uri.py:426 ../eolie/toolbar_end.py:136
-#: ../eolie/webview_signals.py:147
+#: ../eolie/webview_signals.py:148
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -541,7 +525,7 @@ msgid "History"
 msgstr "История"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:256
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "Блокировать всплывающие окна"
 
@@ -566,7 +550,7 @@ msgstr "Закрыть"
 msgid "Cancel download"
 msgstr "Отменить загрузку"
 
-#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:243
+#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
 msgid "Block JavaScript"
 msgstr "Блокировать JavaScript"
 
@@ -584,7 +568,7 @@ msgid "Preferences"
 msgstr "Настройки"
 
 #: ../data/SettingsDialog.ui:54 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:144
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Загрузки"
 
@@ -620,7 +604,7 @@ msgstr "Начальная страница:"
 msgid "Search engine"
 msgstr "Поисковый движок"
 
-#: ../data/SettingsDialog.ui:208 ../eolie/context.py:83
+#: ../data/SettingsDialog.ui:208 ../eolie/context.py:82
 msgid "Popular pages"
 msgstr "Часто посещаемые страницы"
 
@@ -951,7 +935,7 @@ msgid "More actions"
 msgstr "Другие действия"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../eolie/menu_toolbar.py:47
 msgid "Leave fullscreen"
 msgstr "Выйти из полноэкранного режима"
 
@@ -975,55 +959,75 @@ msgstr "Сохранить страницу"
 msgid "Print page"
 msgstr "Печать страницы"
 
-#: ../data/ToolbarMenu.ui:127
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "Начальная страница"
 
-#: ../data/ToolbarMenu.ui:173
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "Уменьшить"
 
-#: ../data/ToolbarMenu.ui:204
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "Приблизить"
 
-#: ../data/ToolbarMenu.ui:285
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "Фильтрация"
 
-#: ../eolie/application.py:227
+#: ../data/ToolbarMenu.ui:343
+msgid "_Preferences"
+msgstr "_Настройки"
+
+#: ../data/ToolbarMenu.ui:366
+msgid "_Sidebar"
+msgstr "_Боковая панель"
+
+#: ../data/ToolbarMenu.ui:379
+msgid "_Keyboard Shortcuts"
+msgstr "_Горячие клавиши"
+
+#: ../data/ToolbarMenu.ui:393
+msgid "_Quit"
+msgstr "_Выход"
+
+#: ../data/ToolbarMenu.ui:406
+msgid "_About"
+msgstr "_Информация"
+
+#: ../eolie/application.py:193
 msgid "Default"
 msgstr "По умолчанию"
 
-#: ../eolie/application.py:228
+#: ../eolie/application.py:194
 msgid "Social networks"
 msgstr "Социальные сети"
 
-#: ../eolie/application.py:229
+#: ../eolie/application.py:195
 msgid "Work"
 msgstr "Работа"
 
-#: ../eolie/application.py:230
+#: ../eolie/application.py:196
 msgid "Shopping"
 msgstr "Шопинг"
 
-#: ../eolie/application.py:231
+#: ../eolie/application.py:197
 msgid "Personal"
 msgstr "Личное"
 
-#: ../eolie/application.py:232
+#: ../eolie/application.py:198
 msgid "Finance"
 msgstr "Финансы"
 
-#: ../eolie/application.py:233
+#: ../eolie/application.py:199
 msgid "Sport"
 msgstr "Спорт"
 
-#: ../eolie/application.py:732
+#: ../eolie/application.py:695
 msgid "Do you really want to quit Eolie?"
 msgstr "Вы действительно хотите выйти из Эоли?"
 
-#: ../eolie/application.py:785
+#: ../eolie/application.py:748
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 
@@ -1035,21 +1039,17 @@ msgstr ""
 msgid "Do you really want to close this page?"
 msgstr "Вы действительно хотите закрыть эту страницу?"
 
-#: ../eolie/context.py:146
+#: ../eolie/context.py:145
 msgid "Name"
 msgstr "Название"
 
-#: ../eolie/context.py:147
+#: ../eolie/context.py:146
 msgid "Size"
 msgstr "Размер"
 
-#: ../eolie/context.py:149
+#: ../eolie/context.py:148
 msgid "Last modification"
 msgstr "Последние изменение"
-
-#: ../eolie/database_adblock.py:205
-msgid "For stronger ad blocking, install git command"
-msgstr "Для более качественной блокировки рекламы установите git"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
@@ -1127,7 +1127,7 @@ msgstr "Изменить user agent"
 msgid "Close site"
 msgstr "Закрыть сайт"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:49
 msgid "Enter fullscreen"
 msgstr "Войти в полноэкранный режим"
 
@@ -1498,11 +1498,11 @@ msgstr "Сохранить видео"
 msgid "Save page as image"
 msgstr "Сохранить страницу как изображение"
 
-#: ../eolie/webview_signals.py:143
+#: ../eolie/webview_signals.py:144
 msgid "Select files to upload"
 msgstr "Выберите файлы для загрузки"
 
-#: ../eolie/webview_signals.py:146
+#: ../eolie/webview_signals.py:147
 msgid "Open"
 msgstr "Открыть"
 
@@ -1517,6 +1517,9 @@ msgstr "Поиск вперед"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 из 1000 совпадений"
+
+#~ msgid "For stronger ad blocking, install git command"
+#~ msgstr "Для более качественной блокировки рекламы установите git"
 
 #~ msgid "Block unwanted popups on pages"
 #~ msgstr "Блокировать нежелательные всплывающие окна на страницах"

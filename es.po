@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 11:57+0200\n"
+"POT-Creation-Date: 2018-07-31 15:52+0200\n"
 "PO-Revision-Date: 2018-07-18 01:42+0000\n"
 "Last-Translator: Wilfer Daniel Ciro Maya <wilcirom@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/eolie/es/>"
-"\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/eolie/es/"
+">\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -120,7 +120,7 @@ msgid "Popular items shown"
 msgstr "Elementos populares mostrados"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:516
-#: ../data/ToolbarMenu.ui:189
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Nivel de escala predeterminado"
 
@@ -193,6 +193,10 @@ msgstr "Navegador web"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie es un nuevo navegador de GNOME."
 
+#: ../data/org.gnome.Eolie.appdata.xml.in:15
+msgid "Fix Ctrl+clic feature"
+msgstr ""
+
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
 msgstr "org.gnome.Eolie"
@@ -211,7 +215,7 @@ msgid "Trust web sites"
 msgstr "Confiar en sitios web"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:230
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "Bloquear anuncios"
 
@@ -253,26 +257,6 @@ msgstr "No bloquear los anuncios en esta página"
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
 msgstr "No en esta página"
-
-#: ../data/Appmenu.ui:7
-msgid "_Preferences"
-msgstr "_Preferencias"
-
-#: ../data/Appmenu.ui:13
-msgid "_Sidebar"
-msgstr "_Panel Lateral"
-
-#: ../data/Appmenu.ui:19
-msgid "_Keyboard Shortcuts"
-msgstr "A_tajos de teclado"
-
-#: ../data/Appmenu.ui:29
-msgid "_About"
-msgstr "_Acerca de"
-
-#: ../data/Appmenu.ui:33
-msgid "_Quit"
-msgstr "_Salir"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -424,7 +408,7 @@ msgstr ""
 "término de búsqueda de la dirección por «%s»."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:269
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "Bloquear imágenes"
 
@@ -465,7 +449,7 @@ msgctxt "Trust web sites"
 msgid "Enabled"
 msgstr "habilitado"
 
-#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:330
+#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
 msgid "Spell checking"
 msgstr "Revisión ortográfica"
 
@@ -500,7 +484,7 @@ msgstr "Aceptar"
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
 #: ../eolie/popover_uri.py:426 ../eolie/toolbar_end.py:136
-#: ../eolie/webview_signals.py:147
+#: ../eolie/webview_signals.py:148
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -537,7 +521,7 @@ msgid "History"
 msgstr "Historial"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:256
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "Bloquear ventanas emergentes"
 
@@ -562,7 +546,7 @@ msgstr "Cerrar"
 msgid "Cancel download"
 msgstr "Cancelar la descarga"
 
-#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:243
+#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
 msgid "Block JavaScript"
 msgstr "Bloquear JavaScript"
 
@@ -580,7 +564,7 @@ msgid "Preferences"
 msgstr "Preferencias"
 
 #: ../data/SettingsDialog.ui:54 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:144
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Descargas"
 
@@ -616,7 +600,7 @@ msgstr "Página de inicio:"
 msgid "Search engine"
 msgstr "Buscador"
 
-#: ../data/SettingsDialog.ui:208 ../eolie/context.py:83
+#: ../data/SettingsDialog.ui:208 ../eolie/context.py:82
 msgid "Popular pages"
 msgstr "Páginas populares"
 
@@ -949,7 +933,7 @@ msgid "More actions"
 msgstr "Más acciones"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../eolie/menu_toolbar.py:47
 msgid "Leave fullscreen"
 msgstr "Abandonar la pantalla completa"
 
@@ -973,55 +957,75 @@ msgstr "Guardar la página"
 msgid "Print page"
 msgstr "Imprimir la página"
 
-#: ../data/ToolbarMenu.ui:127
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "Página de inicio"
 
-#: ../data/ToolbarMenu.ui:173
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "Alejar"
 
-#: ../data/ToolbarMenu.ui:204
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "Acercar"
 
-#: ../data/ToolbarMenu.ui:285
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "Filtrado"
 
-#: ../eolie/application.py:227
+#: ../data/ToolbarMenu.ui:343
+msgid "_Preferences"
+msgstr "_Preferencias"
+
+#: ../data/ToolbarMenu.ui:366
+msgid "_Sidebar"
+msgstr "_Panel Lateral"
+
+#: ../data/ToolbarMenu.ui:379
+msgid "_Keyboard Shortcuts"
+msgstr "A_tajos de teclado"
+
+#: ../data/ToolbarMenu.ui:393
+msgid "_Quit"
+msgstr "_Salir"
+
+#: ../data/ToolbarMenu.ui:406
+msgid "_About"
+msgstr "_Acerca de"
+
+#: ../eolie/application.py:193
 msgid "Default"
 msgstr "Predeterminado"
 
-#: ../eolie/application.py:228
+#: ../eolie/application.py:194
 msgid "Social networks"
 msgstr "Redes sociales"
 
-#: ../eolie/application.py:229
+#: ../eolie/application.py:195
 msgid "Work"
 msgstr "Trabajo"
 
-#: ../eolie/application.py:230
+#: ../eolie/application.py:196
 msgid "Shopping"
 msgstr "Compras"
 
-#: ../eolie/application.py:231
+#: ../eolie/application.py:197
 msgid "Personal"
 msgstr "Personal"
 
-#: ../eolie/application.py:232
+#: ../eolie/application.py:198
 msgid "Finance"
 msgstr "Finanzas"
 
-#: ../eolie/application.py:233
+#: ../eolie/application.py:199
 msgid "Sport"
 msgstr "Deportes"
 
-#: ../eolie/application.py:732
+#: ../eolie/application.py:695
 msgid "Do you really want to quit Eolie?"
 msgstr "¿Confirma que quiere salir de Eolie?"
 
-#: ../eolie/application.py:785
+#: ../eolie/application.py:748
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Las descargas se están ejecutando, ¿estás seguro de que quieres salir?"
 
@@ -1033,21 +1037,17 @@ msgstr "Por favor considere una donación al proyecto"
 msgid "Do you really want to close this page?"
 msgstr "¿Confirma que quiere cerrar esta página?"
 
-#: ../eolie/context.py:146
+#: ../eolie/context.py:145
 msgid "Name"
 msgstr "Nombre"
 
-#: ../eolie/context.py:147
+#: ../eolie/context.py:146
 msgid "Size"
 msgstr "Tamaño"
 
-#: ../eolie/context.py:149
+#: ../eolie/context.py:148
 msgid "Last modification"
 msgstr "Última modificación"
-
-#: ../eolie/database_adblock.py:205
-msgid "For stronger ad blocking, install git command"
-msgstr "Para un bloqueo de anuncios más potente, instale Git"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
@@ -1125,7 +1125,7 @@ msgstr "Modificar el agente de usuario"
 msgid "Close site"
 msgstr "Cerrar el sitio"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:49
 msgid "Enter fullscreen"
 msgstr "Ver en pantalla completa"
 
@@ -1448,8 +1448,8 @@ msgid ""
 "<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
 "La página web se cerró inesperadamente. Para continuar, recargar o ir a otra "
-"página.<br/><br/>Si el problema persiste, puede informar de un error <br/>"
-"Use <b>'WebKit Gtk'</b> como componente.<br/>Configurar <b>[GTK]</b> como "
+"página.<br/><br/>Si el problema persiste, puede informar de un error <br/"
+">Use <b>'WebKit Gtk'</b> como componente.<br/>Configurar <b>[GTK]</b> como "
 "prefijo de asunto."
 
 #: ../eolie/webview_errors.py:235
@@ -1508,11 +1508,11 @@ msgstr "Guardar los vídeos"
 msgid "Save page as image"
 msgstr "Guardar la página como imagen"
 
-#: ../eolie/webview_signals.py:143
+#: ../eolie/webview_signals.py:144
 msgid "Select files to upload"
 msgstr "Seleccione los archivos que se cargarán"
 
-#: ../eolie/webview_signals.py:146
+#: ../eolie/webview_signals.py:147
 msgid "Open"
 msgstr "Abrir"
 
@@ -1527,6 +1527,9 @@ msgstr "Buscar la ocurrencia siguiente"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 de 1000 coincidencias"
+
+#~ msgid "For stronger ad blocking, install git command"
+#~ msgstr "Para un bloqueo de anuncios más potente, instale Git"
 
 #~ msgid "Block unwanted popups on pages"
 #~ msgstr "Bloquear ventanas emergentes no deseadas en las páginas"

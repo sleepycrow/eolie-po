@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 11:57+0200\n"
+"POT-Creation-Date: 2018-07-31 15:52+0200\n"
 "PO-Revision-Date: 2018-04-27 05:10+0000\n"
 "Last-Translator: Göran Olsson <kronstadt21@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/"
@@ -120,7 +120,7 @@ msgid "Popular items shown"
 msgstr "Visade populära objekt"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:516
-#: ../data/ToolbarMenu.ui:189
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Standardzoomnivå"
 
@@ -193,6 +193,10 @@ msgstr "Webbläsare"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie är en ny webbläsare för GNOME."
 
+#: ../data/org.gnome.Eolie.appdata.xml.in:15
+msgid "Fix Ctrl+clic feature"
+msgstr ""
+
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
 msgstr "org.gnome.Eolie"
@@ -211,7 +215,7 @@ msgid "Trust web sites"
 msgstr "Betrodda webbplatser"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:230
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "Blockera annonser"
 
@@ -252,26 +256,6 @@ msgstr ""
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
 msgstr ""
-
-#: ../data/Appmenu.ui:7
-msgid "_Preferences"
-msgstr "_Inställningar"
-
-#: ../data/Appmenu.ui:13
-msgid "_Sidebar"
-msgstr "_Sidopanel"
-
-#: ../data/Appmenu.ui:19
-msgid "_Keyboard Shortcuts"
-msgstr "_Tangentbordsgenvägar"
-
-#: ../data/Appmenu.ui:29
-msgid "_About"
-msgstr "_Om"
-
-#: ../data/Appmenu.ui:33
-msgid "_Quit"
-msgstr "A_vsluta"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -420,7 +404,7 @@ msgstr ""
 "resulterande adressen och ersätt den med %s."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:269
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "Blockera bilder"
 
@@ -459,7 +443,7 @@ msgctxt "Trust web sites"
 msgid "Enabled"
 msgstr "Aktiverad"
 
-#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:330
+#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
 msgid "Spell checking"
 msgstr "Stavningskontroll"
 
@@ -494,7 +478,7 @@ msgstr ""
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
 #: ../eolie/popover_uri.py:426 ../eolie/toolbar_end.py:136
-#: ../eolie/webview_signals.py:147
+#: ../eolie/webview_signals.py:148
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -531,7 +515,7 @@ msgid "History"
 msgstr "Historik"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:256
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "Blockera poppupper"
 
@@ -555,7 +539,7 @@ msgstr "Stäng"
 msgid "Cancel download"
 msgstr "Avbryt hämtning"
 
-#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:243
+#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
 msgid "Block JavaScript"
 msgstr "Blockera JavaScript"
 
@@ -572,7 +556,7 @@ msgid "Preferences"
 msgstr "Inställningar"
 
 #: ../data/SettingsDialog.ui:54 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:144
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Hämtningar"
 
@@ -608,7 +592,7 @@ msgstr "Startsida:"
 msgid "Search engine"
 msgstr "Sökmotor"
 
-#: ../data/SettingsDialog.ui:208 ../eolie/context.py:83
+#: ../data/SettingsDialog.ui:208 ../eolie/context.py:82
 msgid "Popular pages"
 msgstr "Populära sidor"
 
@@ -939,7 +923,7 @@ msgid "More actions"
 msgstr "Fler åtgärder"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../eolie/menu_toolbar.py:47
 msgid "Leave fullscreen"
 msgstr "Lämna helskärm"
 
@@ -963,55 +947,75 @@ msgstr "Spara sida"
 msgid "Print page"
 msgstr "Skriv ut sida"
 
-#: ../data/ToolbarMenu.ui:127
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "Startsida"
 
-#: ../data/ToolbarMenu.ui:173
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "Zooma ut"
 
-#: ../data/ToolbarMenu.ui:204
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "Zooma in"
 
-#: ../data/ToolbarMenu.ui:285
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "Filtrering"
 
-#: ../eolie/application.py:227
+#: ../data/ToolbarMenu.ui:343
+msgid "_Preferences"
+msgstr "_Inställningar"
+
+#: ../data/ToolbarMenu.ui:366
+msgid "_Sidebar"
+msgstr "_Sidopanel"
+
+#: ../data/ToolbarMenu.ui:379
+msgid "_Keyboard Shortcuts"
+msgstr "_Tangentbordsgenvägar"
+
+#: ../data/ToolbarMenu.ui:393
+msgid "_Quit"
+msgstr "A_vsluta"
+
+#: ../data/ToolbarMenu.ui:406
+msgid "_About"
+msgstr "_Om"
+
+#: ../eolie/application.py:193
 msgid "Default"
 msgstr "Standard"
 
-#: ../eolie/application.py:228
+#: ../eolie/application.py:194
 msgid "Social networks"
 msgstr "Sociala nätverk"
 
-#: ../eolie/application.py:229
+#: ../eolie/application.py:195
 msgid "Work"
 msgstr "Arbete"
 
-#: ../eolie/application.py:230
+#: ../eolie/application.py:196
 msgid "Shopping"
 msgstr "Shopping"
 
-#: ../eolie/application.py:231
+#: ../eolie/application.py:197
 msgid "Personal"
 msgstr "Personligt"
 
-#: ../eolie/application.py:232
+#: ../eolie/application.py:198
 msgid "Finance"
 msgstr "Finans"
 
-#: ../eolie/application.py:233
+#: ../eolie/application.py:199
 msgid "Sport"
 msgstr "Sport"
 
-#: ../eolie/application.py:732
+#: ../eolie/application.py:695
 msgid "Do you really want to quit Eolie?"
 msgstr "Vill du verkligen avsluta Eolie?"
 
-#: ../eolie/application.py:785
+#: ../eolie/application.py:748
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 
@@ -1023,21 +1027,17 @@ msgstr "Överväg gärna en donation till projektet"
 msgid "Do you really want to close this page?"
 msgstr "Vill du verkligen stänga denna sida?"
 
-#: ../eolie/context.py:146
+#: ../eolie/context.py:145
 msgid "Name"
 msgstr "Namn"
 
-#: ../eolie/context.py:147
+#: ../eolie/context.py:146
 msgid "Size"
 msgstr "Storlek"
 
-#: ../eolie/context.py:149
+#: ../eolie/context.py:148
 msgid "Last modification"
 msgstr "Senaste ändring"
-
-#: ../eolie/database_adblock.py:205
-msgid "For stronger ad blocking, install git command"
-msgstr "För starkare annonsblockering, installera kommandot git"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
@@ -1115,7 +1115,7 @@ msgstr "Ändra användaragent"
 msgid "Close site"
 msgstr "Stäng webbplats"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:49
 msgid "Enter fullscreen"
 msgstr "Helskärmsläge"
 
@@ -1486,11 +1486,11 @@ msgstr "Spara videoklipp"
 msgid "Save page as image"
 msgstr "Spara sida som bild"
 
-#: ../eolie/webview_signals.py:143
+#: ../eolie/webview_signals.py:144
 msgid "Select files to upload"
 msgstr "Välj filer att skicka"
 
-#: ../eolie/webview_signals.py:146
+#: ../eolie/webview_signals.py:147
 msgid "Open"
 msgstr "Öppna"
 
@@ -1505,6 +1505,9 @@ msgstr "Sök nästa förekomst"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 träffar"
+
+#~ msgid "For stronger ad blocking, install git command"
+#~ msgstr "För starkare annonsblockering, installera kommandot git"
 
 #~ msgid "Trust websites: no adblock for internal URIs"
 #~ msgstr "Betrodda webbplatser: ingen annonsblockering för interna URI:er"

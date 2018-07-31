@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 11:57+0200\n"
+"POT-Creation-Date: 2018-07-31 15:52+0200\n"
 "PO-Revision-Date: 2018-05-24 10:16+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
@@ -115,7 +115,7 @@ msgid "Popular items shown"
 msgstr "Weergegeven populaire items"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:516
-#: ../data/ToolbarMenu.ui:189
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Standaard zoomniveau"
 
@@ -190,6 +190,10 @@ msgstr "Webbrowser"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie is een webbrowser voor Gnome."
 
+#: ../data/org.gnome.Eolie.appdata.xml.in:15
+msgid "Fix Ctrl+clic feature"
+msgstr ""
+
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
 msgstr "org.gnome.Eolie"
@@ -208,7 +212,7 @@ msgid "Trust web sites"
 msgstr "Vertrouwde websites"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:230
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "Advertenties blokkeren"
 
@@ -249,26 +253,6 @@ msgstr "Geen advertenties blokkeren op deze pagina"
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
 msgstr "Niet op deze pagina"
-
-#: ../data/Appmenu.ui:7
-msgid "_Preferences"
-msgstr "_Voorkeuren"
-
-#: ../data/Appmenu.ui:13
-msgid "_Sidebar"
-msgstr "_Zijbalk"
-
-#: ../data/Appmenu.ui:19
-msgid "_Keyboard Shortcuts"
-msgstr "_Sneltoetsen"
-
-#: ../data/Appmenu.ui:29
-msgid "_About"
-msgstr "_Info"
-
-#: ../data/Appmenu.ui:33
-msgid "_Quit"
-msgstr "_Afsluiten"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -420,7 +404,7 @@ msgstr ""
 "terechtkomt. Verwijder de zoekterm uit dit adres en vervang deze door ‘%s’."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:269
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "Afbeeldingen blokkeren"
 
@@ -459,7 +443,7 @@ msgctxt "Trust web sites"
 msgid "Enabled"
 msgstr "Ingeschakeld"
 
-#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:330
+#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
 msgid "Spell checking"
 msgstr "Spellingscontrole"
 
@@ -494,7 +478,7 @@ msgstr "Oké"
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
 #: ../eolie/popover_uri.py:426 ../eolie/toolbar_end.py:136
-#: ../eolie/webview_signals.py:147
+#: ../eolie/webview_signals.py:148
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -531,7 +515,7 @@ msgid "History"
 msgstr "Geschiedenis"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:256
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "Pop-ups blokkeren"
 
@@ -555,7 +539,7 @@ msgstr "Sluiten"
 msgid "Cancel download"
 msgstr "Download annuleren"
 
-#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:243
+#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
 msgid "Block JavaScript"
 msgstr "JavaScript blokkeren"
 
@@ -572,7 +556,7 @@ msgid "Preferences"
 msgstr "Voorkeuren"
 
 #: ../data/SettingsDialog.ui:54 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:144
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Downloads"
 
@@ -608,7 +592,7 @@ msgstr "Startpagina:"
 msgid "Search engine"
 msgstr "Zoekmachine"
 
-#: ../data/SettingsDialog.ui:208 ../eolie/context.py:83
+#: ../data/SettingsDialog.ui:208 ../eolie/context.py:82
 msgid "Popular pages"
 msgstr "Populaire pagina’s"
 
@@ -941,7 +925,7 @@ msgid "More actions"
 msgstr "Meer acties"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../eolie/menu_toolbar.py:47
 msgid "Leave fullscreen"
 msgstr "Volledig scherm verlaten"
 
@@ -965,55 +949,75 @@ msgstr "Pagina opslaan"
 msgid "Print page"
 msgstr "Pagina afdrukken"
 
-#: ../data/ToolbarMenu.ui:127
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "Startpagina"
 
-#: ../data/ToolbarMenu.ui:173
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "Uitzoomen"
 
-#: ../data/ToolbarMenu.ui:204
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "Inzoomen"
 
-#: ../data/ToolbarMenu.ui:285
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "Filters"
 
-#: ../eolie/application.py:227
+#: ../data/ToolbarMenu.ui:343
+msgid "_Preferences"
+msgstr "_Voorkeuren"
+
+#: ../data/ToolbarMenu.ui:366
+msgid "_Sidebar"
+msgstr "_Zijbalk"
+
+#: ../data/ToolbarMenu.ui:379
+msgid "_Keyboard Shortcuts"
+msgstr "_Sneltoetsen"
+
+#: ../data/ToolbarMenu.ui:393
+msgid "_Quit"
+msgstr "_Afsluiten"
+
+#: ../data/ToolbarMenu.ui:406
+msgid "_About"
+msgstr "_Info"
+
+#: ../eolie/application.py:193
 msgid "Default"
 msgstr "Standaard"
 
-#: ../eolie/application.py:228
+#: ../eolie/application.py:194
 msgid "Social networks"
 msgstr "Sociale netwerken"
 
-#: ../eolie/application.py:229
+#: ../eolie/application.py:195
 msgid "Work"
 msgstr "Werk"
 
-#: ../eolie/application.py:230
+#: ../eolie/application.py:196
 msgid "Shopping"
 msgstr "Winkelen"
 
-#: ../eolie/application.py:231
+#: ../eolie/application.py:197
 msgid "Personal"
 msgstr "Persoonlijk"
 
-#: ../eolie/application.py:232
+#: ../eolie/application.py:198
 msgid "Finance"
 msgstr "Financiën"
 
-#: ../eolie/application.py:233
+#: ../eolie/application.py:199
 msgid "Sport"
 msgstr "Sport"
 
-#: ../eolie/application.py:732
+#: ../eolie/application.py:695
 msgid "Do you really want to quit Eolie?"
 msgstr "Weet u zeker dat u Eolie wilt afsluiten?"
 
-#: ../eolie/application.py:785
+#: ../eolie/application.py:748
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 "Er worden nog bestanden gedownload. Weet je zeker dat je wilt afsluiten?"
@@ -1026,21 +1030,17 @@ msgstr "Gelieve een donatie aan het project te overwegen"
 msgid "Do you really want to close this page?"
 msgstr "Weet u zeker dat u deze pagina wilt sluiten?"
 
-#: ../eolie/context.py:146
+#: ../eolie/context.py:145
 msgid "Name"
 msgstr "Naam"
 
-#: ../eolie/context.py:147
+#: ../eolie/context.py:146
 msgid "Size"
 msgstr "Grootte"
 
-#: ../eolie/context.py:149
+#: ../eolie/context.py:148
 msgid "Last modification"
 msgstr "Laatst gewijzigd"
-
-#: ../eolie/database_adblock.py:205
-msgid "For stronger ad blocking, install git command"
-msgstr "Installeer ‘git’ voor krachtigere advertentieblokkering"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
@@ -1118,7 +1118,7 @@ msgstr "Gebruikersagent wijzigen"
 msgid "Close site"
 msgstr "Site sluiten"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:49
 msgid "Enter fullscreen"
 msgstr "Volledig scherm"
 
@@ -1500,11 +1500,11 @@ msgstr "Video’s opslaan"
 msgid "Save page as image"
 msgstr "Pagina opslaan als afbeelding"
 
-#: ../eolie/webview_signals.py:143
+#: ../eolie/webview_signals.py:144
 msgid "Select files to upload"
 msgstr "Selecteer bestanden om te uploaden"
 
-#: ../eolie/webview_signals.py:146
+#: ../eolie/webview_signals.py:147
 msgid "Open"
 msgstr "Openen"
 
@@ -1519,6 +1519,9 @@ msgstr "Volgende vermelding zoeken"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 van 1000 resultaten"
+
+#~ msgid "For stronger ad blocking, install git command"
+#~ msgstr "Installeer ‘git’ voor krachtigere advertentieblokkering"
 
 #~ msgid "Trust websites: no adblock for internal URIs"
 #~ msgstr "Vertrouwde websites: geen advertentieblokkering op interne URL’s"

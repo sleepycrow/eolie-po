@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 11:57+0200\n"
+"POT-Creation-Date: 2018-07-31 15:52+0200\n"
 "PO-Revision-Date: 2018-07-10 12:34+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
-"\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/"
+">\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,7 +121,7 @@ msgid "Popular items shown"
 msgstr "العناصر الشائعة الظاهرة"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:516
-#: ../data/ToolbarMenu.ui:189
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "مستوى التقريب المبدئي"
 
@@ -194,6 +194,10 @@ msgstr "متصفح وب"
 msgid "Eolie is a new GNOME web browser."
 msgstr "أيولي متصفح الوِب الجديد لمشروع غنوم."
 
+#: ../data/org.gnome.Eolie.appdata.xml.in:15
+msgid "Fix Ctrl+clic feature"
+msgstr ""
+
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
 msgstr "org.gnome.Eolie"
@@ -212,7 +216,7 @@ msgid "Trust web sites"
 msgstr "مواقع الوِب الموثوقة"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:230
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "احجب الإعلانات"
 
@@ -253,26 +257,6 @@ msgstr "لا تحجب الإعلانات في هذا الموقع"
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
 msgstr "ليس في هذه الصفحة"
-
-#: ../data/Appmenu.ui:7
-msgid "_Preferences"
-msgstr "ال_تفضيلات"
-
-#: ../data/Appmenu.ui:13
-msgid "_Sidebar"
-msgstr "ال_قائمة الجانبية"
-
-#: ../data/Appmenu.ui:19
-msgid "_Keyboard Shortcuts"
-msgstr "اختصارات _لوحة المفاتيح"
-
-#: ../data/Appmenu.ui:29
-msgid "_About"
-msgstr "_حول أيولي"
-
-#: ../data/Appmenu.ui:33
-msgid "_Quit"
-msgstr "أ_غلق"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -318,8 +302,8 @@ msgid ""
 "clear data only for particular websites."
 msgstr ""
 "تستطيع اختيار فترة من الزمن لمحو بيانات كل مواقع الوب التي زرتها في تلك في "
-"الفترة، إذا اخترت \"من البداية\" فإنك تستطيع أيضًا اختيار مواقع مخصوصة لكي تُ"
-"محى بياناتها هي فقط."
+"الفترة، إذا اخترت \"من البداية\" فإنك تستطيع أيضًا اختيار مواقع مخصوصة لكي "
+"تُمحى بياناتها هي فقط."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
@@ -419,7 +403,7 @@ msgstr ""
 "العنوان الناتج، ثم احذف كلمة البحث من العنوان الناتج وضع مكانه %s."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:269
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "احجب الصور"
 
@@ -458,7 +442,7 @@ msgctxt "Trust web sites"
 msgid "Enabled"
 msgstr "مفعّل"
 
-#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:330
+#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
 msgid "Spell checking"
 msgstr "التصحيح الإملائي"
 
@@ -493,7 +477,7 @@ msgstr "حسنًا"
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
 #: ../eolie/popover_uri.py:426 ../eolie/toolbar_end.py:136
-#: ../eolie/webview_signals.py:147
+#: ../eolie/webview_signals.py:148
 msgid "Cancel"
 msgstr "ألغ"
 
@@ -530,7 +514,7 @@ msgid "History"
 msgstr "التأريخ"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:256
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "احجب المنبثقات"
 
@@ -554,7 +538,7 @@ msgstr "أغلق"
 msgid "Cancel download"
 msgstr "ألغ التنزيل"
 
-#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:243
+#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
 msgid "Block JavaScript"
 msgstr "احجب الجافاسكربت"
 
@@ -571,7 +555,7 @@ msgid "Preferences"
 msgstr "التفضيلات"
 
 #: ../data/SettingsDialog.ui:54 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:144
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "التنزيلات"
 
@@ -607,7 +591,7 @@ msgstr "صفحة البدء:"
 msgid "Search engine"
 msgstr "محرك البحث"
 
-#: ../data/SettingsDialog.ui:208 ../eolie/context.py:83
+#: ../data/SettingsDialog.ui:208 ../eolie/context.py:82
 msgid "Popular pages"
 msgstr "الصفحات الشائعة"
 
@@ -940,7 +924,7 @@ msgid "More actions"
 msgstr "أفعال أكثر"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../eolie/menu_toolbar.py:47
 msgid "Leave fullscreen"
 msgstr "اترك وضع ملء الشاشة"
 
@@ -964,55 +948,75 @@ msgstr "احفظ الصفحة"
 msgid "Print page"
 msgstr "اطبع الصفحة"
 
-#: ../data/ToolbarMenu.ui:127
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "صفحة البدء"
 
-#: ../data/ToolbarMenu.ui:173
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "بعّد"
 
-#: ../data/ToolbarMenu.ui:204
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "قرّب"
 
-#: ../data/ToolbarMenu.ui:285
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "الترشيح"
 
-#: ../eolie/application.py:227
+#: ../data/ToolbarMenu.ui:343
+msgid "_Preferences"
+msgstr "ال_تفضيلات"
+
+#: ../data/ToolbarMenu.ui:366
+msgid "_Sidebar"
+msgstr "ال_قائمة الجانبية"
+
+#: ../data/ToolbarMenu.ui:379
+msgid "_Keyboard Shortcuts"
+msgstr "اختصارات _لوحة المفاتيح"
+
+#: ../data/ToolbarMenu.ui:393
+msgid "_Quit"
+msgstr "أ_غلق"
+
+#: ../data/ToolbarMenu.ui:406
+msgid "_About"
+msgstr "_حول أيولي"
+
+#: ../eolie/application.py:193
 msgid "Default"
 msgstr "المبدئية"
 
-#: ../eolie/application.py:228
+#: ../eolie/application.py:194
 msgid "Social networks"
 msgstr "الشبكات الاجتماعية"
 
-#: ../eolie/application.py:229
+#: ../eolie/application.py:195
 msgid "Work"
 msgstr "العمل"
 
-#: ../eolie/application.py:230
+#: ../eolie/application.py:196
 msgid "Shopping"
 msgstr "التسوّق"
 
-#: ../eolie/application.py:231
+#: ../eolie/application.py:197
 msgid "Personal"
 msgstr "الشخصية"
 
-#: ../eolie/application.py:232
+#: ../eolie/application.py:198
 msgid "Finance"
 msgstr "الاقتصاد"
 
-#: ../eolie/application.py:233
+#: ../eolie/application.py:199
 msgid "Sport"
 msgstr "الرياضة"
 
-#: ../eolie/application.py:732
+#: ../eolie/application.py:695
 msgid "Do you really want to quit Eolie?"
 msgstr "هل أنت واثق أنك تريد إغلاق أيولي؟"
 
-#: ../eolie/application.py:785
+#: ../eolie/application.py:748
 msgid "Downloads running, are you sure you want quit?"
 msgstr "توجد تنزيلات تعمل، فهل أنت واثق أنك تريد الخروج؟"
 
@@ -1024,21 +1028,17 @@ msgstr ""
 msgid "Do you really want to close this page?"
 msgstr "هل أنت واثق أنك تريد إغلاق هذه الصفحة؟"
 
-#: ../eolie/context.py:146
+#: ../eolie/context.py:145
 msgid "Name"
 msgstr "الاسم"
 
-#: ../eolie/context.py:147
+#: ../eolie/context.py:146
 msgid "Size"
 msgstr "الحجم"
 
-#: ../eolie/context.py:149
+#: ../eolie/context.py:148
 msgid "Last modification"
 msgstr "آخر تعديل"
-
-#: ../eolie/database_adblock.py:205
-msgid "For stronger ad blocking, install git command"
-msgstr "ثبت الأمر git لأجل حجب أقوى للإعلانات"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
@@ -1116,7 +1116,7 @@ msgstr "غيّر معرّف المستخدم"
 msgid "Close site"
 msgstr "أغلق الموقع"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:49
 msgid "Enter fullscreen"
 msgstr "ادخل وضع ملء الشاشة"
 
@@ -1497,11 +1497,11 @@ msgstr "احفظ الفيديوهات"
 msgid "Save page as image"
 msgstr "صوّر الصفحة"
 
-#: ../eolie/webview_signals.py:143
+#: ../eolie/webview_signals.py:144
 msgid "Select files to upload"
 msgstr "اختر ملفات لرفعها"
 
-#: ../eolie/webview_signals.py:146
+#: ../eolie/webview_signals.py:147
 msgid "Open"
 msgstr "افتح"
 
@@ -1516,6 +1516,9 @@ msgstr "ابحث عن المطابق التالي"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 من 1000 نتيجة"
+
+#~ msgid "For stronger ad blocking, install git command"
+#~ msgstr "ثبت الأمر git لأجل حجب أقوى للإعلانات"
 
 #~ msgid "Trust websites: no adblock for internal URIs"
 #~ msgstr "المواقع الموثوقة التي لن تُمنع الإعلانات في روابطها الداخلية"
