@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-31 15:52+0200\n"
-"PO-Revision-Date: 2018-08-22 19:40+0000\n"
+"PO-Revision-Date: 2018-09-18 16:27+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "lt/>\n"
@@ -140,7 +140,7 @@ msgstr "Nurodyti svetainėms, jog aš nenoriu, kad mane sektų"
 
 #: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "DNS prediction"
-msgstr ""
+msgstr "DNS nuspėjimas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "Enable search suggestions"
@@ -197,7 +197,7 @@ msgstr "Eolie yra nauja GNOME saityno naršyklė."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
 msgid "Fix Ctrl+clic feature"
-msgstr ""
+msgstr "Pataisyti Vald+spustelėjimo ypatybę"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -743,7 +743,7 @@ msgstr "Susikurti ar tvarkyti paskyrą"
 
 #: ../data/SettingsDialog.ui:1007
 msgid "Syncing"
-msgstr ""
+msgstr "Sinchronizavimas"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -940,7 +940,7 @@ msgstr "Pradėti sinchronizaciją"
 
 #: ../data/ToolbarEnd.ui:69
 msgid "Disallow access to this site"
-msgstr ""
+msgstr "Nebeleisti prieigos prie šios svetainės"
 
 #: ../data/ToolbarEnd.ui:146
 msgid "Startup page"
@@ -968,7 +968,7 @@ msgstr "Didinti"
 
 #: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
-msgstr ""
+msgstr "Filtravimas"
 
 #: ../data/ToolbarMenu.ui:343
 msgid "_Preferences"
@@ -1327,7 +1327,7 @@ msgstr ""
 
 #: ../eolie/toolbar_title.py:396
 msgid "Deny geolocation"
-msgstr ""
+msgstr "Atmesti geografinės vietos nustatymą"
 
 #: ../eolie/toolbar_title.py:402
 msgid "Blocked popups"
