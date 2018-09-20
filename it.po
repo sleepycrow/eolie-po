@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-31 15:52+0200\n"
-"PO-Revision-Date: 2018-07-16 13:39+0000\n"
-"Last-Translator: Tobia Tesan <tobia.tesan@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/eolie/it/"
-">\n"
+"PO-Revision-Date: 2018-09-21 17:29+0000\n"
+"Last-Translator: Fabio Iacovino <fabio.iacovino99@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/eolie/it/>"
+"\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1-dev\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -161,7 +161,7 @@ msgstr "Visita il sito di Eolie"
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Tobia Tesan <tobia.tesan@gmail.com>"
+msgstr "Fabio Iacovino <fabio.iacovino99@gmail.com>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -177,7 +177,7 @@ msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
 msgid "PayPal"
-msgstr "PayPal"
+msgstr "Paypal"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:6
 #: ../data/org.gnome.Eolie.desktop.in:3
@@ -451,7 +451,7 @@ msgstr ""
 
 #: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:135
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 #: ../data/PopoverDownloads.ui:53
 msgid "Open download folder"
@@ -474,7 +474,7 @@ msgstr ""
 #: ../eolie/popover_uri.py:426 ../eolie/toolbar_end.py:136
 #: ../eolie/webview_signals.py:148
 msgid "Cancel"
-msgstr ""
+msgstr "Cancella"
 
 #: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:812
 msgid "Forever"
@@ -735,7 +735,7 @@ msgstr ""
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Generale"
 
 #: ../data/Shortcuts.ui:17
 msgctxt "shortcut window"
@@ -967,15 +967,15 @@ msgstr ""
 
 #: ../data/ToolbarMenu.ui:379
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Scorciatoie da tastiera"
 
 #: ../data/ToolbarMenu.ui:393
 msgid "_Quit"
-msgstr ""
+msgstr "_Esci"
 
 #: ../data/ToolbarMenu.ui:406
 msgid "_About"
-msgstr ""
+msgstr "_Informazioni"
 
 #: ../eolie/application.py:193
 msgid "Default"
