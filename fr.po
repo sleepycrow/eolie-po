@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-27 10:05+0200\n"
-"PO-Revision-Date: 2018-09-21 16:25+0000\n"
+"PO-Revision-Date: 2018-09-27 08:07+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/"
-">\n"
+"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
+"\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -199,7 +199,7 @@ msgstr "Eolie est un nouveau navigateur web pour GNOME."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
 msgid "Remove profiles feature"
-msgstr ""
+msgstr "Suppression du support des profils"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -1133,11 +1133,11 @@ msgstr "Pas de vidéos"
 
 #: ../eolie/pages_manager_child.py:160
 msgid "Unpin this page"
-msgstr ""
+msgstr "Détacher cette page"
 
 #: ../eolie/pages_manager_child.py:163
 msgid "Pin this page"
-msgstr ""
+msgstr "Attacher cette page"
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
