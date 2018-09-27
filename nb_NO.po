@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-27 10:05+0200\n"
-"PO-Revision-Date: 2018-08-29 16:40+0000\n"
+"PO-Revision-Date: 2018-09-28 08:30+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "eolie/nb_NO/>\n"
@@ -195,8 +195,9 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie er en ny GNOME-nettleser."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
+#, fuzzy
 msgid "Remove profiles feature"
-msgstr ""
+msgstr "Fjernprofilfunksjon"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -1148,11 +1149,11 @@ msgstr "Ingen videoer"
 
 #: ../eolie/pages_manager_child.py:160
 msgid "Unpin this page"
-msgstr ""
+msgstr "Opphev festing av side"
 
 #: ../eolie/pages_manager_child.py:163
 msgid "Pin this page"
-msgstr ""
+msgstr "Fest side"
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
