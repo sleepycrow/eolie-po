@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 15:52+0200\n"
+"POT-Creation-Date: 2018-09-27 10:05+0200\n"
 "PO-Revision-Date: 2018-08-07 08:45+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -196,8 +196,8 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie is ne webbrowser voor GNOME."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
-msgid "Fix Ctrl+clic feature"
-msgstr "Ctrl+klik-functie herstellen"
+msgid "Remove profiles feature"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -991,39 +991,39 @@ msgstr "_Afsluiten"
 msgid "_About"
 msgstr "_Info"
 
-#: ../eolie/application.py:193
+#: ../eolie/application.py:209
 msgid "Default"
 msgstr "Standaard"
 
-#: ../eolie/application.py:194
+#: ../eolie/application.py:210
 msgid "Social networks"
 msgstr "Sociale netwerken"
 
-#: ../eolie/application.py:195
+#: ../eolie/application.py:211
 msgid "Work"
 msgstr "Werk"
 
-#: ../eolie/application.py:196
+#: ../eolie/application.py:212
 msgid "Shopping"
 msgstr "Winkelen"
 
-#: ../eolie/application.py:197
+#: ../eolie/application.py:213
 msgid "Personal"
 msgstr "Persoonlijk"
 
-#: ../eolie/application.py:198
+#: ../eolie/application.py:214
 msgid "Finance"
 msgstr "Financiën"
 
-#: ../eolie/application.py:199
+#: ../eolie/application.py:215
 msgid "Sport"
 msgstr "Sport"
 
-#: ../eolie/application.py:695
+#: ../eolie/application.py:747
 msgid "Do you really want to quit Eolie?"
 msgstr "Zijt ge zeker dat ge Eolie wilt afsluiten?"
 
-#: ../eolie/application.py:748
+#: ../eolie/application.py:800
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 "Der worden nog bestanden gedownload, zijt ge zeker dat ge wilt afsluiten?"
@@ -1108,7 +1108,7 @@ msgstr "Gesloten tabbladen"
 msgid "Open all pages"
 msgstr "Alle pagina’s openen"
 
-#: ../eolie/menu_profiles.py:45 ../eolie/menu_sites.py:69
+#: ../eolie/menu_profiles.py:45
 msgid "Profiles"
 msgstr "Profielen"
 
@@ -1131,6 +1131,14 @@ msgstr "Volledig scherm"
 #: ../eolie/menu_videos.py:79
 msgid "No videos"
 msgstr "Geen video’s"
+
+#: ../eolie/pages_manager_child.py:160
+msgid "Unpin this page"
+msgstr ""
+
+#: ../eolie/pages_manager_child.py:163
+msgid "Pin this page"
+msgstr ""
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
@@ -1206,43 +1214,43 @@ msgstr "Bladwijzer bewerken"
 msgid "Open all pages with this tag"
 msgstr "Alle pagina’s met dezen tag openen"
 
-#: ../eolie/popover_uri.py:786
+#: ../eolie/popover_uri.py:794
 msgid "Popular"
 msgstr "Populair"
 
-#: ../eolie/popover_uri.py:789
+#: ../eolie/popover_uri.py:797
 msgid "Recent"
 msgstr "Recent"
 
-#: ../eolie/popover_uri.py:791
+#: ../eolie/popover_uri.py:799
 msgid "Unclassified"
 msgstr "Ongeclassificeerd"
 
-#: ../eolie/popover_uri.py:814
+#: ../eolie/popover_uri.py:822
 msgid "From the past hour"
 msgstr "Van het voorbije uur"
 
-#: ../eolie/popover_uri.py:815
+#: ../eolie/popover_uri.py:823
 msgid "From the past day"
 msgstr "Van de voorbijen dag"
 
-#: ../eolie/popover_uri.py:816
+#: ../eolie/popover_uri.py:824
 msgid "From the past week"
 msgstr "Van de voorbije week"
 
-#: ../eolie/popover_uri.py:818
+#: ../eolie/popover_uri.py:826
 msgid "From the past four weeks"
 msgstr "Van de voorbije vier weken"
 
-#: ../eolie/popover_uri.py:819
+#: ../eolie/popover_uri.py:827
 msgid "From selected day"
 msgstr "Vanaf nen bepaalden dag"
 
-#: ../eolie/popover_uri.py:820
+#: ../eolie/popover_uri.py:828
 msgid "From the beginning"
 msgstr "Vanaf het begin"
 
-#: ../eolie/popover_uri.py:1090
+#: ../eolie/popover_uri.py:1096
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bladwijzers"
@@ -1526,6 +1534,9 @@ msgstr "Volgende vermelding zoeken"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 van 1000 resultaten"
+
+#~ msgid "Fix Ctrl+clic feature"
+#~ msgstr "Ctrl+klik-functie herstellen"
 
 #~ msgid "For stronger ad blocking, install git command"
 #~ msgstr "Installeert ‘git’ voor krachtigere reclameblokkering"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 15:52+0200\n"
+"POT-Creation-Date: 2018-09-27 10:05+0200\n"
 "PO-Revision-Date: 2018-09-05 03:14+0000\n"
 "Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -194,8 +194,8 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie 是个新的 GNOME 网页浏览器。"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
-msgid "Fix Ctrl+clic feature"
-msgstr "修复 Ctrl+点击 功能"
+msgid "Remove profiles feature"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -299,7 +299,9 @@ msgid ""
 "You can select a period of time to clear data for all websites modified in "
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
-msgstr "您可以选择要清理的浏览数据的时间区间。如果您选择“全部”，那么您可以选择只清空一部分指定网站的数据。"
+msgstr ""
+"您可以选择要清理的浏览数据的时间区间。如果您选择“全部”，那么您可以选择只清空"
+"一部分指定网站的数据。"
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
@@ -393,7 +395,9 @@ msgid ""
 "To determine the search address, perform a search using the search engine "
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
-msgstr "如要确定搜索地址，使用搜索引擎搜索您需要的结果并添加结果地址。将搜索项字串替换为 %s。"
+msgstr ""
+"如要确定搜索地址，使用搜索引擎搜索您需要的结果并添加结果地址。将搜索项字串替"
+"换为 %s。"
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
 #: ../data/ToolbarMenu.ui:267
@@ -977,39 +981,39 @@ msgstr "退出(_Q)"
 msgid "_About"
 msgstr "关于(_A)"
 
-#: ../eolie/application.py:193
+#: ../eolie/application.py:209
 msgid "Default"
 msgstr "默认"
 
-#: ../eolie/application.py:194
+#: ../eolie/application.py:210
 msgid "Social networks"
 msgstr "社交网络"
 
-#: ../eolie/application.py:195
+#: ../eolie/application.py:211
 msgid "Work"
 msgstr "工作"
 
-#: ../eolie/application.py:196
+#: ../eolie/application.py:212
 msgid "Shopping"
 msgstr "购物"
 
-#: ../eolie/application.py:197
+#: ../eolie/application.py:213
 msgid "Personal"
 msgstr "个人"
 
-#: ../eolie/application.py:198
+#: ../eolie/application.py:214
 msgid "Finance"
 msgstr "金融"
 
-#: ../eolie/application.py:199
+#: ../eolie/application.py:215
 msgid "Sport"
 msgstr "运动"
 
-#: ../eolie/application.py:695
+#: ../eolie/application.py:747
 msgid "Do you really want to quit Eolie?"
 msgstr "您确定要退出 Eolie 吗？"
 
-#: ../eolie/application.py:748
+#: ../eolie/application.py:800
 msgid "Downloads running, are you sure you want quit?"
 msgstr "用运行中的下载任务，您确定要退出？"
 
@@ -1093,7 +1097,7 @@ msgstr "已关闭的页面"
 msgid "Open all pages"
 msgstr "打开所有页面"
 
-#: ../eolie/menu_profiles.py:45 ../eolie/menu_sites.py:69
+#: ../eolie/menu_profiles.py:45
 msgid "Profiles"
 msgstr "配置文件"
 
@@ -1116,6 +1120,14 @@ msgstr "进入全屏"
 #: ../eolie/menu_videos.py:79
 msgid "No videos"
 msgstr "无视频"
+
+#: ../eolie/pages_manager_child.py:160
+msgid "Unpin this page"
+msgstr ""
+
+#: ../eolie/pages_manager_child.py:163
+msgid "Pin this page"
+msgstr ""
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
@@ -1191,43 +1203,43 @@ msgstr "编辑书签"
 msgid "Open all pages with this tag"
 msgstr "以此标签打开所有页面"
 
-#: ../eolie/popover_uri.py:786
+#: ../eolie/popover_uri.py:794
 msgid "Popular"
 msgstr "热门"
 
-#: ../eolie/popover_uri.py:789
+#: ../eolie/popover_uri.py:797
 msgid "Recent"
 msgstr "最近"
 
-#: ../eolie/popover_uri.py:791
+#: ../eolie/popover_uri.py:799
 msgid "Unclassified"
 msgstr "未分类"
 
-#: ../eolie/popover_uri.py:814
+#: ../eolie/popover_uri.py:822
 msgid "From the past hour"
 msgstr "一小时内"
 
-#: ../eolie/popover_uri.py:815
+#: ../eolie/popover_uri.py:823
 msgid "From the past day"
 msgstr "一天内"
 
-#: ../eolie/popover_uri.py:816
+#: ../eolie/popover_uri.py:824
 msgid "From the past week"
 msgstr "上周内"
 
-#: ../eolie/popover_uri.py:818
+#: ../eolie/popover_uri.py:826
 msgid "From the past four weeks"
 msgstr "四周内"
 
-#: ../eolie/popover_uri.py:819
+#: ../eolie/popover_uri.py:827
 msgid "From selected day"
 msgstr "所选日"
 
-#: ../eolie/popover_uri.py:820
+#: ../eolie/popover_uri.py:828
 msgid "From the beginning"
 msgstr "全部"
 
-#: ../eolie/popover_uri.py:1090
+#: ../eolie/popover_uri.py:1096
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s 书签"
@@ -1353,7 +1365,9 @@ msgstr "载入此网页失败"
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
-msgstr "该站点可能暂时无法访问或已移动到新的地址。<br/>您可能需要确定互联网连接是否正常。"
+msgstr ""
+"该站点可能暂时无法访问或已移动到新的地址。<br/>您可能需要确定互联网连接是否正"
+"常。"
 
 #: ../eolie/webview_errors.py:140
 msgid "Network not available"
@@ -1409,7 +1423,9 @@ msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
 "or alter information going to or from this site (for example, private "
 "messages, credit card information, or passwords)."
-msgstr "此网站似乎不是真的 %s。<br/>攻击这可能在窃取或更改发往或发自该网站的信息（例如，私人信息、信用卡信息或密码）。"
+msgstr ""
+"此网站似乎不是真的 %s。<br/>攻击这可能在窃取或更改发往或发自该网站的信息（例"
+"如，私人信息、信用卡信息或密码）。"
 
 #: ../eolie/webview_errors.py:206
 msgid "Accept Risk and Proceed"
@@ -1425,8 +1441,9 @@ msgid ""
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
 "<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
-"此网页意外终止了。要继续，请重新载入或转到另一页面。<br/><br/>如果玩体继续存在，您可以以<b>“WebKit Gtk”</b>为组件报告缺陷 "
-":)。<br/>设定 <b>[GTK]</b> 作为主题前缀。"
+"此网页意外终止了。要继续，请重新载入或转到另一页面。<br/><br/>如果玩体继续存"
+"在，您可以以<b>“WebKit Gtk”</b>为组件报告缺陷 :)。<br/>设定 <b>[GTK]</b> 作为"
+"主题前缀。"
 
 #: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
@@ -1503,3 +1520,6 @@ msgstr "搜索下个出现位置"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 / 1000 个匹配项"
+
+#~ msgid "Fix Ctrl+clic feature"
+#~ msgstr "修复 Ctrl+点击 功能"

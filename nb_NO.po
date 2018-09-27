@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 15:52+0200\n"
+"POT-Creation-Date: 2018-09-27 10:05+0200\n"
 "PO-Revision-Date: 2018-08-29 16:40+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -195,8 +195,8 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie er en ny GNOME-nettleser."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
-msgid "Fix Ctrl+clic feature"
-msgstr "Fiks for Ctrl+klikk -funksjonalitet"
+msgid "Remove profiles feature"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -1002,39 +1002,39 @@ msgstr "_Avslutt"
 msgid "_About"
 msgstr "_Om"
 
-#: ../eolie/application.py:193
+#: ../eolie/application.py:209
 msgid "Default"
 msgstr "Forvalg"
 
-#: ../eolie/application.py:194
+#: ../eolie/application.py:210
 msgid "Social networks"
 msgstr "Sosiale nettverk"
 
-#: ../eolie/application.py:195
+#: ../eolie/application.py:211
 msgid "Work"
 msgstr "Arbeid"
 
-#: ../eolie/application.py:196
+#: ../eolie/application.py:212
 msgid "Shopping"
 msgstr "Handling"
 
-#: ../eolie/application.py:197
+#: ../eolie/application.py:213
 msgid "Personal"
 msgstr "Personlig"
 
-#: ../eolie/application.py:198
+#: ../eolie/application.py:214
 msgid "Finance"
 msgstr "Finans"
 
-#: ../eolie/application.py:199
+#: ../eolie/application.py:215
 msgid "Sport"
 msgstr "Sport"
 
-#: ../eolie/application.py:695
+#: ../eolie/application.py:747
 msgid "Do you really want to quit Eolie?"
 msgstr "Vil du virkelig avslutte Eolie?"
 
-#: ../eolie/application.py:748
+#: ../eolie/application.py:800
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Nedlastinger kjører, er du sikker på at du vil avslutte?"
 
@@ -1122,7 +1122,7 @@ msgstr "Lukkede sider"
 msgid "Open all pages"
 msgstr "Åpne alle sider"
 
-#: ../eolie/menu_profiles.py:45 ../eolie/menu_sites.py:69
+#: ../eolie/menu_profiles.py:45
 msgid "Profiles"
 msgstr "Profiler"
 
@@ -1145,6 +1145,14 @@ msgstr "Fullskjermsvisning"
 #: ../eolie/menu_videos.py:79
 msgid "No videos"
 msgstr "Ingen videoer"
+
+#: ../eolie/pages_manager_child.py:160
+msgid "Unpin this page"
+msgstr ""
+
+#: ../eolie/pages_manager_child.py:163
+msgid "Pin this page"
+msgstr ""
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
@@ -1220,43 +1228,43 @@ msgstr "Rediger bokmerke"
 msgid "Open all pages with this tag"
 msgstr "Åpne alle sidene med denne merkelappen"
 
-#: ../eolie/popover_uri.py:786
+#: ../eolie/popover_uri.py:794
 msgid "Popular"
 msgstr "Populær"
 
-#: ../eolie/popover_uri.py:789
+#: ../eolie/popover_uri.py:797
 msgid "Recent"
 msgstr "Nylig"
 
-#: ../eolie/popover_uri.py:791
+#: ../eolie/popover_uri.py:799
 msgid "Unclassified"
 msgstr "Uklassifisert"
 
-#: ../eolie/popover_uri.py:814
+#: ../eolie/popover_uri.py:822
 msgid "From the past hour"
 msgstr "Fra siste time"
 
-#: ../eolie/popover_uri.py:815
+#: ../eolie/popover_uri.py:823
 msgid "From the past day"
 msgstr "Fra den siste dagen"
 
-#: ../eolie/popover_uri.py:816
+#: ../eolie/popover_uri.py:824
 msgid "From the past week"
 msgstr "Fra siste uke"
 
-#: ../eolie/popover_uri.py:818
+#: ../eolie/popover_uri.py:826
 msgid "From the past four weeks"
 msgstr "Fra de siste fire timene"
 
-#: ../eolie/popover_uri.py:819
+#: ../eolie/popover_uri.py:827
 msgid "From selected day"
 msgstr "Fra valgt dag"
 
-#: ../eolie/popover_uri.py:820
+#: ../eolie/popover_uri.py:828
 msgid "From the beginning"
 msgstr "Fra begynnelsen"
 
-#: ../eolie/popover_uri.py:1090
+#: ../eolie/popover_uri.py:1096
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bokmerker"
@@ -1544,6 +1552,9 @@ msgstr "Søk etter neste forekomst"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 treff"
+
+#~ msgid "Fix Ctrl+clic feature"
+#~ msgstr "Fiks for Ctrl+klikk -funksjonalitet"
 
 #~ msgid "For stronger ad blocking, install git command"
 #~ msgstr "For hardere reklameblokkering, installer Git-kommandoen"

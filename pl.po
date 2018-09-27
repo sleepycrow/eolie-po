@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 15:52+0200\n"
+"POT-Creation-Date: 2018-09-27 10:05+0200\n"
 "PO-Revision-Date: 2017-12-02 16:34+0000\n"
 "Last-Translator: Piotr Sokół <psokol.l10n@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/eolie/eolie/pl/>\n"
@@ -193,7 +193,7 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie jest nową przeglądarka internetową GNOME."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
-msgid "Fix Ctrl+clic feature"
+msgid "Remove profiles feature"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
@@ -993,42 +993,42 @@ msgstr "Z_akończ"
 msgid "_About"
 msgstr "_O programie"
 
-#: ../eolie/application.py:193
+#: ../eolie/application.py:209
 #, fuzzy
 msgid "Default"
 msgstr "Domyślna:"
 
-#: ../eolie/application.py:194
+#: ../eolie/application.py:210
 msgid "Social networks"
 msgstr ""
 
-#: ../eolie/application.py:195
+#: ../eolie/application.py:211
 msgid "Work"
 msgstr ""
 
-#: ../eolie/application.py:196
+#: ../eolie/application.py:212
 msgid "Shopping"
 msgstr ""
 
-#: ../eolie/application.py:197
+#: ../eolie/application.py:213
 msgid "Personal"
 msgstr ""
 
-#: ../eolie/application.py:198
+#: ../eolie/application.py:214
 #, fuzzy
 msgid "Finance"
 msgstr "Anuluj"
 
-#: ../eolie/application.py:199
+#: ../eolie/application.py:215
 #, fuzzy
 msgid "Sport"
 msgstr "Importuj"
 
-#: ../eolie/application.py:695
+#: ../eolie/application.py:747
 msgid "Do you really want to quit Eolie?"
 msgstr "Zakończyć działanie programu?"
 
-#: ../eolie/application.py:748
+#: ../eolie/application.py:800
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 
@@ -1113,7 +1113,7 @@ msgstr "Zamknięte karty"
 msgid "Open all pages"
 msgstr "Otwórz wszystkie karty"
 
-#: ../eolie/menu_profiles.py:45 ../eolie/menu_sites.py:69
+#: ../eolie/menu_profiles.py:45
 msgid "Profiles"
 msgstr ""
 
@@ -1136,6 +1136,14 @@ msgstr "Przechodzi w tryb pełnoekranowy"
 #: ../eolie/menu_videos.py:79
 msgid "No videos"
 msgstr "Brak nagrań wideo"
+
+#: ../eolie/pages_manager_child.py:160
+msgid "Unpin this page"
+msgstr ""
+
+#: ../eolie/pages_manager_child.py:163
+msgid "Pin this page"
+msgstr ""
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
@@ -1211,43 +1219,43 @@ msgstr "Edytuj zakładkę"
 msgid "Open all pages with this tag"
 msgstr ""
 
-#: ../eolie/popover_uri.py:786
+#: ../eolie/popover_uri.py:794
 msgid "Popular"
 msgstr "Popularne"
 
-#: ../eolie/popover_uri.py:789
+#: ../eolie/popover_uri.py:797
 msgid "Recent"
 msgstr "Ostatnie"
 
-#: ../eolie/popover_uri.py:791
+#: ../eolie/popover_uri.py:799
 msgid "Unclassified"
 msgstr "Niesklasyfikowane"
 
-#: ../eolie/popover_uri.py:814
+#: ../eolie/popover_uri.py:822
 msgid "From the past hour"
 msgstr "Z ostatniej godziny"
 
-#: ../eolie/popover_uri.py:815
+#: ../eolie/popover_uri.py:823
 msgid "From the past day"
 msgstr "Z ostatniego dnia"
 
-#: ../eolie/popover_uri.py:816
+#: ../eolie/popover_uri.py:824
 msgid "From the past week"
 msgstr "Z ostatniego tygodnia"
 
-#: ../eolie/popover_uri.py:818
+#: ../eolie/popover_uri.py:826
 msgid "From the past four weeks"
 msgstr "Z ostatnich 4 tygodni"
 
-#: ../eolie/popover_uri.py:819
+#: ../eolie/popover_uri.py:827
 msgid "From selected day"
 msgstr "Z wybranego dnia"
 
-#: ../eolie/popover_uri.py:820
+#: ../eolie/popover_uri.py:828
 msgid "From the beginning"
 msgstr "Od początku"
 
-#: ../eolie/popover_uri.py:1090
+#: ../eolie/popover_uri.py:1096
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s zakładek"
