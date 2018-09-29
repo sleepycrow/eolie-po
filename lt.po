@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-27 10:05+0200\n"
-"PO-Revision-Date: 2018-09-18 16:27+0000\n"
+"PO-Revision-Date: 2018-10-02 10:30+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "lt/>\n"
@@ -111,7 +111,7 @@ msgstr "Atverti šį puslapį paleidimo metu"
 
 #: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Minimum sidebar position"
-msgstr ""
+msgstr "Minimali šoninės juostos pozicija"
 
 #: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:490
 msgid "Minimum font size"
@@ -197,7 +197,7 @@ msgstr "Eolie yra nauja GNOME saityno naršyklė."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
 msgid "Remove profiles feature"
-msgstr ""
+msgstr "Profilių šalinimo ypatybė"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -290,11 +290,11 @@ msgstr "Paieška"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
-msgstr ""
+msgstr "Sričių filtras"
 
 #: ../data/DialogClearData.ui:67
 msgid "Search domains"
-msgstr ""
+msgstr "Paieškos sritys"
 
 #: ../data/DialogClearData.ui:83
 msgid ""
@@ -339,7 +339,7 @@ msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
-"Jūs negalėsite atšaukti šio veiksmo. Išvalymui pasirinkti duomenys bus "
+"Jūs negalėsite atšaukti šio veiksmo. Išvalymui pažymėti duomenys bus "
 "pašalinti visiems laikams."
 
 #: ../data/DialogCookies.ui:83
@@ -622,7 +622,7 @@ msgstr "Konfigūruoti paieškos sistemas"
 
 #: ../data/SettingsDialog.ui:271
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "Rodoma adresyno įrašų"
 
 #: ../data/SettingsDialog.ui:315
 msgid "Add suggestions"
@@ -1132,11 +1132,11 @@ msgstr "Nėra vaizdo įrašų"
 
 #: ../eolie/pages_manager_child.py:160
 msgid "Unpin this page"
-msgstr ""
+msgstr "Atsegti šį puslapį"
 
 #: ../eolie/pages_manager_child.py:163
 msgid "Pin this page"
-msgstr ""
+msgstr "Prisegti šį puslapį"
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
@@ -1515,7 +1515,7 @@ msgstr "Įrašyti puslapį kaip paveikslą"
 
 #: ../eolie/webview_signals.py:144
 msgid "Select files to upload"
-msgstr ""
+msgstr "Pasirinkite norimus įkelti failus"
 
 #: ../eolie/webview_signals.py:147
 msgid "Open"
