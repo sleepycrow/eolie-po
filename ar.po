@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-27 10:05+0200\n"
-"PO-Revision-Date: 2018-09-30 08:21+0000\n"
-"Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
+"PO-Revision-Date: 2018-10-01 17:21+0000\n"
+"Last-Translator: AbouZakaria <zakariakov@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
 "\n"
 "Language: ar\n"
@@ -30,7 +30,7 @@ msgstr "أظهر رسائل تنقيح مزامنة فيرفكس"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
-msgstr "اسمح للمستخدم بالتبرع لهذا المشروع"
+msgstr "السماح للمستخدم بالتبرع للمشروع"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
@@ -162,7 +162,7 @@ msgstr "زر موقع أيولي"
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Muhammad Abdulhadi"
+msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -174,11 +174,11 @@ msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:515
 msgid "Liberapay"
-msgstr "ليبرابَي"
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
 msgid "PayPal"
-msgstr "باي‌بال"
+msgstr "PayPal"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:6
 #: ../data/org.gnome.Eolie.desktop.in:3
@@ -285,7 +285,7 @@ msgstr "ا_مح"
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
 #: ../data/SettingsDialog.ui:114
 msgid "Search"
-msgstr "ابحث"
+msgstr "إبحث"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
@@ -479,7 +479,7 @@ msgstr "حسنًا"
 #: ../eolie/popover_uri.py:426 ../eolie/toolbar_end.py:136
 #: ../eolie/webview_signals.py:148
 msgid "Cancel"
-msgstr "ألغ"
+msgstr "إلغاء"
 
 #: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:812
 msgid "Forever"
@@ -581,7 +581,7 @@ msgstr "أخرى"
 
 #: ../data/SettingsDialog.ui:178
 msgid "Startup"
-msgstr "البدء"
+msgstr "بدء التشغيل"
 
 #: ../data/SettingsDialog.ui:195
 msgid "Start Page:"
@@ -742,7 +742,7 @@ msgstr "يزامن"
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr "عامة"
+msgstr "عام"
 
 #: ../data/Shortcuts.ui:17
 msgctxt "shortcut window"
@@ -752,12 +752,12 @@ msgstr "نافذة جديدة"
 #: ../data/Shortcuts.ui:24
 msgctxt "shortcut window"
 msgid "Settings"
-msgstr "الإعدادات"
+msgstr "إعدادات"
 
 #: ../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr "كامل الشاشة"
+msgstr "ملأ الشاشة"
 
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
@@ -782,7 +782,7 @@ msgstr "أظهر التأريخ"
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Search"
-msgstr "ابحث"
+msgstr "إبحث"
 
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
@@ -966,11 +966,11 @@ msgstr "الترشيح"
 
 #: ../data/ToolbarMenu.ui:343
 msgid "_Preferences"
-msgstr "ال_تفضيلات"
+msgstr "_تفضيلات"
 
 #: ../data/ToolbarMenu.ui:366
 msgid "_Sidebar"
-msgstr "ال_قائمة الجانبية"
+msgstr "_الشريط الجانبي"
 
 #: ../data/ToolbarMenu.ui:379
 msgid "_Keyboard Shortcuts"
@@ -1022,7 +1022,7 @@ msgstr "توجد تنزيلات تعمل، فهل أنت واثق أنك تري�
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr ""
+msgstr "يرجى النظر في تبرع لهذا المشروع"
 
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
@@ -1511,7 +1511,7 @@ msgstr "اختر ملفات لرفعها"
 
 #: ../eolie/webview_signals.py:147
 msgid "Open"
-msgstr "افتح"
+msgstr "إفتح"
 
 #: ../eolie/widget_find.py:47
 msgid "Search previous occurrence"
