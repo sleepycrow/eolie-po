@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-27 10:05+0200\n"
-"PO-Revision-Date: 2018-10-01 17:21+0000\n"
+"PO-Revision-Date: 2018-10-02 21:21+0000\n"
 "Last-Translator: AbouZakaria <zakariakov@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
 "\n"
@@ -162,7 +162,7 @@ msgstr "زر موقع أيولي"
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
+msgstr "أبو زكريا <zakariakov@gmail.com>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -174,7 +174,7 @@ msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:515
 msgid "Liberapay"
-msgstr "Liberapay"
+msgstr "ليبرابي Liberapay"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
 msgid "PayPal"
@@ -982,7 +982,7 @@ msgstr "أ_غلق"
 
 #: ../data/ToolbarMenu.ui:406
 msgid "_About"
-msgstr "_حول أيولي"
+msgstr "_حول"
 
 #: ../eolie/application.py:209
 msgid "Default"
