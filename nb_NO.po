@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 10:05+0200\n"
+"POT-Creation-Date: 2018-10-21 22:48+0200\n"
 "PO-Revision-Date: 2018-10-17 14:34+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -76,31 +76,31 @@ msgstr "Søkemotor for veven"
 msgid "Remember sessions"
 msgstr "Husk økter"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89 ../data/SettingsDialog.ui:646
+#: ../data/org.gnome.Eolie.gschema.xml:89 ../data/SettingsDialog.ui:650
 msgid "Remember passwords"
 msgstr "Husk passord"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:301
+#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:304
 msgid "Enable developer tools"
 msgstr "Skru på utviklerverktøy"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:157
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:160
 msgid "Enable plugins"
 msgstr "Skru på programtillegg"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:375
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:378
 msgid "Use system fonts"
 msgstr "Bruk systemets skrifter"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:404
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:407
 msgid "Sans serif font"
 msgstr "Seriffskrift"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:416
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:419
 msgid "Serif font"
 msgstr "Seriffløs skrift"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:428
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:431
 msgid "Monospace font"
 msgstr "Fastbreddeskrift"
 
@@ -112,7 +112,7 @@ msgstr "Åpne denne siden ved oppstart"
 msgid "Minimum sidebar position"
 msgstr "Minste sidefeltposisjon"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:490
+#: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:493
 msgid "Minimum font size"
 msgstr "Minste skriftstørrelse"
 
@@ -120,7 +120,7 @@ msgstr "Minste skriftstørrelse"
 msgid "Popular items shown"
 msgstr "Populære elementer vist"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:516
+#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:519
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Forvalgt forstørrelsesnivå"
@@ -133,7 +133,7 @@ msgstr "Lagringstype for kaker"
 msgid "History storage type"
 msgstr "Lagringstype for historikk"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:613
+#: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:616
 msgid "Tell websites I do not want to be tracked"
 msgstr "Fortell nettsider at jeg ikke ønsker å bli sporet"
 
@@ -141,11 +141,15 @@ msgstr "Fortell nettsider at jeg ikke ønsker å bli sporet"
 msgid "DNS prediction"
 msgstr "DNS-forutsigelse"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169
+#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:860
+msgid "Autoplay videos"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:174
 msgid "Enable search suggestions"
 msgstr "Skru på søkeforslag"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/LanguagesMenu.ui:59
+#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/LanguagesMenu.ui:59
 #: ../data/LanguagesMenu.ui:76
 msgid "Enable spell checking"
 msgstr "Skru på stavekontroll"
@@ -195,9 +199,8 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie er en ny GNOME-nettleser."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
-#, fuzzy
-msgid "Remove profiles feature"
-msgstr "Fjernprofilfunksjon"
+msgid "Better favicons code"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -284,7 +287,7 @@ msgid "C_lear"
 msgstr "T_øm"
 
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
-#: ../data/SettingsDialog.ui:114
+#: ../data/SettingsDialog.ui:117
 msgid "Search"
 msgstr "Søk"
 
@@ -362,7 +365,7 @@ msgid "Import bookmarks from:"
 msgstr "Importer bokmerker fra:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:192
-#: ../eolie/popover_uri.py:461
+#: ../eolie/popover_uri.py:460
 msgid "Import bookmarks"
 msgstr "Importer bokmerker"
 
@@ -488,16 +491,16 @@ msgstr "OK"
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:426 ../eolie/toolbar_end.py:136
-#: ../eolie/webview_signals.py:148
+#: ../eolie/popover_uri.py:425 ../eolie/toolbar_end.py:136
+#: ../eolie/webview_signals.py:146
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:812
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:822
 msgid "Forever"
 msgstr "For alltid"
 
-#: ../data/PopoverImages.ui:72 ../eolie/webview_signals_menu.py:184
+#: ../data/PopoverImages.ui:72 ../eolie/webview_signals_menu.py:133
 msgid "Save images"
 msgstr "Lagre bilder"
 
@@ -567,165 +570,165 @@ msgstr "Stol på nettsider"
 msgid "Preferences"
 msgstr "Innstillinger"
 
-#: ../data/SettingsDialog.ui:54 ../data/ToolbarEnd.ui:112
+#: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Nedlastinger"
 
-#: ../data/SettingsDialog.ui:71
+#: ../data/SettingsDialog.ui:74
 msgid "Download folder:"
 msgstr "Nedlastingsmappe:"
 
-#: ../data/SettingsDialog.ui:83
+#: ../data/SettingsDialog.ui:86
 msgid "Select download folder"
 msgstr "Velg nedlastingsmappe"
 
-#: ../data/SettingsDialog.ui:93
+#: ../data/SettingsDialog.ui:96
 msgid "Automatically open downloaded files"
 msgstr "Åpne nedlastede filer automatisk"
 
-#: ../data/SettingsDialog.ui:131
+#: ../data/SettingsDialog.ui:134
 msgid "Search engines:"
 msgstr "Søkemotorer:"
 
-#: ../data/SettingsDialog.ui:144 ../eolie/dialog_import_bookmarks.py:48
+#: ../data/SettingsDialog.ui:147 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "Andre"
 
-#: ../data/SettingsDialog.ui:178
+#: ../data/SettingsDialog.ui:181
 msgid "Startup"
 msgstr "Programstart"
 
-#: ../data/SettingsDialog.ui:195
+#: ../data/SettingsDialog.ui:198
 msgid "Start Page:"
 msgstr "Startside:"
 
-#: ../data/SettingsDialog.ui:207
+#: ../data/SettingsDialog.ui:210
 msgid "Search engine"
 msgstr "Søkemotor"
 
-#: ../data/SettingsDialog.ui:208 ../eolie/context.py:82
+#: ../data/SettingsDialog.ui:211 ../eolie/context.py:82
 msgid "Popular pages"
 msgstr "Populære sider"
 
-#: ../data/SettingsDialog.ui:209
+#: ../data/SettingsDialog.ui:212
 msgid "Popular bookmarks"
 msgstr "Populære bokmerker"
 
-#: ../data/SettingsDialog.ui:210
+#: ../data/SettingsDialog.ui:213
 msgid "Blank page"
 msgstr "Tom side"
 
-#: ../data/SettingsDialog.ui:211
+#: ../data/SettingsDialog.ui:214
 msgid "Set address"
 msgstr "Sett adresse"
 
-#: ../data/SettingsDialog.ui:233
+#: ../data/SettingsDialog.ui:236
 msgid "Remember previous pages on startup"
 msgstr "Husk tidligere sider ved oppstart"
 
-#: ../data/SettingsDialog.ui:250
+#: ../data/SettingsDialog.ui:253
 #, fuzzy
 msgid "Configure engines"
 msgstr "Sett opp søkemotorer"
 
-#: ../data/SettingsDialog.ui:271
+#: ../data/SettingsDialog.ui:274
 msgid "Shown bookmarks"
 msgstr "Viste bokmerker"
 
-#: ../data/SettingsDialog.ui:315
+#: ../data/SettingsDialog.ui:318
 msgid "Add suggestions"
 msgstr "Legg til forslag"
 
-#: ../data/SettingsDialog.ui:339
+#: ../data/SettingsDialog.ui:342
 msgid "General"
 msgstr "Hovedinnstillinger"
 
-#: ../data/SettingsDialog.ui:362
+#: ../data/SettingsDialog.ui:365
 msgid "Fonts"
 msgstr "Skrifter"
 
-#: ../data/SettingsDialog.ui:560
+#: ../data/SettingsDialog.ui:563
 msgid "Appearance"
 msgstr "Utseende"
 
-#: ../data/SettingsDialog.ui:584 ../eolie/dialog_clear_data.py:196
+#: ../data/SettingsDialog.ui:587 ../eolie/dialog_clear_data.py:196
 msgid "Cookies"
 msgstr "Kaker"
 
-#: ../data/SettingsDialog.ui:600
+#: ../data/SettingsDialog.ui:603
 msgid "Tracking"
 msgstr "Sporing"
 
-#: ../data/SettingsDialog.ui:634
+#: ../data/SettingsDialog.ui:638
 msgid "Passwords"
 msgstr "Passord"
 
-#: ../data/SettingsDialog.ui:666
+#: ../data/SettingsDialog.ui:671
 msgid "Saved data"
 msgstr "Lagret data"
 
-#: ../data/SettingsDialog.ui:688
+#: ../data/SettingsDialog.ui:694
 msgid "Behaviour:"
 msgstr "Oppførsel:"
 
-#: ../data/SettingsDialog.ui:703
+#: ../data/SettingsDialog.ui:709
 msgid "Always accept"
 msgstr "Alltid godta"
 
-#: ../data/SettingsDialog.ui:704
+#: ../data/SettingsDialog.ui:710
 msgid "Only from visited sites"
 msgstr "Kun fra besøkte sider"
 
-#: ../data/SettingsDialog.ui:705
+#: ../data/SettingsDialog.ui:711
 msgid "Never accept"
 msgstr "Aldri godta"
 
-#: ../data/SettingsDialog.ui:724
+#: ../data/SettingsDialog.ui:730
 msgid "Manage cookies"
 msgstr "Behandle kaker"
 
-#: ../data/SettingsDialog.ui:740
+#: ../data/SettingsDialog.ui:747
 msgid "Clear personal data"
 msgstr "Tøm personlig data"
 
-#: ../data/SettingsDialog.ui:761
+#: ../data/SettingsDialog.ui:769
 msgid "Manage passwords"
 msgstr "Behandle passord"
 
-#: ../data/SettingsDialog.ui:793
+#: ../data/SettingsDialog.ui:803
 msgid "Keep history:"
 msgstr "Behold historikk:"
 
-#: ../data/SettingsDialog.ui:808
+#: ../data/SettingsDialog.ui:818
 msgid "One day"
 msgstr "Én dag"
 
-#: ../data/SettingsDialog.ui:809
+#: ../data/SettingsDialog.ui:819
 msgid "One week"
 msgstr "Ei uke"
 
-#: ../data/SettingsDialog.ui:810
+#: ../data/SettingsDialog.ui:820
 msgid "Four weeks"
 msgstr "Fire uker"
 
-#: ../data/SettingsDialog.ui:811
+#: ../data/SettingsDialog.ui:821
 msgid "A year"
 msgstr "Ett år"
 
-#: ../data/SettingsDialog.ui:813
+#: ../data/SettingsDialog.ui:823
 msgid "Do not keep"
 msgstr "Ikke behold"
 
-#: ../data/SettingsDialog.ui:832
+#: ../data/SettingsDialog.ui:842
 msgid "Predict websites address"
 msgstr "Forutsi nettsideadresse"
 
-#: ../data/SettingsDialog.ui:862
+#: ../data/SettingsDialog.ui:890
 msgid "Privacy"
 msgstr "Personvern"
 
-#: ../data/SettingsDialog.ui:884
+#: ../data/SettingsDialog.ui:912
 msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
@@ -733,24 +736,24 @@ msgstr ""
 "Du kan dele dine bokmerker og historikk\n"
 "på alle dine enheter som kjører Eolie eller Firefox"
 
-#: ../data/SettingsDialog.ui:901
+#: ../data/SettingsDialog.ui:929
 #, fuzzy
 msgid "Login:"
 msgstr "Innlogging:"
 
-#: ../data/SettingsDialog.ui:923
+#: ../data/SettingsDialog.ui:951
 msgid "Password:"
 msgstr "Passord:"
 
-#: ../data/SettingsDialog.ui:944
+#: ../data/SettingsDialog.ui:972
 msgid "Allow synchronization"
 msgstr "Tillat synkronisering"
 
-#: ../data/SettingsDialog.ui:981
+#: ../data/SettingsDialog.ui:1009
 msgid "Create or manage account"
 msgstr "Opprett eller behandle konto"
 
-#: ../data/SettingsDialog.ui:1007
+#: ../data/SettingsDialog.ui:1035
 msgid "Syncing"
 msgstr "Synkronisering"
 
@@ -1003,39 +1006,39 @@ msgstr "_Avslutt"
 msgid "_About"
 msgstr "_Om"
 
-#: ../eolie/application.py:209
+#: ../eolie/application.py:212
 msgid "Default"
 msgstr "Forvalg"
 
-#: ../eolie/application.py:210
+#: ../eolie/application.py:213
 msgid "Social networks"
 msgstr "Sosiale nettverk"
 
-#: ../eolie/application.py:211
+#: ../eolie/application.py:214
 msgid "Work"
 msgstr "Arbeid"
 
-#: ../eolie/application.py:212
+#: ../eolie/application.py:215
 msgid "Shopping"
 msgstr "Handling"
 
-#: ../eolie/application.py:213
+#: ../eolie/application.py:216
 msgid "Personal"
 msgstr "Personlig"
 
-#: ../eolie/application.py:214
+#: ../eolie/application.py:217
 msgid "Finance"
 msgstr "Finans"
 
-#: ../eolie/application.py:215
+#: ../eolie/application.py:218
 msgid "Sport"
 msgstr "Sport"
 
-#: ../eolie/application.py:747
+#: ../eolie/application.py:755
 msgid "Do you really want to quit Eolie?"
 msgstr "Vil du virkelig avslutte Eolie?"
 
-#: ../eolie/application.py:800
+#: ../eolie/application.py:808
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Nedlastinger kjører, er du sikker på at du vil avslutte?"
 
@@ -1094,7 +1097,7 @@ msgstr "IndexedDB-databaser"
 msgid "Plugins data"
 msgstr "Programtilleggsdata"
 
-#: ../eolie/dialog_import_bookmarks.py:85
+#: ../eolie/dialog_import_bookmarks.py:87
 msgid "Import HTML bookmarks"
 msgstr "Importer HTML-bokmerker"
 
@@ -1217,55 +1220,55 @@ msgstr "Innvilg denne siden tilgang til din plassering?"
 msgid "Continue"
 msgstr "Fortsett"
 
-#: ../eolie/popover_uri.py:132
+#: ../eolie/popover_uri.py:131
 msgid "Delete page from history"
 msgstr "Slett side fra historikk"
 
-#: ../eolie/popover_uri.py:144
+#: ../eolie/popover_uri.py:143
 msgid "Edit bookmark"
 msgstr "Rediger bokmerke"
 
-#: ../eolie/popover_uri.py:161
+#: ../eolie/popover_uri.py:160
 msgid "Open all pages with this tag"
 msgstr "Åpne alle sidene med denne merkelappen"
 
-#: ../eolie/popover_uri.py:794
+#: ../eolie/popover_uri.py:793
 msgid "Popular"
 msgstr "Populær"
 
-#: ../eolie/popover_uri.py:797
+#: ../eolie/popover_uri.py:796
 msgid "Recent"
 msgstr "Nylig"
 
-#: ../eolie/popover_uri.py:799
+#: ../eolie/popover_uri.py:798
 msgid "Unclassified"
 msgstr "Uklassifisert"
 
-#: ../eolie/popover_uri.py:822
+#: ../eolie/popover_uri.py:821
 msgid "From the past hour"
 msgstr "Fra siste time"
 
-#: ../eolie/popover_uri.py:823
+#: ../eolie/popover_uri.py:822
 msgid "From the past day"
 msgstr "Fra den siste dagen"
 
-#: ../eolie/popover_uri.py:824
+#: ../eolie/popover_uri.py:823
 msgid "From the past week"
 msgstr "Fra siste uke"
 
-#: ../eolie/popover_uri.py:826
+#: ../eolie/popover_uri.py:825
 msgid "From the past four weeks"
 msgstr "Fra de siste fire timene"
 
-#: ../eolie/popover_uri.py:827
+#: ../eolie/popover_uri.py:826
 msgid "From selected day"
 msgstr "Fra valgt dag"
 
-#: ../eolie/popover_uri.py:828
+#: ../eolie/popover_uri.py:827
 msgid "From the beginning"
 msgstr "Fra begynnelsen"
 
-#: ../eolie/popover_uri.py:1096
+#: ../eolie/popover_uri.py:1095
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bokmerker"
@@ -1297,31 +1300,31 @@ msgstr ""
 msgid "Unsupported search engine"
 msgstr "Ustøttet søkemotor"
 
-#: ../eolie/settings.py:461
+#: ../eolie/settings.py:472
 msgid "Connecting…"
 msgstr "Kobler til…"
 
-#: ../eolie/settings.py:495
+#: ../eolie/settings.py:506
 msgid "Syncing operational"
 msgstr "Synkronisering virksomt"
 
-#: ../eolie/settings.py:501
+#: ../eolie/settings.py:512
 msgid "Cancel syncing"
 msgstr "Avbryt synkronisering"
 
-#: ../eolie/settings.py:506
+#: ../eolie/settings.py:517
 msgid "Start syncing"
 msgstr "Start synkronisering"
 
-#: ../eolie/settings.py:511
+#: ../eolie/settings.py:522
 msgid "Allow syncing"
 msgstr "Tillat synkronisering"
 
-#: ../eolie/settings.py:516
+#: ../eolie/settings.py:527
 msgid "Syncing is not working"
 msgstr "Synkronisering fungerer ikke"
 
-#: ../eolie/settings.py:527
+#: ../eolie/settings.py:538
 #, python-format
 msgid ""
 "Syncing is not available on your computer:\n"
@@ -1330,7 +1333,7 @@ msgstr ""
 "Synkronisering er ikke tilgjengelig på din datamaskin:\n"
 "%s"
 
-#: ../eolie/settings.py:550
+#: ../eolie/settings.py:561
 msgid "You've received an email to validate syncing"
 msgstr "Du har mottatt en e-post for å bekrefte synkronisering"
 
@@ -1338,11 +1341,11 @@ msgstr "Du har mottatt en e-post for å bekrefte synkronisering"
 msgid "Downloading:"
 msgstr "Laster ned:"
 
-#: ../eolie/toolbar_title.py:293
+#: ../eolie/toolbar_title.py:282
 msgid "This page contains insecure content"
 msgstr "Siden inneholder usikkert innhold"
 
-#: ../eolie/toolbar_title.py:347
+#: ../eolie/toolbar_title.py:336
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1352,23 +1355,23 @@ msgstr ""
 "Hvis du skriver inn passordet ditt,\n"
 "vil det være synlig for kyberkriminelle!"
 
-#: ../eolie/toolbar_title.py:396
+#: ../eolie/toolbar_title.py:385
 msgid "Deny geolocation"
 msgstr "Nekt geoplassering"
 
-#: ../eolie/toolbar_title.py:402
+#: ../eolie/toolbar_title.py:391
 msgid "Blocked popups"
 msgstr "Blokkerte oppsprettsvinduer"
 
-#: ../eolie/toolbar_title.py:470
+#: ../eolie/toolbar_title.py:459
 msgid "Copy address"
 msgstr "Kopier adresse"
 
-#: ../eolie/toolbar_title.py:530
+#: ../eolie/toolbar_title.py:519
 msgid "Paste and load"
 msgstr "Lim inn og gå"
 
-#: ../eolie/toolbar_title.py:761 ../eolie/toolbar_title.py:764
+#: ../eolie/toolbar_title.py:757 ../eolie/toolbar_title.py:760
 msgid "Search or enter address"
 msgstr "Søk eller skriv inn adresse"
 
@@ -1486,59 +1489,39 @@ msgstr "Rapporter en feil nå"
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie vil lukke denne siden fordi den er knekt"
 
-#: ../eolie/webview_signals_menu.py:70
+#: ../eolie/webview_signals_menu.py:60
 msgid "Reload preview"
 msgstr "Gjeninnlast forhåndsvisning"
 
-#: ../eolie/webview_signals_menu.py:87
+#: ../eolie/webview_signals_menu.py:81
 msgid "Open link in a new page"
 msgstr "Åpne lenke i ny side"
 
-#: ../eolie/webview_signals_menu.py:97
+#: ../eolie/webview_signals_menu.py:91
 msgid "Open link in a new private page"
 msgstr "Åpne lenke i ny privat side"
 
-#: ../eolie/webview_signals_menu.py:107
+#: ../eolie/webview_signals_menu.py:101
 msgid "Open link in a new window"
 msgstr "Åpne lenke i nytt vindu"
 
 #: ../eolie/webview_signals_menu.py:120
-msgid "Copy"
-msgstr "Kopier"
-
-#: ../eolie/webview_signals_menu.py:135
-msgid "Copy link address"
-msgstr "Kopier lenkeadresse"
-
-#: ../eolie/webview_signals_menu.py:146
 msgid "Search on the Web"
 msgstr "Søk på nettet"
 
-#: ../eolie/webview_signals_menu.py:156
-msgid "Download this image"
-msgstr "Last ned dette bildet"
-
-#: ../eolie/webview_signals_menu.py:159
-msgid "Download this video"
-msgstr "Last ned denne videoen"
-
-#: ../eolie/webview_signals_menu.py:162
-msgid "Download this file"
-msgstr "Last ned dene fila"
-
-#: ../eolie/webview_signals_menu.py:194
+#: ../eolie/webview_signals_menu.py:143
 msgid "Save videos"
 msgstr "Lagre videoer"
 
-#: ../eolie/webview_signals_menu.py:204
+#: ../eolie/webview_signals_menu.py:153
 msgid "Save page as image"
 msgstr "Lagre side som bilde"
 
-#: ../eolie/webview_signals.py:144
+#: ../eolie/webview_signals.py:142
 msgid "Select files to upload"
 msgstr "Velg filer å laste opp"
 
-#: ../eolie/webview_signals.py:147
+#: ../eolie/webview_signals.py:145
 msgid "Open"
 msgstr "Åpne"
 
@@ -1553,6 +1536,25 @@ msgstr "Søk etter neste forekomst"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 treff"
+
+#, fuzzy
+#~ msgid "Remove profiles feature"
+#~ msgstr "Fjernprofilfunksjon"
+
+#~ msgid "Copy"
+#~ msgstr "Kopier"
+
+#~ msgid "Copy link address"
+#~ msgstr "Kopier lenkeadresse"
+
+#~ msgid "Download this image"
+#~ msgstr "Last ned dette bildet"
+
+#~ msgid "Download this video"
+#~ msgstr "Last ned denne videoen"
+
+#~ msgid "Download this file"
+#~ msgstr "Last ned dene fila"
 
 #~ msgid "Fix Ctrl+clic feature"
 #~ msgstr "Fiks for Ctrl+klikk -funksjonalitet"
