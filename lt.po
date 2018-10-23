@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2018-10-02 10:30+0000\n"
+"PO-Revision-Date: 2018-10-24 19:33+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "lt/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.3-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -144,7 +144,7 @@ msgstr "DNS nuspėjimas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:860
 msgid "Autoplay videos"
-msgstr ""
+msgstr "Automatiškai atkurti vaizdo įrašus"
 
 #: ../data/org.gnome.Eolie.gschema.xml:174
 msgid "Enable search suggestions"
@@ -201,7 +201,7 @@ msgstr "Eolie yra nauja GNOME saityno naršyklė."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
 msgid "Better favicons code"
-msgstr ""
+msgstr "Geresnis svetainių piktogramų kodas"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
