@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2018-10-25 05:23+0000\n"
-"Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
+"PO-Revision-Date: 2018-10-30 11:23+0000\n"
+"Last-Translator: AbouZakaria <zakariakov@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
 "\n"
 "Language: ar\n"
@@ -181,9 +181,8 @@ msgid "Liberapay"
 msgstr "ليبرابَي"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
-#, fuzzy
 msgid "PayPal"
-msgstr "باي‌بال"
+msgstr "باي بال"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:6
 #: ../data/org.gnome.Eolie.desktop.in:3
