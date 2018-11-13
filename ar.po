@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2018-11-02 10:23+0000\n"
+"PO-Revision-Date: 2018-11-14 04:07+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
 "\n"
@@ -166,7 +166,7 @@ msgstr "زر موقع أيولي"
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "أبو زكريا <zakariakov@gmail.com>"
+msgstr "Muhammad Abdulhadi"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -200,7 +200,7 @@ msgstr "أيولي متصفح الوِب الجديد لمشروع غنوم."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
 msgid "Better favicons code"
-msgstr ""
+msgstr "كود أفضل لأيقونات المواقع"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
