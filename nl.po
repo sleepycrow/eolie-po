@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2018-10-23 10:27+0000\n"
+"PO-Revision-Date: 2018-11-20 12:07+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
 "Language: nl\n"
@@ -987,7 +987,7 @@ msgstr "_Afsluiten"
 
 #: ../data/ToolbarMenu.ui:406
 msgid "_About"
-msgstr "_Info"
+msgstr "_Over"
 
 #: ../eolie/application.py:212
 msgid "Default"
@@ -1028,7 +1028,7 @@ msgstr ""
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr "Gelieve een donatie aan het project te overwegen"
+msgstr "Overweeg te doneren aan dit project"
 
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
