@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2018-09-28 16:24+0000\n"
-"Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
+"PO-Revision-Date: 2018-12-10 13:08+0000\n"
+"Last-Translator: Carmen Bianca Bakker <account@carmenbianca.eu>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "eo/>\n"
 "Language: eo\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -166,7 +166,9 @@ msgstr "Viziti retejon de Eolie"
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Sébastien Zurfluh - sezuo <sebastien.zurfluh@gmail.com>, 2016-2018"
+msgstr ""
+"Sébastien Zurfluh - sezuo <sebastien.zurfluh@gmail.com>, 2016-2018\n"
+"Carmen Bianca BAKKER <carmenbianca@fedoraproject.org>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -289,7 +291,7 @@ msgstr ""
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
 #: ../data/SettingsDialog.ui:117
 msgid "Search"
-msgstr "Serĉilo"
+msgstr "Serĉi"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
@@ -583,7 +585,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:181
 msgid "Startup"
-msgstr "Ekfirmao"
+msgstr "Startigo"
 
 #: ../data/SettingsDialog.ui:198
 msgid "Start Page:"
@@ -721,7 +723,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:929
 msgid "Login:"
-msgstr "Ensaluto:"
+msgstr "Uzantonomo:"
 
 #: ../data/SettingsDialog.ui:951
 msgid "Password:"
@@ -742,7 +744,7 @@ msgstr ""
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Ĝeneralo"
+msgstr "Ĝenerala"
 
 #: ../data/Shortcuts.ui:17
 msgctxt "shortcut window"
@@ -757,7 +759,7 @@ msgstr "Agordoj"
 #: ../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr "Tutekrano"
+msgstr "Tutekrana reĝimo"
 
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
@@ -782,7 +784,7 @@ msgstr ""
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Search"
-msgstr "Serĉilo"
+msgstr "Serĉi"
 
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
@@ -975,7 +977,7 @@ msgstr "_Flankbreto"
 
 #: ../data/ToolbarMenu.ui:379
 msgid "_Keyboard Shortcuts"
-msgstr "Fulmo_klavoj"
+msgstr "_Klavkombinoj"
 
 #: ../data/ToolbarMenu.ui:393
 msgid "_Quit"
@@ -1024,7 +1026,7 @@ msgstr ""
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr "Bonvolu konsideri dono al projekto"
+msgstr "Bonvolu pripensi donacon al projekto"
 
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
