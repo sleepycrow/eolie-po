@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2018-11-27 21:07+0000\n"
+"PO-Revision-Date: 2018-12-16 10:08+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.3-dev\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -156,7 +156,7 @@ msgstr "فعّل التصحيح الإملائي"
 
 #: ../data/AboutDialog.ui.in:14
 msgid "A web browser for GNOME."
-msgstr "متصفح وب لمشروع غنوم."
+msgstr "متصفح وب لسطح مكتب غنوم."
 
 #: ../data/AboutDialog.ui.in:16
 msgid "Visit Eolie website"
@@ -198,7 +198,7 @@ msgstr "متصفح وب"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:9
 msgid "Eolie is a new GNOME web browser."
-msgstr "أيولي متصفح الوِب الجديد لمشروع غنوم."
+msgstr "أيولي متصفح الوِب الجديد لسطح المكتب غنوم."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
 msgid "Better favicons code"
