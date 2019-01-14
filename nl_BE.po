@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2019-01-12 21:06+0000\n"
+"PO-Revision-Date: 2019-01-15 17:24+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "nl_BE/>\n"
@@ -748,7 +748,7 @@ msgstr "Account aanmaken of beheren"
 
 #: ../data/SettingsDialog.ui:1035
 msgid "Syncing"
-msgstr "Bezig met synchroniseren"
+msgstr "Synchronisatie"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
