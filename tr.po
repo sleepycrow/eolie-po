@@ -8,292 +8,297 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-01-29 01:09+0000\n"
+"Last-Translator: Muha Aliss <muhaaliss@pm.me>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/>"
+"\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.5-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
-msgstr ""
+msgstr "Hata ayıklama mesajlarını göster"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
-msgstr ""
+msgstr "Firefox Sync hata ayıklama mesajlarını göster"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "Allow user to donate to the project"
-msgstr ""
+msgstr "Kullanıcının projeye bağış yapmasına izin ver"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
-msgstr ""
+msgstr "Kenar çubuğunu göster (site yöneticisi)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Block ads on pages"
-msgstr ""
+msgstr "Sayfalardaki reklamları engelle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: No adblocking of internal URIs"
-msgstr ""
+msgstr "Web sitelerine güven: Dahili URI reklamını engelleme"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr ""
+msgstr "Web sitelerine güven: Dahili URI JavaScript'leri engelleme"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block all unwanted popups"
-msgstr ""
+msgstr "İstenmeyen tüm açılır pencereleri engelle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all images"
-msgstr ""
+msgstr "Tüm görüntüleri engelle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Block all JavaScript"
-msgstr ""
+msgstr "Tüm JavaScript’leri engelle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Download folder URI"
-msgstr ""
+msgstr "URI klasörünü indir"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Open finished downloads"
-msgstr ""
+msgstr "Tamamlanan indirmeleri aç"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Web search engine"
-msgstr ""
+msgstr "Web arama motoru"
 
 #: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Remember sessions"
-msgstr ""
+msgstr "Oturumları hatırla"
 
 #: ../data/org.gnome.Eolie.gschema.xml:89 ../data/SettingsDialog.ui:650
 msgid "Remember passwords"
-msgstr ""
+msgstr "Parolaları hatırla"
 
 #: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:304
 msgid "Enable developer tools"
-msgstr ""
+msgstr "Geliştirici araçlarını etkinleştir"
 
 #: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:160
 msgid "Enable plugins"
-msgstr ""
+msgstr "Eklentileri etkinleştir"
 
 #: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:378
 msgid "Use system fonts"
-msgstr ""
+msgstr "Sistem yazı tiplerini kullan"
 
 #: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:407
 msgid "Sans serif font"
-msgstr ""
+msgstr "Sans serif yazı tipi"
 
 #: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:419
 msgid "Serif font"
-msgstr ""
+msgstr "Serif yazı tipi"
 
 #: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:431
 msgid "Monospace font"
-msgstr ""
+msgstr "Monospace yazı tipi"
 
 #: ../data/org.gnome.Eolie.gschema.xml:124
 msgid "Open this page on startup"
-msgstr ""
+msgstr "Başlangıçta bu sayfayı aç"
 
 #: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Minimum sidebar position"
-msgstr ""
+msgstr "Minimum kenar çubuğu konumu"
 
 #: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:493
 msgid "Minimum font size"
-msgstr ""
+msgstr "Minimum yazı tipi boyutu"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Popular items shown"
-msgstr ""
+msgstr "Gösterilen popüler öğeler"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:519
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
-msgstr ""
+msgstr "Varsayılan yakınlaştırma seviyesi"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149
 msgid "Cookies storage type"
-msgstr ""
+msgstr "Çerez depolama türü"
 
 #: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "History storage type"
-msgstr ""
+msgstr "Geçmiş depolama tipi"
 
 #: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:616
 msgid "Tell websites I do not want to be tracked"
-msgstr ""
+msgstr "Web sitelerine izlenmek istemediğimi söyle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "DNS prediction"
-msgstr ""
+msgstr "DNS tahmini"
 
 #: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:860
 msgid "Autoplay videos"
-msgstr ""
+msgstr "Videoları otomatik oynatma"
 
 #: ../data/org.gnome.Eolie.gschema.xml:174
 msgid "Enable search suggestions"
-msgstr ""
+msgstr "Arama önerilerini etkinleştir"
 
 #: ../data/org.gnome.Eolie.gschema.xml:179 ../data/LanguagesMenu.ui:59
 #: ../data/LanguagesMenu.ui:76
 msgid "Enable spell checking"
-msgstr ""
+msgstr "Yazım kontrolünü etkinleştir"
 
 #: ../data/AboutDialog.ui.in:14
 msgid "A web browser for GNOME."
-msgstr ""
+msgstr "GNOME için web tarayıcı."
 
 #: ../data/AboutDialog.ui.in:16
 msgid "Visit Eolie website"
-msgstr ""
+msgstr "Eolie web sitesini ziyaret et"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr ""
+msgstr "Muha Aliss <muhaaliss@pm.me>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
-msgstr ""
+msgstr "Bağış:"
 
 #: ../data/AboutDialog.ui.in:57
 msgid "Flattr"
-msgstr ""
+msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:515
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:6
 #: ../data/org.gnome.Eolie.desktop.in:3
 msgid "Eolie"
-msgstr ""
+msgstr "Eolie"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:7
 #: ../data/org.gnome.Eolie.desktop.in:4 ../data/org.gnome.Eolie.desktop.in:5
 msgid "Web browser"
-msgstr ""
+msgstr "Web tarayıcı"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:9
 msgid "Eolie is a new GNOME web browser."
-msgstr ""
+msgstr "Eolie yeni bir GNOME web tarayıcısıdır."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
 msgid "Better favicons code"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
+#, fuzzy
 msgid "org.gnome.Eolie"
-msgstr ""
+msgstr "org.gnome.Eolie"
 
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_pages.py:44
 msgid "New private page"
-msgstr ""
+msgstr "Yeni gizli sayfa"
 
 #: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
 msgid "Do not filter current website content"
-msgstr ""
+msgstr "Mevcut web sitesi içeriğini filtreleme"
 
 #: ../data/AdblockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust web sites"
-msgstr ""
+msgstr "Web sitesine güven"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
 #: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
-msgstr ""
+msgstr "Reklamları engelle"
 
 #: ../data/AdblockMenu.ui:47 ../data/ImageBlockMenu.ui:33
 #: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
 #: ../data/ScriptsMenu.ui:109
 msgid "Block policy"
-msgstr ""
+msgstr "Engelleme politikası"
 
 #: ../data/AdblockMenu.ui:93
 msgid "Enable adblocking"
-msgstr ""
+msgstr "Reklam engellemeyi etkinleştir"
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
 msgid "Enabled"
-msgstr ""
+msgstr "Etkin"
 
 #: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
 #: ../data/PopupBlockMenu.ui:93
 msgid "By default"
-msgstr ""
+msgstr "Varsayılan"
 
 #: ../data/AdblockMenu.ui:123
 msgid "Do not block ads on this site"
-msgstr ""
+msgstr "Bu sitedeki reklamları engelleme"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not on this site"
-msgstr ""
+msgstr "Bu sitede değil"
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads on this page"
-msgstr ""
+msgstr "Bu sayfadaki reklamları engelleme"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
-msgstr ""
+msgstr "Bu sayfada değil"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
-msgstr ""
+msgstr "Adres:"
 
 #: ../data/BookmarkEdit.ui:41
 msgid "Title:"
-msgstr ""
+msgstr "Başlık:"
 
 #: ../data/BookmarkEdit.ui:98
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Yer imini kaldır"
 
 #: ../data/BookmarkEdit.ui:166 ../data/BookmarkEdit.ui:169
 msgid "Add new tag"
-msgstr ""
+msgstr "eni etiket ekle"
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
-msgstr ""
+msgstr "Kişisel Verileri Temizle"
 
 #: ../data/DialogClearData.ui:10
+#, fuzzy
 msgid "C_lear"
-msgstr ""
+msgstr "T_emizle"
 
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
 #: ../data/SettingsDialog.ui:117
 msgid "Search"
-msgstr ""
+msgstr "Ara"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
-msgstr ""
+msgstr "Etki alanlarını filtrele"
 
 #: ../data/DialogClearData.ui:67
 msgid "Search domains"
-msgstr ""
+msgstr "Arama alanları"
 
 #: ../data/DialogClearData.ui:83
 msgid ""
@@ -303,91 +308,96 @@ msgid ""
 msgstr ""
 
 #: ../data/DialogClearData.ui:100
+#, fuzzy
 msgid "Clear selected personal data _from:"
-msgstr ""
+msgstr "Seçilen kişisel_verileri temizle:"
 
 #: ../data/DialogClearData.ui:111
 msgid "the past hour"
-msgstr ""
+msgstr "Geçtiğimiz saat"
 
 #: ../data/DialogClearData.ui:112
 msgid "the past day"
-msgstr ""
+msgstr "geçen gün"
 
 #: ../data/DialogClearData.ui:113
 msgid "the past week"
-msgstr ""
+msgstr "geçen hafta"
 
 #: ../data/DialogClearData.ui:114
 msgid "the past four weeks"
-msgstr ""
+msgstr "son dört hafta"
 
 #: ../data/DialogClearData.ui:115
 msgid "the beginning"
-msgstr ""
+msgstr "baştan"
 
 #: ../data/DialogClearData.ui:192
 msgid "No data found"
-msgstr ""
+msgstr "Veri bulunamadı"
 
 #: ../data/DialogClearData.ui:209
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
+"Bu işlemi geri alamazsınız. Silmek istediğiniz veriler sonsuza kadar "
+"silinecektir."
 
 #: ../data/DialogCookies.ui:83
 msgid "New profile"
-msgstr ""
+msgstr "Yeni profil"
 
 #: ../data/DialogCookies.ui:227
 msgid "Profiles manager"
-msgstr ""
+msgstr "Profil yöneticisi"
 
 #: ../data/DialogCookies.ui:231
 msgid "Delete cookies"
-msgstr ""
+msgstr "Çerezleri sil"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
-msgstr ""
+msgstr "Yer imlerini şuradan içe aktar:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:192
 #: ../eolie/popover_uri.py:460
 msgid "Import bookmarks"
-msgstr ""
+msgstr "Yer imlerini içe aktar"
 
 #: ../data/DialogImportBookmarks.ui:87
 msgid "Import"
-msgstr ""
+msgstr "İçe aktar"
 
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
-msgstr ""
+msgstr "Değiştir"
 
 #: ../data/DialogSearchEngine.ui:7
 msgid "Search engines"
-msgstr ""
+msgstr "Arama motorları"
 
 #: ../data/DialogSearchEngine.ui:155
 msgid "Name:"
-msgstr ""
+msgstr "İsim:"
 
 #: ../data/DialogSearchEngine.ui:207
 msgid "Default:"
-msgstr ""
+msgstr "Varsayılan:"
 
 #: ../data/DialogSearchEngine.ui:233
 msgid "Bang:"
-msgstr ""
+msgstr "Bang:"
 
 #: ../data/DialogSearchEngine.ui:246
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
+"Bang g ise, bu motoru kullanarak arama yapmak için arama çubuğuna g: yazarak "
+"kullanın"
 
 #: ../data/DialogSearchEngine.ui:263
 msgid "Search:"
-msgstr ""
+msgstr "Ara:"
 
 #: ../data/DialogSearchEngine.ui:320
 msgid ""
@@ -395,642 +405,651 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
 msgstr ""
+"Arama adresini bulmak için, eklemek istediğiniz arama motorunu kullanarak "
+"herhangi bir arama yapın ve http adresini kontrol edin. Aradığınız terimini "
+"http adresinde bulup %s ile değiştirin."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
 #: ../data/ToolbarMenu.ui:267
 msgid "Block images"
-msgstr ""
+msgstr "Görüntüleri engelle"
 
 #: ../data/ImageBlockMenu.ui:79 ../data/PopupBlockMenu.ui:79
 msgctxt "popup"
 msgid "Enabled"
-msgstr ""
+msgstr "Etkin"
 
 #: ../data/ImageBlockMenu.ui:80
 msgid "Enable image blocking"
-msgstr ""
+msgstr "Görüntü engellemeyi etkinleştir"
 
 #: ../data/ImageBlockMenu.ui:110
 msgid "Do not block images on this site"
-msgstr ""
+msgstr "Bu sitedeki görüntüleri engelleme"
 
 #: ../data/ImageBlockMenu.ui:125
 msgid "Do not block images on this page"
-msgstr ""
+msgstr "Bu sayfadaki görüntüleri engelleme"
 
 #: ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust websites"
-msgstr ""
+msgstr "Web sitesine güven"
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript blocker"
-msgstr ""
+msgstr "avaScript engelleyici"
 
 #: ../data/JSBlockMenu.ui:92
 msgid "Enable JavaScript blocking"
-msgstr ""
+msgstr "JavaScript engellemeyi etkinleştir"
 
 #: ../data/JSBlockMenu.ui:94
 msgctxt "Trust web sites"
 msgid "Enabled"
-msgstr ""
+msgstr "Etkin"
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
 msgid "Spell checking"
-msgstr ""
+msgstr "Yazım denetimi"
 
 #: ../data/PopoverCookies.ui:10
 msgid "Remove all cookies"
-msgstr ""
+msgstr "Tüm çerezleri kaldır"
 
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
-msgstr ""
+msgstr "Bu parolayı kaydetmek ister misiniz?"
 
 #: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:135
 msgid "Save"
-msgstr ""
+msgstr "Kayıt"
 
 #: ../data/PopoverDownloads.ui:53
 msgid "Open download folder"
-msgstr ""
+msgstr "İndirilenler klasörünü aç"
 
 #: ../data/PopoverDownloads.ui:73
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Tamamlanan indirmeleri temizle"
 
 #: ../data/PopoverDownloads.ui:103
 msgid "No active download"
-msgstr ""
+msgstr "Aktif indirme yok"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
 msgid "OK"
-msgstr ""
+msgstr "Tamam"
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/popover_javascript.py:60
 #: ../eolie/popover_uri.py:425 ../eolie/toolbar_end.py:136
 #: ../eolie/webview_signals.py:146
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:822
 msgid "Forever"
-msgstr ""
+msgstr "Sonsuza dek"
 
 #: ../data/PopoverImages.ui:72 ../eolie/webview_signals_menu.py:133
 msgid "Save images"
-msgstr ""
+msgstr "Görüntüleri kaydet"
 
 #: ../data/PopoverImages.ui:106
 msgid "Show links"
-msgstr ""
+msgstr "Bağlantıları göster"
 
 #: ../data/PopoverPasswords.ui:10
 msgid "Remove all passwords"
-msgstr ""
+msgstr "Tüm parolaları kaldır"
 
 #: ../data/PopoverUri.ui:157
 msgid "Sync bookmarks"
-msgstr ""
+msgstr "Yer işaretlerini senkronize et"
 
 #: ../data/PopoverUri.ui:217
 msgid "Bookmarks"
-msgstr ""
+msgstr "Yer imleri"
 
 #: ../data/PopoverUri.ui:355
 msgid "Clear history"
-msgstr ""
+msgstr "Geçmişi temizle"
 
 #: ../data/PopoverUri.ui:379
 msgid "History"
-msgstr ""
+msgstr "Geçmiş"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
 #: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
-msgstr ""
+msgstr "Pop up'ları engelle"
 
 #: ../data/PopupBlockMenu.ui:80
 msgid "Enable popup blocking"
-msgstr ""
+msgstr "Pop-up engellemeyi etkinleştir"
 
 #: ../data/PopupBlockMenu.ui:110
 msgid "Do not block popups on this site"
-msgstr ""
+msgstr "Bu sitedeki pop-up'ları engelleme"
 
 #: ../data/PopupBlockMenu.ui:125
 msgid "Do not block popups on this page"
-msgstr ""
+msgstr "Bu sayfadaki pop-up'ları engelleme"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 #: ../data/RowDownload.ui:49
 msgid "Cancel download"
-msgstr ""
+msgstr "İndirmeyi iptal et"
 
 #: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
 msgid "Block JavaScript"
-msgstr ""
+msgstr "JavaScript'i engelle"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
-msgstr ""
+msgstr "JavaScript engelleyiciyi etkinleştir"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
-msgstr ""
+msgstr "Web sitesine güven"
 
 #: ../data/SettingsDialog.ui:25 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
-msgstr ""
+msgstr "Tercihler"
 
 #: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
-msgstr ""
+msgstr "İndirilenler"
 
 #: ../data/SettingsDialog.ui:74
 msgid "Download folder:"
-msgstr ""
+msgstr "İndirilenler klasörü:"
 
 #: ../data/SettingsDialog.ui:86
 msgid "Select download folder"
-msgstr ""
+msgstr "İndirme klasörünü seç"
 
 #: ../data/SettingsDialog.ui:96
 msgid "Automatically open downloaded files"
-msgstr ""
+msgstr "İndirilen dosyaları otomatik olarak aç"
 
 #: ../data/SettingsDialog.ui:134
 msgid "Search engines:"
-msgstr ""
+msgstr "Arama motorları:"
 
 #: ../data/SettingsDialog.ui:147 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
-msgstr ""
+msgstr "Diğerleri"
 
 #: ../data/SettingsDialog.ui:181
 msgid "Startup"
-msgstr ""
+msgstr "Başlangıç"
 
 #: ../data/SettingsDialog.ui:198
 msgid "Start Page:"
-msgstr ""
+msgstr "Başlangıç sayfası:"
 
 #: ../data/SettingsDialog.ui:210
 msgid "Search engine"
-msgstr ""
+msgstr "Arama motoru"
 
 #: ../data/SettingsDialog.ui:211 ../eolie/context.py:82
 msgid "Popular pages"
-msgstr ""
+msgstr "Popüler sayfalar"
 
 #: ../data/SettingsDialog.ui:212
 msgid "Popular bookmarks"
-msgstr ""
+msgstr "Popüler yer imleri"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Blank page"
-msgstr ""
+msgstr "Boş sayfa"
 
 #: ../data/SettingsDialog.ui:214
 msgid "Set address"
-msgstr ""
+msgstr "Adresi ayarla"
 
 #: ../data/SettingsDialog.ui:236
 msgid "Remember previous pages on startup"
-msgstr ""
+msgstr "Başlangıçta önceki sayfaları hatırla"
 
 #: ../data/SettingsDialog.ui:253
 msgid "Configure engines"
-msgstr ""
+msgstr "Motorları yapılandır"
 
 #: ../data/SettingsDialog.ui:274
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "Gösterilen yer imleri"
 
 #: ../data/SettingsDialog.ui:318
 msgid "Add suggestions"
-msgstr ""
+msgstr "Öneri ekle"
 
 #: ../data/SettingsDialog.ui:342
 msgid "General"
-msgstr ""
+msgstr "Genel"
 
 #: ../data/SettingsDialog.ui:365
 msgid "Fonts"
-msgstr ""
+msgstr "Fontlar"
 
 #: ../data/SettingsDialog.ui:563
 msgid "Appearance"
-msgstr ""
+msgstr "Görünüm"
 
 #: ../data/SettingsDialog.ui:587 ../eolie/dialog_clear_data.py:196
 msgid "Cookies"
-msgstr ""
+msgstr "Çerezler"
 
 #: ../data/SettingsDialog.ui:603
 msgid "Tracking"
-msgstr ""
+msgstr "İzleme"
 
 #: ../data/SettingsDialog.ui:638
 msgid "Passwords"
-msgstr ""
+msgstr "Parolalar"
 
 #: ../data/SettingsDialog.ui:671
 msgid "Saved data"
-msgstr ""
+msgstr "Kayıtlı veri"
 
 #: ../data/SettingsDialog.ui:694
 msgid "Behaviour:"
-msgstr ""
+msgstr "Davranış:"
 
 #: ../data/SettingsDialog.ui:709
 msgid "Always accept"
-msgstr ""
+msgstr "Daima kabul et"
 
 #: ../data/SettingsDialog.ui:710
 msgid "Only from visited sites"
-msgstr ""
+msgstr "Sadece ziyaret edilen sitelerden"
 
 #: ../data/SettingsDialog.ui:711
 msgid "Never accept"
-msgstr ""
+msgstr "Asla kabul etme"
 
 #: ../data/SettingsDialog.ui:730
 msgid "Manage cookies"
-msgstr ""
+msgstr "Çerezleri yönet"
 
 #: ../data/SettingsDialog.ui:747
 msgid "Clear personal data"
-msgstr ""
+msgstr "Kişisel verileri temizle"
 
 #: ../data/SettingsDialog.ui:769
 msgid "Manage passwords"
-msgstr ""
+msgstr "Parolaları yönet"
 
 #: ../data/SettingsDialog.ui:803
 msgid "Keep history:"
-msgstr ""
+msgstr "Geçmişi sakla:"
 
 #: ../data/SettingsDialog.ui:818
 msgid "One day"
-msgstr ""
+msgstr "Bir gün"
 
 #: ../data/SettingsDialog.ui:819
 msgid "One week"
-msgstr ""
+msgstr "Bir hafta"
 
 #: ../data/SettingsDialog.ui:820
 msgid "Four weeks"
-msgstr ""
+msgstr "Dört hafta"
 
 #: ../data/SettingsDialog.ui:821
 msgid "A year"
-msgstr ""
+msgstr "Bir yıl"
 
 #: ../data/SettingsDialog.ui:823
 msgid "Do not keep"
-msgstr ""
+msgstr "Saklama"
 
 #: ../data/SettingsDialog.ui:842
 msgid "Predict websites address"
-msgstr ""
+msgstr "Web sitelerinin adresini tahmin et"
 
 #: ../data/SettingsDialog.ui:890
 msgid "Privacy"
-msgstr ""
+msgstr "Gizlilik"
 
 #: ../data/SettingsDialog.ui:912
 msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
 msgstr ""
+"Eolie veya Firefox çalıştıran tüm cihazlarınızda\n"
+"Yer imlerinizi ve geçmişinizi paylaşabilirsiniz"
 
 #: ../data/SettingsDialog.ui:929
 msgid "Login:"
-msgstr ""
+msgstr "Giriş:"
 
 #: ../data/SettingsDialog.ui:951
 msgid "Password:"
-msgstr ""
+msgstr "Parola:"
 
 #: ../data/SettingsDialog.ui:972
 msgid "Allow synchronization"
-msgstr ""
+msgstr "Senkronizasyona izin ver"
 
 #: ../data/SettingsDialog.ui:1009
 msgid "Create or manage account"
-msgstr ""
+msgstr "Hesap oluştur veya yönet"
 
 #: ../data/SettingsDialog.ui:1035
 msgid "Syncing"
-msgstr ""
+msgstr "Senkronize ediliyor"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Genel"
 
 #: ../data/Shortcuts.ui:17
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "Yeni Pencere"
 
 #: ../data/Shortcuts.ui:24
 msgctxt "shortcut window"
 msgid "Settings"
-msgstr ""
+msgstr "Ayarlar"
 
 #: ../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr ""
+msgstr "Tam ekran"
 
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Çıkış"
 
 #: ../data/Shortcuts.ui:45
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "Konum girin"
 
 #: ../data/Shortcuts.ui:52
 msgctxt "shortcut window"
 msgid "Show bookmarks"
-msgstr ""
+msgstr "Yer imlerini göster"
 
 #: ../data/Shortcuts.ui:59
 msgctxt "shortcut window"
 msgid "Show history"
-msgstr ""
+msgstr "Geçmişi göster"
 
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "Ara"
 
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
 msgid "Show sidebar"
-msgstr ""
+msgstr "Kenar çubuğunu göster"
 
 #: ../data/Shortcuts.ui:82
 msgctxt "shortcut window"
 msgid "Pages"
-msgstr ""
+msgstr "Sayfalar"
 
 #: ../data/Shortcuts.ui:86
 msgctxt "shortcut window"
 msgid "New page"
-msgstr ""
+msgstr "Yeni sayfa"
 
 #: ../data/Shortcuts.ui:93
 msgctxt "shortcut window"
 msgid "Last closed page"
-msgstr ""
+msgstr "Son kapatılan sayfa"
 
 #: ../data/Shortcuts.ui:100
 msgctxt "shortcut window"
 msgid "New private page"
-msgstr ""
+msgstr "Yeni özel sayfa"
 
 #: ../data/Shortcuts.ui:107
 msgctxt "shortcut window"
 msgid "Close page"
-msgstr ""
+msgstr "Sayfayı kapat"
 
 #: ../data/Shortcuts.ui:114 ../data/Shortcuts.ui:217
 msgctxt "shortcut window"
 msgid "Previous page"
-msgstr ""
+msgstr "Önceki sayfa"
 
 #: ../data/Shortcuts.ui:121 ../data/Shortcuts.ui:224
 msgctxt "shortcut window"
 msgid "Next page"
-msgstr ""
+msgstr "Sonraki Sayfa"
 
 #: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "View all pages"
-msgstr ""
+msgstr "üm sayfaları görüntüle"
 
 #: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Show source code"
-msgstr ""
+msgstr "Kaynak kodu göster"
 
 #: ../data/Shortcuts.ui:144
 msgctxt "shortcut window"
 msgid "Web page"
-msgstr ""
+msgstr "Web sayfası"
 
 #: ../data/Shortcuts.ui:148
 msgctxt "shortcut window"
 msgid "Save page"
-msgstr ""
+msgstr "Sayfayı kaydet"
 
 #: ../data/Shortcuts.ui:155
 msgctxt "shortcut window"
 msgid "Print page"
-msgstr ""
+msgstr "Sayfayı yazdır"
 
 #: ../data/Shortcuts.ui:162
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Yakınlaştır"
 
 #: ../data/Shortcuts.ui:169
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Uzaklaştır"
 
 #: ../data/Shortcuts.ui:176
 msgctxt "shortcut window"
 msgid "Default zoom level"
-msgstr ""
+msgstr "Varsayılan yakınlaştırma seviyesi"
 
 #: ../data/Shortcuts.ui:183
 msgctxt "shortcut window"
 msgid "Search for"
-msgstr ""
+msgstr "İçin ara"
 
 #: ../data/Shortcuts.ui:190
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
-msgstr ""
+msgstr "Mevcut site için reklam engellemeyi devre dışı bırak"
 
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
 msgid "Enable JavaScript for current site temporarily"
-msgstr ""
+msgstr "Geçerli site için JavaScript’i geçici olarak etkinleştir"
 
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
 msgid "Enable \"Media Source Extension\" temporarily"
-msgstr ""
+msgstr "\"Medya Kaynağı Uzantısı\" nı geçici olarak etkinleştir"
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr ""
+msgstr "Navigasyon"
 
 #: ../data/Shortcuts.ui:231
 msgctxt "shortcut window"
 msgid "Reload page"
-msgstr ""
+msgstr "Sayfayı yeniden yükle"
 
 #: ../data/Shortcuts.ui:238
 msgctxt "shortcut window"
 msgid "Startup page"
-msgstr ""
+msgstr "Başlangıç sayfası"
 
 #: ../data/ToolbarActions.ui:50
 msgid "Backward"
-msgstr ""
+msgstr "Geriye doğru"
 
 #: ../data/ToolbarActions.ui:70
 msgid "Forward"
-msgstr ""
+msgstr "İleriye doğru"
 
 #: ../data/ToolbarActions.ui:102
 msgid "New page"
-msgstr ""
+msgstr "Yeni sayfa"
 
 #: ../data/ToolbarActions.ui:117
 msgid "View all pages"
-msgstr ""
+msgstr "Tüm sayfaları görüntüle"
 
 #: ../data/ToolbarActions.ui:168
 msgid "Close page"
-msgstr ""
+msgstr "Sayfayı kapat"
 
 #: ../data/ToolbarActions.ui:183
 msgid "More actions"
-msgstr ""
+msgstr "Daha fazla hareket"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
 #: ../eolie/menu_toolbar.py:47
 msgid "Leave fullscreen"
-msgstr ""
+msgstr "Tam ekrandan çık"
 
 #: ../data/ToolbarEnd.ui:37
 msgid "Start synchronization"
-msgstr ""
+msgstr "Senkronizasyonu başlat"
 
 #: ../data/ToolbarEnd.ui:69
 msgid "Disallow access to this site"
-msgstr ""
+msgstr "Bu siteye erişime izin verme"
 
 #: ../data/ToolbarEnd.ui:146
 msgid "Startup page"
-msgstr ""
+msgstr "Başlangıç sayfası"
 
 #: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
 msgid "Save page"
-msgstr ""
+msgstr "Sayfayı kaydet"
 
 #: ../data/ToolbarMenu.ui:81
 msgid "Print page"
-msgstr ""
+msgstr "Sayfayı yazdır"
 
 #: ../data/ToolbarMenu.ui:126
 msgid "Start page"
-msgstr ""
+msgstr "Başlangıç sayfası"
 
 #: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
-msgstr ""
+msgstr "Uzaklaştır"
 
 #: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
-msgstr ""
+msgstr "Yakınlaştır"
 
 #: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
-msgstr ""
+msgstr "Filtreleme"
 
 #: ../data/ToolbarMenu.ui:343
+#, fuzzy
 msgid "_Preferences"
-msgstr ""
+msgstr "_Tercihler"
 
 #: ../data/ToolbarMenu.ui:366
+#, fuzzy
 msgid "_Sidebar"
-msgstr ""
+msgstr "_Kenar çubuğu"
 
 #: ../data/ToolbarMenu.ui:379
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Klavye Kısayolları"
 
 #: ../data/ToolbarMenu.ui:393
+#, fuzzy
 msgid "_Quit"
-msgstr ""
+msgstr "_Çıkış"
 
 #: ../data/ToolbarMenu.ui:406
+#, fuzzy
 msgid "_About"
-msgstr ""
+msgstr "_Hakkında"
 
 #: ../eolie/application.py:212
 msgid "Default"
-msgstr ""
+msgstr "Varsayılan"
 
 #: ../eolie/application.py:213
 msgid "Social networks"
-msgstr ""
+msgstr "Sosyal ağlar"
 
 #: ../eolie/application.py:214
 msgid "Work"
-msgstr ""
+msgstr "İş"
 
 #: ../eolie/application.py:215
 msgid "Shopping"
-msgstr ""
+msgstr "Alışveriş"
 
 #: ../eolie/application.py:216
 msgid "Personal"
-msgstr ""
+msgstr "Kişisel"
 
 #: ../eolie/application.py:217
 msgid "Finance"
-msgstr ""
+msgstr "Finans"
 
 #: ../eolie/application.py:218
 msgid "Sport"
-msgstr ""
+msgstr "Spor"
 
 #: ../eolie/application.py:755
 msgid "Do you really want to quit Eolie?"
-msgstr ""
+msgstr "Gerçekten Eolie'den çıkmak istiyor musun?"
 
 #: ../eolie/application.py:808
 msgid "Downloads running, are you sure you want quit?"
-msgstr ""
+msgstr "İndirilenler dosyalar var, çıkmak istediğine emin misin?"
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
-msgstr ""
+msgstr "Lütfen projeye bağış yapmayı düşünün"
 
 #: ../eolie/container.py:586
 msgid "Do you really want to close this page?"
-msgstr ""
+msgstr "Bu sayfayı gerçekten kapatmak istiyor musunuz?"
 
 #: ../eolie/context.py:145
 msgid "Name"
-msgstr ""
+msgstr "İsim"
 
 #: ../eolie/context.py:146
 msgid "Size"
-msgstr ""
+msgstr "Boyut"
 
 #: ../eolie/context.py:148
 msgid "Last modification"
-msgstr ""
+msgstr "Son değişiklik"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
@@ -1038,218 +1057,218 @@ msgstr ""
 
 #: ../eolie/dialog_clear_data.py:182
 msgid "HTTP disk cache"
-msgstr ""
+msgstr "HTTP disk önbelleği"
 
 #: ../eolie/dialog_clear_data.py:184
 msgid "Offline web application cache"
-msgstr ""
+msgstr "Çevrimdışı web uygulaması önbelleği"
 
 #: ../eolie/dialog_clear_data.py:186
 msgid "Session storage data"
-msgstr ""
+msgstr "Oturum depolama verileri"
 
 #: ../eolie/dialog_clear_data.py:188
 msgid "Local storage data"
-msgstr ""
+msgstr "Yerel depolama verileri"
 
 #: ../eolie/dialog_clear_data.py:190
 msgid "WebSQL databases"
-msgstr ""
+msgstr "WebSQL veritabanları"
 
 #: ../eolie/dialog_clear_data.py:192
 msgid "IndexedDB databases"
-msgstr ""
+msgstr "IndexedDB veritabanları"
 
 #: ../eolie/dialog_clear_data.py:194
 msgid "Plugins data"
-msgstr ""
+msgstr "Eklenti verileri"
 
 #: ../eolie/dialog_import_bookmarks.py:87
 msgid "Import HTML bookmarks"
-msgstr ""
+msgstr "HTML yer işaretlerini içe aktar"
 
 #: ../eolie/dialog_search_engine.py:163 ../eolie/dialog_search_engine.py:167
 msgid "New engine"
-msgstr ""
+msgstr "Yeni motor"
 
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
-msgstr ""
+msgstr "Kaydedilen kimlik bilgileri"
 
 #: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:75
 msgid "Move to"
-msgstr ""
+msgstr "Şuraya taşı"
 
 #: ../eolie/menu_move_to.py:63
 msgid "New window"
-msgstr ""
+msgstr "Yeni Pencere"
 
 #: ../eolie/menu_pages.py:48
 msgid "Closed pages"
-msgstr ""
+msgstr "Kapanmış sayfalar"
 
 #: ../eolie/menu_pages.py:49
 msgid "Open all pages"
-msgstr ""
+msgstr "Tüm sayfaları aç"
 
 #: ../eolie/menu_profiles.py:45
 msgid "Profiles"
-msgstr ""
+msgstr "Profiller"
 
 #: ../eolie/menu_profiles.py:91
 msgid "Edit profiles"
-msgstr ""
+msgstr "Profilleri düzenle"
 
 #: ../eolie/menu_sites.py:85
 msgid "Modify user agent"
-msgstr ""
+msgstr "Kullanıcı aracısını değiştir"
 
 #: ../eolie/menu_sites.py:94
 msgid "Close site"
-msgstr ""
+msgstr "Siteyi kapat"
 
 #: ../eolie/menu_toolbar.py:49
 msgid "Enter fullscreen"
-msgstr ""
+msgstr "Tam ekran yap"
 
 #: ../eolie/menu_videos.py:79
 msgid "No videos"
-msgstr ""
+msgstr "Video yok"
 
 #: ../eolie/pages_manager_child.py:160
 msgid "Unpin this page"
-msgstr ""
+msgstr "Bu sayfayı kaldır"
 
 #: ../eolie/pages_manager_child.py:163
 msgid "Pin this page"
-msgstr ""
+msgstr "Bu sayfayı sabitle"
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
-msgstr ""
+msgstr "Bu parolayı değiştirmek ister misiniz?"
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
-msgstr ""
+msgstr "İndirme hızı:"
 
 #: ../eolie/popover_downloads.py:113
 msgid "bytes/s"
-msgstr ""
+msgstr "byte/s"
 
 #: ../eolie/popover_downloads.py:116
 msgid "KiB/s"
-msgstr ""
+msgstr "KiB/s"
 
 #: ../eolie/popover_downloads.py:119
 msgid "MiB/s"
-msgstr ""
+msgstr "MiB/s"
 
 #: ../eolie/popover_downloads.py:141 ../eolie/popover_downloads.py:147
 #, python-format
 msgid "%s second"
-msgstr ""
+msgstr "%s saniye"
 
 #: ../eolie/popover_downloads.py:143 ../eolie/popover_downloads.py:149
 #, python-format
 msgid "%s seconds"
-msgstr ""
+msgstr "%s saniye"
 
 #: ../eolie/popover_downloads.py:155 ../eolie/popover_downloads.py:163
 #, python-format
 msgid "%s minute"
-msgstr ""
+msgstr "%s dakika"
 
 #: ../eolie/popover_downloads.py:158 ../eolie/popover_downloads.py:165
 #, python-format
 msgid "%s minutes"
-msgstr ""
+msgstr "%s dakika"
 
 #: ../eolie/popover_downloads.py:171
 #, python-format
 msgid "%s hours"
-msgstr ""
+msgstr "%s saat"
 
 #: ../eolie/popover_downloads.py:173
 #, python-format
 msgid "%s hour"
-msgstr ""
+msgstr "%s saat"
 
 #: ../eolie/popover_downloads.py:174
 msgid "Remaining time:"
-msgstr ""
+msgstr "Kalan süre:"
 
 #: ../eolie/popover_geolocation.py:45
 msgid "Grant this page access to your location?"
-msgstr ""
+msgstr "Bu sayfaya konum erişimi izni verilsin mi?"
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
-msgstr ""
+msgstr "Devam"
 
 #: ../eolie/popover_uri.py:131
 msgid "Delete page from history"
-msgstr ""
+msgstr "Sayfayı geçmişinden sil"
 
 #: ../eolie/popover_uri.py:143
 msgid "Edit bookmark"
-msgstr ""
+msgstr "Yer imini düzenle"
 
 #: ../eolie/popover_uri.py:160
 msgid "Open all pages with this tag"
-msgstr ""
+msgstr "Bu etiketle tüm sayfaları aç"
 
 #: ../eolie/popover_uri.py:793
 msgid "Popular"
-msgstr ""
+msgstr "Popüler"
 
 #: ../eolie/popover_uri.py:796
 msgid "Recent"
-msgstr ""
+msgstr "Son"
 
 #: ../eolie/popover_uri.py:798
 msgid "Unclassified"
-msgstr ""
+msgstr "Sınıflandırılmamış"
 
 #: ../eolie/popover_uri.py:821
 msgid "From the past hour"
-msgstr ""
+msgstr "Son bir saat"
 
 #: ../eolie/popover_uri.py:822
 msgid "From the past day"
-msgstr ""
+msgstr "Son bir gün"
 
 #: ../eolie/popover_uri.py:823
 msgid "From the past week"
-msgstr ""
+msgstr "Son bir hafta"
 
 #: ../eolie/popover_uri.py:825
 msgid "From the past four weeks"
-msgstr ""
+msgstr "Son dört hafta"
 
 #: ../eolie/popover_uri.py:826
 msgid "From selected day"
-msgstr ""
+msgstr "Seçilen günden itibaren"
 
 #: ../eolie/popover_uri.py:827
 msgid "From the beginning"
-msgstr ""
+msgstr "En baştan"
 
 #: ../eolie/popover_uri.py:1095
 #, python-format
 msgid "%s bookmarks"
-msgstr ""
+msgstr "%s yer imleri"
 
 #: ../eolie/search.py:39 ../eolie/search.py:40
 msgid "https://www.google.com"
-msgstr ""
+msgstr "https://www.google.com"
 
 #: ../eolie/search.py:61
 msgid "https://www.yahoo.com"
-msgstr ""
+msgstr "https://www.yahoo.com"
 
 #: ../eolie/search.py:63
 msgid "https://us.search.yahoo.com"
-msgstr ""
+msgstr "https://tr.search.yahoo.com"
 
 #: ../eolie/search.py:246
 #, python-format
@@ -1257,14 +1276,16 @@ msgid ""
 "Do you want to install\n"
 "the %s search engine?"
 msgstr ""
+"%s arama motorunu\n"
+"yüklemek ister misiniz?"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
-msgstr ""
+msgstr "Desteklenmeyen arama motoru"
 
 #: ../eolie/settings.py:472
 msgid "Connecting…"
-msgstr ""
+msgstr "Bağlanılıyor…"
 
 #: ../eolie/settings.py:506
 msgid "Syncing operational"
@@ -1272,19 +1293,19 @@ msgstr ""
 
 #: ../eolie/settings.py:512
 msgid "Cancel syncing"
-msgstr ""
+msgstr "Senkronizasyonu iptal et"
 
 #: ../eolie/settings.py:517
 msgid "Start syncing"
-msgstr ""
+msgstr "Senkronizasyona başla"
 
 #: ../eolie/settings.py:522
 msgid "Allow syncing"
-msgstr ""
+msgstr "Senkronizasyona izin ver"
 
 #: ../eolie/settings.py:527
 msgid "Syncing is not working"
-msgstr ""
+msgstr "Senkronizasyon çalışmıyor"
 
 #: ../eolie/settings.py:538
 #, python-format
@@ -1292,18 +1313,20 @@ msgid ""
 "Syncing is not available on your computer:\n"
 "%s"
 msgstr ""
+"%s :\n"
+"Senkronizasyon bilgisayarınızda mevcut değil"
 
 #: ../eolie/settings.py:561
 msgid "You've received an email to validate syncing"
-msgstr ""
+msgstr "Senkronizasyonu doğrulamak için bir e-posta aldınız"
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
-msgstr ""
+msgstr "İndiriyor:"
 
 #: ../eolie/toolbar_title.py:282
 msgid "This page contains insecure content"
-msgstr ""
+msgstr "Bu sayfa güvenli olmayan içerik içeriyor"
 
 #: ../eolie/toolbar_title.py:336
 msgid ""
@@ -1311,6 +1334,9 @@ msgid ""
 "If you type your password,\n"
 "it will be visible to cybercriminals!"
 msgstr ""
+"Dikkat: Bu sayfa güvensiz.\n"
+"Parolanızı yazarsanız,\n"
+"kötü niyetli kişiler erişebilir!"
 
 #: ../eolie/toolbar_title.py:385
 msgid "Deny geolocation"
@@ -1318,90 +1344,92 @@ msgstr ""
 
 #: ../eolie/toolbar_title.py:391
 msgid "Blocked popups"
-msgstr ""
+msgstr "Engellenen pop-up’lar"
 
 #: ../eolie/toolbar_title.py:459
 msgid "Copy address"
-msgstr ""
+msgstr "Adresi kopyala"
 
 #: ../eolie/toolbar_title.py:519
 msgid "Paste and load"
-msgstr ""
+msgstr "Yapıştır ve git"
 
 #: ../eolie/toolbar_title.py:757 ../eolie/toolbar_title.py:760
 msgid "Search or enter address"
-msgstr ""
+msgstr "Arama yap veya adres gir"
 
 #: ../eolie/webview_errors.py:81
 msgid "This page is dangerous"
-msgstr ""
+msgstr "Bu sayfa tehlikeli"
 
 #: ../eolie/webview_errors.py:82
 msgid "Eolie will not display this page"
-msgstr ""
+msgstr "Eolie bu sayfayı göstermeyecek"
 
 #: ../eolie/webview_errors.py:89
 #, python-format
 msgid "%s is a phishing page"
-msgstr ""
+msgstr "%s bir kimlik avı sayfası"
 
 #: ../eolie/webview_errors.py:133
 msgid "Failed to load this web page"
-msgstr ""
+msgstr "Bu web sayfası yüklenemedi"
 
 #: ../eolie/webview_errors.py:134
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
+"Geçici olarak erişilemez veya yeni bir adrese taşınmış olabilir.<br/>"
+"İnternet bağlantınızın doğru çalıştığını doğrulamak isteyebilirsiniz."
 
 #: ../eolie/webview_errors.py:140
 msgid "Network not available"
-msgstr ""
+msgstr "Ağ kullanılamıyor"
 
 #: ../eolie/webview_errors.py:141
 msgid "Check your network connection"
-msgstr ""
+msgstr "Ağ bağlantınızı kontrol edin"
 
 #: ../eolie/webview_errors.py:151
 msgid "Retry"
-msgstr ""
+msgstr "Tekrar dene"
 
 #: ../eolie/webview_errors.py:177
 msgid "The certificate does not match this website"
-msgstr ""
+msgstr "Sertifika bu web sitesiyle eşleşmiyor"
 
 #: ../eolie/webview_errors.py:179
 msgid "The certificate has expired"
-msgstr ""
+msgstr "Sertifikanın süresi doldu"
 
 #: ../eolie/webview_errors.py:181
 msgid "The signing certificate authority is not known"
-msgstr ""
+msgstr "Sertifika imzalama yetkisi bilinmiyor"
 
 #: ../eolie/webview_errors.py:183
 msgid "The certificate contains errors"
-msgstr ""
+msgstr "Sertifika hata içeriyor"
 
 #: ../eolie/webview_errors.py:185
 msgid "The certificate has been revoked"
-msgstr ""
+msgstr "Sertifika iptal edildi"
 
 #: ../eolie/webview_errors.py:187
 msgid "The certificate is signed using a weak signature algorithm"
-msgstr ""
+msgstr "Sertifika zayıf bir imza algoritması kullanılarak imzalanmış"
 
 #: ../eolie/webview_errors.py:191
 msgid "The certificate activation time is still in the future"
-msgstr ""
+msgstr "Sertifika aktivasyon zamanı hala gelecekte"
 
 #: ../eolie/webview_errors.py:193
 msgid "The identity of this website has not been verified"
-msgstr ""
+msgstr "Bu web sitesinin kimliği doğrulanmadı"
 
 #: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:198
 msgid "Connection is not secure"
-msgstr ""
+msgstr "Bağlantı güvenli değil"
 
 #: ../eolie/webview_errors.py:200
 #, python-format
@@ -1413,11 +1441,11 @@ msgstr ""
 
 #: ../eolie/webview_errors.py:206
 msgid "Accept Risk and Proceed"
-msgstr ""
+msgstr "Riski Kabul Et ve Devam Et"
 
 #: ../eolie/webview_errors.py:222 ../eolie/webview_errors.py:227
 msgid "WebKit web engine crashed"
-msgstr ""
+msgstr "WebKit web motoru çöktü"
 
 #: ../eolie/webview_errors.py:229
 msgid ""
@@ -1428,47 +1456,47 @@ msgstr ""
 
 #: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
-msgstr ""
+msgstr "Şimdi bir hata bildir"
 
 #: ../eolie/webview_signals_js.py:77
 msgid "Eolie is going to close this page because it is broken"
-msgstr ""
+msgstr "Eolie bu sayfayı kapatacak çünkü bozuk"
 
 #: ../eolie/webview_signals_menu.py:60
 msgid "Reload preview"
-msgstr ""
+msgstr "Önizlemeyi yeniden yükle"
 
 #: ../eolie/webview_signals_menu.py:81
 msgid "Open link in a new page"
-msgstr ""
+msgstr "Yeni sayfada aç"
 
 #: ../eolie/webview_signals_menu.py:91
 msgid "Open link in a new private page"
-msgstr ""
+msgstr "Yeni gizli sayfada aç"
 
 #: ../eolie/webview_signals_menu.py:101
 msgid "Open link in a new window"
-msgstr ""
+msgstr "Yeni pencerede aç"
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
-msgstr ""
+msgstr "Web’de ara"
 
 #: ../eolie/webview_signals_menu.py:143
 msgid "Save videos"
-msgstr ""
+msgstr "Videoları kaydet"
 
 #: ../eolie/webview_signals_menu.py:153
 msgid "Save page as image"
-msgstr ""
+msgstr "Sayfayı resim olarak kaydet"
 
 #: ../eolie/webview_signals.py:142
 msgid "Select files to upload"
-msgstr ""
+msgstr "Yüklenecek dosyaları seçin"
 
 #: ../eolie/webview_signals.py:145
 msgid "Open"
-msgstr ""
+msgstr "Aç"
 
 #: ../eolie/widget_find.py:47
 msgid "Search previous occurrence"
@@ -1480,4 +1508,4 @@ msgstr ""
 
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
-msgstr ""
+msgstr "1000 eşleşmeden 1000'si"
