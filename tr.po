@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2019-03-16 00:03+0000\n"
+"PO-Revision-Date: 2019-03-17 16:03+0000\n"
 "Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/>"
 "\n"
@@ -176,15 +176,15 @@ msgstr "Bağış:"
 
 #: ../data/AboutDialog.ui.in:57
 msgid "Flattr"
-msgstr "Flattr"
+msgstr "Flattr ✓"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:515
 msgid "Liberapay"
-msgstr "Liberapay"
+msgstr "Liberapay ✓"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
 msgid "PayPal"
-msgstr "PayPal"
+msgstr "PayPal ✓"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:6
 #: ../data/org.gnome.Eolie.desktop.in:3
@@ -390,13 +390,13 @@ msgstr "Varsayılan:"
 
 #: ../data/DialogSearchEngine.ui:233
 msgid "Bang:"
-msgstr "Bang:"
+msgstr "Arama kısayolu:"
 
 #: ../data/DialogSearchEngine.ui:246
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
-"Bang g ise, bu motoru kullanarak arama yapmak için arama çubuğuna g: yazarak "
-"kullanın"
+"Arama kısayolu 'g' ise, bu motoru kullanarak arama yapmak için arama "
+"çubuğuna g: yazarak kullanın"
 
 #: ../data/DialogSearchEngine.ui:263
 msgid "Search:"
@@ -1288,23 +1288,23 @@ msgstr "Bağlanılıyor…"
 
 #: ../eolie/settings.py:506
 msgid "Syncing operational"
-msgstr ""
+msgstr "Eşitleme işleri"
 
 #: ../eolie/settings.py:512
 msgid "Cancel syncing"
-msgstr "Senkronizasyonu iptal et"
+msgstr "Eşitlemeyi iptal et"
 
 #: ../eolie/settings.py:517
 msgid "Start syncing"
-msgstr "Senkronizasyona başla"
+msgstr "Eşitlemeye başla"
 
 #: ../eolie/settings.py:522
 msgid "Allow syncing"
-msgstr "Senkronizasyona izin ver"
+msgstr "Eşitlemeye izin ver"
 
 #: ../eolie/settings.py:527
 msgid "Syncing is not working"
-msgstr "Senkronizasyon çalışmıyor"
+msgstr "Eşitleme çalışmıyor"
 
 #: ../eolie/settings.py:538
 #, python-format
@@ -1312,12 +1312,12 @@ msgid ""
 "Syncing is not available on your computer:\n"
 "%s"
 msgstr ""
-"%s :\n"
-"Senkronizasyon bilgisayarınızda mevcut değil"
+"Eşitleme bilgisayarınızda mevcut değil:\n"
+"%s"
 
 #: ../eolie/settings.py:561
 msgid "You've received an email to validate syncing"
-msgstr "Senkronizasyonu doğrulamak için bir e-posta aldınız"
+msgstr "Eşitlemeyi doğrulamak için bir e-posta aldınız"
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
@@ -1339,7 +1339,7 @@ msgstr ""
 
 #: ../eolie/toolbar_title.py:385
 msgid "Deny geolocation"
-msgstr ""
+msgstr "Coğrafi konumu reddet"
 
 #: ../eolie/toolbar_title.py:391
 msgid "Blocked popups"
@@ -1437,6 +1437,9 @@ msgid ""
 "or alter information going to or from this site (for example, private "
 "messages, credit card information, or passwords)."
 msgstr ""
+"Bu gerçek gibi görünmüyor %s.<br/>Saldırganlar bu siteye veya bu siteden "
+"gelen bilgileri çalmaya veya değiştirmeye çalışıyor olabilir. (örneğin, özel "
+"mesajlar, kredi kartı bilgileri veya şifreler)."
 
 #: ../eolie/webview_errors.py:206
 msgid "Accept Risk and Proceed"
@@ -1452,6 +1455,10 @@ msgid ""
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
 "<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
+"Web sayfası beklenmedik bir şekilde sonlandırıldı. Devam etmek için, yeniden "
+"yükleyin veya başka bir sayfaya gidin.<br/><br/>Sorun devam ederse, hatayı "
+"bildirebilirsiniz :)<br/>Kullanım <b>'WebKit Gtk'</b> bileşen olarak <br/>"
+"Ayarla <b>[GTK]</b> konu öneki olarak."
 
 #: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
