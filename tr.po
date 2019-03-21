@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2019-01-29 01:09+0000\n"
-"Last-Translator: Muha Aliss <muhaaliss@pm.me>\n"
+"PO-Revision-Date: 2019-03-17 16:03+0000\n"
+"Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/>"
 "\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.5-dev\n"
+"X-Generator: Weblate 3.6-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -109,7 +109,7 @@ msgstr "Başlangıçta bu sayfayı aç"
 
 #: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Minimum sidebar position"
-msgstr "Minimum kenar çubuğu konumu"
+msgstr "Asgari kenar çubuğu konumu"
 
 #: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:493
 msgid "Minimum font size"
@@ -165,7 +165,10 @@ msgstr "Eolie web sitesini ziyaret et"
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Muha Aliss <muhaaliss@pm.me>"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Serdar Sağlam <teknomobil@yandex.com>\n"
+"Muha Aliss <muhaaliss@pm.me>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -173,15 +176,15 @@ msgstr "Bağış:"
 
 #: ../data/AboutDialog.ui.in:57
 msgid "Flattr"
-msgstr "Flattr"
+msgstr "Flattr ✓"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:515
 msgid "Liberapay"
-msgstr "Liberapay"
+msgstr "Liberapay ✓"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:515
 msgid "PayPal"
-msgstr "PayPal"
+msgstr "PayPal ✓"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:6
 #: ../data/org.gnome.Eolie.desktop.in:3
@@ -199,10 +202,9 @@ msgstr "Eolie yeni bir GNOME web tarayıcısıdır."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:15
 msgid "Better favicons code"
-msgstr ""
+msgstr "Daha iyi gözde simgeler kodu"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
-#, fuzzy
 msgid "org.gnome.Eolie"
 msgstr "org.gnome.Eolie"
 
@@ -283,7 +285,6 @@ msgid "Clear Personal Data"
 msgstr "Kişisel Verileri Temizle"
 
 #: ../data/DialogClearData.ui:10
-#, fuzzy
 msgid "C_lear"
 msgstr "T_emizle"
 
@@ -306,11 +307,13 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
+"Bu dönemde değiştirilen tüm web sitelerine ilişkin verileri silmek için bir "
+"süre seçebilirsiniz. Zamanın başlangıcından birini seçerseniz, yalnızca "
+"belirli web siteleri için verileri de temizleyebilirsiniz."
 
 #: ../data/DialogClearData.ui:100
-#, fuzzy
 msgid "Clear selected personal data _from:"
-msgstr "Seçilen kişisel_verileri temizle:"
+msgstr "Seçilen kişisel verileri _şuradan temizle:"
 
 #: ../data/DialogClearData.ui:111
 msgid "the past hour"
@@ -387,13 +390,13 @@ msgstr "Varsayılan:"
 
 #: ../data/DialogSearchEngine.ui:233
 msgid "Bang:"
-msgstr "Bang:"
+msgstr "Arama kısayolu:"
 
 #: ../data/DialogSearchEngine.ui:246
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
-"Bang g ise, bu motoru kullanarak arama yapmak için arama çubuğuna g: yazarak "
-"kullanın"
+"Arama kısayolu 'g' ise, bu motoru kullanarak arama yapmak için arama "
+"çubuğuna g: yazarak kullanın"
 
 #: ../data/DialogSearchEngine.ui:263
 msgid "Search:"
@@ -463,7 +466,7 @@ msgstr "Bu parolayı kaydetmek ister misiniz?"
 
 #: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:135
 msgid "Save"
-msgstr "Kayıt"
+msgstr "Kaydet"
 
 #: ../data/PopoverDownloads.ui:53
 msgid "Open download folder"
@@ -744,7 +747,7 @@ msgstr "Hesap oluştur veya yönet"
 
 #: ../data/SettingsDialog.ui:1035
 msgid "Syncing"
-msgstr "Senkronize ediliyor"
+msgstr "Eşitleniyor"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -972,32 +975,28 @@ msgid "Filtering"
 msgstr "Filtreleme"
 
 #: ../data/ToolbarMenu.ui:343
-#, fuzzy
 msgid "_Preferences"
 msgstr "_Tercihler"
 
 #: ../data/ToolbarMenu.ui:366
-#, fuzzy
 msgid "_Sidebar"
-msgstr "_Kenar çubuğu"
+msgstr "_Kenar Çubuğu"
 
 #: ../data/ToolbarMenu.ui:379
 msgid "_Keyboard Shortcuts"
 msgstr "_Klavye Kısayolları"
 
 #: ../data/ToolbarMenu.ui:393
-#, fuzzy
 msgid "_Quit"
 msgstr "_Çıkış"
 
 #: ../data/ToolbarMenu.ui:406
-#, fuzzy
 msgid "_About"
 msgstr "_Hakkında"
 
 #: ../eolie/application.py:212
 msgid "Default"
-msgstr "Varsayılan"
+msgstr "Öntanımlı"
 
 #: ../eolie/application.py:213
 msgid "Social networks"
@@ -1029,7 +1028,7 @@ msgstr "Gerçekten Eolie'den çıkmak istiyor musun?"
 
 #: ../eolie/application.py:808
 msgid "Downloads running, are you sure you want quit?"
-msgstr "İndirilenler dosyalar var, çıkmak istediğine emin misin?"
+msgstr "İndirilen dosyalar var, çıkmak istediğine emin misin?"
 
 #: ../eolie/container.py:514
 msgid "Please consider a donation to the project"
@@ -1053,7 +1052,7 @@ msgstr "Son değişiklik"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
-msgstr ""
+msgstr "Hafıza önbelleği"
 
 #: ../eolie/dialog_clear_data.py:182
 msgid "HTTP disk cache"
@@ -1289,23 +1288,23 @@ msgstr "Bağlanılıyor…"
 
 #: ../eolie/settings.py:506
 msgid "Syncing operational"
-msgstr ""
+msgstr "Eşitleme işleri"
 
 #: ../eolie/settings.py:512
 msgid "Cancel syncing"
-msgstr "Senkronizasyonu iptal et"
+msgstr "Eşitlemeyi iptal et"
 
 #: ../eolie/settings.py:517
 msgid "Start syncing"
-msgstr "Senkronizasyona başla"
+msgstr "Eşitlemeye başla"
 
 #: ../eolie/settings.py:522
 msgid "Allow syncing"
-msgstr "Senkronizasyona izin ver"
+msgstr "Eşitlemeye izin ver"
 
 #: ../eolie/settings.py:527
 msgid "Syncing is not working"
-msgstr "Senkronizasyon çalışmıyor"
+msgstr "Eşitleme çalışmıyor"
 
 #: ../eolie/settings.py:538
 #, python-format
@@ -1313,12 +1312,12 @@ msgid ""
 "Syncing is not available on your computer:\n"
 "%s"
 msgstr ""
-"%s :\n"
-"Senkronizasyon bilgisayarınızda mevcut değil"
+"Eşitleme bilgisayarınızda mevcut değil:\n"
+"%s"
 
 #: ../eolie/settings.py:561
 msgid "You've received an email to validate syncing"
-msgstr "Senkronizasyonu doğrulamak için bir e-posta aldınız"
+msgstr "Eşitlemeyi doğrulamak için bir e-posta aldınız"
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
@@ -1340,7 +1339,7 @@ msgstr ""
 
 #: ../eolie/toolbar_title.py:385
 msgid "Deny geolocation"
-msgstr ""
+msgstr "Coğrafi konumu reddet"
 
 #: ../eolie/toolbar_title.py:391
 msgid "Blocked popups"
@@ -1438,6 +1437,9 @@ msgid ""
 "or alter information going to or from this site (for example, private "
 "messages, credit card information, or passwords)."
 msgstr ""
+"Bu gerçek gibi görünmüyor %s.<br/>Saldırganlar bu siteye veya bu siteden "
+"gelen bilgileri çalmaya veya değiştirmeye çalışıyor olabilir. (örneğin, özel "
+"mesajlar, kredi kartı bilgileri veya şifreler)."
 
 #: ../eolie/webview_errors.py:206
 msgid "Accept Risk and Proceed"
@@ -1453,6 +1455,10 @@ msgid ""
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
 "<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
+"Web sayfası beklenmedik bir şekilde sonlandırıldı. Devam etmek için, yeniden "
+"yükleyin veya başka bir sayfaya gidin.<br/><br/>Sorun devam ederse, hatayı "
+"bildirebilirsiniz :)<br/>Kullanım <b>'WebKit Gtk'</b> bileşen olarak <br/>"
+"Ayarla <b>[GTK]</b> konu öneki olarak."
 
 #: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
@@ -1500,11 +1506,11 @@ msgstr "Aç"
 
 #: ../eolie/widget_find.py:47
 msgid "Search previous occurrence"
-msgstr ""
+msgstr "Önceki oluşumu ara"
 
 #: ../eolie/widget_find.py:56
 msgid "Search next occurrence"
-msgstr ""
+msgstr "Sonraki oluşumu ara"
 
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"

@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2018-04-27 05:10+0000\n"
+"PO-Revision-Date: 2019-03-18 21:15+0000\n"
 "Last-Translator: Göran Olsson <kronstadt21@gmail.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/"
-">\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/>"
+"\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.6-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -165,7 +165,7 @@ msgstr "Besök webbplatsen för Eolie"
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>"
+msgstr "Göran Olsson <kronstadt21@gmail.com>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -973,7 +973,7 @@ msgstr "_Inställningar"
 
 #: ../data/ToolbarMenu.ui:366
 msgid "_Sidebar"
-msgstr "_Sidopanel"
+msgstr "_Sidofält"
 
 #: ../data/ToolbarMenu.ui:379
 msgid "_Keyboard Shortcuts"
@@ -1468,7 +1468,7 @@ msgstr "Öppna länk i ett nytt fönster"
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
-msgstr "Sök på nätet"
+msgstr "Leta på webben"
 
 #: ../eolie/webview_signals_menu.py:143
 msgid "Save videos"

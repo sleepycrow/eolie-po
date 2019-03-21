@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-21 22:48+0200\n"
-"PO-Revision-Date: 2019-02-20 22:17+0000\n"
+"PO-Revision-Date: 2019-03-08 13:03+0000\n"
 "Last-Translator: Gianluca Boiano <morf3089@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/eolie/it/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.5-dev\n"
+"X-Generator: Weblate 3.5.1-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -1459,7 +1459,7 @@ msgstr ""
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
-msgstr ""
+msgstr "Cerca sul Web"
 
 #: ../eolie/webview_signals_menu.py:143
 msgid "Save videos"
