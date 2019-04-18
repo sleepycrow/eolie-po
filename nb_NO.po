@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-18 16:40+0200\n"
-"PO-Revision-Date: 2019-03-16 00:03+0000\n"
+"PO-Revision-Date: 2019-04-18 14:42+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "eolie/nb_NO/>\n"
@@ -29,7 +29,7 @@ msgstr "Vis Firefox Sync-feilrettingsmeldinger"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "INTERNAL"
-msgstr ""
+msgstr "INTERN"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
@@ -48,8 +48,9 @@ msgid "Trust websites: No JavaScript blocking of internal URIs"
 msgstr "Stol på nettsider: Ingen JavaScript-blokkering av interne URI-er"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
+#, fuzzy
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "Skru på myk rulling"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all unwanted popups"
@@ -182,7 +183,7 @@ msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
 msgid "PayPal"
