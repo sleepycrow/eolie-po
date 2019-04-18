@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-18 16:40+0200\n"
-"PO-Revision-Date: 2019-04-18 14:42+0000\n"
+"PO-Revision-Date: 2019-04-20 19:33+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "eolie/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6-dev\n"
+"X-Generator: Weblate 3.6\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -355,7 +355,7 @@ msgstr ""
 
 #: ../data/DialogCookies.ui:19
 msgid "Cookies manager"
-msgstr ""
+msgstr "Kakebehandler"
 
 #: ../data/DialogCookies.ui:23
 msgid "Delete cookies"
@@ -745,7 +745,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:951
 msgid "Password :"
-msgstr ""
+msgstr "Passord:"
 
 #: ../data/SettingsDialog.ui:972
 msgid "Allow synchronization"
@@ -757,11 +757,12 @@ msgstr "Opprett eller behandle konto"
 
 #: ../data/SettingsDialog.ui:1028
 msgid "Code :"
-msgstr ""
+msgstr "Kode:"
 
 #: ../data/SettingsDialog.ui:1039 ../data/SettingsDialog.ui:1040
+#, fuzzy
 msgid "You need to enable Two Factor Authentication"
-msgstr ""
+msgstr "Du må skru på tofaktor-identitetsbekreftelse"
 
 #: ../data/SettingsDialog.ui:1059
 msgid "Syncing"
