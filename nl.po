@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-18 16:40+0200\n"
-"PO-Revision-Date: 2019-03-09 16:03+0000\n"
-"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
+"PO-Revision-Date: 2019-04-19 19:01+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.5.1-dev\n"
+"X-Generator: Weblate 3.6-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -44,7 +44,7 @@ msgstr "Websites vertrouwen: geen JavaScript blokkeren op interne URI's"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "Vloeiend schuiven inschakelen"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all unwanted popups"
@@ -178,7 +178,7 @@ msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
 msgid "PayPal"
@@ -348,7 +348,7 @@ msgstr ""
 
 #: ../data/DialogCookies.ui:19
 msgid "Cookies manager"
-msgstr ""
+msgstr "Cookiebeheer"
 
 #: ../data/DialogCookies.ui:23
 msgid "Delete cookies"
@@ -728,11 +728,11 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:929
 msgid "Login :"
-msgstr ""
+msgstr "Inlognaam:"
 
 #: ../data/SettingsDialog.ui:951
 msgid "Password :"
-msgstr ""
+msgstr "Wachtwoord:"
 
 #: ../data/SettingsDialog.ui:972
 msgid "Allow synchronization"
@@ -744,11 +744,11 @@ msgstr "Account aanmaken of beheren"
 
 #: ../data/SettingsDialog.ui:1028
 msgid "Code :"
-msgstr ""
+msgstr "Code:"
 
 #: ../data/SettingsDialog.ui:1039 ../data/SettingsDialog.ui:1040
 msgid "You need to enable Two Factor Authentication"
-msgstr ""
+msgstr "Je moet authenticatie in twee stappen inschakelen"
 
 #: ../data/SettingsDialog.ui:1059
 msgid "Syncing"
