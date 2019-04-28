@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-18 16:40+0200\n"
-"PO-Revision-Date: 2018-08-20 11:37+0000\n"
+"PO-Revision-Date: 2019-04-29 11:45+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/"
-">\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/>"
+"\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -29,7 +29,7 @@ msgstr "Näytä Firefox Syncin vianjäljitysviestit"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "INTERNAL"
-msgstr ""
+msgstr "SISÄINEN"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "Käytä pehmeää vieritystä"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all unwanted popups"
@@ -146,7 +146,7 @@ msgstr "DNS-ennustus"
 
 #: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:860
 msgid "Autoplay videos"
-msgstr ""
+msgstr "Toista videot automaattisesti"
 
 #: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "Enable search suggestions"
@@ -181,7 +181,7 @@ msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
 msgid "PayPal"
@@ -345,7 +345,7 @@ msgstr "Et voi perua tätä toimintoa. Valitsemasi tiedot poistetaan pysyvästi.
 
 #: ../data/DialogCookies.ui:19
 msgid "Cookies manager"
-msgstr ""
+msgstr "Evästeiden hallinta"
 
 #: ../data/DialogCookies.ui:23
 msgid "Delete cookies"
@@ -353,7 +353,7 @@ msgstr "Poista evästeet"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
-msgstr ""
+msgstr "Tuo kirjanmerkit kohteesta:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:192
 #: ../eolie/popover_uri.py:460
@@ -720,11 +720,11 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:929
 msgid "Login :"
-msgstr ""
+msgstr "Käyttäjätunnus:"
 
 #: ../data/SettingsDialog.ui:951
 msgid "Password :"
-msgstr ""
+msgstr "Salasana:"
 
 #: ../data/SettingsDialog.ui:972
 msgid "Allow synchronization"
@@ -736,11 +736,11 @@ msgstr "Luo tili tai hallinnoi sitä"
 
 #: ../data/SettingsDialog.ui:1028
 msgid "Code :"
-msgstr ""
+msgstr "Koodi:"
 
 #: ../data/SettingsDialog.ui:1039 ../data/SettingsDialog.ui:1040
 msgid "You need to enable Two Factor Authentication"
-msgstr ""
+msgstr "Ota käyttöön kaksivaiheinen tunnistautuminen"
 
 #: ../data/SettingsDialog.ui:1059
 msgid "Syncing"
@@ -1090,11 +1090,11 @@ msgstr "Ei videoita"
 
 #: ../eolie/pages_manager_child.py:161
 msgid "Unpin this page"
-msgstr ""
+msgstr "Poista tämän sivun kiinnitys"
 
 #: ../eolie/pages_manager_child.py:164
 msgid "Pin this page"
-msgstr ""
+msgstr "Kiinnitä tämä sivu"
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
@@ -1184,19 +1184,19 @@ msgstr ""
 
 #: ../eolie/popover_uri.py:821
 msgid "From the past hour"
-msgstr ""
+msgstr "Viimeisen tunnin ajalta"
 
 #: ../eolie/popover_uri.py:822
 msgid "From the past day"
-msgstr ""
+msgstr "Viimeisen vuorokauden ajalta"
 
 #: ../eolie/popover_uri.py:823
 msgid "From the past week"
-msgstr ""
+msgstr "Viimeisen viikon ajalta"
 
 #: ../eolie/popover_uri.py:825
 msgid "From the past four weeks"
-msgstr ""
+msgstr "Viimeisen kuukauden ajalta"
 
 #: ../eolie/popover_uri.py:826
 msgid "From selected day"
