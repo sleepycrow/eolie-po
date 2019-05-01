@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 16:40+0200\n"
+"POT-Creation-Date: 2019-05-01 14:09+0200\n"
 "PO-Revision-Date: 2019-04-18 14:42+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
-"\n"
+"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/"
+">\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -128,7 +128,7 @@ msgid "Popular items shown"
 msgstr "Items populaires affichés"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:519
-#: ../data/ToolbarMenu.ui:188 ../data/ToolbarPageMenu.ui:188
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Niveau de zoom par défaut"
 
@@ -227,7 +227,7 @@ msgid "Trust web sites"
 msgstr "Faire confiance aux sites web"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:228 ../data/ToolbarPageMenu.ui:228
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "Bloquer les publicités"
 
@@ -414,7 +414,7 @@ msgstr ""
 "Retirez le terme recherché de l'adresse obtenue et remplacez le par %s."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:267 ../data/ToolbarPageMenu.ui:267
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "Bloquer les images"
 
@@ -454,7 +454,6 @@ msgid "Enabled"
 msgstr "Activé"
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
-#: ../data/ToolbarPageMenu.ui:329
 msgid "Spell checking"
 msgstr "Correction orthographique"
 
@@ -526,7 +525,7 @@ msgid "History"
 msgstr "Historique"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:254 ../data/ToolbarPageMenu.ui:254
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "Bloquer les popups"
 
@@ -551,7 +550,6 @@ msgid "Cancel download"
 msgstr "Annuler le téléchargement"
 
 #: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
-#: ../data/ToolbarPageMenu.ui:241
 msgid "Block JavaScript"
 msgstr "Bloquer JavaScript"
 
@@ -568,7 +566,7 @@ msgid "Preferences"
 msgstr "Préférences"
 
 #: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:143 ../data/ToolbarPageMenu.ui:143
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Téléchargements"
 
@@ -945,7 +943,7 @@ msgid "More actions"
 msgstr "Plus d'actions"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:46
 msgid "Leave fullscreen"
 msgstr "Quitter le plein écran"
 
@@ -961,28 +959,27 @@ msgstr "Ne plus autoriser l'accès à ce site"
 msgid "Startup page"
 msgstr "Page de démarrage"
 
-#: ../data/ToolbarMenu.ui:64 ../data/ToolbarPageMenu.ui:64
-#: ../eolie/toolbar_end.py:132
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
 msgid "Save page"
 msgstr "Enregistrer la page"
 
-#: ../data/ToolbarMenu.ui:81 ../data/ToolbarPageMenu.ui:81
+#: ../data/ToolbarMenu.ui:81
 msgid "Print page"
 msgstr "Imprimer la page"
 
-#: ../data/ToolbarMenu.ui:126 ../data/ToolbarPageMenu.ui:126
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "Page de démarrage"
 
-#: ../data/ToolbarMenu.ui:172 ../data/ToolbarPageMenu.ui:172
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "Dé-zoomer"
 
-#: ../data/ToolbarMenu.ui:203 ../data/ToolbarPageMenu.ui:203
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "Zoomer"
 
-#: ../data/ToolbarMenu.ui:284 ../data/ToolbarPageMenu.ui:284
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "Filtrage"
 
@@ -1094,7 +1091,7 @@ msgstr "Modifier le \"user agent\""
 msgid "Close site"
 msgstr "Fermer le site"
 
-#: ../eolie/menu_toolbar.py:49
+#: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
 msgstr "Entrer en plein écran"
 

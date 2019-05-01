@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 16:40+0200\n"
+"POT-Creation-Date: 2019-05-01 14:09+0200\n"
 "PO-Revision-Date: 2018-08-27 11:41+0000\n"
 "Last-Translator: OIS <mistresssilvara@hotmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/"
@@ -126,7 +126,7 @@ msgid "Popular items shown"
 msgstr "Часто просматриваемые"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:519
-#: ../data/ToolbarMenu.ui:188 ../data/ToolbarPageMenu.ui:188
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Уровень масштабирования по умолчанию"
 
@@ -226,7 +226,7 @@ msgid "Trust web sites"
 msgstr ""
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:228 ../data/ToolbarPageMenu.ui:228
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "Блокировка рекламы"
 
@@ -415,7 +415,7 @@ msgstr ""
 "запрос из результирующего адреса и замените его %s."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:267 ../data/ToolbarPageMenu.ui:267
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "Блокировать изображения"
 
@@ -457,7 +457,6 @@ msgid "Enabled"
 msgstr ""
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
-#: ../data/ToolbarPageMenu.ui:329
 msgid "Spell checking"
 msgstr "Проверка орфографии"
 
@@ -529,7 +528,7 @@ msgid "History"
 msgstr "История"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:254 ../data/ToolbarPageMenu.ui:254
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "Блокировать всплывающие окна"
 
@@ -555,7 +554,6 @@ msgid "Cancel download"
 msgstr "Отменить загрузку"
 
 #: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
-#: ../data/ToolbarPageMenu.ui:241
 msgid "Block JavaScript"
 msgstr "Блокировать JavaScript"
 
@@ -573,7 +571,7 @@ msgid "Preferences"
 msgstr "Настройки"
 
 #: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:143 ../data/ToolbarPageMenu.ui:143
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Загрузки"
 
@@ -948,7 +946,7 @@ msgid "More actions"
 msgstr "Другие действия"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:46
 msgid "Leave fullscreen"
 msgstr "Выйти из полноэкранного режима"
 
@@ -964,28 +962,27 @@ msgstr "Запретить доступ к этому сайту"
 msgid "Startup page"
 msgstr "Начальная страница"
 
-#: ../data/ToolbarMenu.ui:64 ../data/ToolbarPageMenu.ui:64
-#: ../eolie/toolbar_end.py:132
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
 msgid "Save page"
 msgstr "Сохранить страницу"
 
-#: ../data/ToolbarMenu.ui:81 ../data/ToolbarPageMenu.ui:81
+#: ../data/ToolbarMenu.ui:81
 msgid "Print page"
 msgstr "Печать страницы"
 
-#: ../data/ToolbarMenu.ui:126 ../data/ToolbarPageMenu.ui:126
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "Начальная страница"
 
-#: ../data/ToolbarMenu.ui:172 ../data/ToolbarPageMenu.ui:172
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "Уменьшить"
 
-#: ../data/ToolbarMenu.ui:203 ../data/ToolbarPageMenu.ui:203
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "Приблизить"
 
-#: ../data/ToolbarMenu.ui:284 ../data/ToolbarPageMenu.ui:284
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "Фильтрация"
 
@@ -1097,7 +1094,7 @@ msgstr "Изменить user agent"
 msgid "Close site"
 msgstr "Закрыть сайт"
 
-#: ../eolie/menu_toolbar.py:49
+#: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
 msgstr "Войти в полноэкранный режим"
 

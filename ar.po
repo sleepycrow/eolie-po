@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 16:40+0200\n"
+"POT-Creation-Date: 2019-05-01 14:09+0200\n"
 "PO-Revision-Date: 2018-12-16 10:08+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/"
@@ -125,7 +125,7 @@ msgid "Popular items shown"
 msgstr "العناصر الشائعة الظاهرة"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:519
-#: ../data/ToolbarMenu.ui:188 ../data/ToolbarPageMenu.ui:188
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "مستوى التقريب المبدئي"
 
@@ -226,7 +226,7 @@ msgid "Trust web sites"
 msgstr "مواقع الوِب الموثوقة"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:228 ../data/ToolbarPageMenu.ui:228
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "احجب الإعلانات"
 
@@ -409,7 +409,7 @@ msgstr ""
 "العنوان الناتج، ثم احذف كلمة البحث من العنوان الناتج وضع مكانه %s."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:267 ../data/ToolbarPageMenu.ui:267
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "احجب الصور"
 
@@ -449,7 +449,6 @@ msgid "Enabled"
 msgstr "مفعّل"
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
-#: ../data/ToolbarPageMenu.ui:329
 msgid "Spell checking"
 msgstr "التصحيح الإملائي"
 
@@ -521,7 +520,7 @@ msgid "History"
 msgstr "التأريخ"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:254 ../data/ToolbarPageMenu.ui:254
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "احجب المنبثقات"
 
@@ -546,7 +545,6 @@ msgid "Cancel download"
 msgstr "ألغ التنزيل"
 
 #: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
-#: ../data/ToolbarPageMenu.ui:241
 msgid "Block JavaScript"
 msgstr "احجب الجافاسكربت"
 
@@ -563,7 +561,7 @@ msgid "Preferences"
 msgstr "التفضيلات"
 
 #: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:143 ../data/ToolbarPageMenu.ui:143
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "التنزيلات"
 
@@ -940,7 +938,7 @@ msgid "More actions"
 msgstr "أفعال أكثر"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:46
 msgid "Leave fullscreen"
 msgstr "اترك وضع ملء الشاشة"
 
@@ -956,28 +954,27 @@ msgstr "لا تسمح بالوصول إلى هذا الموقع"
 msgid "Startup page"
 msgstr "صفحة البدء"
 
-#: ../data/ToolbarMenu.ui:64 ../data/ToolbarPageMenu.ui:64
-#: ../eolie/toolbar_end.py:132
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
 msgid "Save page"
 msgstr "احفظ الصفحة"
 
-#: ../data/ToolbarMenu.ui:81 ../data/ToolbarPageMenu.ui:81
+#: ../data/ToolbarMenu.ui:81
 msgid "Print page"
 msgstr "اطبع الصفحة"
 
-#: ../data/ToolbarMenu.ui:126 ../data/ToolbarPageMenu.ui:126
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "صفحة البدء"
 
-#: ../data/ToolbarMenu.ui:172 ../data/ToolbarPageMenu.ui:172
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "بعّد"
 
-#: ../data/ToolbarMenu.ui:203 ../data/ToolbarPageMenu.ui:203
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "قرّب"
 
-#: ../data/ToolbarMenu.ui:284 ../data/ToolbarPageMenu.ui:284
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "الترشيح"
 
@@ -1089,7 +1086,7 @@ msgstr "غيّر معرّف المستخدم"
 msgid "Close site"
 msgstr "أغلق الموقع"
 
-#: ../eolie/menu_toolbar.py:49
+#: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
 msgstr "ادخل وضع ملء الشاشة"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 16:40+0200\n"
+"POT-Creation-Date: 2019-05-01 14:09+0200\n"
 "PO-Revision-Date: 2019-03-18 21:15+0000\n"
 "Last-Translator: Göran Olsson <kronstadt21@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/"
@@ -124,7 +124,7 @@ msgid "Popular items shown"
 msgstr "Visade populära objekt"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:519
-#: ../data/ToolbarMenu.ui:188 ../data/ToolbarPageMenu.ui:188
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Standardzoomnivå"
 
@@ -223,7 +223,7 @@ msgid "Trust web sites"
 msgstr "Betrodda webbplatser"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:228 ../data/ToolbarPageMenu.ui:228
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "Blockera annonser"
 
@@ -408,7 +408,7 @@ msgstr ""
 "resulterande adressen och ersätt den med %s."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:267 ../data/ToolbarPageMenu.ui:267
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "Blockera bilder"
 
@@ -448,7 +448,6 @@ msgid "Enabled"
 msgstr "Aktiverad"
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
-#: ../data/ToolbarPageMenu.ui:329
 msgid "Spell checking"
 msgstr "Stavningskontroll"
 
@@ -520,7 +519,7 @@ msgid "History"
 msgstr "Historik"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:254 ../data/ToolbarPageMenu.ui:254
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "Blockera poppupper"
 
@@ -545,7 +544,6 @@ msgid "Cancel download"
 msgstr "Avbryt hämtning"
 
 #: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
-#: ../data/ToolbarPageMenu.ui:241
 msgid "Block JavaScript"
 msgstr "Blockera JavaScript"
 
@@ -562,7 +560,7 @@ msgid "Preferences"
 msgstr "Inställningar"
 
 #: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:143 ../data/ToolbarPageMenu.ui:143
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Hämtningar"
 
@@ -937,7 +935,7 @@ msgid "More actions"
 msgstr "Fler åtgärder"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:46
 msgid "Leave fullscreen"
 msgstr "Lämna helskärm"
 
@@ -953,28 +951,27 @@ msgstr "Neka åtkomst för denna webbplats"
 msgid "Startup page"
 msgstr "Startsida"
 
-#: ../data/ToolbarMenu.ui:64 ../data/ToolbarPageMenu.ui:64
-#: ../eolie/toolbar_end.py:132
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
 msgid "Save page"
 msgstr "Spara sida"
 
-#: ../data/ToolbarMenu.ui:81 ../data/ToolbarPageMenu.ui:81
+#: ../data/ToolbarMenu.ui:81
 msgid "Print page"
 msgstr "Skriv ut sida"
 
-#: ../data/ToolbarMenu.ui:126 ../data/ToolbarPageMenu.ui:126
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "Startsida"
 
-#: ../data/ToolbarMenu.ui:172 ../data/ToolbarPageMenu.ui:172
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "Zooma ut"
 
-#: ../data/ToolbarMenu.ui:203 ../data/ToolbarPageMenu.ui:203
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "Zooma in"
 
-#: ../data/ToolbarMenu.ui:284 ../data/ToolbarPageMenu.ui:284
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "Filtrering"
 
@@ -1086,7 +1083,7 @@ msgstr "Ändra användaragent"
 msgid "Close site"
 msgstr "Stäng webbplats"
 
-#: ../eolie/menu_toolbar.py:49
+#: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
 msgstr "Helskärmsläge"
 

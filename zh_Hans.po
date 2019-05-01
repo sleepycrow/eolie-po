@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 16:40+0200\n"
+"POT-Creation-Date: 2019-05-01 14:09+0200\n"
 "PO-Revision-Date: 2018-09-05 03:14+0000\n"
 "Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -124,7 +124,7 @@ msgid "Popular items shown"
 msgstr "显示热门项目"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:519
-#: ../data/ToolbarMenu.ui:188 ../data/ToolbarPageMenu.ui:188
+#: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "默认缩放级别"
 
@@ -223,7 +223,7 @@ msgid "Trust web sites"
 msgstr "信任网站"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:228 ../data/ToolbarPageMenu.ui:228
+#: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
 msgstr "屏蔽广告"
 
@@ -404,7 +404,7 @@ msgstr ""
 "换为 %s。"
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:267 ../data/ToolbarPageMenu.ui:267
+#: ../data/ToolbarMenu.ui:267
 msgid "Block images"
 msgstr "屏蔽图像"
 
@@ -444,7 +444,6 @@ msgid "Enabled"
 msgstr "已启用"
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
-#: ../data/ToolbarPageMenu.ui:329
 msgid "Spell checking"
 msgstr "拼写检查"
 
@@ -516,7 +515,7 @@ msgid "History"
 msgstr "历史"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:254 ../data/ToolbarPageMenu.ui:254
+#: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
 msgstr "屏蔽弹窗"
 
@@ -541,7 +540,6 @@ msgid "Cancel download"
 msgstr "取消下载"
 
 #: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
-#: ../data/ToolbarPageMenu.ui:241
 msgid "Block JavaScript"
 msgstr "屏蔽 JavaScript"
 
@@ -558,7 +556,7 @@ msgid "Preferences"
 msgstr "首选项"
 
 #: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
-#: ../data/ToolbarMenu.ui:143 ../data/ToolbarPageMenu.ui:143
+#: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "下载"
 
@@ -935,7 +933,7 @@ msgid "More actions"
 msgstr "更多操作"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:46
 msgid "Leave fullscreen"
 msgstr "退出全屏"
 
@@ -951,28 +949,27 @@ msgstr "禁止访问此网站"
 msgid "Startup page"
 msgstr "启动页"
 
-#: ../data/ToolbarMenu.ui:64 ../data/ToolbarPageMenu.ui:64
-#: ../eolie/toolbar_end.py:132
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
 msgid "Save page"
 msgstr "保存页面"
 
-#: ../data/ToolbarMenu.ui:81 ../data/ToolbarPageMenu.ui:81
+#: ../data/ToolbarMenu.ui:81
 msgid "Print page"
 msgstr "打印页面"
 
-#: ../data/ToolbarMenu.ui:126 ../data/ToolbarPageMenu.ui:126
+#: ../data/ToolbarMenu.ui:126
 msgid "Start page"
 msgstr "启动页"
 
-#: ../data/ToolbarMenu.ui:172 ../data/ToolbarPageMenu.ui:172
+#: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
 msgstr "缩小"
 
-#: ../data/ToolbarMenu.ui:203 ../data/ToolbarPageMenu.ui:203
+#: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
 msgstr "放大"
 
-#: ../data/ToolbarMenu.ui:284 ../data/ToolbarPageMenu.ui:284
+#: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
 msgstr "过滤中"
 
@@ -1084,7 +1081,7 @@ msgstr "修改用户代理"
 msgid "Close site"
 msgstr "关闭网站"
 
-#: ../eolie/menu_toolbar.py:49
+#: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
 msgstr "进入全屏"
 
