@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 14:09+0200\n"
-"PO-Revision-Date: 2018-12-16 10:08+0000\n"
+"PO-Revision-Date: 2019-05-03 21:37+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/"
-">\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
+"\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.7-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -50,7 +50,7 @@ msgstr "مواقع الوِب الموثوقة: لا منع للجافاسكرب
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "فعِّل التمرير السلس"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all unwanted popups"
@@ -184,7 +184,7 @@ msgstr "ليبرابَي"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
 msgid "Patreon"
-msgstr ""
+msgstr "باتريون"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
 msgid "PayPal"
@@ -351,7 +351,7 @@ msgstr "لا يمكنك التراجع عن هذا المحو، والبيانا
 
 #: ../data/DialogCookies.ui:19
 msgid "Cookies manager"
-msgstr ""
+msgstr "مدير الكعكات"
 
 #: ../data/DialogCookies.ui:23
 msgid "Delete cookies"
@@ -727,11 +727,11 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:929
 msgid "Login :"
-msgstr ""
+msgstr "الولوج :"
 
 #: ../data/SettingsDialog.ui:951
 msgid "Password :"
-msgstr ""
+msgstr "كلمة السر :"
 
 #: ../data/SettingsDialog.ui:972
 msgid "Allow synchronization"
@@ -743,11 +743,12 @@ msgstr "أنشئ حسابًا أو أدره"
 
 #: ../data/SettingsDialog.ui:1028
 msgid "Code :"
-msgstr ""
+msgstr "الرمز :"
 
 #: ../data/SettingsDialog.ui:1039 ../data/SettingsDialog.ui:1040
+#, fuzzy
 msgid "You need to enable Two Factor Authentication"
-msgstr ""
+msgstr "تحتاج إلى تفعيل الاستيثاق ذو العاملين"
 
 #: ../data/SettingsDialog.ui:1059
 msgid "Syncing"
