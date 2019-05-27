@@ -8,195 +8,199 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 14:09+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-06-18 19:05+0000\n"
+"Last-Translator: Panagiotis Tabakis <tabakisp@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/gnumdk/eolie/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
-msgstr ""
+msgstr "Προβολή μηνυμάτων εντοπισμού σφαλμάτων"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
-msgstr ""
+msgstr "Προβολή μηνυμάτων εντοπισμού σφαλμάτων του Firefox Sync"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "INTERNAL"
-msgstr ""
+msgstr "ΕΣΩΤΕΡΙΚΟ"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
-msgstr ""
+msgstr "Εμφάνιση πλευρικής μπάρας (διαχειριστής τοποθεσιών)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Block ads on pages"
-msgstr ""
+msgstr "Αποκλεισμός διαφημίσεων σε σελίδες"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: No adblocking of internal URIs"
-msgstr ""
+msgstr "Αξιόπιστες ιστοσελίδες: Χωρίς αποκλεισμό διαφημίσεων των εσωτερικών URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Trust websites: No JavaScript blocking of internal URIs"
 msgstr ""
+"Αξιόπιστες ιστοσελίδες: Χωρίς αποκλεισμό διαφημίσεων JavaScript των "
+"εσωτερικών URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "Ενεργοποίηση ομαλής κύλισης"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all unwanted popups"
-msgstr ""
+msgstr "Αποκλεισμός όλων των ανεπιθύμητων αναδυόμενων παραθύρων"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Block all images"
-msgstr ""
+msgstr "Αποκλεισμός όλων των εικόνων"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Block all JavaScript"
-msgstr ""
+msgstr "Αποκλεισμός όλων των JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Download folder URI"
-msgstr ""
+msgstr "URI του φακέλου λήψεων"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Open finished downloads"
-msgstr ""
+msgstr "Άνοιγμα ολοκληρωμένων λήψεων"
 
 #: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Web search engine"
-msgstr ""
+msgstr "Μηχανή αναζήτησης ιστού"
 
 #: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Remember sessions"
-msgstr ""
+msgstr "Απομνημόνευση συνεδριών"
 
 #: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:650
 msgid "Remember passwords"
-msgstr ""
+msgstr "Απομνημόνευση κωδικών πρόσβασης"
 
 #: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:304
 msgid "Enable developer tools"
-msgstr ""
+msgstr "Ενεργοποίηση εργαλείων προγραμματιστή"
 
 #: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:160
 msgid "Enable plugins"
-msgstr ""
+msgstr "Ενεργοποίηση πρόσθετων"
 
 #: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:378
 msgid "Use system fonts"
-msgstr ""
+msgstr "Χρήση γραμματοσειρών συστήματος"
 
 #: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:407
 msgid "Sans serif font"
-msgstr ""
+msgstr "Γραμματοσειρά Sans serif"
 
 #: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:419
 msgid "Serif font"
-msgstr ""
+msgstr "Γραμματοσειρά Serif"
 
 #: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:431
 msgid "Monospace font"
-msgstr ""
+msgstr "Γραμματοσειρά Monospace"
 
 #: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Open this page on startup"
-msgstr ""
+msgstr "Άνοιγμα αυτής της σελίδας κατά την εκκίνηση"
 
 #: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Minimum sidebar position"
-msgstr ""
+msgstr "Ελάχιστη θέση πλευρικής μπάρας"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:493
 msgid "Minimum font size"
-msgstr ""
+msgstr "Ελάχιστο μέγεθος γραμματοσειράς"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144
 msgid "Popular items shown"
-msgstr ""
+msgstr "Εμφανίζονται δημοφιλή στοιχεία"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:519
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
-msgstr ""
+msgstr "Προεπιλεγμένο επίπεδο μεγέθυνσης"
 
 #: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "Cookies storage type"
-msgstr ""
+msgstr "Τύπος αποθήκευσης cookies"
 
 #: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "History storage type"
-msgstr ""
+msgstr "Τύπος αποθήκευσης ιστορικού"
 
 #: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:616
 msgid "Tell websites I do not want to be tracked"
-msgstr ""
+msgstr "Πείτε στους ιστοτόπους ότι δεν θέλω να παρακολουθούμαι"
 
 #: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "DNS prediction"
-msgstr ""
+msgstr "Πρόβλεψη DNS"
 
 #: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:860
 msgid "Autoplay videos"
-msgstr ""
+msgstr "Αυτόματη αναπαραγωγή βίντεο"
 
 #: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "Enable search suggestions"
-msgstr ""
+msgstr "Ενεργοποίηση προτάσεων αναζήτησης"
 
 #: ../data/org.gnome.Eolie.gschema.xml:184 ../data/LanguagesMenu.ui:59
 #: ../data/LanguagesMenu.ui:76
 msgid "Enable spell checking"
-msgstr ""
+msgstr "Ενεργοποίηση ορθογραφικού ελέγχου"
 
 #: ../data/AboutDialog.ui.in:14
 msgid "A web browser for GNOME."
-msgstr ""
+msgstr "Ένας περιηγητής ιστού για το GNOME."
 
 #: ../data/AboutDialog.ui.in:16
 msgid "Visit Eolie website"
-msgstr ""
+msgstr "Επισκεφθείτε την ιστοσελίδα του Eolie"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr ""
+msgstr "Panagiotis Tabakis <tabakisp@gmail.com>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
-msgstr ""
+msgstr "Δωρεές:"
 
 #: ../data/AboutDialog.ui.in:57
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:7
 #: ../data/org.gnome.Eolie.desktop.in:3
 msgid "Eolie"
-msgstr ""
+msgstr "Eolie"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:8
 #: ../data/org.gnome.Eolie.desktop.in:4 ../data/org.gnome.Eolie.desktop.in:5
 msgid "Web browser"
-msgstr ""
+msgstr "Περιηγητής ιστού"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:10
 msgid "Eolie is a new GNOME web browser."
-msgstr ""
+msgstr "Το Eolie είναι ένας νέος περιηγητής ιστού για το GNOME."
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -204,100 +208,100 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_move_to.py:63
 msgid "New window"
-msgstr ""
+msgstr "Νέο παράθυρο"
 
 #: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_pages.py:44
 msgid "New private page"
-msgstr ""
+msgstr "Νέα ιδιωτική σελίδα"
 
 #: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
 msgid "Do not filter current website content"
-msgstr ""
+msgstr "Να μην φιλτράρεται το περιεχόμενο του τρέχον ιστότοπου"
 
 #: ../data/AdblockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust web sites"
-msgstr ""
+msgstr "Αξιόπιστες ιστοσελίδες"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
 #: ../data/ToolbarMenu.ui:228
 msgid "Block ads"
-msgstr ""
+msgstr "Αποκλεισμός διαφημίσεων"
 
 #: ../data/AdblockMenu.ui:47 ../data/ImageBlockMenu.ui:33
 #: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
 #: ../data/ScriptsMenu.ui:109
 msgid "Block policy"
-msgstr ""
+msgstr "Πολιτική αποκλεισμού"
 
 #: ../data/AdblockMenu.ui:93
 msgid "Enable adblocking"
-msgstr ""
+msgstr "Ενεργοποίηση αποκλεισμού διαφημίσεων"
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
 msgid "Enabled"
-msgstr ""
+msgstr "Ενεργοποιήθηκε"
 
 #: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
 #: ../data/PopupBlockMenu.ui:93
 msgid "By default"
-msgstr ""
+msgstr "Εκ προεπιλογής"
 
 #: ../data/AdblockMenu.ui:123
 msgid "Do not block ads on this site"
-msgstr ""
+msgstr "Να μην αποκλείονται οι διαφημίσεις σε αυτήν την τοποθεσία"
 
 #: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
 #: ../data/PopupBlockMenu.ui:108
 msgid "Not on this site"
-msgstr ""
+msgstr "Όχι σε αυτή την τοποθεσία"
 
 #: ../data/AdblockMenu.ui:137
 msgid "Do not block ads on this page"
-msgstr ""
+msgstr "Να μην αποκλείονται οι διαφημίσεις σε αυτήν τη σελίδα"
 
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
-msgstr ""
+msgstr "Όχι σε αυτήν τη σελίδα"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
-msgstr ""
+msgstr "Διεύθυνση:"
 
 #: ../data/BookmarkEdit.ui:41
 msgid "Title:"
-msgstr ""
+msgstr "Τίτλος:"
 
 #: ../data/BookmarkEdit.ui:98
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Κατάργηση σελιδοδείκτη"
 
 #: ../data/BookmarkEdit.ui:166 ../data/BookmarkEdit.ui:169
 msgid "Add new tag"
-msgstr ""
+msgstr "Προσθήκη νέας ετικέτας"
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
-msgstr ""
+msgstr "Διαγραφή Προσωπικών Δεδομένων"
 
 #: ../data/DialogClearData.ui:10
 msgid "C_lear"
-msgstr ""
+msgstr "_Διαγραφή"
 
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
 #: ../data/SettingsDialog.ui:117
 msgid "Search"
-msgstr ""
+msgstr "Αναζήτηση"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
-msgstr ""
+msgstr "Φιλτράρισμα τομέων"
 
 #: ../data/DialogClearData.ui:67
 msgid "Search domains"
-msgstr ""
+msgstr "Αναζήτηση τομέων"
 
 #: ../data/DialogClearData.ui:83
 msgid ""
@@ -305,89 +309,97 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
+"Μπορείτε να επιλέξετε μια χρονική περίοδο για την διαγραφή δεδομένων για "
+"όλες τις ιστοσελίδες  που τροποποιήθηκαν εκείνη την περίοδο. Εάν επιλέξετε "
+"από την αρχή του χρόνου, τότε μπορείτε επίσης να διαγράψετε δεδομένα μόνο "
+"για συγκεκριμένες ιστοσελίδες."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
-msgstr ""
+msgstr "Διαγραφή επιλεγμένων προσωπικών δεδομένων _από:"
 
 #: ../data/DialogClearData.ui:111
 msgid "the past hour"
-msgstr ""
+msgstr "την τελευταία ώρα"
 
 #: ../data/DialogClearData.ui:112
 msgid "the past day"
-msgstr ""
+msgstr "την προηγούμενη ημέρα"
 
 #: ../data/DialogClearData.ui:113
 msgid "the past week"
-msgstr ""
+msgstr "την προηγούμενη εβδομάδα"
 
 #: ../data/DialogClearData.ui:114
 msgid "the past four weeks"
-msgstr ""
+msgstr "τις τελευταίες τέσσερις εβδομάδες"
 
 #: ../data/DialogClearData.ui:115
 msgid "the beginning"
-msgstr ""
+msgstr "την αρχή"
 
 #: ../data/DialogClearData.ui:192
 msgid "No data found"
-msgstr ""
+msgstr "Δεν βρέθηκαν δεδομένα"
 
 #: ../data/DialogClearData.ui:209
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
+"Δεν μπορείτε να αναιρέσετε αυτήν την ενέργεια. Τα δεδομένα που επιλέγετε να "
+"καταργήσετε, θα αφαιρεθούν για πάντα."
 
 #: ../data/DialogCookies.ui:19
 msgid "Cookies manager"
-msgstr ""
+msgstr "Διαχειριστής cookies"
 
 #: ../data/DialogCookies.ui:23
 msgid "Delete cookies"
-msgstr ""
+msgstr "Διαγραφή cookies"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
-msgstr ""
+msgstr "Εισαγωγή σελιδοδεικτών από:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:192
 #: ../eolie/popover_uri.py:460
 msgid "Import bookmarks"
-msgstr ""
+msgstr "Εισαγωγή σελιδοδεικτών"
 
 #: ../data/DialogImportBookmarks.ui:87 ../eolie/dialog_import_bookmarks.py:89
 msgid "Import"
-msgstr ""
+msgstr "Εισαγωγή"
 
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
-msgstr ""
+msgstr "Τροποποίηση"
 
 #: ../data/DialogSearchEngine.ui:7
 msgid "Search engines"
-msgstr ""
+msgstr "Μηχανές αναζήτησης"
 
 #: ../data/DialogSearchEngine.ui:155
 msgid "Name:"
-msgstr ""
+msgstr "Όνομα:"
 
 #: ../data/DialogSearchEngine.ui:207
 msgid "Default:"
-msgstr ""
+msgstr "Προεπιλογή:"
 
 #: ../data/DialogSearchEngine.ui:233
 msgid "Bang:"
-msgstr ""
+msgstr "Bang:"
 
 #: ../data/DialogSearchEngine.ui:246
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
+"Αν το bang είναι g, χρησιμοποιήστε το g: στην μπάρα αναζήτησης για αναζήτηση "
+"χρησιμοποιώντας αυτή τη μηχανή"
 
 #: ../data/DialogSearchEngine.ui:263
 msgid "Search:"
-msgstr ""
+msgstr "Αναζήτηση:"
 
 #: ../data/DialogSearchEngine.ui:320
 msgid ""
@@ -395,825 +407,831 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
 msgstr ""
+"Για τον προσδιορισμό της διεύθυνσης αναζήτησης, εκτελέστε μια αναζήτηση "
+"χρησιμοποιώντας τη μηχανή αναζήτησης που επιθυμείτε να προσθέσετε και "
+"ελέγξτε την διεύθυνση που προκύπτει. Αφαιρέστε τον όρο αναζήτησης από την "
+"διεύθυνση που προκύπτει και αντικαταστήστε τον με %s."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
 #: ../data/ToolbarMenu.ui:267
 msgid "Block images"
-msgstr ""
+msgstr "Αποκλεισμός εικόνων"
 
 #: ../data/ImageBlockMenu.ui:79 ../data/PopupBlockMenu.ui:79
 msgctxt "popup"
 msgid "Enabled"
-msgstr ""
+msgstr "Ενεργοποιήθηκε"
 
 #: ../data/ImageBlockMenu.ui:80
 msgid "Enable image blocking"
-msgstr ""
+msgstr "Ενεργοποίηση αποκλεισμού εικόνας"
 
 #: ../data/ImageBlockMenu.ui:110
 msgid "Do not block images on this site"
-msgstr ""
+msgstr "Να μην αποκλείονται εικόνες σε αυτή την τοποθεσία"
 
 #: ../data/ImageBlockMenu.ui:125
 msgid "Do not block images on this page"
-msgstr ""
+msgstr "Να μην αποκλείονται εικόνες σε αυτή την σελίδα"
 
 #: ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust websites"
-msgstr ""
+msgstr "Αξιόπιστες ιστοσελίδες"
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript blocker"
-msgstr ""
+msgstr "Αποκλειστής JavaScript"
 
 #: ../data/JSBlockMenu.ui:92
 msgid "Enable JavaScript blocking"
-msgstr ""
+msgstr "Ενεργοποίηση αποκλεισμού JavaScript"
 
 #: ../data/JSBlockMenu.ui:94
 msgctxt "Trust web sites"
 msgid "Enabled"
-msgstr ""
+msgstr "Ενεργοποιήθηκε"
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
 msgid "Spell checking"
-msgstr ""
+msgstr "Ορθογραφικός έλεγχος"
 
 #: ../data/PopoverCookies.ui:10
 msgid "Remove all cookies"
-msgstr ""
+msgstr "Αφαίρεση όλων των cookies"
 
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
-msgstr ""
+msgstr "Θέλετε να αποθηκεύσετε αυτόν τον κωδικό πρόσβασης;"
 
 #: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:135
 msgid "Save"
-msgstr ""
+msgstr "Αποθήκευση"
 
 #: ../data/PopoverDownloads.ui:53
 msgid "Open download folder"
-msgstr ""
+msgstr "Άνοιγμα φακέλου λήψης"
 
 #: ../data/PopoverDownloads.ui:73
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Απαλοιφή ολοκληρωμένων λήψεων"
 
 #: ../data/PopoverDownloads.ui:103
 msgid "No active download"
-msgstr ""
+msgstr "Δεν υπάρχει ενεργή λήψη"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
 msgid "OK"
-msgstr ""
+msgstr "ΟΚ"
 
 #: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
 #: ../data/QuitDialog.ui:22 ../eolie/dialog_import_bookmarks.py:90
 #: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:425
 #: ../eolie/toolbar_end.py:136 ../eolie/webview_signals.py:149
 msgid "Cancel"
-msgstr ""
+msgstr "Άκυρο"
 
 #: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:822
 msgid "Forever"
-msgstr ""
+msgstr "Για πάντα"
 
 #: ../data/PopoverImages.ui:72 ../eolie/webview_signals_menu.py:133
 msgid "Save images"
-msgstr ""
+msgstr "Αποθήκευση εικόνων"
 
 #: ../data/PopoverImages.ui:105
 msgid "Show links"
-msgstr ""
+msgstr "Εμφάνιση συνδέσμων"
 
 #: ../data/PopoverPasswords.ui:10
 msgid "Remove all passwords"
-msgstr ""
+msgstr "Κατάργηση όλων των κωδικών πρόσβασης"
 
 #: ../data/PopoverUri.ui:157
 msgid "Sync bookmarks"
-msgstr ""
+msgstr "Συγχρονισμός σελιδοδεικτών"
 
 #: ../data/PopoverUri.ui:217
 msgid "Bookmarks"
-msgstr ""
+msgstr "Σελιδοδείκτες"
 
 #: ../data/PopoverUri.ui:355
 msgid "Clear history"
-msgstr ""
+msgstr "Καθαρισμός ιστορικού"
 
 #: ../data/PopoverUri.ui:379
 msgid "History"
-msgstr ""
+msgstr "Ιστορικό"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
 #: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
-msgstr ""
+msgstr "Αποκλεισμός αναδυόμενων παραθύρων"
 
 #: ../data/PopupBlockMenu.ui:80
 msgid "Enable popup blocking"
-msgstr ""
+msgstr "Ενεργοποίηση αποκλεισμού αναδυόμενων παραθύρων"
 
 #: ../data/PopupBlockMenu.ui:110
 msgid "Do not block popups on this site"
-msgstr ""
+msgstr "Χωρίς αποκλεισμό αναδυόμενων παραθύρων σε αυτήν την τοποθεσία"
 
 #: ../data/PopupBlockMenu.ui:125
 msgid "Do not block popups on this page"
-msgstr ""
+msgstr "Να μην αποκλείονται τα αναδυόμενα παράθυρα σε αυτήν τη σελίδα"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
-msgstr ""
+msgstr "Κλείσιμο"
 
 #: ../data/RowDownload.ui:49
 msgid "Cancel download"
-msgstr ""
+msgstr "Ακύρωση λήψης"
 
 #: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
 msgid "Block JavaScript"
-msgstr ""
+msgstr "Αποκλεισμός JavaScript"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
-msgstr ""
+msgstr "Ενεργοποίηση αποκλεισμού JavaScript"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
-msgstr ""
+msgstr "Αξιόπιστες ιστοσελίδες"
 
 #: ../data/SettingsDialog.ui:25 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
-msgstr ""
+msgstr "Προτιμήσεις"
 
 #: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
-msgstr ""
+msgstr "Λήψεις"
 
 #: ../data/SettingsDialog.ui:74
 msgid "Download folder:"
-msgstr ""
+msgstr "Φάκελος λήψης:"
 
 #: ../data/SettingsDialog.ui:86
 msgid "Select download folder"
-msgstr ""
+msgstr "Επιλογή φακέλου λήψης"
 
 #: ../data/SettingsDialog.ui:96
 msgid "Automatically open downloaded files"
-msgstr ""
+msgstr "Αυτόματο άνοιγμα ληφθέντων αρχείων"
 
 #: ../data/SettingsDialog.ui:134
 msgid "Search engines:"
-msgstr ""
+msgstr "Μηχανές αναζήτησης:"
 
 #: ../data/SettingsDialog.ui:147 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
-msgstr ""
+msgstr "Άλλα"
 
 #: ../data/SettingsDialog.ui:181
 msgid "Startup"
-msgstr ""
+msgstr "Εκκίνηση"
 
 #: ../data/SettingsDialog.ui:198
 msgid "Start Page:"
-msgstr ""
+msgstr "Σελίδα Εκκίνησης:"
 
 #: ../data/SettingsDialog.ui:210
 msgid "Search engine"
-msgstr ""
+msgstr "Μηχανή αναζήτησης"
 
 #: ../data/SettingsDialog.ui:211 ../eolie/context.py:86
 msgid "Popular pages"
-msgstr ""
+msgstr "Δημοφιλείς σελίδες"
 
 #: ../data/SettingsDialog.ui:212
 msgid "Popular bookmarks"
-msgstr ""
+msgstr "Δημοφιλείς σελιδοδείκτες"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Blank page"
-msgstr ""
+msgstr "Κενή σελίδα"
 
 #: ../data/SettingsDialog.ui:214
 msgid "Set address"
-msgstr ""
+msgstr "Ορισμός διεύθυνσης"
 
 #: ../data/SettingsDialog.ui:236
 msgid "Remember previous pages on startup"
-msgstr ""
+msgstr "Απομνημόνευση προηγούμενων σελίδων κατά την εκκίνηση"
 
 #: ../data/SettingsDialog.ui:253
 msgid "Configure engines"
-msgstr ""
+msgstr "Διαμόρφωση μηχανών"
 
 #: ../data/SettingsDialog.ui:274
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "Εμφανίζονται οι σελιδοδείκτες"
 
 #: ../data/SettingsDialog.ui:318
 msgid "Add suggestions"
-msgstr ""
+msgstr "Προσθήκη προτάσεων"
 
 #: ../data/SettingsDialog.ui:342
 msgid "General"
-msgstr ""
+msgstr "Γενικά"
 
 #: ../data/SettingsDialog.ui:365
 msgid "Fonts"
-msgstr ""
+msgstr "Γραμματοσειρές"
 
 #: ../data/SettingsDialog.ui:563
 msgid "Appearance"
-msgstr ""
+msgstr "Εμφάνιση"
 
 #: ../data/SettingsDialog.ui:587 ../eolie/dialog_clear_data.py:196
 msgid "Cookies"
-msgstr ""
+msgstr "Cookies"
 
 #: ../data/SettingsDialog.ui:603
 msgid "Tracking"
-msgstr ""
+msgstr "Παρακολούθηση"
 
 #: ../data/SettingsDialog.ui:638
 msgid "Passwords"
-msgstr ""
+msgstr "Κωδικοί πρόσβασης"
 
 #: ../data/SettingsDialog.ui:671
 msgid "Saved data"
-msgstr ""
+msgstr "Αποθηκευμένα δεδομένα"
 
 #: ../data/SettingsDialog.ui:694
 msgid "Behaviour:"
-msgstr ""
+msgstr "Συμπεριφορά:"
 
 #: ../data/SettingsDialog.ui:709
 msgid "Always accept"
-msgstr ""
+msgstr "Πάντα αποδοχή"
 
 #: ../data/SettingsDialog.ui:710
 msgid "Only from visited sites"
-msgstr ""
+msgstr "Μόνο από ιστότοπους που έχουν επισκεφθεί"
 
 #: ../data/SettingsDialog.ui:711
 msgid "Never accept"
-msgstr ""
+msgstr "Ποτέ αποδοχή"
 
 #: ../data/SettingsDialog.ui:730
 msgid "Manage cookies"
-msgstr ""
+msgstr "Διαχείριση cookies"
 
 #: ../data/SettingsDialog.ui:747
 msgid "Clear personal data"
-msgstr ""
+msgstr "Απαλοιφή προσωπικών δεδομένων"
 
 #: ../data/SettingsDialog.ui:769
 msgid "Manage passwords"
-msgstr ""
+msgstr "Διαχείριση κωδικών πρόσβασης"
 
 #: ../data/SettingsDialog.ui:803
 msgid "Keep history:"
-msgstr ""
+msgstr "Διατήρηση ιστορικού:"
 
 #: ../data/SettingsDialog.ui:818
 msgid "One day"
-msgstr ""
+msgstr "Μία ημέρα"
 
 #: ../data/SettingsDialog.ui:819
 msgid "One week"
-msgstr ""
+msgstr "Μία εβδομάδα"
 
 #: ../data/SettingsDialog.ui:820
 msgid "Four weeks"
-msgstr ""
+msgstr "Τέσσερις εβδομάδες"
 
 #: ../data/SettingsDialog.ui:821
 msgid "A year"
-msgstr ""
+msgstr "Ένα χρόνο"
 
 #: ../data/SettingsDialog.ui:823
 msgid "Do not keep"
-msgstr ""
+msgstr "Να μην κρατηθούν"
 
 #: ../data/SettingsDialog.ui:842
 msgid "Predict websites address"
-msgstr ""
+msgstr "Πρόβλεψη διευθύνσεων ιστοσελίδων"
 
 #: ../data/SettingsDialog.ui:890
 msgid "Privacy"
-msgstr ""
+msgstr "Ιδιωτικότητα"
 
 #: ../data/SettingsDialog.ui:912
 msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
 msgstr ""
+"Μπορείτε να μοιραστείτε τους σελιδοδείκτες σας και το ιστορικό σας\n"
+"σε όλες σας τις συσκευές που τρέχουν Eolie ή Firefox"
 
 #: ../data/SettingsDialog.ui:929
 msgid "Login :"
-msgstr ""
+msgstr "Σύνδεση:"
 
 #: ../data/SettingsDialog.ui:951
 msgid "Password :"
-msgstr ""
+msgstr "Κωδικός πρόσβασης:"
 
 #: ../data/SettingsDialog.ui:972
 msgid "Allow synchronization"
-msgstr ""
+msgstr "Να επιτρέπεται ο συγχρονισμός"
 
 #: ../data/SettingsDialog.ui:1009
 msgid "Create or manage account"
-msgstr ""
+msgstr "Δημιουργία ή διαχείριση λογαριασμού"
 
 #: ../data/SettingsDialog.ui:1028
 msgid "Code :"
-msgstr ""
+msgstr "Κωδικός:"
 
 #: ../data/SettingsDialog.ui:1039 ../data/SettingsDialog.ui:1040
 msgid "You need to enable Two Factor Authentication"
-msgstr ""
+msgstr "Πρέπει να ενεργοποιήσετε τον Έλεγχο Ταυτότητας Δύο Παραγόντων"
 
 #: ../data/SettingsDialog.ui:1059
 msgid "Syncing"
-msgstr ""
+msgstr "Συγχρονισμός"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Γενικά"
 
 #: ../data/Shortcuts.ui:17
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "Νέο παράθυρο"
 
 #: ../data/Shortcuts.ui:24
 msgctxt "shortcut window"
 msgid "Settings"
-msgstr ""
+msgstr "Ρυθμίσεις"
 
 #: ../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr ""
+msgstr "Πλήρης οθόνη"
 
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Έξοδος"
 
 #: ../data/Shortcuts.ui:45
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "Εισαγωγή τοποθεσίας"
 
 #: ../data/Shortcuts.ui:52
 msgctxt "shortcut window"
 msgid "Show bookmarks"
-msgstr ""
+msgstr "Εμφάνιση σελιδοδεικτών"
 
 #: ../data/Shortcuts.ui:59
 msgctxt "shortcut window"
 msgid "Show history"
-msgstr ""
+msgstr "Εμφάνιση ιστορικού"
 
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "Αναζήτηση"
 
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
 msgid "Show sidebar"
-msgstr ""
+msgstr "Εμφάνιση πλευρικής μπάρας"
 
 #: ../data/Shortcuts.ui:82
 msgctxt "shortcut window"
 msgid "Pages"
-msgstr ""
+msgstr "Σελίδες"
 
 #: ../data/Shortcuts.ui:86
 msgctxt "shortcut window"
 msgid "New page"
-msgstr ""
+msgstr "Νέα σελίδα"
 
 #: ../data/Shortcuts.ui:93
 msgctxt "shortcut window"
 msgid "Last closed page"
-msgstr ""
+msgstr "Τελευταία κλεισμένη σελίδα"
 
 #: ../data/Shortcuts.ui:100
 msgctxt "shortcut window"
 msgid "New private page"
-msgstr ""
+msgstr "Νέα ιδιωτική σελίδα"
 
 #: ../data/Shortcuts.ui:107
 msgctxt "shortcut window"
 msgid "Close page"
-msgstr ""
+msgstr "Κλείσιμο σελίδας"
 
 #: ../data/Shortcuts.ui:114 ../data/Shortcuts.ui:217
 msgctxt "shortcut window"
 msgid "Previous page"
-msgstr ""
+msgstr "Προηγούμενη σελίδα"
 
 #: ../data/Shortcuts.ui:121 ../data/Shortcuts.ui:224
 msgctxt "shortcut window"
 msgid "Next page"
-msgstr ""
+msgstr "Επόμενη σελίδα"
 
 #: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "View all pages"
-msgstr ""
+msgstr "Προβολή όλων των σελίδων"
 
 #: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Show source code"
-msgstr ""
+msgstr "Εμφάνιση πηγαίου κώδικα"
 
 #: ../data/Shortcuts.ui:144
 msgctxt "shortcut window"
 msgid "Web page"
-msgstr ""
+msgstr "Ιστοσελίδα"
 
 #: ../data/Shortcuts.ui:148
 msgctxt "shortcut window"
 msgid "Save page"
-msgstr ""
+msgstr "Αποθήκευση σελίδας"
 
 #: ../data/Shortcuts.ui:155
 msgctxt "shortcut window"
 msgid "Print page"
-msgstr ""
+msgstr "Εκτύπωση σελίδας"
 
 #: ../data/Shortcuts.ui:162
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Μεγέθυνση"
 
 #: ../data/Shortcuts.ui:169
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Σμίκρυνση"
 
 #: ../data/Shortcuts.ui:176
 msgctxt "shortcut window"
 msgid "Default zoom level"
-msgstr ""
+msgstr "Προεπιλεγμένο επίπεδο μεγέθυνσης"
 
 #: ../data/Shortcuts.ui:183
 msgctxt "shortcut window"
 msgid "Search for"
-msgstr ""
+msgstr "Αναζήτηση για"
 
 #: ../data/Shortcuts.ui:190
 msgctxt "shortcut window"
 msgid "Disable adblock for current site"
-msgstr ""
+msgstr "Απενεργοποίηση του Adblock για την τρέχουσα τοποθεσία"
 
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
 msgid "Enable JavaScript for current site temporarily"
-msgstr ""
+msgstr "Ενεργοποίηση JavaScript για την τρέχουσα τοποθεσία προσωρινά"
 
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
 msgid "Enable \"Media Source Extension\" temporarily"
-msgstr ""
+msgstr "Προσωρινή ενεργοποίηση του \"Media Source Extension\""
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr ""
+msgstr "Πλοήγηση"
 
 #: ../data/Shortcuts.ui:231
 msgctxt "shortcut window"
 msgid "Reload page"
-msgstr ""
+msgstr "Επαναφόρτωση σελίδας"
 
 #: ../data/Shortcuts.ui:238
 msgctxt "shortcut window"
 msgid "Startup page"
-msgstr ""
+msgstr "Σελίδα εκκίνησης"
 
 #: ../data/ToolbarActions.ui:50
 msgid "Backward"
-msgstr ""
+msgstr "Πίσω"
 
 #: ../data/ToolbarActions.ui:70
 msgid "Forward"
-msgstr ""
+msgstr "Μπροστά"
 
 #: ../data/ToolbarActions.ui:102
 msgid "New page"
-msgstr ""
+msgstr "Νέα σελίδα"
 
 #: ../data/ToolbarActions.ui:117
 msgid "View all pages"
-msgstr ""
+msgstr "Προβολή όλων των σελίδων"
 
 #: ../data/ToolbarActions.ui:168
 msgid "Close page"
-msgstr ""
+msgstr "Κλείσιμο σελίδας"
 
 #: ../data/ToolbarActions.ui:183
 msgid "More actions"
-msgstr ""
+msgstr "Περισσότερες ενέργειες"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
 #: ../eolie/menu_toolbar.py:46
 msgid "Leave fullscreen"
-msgstr ""
+msgstr "Έξοδος από πλήρη οθόνη"
 
 #: ../data/ToolbarEnd.ui:37
 msgid "Start synchronization"
-msgstr ""
+msgstr "Έναρξη συγχρονισμού"
 
 #: ../data/ToolbarEnd.ui:69
 msgid "Disallow access to this site"
-msgstr ""
+msgstr "Απαγόρευση πρόσβασης σε αυτήν την τοποθεσία"
 
 #: ../data/ToolbarEnd.ui:146
 msgid "Startup page"
-msgstr ""
+msgstr "Σελίδα εκκίνησης"
 
 #: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
 msgid "Save page"
-msgstr ""
+msgstr "Αποθήκευση σελίδας"
 
 #: ../data/ToolbarMenu.ui:81
 msgid "Print page"
-msgstr ""
+msgstr "Εκτύπωση σελίδας"
 
 #: ../data/ToolbarMenu.ui:126
 msgid "Start page"
-msgstr ""
+msgstr "Σελίδα εκκίνησης"
 
 #: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
-msgstr ""
+msgstr "Σμίκρυνση"
 
 #: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
-msgstr ""
+msgstr "Μεγέθυνση"
 
 #: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
-msgstr ""
+msgstr "Φιλτράρισμα"
 
 #: ../data/ToolbarMenu.ui:343
 msgid "_Preferences"
-msgstr ""
+msgstr "_Προτιμήσεις"
 
 #: ../data/ToolbarMenu.ui:366
 msgid "_Sidebar"
-msgstr ""
+msgstr "Πλαϊνή _μπάρα"
 
 #: ../data/ToolbarMenu.ui:379
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Συντομεύσεις Πληκτρολογίου"
 
 #: ../data/ToolbarMenu.ui:392
 msgid "_About"
-msgstr ""
+msgstr "_Σχετικά"
 
 #: ../eolie/application.py:715
 msgid "Do you really want to quit Eolie?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να κλείσετε το Eolie;"
 
 #: ../eolie/application.py:768
 msgid "Downloads running, are you sure you want quit?"
-msgstr ""
+msgstr "Λήψεις που εκτελούνται, είστε βέβαιοι ότι θέλετε να τερματίσετε;"
 
 #: ../eolie/container.py:469
 msgid "Please consider a donation to the project"
-msgstr ""
+msgstr "Παρακαλώ λάβετε υπόψιν μια δωρεά στο έργο"
 
 #: ../eolie/container.py:541
 msgid "Do you really want to close this page?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να κλείσετε αυτήν τη σελίδα;"
 
 #: ../eolie/context.py:149
 msgid "Name"
-msgstr ""
+msgstr "Όνομα"
 
 #: ../eolie/context.py:150
 msgid "Size"
-msgstr ""
+msgstr "Μέγεθος"
 
 #: ../eolie/context.py:152
 msgid "Last modification"
-msgstr ""
+msgstr "Τελευταία τροποποίηση"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
-msgstr ""
+msgstr "Μνήμη cache"
 
 #: ../eolie/dialog_clear_data.py:182
 msgid "HTTP disk cache"
-msgstr ""
+msgstr "Cache HTTP δίσκου"
 
 #: ../eolie/dialog_clear_data.py:184
 msgid "Offline web application cache"
-msgstr ""
+msgstr "Cache εφαρμογών ιστού εκτός σύνδεσης"
 
 #: ../eolie/dialog_clear_data.py:186
 msgid "Session storage data"
-msgstr ""
+msgstr "Δεδομένα αποθήκευσης συνεδρίας"
 
 #: ../eolie/dialog_clear_data.py:188
 msgid "Local storage data"
-msgstr ""
+msgstr "Δεδομένα τοπικής αποθήκευσης"
 
 #: ../eolie/dialog_clear_data.py:190
 msgid "WebSQL databases"
-msgstr ""
+msgstr "Βάσεις δεδομένων WebSQL"
 
 #: ../eolie/dialog_clear_data.py:192
 msgid "IndexedDB databases"
-msgstr ""
+msgstr "Βάσεις δεδομένων IndexedDB"
 
 #: ../eolie/dialog_clear_data.py:194
 msgid "Plugins data"
-msgstr ""
+msgstr "Δεδομένα πρόσθετων"
 
 #: ../eolie/dialog_import_bookmarks.py:87
 msgid "Import HTML bookmarks"
-msgstr ""
+msgstr "Εισαγωγή σελιδοδεικτών HTML"
 
 #: ../eolie/dialog_search_engine.py:163 ../eolie/dialog_search_engine.py:167
 msgid "New engine"
-msgstr ""
+msgstr "Νέα μηχανή"
 
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
-msgstr ""
+msgstr "Αποθηκευμένα διαπιστευτήρια"
 
 #: ../eolie/menu_move_to.py:47 ../eolie/menu_sites.py:63
 msgid "Move to"
-msgstr ""
+msgstr "Μετακίνηση σε"
 
 #: ../eolie/menu_pages.py:48
 msgid "Closed pages"
-msgstr ""
+msgstr "Κλεισμένες σελίδες"
 
 #: ../eolie/menu_pages.py:49
 msgid "Open all pages"
-msgstr ""
+msgstr "Άνοιγμα όλων των σελίδων"
 
 #: ../eolie/menu_sites.py:73
 msgid "Modify user agent"
-msgstr ""
+msgstr "Τροποποίηση user agent"
 
 #: ../eolie/menu_sites.py:82
 msgid "Close site"
-msgstr ""
+msgstr "Κλείσιμο τοποθεσίας"
 
 #: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
-msgstr ""
+msgstr "Είσοδος σε πλήρη οθόνη"
 
 #: ../eolie/menu_videos.py:79
 msgid "No videos"
-msgstr ""
+msgstr "Χωρίς βίντεο"
 
 #: ../eolie/pages_manager_child.py:161
 msgid "Unpin this page"
-msgstr ""
+msgstr "Ξεκαρφίτσωμα αυτής της σελίδας"
 
 #: ../eolie/pages_manager_child.py:164
 msgid "Pin this page"
-msgstr ""
+msgstr "Καρφίτσωμα αυτής της σελίδας"
 
 #: ../eolie/popover_credentials.py:59
 msgid "Do you want to modify this password?"
-msgstr ""
+msgstr "Θέλετε να τροποποιήσετε αυτόν τον κωδικό πρόσβασης;"
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
-msgstr ""
+msgstr "Ταχύτητα λήψης:"
 
 #: ../eolie/popover_downloads.py:113
 msgid "bytes/s"
-msgstr ""
+msgstr "bytes/s"
 
 #: ../eolie/popover_downloads.py:116
 msgid "KiB/s"
-msgstr ""
+msgstr "KiB/s"
 
 #: ../eolie/popover_downloads.py:119
 msgid "MiB/s"
-msgstr ""
+msgstr "MiB/s"
 
 #: ../eolie/popover_downloads.py:141 ../eolie/popover_downloads.py:147
 #, python-format
 msgid "%s second"
-msgstr ""
+msgstr "%s δευτερόλεπτο"
 
 #: ../eolie/popover_downloads.py:143 ../eolie/popover_downloads.py:149
 #, python-format
 msgid "%s seconds"
-msgstr ""
+msgstr "%s δευτερόλεπτα"
 
 #: ../eolie/popover_downloads.py:155 ../eolie/popover_downloads.py:163
 #, python-format
 msgid "%s minute"
-msgstr ""
+msgstr "%s λεπτό"
 
 #: ../eolie/popover_downloads.py:158 ../eolie/popover_downloads.py:165
 #, python-format
 msgid "%s minutes"
-msgstr ""
+msgstr "%s λεπτά"
 
 #: ../eolie/popover_downloads.py:171
 #, python-format
 msgid "%s hours"
-msgstr ""
+msgstr "%s ώρες"
 
 #: ../eolie/popover_downloads.py:173
 #, python-format
 msgid "%s hour"
-msgstr ""
+msgstr "%s ώρα"
 
 #: ../eolie/popover_downloads.py:174
 msgid "Remaining time:"
-msgstr ""
+msgstr "Υπολειπόμενος χρόνος:"
 
 #: ../eolie/popover_geolocation.py:45
 msgid "Grant this page access to your location?"
-msgstr ""
+msgstr "Χορήγηση πρόσβασης της τοποθεσίας σας σε αυτή τη σελίδα;"
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
-msgstr ""
+msgstr "Συνέχεια"
 
 #: ../eolie/popover_uri.py:131
 msgid "Delete page from history"
-msgstr ""
+msgstr "Διαγραφή σελίδας από το ιστορικό"
 
 #: ../eolie/popover_uri.py:143
 msgid "Edit bookmark"
-msgstr ""
+msgstr "Επεξεργασία σελιδοδείκτη"
 
 #: ../eolie/popover_uri.py:160
 msgid "Open all pages with this tag"
-msgstr ""
+msgstr "Άνοιγμα όλων των σελίδων με αυτήν την ετικέτα"
 
 #: ../eolie/popover_uri.py:793
 msgid "Popular"
-msgstr ""
+msgstr "Δημοφιλή"
 
 #: ../eolie/popover_uri.py:796
 msgid "Recent"
-msgstr ""
+msgstr "Πρόσφατα"
 
 #: ../eolie/popover_uri.py:798
 msgid "Unclassified"
-msgstr ""
+msgstr "Αταξινόμητα"
 
 #: ../eolie/popover_uri.py:821
 msgid "From the past hour"
-msgstr ""
+msgstr "Από την τελευταία ώρα"
 
 #: ../eolie/popover_uri.py:822
 msgid "From the past day"
-msgstr ""
+msgstr "Από την προηγούμενη μέρα"
 
 #: ../eolie/popover_uri.py:823
 msgid "From the past week"
-msgstr ""
+msgstr "Από την περασμένη εβδομάδα"
 
 #: ../eolie/popover_uri.py:825
 msgid "From the past four weeks"
-msgstr ""
+msgstr "Από τις τελευταίες τέσσερις εβδομάδες"
 
 #: ../eolie/popover_uri.py:826
 msgid "From selected day"
-msgstr ""
+msgstr "Από την επιλεγμένη ημέρα"
 
 #: ../eolie/popover_uri.py:827
 msgid "From the beginning"
-msgstr ""
+msgstr "Από την αρχή"
 
 #: ../eolie/popover_uri.py:1095
 #, python-format
 msgid "%s bookmarks"
-msgstr ""
+msgstr "%s σελιδοδείκτες"
 
 #: ../eolie/search.py:39 ../eolie/search.py:40
 msgid "https://www.google.com"
-msgstr ""
+msgstr "https://www.google.gr"
 
 #: ../eolie/search.py:61
 msgid "https://www.yahoo.com"
-msgstr ""
+msgstr "https://gr.yahoo.com"
 
 #: ../eolie/search.py:63
 msgid "https://us.search.yahoo.com"
-msgstr ""
+msgstr "https://gr.search.yahoo.com"
 
 #: ../eolie/search.py:246
 #, python-format
@@ -1221,34 +1239,36 @@ msgid ""
 "Do you want to install\n"
 "the %s search engine?"
 msgstr ""
+"Θέλετε να εγκαταστήσετε\n"
+"την μηχανή αναζήτησης %s;"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
-msgstr ""
+msgstr "Μη υποστηριζόμενη μηχανή αναζήτησης"
 
 #: ../eolie/settings.py:473
 msgid "Connecting…"
-msgstr ""
+msgstr "Σύνδεση…"
 
 #: ../eolie/settings.py:508
 msgid "Syncing operational"
-msgstr ""
+msgstr "Συγχρονισμός λειτουργήσιμος"
 
 #: ../eolie/settings.py:514
 msgid "Cancel syncing"
-msgstr ""
+msgstr "Ακύρωση συγχρονισμού"
 
 #: ../eolie/settings.py:519
 msgid "Start syncing"
-msgstr ""
+msgstr "Έναρξη συγχρονισμού"
 
 #: ../eolie/settings.py:524
 msgid "Allow syncing"
-msgstr ""
+msgstr "Να επιτρέπεται ο συγχρονισμός"
 
 #: ../eolie/settings.py:529
 msgid "Syncing is not working"
-msgstr ""
+msgstr "Ο συγχρονισμός δεν λειτουργεί"
 
 #: ../eolie/settings.py:540
 #, python-format
@@ -1256,18 +1276,20 @@ msgid ""
 "Syncing is not available on your computer:\n"
 "%s"
 msgstr ""
+"Ο συγχρονισμός δεν είναι διαθέσιμος στον υπολογιστή σας:\n"
+"%s"
 
 #: ../eolie/settings.py:564
 msgid "You've received an email to validate syncing"
-msgstr ""
+msgstr "Έχετε λάβει ένα email για επικύρωση συγχρονισμού"
 
 #: ../eolie/toolbar_end.py:100
 msgid "Downloading:"
-msgstr ""
+msgstr "Γίνεται λήψη:"
 
 #: ../eolie/toolbar_title.py:276
 msgid "This page contains insecure content"
-msgstr ""
+msgstr "Αυτή η σελίδα περιέχει μη ασφαλές περιεχόμενο"
 
 #: ../eolie/toolbar_title.py:330
 msgid ""
@@ -1275,97 +1297,104 @@ msgid ""
 "If you type your password,\n"
 "it will be visible to cybercriminals!"
 msgstr ""
+"Προσοχή: αυτή η σελίδα δεν είναι ασφαλής.\n"
+"Εάν πληκτρολογήσετε τον κωδικό πρόσβασής σας,\n"
+"θα είναι ορατός στους κυβερνοεγκληματίες!"
 
 #: ../eolie/toolbar_title.py:379
 msgid "Deny geolocation"
-msgstr ""
+msgstr "Άρνηση γεωτοποθεσίας"
 
 #: ../eolie/toolbar_title.py:385
 msgid "Blocked popups"
-msgstr ""
+msgstr "Αποκλεισμένα αναδυόμενα παράθυρα"
 
 #: ../eolie/toolbar_title.py:445
 msgid "Copy address"
-msgstr ""
+msgstr "Αντιγραφή διεύθυνσης"
 
 #: ../eolie/toolbar_title.py:506
 msgid "Paste and load"
-msgstr ""
+msgstr "Επικόλληση και φόρτωση"
 
 #: ../eolie/toolbar_title.py:756 ../eolie/toolbar_title.py:759
 msgid "Search or enter address"
-msgstr ""
+msgstr "Αναζήτηση ή εισαγωγή διεύθυνσης"
 
 #: ../eolie/webview_errors.py:81
 msgid "This page is dangerous"
-msgstr ""
+msgstr "Αυτή η σελίδα είναι επικίνδυνη"
 
 #: ../eolie/webview_errors.py:82
 msgid "Eolie will not display this page"
-msgstr ""
+msgstr "Το Eolie δεν θα εμφανίσει αυτή τη σελίδα"
 
 #: ../eolie/webview_errors.py:89
 #, python-format
 msgid "%s is a phishing page"
-msgstr ""
+msgstr "Το %s είναι μια σελίδα phishing"
 
 #: ../eolie/webview_errors.py:133
 msgid "Failed to load this web page"
-msgstr ""
+msgstr "Η φόρτωση αυτής της ιστοσελίδας απέτυχε"
 
 #: ../eolie/webview_errors.py:134
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
+"Μπορεί να μην είναι προσβάσιμη προσωρινά ή να έχει μετακινηθεί σε νέα "
+"διεύθυνση. <br/> Ίσως θέλετε να επαληθεύσετε ότι η σύνδεσή σας στο διαδίκτυο "
+"λειτουργεί σωστά."
 
 #: ../eolie/webview_errors.py:140
 msgid "Network not available"
-msgstr ""
+msgstr "Το δίκτυο δεν είναι διαθέσιμο"
 
 #: ../eolie/webview_errors.py:141
 msgid "Check your network connection"
-msgstr ""
+msgstr "Ελέγξτε τη σύνδεσή σας στο δίκτυο"
 
 #: ../eolie/webview_errors.py:151
 msgid "Retry"
-msgstr ""
+msgstr "Επανάληψη"
 
 #: ../eolie/webview_errors.py:177
 msgid "The certificate does not match this website"
-msgstr ""
+msgstr "Το πιστοποιητικό δεν ταιριάζει με αυτή την ιστοσελίδα"
 
 #: ../eolie/webview_errors.py:179
 msgid "The certificate has expired"
-msgstr ""
+msgstr "Το πιστοποιητικό έχει λήξει"
 
 #: ../eolie/webview_errors.py:181
 msgid "The signing certificate authority is not known"
-msgstr ""
+msgstr "Η αρχή του υπογεγραμμένου πιστοποιητικού δεν είναι γνωστή"
 
 #: ../eolie/webview_errors.py:183
 msgid "The certificate contains errors"
-msgstr ""
+msgstr "Το πιστοποιητικό περιέχει σφάλματα"
 
 #: ../eolie/webview_errors.py:185
 msgid "The certificate has been revoked"
-msgstr ""
+msgstr "Το πιστοποιητικό έχει ανακληθεί"
 
 #: ../eolie/webview_errors.py:187
 msgid "The certificate is signed using a weak signature algorithm"
-msgstr ""
+msgstr "Το πιστοποιητικό έχει υπογραφεί με έναν αδύναμο αλγόριθμο υπογραφής"
 
 #: ../eolie/webview_errors.py:191
 msgid "The certificate activation time is still in the future"
 msgstr ""
+"Ο χρόνος ενεργοποίησης του πιστοποιητικού εξακολουθεί να είναι στο μέλλον"
 
 #: ../eolie/webview_errors.py:193
 msgid "The identity of this website has not been verified"
-msgstr ""
+msgstr "Η ταυτότητα αυτής της ιστοσελίδας δεν έχει επαληθευτεί"
 
 #: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:198
 msgid "Connection is not secure"
-msgstr ""
+msgstr "Η σύνδεση δεν είναι ασφαλής"
 
 #: ../eolie/webview_errors.py:200
 #, python-format
@@ -1374,14 +1403,18 @@ msgid ""
 "or alter information going to or from this site (for example, private "
 "messages, credit card information, or passwords)."
 msgstr ""
+"Αυτό δεν μοιάζει με το πραγματικό %s.<br/>Οι επιτιθέμενοι μπορεί να "
+"προσπαθούν να κλέψουν ή να αλλάξουν τις πληροφορίες που πηγαίνουν προς ή από "
+"αυτή την τοποθεσία (για παράδειγμα, προσωπικά μηνύματα, πληροφορίες "
+"πιστωτικών καρτών, ή κωδικοί πρόσβασης)."
 
 #: ../eolie/webview_errors.py:206
 msgid "Accept Risk and Proceed"
-msgstr ""
+msgstr "Αποδοχή Κινδύνου και Συνέχεια"
 
 #: ../eolie/webview_errors.py:222 ../eolie/webview_errors.py:227
 msgid "WebKit web engine crashed"
-msgstr ""
+msgstr "Η μηχανή ιστού του WebKit συνετρίβη"
 
 #: ../eolie/webview_errors.py:229
 msgid ""
@@ -1389,59 +1422,63 @@ msgid ""
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
 "<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
+"Η ιστοσελίδα τερματίστηκε απροσδόκητα. Για να συνεχίσετε, επαναφορτώστε τη ή "
+"μεταβείτε σε άλλη σελίδα.<br/><br/>Αν το πρόβλημα εξακολουθεί, μπορείτε να "
+"αναφέρετε ένα σφάλμα :)<br/>Χρησιμοποιήστε το <b>'WebKit Gtk'</b> ως "
+"συνιστώσα.<br/>Ορίστε το <b>[GTK]</b> ως πρόθεμα θέματος."
 
 #: ../eolie/webview_errors.py:235
 msgid "Report a bug now"
-msgstr ""
+msgstr "Αναφορά σφάλματος τώρα"
 
 #: ../eolie/webview_signals_js.py:80
 msgid "Eolie is going to close this page because it is broken"
-msgstr ""
+msgstr "Το Eolie θα κλείσει αυτή τη σελίδα επειδή είναι σπασμένη"
 
 #: ../eolie/webview_signals_menu.py:60
 msgid "Reload preview"
-msgstr ""
+msgstr "Επαναφόρτωση προεπισκόπησης"
 
 #: ../eolie/webview_signals_menu.py:81
 msgid "Open link in a new page"
-msgstr ""
+msgstr "Άνοιγμα συνδέσμου σε νέα σελίδα"
 
 #: ../eolie/webview_signals_menu.py:91
 msgid "Open link in a new private page"
-msgstr ""
+msgstr "Άνοιγμα συνδέσμου σε νέα ιδιωτική σελίδα"
 
 #: ../eolie/webview_signals_menu.py:101
 msgid "Open link in a new window"
-msgstr ""
+msgstr "Άνοιγμα συνδέσμου σε νέο παράθυρο"
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
-msgstr ""
+msgstr "Αναζήτηση στον Ιστό"
 
 #: ../eolie/webview_signals_menu.py:143
 msgid "Save videos"
-msgstr ""
+msgstr "Αποθήκευση βίντεο"
 
 #: ../eolie/webview_signals_menu.py:153
 msgid "Save page as image"
-msgstr ""
+msgstr "Αποθήκευση σελίδας ως εικόνα"
 
 #: ../eolie/webview_signals.py:145
 msgid "Select files to upload"
-msgstr ""
+msgstr "Επιλογή αρχείων για μεταφόρτωση"
 
 #: ../eolie/webview_signals.py:148
 msgid "Open"
-msgstr ""
+msgstr "Άνοιγμα"
 
 #: ../eolie/widget_find.py:47
 msgid "Search previous occurrence"
-msgstr ""
+msgstr "Αναζήτηση προηγούμενου συμβάντος"
 
 #: ../eolie/widget_find.py:56
 msgid "Search next occurrence"
-msgstr ""
+msgstr "Αναζήτηση επόμενου συμβάντος"
 
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
-msgstr ""
+msgstr "1000 από 1000 αποτελέσματα"
