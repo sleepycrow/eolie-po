@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 14:09+0200\n"
-"PO-Revision-Date: 2019-04-04 00:04+0000\n"
+"PO-Revision-Date: 2019-07-01 18:01+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "eo/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6-dev\n"
+"X-Generator: Weblate 3.8-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -1334,7 +1334,7 @@ msgstr ""
 
 #: ../eolie/webview_errors.py:140
 msgid "Network not available"
-msgstr ""
+msgstr "Reto malatingas"
 
 #: ../eolie/webview_errors.py:141
 msgid "Check your network connection"
