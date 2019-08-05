@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 14:09+0200\n"
-"PO-Revision-Date: 2019-07-01 18:01+0000\n"
+"PO-Revision-Date: 2019-08-06 14:23+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "eo/>\n"
@@ -184,7 +184,7 @@ msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
 msgid "PayPal"
@@ -1429,7 +1429,7 @@ msgstr ""
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
-msgstr "Serĉi la retumo"
+msgstr "Serĉi la retumon"
 
 #: ../eolie/webview_signals_menu.py:143
 msgid "Save videos"
