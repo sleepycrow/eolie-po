@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 14:09+0200\n"
-"PO-Revision-Date: 2019-04-20 19:33+0000\n"
+"PO-Revision-Date: 2019-08-18 04:24+0000\n"
 "Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/"
-">\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/>"
+"\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6\n"
+"X-Generator: Weblate 3.8\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -210,7 +210,7 @@ msgstr "org.gnome.Eolie"
 
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_move_to.py:63
 msgid "New window"
-msgstr "Yeni Pencere"
+msgstr "Yeni pencere"
 
 #: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_pages.py:44
 msgid "New private page"
@@ -282,7 +282,7 @@ msgstr "Yer imini kaldır"
 
 #: ../data/BookmarkEdit.ui:166 ../data/BookmarkEdit.ui:169
 msgid "Add new tag"
-msgstr "eni etiket ekle"
+msgstr "Yeni etiket ekle"
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
@@ -321,7 +321,7 @@ msgstr "Seçilen kişisel verileri _şuradan temizle:"
 
 #: ../data/DialogClearData.ui:111
 msgid "the past hour"
-msgstr "Geçtiğimiz saat"
+msgstr "geçtiğimiz saat"
 
 #: ../data/DialogClearData.ui:112
 msgid "the past day"
@@ -441,7 +441,7 @@ msgstr "Web sitesine güven"
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript blocker"
-msgstr "avaScript engelleyici"
+msgstr "JavaScript engelleyici"
 
 #: ../data/JSBlockMenu.ui:92
 msgid "Enable JavaScript blocking"
@@ -509,7 +509,7 @@ msgstr "Tüm parolaları kaldır"
 
 #: ../data/PopoverUri.ui:157
 msgid "Sync bookmarks"
-msgstr "Yer işaretlerini senkronize et"
+msgstr "Yer imlerini eşitle"
 
 #: ../data/PopoverUri.ui:217
 msgid "Bookmarks"
@@ -526,19 +526,19 @@ msgstr "Geçmiş"
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
 #: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
-msgstr "Pop up'ları engelle"
+msgstr "Açılır pencereleri engelle"
 
 #: ../data/PopupBlockMenu.ui:80
 msgid "Enable popup blocking"
-msgstr "Pop-up engellemeyi etkinleştir"
+msgstr "Açılır pencere engellemeyi etkinleştir"
 
 #: ../data/PopupBlockMenu.ui:110
 msgid "Do not block popups on this site"
-msgstr "Bu sitedeki pop-up'ları engelleme"
+msgstr "Bu sitedeki açılır pencereleri engelleme"
 
 #: ../data/PopupBlockMenu.ui:125
 msgid "Do not block popups on this page"
-msgstr "Bu sayfadaki pop-up'ları engelleme"
+msgstr "Bu sayfadaki açılır pencereleri engelleme"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -595,7 +595,7 @@ msgstr "Başlangıç"
 
 #: ../data/SettingsDialog.ui:198
 msgid "Start Page:"
-msgstr "Başlangıç sayfası:"
+msgstr "Başlangıç Sayfası:"
 
 #: ../data/SettingsDialog.ui:210
 msgid "Search engine"
@@ -631,7 +631,7 @@ msgstr "Gösterilen yer imleri"
 
 #: ../data/SettingsDialog.ui:318
 msgid "Add suggestions"
-msgstr "Öneri ekle"
+msgstr "Önerileri ekle"
 
 #: ../data/SettingsDialog.ui:342
 msgid "General"
@@ -639,7 +639,7 @@ msgstr "Genel"
 
 #: ../data/SettingsDialog.ui:365
 msgid "Fonts"
-msgstr "Fontlar"
+msgstr "Yazı tipleri"
 
 #: ../data/SettingsDialog.ui:563
 msgid "Appearance"
@@ -765,7 +765,7 @@ msgstr "Genel"
 #: ../data/Shortcuts.ui:17
 msgctxt "shortcut window"
 msgid "New window"
-msgstr "Yeni Pencere"
+msgstr "Yeni pencere"
 
 #: ../data/Shortcuts.ui:24
 msgctxt "shortcut window"
@@ -780,12 +780,12 @@ msgstr "Tam ekran"
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Çıkış"
+msgstr "Çık"
 
 #: ../data/Shortcuts.ui:45
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr "Konum girin"
+msgstr "Konum gir"
 
 #: ../data/Shortcuts.ui:52
 msgctxt "shortcut window"
@@ -840,12 +840,12 @@ msgstr "Önceki sayfa"
 #: ../data/Shortcuts.ui:121 ../data/Shortcuts.ui:224
 msgctxt "shortcut window"
 msgid "Next page"
-msgstr "Sonraki Sayfa"
+msgstr "Sonraki sayfa"
 
 #: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "View all pages"
-msgstr "üm sayfaları görüntüle"
+msgstr "Tüm sayfaları görüntüle"
 
 #: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
@@ -895,7 +895,7 @@ msgstr "Mevcut site için reklam engellemeyi devre dışı bırak"
 #: ../data/Shortcuts.ui:197
 msgctxt "shortcut window"
 msgid "Enable JavaScript for current site temporarily"
-msgstr "Geçerli site için JavaScript’i geçici olarak etkinleştir"
+msgstr "Mevcut site için JavaScript’i geçici olarak etkinleştir"
 
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
@@ -948,7 +948,7 @@ msgstr "Tam ekrandan çık"
 
 #: ../data/ToolbarEnd.ui:37
 msgid "Start synchronization"
-msgstr "Senkronizasyonu başlat"
+msgstr "Eşitlemeyi başlat"
 
 #: ../data/ToolbarEnd.ui:69
 msgid "Disallow access to this site"
@@ -1116,7 +1116,7 @@ msgstr "İndirme hızı:"
 
 #: ../eolie/popover_downloads.py:113
 msgid "bytes/s"
-msgstr "byte/s"
+msgstr "bayt/s"
 
 #: ../eolie/popover_downloads.py:116
 msgid "KiB/s"
@@ -1289,7 +1289,7 @@ msgstr "İndiriyor:"
 
 #: ../eolie/toolbar_title.py:276
 msgid "This page contains insecure content"
-msgstr "Bu sayfa güvenli olmayan içerik içeriyor"
+msgstr "Bu sayfa güvenli olmayan ögeler içeriyor"
 
 #: ../eolie/toolbar_title.py:330
 msgid ""
@@ -1307,7 +1307,7 @@ msgstr "Coğrafi konumu reddet"
 
 #: ../eolie/toolbar_title.py:385
 msgid "Blocked popups"
-msgstr "Engellenen pop-up’lar"
+msgstr "Engellenen açılır pencereler"
 
 #: ../eolie/toolbar_title.py:445
 msgid "Copy address"
@@ -1403,7 +1403,7 @@ msgid ""
 msgstr ""
 "Bu gerçek gibi görünmüyor %s.<br/>Saldırganlar bu siteye veya bu siteden "
 "gelen bilgileri çalmaya veya değiştirmeye çalışıyor olabilir. (örneğin, özel "
-"mesajlar, kredi kartı bilgileri veya şifreler)."
+"mesajlar, kredi kartı bilgileri veya parolalar)."
 
 #: ../eolie/webview_errors.py:206
 msgid "Accept Risk and Proceed"
@@ -1438,15 +1438,15 @@ msgstr "Önizlemeyi yeniden yükle"
 
 #: ../eolie/webview_signals_menu.py:81
 msgid "Open link in a new page"
-msgstr "Yeni sayfada aç"
+msgstr "Yeni bir sayfada bağlantı aç"
 
 #: ../eolie/webview_signals_menu.py:91
 msgid "Open link in a new private page"
-msgstr "Yeni gizli sayfada aç"
+msgstr "Yeni bir özel sayfada bağlantı aç"
 
 #: ../eolie/webview_signals_menu.py:101
 msgid "Open link in a new window"
-msgstr "Yeni pencerede aç"
+msgstr "Yeni bir pencerede bağlantıyı aç"
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
@@ -1462,7 +1462,7 @@ msgstr "Sayfayı resim olarak kaydet"
 
 #: ../eolie/webview_signals.py:145
 msgid "Select files to upload"
-msgstr "Yüklenecek dosyaları seçin"
+msgstr "Yüklenecek dosyaları seç"
 
 #: ../eolie/webview_signals.py:148
 msgid "Open"
