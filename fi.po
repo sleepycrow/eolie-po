@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 14:09+0200\n"
-"PO-Revision-Date: 2019-04-29 11:45+0000\n"
+"PO-Revision-Date: 2019-08-21 15:24+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/"
-">\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/>"
+"\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -1336,7 +1336,7 @@ msgstr ""
 
 #: ../eolie/webview_errors.py:140
 msgid "Network not available"
-msgstr "Verkko ei ole käytettävissä"
+msgstr "Verkkoa ei ole käytettävissä"
 
 #: ../eolie/webview_errors.py:141
 msgid "Check your network connection"
