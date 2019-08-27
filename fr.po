@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 14:09+0200\n"
-"PO-Revision-Date: 2019-04-18 14:42+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/"
-">\n"
+"PO-Revision-Date: 2019-08-28 23:24+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
+"\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6-dev\n"
+"X-Generator: Weblate 3.9-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -1005,7 +1005,7 @@ msgstr "Voulez vous vraiment quitter Eolie?"
 
 #: ../eolie/application.py:768
 msgid "Downloads running, are you sure you want quit?"
-msgstr "Des téléchargements sont en cours, voulez vous vraiment quitter?"
+msgstr "Des téléchargements sont en cours, voulez vous vraiment quitter ?"
 
 #: ../eolie/container.py:469
 msgid "Please consider a donation to the project"
@@ -1163,7 +1163,7 @@ msgstr "Temps restant:"
 
 #: ../eolie/popover_geolocation.py:45
 msgid "Grant this page access to your location?"
-msgstr "Autoriser cette page à obtenir votre localisation?"
+msgstr "Autoriser cette page à obtenir votre localisation ?"
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
@@ -1241,7 +1241,7 @@ msgid ""
 "the %s search engine?"
 msgstr ""
 "Voulez vous installer le\n"
-"moteur de recherche %s?"
+"moteur de recherche %s ?"
 
 #: ../eolie/search.py:250
 msgid "Unsupported search engine"
