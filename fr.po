@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 14:09+0200\n"
-"PO-Revision-Date: 2019-08-28 23:24+0000\n"
-"Last-Translator: leela <53352@protonmail.com>\n"
+"PO-Revision-Date: 2019-09-04 05:24+0000\n"
+"Last-Translator: Swann Martinet <swann.ranskassa@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
 "\n"
 "Language: fr\n"
@@ -117,7 +117,7 @@ msgstr "Ouvrir cette page au démarrage"
 
 #: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Minimum sidebar position"
-msgstr "Taille minimal de la barre latérale"
+msgstr "Taille minimale de la barre latérale"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:493
 msgid "Minimum font size"
@@ -997,7 +997,7 @@ msgstr "Raccourcis clavier"
 
 #: ../data/ToolbarMenu.ui:392
 msgid "_About"
-msgstr "_A propos"
+msgstr "_À propos"
 
 #: ../eolie/application.py:715
 msgid "Do you really want to quit Eolie?"
