@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 14:09+0200\n"
-"PO-Revision-Date: 2019-09-04 05:24+0000\n"
-"Last-Translator: Swann Martinet <swann.ranskassa@laposte.net>\n"
+"PO-Revision-Date: 2019-10-10 22:32+0000\n"
+"Last-Translator: Enrico <koreldan@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/eolie/it/>"
 "\n"
 "Language: it\n"
@@ -33,7 +33,7 @@ msgstr "INTERNO"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
-msgstr ""
+msgstr "Mostra la barra laterale(amministrazione siti)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Block ads on pages"
@@ -41,19 +41,19 @@ msgstr "Blocca pubblicità nelle pagine"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Trust websites: No adblocking of internal URIs"
-msgstr ""
+msgstr "Fidati dei siti: Nessun blocco pubblicità degli URI interni"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr ""
+msgstr "Fidati dei siti: Nessun blocco dei JavaScript dei Uri interni"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "Abilita scorrimento morbido"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block all unwanted popups"
-msgstr "Blocca tutti i popup indesiderati"
+msgstr "Blocca i popup indesiderati"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Block all images"
@@ -61,11 +61,11 @@ msgstr "Blocca tutte le immagini"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Block all JavaScript"
-msgstr "Blocca tutti gli script JavaScript"
+msgstr "Blocca tutti gli JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Download folder URI"
-msgstr ""
+msgstr "Scarica la cartella del URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Open finished downloads"
@@ -77,11 +77,11 @@ msgstr "Motore di ricerca"
 
 #: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Remember sessions"
-msgstr ""
+msgstr "Ricorda le sessioni"
 
 #: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:650
 msgid "Remember passwords"
-msgstr "Ricorda password"
+msgstr "Ricorda le password"
 
 #: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:304
 msgid "Enable developer tools"
@@ -93,23 +93,23 @@ msgstr "Abilita plugin"
 
 #: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:378
 msgid "Use system fonts"
-msgstr "Usa font di sistema"
+msgstr "Usa i font di sistema"
 
 #: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:407
 msgid "Sans serif font"
-msgstr ""
+msgstr "font Sans serif"
 
 #: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:419
 msgid "Serif font"
-msgstr ""
+msgstr "font Serif"
 
 #: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:431
 msgid "Monospace font"
-msgstr ""
+msgstr "font monospace"
 
 #: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Open this page on startup"
-msgstr ""
+msgstr "Apri questa pagina all'avvio"
 
 #: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Minimum sidebar position"
@@ -117,11 +117,11 @@ msgstr "Posizione minima della barra laterale"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:493
 msgid "Minimum font size"
-msgstr ""
+msgstr "Grandezza font minima"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144
 msgid "Popular items shown"
-msgstr ""
+msgstr "Elementi popolarmente mostrati"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:519
 #: ../data/ToolbarMenu.ui:188
@@ -130,23 +130,23 @@ msgstr "Livello di zoom predefinito"
 
 #: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "Cookies storage type"
-msgstr ""
+msgstr "tipo di archiviazione dei Cookie"
 
 #: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "History storage type"
-msgstr ""
+msgstr "Tipo di archiviazione dello Storico"
 
 #: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:616
 msgid "Tell websites I do not want to be tracked"
-msgstr ""
+msgstr "Avverti i siti di non voler essere tracciato"
 
 #: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "DNS prediction"
-msgstr ""
+msgstr "predizione DNS"
 
 #: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:860
 msgid "Autoplay videos"
-msgstr ""
+msgstr "Avvia video automaticamente"
 
 #: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "Enable search suggestions"
@@ -181,7 +181,7 @@ msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
 msgid "PayPal"
@@ -203,11 +203,11 @@ msgstr "Eolie è un nuovo browser web per GNOME."
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
-msgstr ""
+msgstr "org.gnome.Eolie"
 
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_move_to.py:63
 msgid "New window"
-msgstr ""
+msgstr "Nuova finestra"
 
 #: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_pages.py:44
 msgid "New private page"
@@ -215,12 +215,12 @@ msgstr "Nuova pagina privata"
 
 #: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
 msgid "Do not filter current website content"
-msgstr ""
+msgstr "Non filtrare i contenuti del sito"
 
 #: ../data/AdblockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust web sites"
-msgstr ""
+msgstr "Fidati dei siti"
 
 #: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
 #: ../data/ToolbarMenu.ui:228
@@ -231,11 +231,11 @@ msgstr "Blocca pubblicità"
 #: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
 #: ../data/ScriptsMenu.ui:109
 msgid "Block policy"
-msgstr ""
+msgstr "regole di Blocco"
 
 #: ../data/AdblockMenu.ui:93
 msgid "Enable adblocking"
-msgstr ""
+msgstr "Abilita il blocco della pubblicità"
 
 #: ../data/AdblockMenu.ui:94
 msgctxt "Adblock"
@@ -245,7 +245,7 @@ msgstr "Abilitato"
 #: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
 #: ../data/PopupBlockMenu.ui:93
 msgid "By default"
-msgstr ""
+msgstr "Abituale"
 
 #: ../data/AdblockMenu.ui:123
 msgid "Do not block ads on this site"
@@ -263,7 +263,7 @@ msgstr "Non bloccare la pubblicità in questa pagina"
 #: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
 #: ../data/PopupBlockMenu.ui:124
 msgid "Not on this page"
-msgstr ""
+msgstr "Non in questa pagina"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -279,15 +279,15 @@ msgstr "Rimuovi segnalibro"
 
 #: ../data/BookmarkEdit.ui:166 ../data/BookmarkEdit.ui:169
 msgid "Add new tag"
-msgstr ""
+msgstr "Aggiungi un nuovo tag"
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
-msgstr ""
+msgstr "Cancella i dati personali"
 
 #: ../data/DialogClearData.ui:10
 msgid "C_lear"
-msgstr ""
+msgstr "C_lear (??)"
 
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
 #: ../data/SettingsDialog.ui:117
@@ -296,11 +296,11 @@ msgstr "Cerca"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
-msgstr ""
+msgstr "Filtra i domini"
 
 #: ../data/DialogClearData.ui:67
 msgid "Search domains"
-msgstr ""
+msgstr "Cerca domini"
 
 #: ../data/DialogClearData.ui:83
 msgid ""
@@ -308,6 +308,9 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
+"Puoi selezionare un periodo di tempo nel quale cancellare tutti i dati di "
+"tutti i siti visitati in quel periodo. Se selezioni come inizio 'dalla "
+"installazione', potrai cancellare i dati di alcuni siti in particolare."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
@@ -335,7 +338,7 @@ msgstr "dal principio"
 
 #: ../data/DialogClearData.ui:192
 msgid "No data found"
-msgstr ""
+msgstr "Dati non trovati"
 
 #: ../data/DialogClearData.ui:209
 msgid ""
@@ -347,7 +350,7 @@ msgstr ""
 
 #: ../data/DialogCookies.ui:19
 msgid "Cookies manager"
-msgstr ""
+msgstr "gestore dei Cookie"
 
 #: ../data/DialogCookies.ui:23
 msgid "Delete cookies"
@@ -355,7 +358,7 @@ msgstr "Elimina cookie"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
-msgstr ""
+msgstr "Importa i segnalibri da:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:192
 #: ../eolie/popover_uri.py:460
@@ -368,7 +371,7 @@ msgstr "Importa"
 
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
-msgstr ""
+msgstr "Modifica"
 
 #: ../data/DialogSearchEngine.ui:7
 msgid "Search engines"
@@ -380,19 +383,19 @@ msgstr "Nome:"
 
 #: ../data/DialogSearchEngine.ui:207
 msgid "Default:"
-msgstr ""
+msgstr "Abituale:"
 
 #: ../data/DialogSearchEngine.ui:233
 msgid "Bang:"
-msgstr ""
+msgstr "Bang:"
 
 #: ../data/DialogSearchEngine.ui:246
 msgid "If bang is g, use g: in search bar to search using this engine"
-msgstr ""
+msgstr "Se bang è g, usa g: nella barra di ricerca usando questo motore"
 
 #: ../data/DialogSearchEngine.ui:263
 msgid "Search:"
-msgstr ""
+msgstr "Cerca:"
 
 #: ../data/DialogSearchEngine.ui:320
 msgid ""
@@ -400,58 +403,61 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
 msgstr ""
+"Per determinare la ricerca dell'indirizzo, fai una ricerca usando il motore "
+"di ricerca che vuoi aggiungere e controlla l'indirizzo risultante. Rimuovi "
+"il termine cercato dal indirizzo risultante e rimpiazzalo con %s."
 
 #: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
 #: ../data/ToolbarMenu.ui:267
 msgid "Block images"
-msgstr ""
+msgstr "Blocca le immagini"
 
 #: ../data/ImageBlockMenu.ui:79 ../data/PopupBlockMenu.ui:79
 msgctxt "popup"
 msgid "Enabled"
-msgstr ""
+msgstr "Abilitato"
 
 #: ../data/ImageBlockMenu.ui:80
 msgid "Enable image blocking"
-msgstr ""
+msgstr "Abilita il blocco immagini"
 
 #: ../data/ImageBlockMenu.ui:110
 msgid "Do not block images on this site"
-msgstr ""
+msgstr "Non bloccare le immagini in questo sito"
 
 #: ../data/ImageBlockMenu.ui:125
 msgid "Do not block images on this page"
-msgstr ""
+msgstr "Non bloccare le immagini in questa pagina"
 
 #: ../data/JSBlockMenu.ui:15
 msgctxt "Trust web sites"
 msgid "Trust websites"
-msgstr ""
+msgstr "Fidati dei siti"
 
 #: ../data/JSBlockMenu.ui:28
 msgid "JavaScript blocker"
-msgstr ""
+msgstr "bloccatore di JavaScript"
 
 #: ../data/JSBlockMenu.ui:92
 msgid "Enable JavaScript blocking"
-msgstr ""
+msgstr "Abilita il blocco dei JavaScript"
 
 #: ../data/JSBlockMenu.ui:94
 msgctxt "Trust web sites"
 msgid "Enabled"
-msgstr ""
+msgstr "Abilitato"
 
 #: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
 msgid "Spell checking"
-msgstr ""
+msgstr "controlla punteggiatura"
 
 #: ../data/PopoverCookies.ui:10
 msgid "Remove all cookies"
-msgstr ""
+msgstr "Rimuovi tutti i cookie"
 
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
-msgstr ""
+msgstr "Vuoi salvare questa password?"
 
 #: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:135
 msgid "Save"
@@ -459,15 +465,15 @@ msgstr "Salva"
 
 #: ../data/PopoverDownloads.ui:53
 msgid "Open download folder"
-msgstr ""
+msgstr "Apri la cartella download"
 
 #: ../data/PopoverDownloads.ui:73
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Pulisci download finiti"
 
 #: ../data/PopoverDownloads.ui:103
 msgid "No active download"
-msgstr ""
+msgstr "Download non attivi"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
 msgid "OK"
@@ -482,72 +488,72 @@ msgstr "Cancella"
 
 #: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:822
 msgid "Forever"
-msgstr ""
+msgstr "Per sempre"
 
 #: ../data/PopoverImages.ui:72 ../eolie/webview_signals_menu.py:133
 msgid "Save images"
-msgstr ""
+msgstr "Salva immagini"
 
 #: ../data/PopoverImages.ui:105
 msgid "Show links"
-msgstr ""
+msgstr "Mostra i link"
 
 #: ../data/PopoverPasswords.ui:10
 msgid "Remove all passwords"
-msgstr ""
+msgstr "Rimuovi tutte le password"
 
 #: ../data/PopoverUri.ui:157
 msgid "Sync bookmarks"
-msgstr ""
+msgstr "Sincronizza i segnalibri"
 
 #: ../data/PopoverUri.ui:217
 msgid "Bookmarks"
-msgstr ""
+msgstr "Segnalibri"
 
 #: ../data/PopoverUri.ui:355
 msgid "Clear history"
-msgstr ""
+msgstr "Pulisci lo storico"
 
 #: ../data/PopoverUri.ui:379
 msgid "History"
-msgstr ""
+msgstr "Storico"
 
 #: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
 #: ../data/ToolbarMenu.ui:254
 msgid "Block popups"
-msgstr ""
+msgstr "Blocca i popup"
 
 #: ../data/PopupBlockMenu.ui:80
 msgid "Enable popup blocking"
-msgstr ""
+msgstr "Abilita il blocco dei popup"
 
 #: ../data/PopupBlockMenu.ui:110
 msgid "Do not block popups on this site"
-msgstr ""
+msgstr "Non bloccare i popup in questo sito"
 
 #: ../data/PopupBlockMenu.ui:125
 msgid "Do not block popups on this page"
-msgstr ""
+msgstr "Non bloccare i popup in questa pagina"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
-msgstr ""
+msgstr "Chiudi"
 
 #: ../data/RowDownload.ui:49
 msgid "Cancel download"
-msgstr ""
+msgstr "Cancella download"
 
 #: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
 msgid "Block JavaScript"
-msgstr ""
+msgstr "Blocca i JavaScript"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
-msgstr ""
+msgstr "Abilita il bloccatore di JavaScript"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
-msgstr ""
+msgstr "Fidati dei siti"
 
 #: ../data/SettingsDialog.ui:25 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
@@ -556,23 +562,23 @@ msgstr "Preferenze"
 #: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
-msgstr ""
+msgstr "I download"
 
 #: ../data/SettingsDialog.ui:74
 msgid "Download folder:"
-msgstr ""
+msgstr "Cartella dei download:"
 
 #: ../data/SettingsDialog.ui:86
 msgid "Select download folder"
-msgstr ""
+msgstr "Seleziona la cartella dei download"
 
 #: ../data/SettingsDialog.ui:96
 msgid "Automatically open downloaded files"
-msgstr ""
+msgstr "Apri automaticamente i file scaricati"
 
 #: ../data/SettingsDialog.ui:134
 msgid "Search engines:"
-msgstr ""
+msgstr "Motori di ricerca:"
 
 #: ../data/SettingsDialog.ui:147 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
@@ -584,51 +590,51 @@ msgstr "Avvio"
 
 #: ../data/SettingsDialog.ui:198
 msgid "Start Page:"
-msgstr ""
+msgstr "Pagina iniziale:"
 
 #: ../data/SettingsDialog.ui:210
 msgid "Search engine"
-msgstr ""
+msgstr "Motore di ricerca"
 
 #: ../data/SettingsDialog.ui:211 ../eolie/context.py:86
 msgid "Popular pages"
-msgstr ""
+msgstr "Pagine popolari"
 
 #: ../data/SettingsDialog.ui:212
 msgid "Popular bookmarks"
-msgstr ""
+msgstr "Segnalibri popolari"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Blank page"
-msgstr ""
+msgstr "Pagina vuota"
 
 #: ../data/SettingsDialog.ui:214
 msgid "Set address"
-msgstr ""
+msgstr "inserisci l'inidirizzo"
 
 #: ../data/SettingsDialog.ui:236
 msgid "Remember previous pages on startup"
-msgstr ""
+msgstr "Ricorda le pagine precedenti all'Avvio"
 
 #: ../data/SettingsDialog.ui:253
 msgid "Configure engines"
-msgstr ""
+msgstr "Configura i motori"
 
 #: ../data/SettingsDialog.ui:274
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "Segnalibri mostrati"
 
 #: ../data/SettingsDialog.ui:318
 msgid "Add suggestions"
-msgstr ""
+msgstr "Aggiungi suggerimenti"
 
 #: ../data/SettingsDialog.ui:342
 msgid "General"
-msgstr ""
+msgstr "Generale"
 
 #: ../data/SettingsDialog.ui:365
 msgid "Fonts"
-msgstr ""
+msgstr "Font"
 
 #: ../data/SettingsDialog.ui:563
 msgid "Appearance"
@@ -704,7 +710,7 @@ msgstr "Non conservare"
 
 #: ../data/SettingsDialog.ui:842
 msgid "Predict websites address"
-msgstr ""
+msgstr "Predici gli indirizzi dei siti web"
 
 #: ../data/SettingsDialog.ui:890
 msgid "Privacy"
@@ -720,7 +726,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:929
 msgid "Login :"
-msgstr ""
+msgstr "Utente:"
 
 #: ../data/SettingsDialog.ui:951
 msgid "Password :"
@@ -736,11 +742,11 @@ msgstr "Crea o gestisci account"
 
 #: ../data/SettingsDialog.ui:1028
 msgid "Code :"
-msgstr ""
+msgstr "Codice:"
 
 #: ../data/SettingsDialog.ui:1039 ../data/SettingsDialog.ui:1040
 msgid "You need to enable Two Factor Authentication"
-msgstr ""
+msgstr "Devi abilitare l'Autenticazione a due fattori"
 
 #: ../data/SettingsDialog.ui:1059
 msgid "Syncing"
@@ -889,7 +895,7 @@ msgstr "Abilita temporaneamente JavaScript per il sito corrente"
 #: ../data/Shortcuts.ui:204
 msgctxt "shortcut window"
 msgid "Enable \"Media Source Extension\" temporarily"
-msgstr ""
+msgstr "Abilita temporaneamente \"Estensione del sorgente del Media\""
 
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
@@ -928,48 +934,48 @@ msgstr "Chiudi pagina"
 
 #: ../data/ToolbarActions.ui:183
 msgid "More actions"
-msgstr ""
+msgstr "Più azioni"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
 #: ../eolie/menu_toolbar.py:46
 msgid "Leave fullscreen"
-msgstr ""
+msgstr "Lascia a schermo intero"
 
 #: ../data/ToolbarEnd.ui:37
 msgid "Start synchronization"
-msgstr ""
+msgstr "Avvia sincronizzazione"
 
 #: ../data/ToolbarEnd.ui:69
 msgid "Disallow access to this site"
-msgstr ""
+msgstr "Non permettere l'accesso a questo sito"
 
 #: ../data/ToolbarEnd.ui:146
 msgid "Startup page"
-msgstr ""
+msgstr "Pagina dopo l'avvio"
 
 #: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
 msgid "Save page"
-msgstr ""
+msgstr "Salva pagina"
 
 #: ../data/ToolbarMenu.ui:81
 msgid "Print page"
-msgstr ""
+msgstr "Stampa pagina"
 
 #: ../data/ToolbarMenu.ui:126
 msgid "Start page"
-msgstr ""
+msgstr "Pagina iniziale"
 
 #: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
-msgstr ""
+msgstr "Allontana"
 
 #: ../data/ToolbarMenu.ui:203
 msgid "Zoom in"
-msgstr ""
+msgstr "Avvicinati"
 
 #: ../data/ToolbarMenu.ui:284
 msgid "Filtering"
-msgstr ""
+msgstr "Filtrando"
 
 #: ../data/ToolbarMenu.ui:343
 msgid "_Preferences"
@@ -1001,7 +1007,7 @@ msgstr "Considera di effettuare una donazione al progetto"
 
 #: ../eolie/container.py:541
 msgid "Do you really want to close this page?"
-msgstr ""
+msgstr "Sei sicuro di voler chiudere questa pagina?"
 
 #: ../eolie/context.py:149
 msgid "Name"
@@ -1009,31 +1015,31 @@ msgstr "Nome"
 
 #: ../eolie/context.py:150
 msgid "Size"
-msgstr ""
+msgstr "Grandezza"
 
 #: ../eolie/context.py:152
 msgid "Last modification"
-msgstr ""
+msgstr "Ultima modifica"
 
 #: ../eolie/dialog_clear_data.py:180
 msgid "Memory cache"
-msgstr ""
+msgstr "Memoria di cache"
 
 #: ../eolie/dialog_clear_data.py:182
 msgid "HTTP disk cache"
-msgstr ""
+msgstr "cache su disco di HTTP"
 
 #: ../eolie/dialog_clear_data.py:184
 msgid "Offline web application cache"
-msgstr ""
+msgstr "cache delle applicazioni web Offline"
 
 #: ../eolie/dialog_clear_data.py:186
 msgid "Session storage data"
-msgstr ""
+msgstr "Archivio dati di sessione"
 
 #: ../eolie/dialog_clear_data.py:188
 msgid "Local storage data"
-msgstr ""
+msgstr "Archivio locale dei dati"
 
 #: ../eolie/dialog_clear_data.py:190
 msgid "WebSQL databases"
