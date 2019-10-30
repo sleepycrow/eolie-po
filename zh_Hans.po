@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 14:09+0200\n"
+"POT-Creation-Date: 2019-10-30 18:00+0100\n"
 "PO-Revision-Date: 2018-09-05 03:14+0000\n"
 "Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -40,120 +40,124 @@ msgid "Block ads on pages"
 msgstr "屏蔽页面上的广告"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
+msgid "Block unwanted popups"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
+msgid "Block images"
+msgstr "屏蔽图像"
+
+#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
+msgid "Block medias"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
+msgid "Block JavaScript"
+msgstr "屏蔽 JavaScript"
+
+#: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Trust websites: No adblocking of internal URIs"
 msgstr "信任网站：内部 URI 不屏蔽广告"
 
-#: ../data/org.gnome.Eolie.gschema.xml:49
+#: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Trust websites: No JavaScript blocking of internal URIs"
 msgstr "信任网站：内部 URI 不屏蔽 JavaScript"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:59
-msgid "Block all unwanted popups"
-msgstr "屏蔽所有多余的弹窗"
-
-#: ../data/org.gnome.Eolie.gschema.xml:64
-msgid "Block all images"
-msgstr "屏蔽所有图像"
-
-#: ../data/org.gnome.Eolie.gschema.xml:69
-msgid "Block all JavaScript"
-msgstr "屏蔽所有 JavaScript"
-
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Download folder URI"
 msgstr "下载文件夹 URI"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Open finished downloads"
 msgstr "打开已完成的下载"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Web search engine"
 msgstr "网络搜索引擎"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Remember sessions"
 msgstr "记住会话"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:650
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "记住密码"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:304
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "启用开发者工具"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:160
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "启用插件"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:378
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "使用系统字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:407
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:422
 msgid "Sans serif font"
 msgstr "无衬线字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:419
+#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "衬线字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:431
+#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:446
 msgid "Monospace font"
 msgstr "等宽字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Open this page on startup"
 msgstr "启动时打开此页面"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134
+#: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Minimum sidebar position"
 msgstr "最小侧边栏位置"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:493
+#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
 msgstr "最小字体大小"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144
+#: ../data/org.gnome.Eolie.gschema.xml:149
 msgid "Popular items shown"
 msgstr "显示热门项目"
 
-#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:519
+#: ../data/org.gnome.Eolie.gschema.xml:154 ../data/SettingsDialog.ui:534
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "默认缩放级别"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154
+#: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "Cookies storage type"
 msgstr "Cookies 存储类型"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159
+#: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "History storage type"
 msgstr "历史存储类型"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:616
+#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:631
 msgid "Tell websites I do not want to be tracked"
 msgstr "告诉网站我不想被跟踪"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169
+#: ../data/org.gnome.Eolie.gschema.xml:174
 msgid "DNS prediction"
 msgstr "DNS 预测"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:860
+#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/SettingsDialog.ui:875
 msgid "Autoplay videos"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:179
+#: ../data/org.gnome.Eolie.gschema.xml:184
 msgid "Enable search suggestions"
 msgstr "启用搜索建议"
 
-#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/LanguagesMenu.ui:59
-#: ../data/LanguagesMenu.ui:76
+#: ../data/org.gnome.Eolie.gschema.xml:189 ../data/LanguagesMenu.ui:63
+#: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "启用拼写检查"
 
@@ -201,6 +205,10 @@ msgstr "网页浏览器"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie 是个新的 GNOME 网页浏览器。"
 
+#: ../data/org.gnome.Eolie.appdata.xml.in:17
+msgid "Bug Fixes"
+msgstr ""
+
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
 msgstr "org.gnome.Eolie"
@@ -209,61 +217,9 @@ msgstr "org.gnome.Eolie"
 msgid "New window"
 msgstr "新建窗口"
 
-#: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_pages.py:44
+#: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_application.py:37
 msgid "New private page"
 msgstr "创建隐私页"
-
-#: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
-msgid "Do not filter current website content"
-msgstr "不要过滤当前网站内容"
-
-#: ../data/AdblockMenu.ui:15
-msgctxt "Trust web sites"
-msgid "Trust web sites"
-msgstr "信任网站"
-
-#: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:228
-msgid "Block ads"
-msgstr "屏蔽广告"
-
-#: ../data/AdblockMenu.ui:47 ../data/ImageBlockMenu.ui:33
-#: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
-#: ../data/ScriptsMenu.ui:109
-msgid "Block policy"
-msgstr "屏蔽策略"
-
-#: ../data/AdblockMenu.ui:93
-msgid "Enable adblocking"
-msgstr "启用广告屏蔽"
-
-#: ../data/AdblockMenu.ui:94
-msgctxt "Adblock"
-msgid "Enabled"
-msgstr "已启用"
-
-#: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
-#: ../data/PopupBlockMenu.ui:93
-msgid "By default"
-msgstr "按默认"
-
-#: ../data/AdblockMenu.ui:123
-msgid "Do not block ads on this site"
-msgstr "不要屏蔽此网站的广告"
-
-#: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
-#: ../data/PopupBlockMenu.ui:108
-msgid "Not on this site"
-msgstr "不在此网站"
-
-#: ../data/AdblockMenu.ui:137
-msgid "Do not block ads on this page"
-msgstr "不要屏蔽此页面的广告"
-
-#: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
-#: ../data/PopupBlockMenu.ui:124
-msgid "Not on this page"
-msgstr "不在此页面"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -289,8 +245,8 @@ msgstr "清除个人数据"
 msgid "C_lear"
 msgstr "清除(_L)"
 
-#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
-#: ../data/SettingsDialog.ui:117
+#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:201
+#: ../data/SettingsDialog.ui:132
 msgid "Search"
 msgstr "搜索"
 
@@ -357,8 +313,8 @@ msgstr "删除 Cookies"
 msgid "Import bookmarks from:"
 msgstr "导入书签的来源："
 
-#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:192
-#: ../eolie/popover_uri.py:460
+#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:145
+#: ../eolie/popover_uri.py:454
 msgid "Import bookmarks"
 msgstr "导入书签"
 
@@ -403,47 +359,7 @@ msgstr ""
 "如要确定搜索地址，使用搜索引擎搜索您需要的结果并添加结果地址。将搜索项字串替"
 "换为 %s。"
 
-#: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:267
-msgid "Block images"
-msgstr "屏蔽图像"
-
-#: ../data/ImageBlockMenu.ui:79 ../data/PopupBlockMenu.ui:79
-msgctxt "popup"
-msgid "Enabled"
-msgstr "已启用"
-
-#: ../data/ImageBlockMenu.ui:80
-msgid "Enable image blocking"
-msgstr "启用图像屏蔽"
-
-#: ../data/ImageBlockMenu.ui:110
-msgid "Do not block images on this site"
-msgstr "不要屏蔽此网站的图像"
-
-#: ../data/ImageBlockMenu.ui:125
-msgid "Do not block images on this page"
-msgstr "不要屏蔽此页面的图像"
-
-#: ../data/JSBlockMenu.ui:15
-msgctxt "Trust web sites"
-msgid "Trust websites"
-msgstr "信任网站"
-
-#: ../data/JSBlockMenu.ui:28
-msgid "JavaScript blocker"
-msgstr "JavaScript 屏蔽器"
-
-#: ../data/JSBlockMenu.ui:92
-msgid "Enable JavaScript blocking"
-msgstr "启用 JavaScript 屏蔽"
-
-#: ../data/JSBlockMenu.ui:94
-msgctxt "Trust web sites"
-msgid "Enabled"
-msgstr "已启用"
-
-#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:277
 msgid "Spell checking"
 msgstr "拼写检查"
 
@@ -455,9 +371,17 @@ msgstr "移除所有 Cookies"
 msgid "Do you want to save this password?"
 msgstr "您想要保存此密码吗？"
 
-#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:135
+#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:133
 msgid "Save"
 msgstr "保存"
+
+#: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
+#: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
+#: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
+#: ../eolie/popover_uri.py:422 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:149
+msgid "Cancel"
+msgstr "取消"
 
 #: ../data/PopoverDownloads.ui:53
 msgid "Open download folder"
@@ -475,18 +399,11 @@ msgstr "无活动的下载"
 msgid "OK"
 msgstr "确定"
 
-#: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
-#: ../data/QuitDialog.ui:22 ../eolie/dialog_import_bookmarks.py:90
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:425
-#: ../eolie/toolbar_end.py:136 ../eolie/webview_signals.py:149
-msgid "Cancel"
-msgstr "取消"
-
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:822
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:837
 msgid "Forever"
 msgstr "永久"
 
-#: ../data/PopoverImages.ui:72 ../eolie/webview_signals_menu.py:133
+#: ../data/PopoverImages.ui:72
 msgid "Save images"
 msgstr "保存图像"
 
@@ -498,38 +415,17 @@ msgstr "显示链接"
 msgid "Remove all passwords"
 msgstr "移除所有密码"
 
-#: ../data/PopoverUri.ui:157
-msgid "Sync bookmarks"
-msgstr "同步书签"
-
-#: ../data/PopoverUri.ui:217
+#: ../data/PopoverUri.ui:173
 msgid "Bookmarks"
 msgstr "书签"
 
-#: ../data/PopoverUri.ui:355
+#: ../data/PopoverUri.ui:311
 msgid "Clear history"
 msgstr "清除历史"
 
-#: ../data/PopoverUri.ui:379
+#: ../data/PopoverUri.ui:335
 msgid "History"
 msgstr "历史"
-
-#: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:254
-msgid "Block popups"
-msgstr "屏蔽弹窗"
-
-#: ../data/PopupBlockMenu.ui:80
-msgid "Enable popup blocking"
-msgstr "启用弹窗屏蔽"
-
-#: ../data/PopupBlockMenu.ui:110
-msgid "Do not block popups on this site"
-msgstr "不要屏蔽此网站的弹窗"
-
-#: ../data/PopupBlockMenu.ui:125
-msgid "Do not block popups on this page"
-msgstr "不要屏蔽此页面的弹窗"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -539,180 +435,180 @@ msgstr "关闭"
 msgid "Cancel download"
 msgstr "取消下载"
 
-#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
-msgid "Block JavaScript"
-msgstr "屏蔽 JavaScript"
-
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
 msgstr "启用 JavaScript 屏蔽器"
+
+#: ../data/ScriptsMenu.ui:109
+msgid "Block policy"
+msgstr "屏蔽策略"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
 msgstr "信任网站"
 
-#: ../data/SettingsDialog.ui:25 ../eolie/settings.py:67 ../eolie/settings.py:70
+#: ../data/SettingsDialog.ui:40 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
 msgstr "首选项"
 
-#: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
+#: ../data/SettingsDialog.ui:72 ../data/ToolbarEnd.ui:127
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "下载"
 
-#: ../data/SettingsDialog.ui:74
+#: ../data/SettingsDialog.ui:89
 msgid "Download folder:"
 msgstr "下载文件夹："
 
-#: ../data/SettingsDialog.ui:86
+#: ../data/SettingsDialog.ui:101
 msgid "Select download folder"
 msgstr "选择下载文件夹"
 
-#: ../data/SettingsDialog.ui:96
+#: ../data/SettingsDialog.ui:111
 msgid "Automatically open downloaded files"
 msgstr "自动打开下载的文件"
 
-#: ../data/SettingsDialog.ui:134
+#: ../data/SettingsDialog.ui:149
 msgid "Search engines:"
 msgstr "搜索引擎："
 
-#: ../data/SettingsDialog.ui:147 ../eolie/dialog_import_bookmarks.py:46
+#: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "其他"
 
-#: ../data/SettingsDialog.ui:181
+#: ../data/SettingsDialog.ui:196
 msgid "Startup"
 msgstr "启动"
 
-#: ../data/SettingsDialog.ui:198
+#: ../data/SettingsDialog.ui:213
 msgid "Start Page:"
 msgstr "启动页："
 
-#: ../data/SettingsDialog.ui:210
+#: ../data/SettingsDialog.ui:225
 msgid "Search engine"
 msgstr "搜索引擎"
 
-#: ../data/SettingsDialog.ui:211 ../eolie/context.py:86
+#: ../data/SettingsDialog.ui:226 ../eolie/context.py:86
 msgid "Popular pages"
 msgstr "热门页面"
 
-#: ../data/SettingsDialog.ui:212
+#: ../data/SettingsDialog.ui:227
 msgid "Popular bookmarks"
 msgstr "热门书签"
 
-#: ../data/SettingsDialog.ui:213
+#: ../data/SettingsDialog.ui:228
 msgid "Blank page"
 msgstr "空白页"
 
-#: ../data/SettingsDialog.ui:214
+#: ../data/SettingsDialog.ui:229
 msgid "Set address"
 msgstr "设定地址"
 
-#: ../data/SettingsDialog.ui:236
+#: ../data/SettingsDialog.ui:251
 msgid "Remember previous pages on startup"
 msgstr "启动时记住上次的标签页"
 
-#: ../data/SettingsDialog.ui:253
+#: ../data/SettingsDialog.ui:268
 msgid "Configure engines"
 msgstr "配置引擎"
 
-#: ../data/SettingsDialog.ui:274
+#: ../data/SettingsDialog.ui:289
 msgid "Shown bookmarks"
 msgstr "显示书签"
 
-#: ../data/SettingsDialog.ui:318
+#: ../data/SettingsDialog.ui:333
 msgid "Add suggestions"
 msgstr "添加建议"
 
-#: ../data/SettingsDialog.ui:342
+#: ../data/SettingsDialog.ui:357
 msgid "General"
 msgstr "常规"
 
-#: ../data/SettingsDialog.ui:365
+#: ../data/SettingsDialog.ui:380
 msgid "Fonts"
 msgstr "字体"
 
-#: ../data/SettingsDialog.ui:563
+#: ../data/SettingsDialog.ui:578
 msgid "Appearance"
 msgstr "外观"
 
-#: ../data/SettingsDialog.ui:587 ../eolie/dialog_clear_data.py:196
+#: ../data/SettingsDialog.ui:602 ../eolie/dialog_clear_data.py:196
 msgid "Cookies"
 msgstr "Cookies"
 
-#: ../data/SettingsDialog.ui:603
+#: ../data/SettingsDialog.ui:618
 msgid "Tracking"
 msgstr "跟踪"
 
-#: ../data/SettingsDialog.ui:638
+#: ../data/SettingsDialog.ui:653
 msgid "Passwords"
 msgstr "密码"
 
-#: ../data/SettingsDialog.ui:671
+#: ../data/SettingsDialog.ui:686
 msgid "Saved data"
 msgstr "已保存的数据"
 
-#: ../data/SettingsDialog.ui:694
+#: ../data/SettingsDialog.ui:709
 msgid "Behaviour:"
 msgstr "行为："
 
-#: ../data/SettingsDialog.ui:709
+#: ../data/SettingsDialog.ui:724
 msgid "Always accept"
 msgstr "总是接受"
 
-#: ../data/SettingsDialog.ui:710
+#: ../data/SettingsDialog.ui:725
 msgid "Only from visited sites"
 msgstr "仅来自您浏览的网站"
 
-#: ../data/SettingsDialog.ui:711
+#: ../data/SettingsDialog.ui:726
 msgid "Never accept"
 msgstr "从不接受"
 
-#: ../data/SettingsDialog.ui:730
+#: ../data/SettingsDialog.ui:745
 msgid "Manage cookies"
 msgstr "管理 Cookies"
 
-#: ../data/SettingsDialog.ui:747
+#: ../data/SettingsDialog.ui:762
 msgid "Clear personal data"
 msgstr "清除个人数据"
 
-#: ../data/SettingsDialog.ui:769
+#: ../data/SettingsDialog.ui:784
 msgid "Manage passwords"
 msgstr "管理密码"
 
-#: ../data/SettingsDialog.ui:803
+#: ../data/SettingsDialog.ui:818
 msgid "Keep history:"
 msgstr "保留历史："
 
-#: ../data/SettingsDialog.ui:818
+#: ../data/SettingsDialog.ui:833
 msgid "One day"
 msgstr "一天"
 
-#: ../data/SettingsDialog.ui:819
+#: ../data/SettingsDialog.ui:834
 msgid "One week"
 msgstr "一周"
 
-#: ../data/SettingsDialog.ui:820
+#: ../data/SettingsDialog.ui:835
 msgid "Four weeks"
 msgstr "四周"
 
-#: ../data/SettingsDialog.ui:821
+#: ../data/SettingsDialog.ui:836
 msgid "A year"
 msgstr "一年"
 
-#: ../data/SettingsDialog.ui:823
+#: ../data/SettingsDialog.ui:838
 msgid "Do not keep"
 msgstr "不要保留"
 
-#: ../data/SettingsDialog.ui:842
+#: ../data/SettingsDialog.ui:857
 msgid "Predict websites address"
 msgstr "预测网站地址"
 
-#: ../data/SettingsDialog.ui:890
+#: ../data/SettingsDialog.ui:905
 msgid "Privacy"
 msgstr "隐私"
 
-#: ../data/SettingsDialog.ui:912
+#: ../data/SettingsDialog.ui:927
 msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
@@ -720,31 +616,39 @@ msgstr ""
 "您可以在您所有运行 Eolie 或 Firefox\n"
 "的设备上共享您的书签和历史"
 
-#: ../data/SettingsDialog.ui:929
+#: ../data/SettingsDialog.ui:944
 msgid "Login :"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:951
+#: ../data/SettingsDialog.ui:966
 msgid "Password :"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:972
+#: ../data/SettingsDialog.ui:987
 msgid "Allow synchronization"
 msgstr "允许同步"
 
-#: ../data/SettingsDialog.ui:1009
+#: ../data/SettingsDialog.ui:1025
 msgid "Create or manage account"
 msgstr "创建或管理帐户"
 
-#: ../data/SettingsDialog.ui:1028
+#: ../data/SettingsDialog.ui:1044
 msgid "Code :"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1039 ../data/SettingsDialog.ui:1040
+#: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
 msgid "You need to enable Two Factor Authentication"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1059
+#: ../data/SettingsDialog.ui:1073
+msgid "Pull from Firefox sync"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1088
+msgid "Push to Firefox sync"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1116
 msgid "Syncing"
 msgstr "同步中"
 
@@ -928,12 +832,8 @@ msgstr "查看所有标签页"
 msgid "Close page"
 msgstr "关闭页面"
 
-#: ../data/ToolbarActions.ui:183
-msgid "More actions"
-msgstr "更多操作"
-
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../eolie/menu_toolbar.py:45
 msgid "Leave fullscreen"
 msgstr "退出全屏"
 
@@ -945,11 +845,11 @@ msgstr "开始同步"
 msgid "Disallow access to this site"
 msgstr "禁止访问此网站"
 
-#: ../data/ToolbarEnd.ui:146
+#: ../data/ToolbarEnd.ui:112
 msgid "Startup page"
 msgstr "启动页"
 
-#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:130
 msgid "Save page"
 msgstr "保存页面"
 
@@ -969,31 +869,35 @@ msgstr "缩小"
 msgid "Zoom in"
 msgstr "放大"
 
-#: ../data/ToolbarMenu.ui:284
+#: ../data/ToolbarMenu.ui:232
 msgid "Filtering"
 msgstr "过滤中"
 
-#: ../data/ToolbarMenu.ui:343
-msgid "_Preferences"
-msgstr "首选项(_P)"
+#: ../data/ToolbarMenu.ui:291
+msgid "Show ads"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:366
-msgid "_Sidebar"
-msgstr "侧边栏(_S)"
+#: ../data/ToolbarMenu.ui:304
+msgid "Show popups"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:379
-msgid "_Keyboard Shortcuts"
-msgstr "键盘快捷键(_K)"
+#: ../data/ToolbarMenu.ui:317
+msgid "Show images"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:392
-msgid "_About"
-msgstr "关于(_A)"
+#: ../data/ToolbarMenu.ui:330
+msgid "Show medias"
+msgstr ""
 
-#: ../eolie/application.py:715
+#: ../data/ToolbarMenu.ui:396
+msgid "Run scripts"
+msgstr ""
+
+#: ../eolie/application.py:692
 msgid "Do you really want to quit Eolie?"
 msgstr "您确定要退出 Eolie 吗？"
 
-#: ../eolie/application.py:768
+#: ../eolie/application.py:745
 msgid "Downloads running, are you sure you want quit?"
 msgstr "用运行中的下载任务，您确定要退出？"
 
@@ -1057,6 +961,38 @@ msgstr "导入 HTML 书签"
 msgid "New engine"
 msgstr "新建引擎"
 
+#: ../eolie/menu_application.py:42
+msgid "Block ads"
+msgstr "屏蔽广告"
+
+#: ../eolie/menu_application.py:43
+msgid "Block popups"
+msgstr "屏蔽弹窗"
+
+#: ../eolie/menu_application.py:46
+msgid "Block scripts"
+msgstr ""
+
+#: ../eolie/menu_application.py:58
+msgid "Blockers"
+msgstr ""
+
+#: ../eolie/menu_application.py:65
+msgid "_Preferences"
+msgstr "首选项(_P)"
+
+#: ../eolie/menu_application.py:74
+msgid "_Sidebar"
+msgstr "侧边栏(_S)"
+
+#: ../eolie/menu_application.py:79
+msgid "_About"
+msgstr "关于(_A)"
+
+#: ../eolie/menu_application.py:84
+msgid "_Keyboard Shortcuts"
+msgstr "键盘快捷键(_K)"
+
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
 msgstr "已保存的凭据"
@@ -1065,11 +1001,11 @@ msgstr "已保存的凭据"
 msgid "Move to"
 msgstr "移到"
 
-#: ../eolie/menu_pages.py:48
+#: ../eolie/menu_pages.py:41
 msgid "Closed pages"
 msgstr "已关闭的页面"
 
-#: ../eolie/menu_pages.py:49
+#: ../eolie/menu_pages.py:42
 msgid "Open all pages"
 msgstr "打开所有页面"
 
@@ -1081,25 +1017,17 @@ msgstr "修改用户代理"
 msgid "Close site"
 msgstr "关闭网站"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:47
 msgid "Enter fullscreen"
 msgstr "进入全屏"
 
-#: ../eolie/menu_videos.py:79
-msgid "No videos"
-msgstr "无视频"
-
-#: ../eolie/pages_manager_child.py:161
+#: ../eolie/pages_manager_child.py:158
 msgid "Unpin this page"
 msgstr ""
 
-#: ../eolie/pages_manager_child.py:164
+#: ../eolie/pages_manager_child.py:161
 msgid "Pin this page"
 msgstr ""
-
-#: ../eolie/popover_credentials.py:59
-msgid "Do you want to modify this password?"
-msgstr "您确定要修改此密码吗？"
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
@@ -1159,55 +1087,55 @@ msgstr "允许此页面访问您的位置信息？"
 msgid "Continue"
 msgstr "继续"
 
-#: ../eolie/popover_uri.py:131
+#: ../eolie/popover_uri.py:128
 msgid "Delete page from history"
 msgstr "从历史删除页面"
 
-#: ../eolie/popover_uri.py:143
+#: ../eolie/popover_uri.py:140
 msgid "Edit bookmark"
 msgstr "编辑书签"
 
-#: ../eolie/popover_uri.py:160
+#: ../eolie/popover_uri.py:157
 msgid "Open all pages with this tag"
 msgstr "以此标签打开所有页面"
 
-#: ../eolie/popover_uri.py:793
+#: ../eolie/popover_uri.py:779
 msgid "Popular"
 msgstr "热门"
 
-#: ../eolie/popover_uri.py:796
+#: ../eolie/popover_uri.py:782
 msgid "Recent"
 msgstr "最近"
 
-#: ../eolie/popover_uri.py:798
+#: ../eolie/popover_uri.py:784
 msgid "Unclassified"
 msgstr "未分类"
 
-#: ../eolie/popover_uri.py:821
+#: ../eolie/popover_uri.py:807
 msgid "From the past hour"
 msgstr "一小时内"
 
-#: ../eolie/popover_uri.py:822
+#: ../eolie/popover_uri.py:808
 msgid "From the past day"
 msgstr "一天内"
 
-#: ../eolie/popover_uri.py:823
+#: ../eolie/popover_uri.py:809
 msgid "From the past week"
 msgstr "上周内"
 
-#: ../eolie/popover_uri.py:825
+#: ../eolie/popover_uri.py:811
 msgid "From the past four weeks"
 msgstr "四周内"
 
-#: ../eolie/popover_uri.py:826
+#: ../eolie/popover_uri.py:812
 msgid "From selected day"
 msgstr "所选日"
 
-#: ../eolie/popover_uri.py:827
+#: ../eolie/popover_uri.py:813
 msgid "From the beginning"
 msgstr "全部"
 
-#: ../eolie/popover_uri.py:1095
+#: ../eolie/popover_uri.py:1067
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s 书签"
@@ -1237,31 +1165,31 @@ msgstr ""
 msgid "Unsupported search engine"
 msgstr "不支持的搜索引擎"
 
-#: ../eolie/settings.py:473
+#: ../eolie/settings.py:474
 msgid "Connecting…"
 msgstr "连接中……"
 
-#: ../eolie/settings.py:508
+#: ../eolie/settings.py:524
 msgid "Syncing operational"
 msgstr "可以同步"
 
-#: ../eolie/settings.py:514
+#: ../eolie/settings.py:530
 msgid "Cancel syncing"
 msgstr "取消同步"
 
-#: ../eolie/settings.py:519
+#: ../eolie/settings.py:535
 msgid "Start syncing"
 msgstr "开始同步"
 
-#: ../eolie/settings.py:524
+#: ../eolie/settings.py:540
 msgid "Allow syncing"
 msgstr "允许同步"
 
-#: ../eolie/settings.py:529
+#: ../eolie/settings.py:545
 msgid "Syncing is not working"
 msgstr "同步未在工作"
 
-#: ../eolie/settings.py:540
+#: ../eolie/settings.py:556
 #, python-format
 msgid ""
 "Syncing is not available on your computer:\n"
@@ -1270,19 +1198,19 @@ msgstr ""
 "同步在您的电脑上不可用：\n"
 "%s"
 
-#: ../eolie/settings.py:564
+#: ../eolie/settings.py:580
 msgid "You've received an email to validate syncing"
 msgstr "您已经收到一封用来验证同步的邮件"
 
-#: ../eolie/toolbar_end.py:100
+#: ../eolie/toolbar_end.py:98
 msgid "Downloading:"
 msgstr "下载中："
 
-#: ../eolie/toolbar_title.py:276
+#: ../eolie/toolbar_title.py:279
 msgid "This page contains insecure content"
 msgstr "此页面包含不安全的内容"
 
-#: ../eolie/toolbar_title.py:330
+#: ../eolie/toolbar_title.py:333
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1292,23 +1220,20 @@ msgstr ""
 "如果您输入您的密码，\n"
 "它可被网络犯罪份子看到！"
 
-#: ../eolie/toolbar_title.py:379
+#: ../eolie/toolbar_title.py:367
+#, python-format
+msgid "Save password for: %s"
+msgstr ""
+
+#: ../eolie/toolbar_title.py:390
 msgid "Deny geolocation"
 msgstr "拒绝提供地理位置"
 
-#: ../eolie/toolbar_title.py:385
-msgid "Blocked popups"
-msgstr "已屏蔽的弹窗"
-
-#: ../eolie/toolbar_title.py:445
-msgid "Copy address"
-msgstr "复制地址"
-
-#: ../eolie/toolbar_title.py:506
+#: ../eolie/toolbar_title.py:514
 msgid "Paste and load"
 msgstr "粘贴并载入"
 
-#: ../eolie/toolbar_title.py:756 ../eolie/toolbar_title.py:759
+#: ../eolie/toolbar_title.py:762 ../eolie/toolbar_title.py:765
 msgid "Search or enter address"
 msgstr "搜索或输入地址"
 
@@ -1441,11 +1366,7 @@ msgstr "在新窗口打开链接"
 msgid "Search on the Web"
 msgstr "搜索互联网"
 
-#: ../eolie/webview_signals_menu.py:143
-msgid "Save videos"
-msgstr "保存视频"
-
-#: ../eolie/webview_signals_menu.py:153
+#: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
 msgstr "保存页面为图像"
 
@@ -1468,6 +1389,101 @@ msgstr "搜索下个出现位置"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 / 1000 个匹配项"
+
+#~ msgid "Block all unwanted popups"
+#~ msgstr "屏蔽所有多余的弹窗"
+
+#~ msgid "Block all images"
+#~ msgstr "屏蔽所有图像"
+
+#~ msgid "Block all JavaScript"
+#~ msgstr "屏蔽所有 JavaScript"
+
+#~ msgid "Do not filter current website content"
+#~ msgstr "不要过滤当前网站内容"
+
+#~ msgctxt "Trust web sites"
+#~ msgid "Trust web sites"
+#~ msgstr "信任网站"
+
+#~ msgid "Enable adblocking"
+#~ msgstr "启用广告屏蔽"
+
+#~ msgctxt "Adblock"
+#~ msgid "Enabled"
+#~ msgstr "已启用"
+
+#~ msgid "By default"
+#~ msgstr "按默认"
+
+#~ msgid "Do not block ads on this site"
+#~ msgstr "不要屏蔽此网站的广告"
+
+#~ msgid "Not on this site"
+#~ msgstr "不在此网站"
+
+#~ msgid "Do not block ads on this page"
+#~ msgstr "不要屏蔽此页面的广告"
+
+#~ msgid "Not on this page"
+#~ msgstr "不在此页面"
+
+#~ msgctxt "popup"
+#~ msgid "Enabled"
+#~ msgstr "已启用"
+
+#~ msgid "Enable image blocking"
+#~ msgstr "启用图像屏蔽"
+
+#~ msgid "Do not block images on this site"
+#~ msgstr "不要屏蔽此网站的图像"
+
+#~ msgid "Do not block images on this page"
+#~ msgstr "不要屏蔽此页面的图像"
+
+#~ msgctxt "Trust web sites"
+#~ msgid "Trust websites"
+#~ msgstr "信任网站"
+
+#~ msgid "JavaScript blocker"
+#~ msgstr "JavaScript 屏蔽器"
+
+#~ msgid "Enable JavaScript blocking"
+#~ msgstr "启用 JavaScript 屏蔽"
+
+#~ msgctxt "Trust web sites"
+#~ msgid "Enabled"
+#~ msgstr "已启用"
+
+#~ msgid "Sync bookmarks"
+#~ msgstr "同步书签"
+
+#~ msgid "Enable popup blocking"
+#~ msgstr "启用弹窗屏蔽"
+
+#~ msgid "Do not block popups on this site"
+#~ msgstr "不要屏蔽此网站的弹窗"
+
+#~ msgid "Do not block popups on this page"
+#~ msgstr "不要屏蔽此页面的弹窗"
+
+#~ msgid "More actions"
+#~ msgstr "更多操作"
+
+#~ msgid "No videos"
+#~ msgstr "无视频"
+
+#~ msgid "Do you want to modify this password?"
+#~ msgstr "您确定要修改此密码吗？"
+
+#~ msgid "Blocked popups"
+#~ msgstr "已屏蔽的弹窗"
+
+#~ msgid "Copy address"
+#~ msgstr "复制地址"
+
+#~ msgid "Save videos"
+#~ msgstr "保存视频"
 
 #~ msgid "Allow user to donate to the project"
 #~ msgstr "允许用户向项目捐赠"

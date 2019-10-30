@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 14:09+0200\n"
+"POT-Creation-Date: 2019-10-30 18:00+0100\n"
 "PO-Revision-Date: 2019-04-19 19:01+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
@@ -35,120 +35,124 @@ msgid "Block ads on pages"
 msgstr "Advertenties blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
+msgid "Block unwanted popups"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
+msgid "Block images"
+msgstr "Afbeeldingen blokkeren"
+
+#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
+msgid "Block medias"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
+msgid "Block JavaScript"
+msgstr "JavaScript blokkeren"
+
+#: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Trust websites: No adblocking of internal URIs"
 msgstr "Websites vertrouwen: geen advertenties blokkeren op interne URI's"
 
-#: ../data/org.gnome.Eolie.gschema.xml:49
+#: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Trust websites: No JavaScript blocking of internal URIs"
 msgstr "Websites vertrouwen: geen JavaScript blokkeren op interne URI's"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr "Vloeiend schuiven inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:59
-msgid "Block all unwanted popups"
-msgstr "Alle ongewenste pop-upvensters blokkeren"
-
-#: ../data/org.gnome.Eolie.gschema.xml:64
-msgid "Block all images"
-msgstr "Alle afbeeldingen blokkeren"
-
-#: ../data/org.gnome.Eolie.gschema.xml:69
-msgid "Block all JavaScript"
-msgstr "Alle JavaScript blokkeren"
-
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Download folder URI"
 msgstr "Map-URI downloaden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Open finished downloads"
 msgstr "Voltooide downloads openen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Web search engine"
 msgstr "Zoekmachine"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Remember sessions"
 msgstr "Sessies onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:650
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "Wachtwoorden onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:304
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Hulpprogramma’s voor ontwikkelaars inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:160
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Plug-ins inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:378
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "Systeemlettertypen gebruiken"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:407
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:422
 msgid "Sans serif font"
 msgstr "Schreefloos"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:419
+#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "Met schreef"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:431
+#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:446
 msgid "Monospace font"
 msgstr "Niet-proportioneel"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Open this page on startup"
 msgstr "Deze pagina openen bij opstarten"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134
+#: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Minimum sidebar position"
 msgstr "Minimale zijbalkpositie"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:493
+#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
 msgstr "Minimale lettergrootte"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144
+#: ../data/org.gnome.Eolie.gschema.xml:149
 msgid "Popular items shown"
 msgstr "Weergegeven populaire items"
 
-#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:519
+#: ../data/org.gnome.Eolie.gschema.xml:154 ../data/SettingsDialog.ui:534
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Standaard zoomniveau"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154
+#: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "Cookies storage type"
 msgstr "Cookie-opslagtype"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159
+#: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "History storage type"
 msgstr "Geschiedenisopslagtype"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:616
+#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:631
 msgid "Tell websites I do not want to be tracked"
 msgstr "Aan websites melden dat ik niet gevolgd wil worden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169
+#: ../data/org.gnome.Eolie.gschema.xml:174
 msgid "DNS prediction"
 msgstr "DNS-voorspelling"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:860
+#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/SettingsDialog.ui:875
 msgid "Autoplay videos"
 msgstr "Video's automatisch afspelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:179
+#: ../data/org.gnome.Eolie.gschema.xml:184
 msgid "Enable search suggestions"
 msgstr "Zoeksuggesties inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/LanguagesMenu.ui:59
-#: ../data/LanguagesMenu.ui:76
+#: ../data/org.gnome.Eolie.gschema.xml:189 ../data/LanguagesMenu.ui:63
+#: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Spellingscontrole inschakelen"
 
@@ -198,6 +202,10 @@ msgstr "Webbrowser"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie is een webbrowser voor Gnome."
 
+#: ../data/org.gnome.Eolie.appdata.xml.in:17
+msgid "Bug Fixes"
+msgstr ""
+
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
 msgstr "org.gnome.Eolie"
@@ -206,61 +214,9 @@ msgstr "org.gnome.Eolie"
 msgid "New window"
 msgstr "Nieuw venster"
 
-#: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_pages.py:44
+#: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_application.py:37
 msgid "New private page"
 msgstr "Nieuw privétabblad"
-
-#: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
-msgid "Do not filter current website content"
-msgstr "Huidige website-inhoud niet filteren"
-
-#: ../data/AdblockMenu.ui:15
-msgctxt "Trust web sites"
-msgid "Trust web sites"
-msgstr "Vertrouwde websites"
-
-#: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:228
-msgid "Block ads"
-msgstr "Advertenties blokkeren"
-
-#: ../data/AdblockMenu.ui:47 ../data/ImageBlockMenu.ui:33
-#: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
-#: ../data/ScriptsMenu.ui:109
-msgid "Block policy"
-msgstr "Blokkeerbeleid"
-
-#: ../data/AdblockMenu.ui:93
-msgid "Enable adblocking"
-msgstr "Advertentieblokkering inschakelen"
-
-#: ../data/AdblockMenu.ui:94
-msgctxt "Adblock"
-msgid "Enabled"
-msgstr "Ingeschakeld"
-
-#: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
-#: ../data/PopupBlockMenu.ui:93
-msgid "By default"
-msgstr "Standaard"
-
-#: ../data/AdblockMenu.ui:123
-msgid "Do not block ads on this site"
-msgstr "Geen advertenties blokkeren op deze site"
-
-#: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
-#: ../data/PopupBlockMenu.ui:108
-msgid "Not on this site"
-msgstr "Niet op deze site"
-
-#: ../data/AdblockMenu.ui:137
-msgid "Do not block ads on this page"
-msgstr "Geen advertenties blokkeren op deze pagina"
-
-#: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
-#: ../data/PopupBlockMenu.ui:124
-msgid "Not on this page"
-msgstr "Niet op deze pagina"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -286,8 +242,8 @@ msgstr "Persoonlijke gegevens wissen"
 msgid "C_lear"
 msgstr "Wiss_en"
 
-#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
-#: ../data/SettingsDialog.ui:117
+#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:201
+#: ../data/SettingsDialog.ui:132
 msgid "Search"
 msgstr "Zoeken"
 
@@ -358,8 +314,8 @@ msgstr "Cookies verwijderen"
 msgid "Import bookmarks from:"
 msgstr "Bladwijzers importeren uit:"
 
-#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:192
-#: ../eolie/popover_uri.py:460
+#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:145
+#: ../eolie/popover_uri.py:454
 msgid "Import bookmarks"
 msgstr "Bladwijzers importeren"
 
@@ -407,47 +363,7 @@ msgstr ""
 "zoekadres te bepalen, en controleer het adres van de pagina waarop u "
 "terechtkomt. Verwijder de zoekterm uit dit adres en vervang deze door ‘%s’."
 
-#: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:267
-msgid "Block images"
-msgstr "Afbeeldingen blokkeren"
-
-#: ../data/ImageBlockMenu.ui:79 ../data/PopupBlockMenu.ui:79
-msgctxt "popup"
-msgid "Enabled"
-msgstr "Ingeschakeld"
-
-#: ../data/ImageBlockMenu.ui:80
-msgid "Enable image blocking"
-msgstr "Afbeeldingsblokkering inschakelen"
-
-#: ../data/ImageBlockMenu.ui:110
-msgid "Do not block images on this site"
-msgstr "Geen afbeeldingen blokkeren op deze site"
-
-#: ../data/ImageBlockMenu.ui:125
-msgid "Do not block images on this page"
-msgstr "Geen afbeeldingen blokkeren op deze pagina"
-
-#: ../data/JSBlockMenu.ui:15
-msgctxt "Trust web sites"
-msgid "Trust websites"
-msgstr "Websites vertrouwen"
-
-#: ../data/JSBlockMenu.ui:28
-msgid "JavaScript blocker"
-msgstr "JavaScript-blokkering"
-
-#: ../data/JSBlockMenu.ui:92
-msgid "Enable JavaScript blocking"
-msgstr "JavaScript-blokkering inschakelen"
-
-#: ../data/JSBlockMenu.ui:94
-msgctxt "Trust web sites"
-msgid "Enabled"
-msgstr "Ingeschakeld"
-
-#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:277
 msgid "Spell checking"
 msgstr "Spellingscontrole"
 
@@ -459,9 +375,17 @@ msgstr "Alle cookies verwijderen"
 msgid "Do you want to save this password?"
 msgstr "Wilt u dit wachtwoord opslaan?"
 
-#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:135
+#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:133
 msgid "Save"
 msgstr "Opslaan"
+
+#: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
+#: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
+#: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
+#: ../eolie/popover_uri.py:422 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:149
+msgid "Cancel"
+msgstr "Annuleren"
 
 #: ../data/PopoverDownloads.ui:53
 msgid "Open download folder"
@@ -479,18 +403,11 @@ msgstr "Geen downloads actief"
 msgid "OK"
 msgstr "Oké"
 
-#: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
-#: ../data/QuitDialog.ui:22 ../eolie/dialog_import_bookmarks.py:90
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:425
-#: ../eolie/toolbar_end.py:136 ../eolie/webview_signals.py:149
-msgid "Cancel"
-msgstr "Annuleren"
-
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:822
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:837
 msgid "Forever"
 msgstr "Eeuwig"
 
-#: ../data/PopoverImages.ui:72 ../eolie/webview_signals_menu.py:133
+#: ../data/PopoverImages.ui:72
 msgid "Save images"
 msgstr "Afbeeldingen opslaan"
 
@@ -502,38 +419,17 @@ msgstr "Koppelingen tonen"
 msgid "Remove all passwords"
 msgstr "Alle wachtwoorden verwijderen"
 
-#: ../data/PopoverUri.ui:157
-msgid "Sync bookmarks"
-msgstr "Bladwijzers synchroniseren"
-
-#: ../data/PopoverUri.ui:217
+#: ../data/PopoverUri.ui:173
 msgid "Bookmarks"
 msgstr "Bladwijzers"
 
-#: ../data/PopoverUri.ui:355
+#: ../data/PopoverUri.ui:311
 msgid "Clear history"
 msgstr "Geschiedenis wissen"
 
-#: ../data/PopoverUri.ui:379
+#: ../data/PopoverUri.ui:335
 msgid "History"
 msgstr "Geschiedenis"
-
-#: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:254
-msgid "Block popups"
-msgstr "Pop-ups blokkeren"
-
-#: ../data/PopupBlockMenu.ui:80
-msgid "Enable popup blocking"
-msgstr "Pop-upblokkering inschakelen"
-
-#: ../data/PopupBlockMenu.ui:110
-msgid "Do not block popups on this site"
-msgstr "Geen pop-upvensters blokkeren op deze site"
-
-#: ../data/PopupBlockMenu.ui:125
-msgid "Do not block popups on this page"
-msgstr "Geen pop-upvensters blokkeren op deze pagina"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -543,180 +439,180 @@ msgstr "Sluiten"
 msgid "Cancel download"
 msgstr "Download annuleren"
 
-#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
-msgid "Block JavaScript"
-msgstr "JavaScript blokkeren"
-
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
 msgstr "JavaScript-blokkering inschakelen"
+
+#: ../data/ScriptsMenu.ui:109
+msgid "Block policy"
+msgstr "Blokkeerbeleid"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
 msgstr "Vertrouwde websites"
 
-#: ../data/SettingsDialog.ui:25 ../eolie/settings.py:67 ../eolie/settings.py:70
+#: ../data/SettingsDialog.ui:40 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
+#: ../data/SettingsDialog.ui:72 ../data/ToolbarEnd.ui:127
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Downloads"
 
-#: ../data/SettingsDialog.ui:74
+#: ../data/SettingsDialog.ui:89
 msgid "Download folder:"
 msgstr "Downloadmap:"
 
-#: ../data/SettingsDialog.ui:86
+#: ../data/SettingsDialog.ui:101
 msgid "Select download folder"
 msgstr "Selecteer downloadmap"
 
-#: ../data/SettingsDialog.ui:96
+#: ../data/SettingsDialog.ui:111
 msgid "Automatically open downloaded files"
 msgstr "Gedownloade bestanden automatisch openen"
 
-#: ../data/SettingsDialog.ui:134
+#: ../data/SettingsDialog.ui:149
 msgid "Search engines:"
 msgstr "Zoekmachines:"
 
-#: ../data/SettingsDialog.ui:147 ../eolie/dialog_import_bookmarks.py:46
+#: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "Andere"
 
-#: ../data/SettingsDialog.ui:181
+#: ../data/SettingsDialog.ui:196
 msgid "Startup"
 msgstr "Opstarten"
 
-#: ../data/SettingsDialog.ui:198
+#: ../data/SettingsDialog.ui:213
 msgid "Start Page:"
 msgstr "Startpagina:"
 
-#: ../data/SettingsDialog.ui:210
+#: ../data/SettingsDialog.ui:225
 msgid "Search engine"
 msgstr "Zoekmachine"
 
-#: ../data/SettingsDialog.ui:211 ../eolie/context.py:86
+#: ../data/SettingsDialog.ui:226 ../eolie/context.py:86
 msgid "Popular pages"
 msgstr "Populaire pagina’s"
 
-#: ../data/SettingsDialog.ui:212
+#: ../data/SettingsDialog.ui:227
 msgid "Popular bookmarks"
 msgstr "Populaire bladwijzers"
 
-#: ../data/SettingsDialog.ui:213
+#: ../data/SettingsDialog.ui:228
 msgid "Blank page"
 msgstr "Blanco pagina"
 
-#: ../data/SettingsDialog.ui:214
+#: ../data/SettingsDialog.ui:229
 msgid "Set address"
 msgstr "Stel adres in"
 
-#: ../data/SettingsDialog.ui:236
+#: ../data/SettingsDialog.ui:251
 msgid "Remember previous pages on startup"
 msgstr "Vorige tabbladen onthouden bij opstarten"
 
-#: ../data/SettingsDialog.ui:253
+#: ../data/SettingsDialog.ui:268
 msgid "Configure engines"
 msgstr "Zoekmachines configureren"
 
-#: ../data/SettingsDialog.ui:274
+#: ../data/SettingsDialog.ui:289
 msgid "Shown bookmarks"
 msgstr "Getoonde bladwijzers"
 
-#: ../data/SettingsDialog.ui:318
+#: ../data/SettingsDialog.ui:333
 msgid "Add suggestions"
 msgstr "Suggesties inschakelen"
 
-#: ../data/SettingsDialog.ui:342
+#: ../data/SettingsDialog.ui:357
 msgid "General"
 msgstr "Algemeen"
 
-#: ../data/SettingsDialog.ui:365
+#: ../data/SettingsDialog.ui:380
 msgid "Fonts"
 msgstr "Lettertypen"
 
-#: ../data/SettingsDialog.ui:563
+#: ../data/SettingsDialog.ui:578
 msgid "Appearance"
 msgstr "Uiterlijk"
 
-#: ../data/SettingsDialog.ui:587 ../eolie/dialog_clear_data.py:196
+#: ../data/SettingsDialog.ui:602 ../eolie/dialog_clear_data.py:196
 msgid "Cookies"
 msgstr "Cookies"
 
-#: ../data/SettingsDialog.ui:603
+#: ../data/SettingsDialog.ui:618
 msgid "Tracking"
 msgstr "Volgen"
 
-#: ../data/SettingsDialog.ui:638
+#: ../data/SettingsDialog.ui:653
 msgid "Passwords"
 msgstr "Wachtwoorden"
 
-#: ../data/SettingsDialog.ui:671
+#: ../data/SettingsDialog.ui:686
 msgid "Saved data"
 msgstr "Opgeslagen gegevens"
 
-#: ../data/SettingsDialog.ui:694
+#: ../data/SettingsDialog.ui:709
 msgid "Behaviour:"
 msgstr "Gedrag:"
 
-#: ../data/SettingsDialog.ui:709
+#: ../data/SettingsDialog.ui:724
 msgid "Always accept"
 msgstr "Altijd aanvaarden"
 
-#: ../data/SettingsDialog.ui:710
+#: ../data/SettingsDialog.ui:725
 msgid "Only from visited sites"
 msgstr "Alleen van bezochte websites"
 
-#: ../data/SettingsDialog.ui:711
+#: ../data/SettingsDialog.ui:726
 msgid "Never accept"
 msgstr "Nooit aanvaarden"
 
-#: ../data/SettingsDialog.ui:730
+#: ../data/SettingsDialog.ui:745
 msgid "Manage cookies"
 msgstr "Cookies beheren"
 
-#: ../data/SettingsDialog.ui:747
+#: ../data/SettingsDialog.ui:762
 msgid "Clear personal data"
 msgstr "Persoonlijke gegevens wissen"
 
-#: ../data/SettingsDialog.ui:769
+#: ../data/SettingsDialog.ui:784
 msgid "Manage passwords"
 msgstr "Wachtwoorden beheren"
 
-#: ../data/SettingsDialog.ui:803
+#: ../data/SettingsDialog.ui:818
 msgid "Keep history:"
 msgstr "Geschiedenis bijhouden:"
 
-#: ../data/SettingsDialog.ui:818
+#: ../data/SettingsDialog.ui:833
 msgid "One day"
 msgstr "Een dag"
 
-#: ../data/SettingsDialog.ui:819
+#: ../data/SettingsDialog.ui:834
 msgid "One week"
 msgstr "Een week"
 
-#: ../data/SettingsDialog.ui:820
+#: ../data/SettingsDialog.ui:835
 msgid "Four weeks"
 msgstr "Vier weken"
 
-#: ../data/SettingsDialog.ui:821
+#: ../data/SettingsDialog.ui:836
 msgid "A year"
 msgstr "Een jaar"
 
-#: ../data/SettingsDialog.ui:823
+#: ../data/SettingsDialog.ui:838
 msgid "Do not keep"
 msgstr "Niet bijhouden"
 
-#: ../data/SettingsDialog.ui:842
+#: ../data/SettingsDialog.ui:857
 msgid "Predict websites address"
 msgstr "Website-adressen voorspellen"
 
-#: ../data/SettingsDialog.ui:890
+#: ../data/SettingsDialog.ui:905
 msgid "Privacy"
 msgstr "Privacy"
 
-#: ../data/SettingsDialog.ui:912
+#: ../data/SettingsDialog.ui:927
 msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
@@ -724,31 +620,39 @@ msgstr ""
 "Je kunt je bladwijzers en geschiedenis delen\n"
 "met alle apparaten die Eolie of Firefox draaien"
 
-#: ../data/SettingsDialog.ui:929
+#: ../data/SettingsDialog.ui:944
 msgid "Login :"
 msgstr "Inlognaam:"
 
-#: ../data/SettingsDialog.ui:951
+#: ../data/SettingsDialog.ui:966
 msgid "Password :"
 msgstr "Wachtwoord:"
 
-#: ../data/SettingsDialog.ui:972
+#: ../data/SettingsDialog.ui:987
 msgid "Allow synchronization"
 msgstr "Synchronisatie toestaan"
 
-#: ../data/SettingsDialog.ui:1009
+#: ../data/SettingsDialog.ui:1025
 msgid "Create or manage account"
 msgstr "Account aanmaken of beheren"
 
-#: ../data/SettingsDialog.ui:1028
+#: ../data/SettingsDialog.ui:1044
 msgid "Code :"
 msgstr "Code:"
 
-#: ../data/SettingsDialog.ui:1039 ../data/SettingsDialog.ui:1040
+#: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
 msgid "You need to enable Two Factor Authentication"
 msgstr "Je moet authenticatie in twee stappen inschakelen"
 
-#: ../data/SettingsDialog.ui:1059
+#: ../data/SettingsDialog.ui:1073
+msgid "Pull from Firefox sync"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1088
+msgid "Push to Firefox sync"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1116
 msgid "Syncing"
 msgstr "Synchronisatie"
 
@@ -932,12 +836,8 @@ msgstr "Alle tabbladen weergeven"
 msgid "Close page"
 msgstr "Tabblad sluiten"
 
-#: ../data/ToolbarActions.ui:183
-msgid "More actions"
-msgstr "Meer acties"
-
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../eolie/menu_toolbar.py:45
 msgid "Leave fullscreen"
 msgstr "Volledig scherm verlaten"
 
@@ -949,11 +849,11 @@ msgstr "Synchronisatie starten"
 msgid "Disallow access to this site"
 msgstr "Toegang tot deze site blokkeren"
 
-#: ../data/ToolbarEnd.ui:146
+#: ../data/ToolbarEnd.ui:112
 msgid "Startup page"
 msgstr "Startpagina"
 
-#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:130
 msgid "Save page"
 msgstr "Pagina opslaan"
 
@@ -973,31 +873,35 @@ msgstr "Uitzoomen"
 msgid "Zoom in"
 msgstr "Inzoomen"
 
-#: ../data/ToolbarMenu.ui:284
+#: ../data/ToolbarMenu.ui:232
 msgid "Filtering"
 msgstr "Filters"
 
-#: ../data/ToolbarMenu.ui:343
-msgid "_Preferences"
-msgstr "_Voorkeuren"
+#: ../data/ToolbarMenu.ui:291
+msgid "Show ads"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:366
-msgid "_Sidebar"
-msgstr "_Zijbalk"
+#: ../data/ToolbarMenu.ui:304
+msgid "Show popups"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:379
-msgid "_Keyboard Shortcuts"
-msgstr "_Sneltoetsen"
+#: ../data/ToolbarMenu.ui:317
+msgid "Show images"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:392
-msgid "_About"
-msgstr "_Over"
+#: ../data/ToolbarMenu.ui:330
+msgid "Show medias"
+msgstr ""
 
-#: ../eolie/application.py:715
+#: ../data/ToolbarMenu.ui:396
+msgid "Run scripts"
+msgstr ""
+
+#: ../eolie/application.py:692
 msgid "Do you really want to quit Eolie?"
 msgstr "Weet u zeker dat u Eolie wilt afsluiten?"
 
-#: ../eolie/application.py:768
+#: ../eolie/application.py:745
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 "Er worden nog bestanden gedownload. Weet je zeker dat je wilt afsluiten?"
@@ -1062,6 +966,38 @@ msgstr "HTML-bladwijzers importeren"
 msgid "New engine"
 msgstr "Nieuwe zoekmachine"
 
+#: ../eolie/menu_application.py:42
+msgid "Block ads"
+msgstr "Advertenties blokkeren"
+
+#: ../eolie/menu_application.py:43
+msgid "Block popups"
+msgstr "Pop-ups blokkeren"
+
+#: ../eolie/menu_application.py:46
+msgid "Block scripts"
+msgstr ""
+
+#: ../eolie/menu_application.py:58
+msgid "Blockers"
+msgstr ""
+
+#: ../eolie/menu_application.py:65
+msgid "_Preferences"
+msgstr "_Voorkeuren"
+
+#: ../eolie/menu_application.py:74
+msgid "_Sidebar"
+msgstr "_Zijbalk"
+
+#: ../eolie/menu_application.py:79
+msgid "_About"
+msgstr "_Over"
+
+#: ../eolie/menu_application.py:84
+msgid "_Keyboard Shortcuts"
+msgstr "_Sneltoetsen"
+
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
 msgstr "Opgeslagen gebruikersreferenties"
@@ -1070,11 +1006,11 @@ msgstr "Opgeslagen gebruikersreferenties"
 msgid "Move to"
 msgstr "Verplaatsen naar"
 
-#: ../eolie/menu_pages.py:48
+#: ../eolie/menu_pages.py:41
 msgid "Closed pages"
 msgstr "Gesloten tabbladen"
 
-#: ../eolie/menu_pages.py:49
+#: ../eolie/menu_pages.py:42
 msgid "Open all pages"
 msgstr "Alle pagina’s openen"
 
@@ -1086,25 +1022,17 @@ msgstr "Gebruikersagent wijzigen"
 msgid "Close site"
 msgstr "Site sluiten"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:47
 msgid "Enter fullscreen"
 msgstr "Volledig scherm"
 
-#: ../eolie/menu_videos.py:79
-msgid "No videos"
-msgstr "Geen video’s"
-
-#: ../eolie/pages_manager_child.py:161
+#: ../eolie/pages_manager_child.py:158
 msgid "Unpin this page"
 msgstr "Deze pagina losmaken"
 
-#: ../eolie/pages_manager_child.py:164
+#: ../eolie/pages_manager_child.py:161
 msgid "Pin this page"
 msgstr "Deze pagina vastmaken"
-
-#: ../eolie/popover_credentials.py:59
-msgid "Do you want to modify this password?"
-msgstr "Wilt u dit wachtwoord wijzigen?"
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
@@ -1164,55 +1092,55 @@ msgstr "Wil je deze pagina toegang geven tot je locatie?"
 msgid "Continue"
 msgstr "Verdergaan"
 
-#: ../eolie/popover_uri.py:131
+#: ../eolie/popover_uri.py:128
 msgid "Delete page from history"
 msgstr "Pagina verwijderen uit geschiedenis"
 
-#: ../eolie/popover_uri.py:143
+#: ../eolie/popover_uri.py:140
 msgid "Edit bookmark"
 msgstr "Bladwijzer bewerken"
 
-#: ../eolie/popover_uri.py:160
+#: ../eolie/popover_uri.py:157
 msgid "Open all pages with this tag"
 msgstr "Alle pagina's met dit label openen"
 
-#: ../eolie/popover_uri.py:793
+#: ../eolie/popover_uri.py:779
 msgid "Popular"
 msgstr "Populair"
 
-#: ../eolie/popover_uri.py:796
+#: ../eolie/popover_uri.py:782
 msgid "Recent"
 msgstr "Recent"
 
-#: ../eolie/popover_uri.py:798
+#: ../eolie/popover_uri.py:784
 msgid "Unclassified"
 msgstr "Ongeclassificeerd"
 
-#: ../eolie/popover_uri.py:821
+#: ../eolie/popover_uri.py:807
 msgid "From the past hour"
 msgstr "Van het voorbije uur"
 
-#: ../eolie/popover_uri.py:822
+#: ../eolie/popover_uri.py:808
 msgid "From the past day"
 msgstr "Van de voorbije dag"
 
-#: ../eolie/popover_uri.py:823
+#: ../eolie/popover_uri.py:809
 msgid "From the past week"
 msgstr "Van de voorbije week"
 
-#: ../eolie/popover_uri.py:825
+#: ../eolie/popover_uri.py:811
 msgid "From the past four weeks"
 msgstr "Van de voorbije vier weken"
 
-#: ../eolie/popover_uri.py:826
+#: ../eolie/popover_uri.py:812
 msgid "From selected day"
 msgstr "Vanaf een bepaalde dag"
 
-#: ../eolie/popover_uri.py:827
+#: ../eolie/popover_uri.py:813
 msgid "From the beginning"
 msgstr "Vanaf het begin"
 
-#: ../eolie/popover_uri.py:1095
+#: ../eolie/popover_uri.py:1067
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bladwijzers"
@@ -1242,31 +1170,31 @@ msgstr ""
 msgid "Unsupported search engine"
 msgstr "Niet-ondersteunde zoekmachine"
 
-#: ../eolie/settings.py:473
+#: ../eolie/settings.py:474
 msgid "Connecting…"
 msgstr "Verbinding maken…"
 
-#: ../eolie/settings.py:508
+#: ../eolie/settings.py:524
 msgid "Syncing operational"
 msgstr "De synchronisatie draait"
 
-#: ../eolie/settings.py:514
+#: ../eolie/settings.py:530
 msgid "Cancel syncing"
 msgstr "Synchronisatie annuleren"
 
-#: ../eolie/settings.py:519
+#: ../eolie/settings.py:535
 msgid "Start syncing"
 msgstr "Synchronisatie starten"
 
-#: ../eolie/settings.py:524
+#: ../eolie/settings.py:540
 msgid "Allow syncing"
 msgstr "Synchronisatie toestaan"
 
-#: ../eolie/settings.py:529
+#: ../eolie/settings.py:545
 msgid "Syncing is not working"
 msgstr "Synchronisatie werkt niet"
 
-#: ../eolie/settings.py:540
+#: ../eolie/settings.py:556
 #, python-format
 msgid ""
 "Syncing is not available on your computer:\n"
@@ -1275,19 +1203,19 @@ msgstr ""
 "Synchronisatie is niet beschikbaar op je computer:\n"
 "%s"
 
-#: ../eolie/settings.py:564
+#: ../eolie/settings.py:580
 msgid "You've received an email to validate syncing"
 msgstr "Je hebt een e-mail ontvangen over het toestaan van synchronisatie"
 
-#: ../eolie/toolbar_end.py:100
+#: ../eolie/toolbar_end.py:98
 msgid "Downloading:"
 msgstr "Downloaden:"
 
-#: ../eolie/toolbar_title.py:276
+#: ../eolie/toolbar_title.py:279
 msgid "This page contains insecure content"
 msgstr "Deze pagina bevat niet-beveiligde inhoud"
 
-#: ../eolie/toolbar_title.py:330
+#: ../eolie/toolbar_title.py:333
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1297,23 +1225,20 @@ msgstr ""
 "Als je je wachtwoord typt,\n"
 "dan zal het wachtwoord zichtbaar zijn voor cybercriminelen!"
 
-#: ../eolie/toolbar_title.py:379
+#: ../eolie/toolbar_title.py:367
+#, python-format
+msgid "Save password for: %s"
+msgstr ""
+
+#: ../eolie/toolbar_title.py:390
 msgid "Deny geolocation"
 msgstr "Geo-locatie afwijzen"
 
-#: ../eolie/toolbar_title.py:385
-msgid "Blocked popups"
-msgstr "Geblokkeerde pop-ups"
-
-#: ../eolie/toolbar_title.py:445
-msgid "Copy address"
-msgstr "Adres kopiëren"
-
-#: ../eolie/toolbar_title.py:506
+#: ../eolie/toolbar_title.py:514
 msgid "Paste and load"
 msgstr "Plakken en laden"
 
-#: ../eolie/toolbar_title.py:756 ../eolie/toolbar_title.py:759
+#: ../eolie/toolbar_title.py:762 ../eolie/toolbar_title.py:765
 msgid "Search or enter address"
 msgstr "Zoek of voer een adres in"
 
@@ -1448,11 +1373,7 @@ msgstr "Verwijzing openen in een nieuw venster"
 msgid "Search on the Web"
 msgstr "Zoeken op het web"
 
-#: ../eolie/webview_signals_menu.py:143
-msgid "Save videos"
-msgstr "Video’s opslaan"
-
-#: ../eolie/webview_signals_menu.py:153
+#: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
 msgstr "Pagina opslaan als afbeelding"
 
@@ -1475,6 +1396,101 @@ msgstr "Volgende vermelding zoeken"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 van 1000 resultaten"
+
+#~ msgid "Block all unwanted popups"
+#~ msgstr "Alle ongewenste pop-upvensters blokkeren"
+
+#~ msgid "Block all images"
+#~ msgstr "Alle afbeeldingen blokkeren"
+
+#~ msgid "Block all JavaScript"
+#~ msgstr "Alle JavaScript blokkeren"
+
+#~ msgid "Do not filter current website content"
+#~ msgstr "Huidige website-inhoud niet filteren"
+
+#~ msgctxt "Trust web sites"
+#~ msgid "Trust web sites"
+#~ msgstr "Vertrouwde websites"
+
+#~ msgid "Enable adblocking"
+#~ msgstr "Advertentieblokkering inschakelen"
+
+#~ msgctxt "Adblock"
+#~ msgid "Enabled"
+#~ msgstr "Ingeschakeld"
+
+#~ msgid "By default"
+#~ msgstr "Standaard"
+
+#~ msgid "Do not block ads on this site"
+#~ msgstr "Geen advertenties blokkeren op deze site"
+
+#~ msgid "Not on this site"
+#~ msgstr "Niet op deze site"
+
+#~ msgid "Do not block ads on this page"
+#~ msgstr "Geen advertenties blokkeren op deze pagina"
+
+#~ msgid "Not on this page"
+#~ msgstr "Niet op deze pagina"
+
+#~ msgctxt "popup"
+#~ msgid "Enabled"
+#~ msgstr "Ingeschakeld"
+
+#~ msgid "Enable image blocking"
+#~ msgstr "Afbeeldingsblokkering inschakelen"
+
+#~ msgid "Do not block images on this site"
+#~ msgstr "Geen afbeeldingen blokkeren op deze site"
+
+#~ msgid "Do not block images on this page"
+#~ msgstr "Geen afbeeldingen blokkeren op deze pagina"
+
+#~ msgctxt "Trust web sites"
+#~ msgid "Trust websites"
+#~ msgstr "Websites vertrouwen"
+
+#~ msgid "JavaScript blocker"
+#~ msgstr "JavaScript-blokkering"
+
+#~ msgid "Enable JavaScript blocking"
+#~ msgstr "JavaScript-blokkering inschakelen"
+
+#~ msgctxt "Trust web sites"
+#~ msgid "Enabled"
+#~ msgstr "Ingeschakeld"
+
+#~ msgid "Sync bookmarks"
+#~ msgstr "Bladwijzers synchroniseren"
+
+#~ msgid "Enable popup blocking"
+#~ msgstr "Pop-upblokkering inschakelen"
+
+#~ msgid "Do not block popups on this site"
+#~ msgstr "Geen pop-upvensters blokkeren op deze site"
+
+#~ msgid "Do not block popups on this page"
+#~ msgstr "Geen pop-upvensters blokkeren op deze pagina"
+
+#~ msgid "More actions"
+#~ msgstr "Meer acties"
+
+#~ msgid "No videos"
+#~ msgstr "Geen video’s"
+
+#~ msgid "Do you want to modify this password?"
+#~ msgstr "Wilt u dit wachtwoord wijzigen?"
+
+#~ msgid "Blocked popups"
+#~ msgstr "Geblokkeerde pop-ups"
+
+#~ msgid "Copy address"
+#~ msgstr "Adres kopiëren"
+
+#~ msgid "Save videos"
+#~ msgstr "Video’s opslaan"
 
 #~ msgid "Allow user to donate to the project"
 #~ msgstr "Gebruiker toestaan te doneren aan het project"

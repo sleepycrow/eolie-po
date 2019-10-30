@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 14:09+0200\n"
+"POT-Creation-Date: 2019-10-30 18:00+0100\n"
 "PO-Revision-Date: 2018-09-08 15:19+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -40,120 +40,124 @@ msgid "Block ads on pages"
 msgstr "Reklámok blokkolása a lapokon"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
+msgid "Block unwanted popups"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
+msgid "Block images"
+msgstr "Képek blokkolása"
+
+#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
+msgid "Block medias"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
+msgid "Block JavaScript"
+msgstr "JavaScript blokkolása"
+
+#: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Trust websites: No adblocking of internal URIs"
 msgstr "Megbízható weboldalak: nincs reklámblokkolás a belső URI-kon"
 
-#: ../data/org.gnome.Eolie.gschema.xml:49
+#: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Trust websites: No JavaScript blocking of internal URIs"
 msgstr "Megbízható weboldalak: nincs JavaScript blokkolás a belső URI-kon"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:59
-msgid "Block all unwanted popups"
-msgstr "Összes nemkívanatos felugró ablak blokkolása"
-
-#: ../data/org.gnome.Eolie.gschema.xml:64
-msgid "Block all images"
-msgstr "Összes kép blokkolása"
-
-#: ../data/org.gnome.Eolie.gschema.xml:69
-msgid "Block all JavaScript"
-msgstr "Összes JavaScript blokkolása"
-
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Download folder URI"
 msgstr "Letöltési mappa URI"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Open finished downloads"
 msgstr "Befejezett letöltése megnyitása"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Web search engine"
 msgstr "Webes keresőmotor"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Remember sessions"
 msgstr "Munkamenetek megjegyzése"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:650
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "Jelszavak megjegyzése"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:304
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Fejlesztői eszközök engedélyezése"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:160
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Bővítmények engedélyezése"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:378
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "Rendszer betűkészleteinek használata"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:407
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:422
 msgid "Sans serif font"
 msgstr "Talpatlan betűkészlet"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:419
+#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "Talpas betűkészlet"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:431
+#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:446
 msgid "Monospace font"
 msgstr "Rögzített szélességű betűkészlet"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Open this page on startup"
 msgstr "Ezen lap megnyitása indításkor"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134
+#: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Minimum sidebar position"
 msgstr "Oldalsáv minimális pozíciója"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:493
+#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
 msgstr "Betűkészlet minimális mérete"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144
+#: ../data/org.gnome.Eolie.gschema.xml:149
 msgid "Popular items shown"
 msgstr "Megjelenített népszerű elemek"
 
-#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:519
+#: ../data/org.gnome.Eolie.gschema.xml:154 ../data/SettingsDialog.ui:534
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Alapértelmezett nagyítási szint"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154
+#: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "Cookies storage type"
 msgstr "Sütitároló típusa"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159
+#: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "History storage type"
 msgstr "Előzménytároló típusa"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:616
+#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:631
 msgid "Tell websites I do not want to be tracked"
 msgstr "Jelzés a weboldalak felé, hogy nem szeretném, hogy kövessék"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169
+#: ../data/org.gnome.Eolie.gschema.xml:174
 msgid "DNS prediction"
 msgstr "DNS előrejelzés"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:860
+#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/SettingsDialog.ui:875
 msgid "Autoplay videos"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:179
+#: ../data/org.gnome.Eolie.gschema.xml:184
 msgid "Enable search suggestions"
 msgstr "Keresési javaslatok bekapcsolása"
 
-#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/LanguagesMenu.ui:59
-#: ../data/LanguagesMenu.ui:76
+#: ../data/org.gnome.Eolie.gschema.xml:189 ../data/LanguagesMenu.ui:63
+#: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Helyesírás-ellenőrzés bekapcsolása"
 
@@ -201,6 +205,10 @@ msgstr "Webböngésző"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Az Eolie egy új GNOME webböngésző."
 
+#: ../data/org.gnome.Eolie.appdata.xml.in:17
+msgid "Bug Fixes"
+msgstr ""
+
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
 msgstr "org.gnome.Eolie"
@@ -209,61 +217,9 @@ msgstr "org.gnome.Eolie"
 msgid "New window"
 msgstr "Új ablak"
 
-#: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_pages.py:44
+#: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_application.py:37
 msgid "New private page"
 msgstr "Új privát lap"
-
-#: ../data/AdblockMenu.ui:13 ../data/JSBlockMenu.ui:13
-msgid "Do not filter current website content"
-msgstr "Ne szűrje a jelenlegi weboldal tartalmát"
-
-#: ../data/AdblockMenu.ui:15
-msgctxt "Trust web sites"
-msgid "Trust web sites"
-msgstr "Megbízás ezekben a weboldalakban"
-
-#: ../data/AdblockMenu.ui:28 ../data/AdblockMenu.ui:107
-#: ../data/ToolbarMenu.ui:228
-msgid "Block ads"
-msgstr "Reklámok blokkolása"
-
-#: ../data/AdblockMenu.ui:47 ../data/ImageBlockMenu.ui:33
-#: ../data/JSBlockMenu.ui:47 ../data/PopupBlockMenu.ui:33
-#: ../data/ScriptsMenu.ui:109
-msgid "Block policy"
-msgstr "Blokkolási házirend"
-
-#: ../data/AdblockMenu.ui:93
-msgid "Enable adblocking"
-msgstr "Reklámblokkolás engedélyezése"
-
-#: ../data/AdblockMenu.ui:94
-msgctxt "Adblock"
-msgid "Enabled"
-msgstr "Engedélyezve"
-
-#: ../data/AdblockMenu.ui:108 ../data/ImageBlockMenu.ui:93
-#: ../data/PopupBlockMenu.ui:93
-msgid "By default"
-msgstr "Alapértelmezetten"
-
-#: ../data/AdblockMenu.ui:123
-msgid "Do not block ads on this site"
-msgstr "Ne blokkolja a reklámokat ezen az oldalon"
-
-#: ../data/AdblockMenu.ui:124 ../data/ImageBlockMenu.ui:109
-#: ../data/PopupBlockMenu.ui:108
-msgid "Not on this site"
-msgstr "Ezen az oldalon ne"
-
-#: ../data/AdblockMenu.ui:137
-msgid "Do not block ads on this page"
-msgstr "Ne blokkolja a reklámokat ezen a lapon"
-
-#: ../data/AdblockMenu.ui:139 ../data/ImageBlockMenu.ui:124
-#: ../data/PopupBlockMenu.ui:124
-msgid "Not on this page"
-msgstr "Ezen a lapon ne"
 
 #: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -289,8 +245,8 @@ msgstr "Személyes adatok törlése"
 msgid "C_lear"
 msgstr "_Törlés"
 
-#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:245
-#: ../data/SettingsDialog.ui:117
+#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:201
+#: ../data/SettingsDialog.ui:132
 msgid "Search"
 msgstr "Keresés"
 
@@ -360,8 +316,8 @@ msgstr "Sütik törlése"
 msgid "Import bookmarks from:"
 msgstr "Könyvjelzők importálása innen:"
 
-#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:192
-#: ../eolie/popover_uri.py:460
+#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:145
+#: ../eolie/popover_uri.py:454
 msgid "Import bookmarks"
 msgstr "Könyvjelzők importálása"
 
@@ -409,47 +365,7 @@ msgstr ""
 "ellenőrizze a keletkezett címet. Távolítsa el a keresési kifejezést a "
 "címből, és cserélje le erre: %s."
 
-#: ../data/ImageBlockMenu.ui:14 ../data/ImageBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:267
-msgid "Block images"
-msgstr "Képek blokkolása"
-
-#: ../data/ImageBlockMenu.ui:79 ../data/PopupBlockMenu.ui:79
-msgctxt "popup"
-msgid "Enabled"
-msgstr "Bekapcsolva"
-
-#: ../data/ImageBlockMenu.ui:80
-msgid "Enable image blocking"
-msgstr "Képblokkolás bekapcsolása"
-
-#: ../data/ImageBlockMenu.ui:110
-msgid "Do not block images on this site"
-msgstr "Ne blokkolja a képeket ezen az oldalon"
-
-#: ../data/ImageBlockMenu.ui:125
-msgid "Do not block images on this page"
-msgstr "Ne blokkolja a képeket ezen a lapon"
-
-#: ../data/JSBlockMenu.ui:15
-msgctxt "Trust web sites"
-msgid "Trust websites"
-msgstr "Megbízás ezekben a weblapokban"
-
-#: ../data/JSBlockMenu.ui:28
-msgid "JavaScript blocker"
-msgstr "JavaScript blokkoló"
-
-#: ../data/JSBlockMenu.ui:92
-msgid "Enable JavaScript blocking"
-msgstr "JavaScript blokkolás bekapcsolása"
-
-#: ../data/JSBlockMenu.ui:94
-msgctxt "Trust web sites"
-msgid "Enabled"
-msgstr "Bekapcsolva"
-
-#: ../data/LanguagesMenu.ui:16 ../data/ToolbarMenu.ui:329
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:277
 msgid "Spell checking"
 msgstr "Helyesírás-ellenőrzés"
 
@@ -461,9 +377,17 @@ msgstr "Összes süti eltávolítása"
 msgid "Do you want to save this password?"
 msgstr "Menti ezt a jelszót?"
 
-#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:135
+#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:133
 msgid "Save"
 msgstr "Mentés"
+
+#: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
+#: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
+#: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
+#: ../eolie/popover_uri.py:422 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:149
+msgid "Cancel"
+msgstr "Mégse"
 
 #: ../data/PopoverDownloads.ui:53
 msgid "Open download folder"
@@ -481,18 +405,11 @@ msgstr "Nincs aktív letöltés"
 msgid "OK"
 msgstr "OK"
 
-#: ../data/PopoverGeolocation.ui:63 ../data/PopoverJavaScript.ui:72
-#: ../data/QuitDialog.ui:22 ../eolie/dialog_import_bookmarks.py:90
-#: ../eolie/popover_javascript.py:60 ../eolie/popover_uri.py:425
-#: ../eolie/toolbar_end.py:136 ../eolie/webview_signals.py:149
-msgid "Cancel"
-msgstr "Mégse"
-
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:822
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:837
 msgid "Forever"
 msgstr "Örökké"
 
-#: ../data/PopoverImages.ui:72 ../eolie/webview_signals_menu.py:133
+#: ../data/PopoverImages.ui:72
 msgid "Save images"
 msgstr "Képek mentése"
 
@@ -504,38 +421,17 @@ msgstr "Hivatkozások megnyitása"
 msgid "Remove all passwords"
 msgstr "Összes jelzó eltávolítása"
 
-#: ../data/PopoverUri.ui:157
-msgid "Sync bookmarks"
-msgstr "Könyvjelzők szinkronizálása"
-
-#: ../data/PopoverUri.ui:217
+#: ../data/PopoverUri.ui:173
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
-#: ../data/PopoverUri.ui:355
+#: ../data/PopoverUri.ui:311
 msgid "Clear history"
 msgstr "Előzmények törlése"
 
-#: ../data/PopoverUri.ui:379
+#: ../data/PopoverUri.ui:335
 msgid "History"
 msgstr "Előzmények"
-
-#: ../data/PopupBlockMenu.ui:14 ../data/PopupBlockMenu.ui:94
-#: ../data/ToolbarMenu.ui:254
-msgid "Block popups"
-msgstr "Felugró ablakok blokkolása"
-
-#: ../data/PopupBlockMenu.ui:80
-msgid "Enable popup blocking"
-msgstr "Felugró ablakok blokkolásának bekapcsolása"
-
-#: ../data/PopupBlockMenu.ui:110
-msgid "Do not block popups on this site"
-msgstr "Ne blokkolja a felugró ablakokat ezen az oldalon"
-
-#: ../data/PopupBlockMenu.ui:125
-msgid "Do not block popups on this page"
-msgstr "Ne blokkolja a felugró ablakokat ezen a lapon"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
@@ -545,180 +441,180 @@ msgstr "Bezárás"
 msgid "Cancel download"
 msgstr "Letöltés megszakítása"
 
-#: ../data/ScriptsMenu.ui:16 ../data/ToolbarMenu.ui:241
-msgid "Block JavaScript"
-msgstr "JavaScript blokkolása"
-
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
 msgstr "JavaScript blokkoló engedélyezése"
+
+#: ../data/ScriptsMenu.ui:109
+msgid "Block policy"
+msgstr "Blokkolási házirend"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
 msgstr "Megbízás ezekben a weblapokban"
 
-#: ../data/SettingsDialog.ui:25 ../eolie/settings.py:67 ../eolie/settings.py:70
+#: ../data/SettingsDialog.ui:40 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: ../data/SettingsDialog.ui:57 ../data/ToolbarEnd.ui:112
+#: ../data/SettingsDialog.ui:72 ../data/ToolbarEnd.ui:127
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Letöltések"
 
-#: ../data/SettingsDialog.ui:74
+#: ../data/SettingsDialog.ui:89
 msgid "Download folder:"
 msgstr "Letöltési mappa:"
 
-#: ../data/SettingsDialog.ui:86
+#: ../data/SettingsDialog.ui:101
 msgid "Select download folder"
 msgstr "Válasszon letöltési mappát"
 
-#: ../data/SettingsDialog.ui:96
+#: ../data/SettingsDialog.ui:111
 msgid "Automatically open downloaded files"
 msgstr "Letöltött fájlok automatikus megnyitása"
 
-#: ../data/SettingsDialog.ui:134
+#: ../data/SettingsDialog.ui:149
 msgid "Search engines:"
 msgstr "Keresőmotorok:"
 
-#: ../data/SettingsDialog.ui:147 ../eolie/dialog_import_bookmarks.py:46
+#: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "Egyebek"
 
-#: ../data/SettingsDialog.ui:181
+#: ../data/SettingsDialog.ui:196
 msgid "Startup"
 msgstr "Indításkor"
 
-#: ../data/SettingsDialog.ui:198
+#: ../data/SettingsDialog.ui:213
 msgid "Start Page:"
 msgstr "Nyitóoldal:"
 
-#: ../data/SettingsDialog.ui:210
+#: ../data/SettingsDialog.ui:225
 msgid "Search engine"
 msgstr "Keresőmotor"
 
-#: ../data/SettingsDialog.ui:211 ../eolie/context.py:86
+#: ../data/SettingsDialog.ui:226 ../eolie/context.py:86
 msgid "Popular pages"
 msgstr "Népszerű lapok"
 
-#: ../data/SettingsDialog.ui:212
+#: ../data/SettingsDialog.ui:227
 msgid "Popular bookmarks"
 msgstr "Népszerű könyvjelzők"
 
-#: ../data/SettingsDialog.ui:213
+#: ../data/SettingsDialog.ui:228
 msgid "Blank page"
 msgstr "Üres oldal"
 
-#: ../data/SettingsDialog.ui:214
+#: ../data/SettingsDialog.ui:229
 msgid "Set address"
 msgstr "Cím beállítása"
 
-#: ../data/SettingsDialog.ui:236
+#: ../data/SettingsDialog.ui:251
 msgid "Remember previous pages on startup"
 msgstr "Előző lapok megjegyzése indításkor"
 
-#: ../data/SettingsDialog.ui:253
+#: ../data/SettingsDialog.ui:268
 msgid "Configure engines"
 msgstr "Keresőmotorok beállítása"
 
-#: ../data/SettingsDialog.ui:274
+#: ../data/SettingsDialog.ui:289
 msgid "Shown bookmarks"
 msgstr "Megjelenített könyvjelzők"
 
-#: ../data/SettingsDialog.ui:318
+#: ../data/SettingsDialog.ui:333
 msgid "Add suggestions"
 msgstr "Javaslatok hozzáadása"
 
-#: ../data/SettingsDialog.ui:342
+#: ../data/SettingsDialog.ui:357
 msgid "General"
 msgstr "Általános"
 
-#: ../data/SettingsDialog.ui:365
+#: ../data/SettingsDialog.ui:380
 msgid "Fonts"
 msgstr "Betűkészletek"
 
-#: ../data/SettingsDialog.ui:563
+#: ../data/SettingsDialog.ui:578
 msgid "Appearance"
 msgstr "Megjelenés"
 
-#: ../data/SettingsDialog.ui:587 ../eolie/dialog_clear_data.py:196
+#: ../data/SettingsDialog.ui:602 ../eolie/dialog_clear_data.py:196
 msgid "Cookies"
 msgstr "Sütik"
 
-#: ../data/SettingsDialog.ui:603
+#: ../data/SettingsDialog.ui:618
 msgid "Tracking"
 msgstr "Követés"
 
-#: ../data/SettingsDialog.ui:638
+#: ../data/SettingsDialog.ui:653
 msgid "Passwords"
 msgstr "Jelszavak"
 
-#: ../data/SettingsDialog.ui:671
+#: ../data/SettingsDialog.ui:686
 msgid "Saved data"
 msgstr "Mentett adatok"
 
-#: ../data/SettingsDialog.ui:694
+#: ../data/SettingsDialog.ui:709
 msgid "Behaviour:"
 msgstr "Viselkedés:"
 
-#: ../data/SettingsDialog.ui:709
+#: ../data/SettingsDialog.ui:724
 msgid "Always accept"
 msgstr "Elfogadás mindig"
 
-#: ../data/SettingsDialog.ui:710
+#: ../data/SettingsDialog.ui:725
 msgid "Only from visited sites"
 msgstr "Csak a meglátogatott helyekről"
 
-#: ../data/SettingsDialog.ui:711
+#: ../data/SettingsDialog.ui:726
 msgid "Never accept"
 msgstr "Sose fogadja el"
 
-#: ../data/SettingsDialog.ui:730
+#: ../data/SettingsDialog.ui:745
 msgid "Manage cookies"
 msgstr "Sütik kezelése"
 
-#: ../data/SettingsDialog.ui:747
+#: ../data/SettingsDialog.ui:762
 msgid "Clear personal data"
 msgstr "Személyes adatok törlése"
 
-#: ../data/SettingsDialog.ui:769
+#: ../data/SettingsDialog.ui:784
 msgid "Manage passwords"
 msgstr "Jelszavak kezelése"
 
-#: ../data/SettingsDialog.ui:803
+#: ../data/SettingsDialog.ui:818
 msgid "Keep history:"
 msgstr "Előzmények megtartása:"
 
-#: ../data/SettingsDialog.ui:818
+#: ../data/SettingsDialog.ui:833
 msgid "One day"
 msgstr "Egy napig"
 
-#: ../data/SettingsDialog.ui:819
+#: ../data/SettingsDialog.ui:834
 msgid "One week"
 msgstr "Egy hétig"
 
-#: ../data/SettingsDialog.ui:820
+#: ../data/SettingsDialog.ui:835
 msgid "Four weeks"
 msgstr "Négy hétig"
 
-#: ../data/SettingsDialog.ui:821
+#: ../data/SettingsDialog.ui:836
 msgid "A year"
 msgstr "Egy évig"
 
-#: ../data/SettingsDialog.ui:823
+#: ../data/SettingsDialog.ui:838
 msgid "Do not keep"
 msgstr "Megtartás"
 
-#: ../data/SettingsDialog.ui:842
+#: ../data/SettingsDialog.ui:857
 msgid "Predict websites address"
 msgstr "Weboldalcímek előrejelzése"
 
-#: ../data/SettingsDialog.ui:890
+#: ../data/SettingsDialog.ui:905
 msgid "Privacy"
 msgstr "Adatvédelem"
 
-#: ../data/SettingsDialog.ui:912
+#: ../data/SettingsDialog.ui:927
 msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
@@ -726,31 +622,39 @@ msgstr ""
 "Megoszthatja az összes könyvjelzőjét és előzményét\n"
 "az összes Eoliet vagy Firefoxot futtató eszközével"
 
-#: ../data/SettingsDialog.ui:929
+#: ../data/SettingsDialog.ui:944
 msgid "Login :"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:951
+#: ../data/SettingsDialog.ui:966
 msgid "Password :"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:972
+#: ../data/SettingsDialog.ui:987
 msgid "Allow synchronization"
 msgstr "Szinkronizáció engedélyezése"
 
-#: ../data/SettingsDialog.ui:1009
+#: ../data/SettingsDialog.ui:1025
 msgid "Create or manage account"
 msgstr "Fiók létrehozása vagy kezelése"
 
-#: ../data/SettingsDialog.ui:1028
+#: ../data/SettingsDialog.ui:1044
 msgid "Code :"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1039 ../data/SettingsDialog.ui:1040
+#: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
 msgid "You need to enable Two Factor Authentication"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1059
+#: ../data/SettingsDialog.ui:1073
+msgid "Pull from Firefox sync"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1088
+msgid "Push to Firefox sync"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1116
 msgid "Syncing"
 msgstr "Szinkronizálás"
 
@@ -934,12 +838,8 @@ msgstr "Összes lap megtekintése"
 msgid "Close page"
 msgstr "Lap bezárása"
 
-#: ../data/ToolbarActions.ui:183
-msgid "More actions"
-msgstr "További műveletek"
-
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../eolie/menu_toolbar.py:45
 msgid "Leave fullscreen"
 msgstr "Teljes képernyő elhagyása"
 
@@ -951,11 +851,11 @@ msgstr "Szinkronizáció elindítása"
 msgid "Disallow access to this site"
 msgstr "Hozzáférés megtiltása ehhez az oldalhoz"
 
-#: ../data/ToolbarEnd.ui:146
+#: ../data/ToolbarEnd.ui:112
 msgid "Startup page"
 msgstr "Kezdőoldal"
 
-#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:132
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:130
 msgid "Save page"
 msgstr "Oldal mentése"
 
@@ -975,31 +875,35 @@ msgstr "Kicsinyítés"
 msgid "Zoom in"
 msgstr "Nagyítás"
 
-#: ../data/ToolbarMenu.ui:284
+#: ../data/ToolbarMenu.ui:232
 msgid "Filtering"
 msgstr "Szűrés"
 
-#: ../data/ToolbarMenu.ui:343
-msgid "_Preferences"
-msgstr "_Beállítások"
+#: ../data/ToolbarMenu.ui:291
+msgid "Show ads"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:366
-msgid "_Sidebar"
-msgstr "_Oldalsáv"
+#: ../data/ToolbarMenu.ui:304
+msgid "Show popups"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:379
-msgid "_Keyboard Shortcuts"
-msgstr "Gyorsbille_ntyűk"
+#: ../data/ToolbarMenu.ui:317
+msgid "Show images"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:392
-msgid "_About"
-msgstr "_Névjegy"
+#: ../data/ToolbarMenu.ui:330
+msgid "Show medias"
+msgstr ""
 
-#: ../eolie/application.py:715
+#: ../data/ToolbarMenu.ui:396
+msgid "Run scripts"
+msgstr ""
+
+#: ../eolie/application.py:692
 msgid "Do you really want to quit Eolie?"
 msgstr "Biztos, hogy kilép az Eolie böngészőből?"
 
-#: ../eolie/application.py:768
+#: ../eolie/application.py:745
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Letöltések vannak folyamatban, biztos kilép?"
 
@@ -1063,6 +967,38 @@ msgstr "HTML könyvjelzők importálása"
 msgid "New engine"
 msgstr "Új keresőmotor"
 
+#: ../eolie/menu_application.py:42
+msgid "Block ads"
+msgstr "Reklámok blokkolása"
+
+#: ../eolie/menu_application.py:43
+msgid "Block popups"
+msgstr "Felugró ablakok blokkolása"
+
+#: ../eolie/menu_application.py:46
+msgid "Block scripts"
+msgstr ""
+
+#: ../eolie/menu_application.py:58
+msgid "Blockers"
+msgstr ""
+
+#: ../eolie/menu_application.py:65
+msgid "_Preferences"
+msgstr "_Beállítások"
+
+#: ../eolie/menu_application.py:74
+msgid "_Sidebar"
+msgstr "_Oldalsáv"
+
+#: ../eolie/menu_application.py:79
+msgid "_About"
+msgstr "_Névjegy"
+
+#: ../eolie/menu_application.py:84
+msgid "_Keyboard Shortcuts"
+msgstr "Gyorsbille_ntyűk"
+
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
 msgstr "Mentett hitelesítési adatok"
@@ -1071,11 +1007,11 @@ msgstr "Mentett hitelesítési adatok"
 msgid "Move to"
 msgstr "Áthelyezés ide"
 
-#: ../eolie/menu_pages.py:48
+#: ../eolie/menu_pages.py:41
 msgid "Closed pages"
 msgstr "Bezárt lapok"
 
-#: ../eolie/menu_pages.py:49
+#: ../eolie/menu_pages.py:42
 msgid "Open all pages"
 msgstr "Összes lap megnyitása"
 
@@ -1087,25 +1023,17 @@ msgstr "Felhasználói ügynök módosítása"
 msgid "Close site"
 msgstr "Oldal bezárása"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:47
 msgid "Enter fullscreen"
 msgstr "Teljes képernyős módba lépés"
 
-#: ../eolie/menu_videos.py:79
-msgid "No videos"
-msgstr "Nincsenek videók"
-
-#: ../eolie/pages_manager_child.py:161
+#: ../eolie/pages_manager_child.py:158
 msgid "Unpin this page"
 msgstr ""
 
-#: ../eolie/pages_manager_child.py:164
+#: ../eolie/pages_manager_child.py:161
 msgid "Pin this page"
 msgstr ""
-
-#: ../eolie/popover_credentials.py:59
-msgid "Do you want to modify this password?"
-msgstr "Módosítja ezt a jelszót?"
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
@@ -1165,55 +1093,55 @@ msgstr "Elérheti ez az oldalt a tartózkodási helyét?"
 msgid "Continue"
 msgstr "Folytatás"
 
-#: ../eolie/popover_uri.py:131
+#: ../eolie/popover_uri.py:128
 msgid "Delete page from history"
 msgstr "Oldal törlése az előzményekből"
 
-#: ../eolie/popover_uri.py:143
+#: ../eolie/popover_uri.py:140
 msgid "Edit bookmark"
 msgstr "Könyvjelző szerkesztése"
 
-#: ../eolie/popover_uri.py:160
+#: ../eolie/popover_uri.py:157
 msgid "Open all pages with this tag"
 msgstr "Összes lap megnyitása ezzel a címkével"
 
-#: ../eolie/popover_uri.py:793
+#: ../eolie/popover_uri.py:779
 msgid "Popular"
 msgstr "Népszerű"
 
-#: ../eolie/popover_uri.py:796
+#: ../eolie/popover_uri.py:782
 msgid "Recent"
 msgstr "Legutóbbi"
 
-#: ../eolie/popover_uri.py:798
+#: ../eolie/popover_uri.py:784
 msgid "Unclassified"
 msgstr "Nem csoportosított"
 
-#: ../eolie/popover_uri.py:821
+#: ../eolie/popover_uri.py:807
 msgid "From the past hour"
 msgstr "az elmúlt órában"
 
-#: ../eolie/popover_uri.py:822
+#: ../eolie/popover_uri.py:808
 msgid "From the past day"
 msgstr "az elmúlt napban"
 
-#: ../eolie/popover_uri.py:823
+#: ../eolie/popover_uri.py:809
 msgid "From the past week"
 msgstr "az elmúlt héten"
 
-#: ../eolie/popover_uri.py:825
+#: ../eolie/popover_uri.py:811
 msgid "From the past four weeks"
 msgstr "az elmúlt négy hétben"
 
-#: ../eolie/popover_uri.py:826
+#: ../eolie/popover_uri.py:812
 msgid "From selected day"
 msgstr "a kiválasztott naptól"
 
-#: ../eolie/popover_uri.py:827
+#: ../eolie/popover_uri.py:813
 msgid "From the beginning"
 msgstr "az elejétől"
 
-#: ../eolie/popover_uri.py:1095
+#: ../eolie/popover_uri.py:1067
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s könyvjelző"
@@ -1243,31 +1171,31 @@ msgstr ""
 msgid "Unsupported search engine"
 msgstr "Nem támogatott keresőmotor"
 
-#: ../eolie/settings.py:473
+#: ../eolie/settings.py:474
 msgid "Connecting…"
 msgstr "Kapcsolódás…"
 
-#: ../eolie/settings.py:508
+#: ../eolie/settings.py:524
 msgid "Syncing operational"
 msgstr "A szinkronizálás működik"
 
-#: ../eolie/settings.py:514
+#: ../eolie/settings.py:530
 msgid "Cancel syncing"
 msgstr "Szinkronizálás megszakítása"
 
-#: ../eolie/settings.py:519
+#: ../eolie/settings.py:535
 msgid "Start syncing"
 msgstr "Szinkronizálás indítása"
 
-#: ../eolie/settings.py:524
+#: ../eolie/settings.py:540
 msgid "Allow syncing"
 msgstr "Szinkronizálás engedélyezése"
 
-#: ../eolie/settings.py:529
+#: ../eolie/settings.py:545
 msgid "Syncing is not working"
 msgstr "A szinkronizálás nem működik"
 
-#: ../eolie/settings.py:540
+#: ../eolie/settings.py:556
 #, python-format
 msgid ""
 "Syncing is not available on your computer:\n"
@@ -1276,19 +1204,19 @@ msgstr ""
 "A szinkronizálás nem érhető el a számítógépén:\n"
 "%s"
 
-#: ../eolie/settings.py:564
+#: ../eolie/settings.py:580
 msgid "You've received an email to validate syncing"
 msgstr "Kapott egy e-mailt, hogy ellenőrizze a szinkronizálást"
 
-#: ../eolie/toolbar_end.py:100
+#: ../eolie/toolbar_end.py:98
 msgid "Downloading:"
 msgstr "Letöltés:"
 
-#: ../eolie/toolbar_title.py:276
+#: ../eolie/toolbar_title.py:279
 msgid "This page contains insecure content"
 msgstr "Ez a lap nem biztonságos tartalmat is tartalmaz"
 
-#: ../eolie/toolbar_title.py:330
+#: ../eolie/toolbar_title.py:333
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1298,23 +1226,20 @@ msgstr ""
 "Ha beírja a jelszavát, akkor az\n"
 "látható lesz a kiberbűnözők számára!"
 
-#: ../eolie/toolbar_title.py:379
+#: ../eolie/toolbar_title.py:367
+#, python-format
+msgid "Save password for: %s"
+msgstr ""
+
+#: ../eolie/toolbar_title.py:390
 msgid "Deny geolocation"
 msgstr "Helymeghatározás letiltása"
 
-#: ../eolie/toolbar_title.py:385
-msgid "Blocked popups"
-msgstr "Blokkolt felugró ablakok"
-
-#: ../eolie/toolbar_title.py:445
-msgid "Copy address"
-msgstr "Cím másolása"
-
-#: ../eolie/toolbar_title.py:506
+#: ../eolie/toolbar_title.py:514
 msgid "Paste and load"
 msgstr "Beillesztés és betöltés"
 
-#: ../eolie/toolbar_title.py:756 ../eolie/toolbar_title.py:759
+#: ../eolie/toolbar_title.py:762 ../eolie/toolbar_title.py:765
 msgid "Search or enter address"
 msgstr "Keresés vagy cím megadása"
 
@@ -1450,11 +1375,7 @@ msgstr "Hivatkozás megnyitása új ablakban"
 msgid "Search on the Web"
 msgstr "Keresés a weben"
 
-#: ../eolie/webview_signals_menu.py:143
-msgid "Save videos"
-msgstr "Videók mentése"
-
-#: ../eolie/webview_signals_menu.py:153
+#: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
 msgstr "Oldal mentése képként"
 
@@ -1477,6 +1398,101 @@ msgstr "Következő előfordulás keresése"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 / 1000 találat"
+
+#~ msgid "Block all unwanted popups"
+#~ msgstr "Összes nemkívanatos felugró ablak blokkolása"
+
+#~ msgid "Block all images"
+#~ msgstr "Összes kép blokkolása"
+
+#~ msgid "Block all JavaScript"
+#~ msgstr "Összes JavaScript blokkolása"
+
+#~ msgid "Do not filter current website content"
+#~ msgstr "Ne szűrje a jelenlegi weboldal tartalmát"
+
+#~ msgctxt "Trust web sites"
+#~ msgid "Trust web sites"
+#~ msgstr "Megbízás ezekben a weboldalakban"
+
+#~ msgid "Enable adblocking"
+#~ msgstr "Reklámblokkolás engedélyezése"
+
+#~ msgctxt "Adblock"
+#~ msgid "Enabled"
+#~ msgstr "Engedélyezve"
+
+#~ msgid "By default"
+#~ msgstr "Alapértelmezetten"
+
+#~ msgid "Do not block ads on this site"
+#~ msgstr "Ne blokkolja a reklámokat ezen az oldalon"
+
+#~ msgid "Not on this site"
+#~ msgstr "Ezen az oldalon ne"
+
+#~ msgid "Do not block ads on this page"
+#~ msgstr "Ne blokkolja a reklámokat ezen a lapon"
+
+#~ msgid "Not on this page"
+#~ msgstr "Ezen a lapon ne"
+
+#~ msgctxt "popup"
+#~ msgid "Enabled"
+#~ msgstr "Bekapcsolva"
+
+#~ msgid "Enable image blocking"
+#~ msgstr "Képblokkolás bekapcsolása"
+
+#~ msgid "Do not block images on this site"
+#~ msgstr "Ne blokkolja a képeket ezen az oldalon"
+
+#~ msgid "Do not block images on this page"
+#~ msgstr "Ne blokkolja a képeket ezen a lapon"
+
+#~ msgctxt "Trust web sites"
+#~ msgid "Trust websites"
+#~ msgstr "Megbízás ezekben a weblapokban"
+
+#~ msgid "JavaScript blocker"
+#~ msgstr "JavaScript blokkoló"
+
+#~ msgid "Enable JavaScript blocking"
+#~ msgstr "JavaScript blokkolás bekapcsolása"
+
+#~ msgctxt "Trust web sites"
+#~ msgid "Enabled"
+#~ msgstr "Bekapcsolva"
+
+#~ msgid "Sync bookmarks"
+#~ msgstr "Könyvjelzők szinkronizálása"
+
+#~ msgid "Enable popup blocking"
+#~ msgstr "Felugró ablakok blokkolásának bekapcsolása"
+
+#~ msgid "Do not block popups on this site"
+#~ msgstr "Ne blokkolja a felugró ablakokat ezen az oldalon"
+
+#~ msgid "Do not block popups on this page"
+#~ msgstr "Ne blokkolja a felugró ablakokat ezen a lapon"
+
+#~ msgid "More actions"
+#~ msgstr "További műveletek"
+
+#~ msgid "No videos"
+#~ msgstr "Nincsenek videók"
+
+#~ msgid "Do you want to modify this password?"
+#~ msgstr "Módosítja ezt a jelszót?"
+
+#~ msgid "Blocked popups"
+#~ msgstr "Blokkolt felugró ablakok"
+
+#~ msgid "Copy address"
+#~ msgstr "Cím másolása"
+
+#~ msgid "Save videos"
+#~ msgstr "Videók mentése"
 
 #~ msgid "Allow user to donate to the project"
 #~ msgstr "A felhasználó adományozhat a projektnek"
