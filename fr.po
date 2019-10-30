@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 18:00+0100\n"
-"PO-Revision-Date: 2019-10-13 16:52+0000\n"
-"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/"
-">\n"
+"PO-Revision-Date: 2019-10-30 17:09+0000\n"
+"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
+"\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -41,7 +41,7 @@ msgstr "Bloquer les publicités sur les pages"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "Bloquer les popups indésirables"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
 msgid "Block images"
@@ -49,7 +49,7 @@ msgstr "Bloquer les images"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
 msgid "Block medias"
-msgstr ""
+msgstr "Bloquer les médias"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
@@ -211,7 +211,7 @@ msgstr "Eolie est un nouveau navigateur web pour GNOME."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:17
 msgid "Bug Fixes"
-msgstr ""
+msgstr "Corrections de bugs"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -652,11 +652,11 @@ msgstr "Vous devez activer l’authentification à deux facteurs"
 
 #: ../data/SettingsDialog.ui:1073
 msgid "Pull from Firefox sync"
-msgstr ""
+msgstr "Mise à jour depuis Firefox sync"
 
 #: ../data/SettingsDialog.ui:1088
 msgid "Push to Firefox sync"
-msgstr ""
+msgstr "Mise à jour vers Firefox sync"
 
 #: ../data/SettingsDialog.ui:1116
 msgid "Syncing"
@@ -885,23 +885,23 @@ msgstr "Filtrage"
 
 #: ../data/ToolbarMenu.ui:291
 msgid "Show ads"
-msgstr ""
+msgstr "Afficher les publicités"
 
 #: ../data/ToolbarMenu.ui:304
 msgid "Show popups"
-msgstr ""
+msgstr "Afficher les popups"
 
 #: ../data/ToolbarMenu.ui:317
 msgid "Show images"
-msgstr ""
+msgstr "Afficher les images"
 
 #: ../data/ToolbarMenu.ui:330
 msgid "Show medias"
-msgstr ""
+msgstr "Afficher les médias"
 
 #: ../data/ToolbarMenu.ui:396
 msgid "Run scripts"
-msgstr ""
+msgstr "Exécuter les scripts"
 
 #: ../eolie/application.py:692
 msgid "Do you really want to quit Eolie?"
@@ -981,11 +981,11 @@ msgstr "Bloquer les popups"
 
 #: ../eolie/menu_application.py:46
 msgid "Block scripts"
-msgstr ""
+msgstr "Bloquer les scripts"
 
 #: ../eolie/menu_application.py:58
 msgid "Blockers"
-msgstr ""
+msgstr "Bloqueurs"
 
 #: ../eolie/menu_application.py:65
 msgid "_Preferences"
@@ -1234,7 +1234,7 @@ msgstr ""
 #: ../eolie/toolbar_title.py:367
 #, python-format
 msgid "Save password for: %s"
-msgstr ""
+msgstr "Enregistrer le mot de passe pour : %s"
 
 #: ../eolie/toolbar_title.py:390
 msgid "Deny geolocation"
