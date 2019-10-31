@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 18:00+0100\n"
+"POT-Creation-Date: 2019-10-31 09:59+0100\n"
 "PO-Revision-Date: 2019-05-03 21:37+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/"
@@ -49,7 +49,7 @@ msgid "Block images"
 msgstr "احجب الصور"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
-msgid "Block medias"
+msgid "Block multimedia"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
@@ -57,107 +57,103 @@ msgid "Block JavaScript"
 msgstr "احجب الجافاسكربت"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
-msgid "Trust websites: No adblocking of internal URIs"
-msgstr "مواقع الوِب الموثوقة: لا منع للإعلانات في الروابط الداخلية"
+msgid "Block Phishing"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
-msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr "مواقع الوِب الموثوقة: لا منع للجافاسكربت في الروابط الداخلية"
-
-#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr "فعِّل التمرير السلس"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Download folder URI"
 msgstr "مكان مجلد التنزيل (URI)"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Open finished downloads"
 msgstr "افتح التنزيلات التي تمت"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Web search engine"
 msgstr "محرك البحث"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Remember sessions"
 msgstr "تذكر الجلسات"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "تذكّر كلمات السر"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "فعّل أدوات المطورين"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "فعّل الملحقات"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "استعمل خطوط النظام"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:422
+#: ../data/org.gnome.Eolie.gschema.xml:114
 msgid "Sans serif font"
 msgstr "الخط غير المذيّل"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "الخط المذيّل"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:446
+#: ../data/org.gnome.Eolie.gschema.xml:124
 msgid "Monospace font"
 msgstr "الخط ثابت العرض"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134
+#: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Open this page on startup"
 msgstr "افتح هذه الصفحة عند البدء"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Minimum sidebar position"
 msgstr "أدنى موضع للشريط الجانبي"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:508
+#: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
 msgstr "أصغر حجم للخط"
 
-#: ../data/org.gnome.Eolie.gschema.xml:149
+#: ../data/org.gnome.Eolie.gschema.xml:144
 msgid "Popular items shown"
 msgstr "العناصر الشائعة الظاهرة"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154 ../data/SettingsDialog.ui:534
+#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:534
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "مستوى التقريب المبدئي"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159
+#: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "Cookies storage type"
 msgstr "نوع تخزين الكعكات"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164
+#: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "History storage type"
 msgstr "نوع تخزين التأريخ"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:631
+#: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:631
 msgid "Tell websites I do not want to be tracked"
 msgstr "أخبر مواقع الوب أنني لا أريدها أن تتعقبني"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174
+#: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "DNS prediction"
 msgstr "توقع DNS"
 
-#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/SettingsDialog.ui:875
+#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:875
 msgid "Autoplay videos"
 msgstr "شغّل الفيديوهات تلقائيًّا"
 
-#: ../data/org.gnome.Eolie.gschema.xml:184
+#: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "Enable search suggestions"
 msgstr "فعّل اقتراحات البحث"
 
-#: ../data/org.gnome.Eolie.gschema.xml:189 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "فعّل التصحيح الإملائي"
@@ -209,7 +205,7 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "أيولي متصفح الوِب الجديد لسطح المكتب غنوم."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:17
-msgid "Bug Fixes"
+msgid "Bugfixes"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
@@ -533,6 +529,14 @@ msgstr "عامة"
 msgid "Fonts"
 msgstr "الخطوط"
 
+#: ../data/SettingsDialog.ui:422
+msgid "Sans-serif font"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:446
+msgid "Monospaced font"
+msgstr ""
+
 #: ../data/SettingsDialog.ui:578
 msgid "Appearance"
 msgstr "المظهر"
@@ -606,8 +610,8 @@ msgid "Do not keep"
 msgstr "لا تُبق"
 
 #: ../data/SettingsDialog.ui:857
-msgid "Predict websites address"
-msgstr "توقع عناوين المواقع"
+msgid "Predict website addresses"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:905
 msgid "Privacy"
@@ -622,15 +626,15 @@ msgstr ""
 "أجهزتك التي تشغل أيولي أو فيرفُكس"
 
 #: ../data/SettingsDialog.ui:944
-msgid "Login :"
-msgstr "الولوج :"
+msgid "Login:"
+msgstr "الولوج:"
 
 #: ../data/SettingsDialog.ui:966
-msgid "Password :"
-msgstr "كلمة السر :"
+msgid "Password:"
+msgstr "كلمة السر:"
 
-#: ../data/SettingsDialog.ui:987
-msgid "Allow synchronization"
+#: ../data/SettingsDialog.ui:987 ../eolie/settings.py:540
+msgid "Allow syncing"
 msgstr "اسمح بالمزامنة"
 
 #: ../data/SettingsDialog.ui:1025
@@ -638,20 +642,19 @@ msgid "Create or manage account"
 msgstr "أنشئ حسابًا أو أدره"
 
 #: ../data/SettingsDialog.ui:1044
-msgid "Code :"
-msgstr "الرمز :"
+msgid "Code:"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
-#, fuzzy
-msgid "You need to enable Two Factor Authentication"
-msgstr "تحتاج إلى تفعيل الاستيثاق ذو العاملين"
+msgid "You need to turn on two-factor authentication"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:1073
-msgid "Pull from Firefox sync"
+msgid "Fetch from Firefox Sync"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1088
-msgid "Push to Firefox sync"
+msgid "Send to Firefox Sync"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1116
@@ -892,18 +895,18 @@ msgid "Show images"
 msgstr ""
 
 #: ../data/ToolbarMenu.ui:330
-msgid "Show medias"
+msgid "Show multimedia"
 msgstr ""
 
 #: ../data/ToolbarMenu.ui:396
 msgid "Run scripts"
 msgstr ""
 
-#: ../eolie/application.py:692
+#: ../eolie/application.py:686
 msgid "Do you really want to quit Eolie?"
 msgstr "هل أنت واثق أنك تريد إغلاق أيولي؟"
 
-#: ../eolie/application.py:745
+#: ../eolie/application.py:739
 msgid "Downloads running, are you sure you want quit?"
 msgstr "توجد تنزيلات تعمل، فهل أنت واثق أنك تريد الخروج؟"
 
@@ -1187,10 +1190,6 @@ msgstr "ألغ المزامنة"
 msgid "Start syncing"
 msgstr "ابدأ المزامنة"
 
-#: ../eolie/settings.py:540
-msgid "Allow syncing"
-msgstr "اسمح بالمزامنة"
-
 #: ../eolie/settings.py:545
 msgid "Syncing is not working"
 msgstr "المزامنة لا تعمل"
@@ -1243,24 +1242,11 @@ msgstr "ألصق واذهب"
 msgid "Search or enter address"
 msgstr "ابحث أو أدخل عنوانًا"
 
-#: ../eolie/webview_errors.py:81
-msgid "This page is dangerous"
-msgstr "هذه الصفحة خطرة"
-
-#: ../eolie/webview_errors.py:82
-msgid "Eolie will not display this page"
-msgstr "لن يعرض أيولي هذه الصفحة"
-
-#: ../eolie/webview_errors.py:89
-#, python-format
-msgid "%s is a phishing page"
-msgstr "إن %s هي صفحة احتيال"
-
-#: ../eolie/webview_errors.py:133
+#: ../eolie/webview_errors.py:105
 msgid "Failed to load this web page"
 msgstr "تعذر تحميل هذه الصفحة"
 
-#: ../eolie/webview_errors.py:134
+#: ../eolie/webview_errors.py:106
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -1268,55 +1254,55 @@ msgstr ""
 "قد تكون الصفحة غير قابلة للوصول أو منقولة إلى عنوان جديد.<br/>تأكد أن اتصال "
 "الانترنت يعمل جيّدا."
 
-#: ../eolie/webview_errors.py:140
+#: ../eolie/webview_errors.py:112
 msgid "Network not available"
 msgstr "الشبكة ليست متاحة"
 
-#: ../eolie/webview_errors.py:141
+#: ../eolie/webview_errors.py:113
 msgid "Check your network connection"
 msgstr "افحص اتصال الشيكة"
 
-#: ../eolie/webview_errors.py:151
+#: ../eolie/webview_errors.py:123
 msgid "Retry"
 msgstr "أعد المحاولة"
 
-#: ../eolie/webview_errors.py:177
+#: ../eolie/webview_errors.py:149
 msgid "The certificate does not match this website"
 msgstr "لا تطابق الشهادة هذا الموقع"
 
-#: ../eolie/webview_errors.py:179
+#: ../eolie/webview_errors.py:151
 msgid "The certificate has expired"
 msgstr "الشهادة منتهية"
 
-#: ../eolie/webview_errors.py:181
+#: ../eolie/webview_errors.py:153
 msgid "The signing certificate authority is not known"
 msgstr "الجهة التي وقعت الشهادة غير معروفة"
 
-#: ../eolie/webview_errors.py:183
+#: ../eolie/webview_errors.py:155
 msgid "The certificate contains errors"
 msgstr "تحوي الشهادة أخطاء"
 
-#: ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:157
 msgid "The certificate has been revoked"
 msgstr "الشهادة منقوضة"
 
-#: ../eolie/webview_errors.py:187
+#: ../eolie/webview_errors.py:159
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "الشهادة موقّعة بخوارزمية توقيع ضعيفة"
 
-#: ../eolie/webview_errors.py:191
+#: ../eolie/webview_errors.py:163
 msgid "The certificate activation time is still in the future"
 msgstr "إن وقت تفعيل الشهادة هو في المستقبل"
 
-#: ../eolie/webview_errors.py:193
+#: ../eolie/webview_errors.py:165
 msgid "The identity of this website has not been verified"
 msgstr "لم يُتحقق من هوية هذا الموقع"
 
-#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:198
+#: ../eolie/webview_errors.py:166 ../eolie/webview_errors.py:170
 msgid "Connection is not secure"
 msgstr "الاتصال ليس آمنًا"
 
-#: ../eolie/webview_errors.py:200
+#: ../eolie/webview_errors.py:172
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1327,15 +1313,15 @@ msgstr ""
 "المعلومات أو تبديلها التي تذهب إلى الموقع أو تعود منه (مثل الرسائل الخاصة، "
 "ومعلومات البطاقة البنكية، وكلمات السر)."
 
-#: ../eolie/webview_errors.py:206
+#: ../eolie/webview_errors.py:178
 msgid "Accept Risk and Proceed"
 msgstr "أقبلُ الخطر واستمر"
 
-#: ../eolie/webview_errors.py:222 ../eolie/webview_errors.py:227
+#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:199
 msgid "WebKit web engine crashed"
 msgstr "إنهار محرك وب‌كت"
 
-#: ../eolie/webview_errors.py:229
+#: ../eolie/webview_errors.py:201
 msgid ""
 "The webpage was terminated unexpectedly. To continue, reload or go to "
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
@@ -1345,7 +1331,7 @@ msgstr ""
 "صفحة أخرى.<br/><br/>إذا تكررت المشكلة فإنك تستطيع الإبلاغ عن علة :)<br/>اختر "
 "<b>'WebKit Gtk'</b> في خانة المكوّن.<br/>ضع <b>[GTK]</b> في بداية الموضوع."
 
-#: ../eolie/webview_errors.py:235
+#: ../eolie/webview_errors.py:207
 msgid "Report a bug now"
 msgstr "أبلغ عن علة الآن"
 
@@ -1396,6 +1382,41 @@ msgstr "ابحث عن المطابق التالي"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 من 1000 نتيجة"
+
+#~ msgid "Trust websites: No adblocking of internal URIs"
+#~ msgstr "مواقع الوِب الموثوقة: لا منع للإعلانات في الروابط الداخلية"
+
+#~ msgid "Trust websites: No JavaScript blocking of internal URIs"
+#~ msgstr "مواقع الوِب الموثوقة: لا منع للجافاسكربت في الروابط الداخلية"
+
+#~ msgid "Predict websites address"
+#~ msgstr "توقع عناوين المواقع"
+
+#~ msgid "Login :"
+#~ msgstr "الولوج :"
+
+#~ msgid "Password :"
+#~ msgstr "كلمة السر :"
+
+#~ msgid "Allow synchronization"
+#~ msgstr "اسمح بالمزامنة"
+
+#~ msgid "Code :"
+#~ msgstr "الرمز :"
+
+#, fuzzy
+#~ msgid "You need to enable Two Factor Authentication"
+#~ msgstr "تحتاج إلى تفعيل الاستيثاق ذو العاملين"
+
+#~ msgid "This page is dangerous"
+#~ msgstr "هذه الصفحة خطرة"
+
+#~ msgid "Eolie will not display this page"
+#~ msgstr "لن يعرض أيولي هذه الصفحة"
+
+#, python-format
+#~ msgid "%s is a phishing page"
+#~ msgstr "إن %s هي صفحة احتيال"
 
 #~ msgid "Block all unwanted popups"
 #~ msgstr "احجب كل المنبثقات غير المرغوبة"
@@ -1506,12 +1527,6 @@ msgstr "1000 من 1000 نتيجة"
 
 #~ msgid "Profiles manager"
 #~ msgstr "مدير الأطوار"
-
-#~ msgid "Login:"
-#~ msgstr "الولوج:"
-
-#~ msgid "Password:"
-#~ msgstr "كلمة السر:"
 
 #~ msgid "_Quit"
 #~ msgstr "_غادر"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 18:00+0100\n"
+"POT-Creation-Date: 2019-10-31 09:59+0100\n"
 "PO-Revision-Date: 2018-09-05 03:14+0000\n"
 "Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -48,7 +48,7 @@ msgid "Block images"
 msgstr "屏蔽图像"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
-msgid "Block medias"
+msgid "Block multimedia"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
@@ -56,107 +56,103 @@ msgid "Block JavaScript"
 msgstr "屏蔽 JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
-msgid "Trust websites: No adblocking of internal URIs"
-msgstr "信任网站：内部 URI 不屏蔽广告"
+msgid "Block Phishing"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
-msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr "信任网站：内部 URI 不屏蔽 JavaScript"
-
-#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Download folder URI"
 msgstr "下载文件夹 URI"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Open finished downloads"
 msgstr "打开已完成的下载"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Web search engine"
 msgstr "网络搜索引擎"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Remember sessions"
 msgstr "记住会话"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "记住密码"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "启用开发者工具"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "启用插件"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "使用系统字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:422
+#: ../data/org.gnome.Eolie.gschema.xml:114
 msgid "Sans serif font"
 msgstr "无衬线字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "衬线字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:446
+#: ../data/org.gnome.Eolie.gschema.xml:124
 msgid "Monospace font"
 msgstr "等宽字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134
+#: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Open this page on startup"
 msgstr "启动时打开此页面"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Minimum sidebar position"
 msgstr "最小侧边栏位置"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:508
+#: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
 msgstr "最小字体大小"
 
-#: ../data/org.gnome.Eolie.gschema.xml:149
+#: ../data/org.gnome.Eolie.gschema.xml:144
 msgid "Popular items shown"
 msgstr "显示热门项目"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154 ../data/SettingsDialog.ui:534
+#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:534
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "默认缩放级别"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159
+#: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "Cookies storage type"
 msgstr "Cookies 存储类型"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164
+#: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "History storage type"
 msgstr "历史存储类型"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:631
+#: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:631
 msgid "Tell websites I do not want to be tracked"
 msgstr "告诉网站我不想被跟踪"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174
+#: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "DNS prediction"
 msgstr "DNS 预测"
 
-#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/SettingsDialog.ui:875
+#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:875
 msgid "Autoplay videos"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:184
+#: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "Enable search suggestions"
 msgstr "启用搜索建议"
 
-#: ../data/org.gnome.Eolie.gschema.xml:189 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "启用拼写检查"
@@ -206,7 +202,7 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie 是个新的 GNOME 网页浏览器。"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:17
-msgid "Bug Fixes"
+msgid "Bugfixes"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
@@ -528,6 +524,14 @@ msgstr "常规"
 msgid "Fonts"
 msgstr "字体"
 
+#: ../data/SettingsDialog.ui:422
+msgid "Sans-serif font"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:446
+msgid "Monospaced font"
+msgstr ""
+
 #: ../data/SettingsDialog.ui:578
 msgid "Appearance"
 msgstr "外观"
@@ -601,8 +605,8 @@ msgid "Do not keep"
 msgstr "不要保留"
 
 #: ../data/SettingsDialog.ui:857
-msgid "Predict websites address"
-msgstr "预测网站地址"
+msgid "Predict website addresses"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:905
 msgid "Privacy"
@@ -617,15 +621,15 @@ msgstr ""
 "的设备上共享您的书签和历史"
 
 #: ../data/SettingsDialog.ui:944
-msgid "Login :"
-msgstr ""
+msgid "Login:"
+msgstr "登录："
 
 #: ../data/SettingsDialog.ui:966
-msgid "Password :"
-msgstr ""
+msgid "Password:"
+msgstr "密码："
 
-#: ../data/SettingsDialog.ui:987
-msgid "Allow synchronization"
+#: ../data/SettingsDialog.ui:987 ../eolie/settings.py:540
+msgid "Allow syncing"
 msgstr "允许同步"
 
 #: ../data/SettingsDialog.ui:1025
@@ -633,19 +637,19 @@ msgid "Create or manage account"
 msgstr "创建或管理帐户"
 
 #: ../data/SettingsDialog.ui:1044
-msgid "Code :"
+msgid "Code:"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
-msgid "You need to enable Two Factor Authentication"
+msgid "You need to turn on two-factor authentication"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1073
-msgid "Pull from Firefox sync"
+msgid "Fetch from Firefox Sync"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1088
-msgid "Push to Firefox sync"
+msgid "Send to Firefox Sync"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1116
@@ -886,18 +890,18 @@ msgid "Show images"
 msgstr ""
 
 #: ../data/ToolbarMenu.ui:330
-msgid "Show medias"
+msgid "Show multimedia"
 msgstr ""
 
 #: ../data/ToolbarMenu.ui:396
 msgid "Run scripts"
 msgstr ""
 
-#: ../eolie/application.py:692
+#: ../eolie/application.py:686
 msgid "Do you really want to quit Eolie?"
 msgstr "您确定要退出 Eolie 吗？"
 
-#: ../eolie/application.py:745
+#: ../eolie/application.py:739
 msgid "Downloads running, are you sure you want quit?"
 msgstr "用运行中的下载任务，您确定要退出？"
 
@@ -1181,10 +1185,6 @@ msgstr "取消同步"
 msgid "Start syncing"
 msgstr "开始同步"
 
-#: ../eolie/settings.py:540
-msgid "Allow syncing"
-msgstr "允许同步"
-
 #: ../eolie/settings.py:545
 msgid "Syncing is not working"
 msgstr "同步未在工作"
@@ -1237,24 +1237,11 @@ msgstr "粘贴并载入"
 msgid "Search or enter address"
 msgstr "搜索或输入地址"
 
-#: ../eolie/webview_errors.py:81
-msgid "This page is dangerous"
-msgstr "此页面有危险"
-
-#: ../eolie/webview_errors.py:82
-msgid "Eolie will not display this page"
-msgstr "Eolie 将不显示此页面"
-
-#: ../eolie/webview_errors.py:89
-#, python-format
-msgid "%s is a phishing page"
-msgstr "%s 是个钓鱼网站"
-
-#: ../eolie/webview_errors.py:133
+#: ../eolie/webview_errors.py:105
 msgid "Failed to load this web page"
 msgstr "载入此网页失败"
 
-#: ../eolie/webview_errors.py:134
+#: ../eolie/webview_errors.py:106
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -1262,55 +1249,55 @@ msgstr ""
 "该站点可能暂时无法访问或已移动到新的地址。<br/>您可能需要确定互联网连接是否正"
 "常。"
 
-#: ../eolie/webview_errors.py:140
+#: ../eolie/webview_errors.py:112
 msgid "Network not available"
 msgstr "网络不可用"
 
-#: ../eolie/webview_errors.py:141
+#: ../eolie/webview_errors.py:113
 msgid "Check your network connection"
 msgstr "检查您的网络连接"
 
-#: ../eolie/webview_errors.py:151
+#: ../eolie/webview_errors.py:123
 msgid "Retry"
 msgstr "重试"
 
-#: ../eolie/webview_errors.py:177
+#: ../eolie/webview_errors.py:149
 msgid "The certificate does not match this website"
 msgstr "证书与此网站不符"
 
-#: ../eolie/webview_errors.py:179
+#: ../eolie/webview_errors.py:151
 msgid "The certificate has expired"
 msgstr "证书已过期"
 
-#: ../eolie/webview_errors.py:181
+#: ../eolie/webview_errors.py:153
 msgid "The signing certificate authority is not known"
 msgstr "签署的证书颁发机构未知"
 
-#: ../eolie/webview_errors.py:183
+#: ../eolie/webview_errors.py:155
 msgid "The certificate contains errors"
 msgstr "证书包含错误"
 
-#: ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:157
 msgid "The certificate has been revoked"
 msgstr "证书已被吊销"
 
-#: ../eolie/webview_errors.py:187
+#: ../eolie/webview_errors.py:159
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "证书正使用弱签名算法签署"
 
-#: ../eolie/webview_errors.py:191
+#: ../eolie/webview_errors.py:163
 msgid "The certificate activation time is still in the future"
 msgstr "证书启用时间还未到来"
 
-#: ../eolie/webview_errors.py:193
+#: ../eolie/webview_errors.py:165
 msgid "The identity of this website has not been verified"
 msgstr "该网站的身份尚未验证"
 
-#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:198
+#: ../eolie/webview_errors.py:166 ../eolie/webview_errors.py:170
 msgid "Connection is not secure"
 msgstr "连接不安全"
 
-#: ../eolie/webview_errors.py:200
+#: ../eolie/webview_errors.py:172
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1320,15 +1307,15 @@ msgstr ""
 "此网站似乎不是真的 %s。<br/>攻击这可能在窃取或更改发往或发自该网站的信息（例"
 "如，私人信息、信用卡信息或密码）。"
 
-#: ../eolie/webview_errors.py:206
+#: ../eolie/webview_errors.py:178
 msgid "Accept Risk and Proceed"
 msgstr "接受风险并继续"
 
-#: ../eolie/webview_errors.py:222 ../eolie/webview_errors.py:227
+#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:199
 msgid "WebKit web engine crashed"
 msgstr "WebKit 网络引擎已崩溃"
 
-#: ../eolie/webview_errors.py:229
+#: ../eolie/webview_errors.py:201
 msgid ""
 "The webpage was terminated unexpectedly. To continue, reload or go to "
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
@@ -1338,7 +1325,7 @@ msgstr ""
 "在，您可以以<b>“WebKit Gtk”</b>为组件报告缺陷 :)。<br/>设定 <b>[GTK]</b> 作为"
 "主题前缀。"
 
-#: ../eolie/webview_errors.py:235
+#: ../eolie/webview_errors.py:207
 msgid "Report a bug now"
 msgstr "立即报告缺陷"
 
@@ -1389,6 +1376,28 @@ msgstr "搜索下个出现位置"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 / 1000 个匹配项"
+
+#~ msgid "Trust websites: No adblocking of internal URIs"
+#~ msgstr "信任网站：内部 URI 不屏蔽广告"
+
+#~ msgid "Trust websites: No JavaScript blocking of internal URIs"
+#~ msgstr "信任网站：内部 URI 不屏蔽 JavaScript"
+
+#~ msgid "Predict websites address"
+#~ msgstr "预测网站地址"
+
+#~ msgid "Allow synchronization"
+#~ msgstr "允许同步"
+
+#~ msgid "This page is dangerous"
+#~ msgstr "此页面有危险"
+
+#~ msgid "Eolie will not display this page"
+#~ msgstr "Eolie 将不显示此页面"
+
+#, python-format
+#~ msgid "%s is a phishing page"
+#~ msgstr "%s 是个钓鱼网站"
 
 #~ msgid "Block all unwanted popups"
 #~ msgstr "屏蔽所有多余的弹窗"
@@ -1496,12 +1505,6 @@ msgstr "1000 / 1000 个匹配项"
 
 #~ msgid "Profiles manager"
 #~ msgstr "配置文件管理器"
-
-#~ msgid "Login:"
-#~ msgstr "登录："
-
-#~ msgid "Password:"
-#~ msgstr "密码："
 
 #~ msgid "_Quit"
 #~ msgstr "退出(_Q)"

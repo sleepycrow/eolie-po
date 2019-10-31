@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 18:00+0100\n"
+"POT-Creation-Date: 2019-10-31 09:59+0100\n"
 "PO-Revision-Date: 2019-06-18 19:05+0000\n"
 "Last-Translator: Panagiotis Tabakis <tabakisp@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/gnumdk/eolie/el/>\n"
@@ -47,7 +47,7 @@ msgid "Block images"
 msgstr "Αποκλεισμός εικόνων"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
-msgid "Block medias"
+msgid "Block multimedia"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
@@ -55,110 +55,103 @@ msgid "Block JavaScript"
 msgstr "Αποκλεισμός JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
-msgid "Trust websites: No adblocking of internal URIs"
+msgid "Block Phishing"
 msgstr ""
-"Αξιόπιστες ιστοσελίδες: Χωρίς αποκλεισμό διαφημίσεων των εσωτερικών URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
-msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr ""
-"Αξιόπιστες ιστοσελίδες: Χωρίς αποκλεισμό διαφημίσεων JavaScript των "
-"εσωτερικών URI"
-
-#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr "Ενεργοποίηση ομαλής κύλισης"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Download folder URI"
 msgstr "URI του φακέλου λήψεων"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Open finished downloads"
 msgstr "Άνοιγμα ολοκληρωμένων λήψεων"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Web search engine"
 msgstr "Μηχανή αναζήτησης ιστού"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Remember sessions"
 msgstr "Απομνημόνευση συνεδριών"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "Απομνημόνευση κωδικών πρόσβασης"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Ενεργοποίηση εργαλείων προγραμματιστή"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Ενεργοποίηση πρόσθετων"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "Χρήση γραμματοσειρών συστήματος"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:422
+#: ../data/org.gnome.Eolie.gschema.xml:114
 msgid "Sans serif font"
 msgstr "Γραμματοσειρά Sans serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "Γραμματοσειρά Serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:446
+#: ../data/org.gnome.Eolie.gschema.xml:124
 msgid "Monospace font"
 msgstr "Γραμματοσειρά Monospace"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134
+#: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Open this page on startup"
 msgstr "Άνοιγμα αυτής της σελίδας κατά την εκκίνηση"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Minimum sidebar position"
 msgstr "Ελάχιστη θέση πλευρικής μπάρας"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:508
+#: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
 msgstr "Ελάχιστο μέγεθος γραμματοσειράς"
 
-#: ../data/org.gnome.Eolie.gschema.xml:149
+#: ../data/org.gnome.Eolie.gschema.xml:144
 msgid "Popular items shown"
 msgstr "Εμφανίζονται δημοφιλή στοιχεία"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154 ../data/SettingsDialog.ui:534
+#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:534
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Προεπιλεγμένο επίπεδο μεγέθυνσης"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159
+#: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "Cookies storage type"
 msgstr "Τύπος αποθήκευσης cookies"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164
+#: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "History storage type"
 msgstr "Τύπος αποθήκευσης ιστορικού"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:631
+#: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:631
 msgid "Tell websites I do not want to be tracked"
 msgstr "Πείτε στους ιστοτόπους ότι δεν θέλω να παρακολουθούμαι"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174
+#: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "DNS prediction"
 msgstr "Πρόβλεψη DNS"
 
-#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/SettingsDialog.ui:875
+#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:875
 msgid "Autoplay videos"
 msgstr "Αυτόματη αναπαραγωγή βίντεο"
 
-#: ../data/org.gnome.Eolie.gschema.xml:184
+#: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "Enable search suggestions"
 msgstr "Ενεργοποίηση προτάσεων αναζήτησης"
 
-#: ../data/org.gnome.Eolie.gschema.xml:189 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Ενεργοποίηση ορθογραφικού ελέγχου"
@@ -208,7 +201,7 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "Το Eolie είναι ένας νέος περιηγητής ιστού για το GNOME."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:17
-msgid "Bug Fixes"
+msgid "Bugfixes"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
@@ -538,6 +531,14 @@ msgstr "Γενικά"
 msgid "Fonts"
 msgstr "Γραμματοσειρές"
 
+#: ../data/SettingsDialog.ui:422
+msgid "Sans-serif font"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:446
+msgid "Monospaced font"
+msgstr ""
+
 #: ../data/SettingsDialog.ui:578
 msgid "Appearance"
 msgstr "Εμφάνιση"
@@ -611,8 +612,8 @@ msgid "Do not keep"
 msgstr "Να μην κρατηθούν"
 
 #: ../data/SettingsDialog.ui:857
-msgid "Predict websites address"
-msgstr "Πρόβλεψη διευθύνσεων ιστοσελίδων"
+msgid "Predict website addresses"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:905
 msgid "Privacy"
@@ -627,15 +628,15 @@ msgstr ""
 "σε όλες σας τις συσκευές που τρέχουν Eolie ή Firefox"
 
 #: ../data/SettingsDialog.ui:944
-msgid "Login :"
-msgstr "Σύνδεση:"
+msgid "Login:"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:966
-msgid "Password :"
-msgstr "Κωδικός πρόσβασης:"
+msgid "Password:"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:987
-msgid "Allow synchronization"
+#: ../data/SettingsDialog.ui:987 ../eolie/settings.py:540
+msgid "Allow syncing"
 msgstr "Να επιτρέπεται ο συγχρονισμός"
 
 #: ../data/SettingsDialog.ui:1025
@@ -643,19 +644,19 @@ msgid "Create or manage account"
 msgstr "Δημιουργία ή διαχείριση λογαριασμού"
 
 #: ../data/SettingsDialog.ui:1044
-msgid "Code :"
-msgstr "Κωδικός:"
+msgid "Code:"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
-msgid "You need to enable Two Factor Authentication"
-msgstr "Πρέπει να ενεργοποιήσετε τον Έλεγχο Ταυτότητας Δύο Παραγόντων"
+msgid "You need to turn on two-factor authentication"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:1073
-msgid "Pull from Firefox sync"
+msgid "Fetch from Firefox Sync"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1088
-msgid "Push to Firefox sync"
+msgid "Send to Firefox Sync"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1116
@@ -896,18 +897,18 @@ msgid "Show images"
 msgstr ""
 
 #: ../data/ToolbarMenu.ui:330
-msgid "Show medias"
+msgid "Show multimedia"
 msgstr ""
 
 #: ../data/ToolbarMenu.ui:396
 msgid "Run scripts"
 msgstr ""
 
-#: ../eolie/application.py:692
+#: ../eolie/application.py:686
 msgid "Do you really want to quit Eolie?"
 msgstr "Θέλετε πραγματικά να κλείσετε το Eolie;"
 
-#: ../eolie/application.py:745
+#: ../eolie/application.py:739
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Λήψεις που εκτελούνται, είστε βέβαιοι ότι θέλετε να τερματίσετε;"
 
@@ -1191,10 +1192,6 @@ msgstr "Ακύρωση συγχρονισμού"
 msgid "Start syncing"
 msgstr "Έναρξη συγχρονισμού"
 
-#: ../eolie/settings.py:540
-msgid "Allow syncing"
-msgstr "Να επιτρέπεται ο συγχρονισμός"
-
 #: ../eolie/settings.py:545
 msgid "Syncing is not working"
 msgstr "Ο συγχρονισμός δεν λειτουργεί"
@@ -1247,24 +1244,11 @@ msgstr "Επικόλληση και φόρτωση"
 msgid "Search or enter address"
 msgstr "Αναζήτηση ή εισαγωγή διεύθυνσης"
 
-#: ../eolie/webview_errors.py:81
-msgid "This page is dangerous"
-msgstr "Αυτή η σελίδα είναι επικίνδυνη"
-
-#: ../eolie/webview_errors.py:82
-msgid "Eolie will not display this page"
-msgstr "Το Eolie δεν θα εμφανίσει αυτή τη σελίδα"
-
-#: ../eolie/webview_errors.py:89
-#, python-format
-msgid "%s is a phishing page"
-msgstr "Το %s είναι μια σελίδα phishing"
-
-#: ../eolie/webview_errors.py:133
+#: ../eolie/webview_errors.py:105
 msgid "Failed to load this web page"
 msgstr "Η φόρτωση αυτής της ιστοσελίδας απέτυχε"
 
-#: ../eolie/webview_errors.py:134
+#: ../eolie/webview_errors.py:106
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -1273,56 +1257,56 @@ msgstr ""
 "διεύθυνση. <br/> Ίσως θέλετε να επαληθεύσετε ότι η σύνδεσή σας στο διαδίκτυο "
 "λειτουργεί σωστά."
 
-#: ../eolie/webview_errors.py:140
+#: ../eolie/webview_errors.py:112
 msgid "Network not available"
 msgstr "Το δίκτυο δεν είναι διαθέσιμο"
 
-#: ../eolie/webview_errors.py:141
+#: ../eolie/webview_errors.py:113
 msgid "Check your network connection"
 msgstr "Ελέγξτε τη σύνδεσή σας στο δίκτυο"
 
-#: ../eolie/webview_errors.py:151
+#: ../eolie/webview_errors.py:123
 msgid "Retry"
 msgstr "Επανάληψη"
 
-#: ../eolie/webview_errors.py:177
+#: ../eolie/webview_errors.py:149
 msgid "The certificate does not match this website"
 msgstr "Το πιστοποιητικό δεν ταιριάζει με αυτή την ιστοσελίδα"
 
-#: ../eolie/webview_errors.py:179
+#: ../eolie/webview_errors.py:151
 msgid "The certificate has expired"
 msgstr "Το πιστοποιητικό έχει λήξει"
 
-#: ../eolie/webview_errors.py:181
+#: ../eolie/webview_errors.py:153
 msgid "The signing certificate authority is not known"
 msgstr "Η αρχή του υπογεγραμμένου πιστοποιητικού δεν είναι γνωστή"
 
-#: ../eolie/webview_errors.py:183
+#: ../eolie/webview_errors.py:155
 msgid "The certificate contains errors"
 msgstr "Το πιστοποιητικό περιέχει σφάλματα"
 
-#: ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:157
 msgid "The certificate has been revoked"
 msgstr "Το πιστοποιητικό έχει ανακληθεί"
 
-#: ../eolie/webview_errors.py:187
+#: ../eolie/webview_errors.py:159
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Το πιστοποιητικό έχει υπογραφεί με έναν αδύναμο αλγόριθμο υπογραφής"
 
-#: ../eolie/webview_errors.py:191
+#: ../eolie/webview_errors.py:163
 msgid "The certificate activation time is still in the future"
 msgstr ""
 "Ο χρόνος ενεργοποίησης του πιστοποιητικού εξακολουθεί να είναι στο μέλλον"
 
-#: ../eolie/webview_errors.py:193
+#: ../eolie/webview_errors.py:165
 msgid "The identity of this website has not been verified"
 msgstr "Η ταυτότητα αυτής της ιστοσελίδας δεν έχει επαληθευτεί"
 
-#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:198
+#: ../eolie/webview_errors.py:166 ../eolie/webview_errors.py:170
 msgid "Connection is not secure"
 msgstr "Η σύνδεση δεν είναι ασφαλής"
 
-#: ../eolie/webview_errors.py:200
+#: ../eolie/webview_errors.py:172
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1334,15 +1318,15 @@ msgstr ""
 "αυτή την τοποθεσία (για παράδειγμα, προσωπικά μηνύματα, πληροφορίες "
 "πιστωτικών καρτών, ή κωδικοί πρόσβασης)."
 
-#: ../eolie/webview_errors.py:206
+#: ../eolie/webview_errors.py:178
 msgid "Accept Risk and Proceed"
 msgstr "Αποδοχή Κινδύνου και Συνέχεια"
 
-#: ../eolie/webview_errors.py:222 ../eolie/webview_errors.py:227
+#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:199
 msgid "WebKit web engine crashed"
 msgstr "Η μηχανή ιστού του WebKit συνετρίβη"
 
-#: ../eolie/webview_errors.py:229
+#: ../eolie/webview_errors.py:201
 msgid ""
 "The webpage was terminated unexpectedly. To continue, reload or go to "
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
@@ -1353,7 +1337,7 @@ msgstr ""
 "αναφέρετε ένα σφάλμα :)<br/>Χρησιμοποιήστε το <b>'WebKit Gtk'</b> ως "
 "συνιστώσα.<br/>Ορίστε το <b>[GTK]</b> ως πρόθεμα θέματος."
 
-#: ../eolie/webview_errors.py:235
+#: ../eolie/webview_errors.py:207
 msgid "Report a bug now"
 msgstr "Αναφορά σφάλματος τώρα"
 
@@ -1404,6 +1388,43 @@ msgstr "Αναζήτηση επόμενου συμβάντος"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 από 1000 αποτελέσματα"
+
+#~ msgid "Trust websites: No adblocking of internal URIs"
+#~ msgstr ""
+#~ "Αξιόπιστες ιστοσελίδες: Χωρίς αποκλεισμό διαφημίσεων των εσωτερικών URI"
+
+#~ msgid "Trust websites: No JavaScript blocking of internal URIs"
+#~ msgstr ""
+#~ "Αξιόπιστες ιστοσελίδες: Χωρίς αποκλεισμό διαφημίσεων JavaScript των "
+#~ "εσωτερικών URI"
+
+#~ msgid "Predict websites address"
+#~ msgstr "Πρόβλεψη διευθύνσεων ιστοσελίδων"
+
+#~ msgid "Login :"
+#~ msgstr "Σύνδεση:"
+
+#~ msgid "Password :"
+#~ msgstr "Κωδικός πρόσβασης:"
+
+#~ msgid "Allow synchronization"
+#~ msgstr "Να επιτρέπεται ο συγχρονισμός"
+
+#~ msgid "Code :"
+#~ msgstr "Κωδικός:"
+
+#~ msgid "You need to enable Two Factor Authentication"
+#~ msgstr "Πρέπει να ενεργοποιήσετε τον Έλεγχο Ταυτότητας Δύο Παραγόντων"
+
+#~ msgid "This page is dangerous"
+#~ msgstr "Αυτή η σελίδα είναι επικίνδυνη"
+
+#~ msgid "Eolie will not display this page"
+#~ msgstr "Το Eolie δεν θα εμφανίσει αυτή τη σελίδα"
+
+#, python-format
+#~ msgid "%s is a phishing page"
+#~ msgstr "Το %s είναι μια σελίδα phishing"
 
 #~ msgid "Block all unwanted popups"
 #~ msgstr "Αποκλεισμός όλων των ανεπιθύμητων αναδυόμενων παραθύρων"

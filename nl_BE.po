@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 18:00+0100\n"
+"POT-Creation-Date: 2019-10-31 09:59+0100\n"
 "PO-Revision-Date: 2019-04-20 19:33+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -48,7 +48,7 @@ msgid "Block images"
 msgstr "Afbeeldingen blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
-msgid "Block medias"
+msgid "Block multimedia"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
@@ -56,107 +56,103 @@ msgid "Block JavaScript"
 msgstr "JavaScript blokkeren"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
-msgid "Trust websites: No adblocking of internal URIs"
-msgstr "Websites vertrouwen: geen reclame blokkeren op interne URI’s"
+msgid "Block Phishing"
+msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
-msgid "Trust websites: No JavaScript blocking of internal URIs"
-msgstr "Websites vertrouwen: geen JavaScript blokkeren op interne URI’s"
-
-#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr "Vloeiend scrollen inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Download folder URI"
 msgstr "Map-URI downloaden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Open finished downloads"
 msgstr "Voltooide downloads openen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Web search engine"
 msgstr "Zoekmachien"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Remember sessions"
 msgstr "Sessies onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "Paswoorden onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Hulpprogramma’s voor ontwikkelaars inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Plug-ins inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "Systeemlettertypen gebruiken"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:422
+#: ../data/org.gnome.Eolie.gschema.xml:114
 msgid "Sans serif font"
 msgstr "Schreefloos"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "Met schreef"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:446
+#: ../data/org.gnome.Eolie.gschema.xml:124
 msgid "Monospace font"
 msgstr "Niet-proportioneel"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134
+#: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Open this page on startup"
 msgstr "Deze pagina openen bij opstarten"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Minimum sidebar position"
 msgstr "Minimale zijbalkpositie"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:508
+#: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
 msgstr "Minimale lettergrootte"
 
-#: ../data/org.gnome.Eolie.gschema.xml:149
+#: ../data/org.gnome.Eolie.gschema.xml:144
 msgid "Popular items shown"
 msgstr "Weergegeven populaire items"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154 ../data/SettingsDialog.ui:534
+#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:534
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Standaardzoomniveau"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159
+#: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "Cookies storage type"
 msgstr "Cookie-opslagtype"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164
+#: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "History storage type"
 msgstr "Geschiedenisopslagtype"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:631
+#: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:631
 msgid "Tell websites I do not want to be tracked"
 msgstr "Aan websites melden dat ik niet wil gevolgd worden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174
+#: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "DNS prediction"
 msgstr "DNS-voorspelling"
 
-#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/SettingsDialog.ui:875
+#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:875
 msgid "Autoplay videos"
 msgstr "Video’s automatisch afspelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:184
+#: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "Enable search suggestions"
 msgstr "Zoeksuggesties inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:189 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Spellingscontrole inschakelen"
@@ -208,7 +204,7 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie is ne webbrowser voor GNOME."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:17
-msgid "Bug Fixes"
+msgid "Bugfixes"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
@@ -538,6 +534,14 @@ msgstr "Algemeen"
 msgid "Fonts"
 msgstr "Lettertypen"
 
+#: ../data/SettingsDialog.ui:422
+msgid "Sans-serif font"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:446
+msgid "Monospaced font"
+msgstr ""
+
 #: ../data/SettingsDialog.ui:578
 msgid "Appearance"
 msgstr "Uiterlijk"
@@ -611,8 +615,8 @@ msgid "Do not keep"
 msgstr "Niet bijhouden"
 
 #: ../data/SettingsDialog.ui:857
-msgid "Predict websites address"
-msgstr "Websiteadressen voorspellen"
+msgid "Predict website addresses"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:905
 msgid "Privacy"
@@ -627,35 +631,35 @@ msgstr ""
 "met al uw apparaten waarop dat Eolie of Firefox draait"
 
 #: ../data/SettingsDialog.ui:944
-msgid "Login :"
-msgstr "Aanmeldnaam:"
+msgid "Login:"
+msgstr "Gebruikersnaam:"
 
 #: ../data/SettingsDialog.ui:966
-msgid "Password :"
+msgid "Password:"
 msgstr "Paswoord:"
 
-#: ../data/SettingsDialog.ui:987
-msgid "Allow synchronization"
-msgstr "Synchronisatie toestaan"
+#: ../data/SettingsDialog.ui:987 ../eolie/settings.py:540
+msgid "Allow syncing"
+msgstr "Synchronisatie toelaten"
 
 #: ../data/SettingsDialog.ui:1025
 msgid "Create or manage account"
 msgstr "Account aanmaken of beheren"
 
 #: ../data/SettingsDialog.ui:1044
-msgid "Code :"
-msgstr "Code:"
+msgid "Code:"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
-msgid "You need to enable Two Factor Authentication"
-msgstr "Ge moet tweestapsauthenticatie inschakelen"
+msgid "You need to turn on two-factor authentication"
+msgstr ""
 
 #: ../data/SettingsDialog.ui:1073
-msgid "Pull from Firefox sync"
+msgid "Fetch from Firefox Sync"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1088
-msgid "Push to Firefox sync"
+msgid "Send to Firefox Sync"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:1116
@@ -896,18 +900,18 @@ msgid "Show images"
 msgstr ""
 
 #: ../data/ToolbarMenu.ui:330
-msgid "Show medias"
+msgid "Show multimedia"
 msgstr ""
 
 #: ../data/ToolbarMenu.ui:396
 msgid "Run scripts"
 msgstr ""
 
-#: ../eolie/application.py:692
+#: ../eolie/application.py:686
 msgid "Do you really want to quit Eolie?"
 msgstr "Zijt ge zeker dat ge Eolie wilt afsluiten?"
 
-#: ../eolie/application.py:745
+#: ../eolie/application.py:739
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 "Der worden nog bestanden gedownload, zijt ge zeker dat ge wilt afsluiten?"
@@ -1192,10 +1196,6 @@ msgstr "Synchronisatie annuleren"
 msgid "Start syncing"
 msgstr "Synchronisatie starten"
 
-#: ../eolie/settings.py:540
-msgid "Allow syncing"
-msgstr "Synchronisatie toelaten"
-
 #: ../eolie/settings.py:545
 msgid "Syncing is not working"
 msgstr "Synchronisatie werkt niet"
@@ -1248,24 +1248,11 @@ msgstr "Plakken en laden"
 msgid "Search or enter address"
 msgstr "Zoekt of voert een adres in"
 
-#: ../eolie/webview_errors.py:81
-msgid "This page is dangerous"
-msgstr "Deze pagina is gevaarlijk"
-
-#: ../eolie/webview_errors.py:82
-msgid "Eolie will not display this page"
-msgstr "Eolie gaat deze pagina niet weergeven"
-
-#: ../eolie/webview_errors.py:89
-#, python-format
-msgid "%s is a phishing page"
-msgstr "%s is een phishingpagina"
-
-#: ../eolie/webview_errors.py:133
+#: ../eolie/webview_errors.py:105
 msgid "Failed to load this web page"
 msgstr "Laden van webpagina mislukt"
 
-#: ../eolie/webview_errors.py:134
+#: ../eolie/webview_errors.py:106
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -1274,55 +1261,55 @@ msgstr ""
 "adres.<br/>Ge kunt ook controleren of dat uw internetverbinding wel correct "
 "werkt."
 
-#: ../eolie/webview_errors.py:140
+#: ../eolie/webview_errors.py:112
 msgid "Network not available"
 msgstr "Netwerk niet beschikbaar"
 
-#: ../eolie/webview_errors.py:141
+#: ../eolie/webview_errors.py:113
 msgid "Check your network connection"
 msgstr "Controleert uw netwerkverbinding"
 
-#: ../eolie/webview_errors.py:151
+#: ../eolie/webview_errors.py:123
 msgid "Retry"
 msgstr "Opnieuw proberen"
 
-#: ../eolie/webview_errors.py:177
+#: ../eolie/webview_errors.py:149
 msgid "The certificate does not match this website"
 msgstr "Het certificaat komt niet overeen met deze website"
 
-#: ../eolie/webview_errors.py:179
+#: ../eolie/webview_errors.py:151
 msgid "The certificate has expired"
 msgstr "Het certificaat is verlopen"
 
-#: ../eolie/webview_errors.py:181
+#: ../eolie/webview_errors.py:153
 msgid "The signing certificate authority is not known"
 msgstr "De ondertekenende certificaatautoriteit is niet gekend"
 
-#: ../eolie/webview_errors.py:183
+#: ../eolie/webview_errors.py:155
 msgid "The certificate contains errors"
 msgstr "Het certificaat bevat fouten"
 
-#: ../eolie/webview_errors.py:185
+#: ../eolie/webview_errors.py:157
 msgid "The certificate has been revoked"
 msgstr "Het certificaat is ingetrokken"
 
-#: ../eolie/webview_errors.py:187
+#: ../eolie/webview_errors.py:159
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Het certificaat is ondertekend met een zwak algoritme"
 
-#: ../eolie/webview_errors.py:191
+#: ../eolie/webview_errors.py:163
 msgid "The certificate activation time is still in the future"
 msgstr "Den activatietijd van het certificaat ligt in de toekomst"
 
-#: ../eolie/webview_errors.py:193
+#: ../eolie/webview_errors.py:165
 msgid "The identity of this website has not been verified"
 msgstr "De identiteit van deze website is niet geverifieerd"
 
-#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:198
+#: ../eolie/webview_errors.py:166 ../eolie/webview_errors.py:170
 msgid "Connection is not secure"
 msgstr "Verbinding is niet beveiligd"
 
-#: ../eolie/webview_errors.py:200
+#: ../eolie/webview_errors.py:172
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1333,15 +1320,15 @@ msgstr ""
 "gegevens die ge naar deze site stuurt of dervan ontvangt te stelen of aan te "
 "passen (bijvoorbeeld privéberichten, kredietkaartgegevens of paswoorden)."
 
-#: ../eolie/webview_errors.py:206
+#: ../eolie/webview_errors.py:178
 msgid "Accept Risk and Proceed"
 msgstr "Risico aanvaarden en verdergaan"
 
-#: ../eolie/webview_errors.py:222 ../eolie/webview_errors.py:227
+#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:199
 msgid "WebKit web engine crashed"
 msgstr "WebKit is gecrasht"
 
-#: ../eolie/webview_errors.py:229
+#: ../eolie/webview_errors.py:201
 msgid ""
 "The webpage was terminated unexpectedly. To continue, reload or go to "
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
@@ -1352,7 +1339,7 @@ msgstr ""
 "voordoen, kunt ge een foutmelding indienen :)<br/>Gebruikt<b>‘WebKit Gtk’</"
 "b> als component.<br/>Stelt<b>GTK</b> in als voorvoegsel voor het onderwerp."
 
-#: ../eolie/webview_errors.py:235
+#: ../eolie/webview_errors.py:207
 msgid "Report a bug now"
 msgstr "Nu nen bug melden"
 
@@ -1403,6 +1390,40 @@ msgstr "Volgende vermelding zoeken"
 #: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 van 1000 resultaten"
+
+#~ msgid "Trust websites: No adblocking of internal URIs"
+#~ msgstr "Websites vertrouwen: geen reclame blokkeren op interne URI’s"
+
+#~ msgid "Trust websites: No JavaScript blocking of internal URIs"
+#~ msgstr "Websites vertrouwen: geen JavaScript blokkeren op interne URI’s"
+
+#~ msgid "Predict websites address"
+#~ msgstr "Websiteadressen voorspellen"
+
+#~ msgid "Login :"
+#~ msgstr "Aanmeldnaam:"
+
+#~ msgid "Password :"
+#~ msgstr "Paswoord:"
+
+#~ msgid "Allow synchronization"
+#~ msgstr "Synchronisatie toestaan"
+
+#~ msgid "Code :"
+#~ msgstr "Code:"
+
+#~ msgid "You need to enable Two Factor Authentication"
+#~ msgstr "Ge moet tweestapsauthenticatie inschakelen"
+
+#~ msgid "This page is dangerous"
+#~ msgstr "Deze pagina is gevaarlijk"
+
+#~ msgid "Eolie will not display this page"
+#~ msgstr "Eolie gaat deze pagina niet weergeven"
+
+#, python-format
+#~ msgid "%s is a phishing page"
+#~ msgstr "%s is een phishingpagina"
 
 #~ msgid "Block all unwanted popups"
 #~ msgstr "Alle ongewenste pop-upvensters blokkeren"
@@ -1513,12 +1534,6 @@ msgstr "1000 van 1000 resultaten"
 
 #~ msgid "Profiles manager"
 #~ msgstr "Profielbeheer"
-
-#~ msgid "Login:"
-#~ msgstr "Gebruikersnaam:"
-
-#~ msgid "Password:"
-#~ msgstr "Paswoord:"
 
 #~ msgid "_Quit"
 #~ msgstr "_Afsluiten"
