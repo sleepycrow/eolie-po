@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 18:00+0100\n"
-"PO-Revision-Date: 2019-06-25 15:01+0000\n"
+"PO-Revision-Date: 2019-10-31 08:58+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "eolie/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -41,15 +41,16 @@ msgstr "Blokker reklame på sider"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "Blokkert uønskede oppsprettsvinduer"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
 msgid "Block images"
 msgstr "Blokker bilder"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
+#, fuzzy
 msgid "Block medias"
-msgstr ""
+msgstr "Blokker media"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
@@ -208,8 +209,9 @@ msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie er en ny GNOME-nettleser."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:17
+#, fuzzy
 msgid "Bug Fixes"
-msgstr ""
+msgstr "Feilrettinger"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -657,11 +659,12 @@ msgstr "Du må skru på tofaktor-identitetsbekreftelse"
 
 #: ../data/SettingsDialog.ui:1073
 msgid "Pull from Firefox sync"
-msgstr ""
+msgstr "Hent fra Firefox sync"
 
 #: ../data/SettingsDialog.ui:1088
+#, fuzzy
 msgid "Push to Firefox sync"
-msgstr ""
+msgstr "Dytt til FIrefox sync"
 
 #: ../data/SettingsDialog.ui:1116
 msgid "Syncing"
@@ -894,23 +897,23 @@ msgstr "Filtrering"
 
 #: ../data/ToolbarMenu.ui:291
 msgid "Show ads"
-msgstr ""
+msgstr "Vis reklame"
 
 #: ../data/ToolbarMenu.ui:304
 msgid "Show popups"
-msgstr ""
+msgstr "Vis oppsprettsvinduer"
 
 #: ../data/ToolbarMenu.ui:317
 msgid "Show images"
-msgstr ""
+msgstr "Vis bilder"
 
 #: ../data/ToolbarMenu.ui:330
 msgid "Show medias"
-msgstr ""
+msgstr "Vis media"
 
 #: ../data/ToolbarMenu.ui:396
 msgid "Run scripts"
-msgstr ""
+msgstr "Kjør skript"
 
 #: ../eolie/application.py:692
 msgid "Do you really want to quit Eolie?"
@@ -993,11 +996,12 @@ msgstr "Blokker oppsprettsvinduer"
 
 #: ../eolie/menu_application.py:46
 msgid "Block scripts"
-msgstr ""
+msgstr "Blokker skript"
 
 #: ../eolie/menu_application.py:58
+#, fuzzy
 msgid "Blockers"
-msgstr ""
+msgstr "Blokkerere"
 
 #: ../eolie/menu_application.py:65
 msgid "_Preferences"
@@ -1247,7 +1251,7 @@ msgstr ""
 #: ../eolie/toolbar_title.py:367
 #, python-format
 msgid "Save password for: %s"
-msgstr ""
+msgstr "Lagre passord for: %s"
 
 #: ../eolie/toolbar_title.py:390
 msgid "Deny geolocation"
