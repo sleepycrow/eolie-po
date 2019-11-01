@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-31 09:59+0100\n"
-"PO-Revision-Date: 2019-08-26 21:23+0000\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/"
-">\n"
+"PO-Revision-Date: 2019-11-03 07:03+0000\n"
+"Last-Translator: Oguz Ersen <oguzersen@protonmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/>"
+"\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -41,7 +41,7 @@ msgstr "Sayfalardaki reklamları engelle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "İstenmeyen açılır pencereleri engelle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
 msgid "Block images"
@@ -49,7 +49,7 @@ msgstr "Görüntüleri engelle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
 msgid "Block multimedia"
-msgstr ""
+msgstr "Multimedyayı engelle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
@@ -57,7 +57,7 @@ msgstr "JavaScript'i engelle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Block Phishing"
-msgstr ""
+msgstr "Kimlik Avını Engelle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Enable smooth scrolling"
@@ -206,7 +206,7 @@ msgstr "Eolie yeni bir GNOME web tarayıcısıdır."
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:17
 msgid "Bugfixes"
-msgstr ""
+msgstr "Hata düzeltmeleri"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -535,11 +535,11 @@ msgstr "Yazı tipleri"
 
 #: ../data/SettingsDialog.ui:422
 msgid "Sans-serif font"
-msgstr ""
+msgstr "Sans-serif yazı tipi"
 
 #: ../data/SettingsDialog.ui:446
 msgid "Monospaced font"
-msgstr ""
+msgstr "Monospace yazı tipi"
 
 #: ../data/SettingsDialog.ui:578
 msgid "Appearance"
@@ -615,7 +615,7 @@ msgstr "Saklama"
 
 #: ../data/SettingsDialog.ui:857
 msgid "Predict website addresses"
-msgstr ""
+msgstr "Web sitesi adreslerini tahmin et"
 
 #: ../data/SettingsDialog.ui:905
 msgid "Privacy"
@@ -647,19 +647,19 @@ msgstr "Hesap oluştur veya yönet"
 
 #: ../data/SettingsDialog.ui:1044
 msgid "Code:"
-msgstr ""
+msgstr "Kod:"
 
 #: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
 msgid "You need to turn on two-factor authentication"
-msgstr ""
+msgstr "İki adımlı kimlik doğrulamasını açmanız gerekmektedir"
 
 #: ../data/SettingsDialog.ui:1073
 msgid "Fetch from Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync'ten Al"
 
 #: ../data/SettingsDialog.ui:1088
 msgid "Send to Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync'e Gönder"
 
 #: ../data/SettingsDialog.ui:1116
 msgid "Syncing"
@@ -888,23 +888,23 @@ msgstr "Filtreleme"
 
 #: ../data/ToolbarMenu.ui:291
 msgid "Show ads"
-msgstr ""
+msgstr "Reklamları göster"
 
 #: ../data/ToolbarMenu.ui:304
 msgid "Show popups"
-msgstr ""
+msgstr "Açılır pencereleri göster"
 
 #: ../data/ToolbarMenu.ui:317
 msgid "Show images"
-msgstr ""
+msgstr "Resimleri göster"
 
 #: ../data/ToolbarMenu.ui:330
 msgid "Show multimedia"
-msgstr ""
+msgstr "Multimedyayı göster"
 
 #: ../data/ToolbarMenu.ui:396
 msgid "Run scripts"
-msgstr ""
+msgstr "Scriptleri çalıştır"
 
 #: ../eolie/application.py:686
 msgid "Do you really want to quit Eolie?"
@@ -984,11 +984,11 @@ msgstr "Açılır pencereleri engelle"
 
 #: ../eolie/menu_application.py:46
 msgid "Block scripts"
-msgstr ""
+msgstr "Scriptleri engelle"
 
 #: ../eolie/menu_application.py:58
 msgid "Blockers"
-msgstr ""
+msgstr "Engelleyiciler"
 
 #: ../eolie/menu_application.py:65
 msgid "_Preferences"
@@ -1232,7 +1232,7 @@ msgstr ""
 #: ../eolie/toolbar_title.py:367
 #, python-format
 msgid "Save password for: %s"
-msgstr ""
+msgstr "Şunun için parolayı kaydet: %s"
 
 #: ../eolie/toolbar_title.py:390
 msgid "Deny geolocation"
