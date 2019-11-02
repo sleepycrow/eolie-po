@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-31 09:59+0100\n"
-"PO-Revision-Date: 2019-05-03 21:37+0000\n"
+"PO-Revision-Date: 2019-11-03 07:03+0000\n"
 "Last-Translator: mohammadA <mohammadAbdulhadi1@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/"
-">\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/gnumdk/eolie/ar/>"
+"\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.7-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -42,7 +42,7 @@ msgstr "احجب الإعلانات في الصفحات"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "احجب المنبثقات غير المرغوبة"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
 msgid "Block images"
@@ -58,7 +58,7 @@ msgstr "احجب الجافاسكربت"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Block Phishing"
-msgstr ""
+msgstr "احجب المحتوى المخادع"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Enable smooth scrolling"
@@ -206,7 +206,7 @@ msgstr "أيولي متصفح الوِب الجديد لسطح المكتب غن
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:17
 msgid "Bugfixes"
-msgstr ""
+msgstr "إصلاحات العلل"
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -531,11 +531,11 @@ msgstr "الخطوط"
 
 #: ../data/SettingsDialog.ui:422
 msgid "Sans-serif font"
-msgstr ""
+msgstr "الخط غير المذيل"
 
 #: ../data/SettingsDialog.ui:446
 msgid "Monospaced font"
-msgstr ""
+msgstr "الخط موحد المسافات"
 
 #: ../data/SettingsDialog.ui:578
 msgid "Appearance"
@@ -611,7 +611,7 @@ msgstr "لا تُبق"
 
 #: ../data/SettingsDialog.ui:857
 msgid "Predict website addresses"
-msgstr ""
+msgstr "توقع عناوين المواقع"
 
 #: ../data/SettingsDialog.ui:905
 msgid "Privacy"
@@ -643,7 +643,7 @@ msgstr "أنشئ حسابًا أو أدره"
 
 #: ../data/SettingsDialog.ui:1044
 msgid "Code:"
-msgstr ""
+msgstr "الكود:"
 
 #: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
 msgid "You need to turn on two-factor authentication"
@@ -651,11 +651,11 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:1073
 msgid "Fetch from Firefox Sync"
-msgstr ""
+msgstr "اجلب من مزامنة فيرفكس"
 
 #: ../data/SettingsDialog.ui:1088
 msgid "Send to Firefox Sync"
-msgstr ""
+msgstr "ارسل إلى مزامنة فيرفكس"
 
 #: ../data/SettingsDialog.ui:1116
 msgid "Syncing"
@@ -884,15 +884,15 @@ msgstr "الترشيح"
 
 #: ../data/ToolbarMenu.ui:291
 msgid "Show ads"
-msgstr ""
+msgstr "أظهر الإعلانات"
 
 #: ../data/ToolbarMenu.ui:304
 msgid "Show popups"
-msgstr ""
+msgstr "أظهر المنبثقات"
 
 #: ../data/ToolbarMenu.ui:317
 msgid "Show images"
-msgstr ""
+msgstr "أظهر الصور"
 
 #: ../data/ToolbarMenu.ui:330
 msgid "Show multimedia"
@@ -900,7 +900,7 @@ msgstr ""
 
 #: ../data/ToolbarMenu.ui:396
 msgid "Run scripts"
-msgstr ""
+msgstr "شغل السكربتات"
 
 #: ../eolie/application.py:686
 msgid "Do you really want to quit Eolie?"
@@ -980,11 +980,11 @@ msgstr "احجب المنبثقات"
 
 #: ../eolie/menu_application.py:46
 msgid "Block scripts"
-msgstr ""
+msgstr "احجب السكربتات"
 
 #: ../eolie/menu_application.py:58
 msgid "Blockers"
-msgstr ""
+msgstr "الحاجبات"
 
 #: ../eolie/menu_application.py:65
 msgid "_Preferences"
