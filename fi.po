@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-31 09:59+0100\n"
-"PO-Revision-Date: 2019-08-21 15:24+0000\n"
+"PO-Revision-Date: 2019-11-04 08:03+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/"
-">\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/>"
+"\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -41,7 +41,7 @@ msgstr "Estä mainokset sivuilla"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "Estä ei-halutut ponnahdusikkunat"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
 msgid "Block images"
@@ -49,7 +49,7 @@ msgstr "Estä kuvat"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
 msgid "Block multimedia"
-msgstr ""
+msgstr "Estä multimedia"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
@@ -57,7 +57,7 @@ msgstr "Estä JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64
 msgid "Block Phishing"
-msgstr ""
+msgstr "Estä kalasteluyritykset"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Enable smooth scrolling"
@@ -522,11 +522,11 @@ msgstr "Fontit"
 
 #: ../data/SettingsDialog.ui:422
 msgid "Sans-serif font"
-msgstr ""
+msgstr "Päätteetön fontti"
 
 #: ../data/SettingsDialog.ui:446
 msgid "Monospaced font"
-msgstr ""
+msgstr "Tasalevyinen fontti"
 
 #: ../data/SettingsDialog.ui:578
 msgid "Appearance"
@@ -602,7 +602,7 @@ msgstr "Älä säilytä"
 
 #: ../data/SettingsDialog.ui:857
 msgid "Predict website addresses"
-msgstr ""
+msgstr "Ennusta sivustojen osoitteet"
 
 #: ../data/SettingsDialog.ui:905
 msgid "Privacy"
@@ -634,11 +634,11 @@ msgstr "Luo tili tai hallinnoi sitä"
 
 #: ../data/SettingsDialog.ui:1044
 msgid "Code:"
-msgstr ""
+msgstr "Koodi:"
 
 #: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
 msgid "You need to turn on two-factor authentication"
-msgstr ""
+msgstr "Kaksivaiheinen tunnistautuminen tulee ottaa käyttöön"
 
 #: ../data/SettingsDialog.ui:1073
 msgid "Fetch from Firefox Sync"
@@ -875,23 +875,23 @@ msgstr "Suodatus"
 
 #: ../data/ToolbarMenu.ui:291
 msgid "Show ads"
-msgstr ""
+msgstr "Näytä mainokset"
 
 #: ../data/ToolbarMenu.ui:304
 msgid "Show popups"
-msgstr ""
+msgstr "Näytä ponnahdusikkunat"
 
 #: ../data/ToolbarMenu.ui:317
 msgid "Show images"
-msgstr ""
+msgstr "Näytä kuvat"
 
 #: ../data/ToolbarMenu.ui:330
 msgid "Show multimedia"
-msgstr ""
+msgstr "Näytä multimedia"
 
 #: ../data/ToolbarMenu.ui:396
 msgid "Run scripts"
-msgstr ""
+msgstr "Suorita komentosarjat"
 
 #: ../eolie/application.py:686
 msgid "Do you really want to quit Eolie?"
@@ -971,7 +971,7 @@ msgstr "Estä ponnahdusikkunat"
 
 #: ../eolie/menu_application.py:46
 msgid "Block scripts"
-msgstr ""
+msgstr "Estä komentosarjat"
 
 #: ../eolie/menu_application.py:58
 msgid "Blockers"
