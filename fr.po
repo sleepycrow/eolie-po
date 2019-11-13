@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-13 14:49+0100\n"
-"PO-Revision-Date: 2019-10-31 09:05+0000\n"
+"PO-Revision-Date: 2019-11-13 13:53+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/"
-">\n"
+"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
+"\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1087,7 +1087,7 @@ msgstr "Continuer"
 
 #: ../eolie/popover_tls.py:55
 msgid "Connexion is secure"
-msgstr ""
+msgstr "La Connexion est sécurisée"
 
 #: ../eolie/popover_tls.py:60
 #, python-format
@@ -1095,6 +1095,8 @@ msgid ""
 "<b>Website identity:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Identité du site Web : </b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:65
 #, python-format
@@ -1102,6 +1104,8 @@ msgid ""
 "<b>Expires on:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Expire le:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:70
 #, python-format
@@ -1109,10 +1113,12 @@ msgid ""
 "<b>Verified by:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Vérifié par:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:74
 msgid "Connexion is unsecure"
-msgstr ""
+msgstr "La connexion n'est pas sécurisée"
 
 #: ../eolie/popover_uri_content.py:200
 #, python-format
