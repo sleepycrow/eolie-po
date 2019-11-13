@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 09:59+0100\n"
+"POT-Creation-Date: 2019-11-13 14:49+0100\n"
 "PO-Revision-Date: 2019-11-04 08:03+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/>"
-"\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/"
+">\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,84 +36,84 @@ msgid "Show sidebar(sites manager)"
 msgstr "Näytä sivupalkki (sivustohallinta)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
+msgid "Minimum sidebar position"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Block ads on pages"
 msgstr "Estä mainokset sivuilla"
 
-#: ../data/org.gnome.Eolie.gschema.xml:44
+#: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Block unwanted popups"
 msgstr "Estä ei-halutut ponnahdusikkunat"
 
-#: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
+#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:44
 msgid "Block images"
 msgstr "Estä kuvat"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
+#: ../data/org.gnome.Eolie.gschema.xml:59 ../eolie/menu_application.py:45
 msgid "Block multimedia"
 msgstr "Estä multimedia"
 
-#: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
+#: ../data/org.gnome.Eolie.gschema.xml:64 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
 msgstr "Estä JavaScript"
 
-#: ../data/org.gnome.Eolie.gschema.xml:64
+#: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Block Phishing"
 msgstr "Estä kalasteluyritykset"
 
-#: ../data/org.gnome.Eolie.gschema.xml:69
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr "Käytä pehmeää vieritystä"
 
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Download folder URI"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Open finished downloads"
 msgstr "Avaa valmistuneet lataukset"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Web search engine"
 msgstr "Verkkohakukone"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Remember sessions"
 msgstr "Muista istunnot"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "Muista salasanat"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Käytä kehittäjätyökaluja"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Käytä liitännäisiä"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "Käytä järjestelmän fontteja"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114
+#: ../data/org.gnome.Eolie.gschema.xml:119
 msgid "Sans serif font"
 msgstr "Päätteetön fontti"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "Päätteellinen fontti"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124
+#: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Monospace font"
 msgstr "Tasalevyinen fontti"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Open this page on startup"
 msgstr "Avaa tämä sivu käynnistyksen yhteydessä"
-
-#: ../data/org.gnome.Eolie.gschema.xml:134
-msgid "Minimum sidebar position"
-msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
@@ -179,11 +179,11 @@ msgstr "Lahjoitukset:"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
+#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
+#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:100
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -200,10 +200,6 @@ msgstr "Verkkoselain"
 #: ../data/org.gnome.Eolie.appdata.xml.in:10
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie on uusi verkkoselain Gnomelle."
-
-#: ../data/org.gnome.Eolie.appdata.xml.in:17
-msgid "Bugfixes"
-msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -241,7 +237,7 @@ msgstr "Tyhjennä henkilökohtaiset tiedot"
 msgid "C_lear"
 msgstr "_Tyhjennä"
 
-#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:201
+#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:132
 msgid "Search"
 msgstr "Etsi"
@@ -307,8 +303,8 @@ msgstr "Poista evästeet"
 msgid "Import bookmarks from:"
 msgstr "Tuo kirjanmerkit kohteesta:"
 
-#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:145
-#: ../eolie/popover_uri.py:454
+#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
+#: ../eolie/popover_uri.py:88
 msgid "Import bookmarks"
 msgstr "Tuo kirjanmerkit"
 
@@ -351,7 +347,7 @@ msgid ""
 "from the resulting address and replace it with %s."
 msgstr ""
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:277
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:276
 msgid "Spell checking"
 msgstr "Oikoluku"
 
@@ -370,8 +366,8 @@ msgstr "Tallenna"
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:422 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:149
+#: ../eolie/popover_uri.py:57 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:99
 msgid "Cancel"
 msgstr "Peru"
 
@@ -407,15 +403,15 @@ msgstr "Näytä linkit"
 msgid "Remove all passwords"
 msgstr "Poista kaikki salasanat"
 
-#: ../data/PopoverUri.ui:173
+#: ../data/PopoverUri.ui:177
 msgid "Bookmarks"
 msgstr "Kirjanmerkit"
 
-#: ../data/PopoverUri.ui:311
+#: ../data/PopoverUri.ui:314
 msgid "Clear history"
 msgstr "Tyhjennä historia"
 
-#: ../data/PopoverUri.ui:335
+#: ../data/PopoverUri.ui:338
 msgid "History"
 msgstr "Historia"
 
@@ -816,19 +812,19 @@ msgstr "Käynnistyssivu"
 msgid "Backward"
 msgstr "Taaksepäin"
 
-#: ../data/ToolbarActions.ui:70
+#: ../data/ToolbarActions.ui:68
 msgid "Forward"
 msgstr "Eteenpäin"
 
-#: ../data/ToolbarActions.ui:102
+#: ../data/ToolbarActions.ui:98
 msgid "New page"
 msgstr "Uusi sivu"
 
-#: ../data/ToolbarActions.ui:117
+#: ../data/ToolbarActions.ui:113
 msgid "View all pages"
 msgstr "Näytä kaikki sivut"
 
-#: ../data/ToolbarActions.ui:168
+#: ../data/ToolbarActions.ui:164
 msgid "Close page"
 msgstr "Sulje sivu"
 
@@ -873,39 +869,39 @@ msgstr "Lähennä"
 msgid "Filtering"
 msgstr "Suodatus"
 
-#: ../data/ToolbarMenu.ui:291
+#: ../data/ToolbarMenu.ui:289
 msgid "Show ads"
 msgstr "Näytä mainokset"
 
-#: ../data/ToolbarMenu.ui:304
+#: ../data/ToolbarMenu.ui:301
 msgid "Show popups"
 msgstr "Näytä ponnahdusikkunat"
 
-#: ../data/ToolbarMenu.ui:317
+#: ../data/ToolbarMenu.ui:313
 msgid "Show images"
 msgstr "Näytä kuvat"
 
-#: ../data/ToolbarMenu.ui:330
+#: ../data/ToolbarMenu.ui:325
 msgid "Show multimedia"
 msgstr "Näytä multimedia"
 
-#: ../data/ToolbarMenu.ui:396
+#: ../data/ToolbarMenu.ui:390
 msgid "Run scripts"
 msgstr "Suorita komentosarjat"
 
-#: ../eolie/application.py:686
+#: ../eolie/application.py:597
 msgid "Do you really want to quit Eolie?"
 msgstr "Haluatko varmasti lopettaa Eolien?"
 
-#: ../eolie/application.py:739
+#: ../eolie/application.py:651
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Latauksia on käynnissä. Haluatko silti lopettaa?"
 
-#: ../eolie/container.py:469
+#: ../eolie/container.py:99
 msgid "Please consider a donation to the project"
 msgstr "Harkitse lahjoitusta projektille"
 
-#: ../eolie/container.py:541
+#: ../eolie/container_stack.py:229
 msgid "Do you really want to close this page?"
 msgstr "Haluatko varmasti sulkea tämän sivun?"
 
@@ -986,12 +982,12 @@ msgid "_Sidebar"
 msgstr "_Sivupalkki"
 
 #: ../eolie/menu_application.py:79
-msgid "_About"
-msgstr "_Tietoja"
-
-#: ../eolie/menu_application.py:84
 msgid "_Keyboard Shortcuts"
 msgstr "_Pikanäppäimet"
+
+#: ../eolie/menu_application.py:85
+msgid "_About"
+msgstr "_Tietoja"
 
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
@@ -1020,14 +1016,6 @@ msgstr "Sulje sivusto"
 #: ../eolie/menu_toolbar.py:47
 msgid "Enter fullscreen"
 msgstr "Siirry koko näytön tilaan"
-
-#: ../eolie/pages_manager_child.py:158
-msgid "Unpin this page"
-msgstr "Poista tämän sivun kiinnitys"
-
-#: ../eolie/pages_manager_child.py:161
-msgid "Pin this page"
-msgstr "Kiinnitä tämä sivu"
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
@@ -1087,58 +1075,87 @@ msgstr "Sallitaanko tämän sivun paikantaa sijaintisi?"
 msgid "Continue"
 msgstr "Jatka"
 
-#: ../eolie/popover_uri.py:128
-msgid "Delete page from history"
-msgstr "Poista sivu historiasta"
-
-#: ../eolie/popover_uri.py:140
-msgid "Edit bookmark"
-msgstr "Muokkaa kirjanmerkkiä"
-
-#: ../eolie/popover_uri.py:157
-msgid "Open all pages with this tag"
-msgstr "Avaa kaikki sivut tällä tunnisteella"
-
-#: ../eolie/popover_uri.py:779
-msgid "Popular"
-msgstr "Suosittu"
-
-#: ../eolie/popover_uri.py:782
-msgid "Recent"
-msgstr "Äskettäinen"
-
-#: ../eolie/popover_uri.py:784
-msgid "Unclassified"
+#: ../eolie/popover_tls.py:55
+msgid "Connexion is secure"
 msgstr ""
 
-#: ../eolie/popover_uri.py:807
-msgid "From the past hour"
-msgstr "Viimeisen tunnin ajalta"
+#: ../eolie/popover_tls.py:60
+#, python-format
+msgid ""
+"<b>Website identity:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:808
-msgid "From the past day"
-msgstr "Viimeisen vuorokauden ajalta"
+#: ../eolie/popover_tls.py:65
+#, python-format
+msgid ""
+"<b>Expires on:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:809
-msgid "From the past week"
-msgstr "Viimeisen viikon ajalta"
+#: ../eolie/popover_tls.py:70
+#, python-format
+msgid ""
+"<b>Verified by:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:811
-msgid "From the past four weeks"
-msgstr "Viimeisen kuukauden ajalta"
+#: ../eolie/popover_tls.py:74
+msgid "Connexion is unsecure"
+msgstr ""
 
-#: ../eolie/popover_uri.py:812
-msgid "From selected day"
-msgstr "Valitulta päivältä"
-
-#: ../eolie/popover_uri.py:813
-msgid "From the beginning"
-msgstr "Alusta alkaen"
-
-#: ../eolie/popover_uri.py:1067
+#: ../eolie/popover_uri_content.py:200
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s kirjanmerkkiä"
+
+#: ../eolie/popover_uri.py:253
+msgid "Popular"
+msgstr "Suosittu"
+
+#: ../eolie/popover_uri.py:256
+msgid "Recent"
+msgstr "Äskettäinen"
+
+#: ../eolie/popover_uri.py:258
+msgid "Unclassified"
+msgstr ""
+
+#: ../eolie/popover_uri.py:282
+msgid "From the past hour"
+msgstr "Viimeisen tunnin ajalta"
+
+#: ../eolie/popover_uri.py:283
+msgid "From the past day"
+msgstr "Viimeisen vuorokauden ajalta"
+
+#: ../eolie/popover_uri.py:284
+msgid "From the past week"
+msgstr "Viimeisen viikon ajalta"
+
+#: ../eolie/popover_uri.py:286
+msgid "From the past four weeks"
+msgstr "Viimeisen kuukauden ajalta"
+
+#: ../eolie/popover_uri.py:287
+msgid "From selected day"
+msgstr "Valitulta päivältä"
+
+#: ../eolie/popover_uri.py:288
+msgid "From the beginning"
+msgstr "Alusta alkaen"
+
+#: ../eolie/popover_uri_row.py:103
+msgid "Delete page from history"
+msgstr "Poista sivu historiasta"
+
+#: ../eolie/popover_uri_row.py:115
+msgid "Edit bookmark"
+msgstr "Muokkaa kirjanmerkkiä"
+
+#: ../eolie/popover_uri_row.py:132
+msgid "Open all pages with this tag"
+msgstr "Avaa kaikki sivut tällä tunnisteella"
 
 #: ../eolie/search.py:39 ../eolie/search.py:40
 msgid "https://www.google.com"
@@ -1202,11 +1219,7 @@ msgstr ""
 msgid "Downloading:"
 msgstr "Ladataan:"
 
-#: ../eolie/toolbar_title.py:279
-msgid "This page contains insecure content"
-msgstr "Tämä sivu sisältää turvatonta sisältöä"
-
-#: ../eolie/toolbar_title.py:333
+#: ../eolie/toolbar_title.py:95
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1215,23 +1228,6 @@ msgstr ""
 "Huomio: Tämä sivu on turvaton.\n"
 "Jos kirjoitat salasanasi,\n"
 "pahantahtoinen taho voi nähdä sen!"
-
-#: ../eolie/toolbar_title.py:367
-#, python-format
-msgid "Save password for: %s"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:390
-msgid "Deny geolocation"
-msgstr "Kiellä paikannus"
-
-#: ../eolie/toolbar_title.py:514
-msgid "Paste and load"
-msgstr "Liitä ja lataa"
-
-#: ../eolie/toolbar_title.py:762 ../eolie/toolbar_title.py:765
-msgid "Search or enter address"
-msgstr "Etsi tai kirjoita osoite"
 
 #: ../eolie/webview_errors.py:105
 msgid "Failed to load this web page"
@@ -1349,25 +1345,52 @@ msgstr "Etsi verkosta"
 msgid "Save page as image"
 msgstr "Tallenna sivu kuvana"
 
-#: ../eolie/webview_signals.py:145
+#: ../eolie/webview_signals.py:95
 msgid "Select files to upload"
 msgstr "Valitse lähetettävät tiedostot"
 
-#: ../eolie/webview_signals.py:148
+#: ../eolie/webview_signals.py:98
 msgid "Open"
 msgstr "Avaa"
 
-#: ../eolie/widget_find.py:47
+#: ../eolie/widget_find.py:45
 msgid "Search previous occurrence"
 msgstr "Etsi edellinen ilmentymä"
 
-#: ../eolie/widget_find.py:56
+#: ../eolie/widget_find.py:54
 msgid "Search next occurrence"
 msgstr "Etsi seuraava ilmentymä"
 
-#: ../eolie/widget_find.py:122
+#: ../eolie/widget_find.py:120
 msgid "1000 of 1000 matches"
 msgstr ""
+
+#: ../eolie/widget_uri_entry_icons.py:75
+msgid "Deny geolocation"
+msgstr "Kiellä paikannus"
+
+#: ../eolie/widget_uri_entry.py:182
+msgid "This page contains insecure content"
+msgstr "Tämä sivu sisältää turvatonta sisältöä"
+
+#: ../eolie/widget_uri_entry.py:204 ../eolie/widget_uri_entry.py:207
+msgid "Search or enter address"
+msgstr "Etsi tai kirjoita osoite"
+
+#: ../eolie/widget_uri_entry.py:280
+#, python-format
+msgid "Save password for: %s"
+msgstr ""
+
+#: ../eolie/widget_uri_entry.py:535
+msgid "Paste and load"
+msgstr "Liitä ja lataa"
+
+#~ msgid "Unpin this page"
+#~ msgstr "Poista tämän sivun kiinnitys"
+
+#~ msgid "Pin this page"
+#~ msgstr "Kiinnitä tämä sivu"
 
 #~ msgid "Predict websites address"
 #~ msgstr "Ennakoi verkkosivujen osoitteet"

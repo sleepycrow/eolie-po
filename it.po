@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 09:59+0100\n"
+"POT-Creation-Date: 2019-11-13 14:49+0100\n"
 "PO-Revision-Date: 2019-10-10 22:32+0000\n"
 "Last-Translator: Enrico <koreldan@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/eolie/it/"
@@ -36,84 +36,84 @@ msgid "Show sidebar(sites manager)"
 msgstr "Mostra la barra laterale(amministrazione siti)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
+msgid "Minimum sidebar position"
+msgstr "Posizione minima della barra laterale"
+
+#: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Block ads on pages"
 msgstr "Blocca pubblicità nelle pagine"
 
-#: ../data/org.gnome.Eolie.gschema.xml:44
+#: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Block unwanted popups"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
+#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:44
 msgid "Block images"
 msgstr "Blocca le immagini"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
+#: ../data/org.gnome.Eolie.gschema.xml:59 ../eolie/menu_application.py:45
 msgid "Block multimedia"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
+#: ../data/org.gnome.Eolie.gschema.xml:64 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
 msgstr "Blocca i JavaScript"
 
-#: ../data/org.gnome.Eolie.gschema.xml:64
+#: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Block Phishing"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:69
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr "Abilita scorrimento morbido"
 
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Download folder URI"
 msgstr "Scarica la cartella del URI"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Open finished downloads"
 msgstr "Apri gli scaricamenti terminati"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Web search engine"
 msgstr "Motore di ricerca"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Remember sessions"
 msgstr "Ricorda le sessioni"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "Ricorda le password"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Abilita gli strumenti per sviluppatori"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Abilita plugin"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "Usa i font di sistema"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114
+#: ../data/org.gnome.Eolie.gschema.xml:119
 msgid "Sans serif font"
 msgstr "font Sans serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "font Serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124
+#: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Monospace font"
 msgstr "font monospace"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Open this page on startup"
 msgstr "Apri questa pagina all'avvio"
-
-#: ../data/org.gnome.Eolie.gschema.xml:134
-msgid "Minimum sidebar position"
-msgstr "Posizione minima della barra laterale"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
@@ -179,11 +179,11 @@ msgstr "Donazioni:"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
+#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
+#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:100
 msgid "PayPal"
 msgstr "Paypal"
 
@@ -200,10 +200,6 @@ msgstr "Browser web"
 #: ../data/org.gnome.Eolie.appdata.xml.in:10
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie è un nuovo browser web per GNOME."
-
-#: ../data/org.gnome.Eolie.appdata.xml.in:17
-msgid "Bugfixes"
-msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -241,7 +237,7 @@ msgstr "Cancella i dati personali"
 msgid "C_lear"
 msgstr "C_lear (??)"
 
-#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:201
+#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:132
 msgid "Search"
 msgstr "Cerca"
@@ -312,8 +308,8 @@ msgstr "Elimina cookie"
 msgid "Import bookmarks from:"
 msgstr "Importa i segnalibri da:"
 
-#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:145
-#: ../eolie/popover_uri.py:454
+#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
+#: ../eolie/popover_uri.py:88
 msgid "Import bookmarks"
 msgstr "Importa segnalibri"
 
@@ -359,7 +355,7 @@ msgstr ""
 "di ricerca che vuoi aggiungere e controlla l'indirizzo risultante. Rimuovi "
 "il termine cercato dal indirizzo risultante e rimpiazzalo con %s."
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:277
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:276
 msgid "Spell checking"
 msgstr "controlla punteggiatura"
 
@@ -378,8 +374,8 @@ msgstr "Salva"
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:422 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:149
+#: ../eolie/popover_uri.py:57 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:99
 msgid "Cancel"
 msgstr "Cancella"
 
@@ -415,15 +411,15 @@ msgstr "Mostra i link"
 msgid "Remove all passwords"
 msgstr "Rimuovi tutte le password"
 
-#: ../data/PopoverUri.ui:173
+#: ../data/PopoverUri.ui:177
 msgid "Bookmarks"
 msgstr "Segnalibri"
 
-#: ../data/PopoverUri.ui:311
+#: ../data/PopoverUri.ui:314
 msgid "Clear history"
 msgstr "Pulisci lo storico"
 
-#: ../data/PopoverUri.ui:335
+#: ../data/PopoverUri.ui:338
 msgid "History"
 msgstr "Storico"
 
@@ -824,19 +820,19 @@ msgstr "Pagina iniziale"
 msgid "Backward"
 msgstr "Indietro"
 
-#: ../data/ToolbarActions.ui:70
+#: ../data/ToolbarActions.ui:68
 msgid "Forward"
 msgstr "Avanti"
 
-#: ../data/ToolbarActions.ui:102
+#: ../data/ToolbarActions.ui:98
 msgid "New page"
 msgstr "Nuova pagina"
 
-#: ../data/ToolbarActions.ui:117
+#: ../data/ToolbarActions.ui:113
 msgid "View all pages"
 msgstr "Visualizza tutte le pagine"
 
-#: ../data/ToolbarActions.ui:168
+#: ../data/ToolbarActions.ui:164
 msgid "Close page"
 msgstr "Chiudi pagina"
 
@@ -881,39 +877,39 @@ msgstr "Avvicinati"
 msgid "Filtering"
 msgstr "Filtrando"
 
-#: ../data/ToolbarMenu.ui:291
+#: ../data/ToolbarMenu.ui:289
 msgid "Show ads"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:304
+#: ../data/ToolbarMenu.ui:301
 msgid "Show popups"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:317
+#: ../data/ToolbarMenu.ui:313
 msgid "Show images"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:330
+#: ../data/ToolbarMenu.ui:325
 msgid "Show multimedia"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:396
+#: ../data/ToolbarMenu.ui:390
 msgid "Run scripts"
 msgstr ""
 
-#: ../eolie/application.py:686
+#: ../eolie/application.py:597
 msgid "Do you really want to quit Eolie?"
 msgstr "Vuoi davvero uscire da Eolie?"
 
-#: ../eolie/application.py:739
+#: ../eolie/application.py:651
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Ci sono dei download in corso, sei sicuro di voler uscire?"
 
-#: ../eolie/container.py:469
+#: ../eolie/container.py:99
 msgid "Please consider a donation to the project"
 msgstr "Considera di effettuare una donazione al progetto"
 
-#: ../eolie/container.py:541
+#: ../eolie/container_stack.py:229
 msgid "Do you really want to close this page?"
 msgstr "Sei sicuro di voler chiudere questa pagina?"
 
@@ -994,12 +990,12 @@ msgid "_Sidebar"
 msgstr "_Barra laterale"
 
 #: ../eolie/menu_application.py:79
-msgid "_About"
-msgstr "_Informazioni"
-
-#: ../eolie/menu_application.py:84
 msgid "_Keyboard Shortcuts"
 msgstr "Scorciatoie da _tastiera"
+
+#: ../eolie/menu_application.py:85
+msgid "_About"
+msgstr "_Informazioni"
 
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
@@ -1027,14 +1023,6 @@ msgstr ""
 
 #: ../eolie/menu_toolbar.py:47
 msgid "Enter fullscreen"
-msgstr ""
-
-#: ../eolie/pages_manager_child.py:158
-msgid "Unpin this page"
-msgstr ""
-
-#: ../eolie/pages_manager_child.py:161
-msgid "Pin this page"
 msgstr ""
 
 #: ../eolie/popover_downloads.py:111
@@ -1095,57 +1083,86 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: ../eolie/popover_uri.py:128
-msgid "Delete page from history"
+#: ../eolie/popover_tls.py:55
+msgid "Connexion is secure"
 msgstr ""
 
-#: ../eolie/popover_uri.py:140
-msgid "Edit bookmark"
+#: ../eolie/popover_tls.py:60
+#, python-format
+msgid ""
+"<b>Website identity:</b> %s\n"
+"\n"
 msgstr ""
 
-#: ../eolie/popover_uri.py:157
-msgid "Open all pages with this tag"
+#: ../eolie/popover_tls.py:65
+#, python-format
+msgid ""
+"<b>Expires on:</b> %s\n"
+"\n"
 msgstr ""
 
-#: ../eolie/popover_uri.py:779
+#: ../eolie/popover_tls.py:70
+#, python-format
+msgid ""
+"<b>Verified by:</b> %s\n"
+"\n"
+msgstr ""
+
+#: ../eolie/popover_tls.py:74
+msgid "Connexion is unsecure"
+msgstr ""
+
+#: ../eolie/popover_uri_content.py:200
+#, python-format
+msgid "%s bookmarks"
+msgstr ""
+
+#: ../eolie/popover_uri.py:253
 msgid "Popular"
 msgstr ""
 
-#: ../eolie/popover_uri.py:782
+#: ../eolie/popover_uri.py:256
 msgid "Recent"
 msgstr ""
 
-#: ../eolie/popover_uri.py:784
+#: ../eolie/popover_uri.py:258
 msgid "Unclassified"
 msgstr ""
 
-#: ../eolie/popover_uri.py:807
+#: ../eolie/popover_uri.py:282
 msgid "From the past hour"
 msgstr ""
 
-#: ../eolie/popover_uri.py:808
+#: ../eolie/popover_uri.py:283
 msgid "From the past day"
 msgstr ""
 
-#: ../eolie/popover_uri.py:809
+#: ../eolie/popover_uri.py:284
 msgid "From the past week"
 msgstr ""
 
-#: ../eolie/popover_uri.py:811
+#: ../eolie/popover_uri.py:286
 msgid "From the past four weeks"
 msgstr ""
 
-#: ../eolie/popover_uri.py:812
+#: ../eolie/popover_uri.py:287
 msgid "From selected day"
 msgstr ""
 
-#: ../eolie/popover_uri.py:813
+#: ../eolie/popover_uri.py:288
 msgid "From the beginning"
 msgstr ""
 
-#: ../eolie/popover_uri.py:1067
-#, python-format
-msgid "%s bookmarks"
+#: ../eolie/popover_uri_row.py:103
+msgid "Delete page from history"
+msgstr ""
+
+#: ../eolie/popover_uri_row.py:115
+msgid "Edit bookmark"
+msgstr ""
+
+#: ../eolie/popover_uri_row.py:132
+msgid "Open all pages with this tag"
 msgstr ""
 
 #: ../eolie/search.py:39 ../eolie/search.py:40
@@ -1206,32 +1223,11 @@ msgstr ""
 msgid "Downloading:"
 msgstr ""
 
-#: ../eolie/toolbar_title.py:279
-msgid "This page contains insecure content"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:333
+#: ../eolie/toolbar_title.py:95
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
 "it will be visible to cybercriminals!"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:367
-#, python-format
-msgid "Save password for: %s"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:390
-msgid "Deny geolocation"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:514
-msgid "Paste and load"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:762 ../eolie/toolbar_title.py:765
-msgid "Search or enter address"
 msgstr ""
 
 #: ../eolie/webview_errors.py:105
@@ -1347,24 +1343,45 @@ msgstr "Cerca sul Web"
 msgid "Save page as image"
 msgstr ""
 
-#: ../eolie/webview_signals.py:145
+#: ../eolie/webview_signals.py:95
 msgid "Select files to upload"
 msgstr ""
 
-#: ../eolie/webview_signals.py:148
+#: ../eolie/webview_signals.py:98
 msgid "Open"
 msgstr "Apri"
 
-#: ../eolie/widget_find.py:47
+#: ../eolie/widget_find.py:45
 msgid "Search previous occurrence"
 msgstr ""
 
-#: ../eolie/widget_find.py:56
+#: ../eolie/widget_find.py:54
 msgid "Search next occurrence"
 msgstr ""
 
-#: ../eolie/widget_find.py:122
+#: ../eolie/widget_find.py:120
 msgid "1000 of 1000 matches"
+msgstr ""
+
+#: ../eolie/widget_uri_entry_icons.py:75
+msgid "Deny geolocation"
+msgstr ""
+
+#: ../eolie/widget_uri_entry.py:182
+msgid "This page contains insecure content"
+msgstr ""
+
+#: ../eolie/widget_uri_entry.py:204 ../eolie/widget_uri_entry.py:207
+msgid "Search or enter address"
+msgstr ""
+
+#: ../eolie/widget_uri_entry.py:280
+#, python-format
+msgid "Save password for: %s"
+msgstr ""
+
+#: ../eolie/widget_uri_entry.py:535
+msgid "Paste and load"
 msgstr ""
 
 #~ msgid "Trust websites: No adblocking of internal URIs"

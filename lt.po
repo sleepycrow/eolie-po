@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 09:59+0100\n"
+"POT-Creation-Date: 2019-11-13 14:49+0100\n"
 "PO-Revision-Date: 2019-04-20 19:33+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -38,84 +38,84 @@ msgid "Show sidebar(sites manager)"
 msgstr "Rodyti šoninę juostą (svetainių tvarkytuvę)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
+msgid "Minimum sidebar position"
+msgstr "Minimali šoninės juostos pozicija"
+
+#: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Block ads on pages"
 msgstr "Blokuoti puslapiuose reklamas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:44
+#: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Block unwanted popups"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
+#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:44
 msgid "Block images"
 msgstr "Blokuoti paveikslus"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
+#: ../data/org.gnome.Eolie.gschema.xml:59 ../eolie/menu_application.py:45
 msgid "Block multimedia"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
+#: ../data/org.gnome.Eolie.gschema.xml:64 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
 msgstr "Blokuoti JavaScript"
 
-#: ../data/org.gnome.Eolie.gschema.xml:64
+#: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Block Phishing"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:69
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr "Įjungti glotnų slinkimą"
 
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Download folder URI"
 msgstr "Atsiuntimų aplanko URI"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Open finished downloads"
 msgstr "Atverti užbaigtus atsiuntimus"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Web search engine"
 msgstr "Saityno paieškos sistema"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Remember sessions"
 msgstr "Prisiminti seansus"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "Prisiminti slaptažodžius"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Įjungti kūrėjo įrankius"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Įjungti įskiepius"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "Naudoti sistemos šriftus"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114
+#: ../data/org.gnome.Eolie.gschema.xml:119
 msgid "Sans serif font"
 msgstr "Neserifinis šriftas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "Serifinis šriftas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124
+#: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Monospace font"
 msgstr "Lygiaplotis šriftas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Open this page on startup"
 msgstr "Atverti šį puslapį paleidimo metu"
-
-#: ../data/org.gnome.Eolie.gschema.xml:134
-msgid "Minimum sidebar position"
-msgstr "Minimali šoninės juostos pozicija"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
@@ -181,11 +181,11 @@ msgstr "Paaukojimai:"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
+#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
+#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:100
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -202,10 +202,6 @@ msgstr "Saityno naršyklė"
 #: ../data/org.gnome.Eolie.appdata.xml.in:10
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie yra nauja GNOME saityno naršyklė."
-
-#: ../data/org.gnome.Eolie.appdata.xml.in:17
-msgid "Bugfixes"
-msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -243,7 +239,7 @@ msgstr "Išvalyti asmeninius duomenis"
 msgid "C_lear"
 msgstr "Išva_lyti"
 
-#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:201
+#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:132
 msgid "Search"
 msgstr "Paieška"
@@ -314,8 +310,8 @@ msgstr "Ištrinti slapukus"
 msgid "Import bookmarks from:"
 msgstr "Importuoti adresyną iš:"
 
-#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:145
-#: ../eolie/popover_uri.py:454
+#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
+#: ../eolie/popover_uri.py:88
 msgid "Import bookmarks"
 msgstr "Importuoti adresyną"
 
@@ -363,7 +359,7 @@ msgstr ""
 "paieškos sistemoje ir patikrinkite galutinį adresą.  Pašalinkite iš "
 "galutinio adreso paieškos žodį ir pakeiskite jį į %s."
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:277
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:276
 msgid "Spell checking"
 msgstr "Rašybos tikrinimas"
 
@@ -382,8 +378,8 @@ msgstr "Įrašyti"
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:422 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:149
+#: ../eolie/popover_uri.py:57 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:99
 msgid "Cancel"
 msgstr "Atsisakyti"
 
@@ -419,15 +415,15 @@ msgstr "Rodyti nuorodas"
 msgid "Remove all passwords"
 msgstr "Šalinti visus slaptažodžius"
 
-#: ../data/PopoverUri.ui:173
+#: ../data/PopoverUri.ui:177
 msgid "Bookmarks"
 msgstr "Adresynas"
 
-#: ../data/PopoverUri.ui:311
+#: ../data/PopoverUri.ui:314
 msgid "Clear history"
 msgstr "Išvalyti istoriją"
 
-#: ../data/PopoverUri.ui:335
+#: ../data/PopoverUri.ui:338
 msgid "History"
 msgstr "Istorija"
 
@@ -829,19 +825,19 @@ msgstr "Paleidimo puslapis"
 msgid "Backward"
 msgstr "Atgal"
 
-#: ../data/ToolbarActions.ui:70
+#: ../data/ToolbarActions.ui:68
 msgid "Forward"
 msgstr "Pirmyn"
 
-#: ../data/ToolbarActions.ui:102
+#: ../data/ToolbarActions.ui:98
 msgid "New page"
 msgstr "Naujas puslapis"
 
-#: ../data/ToolbarActions.ui:117
+#: ../data/ToolbarActions.ui:113
 msgid "View all pages"
 msgstr "Rodyti visus puslapius"
 
-#: ../data/ToolbarActions.ui:168
+#: ../data/ToolbarActions.ui:164
 msgid "Close page"
 msgstr "Užverti puslapį"
 
@@ -886,39 +882,39 @@ msgstr "Didinti"
 msgid "Filtering"
 msgstr "Filtravimas"
 
-#: ../data/ToolbarMenu.ui:291
+#: ../data/ToolbarMenu.ui:289
 msgid "Show ads"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:304
+#: ../data/ToolbarMenu.ui:301
 msgid "Show popups"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:317
+#: ../data/ToolbarMenu.ui:313
 msgid "Show images"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:330
+#: ../data/ToolbarMenu.ui:325
 msgid "Show multimedia"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:396
+#: ../data/ToolbarMenu.ui:390
 msgid "Run scripts"
 msgstr ""
 
-#: ../eolie/application.py:686
+#: ../eolie/application.py:597
 msgid "Do you really want to quit Eolie?"
 msgstr "Ar tikrai norite išeiti iš Eolie?"
 
-#: ../eolie/application.py:739
+#: ../eolie/application.py:651
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Yra vykdomi atsiuntimai, ar tikrai norite išeiti?"
 
-#: ../eolie/container.py:469
+#: ../eolie/container.py:99
 msgid "Please consider a donation to the project"
 msgstr "Pasvarstykite paaukoti šiam projektui"
 
-#: ../eolie/container.py:541
+#: ../eolie/container_stack.py:229
 msgid "Do you really want to close this page?"
 msgstr "Ar tikrai norite užverti šį puslapį?"
 
@@ -999,12 +995,12 @@ msgid "_Sidebar"
 msgstr "Š_oninė juosta"
 
 #: ../eolie/menu_application.py:79
-msgid "_About"
-msgstr "_Apie"
-
-#: ../eolie/menu_application.py:84
 msgid "_Keyboard Shortcuts"
 msgstr "_Klaviatūros trumpiniai"
+
+#: ../eolie/menu_application.py:85
+msgid "_About"
+msgstr "_Apie"
 
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
@@ -1033,14 +1029,6 @@ msgstr "Užverti svetainę"
 #: ../eolie/menu_toolbar.py:47
 msgid "Enter fullscreen"
 msgstr "Rodyti visame ekrane"
-
-#: ../eolie/pages_manager_child.py:158
-msgid "Unpin this page"
-msgstr "Atsegti šį puslapį"
-
-#: ../eolie/pages_manager_child.py:161
-msgid "Pin this page"
-msgstr "Prisegti šį puslapį"
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
@@ -1100,58 +1088,87 @@ msgstr "Suteikti šiam puslapiui prieigą prie jūsų buvimo vietos?"
 msgid "Continue"
 msgstr "Tęsti"
 
-#: ../eolie/popover_uri.py:128
-msgid "Delete page from history"
-msgstr "Ištrinti puslapį iš istorijos"
+#: ../eolie/popover_tls.py:55
+msgid "Connexion is secure"
+msgstr ""
 
-#: ../eolie/popover_uri.py:140
-msgid "Edit bookmark"
-msgstr "Taisyti adresyno įrašą"
+#: ../eolie/popover_tls.py:60
+#, python-format
+msgid ""
+"<b>Website identity:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:157
-msgid "Open all pages with this tag"
-msgstr "Atverti visus puslapius, turinčius šią žymę"
+#: ../eolie/popover_tls.py:65
+#, python-format
+msgid ""
+"<b>Expires on:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:779
-msgid "Popular"
-msgstr "Populiarūs"
+#: ../eolie/popover_tls.py:70
+#, python-format
+msgid ""
+"<b>Verified by:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:782
-msgid "Recent"
-msgstr "Paskiausi"
+#: ../eolie/popover_tls.py:74
+msgid "Connexion is unsecure"
+msgstr ""
 
-#: ../eolie/popover_uri.py:784
-msgid "Unclassified"
-msgstr "Nesuskirstyti"
-
-#: ../eolie/popover_uri.py:807
-msgid "From the past hour"
-msgstr "Nuo praeitos valandos"
-
-#: ../eolie/popover_uri.py:808
-msgid "From the past day"
-msgstr "Nuo praeitos dienos"
-
-#: ../eolie/popover_uri.py:809
-msgid "From the past week"
-msgstr "Nuo praeitos savaitės"
-
-#: ../eolie/popover_uri.py:811
-msgid "From the past four weeks"
-msgstr "Nuo praeitų keturių savaičių"
-
-#: ../eolie/popover_uri.py:812
-msgid "From selected day"
-msgstr "Nuo pasirinktos dienos"
-
-#: ../eolie/popover_uri.py:813
-msgid "From the beginning"
-msgstr "Nuo pradžios"
-
-#: ../eolie/popover_uri.py:1067
+#: ../eolie/popover_uri_content.py:200
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s adresyno įrašai(-ų)"
+
+#: ../eolie/popover_uri.py:253
+msgid "Popular"
+msgstr "Populiarūs"
+
+#: ../eolie/popover_uri.py:256
+msgid "Recent"
+msgstr "Paskiausi"
+
+#: ../eolie/popover_uri.py:258
+msgid "Unclassified"
+msgstr "Nesuskirstyti"
+
+#: ../eolie/popover_uri.py:282
+msgid "From the past hour"
+msgstr "Nuo praeitos valandos"
+
+#: ../eolie/popover_uri.py:283
+msgid "From the past day"
+msgstr "Nuo praeitos dienos"
+
+#: ../eolie/popover_uri.py:284
+msgid "From the past week"
+msgstr "Nuo praeitos savaitės"
+
+#: ../eolie/popover_uri.py:286
+msgid "From the past four weeks"
+msgstr "Nuo praeitų keturių savaičių"
+
+#: ../eolie/popover_uri.py:287
+msgid "From selected day"
+msgstr "Nuo pasirinktos dienos"
+
+#: ../eolie/popover_uri.py:288
+msgid "From the beginning"
+msgstr "Nuo pradžios"
+
+#: ../eolie/popover_uri_row.py:103
+msgid "Delete page from history"
+msgstr "Ištrinti puslapį iš istorijos"
+
+#: ../eolie/popover_uri_row.py:115
+msgid "Edit bookmark"
+msgstr "Taisyti adresyno įrašą"
+
+#: ../eolie/popover_uri_row.py:132
+msgid "Open all pages with this tag"
+msgstr "Atverti visus puslapius, turinčius šią žymę"
 
 #: ../eolie/search.py:39 ../eolie/search.py:40
 msgid "https://www.google.com"
@@ -1215,11 +1232,7 @@ msgstr "Jūs gavote el. laišką, skirtą patvirtinti sinchronizavimą"
 msgid "Downloading:"
 msgstr "Atsiunčiama:"
 
-#: ../eolie/toolbar_title.py:279
-msgid "This page contains insecure content"
-msgstr "Šiame puslapyje yra nesaugus turinys"
-
-#: ../eolie/toolbar_title.py:333
+#: ../eolie/toolbar_title.py:95
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1228,23 +1241,6 @@ msgstr ""
 "Atsargiai: Šis puslapis yra nesaugus.\n"
 "Jeigu įrašysite savo slaptažodį,\n"
 "jis bus matomas kibernetiniams nusikaltėliams!"
-
-#: ../eolie/toolbar_title.py:367
-#, python-format
-msgid "Save password for: %s"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:390
-msgid "Deny geolocation"
-msgstr "Atmesti geografinės vietos nustatymą"
-
-#: ../eolie/toolbar_title.py:514
-msgid "Paste and load"
-msgstr "Įdėti ir įkelti"
-
-#: ../eolie/toolbar_title.py:762 ../eolie/toolbar_title.py:765
-msgid "Search or enter address"
-msgstr "Įveskite paiešką arba adresą"
 
 #: ../eolie/webview_errors.py:105
 msgid "Failed to load this web page"
@@ -1369,25 +1365,52 @@ msgstr "Ieškoti saityne"
 msgid "Save page as image"
 msgstr "Įrašyti puslapį kaip paveikslą"
 
-#: ../eolie/webview_signals.py:145
+#: ../eolie/webview_signals.py:95
 msgid "Select files to upload"
 msgstr "Pasirinkite norimus įkelti failus"
 
-#: ../eolie/webview_signals.py:148
+#: ../eolie/webview_signals.py:98
 msgid "Open"
 msgstr "Atverti"
 
-#: ../eolie/widget_find.py:47
+#: ../eolie/widget_find.py:45
 msgid "Search previous occurrence"
 msgstr "Ieškoti ankstesnio atitikmens"
 
-#: ../eolie/widget_find.py:56
+#: ../eolie/widget_find.py:54
 msgid "Search next occurrence"
 msgstr "Ieškoti kito atitikmens"
 
-#: ../eolie/widget_find.py:122
+#: ../eolie/widget_find.py:120
 msgid "1000 of 1000 matches"
 msgstr "1000 iš 1000 atitikmenų"
+
+#: ../eolie/widget_uri_entry_icons.py:75
+msgid "Deny geolocation"
+msgstr "Atmesti geografinės vietos nustatymą"
+
+#: ../eolie/widget_uri_entry.py:182
+msgid "This page contains insecure content"
+msgstr "Šiame puslapyje yra nesaugus turinys"
+
+#: ../eolie/widget_uri_entry.py:204 ../eolie/widget_uri_entry.py:207
+msgid "Search or enter address"
+msgstr "Įveskite paiešką arba adresą"
+
+#: ../eolie/widget_uri_entry.py:280
+#, python-format
+msgid "Save password for: %s"
+msgstr ""
+
+#: ../eolie/widget_uri_entry.py:535
+msgid "Paste and load"
+msgstr "Įdėti ir įkelti"
+
+#~ msgid "Unpin this page"
+#~ msgstr "Atsegti šį puslapį"
+
+#~ msgid "Pin this page"
+#~ msgstr "Prisegti šį puslapį"
 
 #~ msgid "Trust websites: No adblocking of internal URIs"
 #~ msgstr "Pasitikėti svetainėmis: Neblokuoti reklamų vidiniams URI"

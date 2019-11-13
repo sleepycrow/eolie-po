@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 09:59+0100\n"
+"POT-Creation-Date: 2019-11-13 14:49+0100\n"
 "PO-Revision-Date: 2019-04-20 19:33+0000\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Flemish <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -36,84 +36,84 @@ msgid "Show sidebar(sites manager)"
 msgstr "Zijbalk weergeven (sitebeheerder)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
+msgid "Minimum sidebar position"
+msgstr "Minimale zijbalkpositie"
+
+#: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Block ads on pages"
 msgstr "Reclame blokkeren"
 
-#: ../data/org.gnome.Eolie.gschema.xml:44
+#: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Block unwanted popups"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
+#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:44
 msgid "Block images"
 msgstr "Afbeeldingen blokkeren"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
+#: ../data/org.gnome.Eolie.gschema.xml:59 ../eolie/menu_application.py:45
 msgid "Block multimedia"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
+#: ../data/org.gnome.Eolie.gschema.xml:64 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
 msgstr "JavaScript blokkeren"
 
-#: ../data/org.gnome.Eolie.gschema.xml:64
+#: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Block Phishing"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:69
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr "Vloeiend scrollen inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Download folder URI"
 msgstr "Map-URI downloaden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Open finished downloads"
 msgstr "Voltooide downloads openen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Web search engine"
 msgstr "Zoekmachien"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Remember sessions"
 msgstr "Sessies onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "Paswoorden onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Hulpprogramma’s voor ontwikkelaars inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Plug-ins inschakelen"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "Systeemlettertypen gebruiken"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114
+#: ../data/org.gnome.Eolie.gschema.xml:119
 msgid "Sans serif font"
 msgstr "Schreefloos"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "Met schreef"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124
+#: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Monospace font"
 msgstr "Niet-proportioneel"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Open this page on startup"
 msgstr "Deze pagina openen bij opstarten"
-
-#: ../data/org.gnome.Eolie.gschema.xml:134
-msgid "Minimum sidebar position"
-msgstr "Minimale zijbalkpositie"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
@@ -181,11 +181,11 @@ msgstr "Donaties:"
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
+#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
+#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:100
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -202,10 +202,6 @@ msgstr "Webbrowser"
 #: ../data/org.gnome.Eolie.appdata.xml.in:10
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie is ne webbrowser voor GNOME."
-
-#: ../data/org.gnome.Eolie.appdata.xml.in:17
-msgid "Bugfixes"
-msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -243,7 +239,7 @@ msgstr "Persoonlijke gegevens wissen"
 msgid "C_lear"
 msgstr "Wiss_en"
 
-#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:201
+#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:132
 msgid "Search"
 msgstr "Zoeken"
@@ -315,8 +311,8 @@ msgstr "Cookies verwijderen"
 msgid "Import bookmarks from:"
 msgstr "Bladwijzers importeren uit:"
 
-#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:145
-#: ../eolie/popover_uri.py:454
+#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
+#: ../eolie/popover_uri.py:88
 msgid "Import bookmarks"
 msgstr "Bladwijzers importeren"
 
@@ -365,7 +361,7 @@ msgstr ""
 "ge terechtkomt. Verwijdert de zoekterm uit dit adres en vervangt dezen door "
 "‘%s’."
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:277
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:276
 msgid "Spell checking"
 msgstr "Spellingscontrole"
 
@@ -384,8 +380,8 @@ msgstr "Opslaan"
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:422 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:149
+#: ../eolie/popover_uri.py:57 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:99
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -421,15 +417,15 @@ msgstr "Verwijzingen weergeven"
 msgid "Remove all passwords"
 msgstr "Alle paswoorden verwijderen"
 
-#: ../data/PopoverUri.ui:173
+#: ../data/PopoverUri.ui:177
 msgid "Bookmarks"
 msgstr "Bladwijzers"
 
-#: ../data/PopoverUri.ui:311
+#: ../data/PopoverUri.ui:314
 msgid "Clear history"
 msgstr "Geschiedenis wissen"
 
-#: ../data/PopoverUri.ui:335
+#: ../data/PopoverUri.ui:338
 msgid "History"
 msgstr "Geschiedenis"
 
@@ -830,19 +826,19 @@ msgstr "Startpagina"
 msgid "Backward"
 msgstr "Terug"
 
-#: ../data/ToolbarActions.ui:70
+#: ../data/ToolbarActions.ui:68
 msgid "Forward"
 msgstr "Vooruit"
 
-#: ../data/ToolbarActions.ui:102
+#: ../data/ToolbarActions.ui:98
 msgid "New page"
 msgstr "Nieuw tabblad"
 
-#: ../data/ToolbarActions.ui:117
+#: ../data/ToolbarActions.ui:113
 msgid "View all pages"
 msgstr "Alle tabbladen weergeven"
 
-#: ../data/ToolbarActions.ui:168
+#: ../data/ToolbarActions.ui:164
 msgid "Close page"
 msgstr "Tabblad sluiten"
 
@@ -887,40 +883,40 @@ msgstr "Inzoomen"
 msgid "Filtering"
 msgstr "Filters"
 
-#: ../data/ToolbarMenu.ui:291
+#: ../data/ToolbarMenu.ui:289
 msgid "Show ads"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:304
+#: ../data/ToolbarMenu.ui:301
 msgid "Show popups"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:317
+#: ../data/ToolbarMenu.ui:313
 msgid "Show images"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:330
+#: ../data/ToolbarMenu.ui:325
 msgid "Show multimedia"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:396
+#: ../data/ToolbarMenu.ui:390
 msgid "Run scripts"
 msgstr ""
 
-#: ../eolie/application.py:686
+#: ../eolie/application.py:597
 msgid "Do you really want to quit Eolie?"
 msgstr "Zijt ge zeker dat ge Eolie wilt afsluiten?"
 
-#: ../eolie/application.py:739
+#: ../eolie/application.py:651
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 "Der worden nog bestanden gedownload, zijt ge zeker dat ge wilt afsluiten?"
 
-#: ../eolie/container.py:469
+#: ../eolie/container.py:99
 msgid "Please consider a donation to the project"
 msgstr "Gelieve een donatie aan het project te overwegen"
 
-#: ../eolie/container.py:541
+#: ../eolie/container_stack.py:229
 msgid "Do you really want to close this page?"
 msgstr "Zijt ge zeker dat ge deze pagina wilt sluiten?"
 
@@ -1001,12 +997,12 @@ msgid "_Sidebar"
 msgstr "_Zijbalk"
 
 #: ../eolie/menu_application.py:79
-msgid "_About"
-msgstr "_Info"
-
-#: ../eolie/menu_application.py:84
 msgid "_Keyboard Shortcuts"
 msgstr "_Sneltoetsen"
+
+#: ../eolie/menu_application.py:85
+msgid "_About"
+msgstr "_Info"
 
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
@@ -1035,14 +1031,6 @@ msgstr "Site sluiten"
 #: ../eolie/menu_toolbar.py:47
 msgid "Enter fullscreen"
 msgstr "Volledig scherm"
-
-#: ../eolie/pages_manager_child.py:158
-msgid "Unpin this page"
-msgstr "Deze pagina losmaken"
-
-#: ../eolie/pages_manager_child.py:161
-msgid "Pin this page"
-msgstr "Deze pagina vastmaken"
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
@@ -1102,58 +1090,87 @@ msgstr "Wilt ge deze pagina toegang geven tot uw locatie?"
 msgid "Continue"
 msgstr "Verdergaan"
 
-#: ../eolie/popover_uri.py:128
-msgid "Delete page from history"
-msgstr "Pagina verwijderen uit geschiedenis"
+#: ../eolie/popover_tls.py:55
+msgid "Connexion is secure"
+msgstr ""
 
-#: ../eolie/popover_uri.py:140
-msgid "Edit bookmark"
-msgstr "Bladwijzer bewerken"
+#: ../eolie/popover_tls.py:60
+#, python-format
+msgid ""
+"<b>Website identity:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:157
-msgid "Open all pages with this tag"
-msgstr "Alle pagina’s met dezen tag openen"
+#: ../eolie/popover_tls.py:65
+#, python-format
+msgid ""
+"<b>Expires on:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:779
-msgid "Popular"
-msgstr "Populair"
+#: ../eolie/popover_tls.py:70
+#, python-format
+msgid ""
+"<b>Verified by:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:782
-msgid "Recent"
-msgstr "Recent"
+#: ../eolie/popover_tls.py:74
+msgid "Connexion is unsecure"
+msgstr ""
 
-#: ../eolie/popover_uri.py:784
-msgid "Unclassified"
-msgstr "Ongeclassificeerd"
-
-#: ../eolie/popover_uri.py:807
-msgid "From the past hour"
-msgstr "Van het voorbije uur"
-
-#: ../eolie/popover_uri.py:808
-msgid "From the past day"
-msgstr "Van de voorbijen dag"
-
-#: ../eolie/popover_uri.py:809
-msgid "From the past week"
-msgstr "Van de voorbije week"
-
-#: ../eolie/popover_uri.py:811
-msgid "From the past four weeks"
-msgstr "Van de voorbije vier weken"
-
-#: ../eolie/popover_uri.py:812
-msgid "From selected day"
-msgstr "Vanaf nen bepaalden dag"
-
-#: ../eolie/popover_uri.py:813
-msgid "From the beginning"
-msgstr "Vanaf het begin"
-
-#: ../eolie/popover_uri.py:1067
+#: ../eolie/popover_uri_content.py:200
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bladwijzers"
+
+#: ../eolie/popover_uri.py:253
+msgid "Popular"
+msgstr "Populair"
+
+#: ../eolie/popover_uri.py:256
+msgid "Recent"
+msgstr "Recent"
+
+#: ../eolie/popover_uri.py:258
+msgid "Unclassified"
+msgstr "Ongeclassificeerd"
+
+#: ../eolie/popover_uri.py:282
+msgid "From the past hour"
+msgstr "Van het voorbije uur"
+
+#: ../eolie/popover_uri.py:283
+msgid "From the past day"
+msgstr "Van de voorbijen dag"
+
+#: ../eolie/popover_uri.py:284
+msgid "From the past week"
+msgstr "Van de voorbije week"
+
+#: ../eolie/popover_uri.py:286
+msgid "From the past four weeks"
+msgstr "Van de voorbije vier weken"
+
+#: ../eolie/popover_uri.py:287
+msgid "From selected day"
+msgstr "Vanaf nen bepaalden dag"
+
+#: ../eolie/popover_uri.py:288
+msgid "From the beginning"
+msgstr "Vanaf het begin"
+
+#: ../eolie/popover_uri_row.py:103
+msgid "Delete page from history"
+msgstr "Pagina verwijderen uit geschiedenis"
+
+#: ../eolie/popover_uri_row.py:115
+msgid "Edit bookmark"
+msgstr "Bladwijzer bewerken"
+
+#: ../eolie/popover_uri_row.py:132
+msgid "Open all pages with this tag"
+msgstr "Alle pagina’s met dezen tag openen"
 
 #: ../eolie/search.py:39 ../eolie/search.py:40
 msgid "https://www.google.com"
@@ -1217,11 +1234,7 @@ msgstr "Ge hebt nen e-mail ontvangen voor synchronisatie toe te laten"
 msgid "Downloading:"
 msgstr "Downloaden:"
 
-#: ../eolie/toolbar_title.py:279
-msgid "This page contains insecure content"
-msgstr "Deze pagina bevat onbeveiligden inhoud"
-
-#: ../eolie/toolbar_title.py:333
+#: ../eolie/toolbar_title.py:95
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1230,23 +1243,6 @@ msgstr ""
 "Past op: deze pagina is onveilig.\n"
 "Als ge uw wachtwoord invoert,\n"
 "gaat het zichtbaar zijn voor cybercriminelen!"
-
-#: ../eolie/toolbar_title.py:367
-#, python-format
-msgid "Save password for: %s"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:390
-msgid "Deny geolocation"
-msgstr "Geolocatie weigeren"
-
-#: ../eolie/toolbar_title.py:514
-msgid "Paste and load"
-msgstr "Plakken en laden"
-
-#: ../eolie/toolbar_title.py:762 ../eolie/toolbar_title.py:765
-msgid "Search or enter address"
-msgstr "Zoekt of voert een adres in"
 
 #: ../eolie/webview_errors.py:105
 msgid "Failed to load this web page"
@@ -1371,25 +1367,52 @@ msgstr "Zoeken op het web"
 msgid "Save page as image"
 msgstr "Pagina opslaan als afbeelding"
 
-#: ../eolie/webview_signals.py:145
+#: ../eolie/webview_signals.py:95
 msgid "Select files to upload"
 msgstr "Selecteert bestanden voor te uploaden"
 
-#: ../eolie/webview_signals.py:148
+#: ../eolie/webview_signals.py:98
 msgid "Open"
 msgstr "Openen"
 
-#: ../eolie/widget_find.py:47
+#: ../eolie/widget_find.py:45
 msgid "Search previous occurrence"
 msgstr "Vorig vermelding zoeken"
 
-#: ../eolie/widget_find.py:56
+#: ../eolie/widget_find.py:54
 msgid "Search next occurrence"
 msgstr "Volgende vermelding zoeken"
 
-#: ../eolie/widget_find.py:122
+#: ../eolie/widget_find.py:120
 msgid "1000 of 1000 matches"
 msgstr "1000 van 1000 resultaten"
+
+#: ../eolie/widget_uri_entry_icons.py:75
+msgid "Deny geolocation"
+msgstr "Geolocatie weigeren"
+
+#: ../eolie/widget_uri_entry.py:182
+msgid "This page contains insecure content"
+msgstr "Deze pagina bevat onbeveiligden inhoud"
+
+#: ../eolie/widget_uri_entry.py:204 ../eolie/widget_uri_entry.py:207
+msgid "Search or enter address"
+msgstr "Zoekt of voert een adres in"
+
+#: ../eolie/widget_uri_entry.py:280
+#, python-format
+msgid "Save password for: %s"
+msgstr ""
+
+#: ../eolie/widget_uri_entry.py:535
+msgid "Paste and load"
+msgstr "Plakken en laden"
+
+#~ msgid "Unpin this page"
+#~ msgstr "Deze pagina losmaken"
+
+#~ msgid "Pin this page"
+#~ msgstr "Deze pagina vastmaken"
 
 #~ msgid "Trust websites: No adblocking of internal URIs"
 #~ msgstr "Websites vertrouwen: geen reclame blokkeren op interne URI’s"

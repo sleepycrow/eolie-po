@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 09:59+0100\n"
+"POT-Creation-Date: 2019-11-13 14:49+0100\n"
 "PO-Revision-Date: 2019-11-12 22:04+0000\n"
 "Last-Translator: Zhenkai Weng <oakrc@protonmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -36,84 +36,84 @@ msgid "Show sidebar(sites manager)"
 msgstr "显示侧边栏（网站管理器）"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
+msgid "Minimum sidebar position"
+msgstr "最小侧边栏位置"
+
+#: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Block ads on pages"
 msgstr "屏蔽页面上的广告"
 
-#: ../data/org.gnome.Eolie.gschema.xml:44
+#: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Block unwanted popups"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:49 ../eolie/menu_application.py:44
+#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:44
 msgid "Block images"
 msgstr "屏蔽图像"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:45
+#: ../data/org.gnome.Eolie.gschema.xml:59 ../eolie/menu_application.py:45
 msgid "Block multimedia"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:59 ../data/ScriptsMenu.ui:16
+#: ../data/org.gnome.Eolie.gschema.xml:64 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
 msgstr "屏蔽 JavaScript"
 
-#: ../data/org.gnome.Eolie.gschema.xml:64
+#: ../data/org.gnome.Eolie.gschema.xml:69
 msgid "Block Phishing"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:69
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Enable smooth scrolling"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Download folder URI"
 msgstr "下载文件夹 URI"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Open finished downloads"
 msgstr "打开已完成的下载"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Web search engine"
 msgstr "网络搜索引擎"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Remember sessions"
 msgstr "记住会话"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "记住密码"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "启用开发者工具"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "启用插件"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "使用系统字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114
+#: ../data/org.gnome.Eolie.gschema.xml:119
 msgid "Sans serif font"
 msgstr "无衬线字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "衬线字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124
+#: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Monospace font"
 msgstr "等宽字体"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Open this page on startup"
 msgstr "启动时打开此页面"
-
-#: ../data/org.gnome.Eolie.gschema.xml:134
-msgid "Minimum sidebar position"
-msgstr "最小侧边栏位置"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
@@ -179,11 +179,11 @@ msgstr "捐赠："
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:470
+#: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
 msgstr "Patreon"
 
-#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:470
+#: ../data/AboutDialog.ui.in:77 ../eolie/container.py:100
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -200,10 +200,6 @@ msgstr "网页浏览器"
 #: ../data/org.gnome.Eolie.appdata.xml.in:10
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie 是个新的 GNOME 网页浏览器。"
-
-#: ../data/org.gnome.Eolie.appdata.xml.in:17
-msgid "Bugfixes"
-msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
@@ -241,7 +237,7 @@ msgstr "清除个人数据"
 msgid "C_lear"
 msgstr "清除(_L)"
 
-#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:201
+#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:132
 msgid "Search"
 msgstr "搜索"
@@ -309,8 +305,8 @@ msgstr "删除 Cookies"
 msgid "Import bookmarks from:"
 msgstr "导入书签的来源："
 
-#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:145
-#: ../eolie/popover_uri.py:454
+#: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
+#: ../eolie/popover_uri.py:88
 msgid "Import bookmarks"
 msgstr "导入书签"
 
@@ -355,7 +351,7 @@ msgstr ""
 "如要确定搜索地址，使用搜索引擎搜索您需要的结果并添加结果地址。将搜索项字串替"
 "换为 %s。"
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:277
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:276
 msgid "Spell checking"
 msgstr "拼写检查"
 
@@ -374,8 +370,8 @@ msgstr "保存"
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:422 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:149
+#: ../eolie/popover_uri.py:57 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:99
 msgid "Cancel"
 msgstr "取消"
 
@@ -411,15 +407,15 @@ msgstr "显示链接"
 msgid "Remove all passwords"
 msgstr "移除所有密码"
 
-#: ../data/PopoverUri.ui:173
+#: ../data/PopoverUri.ui:177
 msgid "Bookmarks"
 msgstr "书签"
 
-#: ../data/PopoverUri.ui:311
+#: ../data/PopoverUri.ui:314
 msgid "Clear history"
 msgstr "清除历史"
 
-#: ../data/PopoverUri.ui:335
+#: ../data/PopoverUri.ui:338
 msgid "History"
 msgstr "历史"
 
@@ -820,19 +816,19 @@ msgstr "启动页面"
 msgid "Backward"
 msgstr "后退"
 
-#: ../data/ToolbarActions.ui:70
+#: ../data/ToolbarActions.ui:68
 msgid "Forward"
 msgstr "前进"
 
-#: ../data/ToolbarActions.ui:102
+#: ../data/ToolbarActions.ui:98
 msgid "New page"
 msgstr "新建标签页"
 
-#: ../data/ToolbarActions.ui:117
+#: ../data/ToolbarActions.ui:113
 msgid "View all pages"
 msgstr "查看所有标签页"
 
-#: ../data/ToolbarActions.ui:168
+#: ../data/ToolbarActions.ui:164
 msgid "Close page"
 msgstr "关闭页面"
 
@@ -877,39 +873,39 @@ msgstr "放大"
 msgid "Filtering"
 msgstr "过滤中"
 
-#: ../data/ToolbarMenu.ui:291
+#: ../data/ToolbarMenu.ui:289
 msgid "Show ads"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:304
+#: ../data/ToolbarMenu.ui:301
 msgid "Show popups"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:317
+#: ../data/ToolbarMenu.ui:313
 msgid "Show images"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:330
+#: ../data/ToolbarMenu.ui:325
 msgid "Show multimedia"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:396
+#: ../data/ToolbarMenu.ui:390
 msgid "Run scripts"
 msgstr ""
 
-#: ../eolie/application.py:686
+#: ../eolie/application.py:597
 msgid "Do you really want to quit Eolie?"
 msgstr "您确定要退出 Eolie 吗？"
 
-#: ../eolie/application.py:739
+#: ../eolie/application.py:651
 msgid "Downloads running, are you sure you want quit?"
 msgstr "用运行中的下载任务，您确定要退出？"
 
-#: ../eolie/container.py:469
+#: ../eolie/container.py:99
 msgid "Please consider a donation to the project"
 msgstr "请考虑向此项目捐赠"
 
-#: ../eolie/container.py:541
+#: ../eolie/container_stack.py:229
 msgid "Do you really want to close this page?"
 msgstr "您确定要关闭此页面吗？"
 
@@ -990,12 +986,12 @@ msgid "_Sidebar"
 msgstr "侧边栏(_S)"
 
 #: ../eolie/menu_application.py:79
-msgid "_About"
-msgstr "关于(_A)"
-
-#: ../eolie/menu_application.py:84
 msgid "_Keyboard Shortcuts"
 msgstr "键盘快捷键(_K)"
+
+#: ../eolie/menu_application.py:85
+msgid "_About"
+msgstr "关于(_A)"
 
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
@@ -1024,14 +1020,6 @@ msgstr "关闭网站"
 #: ../eolie/menu_toolbar.py:47
 msgid "Enter fullscreen"
 msgstr "进入全屏"
-
-#: ../eolie/pages_manager_child.py:158
-msgid "Unpin this page"
-msgstr ""
-
-#: ../eolie/pages_manager_child.py:161
-msgid "Pin this page"
-msgstr ""
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
@@ -1091,58 +1079,87 @@ msgstr "允许此页面访问您的位置信息？"
 msgid "Continue"
 msgstr "继续"
 
-#: ../eolie/popover_uri.py:128
-msgid "Delete page from history"
-msgstr "从历史删除页面"
+#: ../eolie/popover_tls.py:55
+msgid "Connexion is secure"
+msgstr ""
 
-#: ../eolie/popover_uri.py:140
-msgid "Edit bookmark"
-msgstr "编辑书签"
+#: ../eolie/popover_tls.py:60
+#, python-format
+msgid ""
+"<b>Website identity:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:157
-msgid "Open all pages with this tag"
-msgstr "以此标签打开所有页面"
+#: ../eolie/popover_tls.py:65
+#, python-format
+msgid ""
+"<b>Expires on:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:779
-msgid "Popular"
-msgstr "热门"
+#: ../eolie/popover_tls.py:70
+#, python-format
+msgid ""
+"<b>Verified by:</b> %s\n"
+"\n"
+msgstr ""
 
-#: ../eolie/popover_uri.py:782
-msgid "Recent"
-msgstr "最近"
+#: ../eolie/popover_tls.py:74
+msgid "Connexion is unsecure"
+msgstr ""
 
-#: ../eolie/popover_uri.py:784
-msgid "Unclassified"
-msgstr "未分类"
-
-#: ../eolie/popover_uri.py:807
-msgid "From the past hour"
-msgstr "一小时内"
-
-#: ../eolie/popover_uri.py:808
-msgid "From the past day"
-msgstr "一天内"
-
-#: ../eolie/popover_uri.py:809
-msgid "From the past week"
-msgstr "上周内"
-
-#: ../eolie/popover_uri.py:811
-msgid "From the past four weeks"
-msgstr "四周内"
-
-#: ../eolie/popover_uri.py:812
-msgid "From selected day"
-msgstr "所选日"
-
-#: ../eolie/popover_uri.py:813
-msgid "From the beginning"
-msgstr "全部"
-
-#: ../eolie/popover_uri.py:1067
+#: ../eolie/popover_uri_content.py:200
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s 书签"
+
+#: ../eolie/popover_uri.py:253
+msgid "Popular"
+msgstr "热门"
+
+#: ../eolie/popover_uri.py:256
+msgid "Recent"
+msgstr "最近"
+
+#: ../eolie/popover_uri.py:258
+msgid "Unclassified"
+msgstr "未分类"
+
+#: ../eolie/popover_uri.py:282
+msgid "From the past hour"
+msgstr "一小时内"
+
+#: ../eolie/popover_uri.py:283
+msgid "From the past day"
+msgstr "一天内"
+
+#: ../eolie/popover_uri.py:284
+msgid "From the past week"
+msgstr "上周内"
+
+#: ../eolie/popover_uri.py:286
+msgid "From the past four weeks"
+msgstr "四周内"
+
+#: ../eolie/popover_uri.py:287
+msgid "From selected day"
+msgstr "所选日"
+
+#: ../eolie/popover_uri.py:288
+msgid "From the beginning"
+msgstr "全部"
+
+#: ../eolie/popover_uri_row.py:103
+msgid "Delete page from history"
+msgstr "从历史删除页面"
+
+#: ../eolie/popover_uri_row.py:115
+msgid "Edit bookmark"
+msgstr "编辑书签"
+
+#: ../eolie/popover_uri_row.py:132
+msgid "Open all pages with this tag"
+msgstr "以此标签打开所有页面"
 
 #: ../eolie/search.py:39 ../eolie/search.py:40
 msgid "https://www.google.com"
@@ -1206,11 +1223,7 @@ msgstr "您已经收到一封用来验证同步的邮件"
 msgid "Downloading:"
 msgstr "下载中："
 
-#: ../eolie/toolbar_title.py:279
-msgid "This page contains insecure content"
-msgstr "此页面包含不安全的内容"
-
-#: ../eolie/toolbar_title.py:333
+#: ../eolie/toolbar_title.py:95
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1219,23 +1232,6 @@ msgstr ""
 "当心：此页面不安全。\n"
 "如果您输入您的密码，\n"
 "它可被网络犯罪份子看到！"
-
-#: ../eolie/toolbar_title.py:367
-#, python-format
-msgid "Save password for: %s"
-msgstr ""
-
-#: ../eolie/toolbar_title.py:390
-msgid "Deny geolocation"
-msgstr "拒绝提供地理位置"
-
-#: ../eolie/toolbar_title.py:514
-msgid "Paste and load"
-msgstr "粘贴并载入"
-
-#: ../eolie/toolbar_title.py:762 ../eolie/toolbar_title.py:765
-msgid "Search or enter address"
-msgstr "搜索或输入地址"
 
 #: ../eolie/webview_errors.py:105
 msgid "Failed to load this web page"
@@ -1357,25 +1353,46 @@ msgstr "搜索互联网"
 msgid "Save page as image"
 msgstr "保存页面为图像"
 
-#: ../eolie/webview_signals.py:145
+#: ../eolie/webview_signals.py:95
 msgid "Select files to upload"
 msgstr "选择要上传的文件"
 
-#: ../eolie/webview_signals.py:148
+#: ../eolie/webview_signals.py:98
 msgid "Open"
 msgstr "打开"
 
-#: ../eolie/widget_find.py:47
+#: ../eolie/widget_find.py:45
 msgid "Search previous occurrence"
 msgstr "搜索上个出现位置"
 
-#: ../eolie/widget_find.py:56
+#: ../eolie/widget_find.py:54
 msgid "Search next occurrence"
 msgstr "搜索下个出现位置"
 
-#: ../eolie/widget_find.py:122
+#: ../eolie/widget_find.py:120
 msgid "1000 of 1000 matches"
 msgstr "1000 / 1000 个匹配项"
+
+#: ../eolie/widget_uri_entry_icons.py:75
+msgid "Deny geolocation"
+msgstr "拒绝提供地理位置"
+
+#: ../eolie/widget_uri_entry.py:182
+msgid "This page contains insecure content"
+msgstr "此页面包含不安全的内容"
+
+#: ../eolie/widget_uri_entry.py:204 ../eolie/widget_uri_entry.py:207
+msgid "Search or enter address"
+msgstr "搜索或输入地址"
+
+#: ../eolie/widget_uri_entry.py:280
+#, python-format
+msgid "Save password for: %s"
+msgstr ""
+
+#: ../eolie/widget_uri_entry.py:535
+msgid "Paste and load"
+msgstr "粘贴并载入"
 
 #~ msgid "Trust websites: No adblocking of internal URIs"
 #~ msgstr "信任网站：内部 URI 不屏蔽广告"
