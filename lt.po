@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 14:49+0100\n"
+"POT-Creation-Date: 2019-11-13 17:06+0100\n"
 "PO-Revision-Date: 2019-04-20 19:33+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -42,119 +42,123 @@ msgid "Minimum sidebar position"
 msgstr "Minimali šoninės juostos pozicija"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
+msgid "Enable night mode"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Block ads on pages"
 msgstr "Blokuoti puslapiuose reklamas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:49
+#: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block unwanted popups"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:44
+#: ../data/org.gnome.Eolie.gschema.xml:59 ../eolie/menu_application.py:54
 msgid "Block images"
 msgstr "Blokuoti paveikslus"
 
-#: ../data/org.gnome.Eolie.gschema.xml:59 ../eolie/menu_application.py:45
+#: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:55
 msgid "Block multimedia"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:64 ../data/ScriptsMenu.ui:16
+#: ../data/org.gnome.Eolie.gschema.xml:69 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
 msgstr "Blokuoti JavaScript"
 
-#: ../data/org.gnome.Eolie.gschema.xml:69
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Block Phishing"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Enable smooth scrolling"
 msgstr "Įjungti glotnų slinkimą"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Download folder URI"
 msgstr "Atsiuntimų aplanko URI"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Open finished downloads"
 msgstr "Atverti užbaigtus atsiuntimus"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Web search engine"
 msgstr "Saityno paieškos sistema"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94
+#: ../data/org.gnome.Eolie.gschema.xml:99
 msgid "Remember sessions"
 msgstr "Prisiminti seansus"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "Prisiminti slaptažodžius"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Įjungti kūrėjo įrankius"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Įjungti įskiepius"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "Naudoti sistemos šriftus"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119
+#: ../data/org.gnome.Eolie.gschema.xml:124
 msgid "Sans serif font"
 msgstr "Neserifinis šriftas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "Serifinis šriftas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Monospace font"
 msgstr "Lygiaplotis šriftas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134
+#: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Open this page on startup"
 msgstr "Atverti šį puslapį paleidimo metu"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
+#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
 msgstr "Mažiausias šrifto dydis"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144
+#: ../data/org.gnome.Eolie.gschema.xml:149
 msgid "Popular items shown"
 msgstr "Rodoma populiarių elementų"
 
-#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:534
+#: ../data/org.gnome.Eolie.gschema.xml:154 ../data/SettingsDialog.ui:534
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Numatytasis mastelio lygis"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154
+#: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "Cookies storage type"
 msgstr "Slapukų saugyklos tipas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159
+#: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "History storage type"
 msgstr "Istorijos saugyklos tipas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:631
+#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:631
 msgid "Tell websites I do not want to be tracked"
 msgstr "Nurodyti svetainėms, jog aš nenoriu, kad mane sektų"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169
+#: ../data/org.gnome.Eolie.gschema.xml:174
 msgid "DNS prediction"
 msgstr "DNS nuspėjimas"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:875
+#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/SettingsDialog.ui:875
 msgid "Autoplay videos"
 msgstr "Automatiškai atkurti vaizdo įrašus"
 
-#: ../data/org.gnome.Eolie.gschema.xml:179
+#: ../data/org.gnome.Eolie.gschema.xml:184
 msgid "Enable search suggestions"
 msgstr "Įjungti paieškos pasiūlymus"
 
-#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:189 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Įjungti rašybos tikrinimą"
@@ -842,7 +846,7 @@ msgid "Close page"
 msgstr "Užverti puslapį"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:45
+#: ../eolie/menu_toolbar.py:46
 msgid "Leave fullscreen"
 msgstr "Išeiti iš viso ekrano"
 
@@ -900,6 +904,10 @@ msgstr ""
 
 #: ../data/ToolbarMenu.ui:390
 msgid "Run scripts"
+msgstr ""
+
+#: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:47
+msgid "Night mode"
 msgstr ""
 
 #: ../eolie/application.py:597
@@ -970,35 +978,35 @@ msgstr "Importuoti HTML adresyną"
 msgid "New engine"
 msgstr "Nauja paieškos sistema"
 
-#: ../eolie/menu_application.py:42
+#: ../eolie/menu_application.py:52
 msgid "Block ads"
 msgstr "Blokuoti reklamas"
 
-#: ../eolie/menu_application.py:43
+#: ../eolie/menu_application.py:53
 msgid "Block popups"
 msgstr "Blokuoti iškylančiuosius langus"
 
-#: ../eolie/menu_application.py:46
+#: ../eolie/menu_application.py:56
 msgid "Block scripts"
 msgstr ""
 
-#: ../eolie/menu_application.py:58
+#: ../eolie/menu_application.py:68
 msgid "Blockers"
 msgstr ""
 
-#: ../eolie/menu_application.py:65
+#: ../eolie/menu_application.py:75
 msgid "_Preferences"
 msgstr "_Nuostatos"
 
-#: ../eolie/menu_application.py:74
+#: ../eolie/menu_application.py:84
 msgid "_Sidebar"
 msgstr "Š_oninė juosta"
 
-#: ../eolie/menu_application.py:79
+#: ../eolie/menu_application.py:89
 msgid "_Keyboard Shortcuts"
 msgstr "_Klaviatūros trumpiniai"
 
-#: ../eolie/menu_application.py:85
+#: ../eolie/menu_application.py:95
 msgid "_About"
 msgstr "_Apie"
 
@@ -1026,7 +1034,7 @@ msgstr "Pakeisti naršyklės atpažinimą"
 msgid "Close site"
 msgstr "Užverti svetainę"
 
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
 msgstr "Rodyti visame ekrane"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 14:49+0100\n"
+"POT-Creation-Date: 2019-11-13 17:06+0100\n"
 "PO-Revision-Date: 2019-10-18 15:52+0000\n"
 "Last-Translator: Mattias Münster <mattiasmun@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/"
@@ -40,119 +40,123 @@ msgid "Minimum sidebar position"
 msgstr "Minimal sidopanelsposition"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
+msgid "Enable night mode"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:49
 msgid "Block ads on pages"
 msgstr "Blockera annonser på sidor"
 
-#: ../data/org.gnome.Eolie.gschema.xml:49
+#: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block unwanted popups"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:54 ../eolie/menu_application.py:44
+#: ../data/org.gnome.Eolie.gschema.xml:59 ../eolie/menu_application.py:54
 msgid "Block images"
 msgstr "Blockera bilder"
 
-#: ../data/org.gnome.Eolie.gschema.xml:59 ../eolie/menu_application.py:45
+#: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:55
 msgid "Block multimedia"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:64 ../data/ScriptsMenu.ui:16
+#: ../data/org.gnome.Eolie.gschema.xml:69 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
 msgstr "Blockera JavaScript"
 
-#: ../data/org.gnome.Eolie.gschema.xml:69
+#: ../data/org.gnome.Eolie.gschema.xml:74
 msgid "Block Phishing"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Enable smooth scrolling"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Download folder URI"
 msgstr "URI för hämtningsmapp"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Open finished downloads"
 msgstr "Öppna slutförda hämtningar"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Web search engine"
 msgstr "Sökmotor för webben"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94
+#: ../data/org.gnome.Eolie.gschema.xml:99
 msgid "Remember sessions"
 msgstr "Kom ihåg sessioner"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:665
 msgid "Remember passwords"
 msgstr "Kom ihåg lösenord"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Aktivera utvecklarverktyg"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Aktivera insticksmoduler"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:393
 msgid "Use system fonts"
 msgstr "Använd systemtypsnitt"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119
+#: ../data/org.gnome.Eolie.gschema.xml:124
 msgid "Sans serif font"
 msgstr "Sans serif-typsnitt"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:434
 msgid "Serif font"
 msgstr "Serif-typsnitt"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
+#: ../data/org.gnome.Eolie.gschema.xml:134
 msgid "Monospace font"
 msgstr "Typsnitt med fast breddsteg"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134
+#: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Open this page on startup"
 msgstr "Öppna denna sida vid uppstart"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139 ../data/SettingsDialog.ui:508
+#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:508
 msgid "Minimum font size"
 msgstr "Minsta typsnittsstorlek"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144
+#: ../data/org.gnome.Eolie.gschema.xml:149
 msgid "Popular items shown"
 msgstr "Visade populära objekt"
 
-#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:534
+#: ../data/org.gnome.Eolie.gschema.xml:154 ../data/SettingsDialog.ui:534
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Standardzoomnivå"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154
+#: ../data/org.gnome.Eolie.gschema.xml:159
 msgid "Cookies storage type"
 msgstr "Lagringstyp för kakor"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159
+#: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "History storage type"
 msgstr "Lagringstyp för historik"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164 ../data/SettingsDialog.ui:631
+#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:631
 msgid "Tell websites I do not want to be tracked"
 msgstr "Säg till webbplatser att jag inte vill bli spårad"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169
+#: ../data/org.gnome.Eolie.gschema.xml:174
 msgid "DNS prediction"
 msgstr "DNS-förutsägelse"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:875
+#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/SettingsDialog.ui:875
 msgid "Autoplay videos"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:179
+#: ../data/org.gnome.Eolie.gschema.xml:184
 msgid "Enable search suggestions"
 msgstr "Aktivera sökförslag"
 
-#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:189 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Aktivera stavningskontroll"
@@ -835,7 +839,7 @@ msgid "Close page"
 msgstr "Stäng sida"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:45
+#: ../eolie/menu_toolbar.py:46
 msgid "Leave fullscreen"
 msgstr "Lämna helskärm"
 
@@ -893,6 +897,10 @@ msgstr ""
 
 #: ../data/ToolbarMenu.ui:390
 msgid "Run scripts"
+msgstr ""
+
+#: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:47
+msgid "Night mode"
 msgstr ""
 
 #: ../eolie/application.py:597
@@ -963,35 +971,35 @@ msgstr "Importera HTML-bokmärken"
 msgid "New engine"
 msgstr "Ny motor"
 
-#: ../eolie/menu_application.py:42
+#: ../eolie/menu_application.py:52
 msgid "Block ads"
 msgstr "Blockera annonser"
 
-#: ../eolie/menu_application.py:43
+#: ../eolie/menu_application.py:53
 msgid "Block popups"
 msgstr "Blockera poppupper"
 
-#: ../eolie/menu_application.py:46
+#: ../eolie/menu_application.py:56
 msgid "Block scripts"
 msgstr ""
 
-#: ../eolie/menu_application.py:58
+#: ../eolie/menu_application.py:68
 msgid "Blockers"
 msgstr ""
 
-#: ../eolie/menu_application.py:65
+#: ../eolie/menu_application.py:75
 msgid "_Preferences"
 msgstr "_Inställningar"
 
-#: ../eolie/menu_application.py:74
+#: ../eolie/menu_application.py:84
 msgid "_Sidebar"
 msgstr "_Sidofält"
 
-#: ../eolie/menu_application.py:79
+#: ../eolie/menu_application.py:89
 msgid "_Keyboard Shortcuts"
 msgstr "_Tangentbordsgenvägar"
 
-#: ../eolie/menu_application.py:85
+#: ../eolie/menu_application.py:95
 msgid "_About"
 msgstr "_Om"
 
@@ -1019,7 +1027,7 @@ msgstr "Ändra användaragent"
 msgid "Close site"
 msgstr "Stäng webbplats"
 
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
 msgstr "Helskärmsläge"
 
