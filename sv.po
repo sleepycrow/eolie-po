@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 17:06+0100\n"
+"POT-Creation-Date: 2019-11-17 01:38+0100\n"
 "PO-Revision-Date: 2019-10-18 15:52+0000\n"
 "Last-Translator: Mattias Münster <mattiasmun@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/"
@@ -43,120 +43,124 @@ msgstr "Minimal sidopanelsposition"
 msgid "Enable night mode"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:49
+#: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
+msgid "Switch to night mode with GNOME"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block ads on pages"
 msgstr "Blockera annonser på sidor"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54
+#: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block unwanted popups"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:59 ../eolie/menu_application.py:54
+#: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:54
 msgid "Block images"
 msgstr "Blockera bilder"
 
-#: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:55
+#: ../data/org.gnome.Eolie.gschema.xml:69 ../eolie/menu_application.py:55
 msgid "Block multimedia"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:69 ../data/ScriptsMenu.ui:16
+#: ../data/org.gnome.Eolie.gschema.xml:74 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
 msgstr "Blockera JavaScript"
 
-#: ../data/org.gnome.Eolie.gschema.xml:74
+#: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Block Phishing"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Enable smooth scrolling"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Download folder URI"
 msgstr "URI för hämtningsmapp"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Open finished downloads"
 msgstr "Öppna slutförda hämtningar"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94
+#: ../data/org.gnome.Eolie.gschema.xml:99
 msgid "Web search engine"
 msgstr "Sökmotor för webben"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99
+#: ../data/org.gnome.Eolie.gschema.xml:104
 msgid "Remember sessions"
 msgstr "Kom ihåg sessioner"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104 ../data/SettingsDialog.ui:665
+#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:683
 msgid "Remember passwords"
 msgstr "Kom ihåg lösenord"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
 msgstr "Aktivera utvecklarverktyg"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
 msgstr "Aktivera insticksmoduler"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:393
+#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:392
 msgid "Use system fonts"
 msgstr "Använd systemtypsnitt"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124
+#: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Sans serif font"
 msgstr "Sans serif-typsnitt"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129 ../data/SettingsDialog.ui:434
+#: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:433
 msgid "Serif font"
 msgstr "Serif-typsnitt"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134
+#: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Monospace font"
 msgstr "Typsnitt med fast breddsteg"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139
+#: ../data/org.gnome.Eolie.gschema.xml:144
 msgid "Open this page on startup"
 msgstr "Öppna denna sida vid uppstart"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144 ../data/SettingsDialog.ui:508
+#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:507
 msgid "Minimum font size"
 msgstr "Minsta typsnittsstorlek"
 
-#: ../data/org.gnome.Eolie.gschema.xml:149
+#: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "Popular items shown"
 msgstr "Visade populära objekt"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154 ../data/SettingsDialog.ui:534
+#: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:533
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Standardzoomnivå"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159
+#: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "Cookies storage type"
 msgstr "Lagringstyp för kakor"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164
+#: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "History storage type"
 msgstr "Lagringstyp för historik"
 
-#: ../data/org.gnome.Eolie.gschema.xml:169 ../data/SettingsDialog.ui:631
+#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:649
 msgid "Tell websites I do not want to be tracked"
 msgstr "Säg till webbplatser att jag inte vill bli spårad"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174
+#: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "DNS prediction"
 msgstr "DNS-förutsägelse"
 
-#: ../data/org.gnome.Eolie.gschema.xml:179 ../data/SettingsDialog.ui:875
+#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/SettingsDialog.ui:893
 msgid "Autoplay videos"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:184
+#: ../data/org.gnome.Eolie.gschema.xml:189
 msgid "Enable search suggestions"
 msgstr "Aktivera sökförslag"
 
-#: ../data/org.gnome.Eolie.gschema.xml:189 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:194 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Aktivera stavningskontroll"
@@ -379,7 +383,7 @@ msgstr "Spara"
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
 #: ../eolie/popover_uri.py:57 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:99
+#: ../eolie/webview_signals.py:96
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -399,7 +403,7 @@ msgstr "Ingen aktiv hämtning"
 msgid "OK"
 msgstr ""
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:837
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:855
 msgid "Forever"
 msgstr "För alltid"
 
@@ -488,7 +492,7 @@ msgstr "Startsida:"
 msgid "Search engine"
 msgstr "Sökmotor"
 
-#: ../data/SettingsDialog.ui:226 ../eolie/context.py:86
+#: ../data/SettingsDialog.ui:226 ../eolie/context.py:85
 msgid "Popular pages"
 msgstr "Populära sidor"
 
@@ -524,137 +528,137 @@ msgstr "Lägg till förslag"
 msgid "General"
 msgstr "Allmänt"
 
-#: ../data/SettingsDialog.ui:380
+#: ../data/SettingsDialog.ui:379
 msgid "Fonts"
 msgstr "Typsnitt"
 
-#: ../data/SettingsDialog.ui:422
+#: ../data/SettingsDialog.ui:421
 msgid "Sans-serif font"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:446
+#: ../data/SettingsDialog.ui:445
 msgid "Monospaced font"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:578
+#: ../data/SettingsDialog.ui:596
 msgid "Appearance"
 msgstr "Utseende"
 
-#: ../data/SettingsDialog.ui:602 ../eolie/dialog_clear_data.py:196
+#: ../data/SettingsDialog.ui:620 ../eolie/dialog_clear_data.py:196
 msgid "Cookies"
 msgstr "Kakor"
 
-#: ../data/SettingsDialog.ui:618
+#: ../data/SettingsDialog.ui:636
 msgid "Tracking"
 msgstr "Spårning"
 
-#: ../data/SettingsDialog.ui:653
+#: ../data/SettingsDialog.ui:671
 msgid "Passwords"
 msgstr "Lösenord"
 
-#: ../data/SettingsDialog.ui:686
+#: ../data/SettingsDialog.ui:704
 msgid "Saved data"
 msgstr "Sparade data"
 
-#: ../data/SettingsDialog.ui:709
+#: ../data/SettingsDialog.ui:727
 msgid "Behaviour:"
 msgstr "Beteende:"
 
-#: ../data/SettingsDialog.ui:724
+#: ../data/SettingsDialog.ui:742
 msgid "Always accept"
 msgstr "Acceptera alltid"
 
-#: ../data/SettingsDialog.ui:725
+#: ../data/SettingsDialog.ui:743
 msgid "Only from visited sites"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:726
+#: ../data/SettingsDialog.ui:744
 msgid "Never accept"
 msgstr "Acceptera aldrig"
 
-#: ../data/SettingsDialog.ui:745
+#: ../data/SettingsDialog.ui:763
 msgid "Manage cookies"
 msgstr "Hantera kakor"
 
-#: ../data/SettingsDialog.ui:762
+#: ../data/SettingsDialog.ui:780
 msgid "Clear personal data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:784
+#: ../data/SettingsDialog.ui:802
 msgid "Manage passwords"
 msgstr "Hantera lösenord"
 
-#: ../data/SettingsDialog.ui:818
+#: ../data/SettingsDialog.ui:836
 msgid "Keep history:"
 msgstr "Behåll historik:"
 
-#: ../data/SettingsDialog.ui:833
+#: ../data/SettingsDialog.ui:851
 msgid "One day"
 msgstr "En dag"
 
-#: ../data/SettingsDialog.ui:834
+#: ../data/SettingsDialog.ui:852
 msgid "One week"
 msgstr "En vecka"
 
-#: ../data/SettingsDialog.ui:835
+#: ../data/SettingsDialog.ui:853
 msgid "Four weeks"
 msgstr "Fyra veckor"
 
-#: ../data/SettingsDialog.ui:836
+#: ../data/SettingsDialog.ui:854
 msgid "A year"
 msgstr "Ett år"
 
-#: ../data/SettingsDialog.ui:838
+#: ../data/SettingsDialog.ui:856
 msgid "Do not keep"
 msgstr "Behåll inte"
 
-#: ../data/SettingsDialog.ui:857
+#: ../data/SettingsDialog.ui:875
 msgid "Predict website addresses"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:905
+#: ../data/SettingsDialog.ui:923
 msgid "Privacy"
 msgstr "Sekretess"
 
-#: ../data/SettingsDialog.ui:927
+#: ../data/SettingsDialog.ui:945
 msgid ""
 "You can share your bookmarks and history\n"
 "on all your devices running Eolie or Firefox"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:944
+#: ../data/SettingsDialog.ui:962
 msgid "Login:"
 msgstr "Inloggning:"
 
-#: ../data/SettingsDialog.ui:966
+#: ../data/SettingsDialog.ui:984
 msgid "Password:"
 msgstr "Lösenord:"
 
-#: ../data/SettingsDialog.ui:987 ../eolie/settings.py:540
+#: ../data/SettingsDialog.ui:1005 ../eolie/settings.py:553
 msgid "Allow syncing"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1025
+#: ../data/SettingsDialog.ui:1043
 msgid "Create or manage account"
 msgstr "Skapa eller hantera konto"
 
-#: ../data/SettingsDialog.ui:1044
+#: ../data/SettingsDialog.ui:1062
 msgid "Code:"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1055 ../data/SettingsDialog.ui:1056
+#: ../data/SettingsDialog.ui:1073 ../data/SettingsDialog.ui:1074
 msgid "You need to turn on two-factor authentication"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1073
+#: ../data/SettingsDialog.ui:1091
 msgid "Fetch from Firefox Sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1088
+#: ../data/SettingsDialog.ui:1106
 msgid "Send to Firefox Sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:1116
+#: ../data/SettingsDialog.ui:1134
 msgid "Syncing"
 msgstr ""
 
@@ -903,11 +907,11 @@ msgstr ""
 msgid "Night mode"
 msgstr ""
 
-#: ../eolie/application.py:597
+#: ../eolie/application.py:592
 msgid "Do you really want to quit Eolie?"
 msgstr "Vill du verkligen avsluta Eolie?"
 
-#: ../eolie/application.py:651
+#: ../eolie/application.py:646
 msgid "Downloads running, are you sure you want quit?"
 msgstr ""
 
@@ -915,19 +919,19 @@ msgstr ""
 msgid "Please consider a donation to the project"
 msgstr "Överväg gärna en donation till projektet"
 
-#: ../eolie/container_stack.py:229
+#: ../eolie/container_stack.py:228
 msgid "Do you really want to close this page?"
 msgstr "Vill du verkligen stänga denna sida?"
 
-#: ../eolie/context.py:149
+#: ../eolie/context.py:151
 msgid "Name"
 msgstr "Namn"
 
-#: ../eolie/context.py:150
+#: ../eolie/context.py:152
 msgid "Size"
 msgstr "Storlek"
 
-#: ../eolie/context.py:152
+#: ../eolie/context.py:154
 msgid "Last modification"
 msgstr "Senaste ändring"
 
@@ -1159,15 +1163,15 @@ msgstr "Från vald dag"
 msgid "From the beginning"
 msgstr "Från början"
 
-#: ../eolie/popover_uri_row.py:103
+#: ../eolie/popover_uri_row.py:102
 msgid "Delete page from history"
 msgstr "Ta bort sida från historik"
 
-#: ../eolie/popover_uri_row.py:115
+#: ../eolie/popover_uri_row.py:114
 msgid "Edit bookmark"
 msgstr "Redigera bokmärke"
 
-#: ../eolie/popover_uri_row.py:132
+#: ../eolie/popover_uri_row.py:131
 msgid "Open all pages with this tag"
 msgstr ""
 
@@ -1194,34 +1198,34 @@ msgstr ""
 msgid "Unsupported search engine"
 msgstr "Sökmotor som inte stöds"
 
-#: ../eolie/settings.py:474
+#: ../eolie/settings.py:487
 msgid "Connecting…"
 msgstr "Ansluter…"
 
-#: ../eolie/settings.py:524
+#: ../eolie/settings.py:537
 msgid "Syncing operational"
 msgstr ""
 
-#: ../eolie/settings.py:530
+#: ../eolie/settings.py:543
 msgid "Cancel syncing"
 msgstr ""
 
-#: ../eolie/settings.py:535
+#: ../eolie/settings.py:548
 msgid "Start syncing"
 msgstr ""
 
-#: ../eolie/settings.py:545
+#: ../eolie/settings.py:558
 msgid "Syncing is not working"
 msgstr ""
 
-#: ../eolie/settings.py:556
+#: ../eolie/settings.py:569
 #, python-format
 msgid ""
 "Syncing is not available on your computer:\n"
 "%s"
 msgstr ""
 
-#: ../eolie/settings.py:580
+#: ../eolie/settings.py:593
 msgid "You've received an email to validate syncing"
 msgstr ""
 
@@ -1229,7 +1233,7 @@ msgstr ""
 msgid "Downloading:"
 msgstr "Hämtar:"
 
-#: ../eolie/toolbar_title.py:95
+#: ../eolie/toolbar_title.py:96
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1326,7 +1330,7 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Rapportera ett fel nu"
 
-#: ../eolie/webview_signals_js.py:80
+#: ../eolie/webview_signals_js.py:89
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie kommer att stänga denna sida för att den är trasig"
 
@@ -1354,23 +1358,23 @@ msgstr "Leta på webben"
 msgid "Save page as image"
 msgstr "Spara sida som bild"
 
-#: ../eolie/webview_signals.py:95
+#: ../eolie/webview_signals.py:92
 msgid "Select files to upload"
 msgstr "Välj filer att skicka"
 
-#: ../eolie/webview_signals.py:98
+#: ../eolie/webview_signals.py:95
 msgid "Open"
 msgstr "Öppna"
 
-#: ../eolie/widget_find.py:45
+#: ../eolie/widget_find.py:46
 msgid "Search previous occurrence"
 msgstr "Sök föregående förekomst"
 
-#: ../eolie/widget_find.py:54
+#: ../eolie/widget_find.py:55
 msgid "Search next occurrence"
 msgstr "Sök nästa förekomst"
 
-#: ../eolie/widget_find.py:120
+#: ../eolie/widget_find.py:122
 msgid "1000 of 1000 matches"
 msgstr "1000 av 1000 träffar"
 
@@ -1378,20 +1382,20 @@ msgstr "1000 av 1000 träffar"
 msgid "Deny geolocation"
 msgstr ""
 
-#: ../eolie/widget_uri_entry.py:182
+#: ../eolie/widget_uri_entry.py:186
 msgid "This page contains insecure content"
 msgstr "Denna sida innehåller osäkert innehåll"
 
-#: ../eolie/widget_uri_entry.py:204 ../eolie/widget_uri_entry.py:207
+#: ../eolie/widget_uri_entry.py:208 ../eolie/widget_uri_entry.py:211
 msgid "Search or enter address"
 msgstr "Sök eller ange adress"
 
-#: ../eolie/widget_uri_entry.py:280
+#: ../eolie/widget_uri_entry.py:295
 #, python-format
 msgid "Save password for: %s"
 msgstr ""
 
-#: ../eolie/widget_uri_entry.py:535
+#: ../eolie/widget_uri_entry.py:550
 msgid "Paste and load"
 msgstr "Klistra in och läs in"
 
