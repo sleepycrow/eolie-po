@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-17 01:38+0100\n"
-"PO-Revision-Date: 2019-11-03 07:03+0000\n"
+"PO-Revision-Date: 2019-12-03 00:05+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "eolie/nb_NO/>\n"
@@ -41,11 +41,12 @@ msgstr "Minste sidefeltposisjon"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Enable night mode"
-msgstr ""
+msgstr "Skru på nattmodus"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
+#, fuzzy
 msgid "Switch to night mode with GNOME"
-msgstr ""
+msgstr "Bytt til nattmodus med GNOME"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block ads on pages"
@@ -923,7 +924,7 @@ msgstr "Kjør skript"
 
 #: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:47
 msgid "Night mode"
-msgstr ""
+msgstr "Nattmodus"
 
 #: ../eolie/application.py:592
 msgid "Do you really want to quit Eolie?"
@@ -1116,8 +1117,9 @@ msgid "Continue"
 msgstr "Fortsett"
 
 #: ../eolie/popover_tls.py:55
+#, fuzzy
 msgid "Connexion is secure"
-msgstr ""
+msgstr "Tilkoblingen er sikret"
 
 #: ../eolie/popover_tls.py:60
 #, python-format
@@ -1125,6 +1127,8 @@ msgid ""
 "<b>Website identity:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Nettsideidentitet:</b>%s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:65
 #, python-format
@@ -1132,6 +1136,8 @@ msgid ""
 "<b>Expires on:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Utløper:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:70
 #, python-format
@@ -1139,10 +1145,13 @@ msgid ""
 "<b>Verified by:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Bekreftet av:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:74
+#, fuzzy
 msgid "Connexion is unsecure"
-msgstr ""
+msgstr "Tilkoblingen er usikker"
 
 #: ../eolie/popover_uri_content.py:200
 #, python-format
