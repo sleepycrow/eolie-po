@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-17 01:38+0100\n"
-"PO-Revision-Date: 2019-11-04 08:03+0000\n"
+"PO-Revision-Date: 2020-01-02 17:21+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/"
-">\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/>"
+"\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 3.10\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -41,11 +41,11 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Enable night mode"
-msgstr ""
+msgstr "Käytä yötilaa"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
 msgid "Switch to night mode with GNOME"
-msgstr ""
+msgstr "Vaihda yötilaan Gnomen mukaisesti"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block ads on pages"
@@ -252,11 +252,11 @@ msgstr "Etsi"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
-msgstr ""
+msgstr "Suodata verkkotunnukset"
 
 #: ../data/DialogClearData.ui:67
 msgid "Search domains"
-msgstr ""
+msgstr "Etsi verkkotunnuksia"
 
 #: ../data/DialogClearData.ui:83
 msgid ""
@@ -510,7 +510,7 @@ msgstr "Määritä hakukoneet"
 
 #: ../data/SettingsDialog.ui:289
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "Näytettävät kirjanmerkit"
 
 #: ../data/SettingsDialog.ui:333
 msgid "Add suggestions"
@@ -646,11 +646,11 @@ msgstr "Kaksivaiheinen tunnistautuminen tulee ottaa käyttöön"
 
 #: ../data/SettingsDialog.ui:1091
 msgid "Fetch from Firefox Sync"
-msgstr ""
+msgstr "Nouda Firefox Syncista"
 
 #: ../data/SettingsDialog.ui:1106
 msgid "Send to Firefox Sync"
-msgstr ""
+msgstr "Lähetä Firefox Synciin"
 
 #: ../data/SettingsDialog.ui:1134
 msgid "Syncing"
@@ -899,7 +899,7 @@ msgstr "Suorita komentosarjat"
 
 #: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:47
 msgid "Night mode"
-msgstr ""
+msgstr "Yötila"
 
 #: ../eolie/application.py:592
 msgid "Do you really want to quit Eolie?"
@@ -1097,6 +1097,8 @@ msgid ""
 "<b>Website identity:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Verkkosivuston identiteetti:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:65
 #, python-format
@@ -1104,6 +1106,8 @@ msgid ""
 "<b>Expires on:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Vanhenee:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:70
 #, python-format
@@ -1111,6 +1115,8 @@ msgid ""
 "<b>Verified by:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Vahvistanut:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:74
 msgid "Connexion is unsecure"
@@ -1392,7 +1398,7 @@ msgstr "Etsi tai kirjoita osoite"
 #: ../eolie/widget_uri_entry.py:295
 #, python-format
 msgid "Save password for: %s"
-msgstr ""
+msgstr "Tallenna salasana: %s"
 
 #: ../eolie/widget_uri_entry.py:550
 msgid "Paste and load"
