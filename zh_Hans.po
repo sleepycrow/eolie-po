@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-17 01:38+0100\n"
+"POT-Creation-Date: 2020-01-26 16:10+0100\n"
 "PO-Revision-Date: 2019-11-12 22:04+0000\n"
 "Last-Translator: Zhenkai Weng <oakrc@protonmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -221,21 +221,25 @@ msgstr "新建窗口"
 msgid "New private page"
 msgstr "创建隐私页"
 
-#: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
-msgid "Address:"
-msgstr "地址："
+#: ../data/BookmarkEdit.ui:106 ../data/BookmarkEdit.ui:109
+msgid "Add new tag"
+msgstr "添加新标签"
 
-#: ../data/BookmarkEdit.ui:41
+#: ../data/BookmarkEdit.ui:135
 msgid "Title:"
 msgstr "标题："
 
-#: ../data/BookmarkEdit.ui:98
+#: ../data/BookmarkEdit.ui:160
 msgid "Remove bookmark"
 msgstr "移除书签"
 
-#: ../data/BookmarkEdit.ui:166 ../data/BookmarkEdit.ui:169
-msgid "Add new tag"
-msgstr "添加新标签"
+#: ../data/BookmarkEdit.ui:178 ../data/DialogSearchEngine.ui:168
+msgid "Address:"
+msgstr "地址："
+
+#: ../data/BookmarkEdit.ui:203
+msgid "Load at startup"
+msgstr ""
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
@@ -314,7 +318,7 @@ msgid "Import bookmarks from:"
 msgstr "导入书签的来源："
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
-#: ../eolie/popover_uri.py:88
+#: ../eolie/popover_uri.py:96
 msgid "Import bookmarks"
 msgstr "导入书签"
 
@@ -378,8 +382,8 @@ msgstr "保存"
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:57 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:96
+#: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:131
 msgid "Cancel"
 msgstr "取消"
 
@@ -488,7 +492,7 @@ msgstr "启动页："
 msgid "Search engine"
 msgstr "搜索引擎"
 
-#: ../data/SettingsDialog.ui:226 ../eolie/context.py:85
+#: ../data/SettingsDialog.ui:226 ../eolie/context.py:87
 msgid "Popular pages"
 msgstr "热门页面"
 
@@ -905,11 +909,11 @@ msgstr ""
 msgid "Night mode"
 msgstr ""
 
-#: ../eolie/application.py:592
+#: ../eolie/application.py:623
 msgid "Do you really want to quit Eolie?"
 msgstr "您确定要退出 Eolie 吗？"
 
-#: ../eolie/application.py:646
+#: ../eolie/application.py:677
 msgid "Downloads running, are you sure you want quit?"
 msgstr "用运行中的下载任务，您确定要退出？"
 
@@ -921,15 +925,15 @@ msgstr "请考虑向此项目捐赠"
 msgid "Do you really want to close this page?"
 msgstr "您确定要关闭此页面吗？"
 
-#: ../eolie/context.py:151
+#: ../eolie/context.py:153
 msgid "Name"
 msgstr "名称"
 
-#: ../eolie/context.py:152
+#: ../eolie/context.py:154
 msgid "Size"
 msgstr "大小"
 
-#: ../eolie/context.py:154
+#: ../eolie/context.py:156
 msgid "Last modification"
 msgstr "最后修改"
 
@@ -1025,7 +1029,11 @@ msgstr "打开所有页面"
 msgid "Modify user agent"
 msgstr "修改用户代理"
 
-#: ../eolie/menu_sites.py:82
+#: ../eolie/menu_sites.py:89
+msgid "Pinned site"
+msgstr ""
+
+#: ../eolie/menu_sites.py:98
 msgid "Close site"
 msgstr "关闭网站"
 
@@ -1120,44 +1128,44 @@ msgstr ""
 msgid "Connexion is unsecure"
 msgstr ""
 
-#: ../eolie/popover_uri_content.py:200
+#: ../eolie/popover_uri_content.py:124
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s 书签"
 
-#: ../eolie/popover_uri.py:253
+#: ../eolie/popover_uri.py:266
 msgid "Popular"
 msgstr "热门"
 
-#: ../eolie/popover_uri.py:256
+#: ../eolie/popover_uri.py:269
 msgid "Recent"
 msgstr "最近"
 
-#: ../eolie/popover_uri.py:258
+#: ../eolie/popover_uri.py:271
 msgid "Unclassified"
 msgstr "未分类"
 
-#: ../eolie/popover_uri.py:282
+#: ../eolie/popover_uri.py:295
 msgid "From the past hour"
 msgstr "一小时内"
 
-#: ../eolie/popover_uri.py:283
+#: ../eolie/popover_uri.py:296
 msgid "From the past day"
 msgstr "一天内"
 
-#: ../eolie/popover_uri.py:284
+#: ../eolie/popover_uri.py:297
 msgid "From the past week"
 msgstr "上周内"
 
-#: ../eolie/popover_uri.py:286
+#: ../eolie/popover_uri.py:299
 msgid "From the past four weeks"
 msgstr "四周内"
 
-#: ../eolie/popover_uri.py:287
+#: ../eolie/popover_uri.py:300
 msgid "From selected day"
 msgstr "所选日"
 
-#: ../eolie/popover_uri.py:288
+#: ../eolie/popover_uri.py:301
 msgid "From the beginning"
 msgstr "全部"
 
@@ -1235,7 +1243,7 @@ msgstr "您已经收到一封用来验证同步的邮件"
 msgid "Downloading:"
 msgstr "下载中："
 
-#: ../eolie/toolbar_title.py:96
+#: ../eolie/toolbar_title.py:93
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1337,7 +1345,7 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "立即报告缺陷"
 
-#: ../eolie/webview_signals_js.py:89
+#: ../eolie/webview_signals_js.py:93
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie 将要关闭此页面，因为它已损坏"
 
@@ -1365,11 +1373,11 @@ msgstr "搜索互联网"
 msgid "Save page as image"
 msgstr "保存页面为图像"
 
-#: ../eolie/webview_signals.py:92
+#: ../eolie/webview_signals.py:127
 msgid "Select files to upload"
 msgstr "选择要上传的文件"
 
-#: ../eolie/webview_signals.py:95
+#: ../eolie/webview_signals.py:130
 msgid "Open"
 msgstr "打开"
 
@@ -1389,20 +1397,20 @@ msgstr "1000 / 1000 个匹配项"
 msgid "Deny geolocation"
 msgstr "拒绝提供地理位置"
 
-#: ../eolie/widget_uri_entry.py:186
+#: ../eolie/widget_uri_entry.py:183
 msgid "This page contains insecure content"
 msgstr "此页面包含不安全的内容"
 
-#: ../eolie/widget_uri_entry.py:208 ../eolie/widget_uri_entry.py:211
+#: ../eolie/widget_uri_entry.py:205 ../eolie/widget_uri_entry.py:208
 msgid "Search or enter address"
 msgstr "搜索或输入地址"
 
-#: ../eolie/widget_uri_entry.py:295
+#: ../eolie/widget_uri_entry.py:291
 #, python-format
 msgid "Save password for: %s"
 msgstr ""
 
-#: ../eolie/widget_uri_entry.py:550
+#: ../eolie/widget_uri_entry.py:461
 msgid "Paste and load"
 msgstr "粘贴并载入"
 

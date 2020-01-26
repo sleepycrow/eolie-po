@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-17 01:38+0100\n"
+"POT-Creation-Date: 2020-01-26 16:10+0100\n"
 "PO-Revision-Date: 2019-12-03 00:05+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -225,21 +225,25 @@ msgstr "Nytt vindu"
 msgid "New private page"
 msgstr "Ny privat side"
 
-#: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
-msgid "Address:"
-msgstr "Adresse:"
+#: ../data/BookmarkEdit.ui:106 ../data/BookmarkEdit.ui:109
+msgid "Add new tag"
+msgstr "Legg til ny merkelapp"
 
-#: ../data/BookmarkEdit.ui:41
+#: ../data/BookmarkEdit.ui:135
 msgid "Title:"
 msgstr "Tittel:"
 
-#: ../data/BookmarkEdit.ui:98
+#: ../data/BookmarkEdit.ui:160
 msgid "Remove bookmark"
 msgstr "Fjern bokmerke"
 
-#: ../data/BookmarkEdit.ui:166 ../data/BookmarkEdit.ui:169
-msgid "Add new tag"
-msgstr "Legg til ny merkelapp"
+#: ../data/BookmarkEdit.ui:178 ../data/DialogSearchEngine.ui:168
+msgid "Address:"
+msgstr "Adresse:"
+
+#: ../data/BookmarkEdit.ui:203
+msgid "Load at startup"
+msgstr ""
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
@@ -323,7 +327,7 @@ msgid "Import bookmarks from:"
 msgstr "Importer bokmerker fra:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
-#: ../eolie/popover_uri.py:88
+#: ../eolie/popover_uri.py:96
 msgid "Import bookmarks"
 msgstr "Importer bokmerker"
 
@@ -390,8 +394,8 @@ msgstr "Lagre"
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:57 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:96
+#: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:131
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -502,7 +506,7 @@ msgstr "Startside:"
 msgid "Search engine"
 msgstr "Søkemotor"
 
-#: ../data/SettingsDialog.ui:226 ../eolie/context.py:85
+#: ../data/SettingsDialog.ui:226 ../eolie/context.py:87
 msgid "Popular pages"
 msgstr "Populære sider"
 
@@ -926,11 +930,11 @@ msgstr "Kjør skript"
 msgid "Night mode"
 msgstr "Nattmodus"
 
-#: ../eolie/application.py:592
+#: ../eolie/application.py:623
 msgid "Do you really want to quit Eolie?"
 msgstr "Vil du virkelig avslutte Eolie?"
 
-#: ../eolie/application.py:646
+#: ../eolie/application.py:677
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Nedlastinger kjører, er du sikker på at du vil avslutte?"
 
@@ -942,15 +946,15 @@ msgstr "Overvei å donere til prosjektet"
 msgid "Do you really want to close this page?"
 msgstr "Ønsker du virkelig å lukke denne siden?"
 
-#: ../eolie/context.py:151
+#: ../eolie/context.py:153
 msgid "Name"
 msgstr "Navn"
 
-#: ../eolie/context.py:152
+#: ../eolie/context.py:154
 msgid "Size"
 msgstr "Størrelse"
 
-#: ../eolie/context.py:154
+#: ../eolie/context.py:156
 msgid "Last modification"
 msgstr "Siste endring"
 
@@ -1050,7 +1054,11 @@ msgstr "Åpne alle sider"
 msgid "Modify user agent"
 msgstr "Endre brukeragent"
 
-#: ../eolie/menu_sites.py:82
+#: ../eolie/menu_sites.py:89
+msgid "Pinned site"
+msgstr ""
+
+#: ../eolie/menu_sites.py:98
 msgid "Close site"
 msgstr "Lukk side"
 
@@ -1153,44 +1161,44 @@ msgstr ""
 msgid "Connexion is unsecure"
 msgstr "Tilkoblingen er usikker"
 
-#: ../eolie/popover_uri_content.py:200
+#: ../eolie/popover_uri_content.py:124
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s bokmerker"
 
-#: ../eolie/popover_uri.py:253
+#: ../eolie/popover_uri.py:266
 msgid "Popular"
 msgstr "Populær"
 
-#: ../eolie/popover_uri.py:256
+#: ../eolie/popover_uri.py:269
 msgid "Recent"
 msgstr "Nylig"
 
-#: ../eolie/popover_uri.py:258
+#: ../eolie/popover_uri.py:271
 msgid "Unclassified"
 msgstr "Uklassifisert"
 
-#: ../eolie/popover_uri.py:282
+#: ../eolie/popover_uri.py:295
 msgid "From the past hour"
 msgstr "Fra siste time"
 
-#: ../eolie/popover_uri.py:283
+#: ../eolie/popover_uri.py:296
 msgid "From the past day"
 msgstr "Fra den siste dagen"
 
-#: ../eolie/popover_uri.py:284
+#: ../eolie/popover_uri.py:297
 msgid "From the past week"
 msgstr "Fra siste uke"
 
-#: ../eolie/popover_uri.py:286
+#: ../eolie/popover_uri.py:299
 msgid "From the past four weeks"
 msgstr "Fra de siste fire timene"
 
-#: ../eolie/popover_uri.py:287
+#: ../eolie/popover_uri.py:300
 msgid "From selected day"
 msgstr "Fra valgt dag"
 
-#: ../eolie/popover_uri.py:288
+#: ../eolie/popover_uri.py:301
 msgid "From the beginning"
 msgstr "Fra begynnelsen"
 
@@ -1269,7 +1277,7 @@ msgstr "Du har mottatt en e-post for å bekrefte synkronisering"
 msgid "Downloading:"
 msgstr "Laster ned:"
 
-#: ../eolie/toolbar_title.py:96
+#: ../eolie/toolbar_title.py:93
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1376,7 +1384,7 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Rapporter en feil nå"
 
-#: ../eolie/webview_signals_js.py:89
+#: ../eolie/webview_signals_js.py:93
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie vil lukke denne siden fordi den er knekt"
 
@@ -1404,11 +1412,11 @@ msgstr "Søk på nettet"
 msgid "Save page as image"
 msgstr "Lagre side som bilde"
 
-#: ../eolie/webview_signals.py:92
+#: ../eolie/webview_signals.py:127
 msgid "Select files to upload"
 msgstr "Velg filer å laste opp"
 
-#: ../eolie/webview_signals.py:95
+#: ../eolie/webview_signals.py:130
 msgid "Open"
 msgstr "Åpne"
 
@@ -1428,20 +1436,20 @@ msgstr "1000 av 1000 treff"
 msgid "Deny geolocation"
 msgstr "Nekt geoplassering"
 
-#: ../eolie/widget_uri_entry.py:186
+#: ../eolie/widget_uri_entry.py:183
 msgid "This page contains insecure content"
 msgstr "Siden inneholder usikkert innhold"
 
-#: ../eolie/widget_uri_entry.py:208 ../eolie/widget_uri_entry.py:211
+#: ../eolie/widget_uri_entry.py:205 ../eolie/widget_uri_entry.py:208
 msgid "Search or enter address"
 msgstr "Søk eller skriv inn adresse"
 
-#: ../eolie/widget_uri_entry.py:295
+#: ../eolie/widget_uri_entry.py:291
 #, python-format
 msgid "Save password for: %s"
 msgstr "Lagre passord for: %s"
 
-#: ../eolie/widget_uri_entry.py:550
+#: ../eolie/widget_uri_entry.py:461
 msgid "Paste and load"
 msgstr "Lim inn og gå"
 

@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-17 01:38+0100\n"
+"POT-Creation-Date: 2020-01-26 16:10+0100\n"
 "PO-Revision-Date: 2020-01-02 17:21+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/>"
-"\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/"
+">\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -221,21 +221,25 @@ msgstr "Uusi ikkuna"
 msgid "New private page"
 msgstr "Uusi yksityinen sivu"
 
-#: ../data/BookmarkEdit.ui:29 ../data/DialogSearchEngine.ui:168
-msgid "Address:"
-msgstr "Osoite:"
+#: ../data/BookmarkEdit.ui:106 ../data/BookmarkEdit.ui:109
+msgid "Add new tag"
+msgstr "Lisää uusi tunniste"
 
-#: ../data/BookmarkEdit.ui:41
+#: ../data/BookmarkEdit.ui:135
 msgid "Title:"
 msgstr "Otsikko:"
 
-#: ../data/BookmarkEdit.ui:98
+#: ../data/BookmarkEdit.ui:160
 msgid "Remove bookmark"
 msgstr "Poista kirjanmerkki"
 
-#: ../data/BookmarkEdit.ui:166 ../data/BookmarkEdit.ui:169
-msgid "Add new tag"
-msgstr "Lisää uusi tunniste"
+#: ../data/BookmarkEdit.ui:178 ../data/DialogSearchEngine.ui:168
+msgid "Address:"
+msgstr "Osoite:"
+
+#: ../data/BookmarkEdit.ui:203
+msgid "Load at startup"
+msgstr ""
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
@@ -312,7 +316,7 @@ msgid "Import bookmarks from:"
 msgstr "Tuo kirjanmerkit kohteesta:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
-#: ../eolie/popover_uri.py:88
+#: ../eolie/popover_uri.py:96
 msgid "Import bookmarks"
 msgstr "Tuo kirjanmerkit"
 
@@ -374,8 +378,8 @@ msgstr "Tallenna"
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:57 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:96
+#: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:134
+#: ../eolie/webview_signals.py:131
 msgid "Cancel"
 msgstr "Peru"
 
@@ -484,7 +488,7 @@ msgstr "Aloitussivu:"
 msgid "Search engine"
 msgstr "Hakukone"
 
-#: ../data/SettingsDialog.ui:226 ../eolie/context.py:85
+#: ../data/SettingsDialog.ui:226 ../eolie/context.py:87
 msgid "Popular pages"
 msgstr "Suositut sivut"
 
@@ -901,11 +905,11 @@ msgstr "Suorita komentosarjat"
 msgid "Night mode"
 msgstr "Yötila"
 
-#: ../eolie/application.py:592
+#: ../eolie/application.py:623
 msgid "Do you really want to quit Eolie?"
 msgstr "Haluatko varmasti lopettaa Eolien?"
 
-#: ../eolie/application.py:646
+#: ../eolie/application.py:677
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Latauksia on käynnissä. Haluatko silti lopettaa?"
 
@@ -917,15 +921,15 @@ msgstr "Harkitse lahjoitusta projektille"
 msgid "Do you really want to close this page?"
 msgstr "Haluatko varmasti sulkea tämän sivun?"
 
-#: ../eolie/context.py:151
+#: ../eolie/context.py:153
 msgid "Name"
 msgstr "Nimi"
 
-#: ../eolie/context.py:152
+#: ../eolie/context.py:154
 msgid "Size"
 msgstr "Koko"
 
-#: ../eolie/context.py:154
+#: ../eolie/context.py:156
 msgid "Last modification"
 msgstr "Viimeisin muokkaus"
 
@@ -1021,7 +1025,11 @@ msgstr "Avaa kaikki sivut"
 msgid "Modify user agent"
 msgstr "Muokkaa user agent -tietuetta"
 
-#: ../eolie/menu_sites.py:82
+#: ../eolie/menu_sites.py:89
+msgid "Pinned site"
+msgstr ""
+
+#: ../eolie/menu_sites.py:98
 msgid "Close site"
 msgstr "Sulje sivusto"
 
@@ -1122,44 +1130,44 @@ msgstr ""
 msgid "Connexion is unsecure"
 msgstr ""
 
-#: ../eolie/popover_uri_content.py:200
+#: ../eolie/popover_uri_content.py:124
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s kirjanmerkkiä"
 
-#: ../eolie/popover_uri.py:253
+#: ../eolie/popover_uri.py:266
 msgid "Popular"
 msgstr "Suosittu"
 
-#: ../eolie/popover_uri.py:256
+#: ../eolie/popover_uri.py:269
 msgid "Recent"
 msgstr "Äskettäinen"
 
-#: ../eolie/popover_uri.py:258
+#: ../eolie/popover_uri.py:271
 msgid "Unclassified"
 msgstr ""
 
-#: ../eolie/popover_uri.py:282
+#: ../eolie/popover_uri.py:295
 msgid "From the past hour"
 msgstr "Viimeisen tunnin ajalta"
 
-#: ../eolie/popover_uri.py:283
+#: ../eolie/popover_uri.py:296
 msgid "From the past day"
 msgstr "Viimeisen vuorokauden ajalta"
 
-#: ../eolie/popover_uri.py:284
+#: ../eolie/popover_uri.py:297
 msgid "From the past week"
 msgstr "Viimeisen viikon ajalta"
 
-#: ../eolie/popover_uri.py:286
+#: ../eolie/popover_uri.py:299
 msgid "From the past four weeks"
 msgstr "Viimeisen kuukauden ajalta"
 
-#: ../eolie/popover_uri.py:287
+#: ../eolie/popover_uri.py:300
 msgid "From selected day"
 msgstr "Valitulta päivältä"
 
-#: ../eolie/popover_uri.py:288
+#: ../eolie/popover_uri.py:301
 msgid "From the beginning"
 msgstr "Alusta alkaen"
 
@@ -1237,7 +1245,7 @@ msgstr ""
 msgid "Downloading:"
 msgstr "Ladataan:"
 
-#: ../eolie/toolbar_title.py:96
+#: ../eolie/toolbar_title.py:93
 msgid ""
 "Heads-up: This page is insecure.\n"
 "If you type your password,\n"
@@ -1335,7 +1343,7 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Ilmoita ongelmasta nyt"
 
-#: ../eolie/webview_signals_js.py:89
+#: ../eolie/webview_signals_js.py:93
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie sulkee tämän sivun, koska se on rikki"
 
@@ -1363,11 +1371,11 @@ msgstr "Etsi verkosta"
 msgid "Save page as image"
 msgstr "Tallenna sivu kuvana"
 
-#: ../eolie/webview_signals.py:92
+#: ../eolie/webview_signals.py:127
 msgid "Select files to upload"
 msgstr "Valitse lähetettävät tiedostot"
 
-#: ../eolie/webview_signals.py:95
+#: ../eolie/webview_signals.py:130
 msgid "Open"
 msgstr "Avaa"
 
@@ -1387,20 +1395,20 @@ msgstr ""
 msgid "Deny geolocation"
 msgstr "Kiellä paikannus"
 
-#: ../eolie/widget_uri_entry.py:186
+#: ../eolie/widget_uri_entry.py:183
 msgid "This page contains insecure content"
 msgstr "Tämä sivu sisältää turvatonta sisältöä"
 
-#: ../eolie/widget_uri_entry.py:208 ../eolie/widget_uri_entry.py:211
+#: ../eolie/widget_uri_entry.py:205 ../eolie/widget_uri_entry.py:208
 msgid "Search or enter address"
 msgstr "Etsi tai kirjoita osoite"
 
-#: ../eolie/widget_uri_entry.py:295
+#: ../eolie/widget_uri_entry.py:291
 #, python-format
 msgid "Save password for: %s"
 msgstr "Tallenna salasana: %s"
 
-#: ../eolie/widget_uri_entry.py:550
+#: ../eolie/widget_uri_entry.py:461
 msgid "Paste and load"
 msgstr "Liitä ja lataa"
 
