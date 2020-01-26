@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2019-12-03 00:05+0000\n"
+"PO-Revision-Date: 2020-01-27 19:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "eolie/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 3.11-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -243,7 +243,7 @@ msgstr "Adresse:"
 
 #: ../data/BookmarkEdit.ui:203
 msgid "Load at startup"
-msgstr ""
+msgstr "Last inn ved oppstart"
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
@@ -1055,8 +1055,9 @@ msgid "Modify user agent"
 msgstr "Endre brukeragent"
 
 #: ../eolie/menu_sites.py:89
+#, fuzzy
 msgid "Pinned site"
-msgstr ""
+msgstr "Festet side"
 
 #: ../eolie/menu_sites.py:98
 msgid "Close site"
