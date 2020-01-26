@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-17 01:38+0100\n"
-"PO-Revision-Date: 2019-08-06 14:23+0000\n"
+"PO-Revision-Date: 2020-01-26 15:10+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "eo/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8-dev\n"
+"X-Generator: Weblate 3.11-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -614,7 +614,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:923
 msgid "Privacy"
-msgstr ""
+msgstr "Privateco"
 
 #: ../data/SettingsDialog.ui:945
 msgid ""
