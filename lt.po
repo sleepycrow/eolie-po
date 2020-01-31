@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2019-04-20 19:33+0000\n"
+"PO-Revision-Date: 2020-02-02 09:50+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "lt/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 3.6\n"
+"X-Generator: Weblate 3.11-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -43,11 +43,11 @@ msgstr "Minimali šoninės juostos pozicija"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Enable night mode"
-msgstr ""
+msgstr "Įjungti naktinę veikseną"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
 msgid "Switch to night mode with GNOME"
-msgstr ""
+msgstr "Perjungti į naktinę veikseną naudojant GNOME"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block ads on pages"
@@ -55,7 +55,7 @@ msgstr "Blokuoti puslapiuose reklamas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "Blokuoti nepageidaujamus iškylančiuosius langus"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:54
 msgid "Block images"
@@ -63,7 +63,7 @@ msgstr "Blokuoti paveikslus"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69 ../eolie/menu_application.py:55
 msgid "Block multimedia"
-msgstr ""
+msgstr "Blokuoti multimediją"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
@@ -71,7 +71,7 @@ msgstr "Blokuoti JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Block Phishing"
-msgstr ""
+msgstr "Blokuoti sukčiavimus"
 
 #: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Enable smooth scrolling"
@@ -241,7 +241,7 @@ msgstr "Adresas:"
 
 #: ../data/BookmarkEdit.ui:203
 msgid "Load at startup"
-msgstr ""
+msgstr "Įkelti paleidimo metu"
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
@@ -542,11 +542,11 @@ msgstr "Šriftai"
 
 #: ../data/SettingsDialog.ui:421
 msgid "Sans-serif font"
-msgstr ""
+msgstr "Neserifinis šriftas"
 
 #: ../data/SettingsDialog.ui:445
 msgid "Monospaced font"
-msgstr ""
+msgstr "Lygiaplotis šriftas"
 
 #: ../data/SettingsDialog.ui:596
 msgid "Appearance"
@@ -622,7 +622,7 @@ msgstr "Nesaugoti"
 
 #: ../data/SettingsDialog.ui:875
 msgid "Predict website addresses"
-msgstr ""
+msgstr "Nuspėti internetinių svetainių adresus"
 
 #: ../data/SettingsDialog.ui:923
 msgid "Privacy"
@@ -655,19 +655,19 @@ msgstr "Susikurti ar tvarkyti paskyrą"
 
 #: ../data/SettingsDialog.ui:1062
 msgid "Code:"
-msgstr ""
+msgstr "Kodas:"
 
 #: ../data/SettingsDialog.ui:1073 ../data/SettingsDialog.ui:1074
 msgid "You need to turn on two-factor authentication"
-msgstr ""
+msgstr "Turite įjungti dviejų faktorių tapatybės nustatymą"
 
 #: ../data/SettingsDialog.ui:1091
 msgid "Fetch from Firefox Sync"
-msgstr ""
+msgstr "Gauti iš Firefox Sync"
 
 #: ../data/SettingsDialog.ui:1106
 msgid "Send to Firefox Sync"
-msgstr ""
+msgstr "Siųsti į Firefox Sync"
 
 #: ../data/SettingsDialog.ui:1134
 msgid "Syncing"
@@ -896,27 +896,27 @@ msgstr "Filtravimas"
 
 #: ../data/ToolbarMenu.ui:289
 msgid "Show ads"
-msgstr ""
+msgstr "Rodyti reklamas"
 
 #: ../data/ToolbarMenu.ui:301
 msgid "Show popups"
-msgstr ""
+msgstr "Rodyti iškylančiuosius langus"
 
 #: ../data/ToolbarMenu.ui:313
 msgid "Show images"
-msgstr ""
+msgstr "Rodyti paveikslus"
 
 #: ../data/ToolbarMenu.ui:325
 msgid "Show multimedia"
-msgstr ""
+msgstr "Rodyti multimediją"
 
 #: ../data/ToolbarMenu.ui:390
 msgid "Run scripts"
-msgstr ""
+msgstr "Vykdyti scenarijus"
 
 #: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:47
 msgid "Night mode"
-msgstr ""
+msgstr "Naktinė veiksena"
 
 #: ../eolie/application.py:623
 msgid "Do you really want to quit Eolie?"
@@ -996,11 +996,11 @@ msgstr "Blokuoti iškylančiuosius langus"
 
 #: ../eolie/menu_application.py:56
 msgid "Block scripts"
-msgstr ""
+msgstr "Blokuoti scenarijus"
 
 #: ../eolie/menu_application.py:68
 msgid "Blockers"
-msgstr ""
+msgstr "Blokatoriai"
 
 #: ../eolie/menu_application.py:75
 msgid "_Preferences"
@@ -1040,7 +1040,7 @@ msgstr "Pakeisti naršyklės atpažinimą"
 
 #: ../eolie/menu_sites.py:89
 msgid "Pinned site"
-msgstr ""
+msgstr "Prisegta svetainė"
 
 #: ../eolie/menu_sites.py:98
 msgid "Close site"
@@ -1110,7 +1110,7 @@ msgstr "Tęsti"
 
 #: ../eolie/popover_tls.py:55
 msgid "Connexion is secure"
-msgstr ""
+msgstr "Ryšys yra saugus"
 
 #: ../eolie/popover_tls.py:60
 #, python-format
@@ -1118,6 +1118,8 @@ msgid ""
 "<b>Website identity:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Internetinės svetainės tapatybė:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:65
 #, python-format
@@ -1125,6 +1127,8 @@ msgid ""
 "<b>Expires on:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Baigia galioti:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:70
 #, python-format
@@ -1132,10 +1136,12 @@ msgid ""
 "<b>Verified by:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Patvirtino:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:74
 msgid "Connexion is unsecure"
-msgstr ""
+msgstr "Ryšys nėra saugus"
 
 #: ../eolie/popover_uri_content.py:124
 #, python-format
@@ -1420,7 +1426,7 @@ msgstr "Įveskite paiešką arba adresą"
 #: ../eolie/widget_uri_entry.py:291
 #, python-format
 msgid "Save password for: %s"
-msgstr ""
+msgstr "Įrašyti slaptažodį, skirtą: %s"
 
 #: ../eolie/widget_uri_entry.py:461
 msgid "Paste and load"
