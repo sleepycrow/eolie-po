@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-02-02 09:50+0000\n"
-"Last-Translator: Thect <x9930707@gmail.com>\n"
+"PO-Revision-Date: 2020-03-11 12:33+0000\n"
+"Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnumdk/eolie/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
-msgstr "顯示偵錯訊息"
+msgstr "顯示除錯訊息"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
-msgstr "顯示 Firefox Sync 偵錯訊息"
+msgstr "顯示 Firefox Sync 除錯訊息"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "INTERNAL"
-msgstr ""
+msgstr "內部"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
@@ -45,47 +45,47 @@ msgstr "啟用夜晚模式"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
 msgid "Switch to night mode with GNOME"
-msgstr "以 GNOME 進入夜晚模式"
+msgstr "切換至 GNOME 夜晚模式"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block ads on pages"
-msgstr ""
+msgstr "封鎖頁面上的廣告"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "封鎖不想要的彈出視窗"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:54
 msgid "Block images"
-msgstr ""
+msgstr "封鎖影像"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69 ../eolie/menu_application.py:55
 msgid "Block multimedia"
-msgstr ""
+msgstr "封鎖多媒體"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
-msgstr ""
+msgstr "封鎖 JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Block Phishing"
-msgstr ""
+msgstr "封鎖釣魚"
 
 #: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "啟用平滑捲動"
 
 #: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Download folder URI"
-msgstr ""
+msgstr "下載資料夾 URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Open finished downloads"
-msgstr ""
+msgstr "開啟完成的下載"
 
 #: ../data/org.gnome.Eolie.gschema.xml:99
 msgid "Web search engine"
-msgstr ""
+msgstr "網頁搜尋引擎"
 
 #: ../data/org.gnome.Eolie.gschema.xml:104
 msgid "Remember sessions"
@@ -178,6 +178,8 @@ msgstr ""
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr ""
+"Cheng-Chia Tseng <zerngjia@gmail.com>\n"
+"cheetosysst"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -474,7 +476,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
-msgstr ""
+msgstr "其他"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Startup"
