@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2019-10-18 15:52+0000\n"
-"Last-Translator: Mattias Münster <mattiasmun@gmail.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/"
-">\n"
+"PO-Revision-Date: 2020-03-29 12:09+0000\n"
+"Last-Translator: Ricky Lindén <rickylinden@posteo.net>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/eolie/sv/>"
+"\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -177,7 +177,8 @@ msgstr "Besök webbplatsen för Eolie"
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr "Göran Olsson <kronstadt21@gmail.com>"
+msgstr ""
+"Göran Olsson <kronstadt21@gmail.com>, Ricky Lindén <rickylinden@posteo.net>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -622,7 +623,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:923
 msgid "Privacy"
-msgstr "Sekretess"
+msgstr "Integritet"
 
 #: ../data/SettingsDialog.ui:945
 msgid ""
