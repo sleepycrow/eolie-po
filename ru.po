@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-04-02 01:35+0000\n"
+"PO-Revision-Date: 2020-04-02 01:56+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/>"
 "\n"
@@ -180,6 +180,9 @@ msgstr "Посетите веб-сайт Eolie"
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr ""
+"Derpy Crabs <derpycrabs@gmail.com>\n"
+"Maxim Orlov <murmansksity@gmail.com>\n"
+"Artemii Sudakov <finziyr@yandex.ru>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -191,11 +194,11 @@ msgstr ""
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:100
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:7
 #: ../data/org.gnome.Eolie.desktop.in:3
@@ -628,7 +631,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:923
 msgid "Privacy"
-msgstr "Конфиденциальность"
+msgstr "Приватность"
 
 #: ../data/SettingsDialog.ui:945
 msgid ""
@@ -935,7 +938,7 @@ msgstr "Вы действительно хотите закрыть эту ст�
 
 #: ../eolie/context.py:153
 msgid "Name"
-msgstr "Название"
+msgstr "по имени"
 
 #: ../eolie/context.py:154
 msgid "Size"
