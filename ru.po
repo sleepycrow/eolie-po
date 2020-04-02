@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-04-02 02:52+0000\n"
+"PO-Revision-Date: 2020-04-02 21:11+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/>"
 "\n"
@@ -38,7 +38,7 @@ msgstr "Показать боковую панель (менеджер вкла�
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Minimum sidebar position"
-msgstr "Минимальная ширина боковой панели"
+msgstr "Минимальная позиция боковой панели"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Enable night mode"
@@ -54,23 +54,23 @@ msgstr "Блокировать рекламу на страницах"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block unwanted popups"
-msgstr "Блокировать назойливые поп-апы"
+msgstr "Блокировка назойливых поп-апы"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:54
 msgid "Block images"
-msgstr "Блокировать изображения"
+msgstr "Блокировка изображений"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69 ../eolie/menu_application.py:55
 msgid "Block multimedia"
-msgstr "Блокировать мультимедию"
+msgstr "Блокировка мультимедии"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
-msgstr "Блокировать JavaScript"
+msgstr "Блокировка JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Block Phishing"
-msgstr "Блокировать фишинг"
+msgstr "Блокировка фишинга"
 
 #: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Enable smooth scrolling"
@@ -178,18 +178,15 @@ msgstr "Посетите веб-сайт Eolie"
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr ""
-"Derpy Crabs <derpycrabs@gmail.com>\n"
-"Maxim Orlov <murmansksity@gmail.com>\n"
-"Artemii Sudakov <finziyr@yandex.ru>"
+msgstr "Artemii Sudakov <finziyr@yandex.ru>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
-msgstr "Пожертвования:"
+msgstr "Донаты:"
 
 #: ../data/AboutDialog.ui.in:57
 msgid "Liberapay"
-msgstr "Liberapay"
+msgstr "Librerapay"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
@@ -455,7 +452,7 @@ msgstr "Включить блокировщик JavaScript"
 
 #: ../data/ScriptsMenu.ui:109
 msgid "Block policy"
-msgstr "Блокировать политики"
+msgstr "Блокировка политик"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
@@ -677,7 +674,7 @@ msgstr "Синхронизация"
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Общее"
+msgstr "Основные"
 
 #: ../data/Shortcuts.ui:17
 msgctxt "shortcut window"
@@ -993,11 +990,11 @@ msgstr "Блокировка рекламы"
 
 #: ../eolie/menu_application.py:53
 msgid "Block popups"
-msgstr "Блокировать всплывающие окна"
+msgstr "Блокировка всплывающих окон"
 
 #: ../eolie/menu_application.py:56
 msgid "Block scripts"
-msgstr "Блокировать скрипты"
+msgstr "Блокировка скриптов"
 
 #: ../eolie/menu_application.py:68
 msgid "Blockers"
@@ -1013,11 +1010,11 @@ msgstr "_Боковая панель"
 
 #: ../eolie/menu_application.py:89
 msgid "_Keyboard Shortcuts"
-msgstr "_Горячие клавиши"
+msgstr "_Сочетания клавиш"
 
 #: ../eolie/menu_application.py:95
 msgid "_About"
-msgstr "_Информация"
+msgstr "_О Passbook"
 
 #: ../eolie/menu_form.py:36
 msgid "Saved credentials"
