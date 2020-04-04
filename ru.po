@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-04-04 21:55+0000\n"
+"PO-Revision-Date: 2020-04-05 06:37+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/>"
 "\n"
@@ -926,7 +926,7 @@ msgstr "Что-то скачивается. Вы уверены что хоти�
 
 #: ../eolie/container.py:99
 msgid "Please consider a donation to the project"
-msgstr "Пожалуйста, поддержите проект донатом"
+msgstr "Пожалуйста, поддержите проект пожертвованием"
 
 #: ../eolie/container_stack.py:228
 msgid "Do you really want to close this page?"
