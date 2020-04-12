@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-04-11 17:09+0000\n"
+"PO-Revision-Date: 2020-04-14 17:11+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/>"
 "\n"
@@ -134,7 +134,7 @@ msgstr "Gösterilen popüler öğeler"
 #: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:533
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
-msgstr "Varsayılan yakınlaştırma seviyesi"
+msgstr "Öntanımlı yakınlaştırma seviyesi"
 
 #: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "Cookies storage type"
@@ -142,7 +142,7 @@ msgstr "Çerez depolama türü"
 
 #: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "History storage type"
-msgstr "Geçmiş depolama tipi"
+msgstr "Geçmiş depolama türü"
 
 #: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:649
 msgid "Tell websites I do not want to be tracked"
@@ -346,7 +346,7 @@ msgstr "İsim:"
 
 #: ../data/DialogSearchEngine.ui:207
 msgid "Default:"
-msgstr "Varsayılan:"
+msgstr "Öntanımlı:"
 
 #: ../data/DialogSearchEngine.ui:233
 msgid "Bang:"
@@ -796,7 +796,7 @@ msgstr "Uzaklaştır"
 #: ../data/Shortcuts.ui:176
 msgctxt "shortcut window"
 msgid "Default zoom level"
-msgstr "Varsayılan yakınlaştırma seviyesi"
+msgstr "Öntanımlı yakınlaştırma seviyesi"
 
 #: ../data/Shortcuts.ui:183
 msgctxt "shortcut window"
