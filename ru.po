@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-04-06 02:56+0000\n"
+"PO-Revision-Date: 2020-04-14 17:11+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/>"
 "\n"
@@ -1385,7 +1385,7 @@ msgstr "Открыть ссылку в новом окне"
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
-msgstr "Поиск в Интернете"
+msgstr "Найти в сети"
 
 #: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
