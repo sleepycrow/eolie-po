@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
 "PO-Revision-Date: 2020-06-06 09:36+0000\n"
-"Last-Translator: GustavoPeredo <gustavomperedo@gmail.com>\n"
+"Last-Translator: Carlos Henrique De Freitas F. <neocazen@vivaldi.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "gnumdk/eolie/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -89,178 +89,178 @@ msgstr "Mecanismo de pesquisa"
 
 #: ../data/org.gnome.Eolie.gschema.xml:104
 msgid "Remember sessions"
-msgstr ""
+msgstr "Lembrar Sessões"
 
 #: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:683
 msgid "Remember passwords"
-msgstr ""
+msgstr "Lembrar senhas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
-msgstr ""
+msgstr "Habilitar ferramentas de desenvolvedor"
 
 #: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
-msgstr ""
+msgstr "Habilitar plugins"
 
 #: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:392
 msgid "Use system fonts"
-msgstr ""
+msgstr "Usar fontes do sistema"
 
 #: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Sans serif font"
-msgstr ""
+msgstr "Fonte Sans serif"
 
 #: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:433
 msgid "Serif font"
-msgstr ""
+msgstr "Fonte Serif"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Monospace font"
-msgstr ""
+msgstr "Fonte mono-espaçada"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144
 msgid "Open this page on startup"
-msgstr ""
+msgstr "Abrir nesta página ao iniciar"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:507
 msgid "Minimum font size"
-msgstr ""
+msgstr "Tamanho mínimo da fonte"
 
 #: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "Popular items shown"
-msgstr ""
+msgstr "Mostrar itens populares"
 
 #: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:533
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
-msgstr ""
+msgstr "Nível padrão de zoom"
 
 #: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "Cookies storage type"
-msgstr ""
+msgstr "Tipo de armazenamento de cookies"
 
 #: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "History storage type"
-msgstr ""
+msgstr "Tipo de armazenamento de histórico"
 
 #: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:649
 msgid "Tell websites I do not want to be tracked"
-msgstr ""
+msgstr "Diga aos sites que não desejo ser rastreado"
 
 #: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "DNS prediction"
-msgstr ""
+msgstr "Previsão de DNS"
 
 #: ../data/org.gnome.Eolie.gschema.xml:184 ../data/SettingsDialog.ui:893
 msgid "Autoplay videos"
-msgstr ""
+msgstr "Tocar vídeos automaticamente"
 
 #: ../data/org.gnome.Eolie.gschema.xml:189
 msgid "Enable search suggestions"
-msgstr ""
+msgstr "Habilitar sugestão de buscas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:194 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
-msgstr ""
+msgstr "Habilitar verificação ortográfica"
 
 #: ../data/AboutDialog.ui.in:14
 msgid "A web browser for GNOME."
-msgstr ""
+msgstr "Um navegador da web para o GNOME."
 
 #: ../data/AboutDialog.ui.in:16
 msgid "Visit Eolie website"
-msgstr ""
+msgstr "Visite o Site do Eolie"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr ""
+msgstr "Carlos Henrique de Freitas F. <Neocazen@vivaldi.net>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
-msgstr ""
+msgstr "Doações:"
 
 #: ../data/AboutDialog.ui.in:57
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay Pagamentos"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:100
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal Pagamentos"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:7
 #: ../data/org.gnome.Eolie.desktop.in:3
 msgid "Eolie"
-msgstr ""
+msgstr "Eolie"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:8
 #: ../data/org.gnome.Eolie.desktop.in:4 ../data/org.gnome.Eolie.desktop.in:5
 msgid "Web browser"
-msgstr ""
+msgstr "Navegador da Web"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:10
 msgid "Eolie is a new GNOME web browser."
-msgstr ""
+msgstr "Eolie é um novo navegador da web do GNOME."
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
-msgstr ""
+msgstr "org.gnome.Eolie"
 
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_move_to.py:63
 msgid "New window"
-msgstr ""
+msgstr "Nova janela"
 
 #: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_application.py:37
 msgid "New private page"
-msgstr ""
+msgstr "Nova página privada"
 
 #: ../data/BookmarkEdit.ui:106 ../data/BookmarkEdit.ui:109
 msgid "Add new tag"
-msgstr ""
+msgstr "Adicionar novo marcador"
 
 #: ../data/BookmarkEdit.ui:135
 msgid "Title:"
-msgstr ""
+msgstr "Título:"
 
 #: ../data/BookmarkEdit.ui:160
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Remover indicador"
 
 #: ../data/BookmarkEdit.ui:178 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
-msgstr ""
+msgstr "Endereço:"
 
 #: ../data/BookmarkEdit.ui:203
 msgid "Load at startup"
-msgstr ""
+msgstr "Carregar ao iniciar"
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
-msgstr ""
+msgstr "Limpar Dados Pessoais"
 
 #: ../data/DialogClearData.ui:10
 msgid "C_lear"
-msgstr ""
+msgstr "Li_mpar"
 
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:132
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
-msgstr ""
+msgstr "Filtrar domínios"
 
 #: ../data/DialogClearData.ui:67
 msgid "Search domains"
-msgstr ""
+msgstr "Buscar domínios"
 
 #: ../data/DialogClearData.ui:83
 msgid ""
@@ -268,18 +268,21 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
+"Você pode selecionar um período de tempo para apagar os dados de todos os "
+"sites modificados nesse período. Se optar por limpar desde o início, você "
+"também poderá limpar os dados apenas de sites específicos."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
-msgstr ""
+msgstr "Limpar dados personalizados selecionados _de:"
 
 #: ../data/DialogClearData.ui:111
 msgid "the past hour"
-msgstr ""
+msgstr "última hora"
 
 #: ../data/DialogClearData.ui:112
 msgid "the past day"
-msgstr ""
+msgstr "último dia"
 
 #: ../data/DialogClearData.ui:113
 msgid "the past week"
@@ -287,70 +290,73 @@ msgstr ""
 
 #: ../data/DialogClearData.ui:114
 msgid "the past four weeks"
-msgstr ""
+msgstr "últimas quatro semanas"
 
 #: ../data/DialogClearData.ui:115
 msgid "the beginning"
-msgstr ""
+msgstr "desde o início"
 
 #: ../data/DialogClearData.ui:192
 msgid "No data found"
-msgstr ""
+msgstr "Dado não encontrado"
 
 #: ../data/DialogClearData.ui:209
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
+"Não poderá desfazer esta ação. Os dados que você escolher para limpar serão "
+"removidos permanentemente."
 
 #: ../data/DialogCookies.ui:19
 msgid "Cookies manager"
-msgstr ""
+msgstr "Gerenciar cookies"
 
 #: ../data/DialogCookies.ui:23
 msgid "Delete cookies"
-msgstr ""
+msgstr "Excluir cookies"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
-msgstr ""
+msgstr "Importar favoritos de:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
 #: ../eolie/popover_uri.py:96
 msgid "Import bookmarks"
-msgstr ""
+msgstr "Importar favoritos"
 
 #: ../data/DialogImportBookmarks.ui:87 ../eolie/dialog_import_bookmarks.py:89
 msgid "Import"
-msgstr ""
+msgstr "Importar"
 
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
-msgstr ""
+msgstr "Modificar"
 
 #: ../data/DialogSearchEngine.ui:7
 msgid "Search engines"
-msgstr ""
+msgstr "Mecanismos de busca"
 
 #: ../data/DialogSearchEngine.ui:155
 msgid "Name:"
-msgstr ""
+msgstr "Nome:"
 
 #: ../data/DialogSearchEngine.ui:207
 msgid "Default:"
-msgstr ""
+msgstr "Padrão:"
 
 #: ../data/DialogSearchEngine.ui:233
 msgid "Bang:"
-msgstr ""
+msgstr "Bing:"
 
 #: ../data/DialogSearchEngine.ui:246
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
+"Se bing é g, use g: na barra de pesquisa para pesquisar usando este motor"
 
 #: ../data/DialogSearchEngine.ui:263
 msgid "Search:"
-msgstr ""
+msgstr "Buscar:"
 
 #: ../data/DialogSearchEngine.ui:320
 msgid ""
@@ -358,22 +364,25 @@ msgid ""
 "that you want to add and check the resulting address. Remove the search term "
 "from the resulting address and replace it with %s."
 msgstr ""
+"Para determinar a busca de endereços, faça uma pesquisa usando o mecanismo "
+"de pesquisa que você deseja adicionar e verifique o endereço resultante. "
+"Remova o termo de pesquisa a partir do resultado e substitua-o com %s."
 
 #: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:276
 msgid "Spell checking"
-msgstr ""
+msgstr "Verificação ortográfica"
 
 #: ../data/PopoverCookies.ui:10
 msgid "Remove all cookies"
-msgstr ""
+msgstr "Remover todos os cookies"
 
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
-msgstr ""
+msgstr "Deseja salvar esta senha?"
 
 #: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:133
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
@@ -381,128 +390,128 @@ msgstr ""
 #: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:134
 #: ../eolie/webview_signals.py:131
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: ../data/PopoverDownloads.ui:53
 msgid "Open download folder"
-msgstr ""
+msgstr "Abrir pasta de arquivos baixados"
 
 #: ../data/PopoverDownloads.ui:73
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Limpar finalizados"
 
 #: ../data/PopoverDownloads.ui:103
 msgid "No active download"
-msgstr ""
+msgstr "Não começar a baixar"
 
 #: ../data/PopoverGeolocation.ui:34 ../data/PopoverJavaScript.ui:44
 msgid "OK"
-msgstr ""
+msgstr "Certo"
 
 #: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:855
 msgid "Forever"
-msgstr ""
+msgstr "Sempre"
 
 #: ../data/PopoverImages.ui:72
 msgid "Save images"
-msgstr ""
+msgstr "Salvar imagens"
 
 #: ../data/PopoverImages.ui:105
 msgid "Show links"
-msgstr ""
+msgstr "Mostrar links"
 
 #: ../data/PopoverPasswords.ui:10
 msgid "Remove all passwords"
-msgstr ""
+msgstr "Remover todas as senhas"
 
 #: ../data/PopoverUri.ui:177
 msgid "Bookmarks"
-msgstr ""
+msgstr "Favoritos"
 
 #: ../data/PopoverUri.ui:314
 msgid "Clear history"
-msgstr ""
+msgstr "Limpar histórico"
 
 #: ../data/PopoverUri.ui:338
 msgid "History"
-msgstr ""
+msgstr "Histórico"
 
 #: ../data/QuitDialog.ui:36
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: ../data/RowDownload.ui:49
 msgid "Cancel download"
-msgstr ""
+msgstr "Parar de baixar"
 
 #: ../data/ScriptsMenu.ui:60 ../data/ScriptsMenu.ui:77
 msgid "Enable JavaScript blocker"
-msgstr ""
+msgstr "Habilitar bloqueio de JS"
 
 #: ../data/ScriptsMenu.ui:109
 msgid "Block policy"
-msgstr ""
+msgstr "Política de bloqueio"
 
 #: ../data/ScriptsMenu.ui:138
 msgid "Trust websites"
-msgstr ""
+msgstr "Sites confiáveis"
 
 #: ../data/SettingsDialog.ui:40 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
-msgstr ""
+msgstr "Preferências"
 
 #: ../data/SettingsDialog.ui:72 ../data/ToolbarEnd.ui:127
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
-msgstr ""
+msgstr "Baixados"
 
 #: ../data/SettingsDialog.ui:89
 msgid "Download folder:"
-msgstr ""
+msgstr "Pastas de baixados:"
 
 #: ../data/SettingsDialog.ui:101
 msgid "Select download folder"
-msgstr ""
+msgstr "Selecionar pasta de baixados"
 
 #: ../data/SettingsDialog.ui:111
 msgid "Automatically open downloaded files"
-msgstr ""
+msgstr "Abrir arquivos baixados automaticamente"
 
 #: ../data/SettingsDialog.ui:149
 msgid "Search engines:"
-msgstr ""
+msgstr "Mecanismos de busca:"
 
 #: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
-msgstr ""
+msgstr "Outros"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Startup"
-msgstr ""
+msgstr "Iniciar"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Start Page:"
-msgstr ""
+msgstr "Página Inicial:"
 
 #: ../data/SettingsDialog.ui:225
 msgid "Search engine"
-msgstr ""
+msgstr "Mecanismo de busca"
 
 #: ../data/SettingsDialog.ui:226 ../eolie/context.py:87
 msgid "Popular pages"
-msgstr ""
+msgstr "Páginas populares"
 
 #: ../data/SettingsDialog.ui:227
 msgid "Popular bookmarks"
-msgstr ""
+msgstr "Favoritos populares"
 
 #: ../data/SettingsDialog.ui:228
 msgid "Blank page"
-msgstr ""
+msgstr "Página em branco"
 
 #: ../data/SettingsDialog.ui:229
 msgid "Set address"
-msgstr ""
+msgstr "Definir endereço"
 
 #: ../data/SettingsDialog.ui:251
 msgid "Remember previous pages on startup"
@@ -1347,7 +1356,7 @@ msgstr ""
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
-msgstr ""
+msgstr "Procurar na Rede"
 
 #: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
