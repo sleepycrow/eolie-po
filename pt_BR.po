@@ -8,81 +8,84 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-06-06 09:36+0000\n"
+"Last-Translator: GustavoPeredo <gustavomperedo@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"gnumdk/eolie/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
-msgstr ""
+msgstr "Mostrar mensagens de depuração"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
-msgstr ""
+msgstr "Mostrar mensagens de depuração do Firefox Sync"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "INTERNAL"
-msgstr ""
+msgstr "INTERNO"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
-msgstr ""
+msgstr "Mostrar a barra lateral (gestor de websites)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Minimum sidebar position"
-msgstr ""
+msgstr "Posição mínima da barra lateral"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Enable night mode"
-msgstr ""
+msgstr "Habilitar modo noturno"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
 msgid "Switch to night mode with GNOME"
-msgstr ""
+msgstr "Alterar para modo noturno com o GNOME"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block ads on pages"
-msgstr ""
+msgstr "Bloquear propagandas em páginas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "Bloquear pop-ups não desejados"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:54
 msgid "Block images"
-msgstr ""
+msgstr "Bloquear imagens"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69 ../eolie/menu_application.py:55
 msgid "Block multimedia"
-msgstr ""
+msgstr "Bloquear multimídia"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
-msgstr ""
+msgstr "Bloquear Javascript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Block Phishing"
-msgstr ""
+msgstr "Bloquear phishing"
 
 #: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "Habilitar rolagem suave"
 
 #: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Download folder URI"
-msgstr ""
+msgstr "Pasta de downloads URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Open finished downloads"
-msgstr ""
+msgstr "Abrir arquivos baixados"
 
 #: ../data/org.gnome.Eolie.gschema.xml:99
 msgid "Web search engine"
-msgstr ""
+msgstr "Mecanismo de pesquisa"
 
 #: ../data/org.gnome.Eolie.gschema.xml:104
 msgid "Remember sessions"
