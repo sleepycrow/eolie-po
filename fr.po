@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-03-29 12:09+0000\n"
+"PO-Revision-Date: 2020-06-11 13:41+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -235,7 +235,7 @@ msgstr "Supprimer le marque page"
 
 #: ../data/BookmarkEdit.ui:178 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
-msgstr "Adresse:"
+msgstr "Adresse :"
 
 #: ../data/BookmarkEdit.ui:203
 msgid "Load at startup"
@@ -339,7 +339,7 @@ msgstr "Moteurs de recherche"
 
 #: ../data/DialogSearchEngine.ui:155
 msgid "Name:"
-msgstr "Nom:"
+msgstr "Nom :"
 
 #: ../data/DialogSearchEngine.ui:207
 msgid "Default:"
