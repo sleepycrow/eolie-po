@@ -8,199 +8,202 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-06-14 17:41+0000\n"
+"Last-Translator: MarongHappy <daemul72@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/gnumdk/eolie/ko/>"
+"\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
-msgstr ""
+msgstr "디버그 메시지 표시"
 
 #: ../data/org.gnome.Eolie.gschema.xml:24
 msgid "Show Firefox Sync debug messages"
-msgstr ""
+msgstr "Firefox 동기화 디버그 메시지 표시"
 
 #: ../data/org.gnome.Eolie.gschema.xml:29
 msgid "INTERNAL"
-msgstr ""
+msgstr "내부"
 
 #: ../data/org.gnome.Eolie.gschema.xml:34
 msgid "Show sidebar(sites manager)"
-msgstr ""
+msgstr "측면 표시줄 표시(사이트 관리자)"
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Minimum sidebar position"
-msgstr ""
+msgstr "최소 측면 표시줄 위치"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Enable night mode"
-msgstr ""
+msgstr "야간 모드 사용가능"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
 msgid "Switch to night mode with GNOME"
-msgstr ""
+msgstr "GNOME을 사용하여 야간 모드로 전환"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block ads on pages"
-msgstr ""
+msgstr "페이지의 광고 차단"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "원치않는 팝업 차단"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:54
 msgid "Block images"
-msgstr ""
+msgstr "이미지 차단"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69 ../eolie/menu_application.py:55
 msgid "Block multimedia"
-msgstr ""
+msgstr "멀티미디어 차단"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
-msgstr ""
+msgstr "자바스크립트 차단"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Block Phishing"
-msgstr ""
+msgstr "피싱 차단"
 
 #: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "부드러운 스크롤링 사용가능"
 
 #: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Download folder URI"
-msgstr ""
+msgstr "다운로드 폴더 URI"
 
 #: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Open finished downloads"
-msgstr ""
+msgstr "완료된 다운로드 열기"
 
 #: ../data/org.gnome.Eolie.gschema.xml:99
 msgid "Web search engine"
-msgstr ""
+msgstr "웹 검색 엔진"
 
 #: ../data/org.gnome.Eolie.gschema.xml:104
 msgid "Remember sessions"
-msgstr ""
+msgstr "세션 기억"
 
 #: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:683
 msgid "Remember passwords"
-msgstr ""
+msgstr "비밀번호 기억"
 
 #: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
-msgstr ""
+msgstr "개발자 도구 사용가능"
 
 #: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
-msgstr ""
+msgstr "플러그인 사용가능"
 
 #: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:392
 msgid "Use system fonts"
-msgstr ""
+msgstr "시스템 글꼴 사용하기"
 
 #: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Sans serif font"
-msgstr ""
+msgstr "Sans Serif 글꼴"
 
 #: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:433
 msgid "Serif font"
-msgstr ""
+msgstr "Serif 글꼴"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Monospace font"
-msgstr ""
+msgstr "Monospace 글꼴"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144
 msgid "Open this page on startup"
-msgstr ""
+msgstr "시작시 이 페이지 열기"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:507
 msgid "Minimum font size"
-msgstr ""
+msgstr "최소 글꼴 크기"
 
 #: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "Popular items shown"
-msgstr ""
+msgstr "인기있는 항목 표시됨"
 
 #: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:533
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
-msgstr ""
+msgstr "기본 확대/축소 수준"
 
 #: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "Cookies storage type"
-msgstr ""
+msgstr "쿠키 저장소 유형"
 
 #: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "History storage type"
-msgstr ""
+msgstr "기록 저장소 유형"
 
 #: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:649
 msgid "Tell websites I do not want to be tracked"
-msgstr ""
+msgstr "추적하고 싶지 않은 웹 사이트를 알려줍니다"
 
 #: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "DNS prediction"
-msgstr ""
+msgstr "DNS 예측"
 
 #: ../data/org.gnome.Eolie.gschema.xml:184 ../data/SettingsDialog.ui:893
 msgid "Autoplay videos"
-msgstr ""
+msgstr "동영상 자동 재생"
 
 #: ../data/org.gnome.Eolie.gschema.xml:189
 msgid "Enable search suggestions"
-msgstr ""
+msgstr "추천 검색어 사용가능"
 
 #: ../data/org.gnome.Eolie.gschema.xml:194 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
-msgstr ""
+msgstr "철자 검사 사용가능"
 
 #: ../data/AboutDialog.ui.in:14
 msgid "A web browser for GNOME."
-msgstr ""
+msgstr "GNOME을 위한 웹 브라우저."
 
 #: ../data/AboutDialog.ui.in:16
 msgid "Visit Eolie website"
-msgstr ""
+msgstr "Eolie 웹사이트 방문"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr ""
+msgstr "이정희 <daemul72@gmail.com>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
-msgstr ""
+msgstr "기부:"
 
 #: ../data/AboutDialog.ui.in:57
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:100
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:7
 #: ../data/org.gnome.Eolie.desktop.in:3
 msgid "Eolie"
-msgstr ""
+msgstr "Eolie"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:8
 #: ../data/org.gnome.Eolie.desktop.in:4 ../data/org.gnome.Eolie.desktop.in:5
 msgid "Web browser"
-msgstr ""
+msgstr "웹 브라우저"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:10
 msgid "Eolie is a new GNOME web browser."
@@ -208,56 +211,56 @@ msgstr ""
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
-msgstr ""
+msgstr "org.gnome.Eolie"
 
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_move_to.py:63
 msgid "New window"
-msgstr ""
+msgstr "새 창"
 
 #: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_application.py:37
 msgid "New private page"
-msgstr ""
+msgstr "새로운 비공개 페이지"
 
 #: ../data/BookmarkEdit.ui:106 ../data/BookmarkEdit.ui:109
 msgid "Add new tag"
-msgstr ""
+msgstr "새 태그 추가"
 
 #: ../data/BookmarkEdit.ui:135
 msgid "Title:"
-msgstr ""
+msgstr "제목:"
 
 #: ../data/BookmarkEdit.ui:160
 msgid "Remove bookmark"
-msgstr ""
+msgstr "책갈피 제거"
 
 #: ../data/BookmarkEdit.ui:178 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
-msgstr ""
+msgstr "주소:"
 
 #: ../data/BookmarkEdit.ui:203
 msgid "Load at startup"
-msgstr ""
+msgstr "시작시 불러오기"
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
-msgstr ""
+msgstr "개인적인 데이터 지우기"
 
 #: ../data/DialogClearData.ui:10
 msgid "C_lear"
-msgstr ""
+msgstr "지우기(_L)"
 
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:132
 msgid "Search"
-msgstr ""
+msgstr "검색"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
-msgstr ""
+msgstr "도메인 필터"
 
 #: ../data/DialogClearData.ui:67
 msgid "Search domains"
-msgstr ""
+msgstr "도메인 검색"
 
 #: ../data/DialogClearData.ui:83
 msgid ""
@@ -265,48 +268,50 @@ msgid ""
 "that period. If you choose from the beginning of time, then you can also "
 "clear data only for particular websites."
 msgstr ""
+"해당 기간에 수정된 모든 웹 사이트에 대한 데이터를 지우는 기간을 선택할 수 있습니다. 초기부터 선택한 경우 특정 웹 사이트에 대해서만 "
+"데이터를 지울 수도 있습니다."
 
 #: ../data/DialogClearData.ui:100
 msgid "Clear selected personal data _from:"
-msgstr ""
+msgstr "다음에서 선택한 개인 데이터 지우기(_F):"
 
 #: ../data/DialogClearData.ui:111
 msgid "the past hour"
-msgstr ""
+msgstr "지난 시간"
 
 #: ../data/DialogClearData.ui:112
 msgid "the past day"
-msgstr ""
+msgstr "지난 요일"
 
 #: ../data/DialogClearData.ui:113
 msgid "the past week"
-msgstr ""
+msgstr "지난 주"
 
 #: ../data/DialogClearData.ui:114
 msgid "the past four weeks"
-msgstr ""
+msgstr "지난 4주"
 
 #: ../data/DialogClearData.ui:115
 msgid "the beginning"
-msgstr ""
+msgstr "시작"
 
 #: ../data/DialogClearData.ui:192
 msgid "No data found"
-msgstr ""
+msgstr "데이터를 찾을 수 없음"
 
 #: ../data/DialogClearData.ui:209
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
-msgstr ""
+msgstr "이 작업은 실행 취소할 수 없습니다. 지우려고 선택한 데이터는 영구히 제거됩니다."
 
 #: ../data/DialogCookies.ui:19
 msgid "Cookies manager"
-msgstr ""
+msgstr "쿠키 관리자"
 
 #: ../data/DialogCookies.ui:23
 msgid "Delete cookies"
-msgstr ""
+msgstr "쿠키 삭제"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
@@ -331,23 +336,23 @@ msgstr ""
 
 #: ../data/DialogSearchEngine.ui:155
 msgid "Name:"
-msgstr ""
+msgstr "이름:"
 
 #: ../data/DialogSearchEngine.ui:207
 msgid "Default:"
-msgstr ""
+msgstr "기본값:"
 
 #: ../data/DialogSearchEngine.ui:233
 msgid "Bang:"
-msgstr ""
+msgstr "Bang:"
 
 #: ../data/DialogSearchEngine.ui:246
 msgid "If bang is g, use g: in search bar to search using this engine"
-msgstr ""
+msgstr "Bang이 g인 경우, 검색 표시줄에서 g:를 사용하여 이 엔진을 사용하여 검색하십시오"
 
 #: ../data/DialogSearchEngine.ui:263
 msgid "Search:"
-msgstr ""
+msgstr "검색:"
 
 #: ../data/DialogSearchEngine.ui:320
 msgid ""
@@ -358,11 +363,11 @@ msgstr ""
 
 #: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:276
 msgid "Spell checking"
-msgstr ""
+msgstr "철자 체크"
 
 #: ../data/PopoverCookies.ui:10
 msgid "Remove all cookies"
-msgstr ""
+msgstr "모든 쿠키 제거"
 
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
@@ -370,7 +375,7 @@ msgstr ""
 
 #: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:133
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
@@ -378,7 +383,7 @@ msgstr ""
 #: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:134
 #: ../eolie/webview_signals.py:131
 msgid "Cancel"
-msgstr ""
+msgstr "취소"
 
 #: ../data/PopoverDownloads.ui:53
 msgid "Open download folder"
@@ -446,7 +451,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:40 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
-msgstr ""
+msgstr "기본설정"
 
 #: ../data/SettingsDialog.ui:72 ../data/ToolbarEnd.ui:127
 #: ../data/ToolbarMenu.ui:143
@@ -471,11 +476,11 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
-msgstr ""
+msgstr "기타"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Startup"
-msgstr ""
+msgstr "시작 프로그램"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Start Page:"
@@ -535,7 +540,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:596
 msgid "Appearance"
-msgstr ""
+msgstr "모양새"
 
 #: ../data/SettingsDialog.ui:620 ../eolie/dialog_clear_data.py:196
 msgid "Cookies"
@@ -611,7 +616,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:923
 msgid "Privacy"
-msgstr ""
+msgstr "개인정보 보호"
 
 #: ../data/SettingsDialog.ui:945
 msgid ""
@@ -658,7 +663,7 @@ msgstr ""
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "일반"
 
 #: ../data/Shortcuts.ui:17
 msgctxt "shortcut window"
@@ -668,12 +673,12 @@ msgstr ""
 #: ../data/Shortcuts.ui:24
 msgctxt "shortcut window"
 msgid "Settings"
-msgstr ""
+msgstr "설정"
 
 #: ../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr ""
+msgstr "전체화면"
 
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
@@ -698,7 +703,7 @@ msgstr ""
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "검색"
 
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
@@ -910,7 +915,7 @@ msgstr ""
 
 #: ../eolie/container.py:99
 msgid "Please consider a donation to the project"
-msgstr ""
+msgstr "프로젝트에 기부하는 것을 고려해 주십시오"
 
 #: ../eolie/container_stack.py:228
 msgid "Do you really want to close this page?"
@@ -918,7 +923,7 @@ msgstr ""
 
 #: ../eolie/context.py:153
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 #: ../eolie/context.py:154
 msgid "Size"
@@ -986,7 +991,7 @@ msgstr ""
 
 #: ../eolie/menu_application.py:75
 msgid "_Preferences"
-msgstr ""
+msgstr "기본설정(_P)"
 
 #: ../eolie/menu_application.py:84
 msgid "_Sidebar"
@@ -994,7 +999,7 @@ msgstr ""
 
 #: ../eolie/menu_application.py:89
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "키보드 단축키(_K)"
 
 #: ../eolie/menu_application.py:95
 msgid "_About"
@@ -1344,7 +1349,7 @@ msgstr ""
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
-msgstr ""
+msgstr "웹에서 검색"
 
 #: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
