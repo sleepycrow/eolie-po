@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-07-16 08:41+0000\n"
+"PO-Revision-Date: 2020-07-17 08:47+0000\n"
 "Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/gnumdk/eolie/fa/>"
 "\n"
@@ -524,7 +524,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:357
 msgid "General"
-msgstr ""
+msgstr "فراگیر"
 
 #: ../data/SettingsDialog.ui:379
 msgid "Fonts"
@@ -556,7 +556,7 @@ msgstr "گذرواژه‌ها"
 
 #: ../data/SettingsDialog.ui:704
 msgid "Saved data"
-msgstr ""
+msgstr "داده‌های ذخیره شده"
 
 #: ../data/SettingsDialog.ui:727
 msgid "Behaviour:"
@@ -564,11 +564,11 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:742
 msgid "Always accept"
-msgstr ""
+msgstr "همیشه بپذیر"
 
 #: ../data/SettingsDialog.ui:743
 msgid "Only from visited sites"
-msgstr ""
+msgstr "تنها از پایگاه‌های دیده شده"
 
 #: ../data/SettingsDialog.ui:744
 msgid "Never accept"
@@ -580,15 +580,15 @@ msgstr "رسیدگی به کوکی‌ها"
 
 #: ../data/SettingsDialog.ui:780
 msgid "Clear personal data"
-msgstr ""
+msgstr "پاک کردن داده‌های شخصی"
 
 #: ../data/SettingsDialog.ui:802
 msgid "Manage passwords"
-msgstr ""
+msgstr "مدیریت گذرواژه‌ها"
 
 #: ../data/SettingsDialog.ui:836
 msgid "Keep history:"
-msgstr ""
+msgstr "نگهداری تاریخچه:"
 
 #: ../data/SettingsDialog.ui:851
 msgid "One day"
@@ -895,7 +895,7 @@ msgstr "نمایش عکس‌ها"
 
 #: ../data/ToolbarMenu.ui:325
 msgid "Show multimedia"
-msgstr ""
+msgstr "نمایش چندرسانه‌ای"
 
 #: ../data/ToolbarMenu.ui:390
 msgid "Run scripts"
@@ -919,7 +919,7 @@ msgstr ""
 
 #: ../eolie/container_stack.py:228
 msgid "Do you really want to close this page?"
-msgstr ""
+msgstr "آیا به راستی می‌خواهید این صفحه را ببندید؟"
 
 #: ../eolie/context.py:153
 msgid "Name"
@@ -975,11 +975,11 @@ msgstr ""
 
 #: ../eolie/menu_application.py:52
 msgid "Block ads"
-msgstr ""
+msgstr "بستن تبلیغات"
 
 #: ../eolie/menu_application.py:53
 msgid "Block popups"
-msgstr ""
+msgstr "بستن بازشونده‌ها"
 
 #: ../eolie/menu_application.py:56
 msgid "Block scripts"
@@ -1015,11 +1015,11 @@ msgstr ""
 
 #: ../eolie/menu_pages.py:41
 msgid "Closed pages"
-msgstr ""
+msgstr "صفحه‌های بسته شده"
 
 #: ../eolie/menu_pages.py:42
 msgid "Open all pages"
-msgstr ""
+msgstr "باز کردن همه صفحه‌ها"
 
 #: ../eolie/menu_sites.py:73
 msgid "Modify user agent"
@@ -1031,7 +1031,7 @@ msgstr ""
 
 #: ../eolie/menu_sites.py:98
 msgid "Close site"
-msgstr ""
+msgstr "بستن پایگاه"
 
 #: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
@@ -1039,7 +1039,7 @@ msgstr ""
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
-msgstr ""
+msgstr "سرعت بارگیری:"
 
 #: ../eolie/popover_downloads.py:113
 msgid "bytes/s"
@@ -1056,32 +1056,32 @@ msgstr ""
 #: ../eolie/popover_downloads.py:141 ../eolie/popover_downloads.py:147
 #, python-format
 msgid "%s second"
-msgstr ""
+msgstr "%s ثانیه"
 
 #: ../eolie/popover_downloads.py:143 ../eolie/popover_downloads.py:149
 #, python-format
 msgid "%s seconds"
-msgstr ""
+msgstr "%s ثانیه"
 
 #: ../eolie/popover_downloads.py:155 ../eolie/popover_downloads.py:163
 #, python-format
 msgid "%s minute"
-msgstr ""
+msgstr "%s دقیقه"
 
 #: ../eolie/popover_downloads.py:158 ../eolie/popover_downloads.py:165
 #, python-format
 msgid "%s minutes"
-msgstr ""
+msgstr "%s دقیقه"
 
 #: ../eolie/popover_downloads.py:171
 #, python-format
 msgid "%s hours"
-msgstr ""
+msgstr "%s ساعت"
 
 #: ../eolie/popover_downloads.py:173
 #, python-format
 msgid "%s hour"
-msgstr ""
+msgstr "%s ساعت"
 
 #: ../eolie/popover_downloads.py:174
 msgid "Remaining time:"
@@ -1093,7 +1093,7 @@ msgstr ""
 
 #: ../eolie/popover_javascript.py:59
 msgid "Continue"
-msgstr ""
+msgstr "ادامه"
 
 #: ../eolie/popover_tls.py:55
 msgid "Connexion is secure"
@@ -1143,51 +1143,51 @@ msgstr ""
 
 #: ../eolie/popover_uri.py:295
 msgid "From the past hour"
-msgstr ""
+msgstr "از ساعت گذشته"
 
 #: ../eolie/popover_uri.py:296
 msgid "From the past day"
-msgstr ""
+msgstr "از روز گذشته"
 
 #: ../eolie/popover_uri.py:297
 msgid "From the past week"
-msgstr ""
+msgstr "از هفته گذشته"
 
 #: ../eolie/popover_uri.py:299
 msgid "From the past four weeks"
-msgstr ""
+msgstr "از چهار هفته گذشته"
 
 #: ../eolie/popover_uri.py:300
 msgid "From selected day"
-msgstr ""
+msgstr "از روز گزیده شده"
 
 #: ../eolie/popover_uri.py:301
 msgid "From the beginning"
-msgstr ""
+msgstr "از اول"
 
 #: ../eolie/popover_uri_row.py:102
 msgid "Delete page from history"
-msgstr ""
+msgstr "حذف صفحه از تاریخچه"
 
 #: ../eolie/popover_uri_row.py:114
 msgid "Edit bookmark"
-msgstr ""
+msgstr "ویرایش نشانک"
 
 #: ../eolie/popover_uri_row.py:131
 msgid "Open all pages with this tag"
-msgstr ""
+msgstr "باز کردن همه صفحه‌ها با این برچسب"
 
 #: ../eolie/search.py:39 ../eolie/search.py:40
 msgid "https://www.google.com"
-msgstr ""
+msgstr "https://www.google.com"
 
 #: ../eolie/search.py:61
 msgid "https://www.yahoo.com"
-msgstr ""
+msgstr "https://www.yahoo.com"
 
 #: ../eolie/search.py:63
 msgid "https://us.search.yahoo.com"
-msgstr ""
+msgstr "https://us.search.yahoo.com"
 
 #: ../eolie/search.py:246
 #, python-format
@@ -1258,7 +1258,7 @@ msgstr ""
 
 #: ../eolie/webview_errors.py:113
 msgid "Check your network connection"
-msgstr ""
+msgstr "پیوندتان به شبکه را بررسی کنید"
 
 #: ../eolie/webview_errors.py:123
 msgid "Retry"
@@ -1337,15 +1337,15 @@ msgstr ""
 
 #: ../eolie/webview_signals_menu.py:81
 msgid "Open link in a new page"
-msgstr ""
+msgstr "باز کردن پیوند در یک صفحه نو"
 
 #: ../eolie/webview_signals_menu.py:91
 msgid "Open link in a new private page"
-msgstr ""
+msgstr "باز کردن پیوند در یک صفحه خصوصی نو"
 
 #: ../eolie/webview_signals_menu.py:101
 msgid "Open link in a new window"
-msgstr ""
+msgstr "باز کردن پیوند در یک پنجره نو"
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
@@ -1353,7 +1353,7 @@ msgstr "جستجو در وب"
 
 #: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
-msgstr ""
+msgstr "ذخیره صفحه به گونه عکس"
 
 #: ../eolie/webview_signals.py:127
 msgid "Select files to upload"
