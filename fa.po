@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-07-19 16:41+0000\n"
+"PO-Revision-Date: 2020-08-09 20:32+0000\n"
 "Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/gnumdk/eolie/fa/>"
 "\n"
@@ -146,7 +146,7 @@ msgstr "نوع انباشتن تاریخچه"
 
 #: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:649
 msgid "Tell websites I do not want to be tracked"
-msgstr ""
+msgstr "به وبگاه‌ها بگویید نمی‌خواهم ردیابی شوم"
 
 #: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "DNS prediction"
@@ -231,7 +231,7 @@ msgstr "اسم:"
 
 #: ../data/BookmarkEdit.ui:160
 msgid "Remove bookmark"
-msgstr "حذف نشانک"
+msgstr "حذف نشانگاه"
 
 #: ../data/BookmarkEdit.ui:178 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -315,12 +315,12 @@ msgstr "حذف کوکی‌ها"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
-msgstr "وارد کردن نشانک از:"
+msgstr "وارد کردن نشانگاه از:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
 #: ../eolie/popover_uri.py:96
 msgid "Import bookmarks"
-msgstr "وارد کردن نشانک‌ها"
+msgstr "وارد کردن نشانگاه‌ها"
 
 #: ../data/DialogImportBookmarks.ui:87 ../eolie/dialog_import_bookmarks.py:89
 msgid "Import"
@@ -340,7 +340,7 @@ msgstr "نام:"
 
 #: ../data/DialogSearchEngine.ui:207
 msgid "Default:"
-msgstr ""
+msgstr "پیش‌گزیده:"
 
 #: ../data/DialogSearchEngine.ui:233
 msgid "Bang:"
@@ -419,7 +419,7 @@ msgstr "حذف همه گذرواژه‌ها"
 
 #: ../data/PopoverUri.ui:177
 msgid "Bookmarks"
-msgstr "نشانک‌ها"
+msgstr "نشانگاه‌ها"
 
 #: ../data/PopoverUri.ui:314
 msgid "Clear history"
@@ -496,7 +496,7 @@ msgstr "صفحه‌های پرطرفدار"
 
 #: ../data/SettingsDialog.ui:227
 msgid "Popular bookmarks"
-msgstr "نشانک‌های پرطرفدار"
+msgstr "نشانگاه‌های پرطرفدار"
 
 #: ../data/SettingsDialog.ui:228
 msgid "Blank page"
@@ -504,7 +504,7 @@ msgstr "صفحه خالی"
 
 #: ../data/SettingsDialog.ui:229
 msgid "Set address"
-msgstr ""
+msgstr "تنظیم نشانی"
 
 #: ../data/SettingsDialog.ui:251
 msgid "Remember previous pages on startup"
@@ -516,7 +516,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:289
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "نشانگاه‌های آشکار"
 
 #: ../data/SettingsDialog.ui:333
 msgid "Add suggestions"
@@ -658,7 +658,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:1134
 msgid "Syncing"
-msgstr ""
+msgstr "همگام‌سازی"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -688,12 +688,12 @@ msgstr "بیرون رفتن"
 #: ../data/Shortcuts.ui:45
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "جایگاه را وارد کنید"
 
 #: ../data/Shortcuts.ui:52
 msgctxt "shortcut window"
 msgid "Show bookmarks"
-msgstr "نمایش نشانک‌ها"
+msgstr "نمایش نشانگاه‌ها"
 
 #: ../data/Shortcuts.ui:59
 msgctxt "shortcut window"
@@ -967,7 +967,7 @@ msgstr ""
 
 #: ../eolie/dialog_import_bookmarks.py:87
 msgid "Import HTML bookmarks"
-msgstr ""
+msgstr "وارد کردن نشانگاه‌های اچ تی ام ال"
 
 #: ../eolie/dialog_search_engine.py:163 ../eolie/dialog_search_engine.py:167
 msgid "New engine"
@@ -1127,7 +1127,7 @@ msgstr ""
 #: ../eolie/popover_uri_content.py:124
 #, python-format
 msgid "%s bookmarks"
-msgstr ""
+msgstr "%s نشانگاه"
 
 #: ../eolie/popover_uri.py:266
 msgid "Popular"
@@ -1171,7 +1171,7 @@ msgstr "حذف صفحه از تاریخچه"
 
 #: ../eolie/popover_uri_row.py:114
 msgid "Edit bookmark"
-msgstr "ویرایش نشانک"
+msgstr "ویرایش نشانگاه"
 
 #: ../eolie/popover_uri_row.py:131
 msgid "Open all pages with this tag"
