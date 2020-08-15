@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-08-09 20:32+0000\n"
+"PO-Revision-Date: 2020-08-16 19:32+0000\n"
 "Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/gnumdk/eolie/fa/>"
 "\n"
@@ -181,7 +181,7 @@ msgstr "سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
-msgstr "هدیه‌ها"
+msgstr "هدیه:"
 
 #: ../data/AboutDialog.ui.in:57
 msgid "Liberapay"
@@ -476,7 +476,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
-msgstr ""
+msgstr "دیگر"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Startup"
@@ -999,7 +999,7 @@ msgstr ""
 
 #: ../eolie/menu_application.py:89
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_میانبرهای صفحه کلید"
 
 #: ../eolie/menu_application.py:95
 msgid "_About"
