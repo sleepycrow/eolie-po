@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-09-05 19:14+0000\n"
+"PO-Revision-Date: 2020-09-07 11:36+0000\n"
 "Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/gnumdk/eolie/fa/>"
 "\n"
@@ -189,7 +189,7 @@ msgstr "لیبراپی"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
-msgstr ""
+msgstr "پترئون"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:100
 msgid "PayPal"
@@ -468,7 +468,7 @@ msgstr "انتخاب پوشه بارگیری"
 
 #: ../data/SettingsDialog.ui:111
 msgid "Automatically open downloaded files"
-msgstr "باز کردن خودکار فایل‌های بارگیری شده"
+msgstr "باز کردن خودکار پرونده‌های بارگیری شده"
 
 #: ../data/SettingsDialog.ui:149
 msgid "Search engines:"
@@ -492,11 +492,11 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:226 ../eolie/context.py:87
 msgid "Popular pages"
-msgstr "صفحه‌های پرطرفدار"
+msgstr "صفحه‌های پرهوادار"
 
 #: ../data/SettingsDialog.ui:227
 msgid "Popular bookmarks"
-msgstr "نشانگاه‌های پرطرفدار"
+msgstr "نشانگاه‌های پرهوادار"
 
 #: ../data/SettingsDialog.ui:228
 msgid "Blank page"
@@ -991,11 +991,11 @@ msgstr ""
 
 #: ../eolie/menu_application.py:75
 msgid "_Preferences"
-msgstr ""
+msgstr "_ساماندهی"
 
 #: ../eolie/menu_application.py:84
 msgid "_Sidebar"
-msgstr ""
+msgstr "_نوار کناری"
 
 #: ../eolie/menu_application.py:89
 msgid "_Keyboard Shortcuts"
@@ -1131,11 +1131,11 @@ msgstr "%s نشانگاه"
 
 #: ../eolie/popover_uri.py:266
 msgid "Popular"
-msgstr ""
+msgstr "پرهوادار"
 
 #: ../eolie/popover_uri.py:269
 msgid "Recent"
-msgstr ""
+msgstr "تازه"
 
 #: ../eolie/popover_uri.py:271
 msgid "Unclassified"
@@ -1254,7 +1254,7 @@ msgstr ""
 
 #: ../eolie/webview_errors.py:112
 msgid "Network not available"
-msgstr ""
+msgstr "شبکه در دسترس نیست"
 
 #: ../eolie/webview_errors.py:113
 msgid "Check your network connection"
@@ -1270,7 +1270,7 @@ msgstr ""
 
 #: ../eolie/webview_errors.py:151
 msgid "The certificate has expired"
-msgstr ""
+msgstr "گواهی به پایان رسیده است"
 
 #: ../eolie/webview_errors.py:153
 msgid "The signing certificate authority is not known"
@@ -1298,7 +1298,7 @@ msgstr ""
 
 #: ../eolie/webview_errors.py:166 ../eolie/webview_errors.py:170
 msgid "Connection is not secure"
-msgstr ""
+msgstr "پیوند امن نیست"
 
 #: ../eolie/webview_errors.py:172
 #, python-format
@@ -1357,11 +1357,11 @@ msgstr "ذخیره صفحه به گونه عکس"
 
 #: ../eolie/webview_signals.py:127
 msgid "Select files to upload"
-msgstr ""
+msgstr "پرونده‌ها را برای بارگذاری انتخاب کنید"
 
 #: ../eolie/webview_signals.py:130
 msgid "Open"
-msgstr ""
+msgstr "باز کردن"
 
 #: ../eolie/widget_find.py:46
 msgid "Search previous occurrence"
