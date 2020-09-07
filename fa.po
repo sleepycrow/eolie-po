@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-09-07 11:36+0000\n"
+"PO-Revision-Date: 2020-09-07 18:39+0000\n"
 "Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/gnumdk/eolie/fa/>"
 "\n"
@@ -678,7 +678,7 @@ msgstr "تنظیمات"
 #: ../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr "تمام صفحه"
+msgstr "صفحه سرتاسر"
 
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
@@ -1035,7 +1035,7 @@ msgstr "بستن پایگاه"
 
 #: ../eolie/menu_toolbar.py:48
 msgid "Enter fullscreen"
-msgstr ""
+msgstr "به صفحه سرتاسر"
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
