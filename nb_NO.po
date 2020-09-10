@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-01-27 19:51+0000\n"
+"PO-Revision-Date: 2020-09-11 23:36+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
 "eolie/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -541,7 +541,7 @@ msgstr "Legg til forslag"
 
 #: ../data/SettingsDialog.ui:357
 msgid "General"
-msgstr "Hovedinnstillinger"
+msgstr "Generelt"
 
 #: ../data/SettingsDialog.ui:379
 msgid "Fonts"
