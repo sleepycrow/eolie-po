@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-06-11 13:41+0000\n"
+"PO-Revision-Date: 2020-09-14 17:36+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -227,7 +227,7 @@ msgstr "Ajouter une nouvelle étiquette"
 
 #: ../data/BookmarkEdit.ui:135
 msgid "Title:"
-msgstr "Titre:"
+msgstr "Titre :"
 
 #: ../data/BookmarkEdit.ui:160
 msgid "Remove bookmark"
@@ -269,7 +269,7 @@ msgid ""
 "clear data only for particular websites."
 msgstr ""
 "Vous pouvez choisir une période pendant laquelle les données de tous les "
-"sites Web modifiés sont effacées. Si  vous commencez depuis le début, vous "
+"sites Web modifiés sont effacées. Si vous commencez depuis le début, vous "
 "pouvez aussi n'effacer que les données de sites Web particuliers."
 
 #: ../data/DialogClearData.ui:100
@@ -318,7 +318,7 @@ msgstr "Supprimer les cookies"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
-msgstr "Importer des marques pages depuis:"
+msgstr "Importer des marques pages depuis :"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
 #: ../eolie/popover_uri.py:96
@@ -343,21 +343,21 @@ msgstr "Nom :"
 
 #: ../data/DialogSearchEngine.ui:207
 msgid "Default:"
-msgstr "Par défaut:"
+msgstr "Par défaut :"
 
 #: ../data/DialogSearchEngine.ui:233
 msgid "Bang:"
-msgstr "Raccourci:"
+msgstr "Raccourci :"
 
 #: ../data/DialogSearchEngine.ui:246
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
-"Si le raccourci est g, utilisez g: dans la barre de recherche pour utiliser "
+"Si le raccourci est g, utilisez g : dans la barre de recherche pour utiliser "
 "ce moteur de recherche"
 
 #: ../data/DialogSearchEngine.ui:263
 msgid "Search:"
-msgstr "Recherche:"
+msgstr "Recherche :"
 
 #: ../data/DialogSearchEngine.ui:320
 msgid ""
@@ -379,7 +379,7 @@ msgstr "Supprimer tous les cookies"
 
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
-msgstr "Voulez vous enregistrer ce mot de passe?"
+msgstr "Voulez vous enregistrer ce mot de passe ?"
 
 #: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:133
 msgid "Save"
@@ -468,7 +468,7 @@ msgstr "Téléchargements"
 
 #: ../data/SettingsDialog.ui:89
 msgid "Download folder:"
-msgstr "Dossier de téléchargement:"
+msgstr "Dossier de téléchargement :"
 
 #: ../data/SettingsDialog.ui:101
 msgid "Select download folder"
@@ -480,7 +480,7 @@ msgstr "Ouvrir les fichiers téléchargés automatiquement"
 
 #: ../data/SettingsDialog.ui:149
 msgid "Search engines:"
-msgstr "Moteurs de recherche:"
+msgstr "Moteurs de recherche :"
 
 #: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
@@ -492,7 +492,7 @@ msgstr "Démarrage"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Start Page:"
-msgstr "Page de démarrage:"
+msgstr "Page de démarrage :"
 
 #: ../data/SettingsDialog.ui:225
 msgid "Search engine"
@@ -568,7 +568,7 @@ msgstr "Données enregistrées"
 
 #: ../data/SettingsDialog.ui:727
 msgid "Behaviour:"
-msgstr "Comportement:"
+msgstr "Comportement :"
 
 #: ../data/SettingsDialog.ui:742
 msgid "Always accept"
@@ -596,7 +596,7 @@ msgstr "Gérer les mots de passe"
 
 #: ../data/SettingsDialog.ui:836
 msgid "Keep history:"
-msgstr "Conserver l'historique:"
+msgstr "Conserver l'historique :"
 
 #: ../data/SettingsDialog.ui:851
 msgid "One day"
@@ -917,7 +917,7 @@ msgstr "Mode nuit"
 
 #: ../eolie/application.py:623
 msgid "Do you really want to quit Eolie?"
-msgstr "Voulez vous vraiment quitter Eolie?"
+msgstr "Voulez vous vraiment quitter Eolie ?"
 
 #: ../eolie/application.py:677
 msgid "Downloads running, are you sure you want quit?"
@@ -929,7 +929,7 @@ msgstr "Merci de considérer un don au projet"
 
 #: ../eolie/container_stack.py:228
 msgid "Do you really want to close this page?"
-msgstr "Voulez vous vraiment fermer cette page?"
+msgstr "Voulez vous vraiment fermer cette page ?"
 
 #: ../eolie/context.py:153
 msgid "Name"
@@ -1049,7 +1049,7 @@ msgstr "Entrer en plein écran"
 
 #: ../eolie/popover_downloads.py:111
 msgid "Download speed:"
-msgstr "Vitesse de téléchargement:"
+msgstr "Vitesse de téléchargement :"
 
 #: ../eolie/popover_downloads.py:113
 msgid "bytes/s"
@@ -1095,7 +1095,7 @@ msgstr "%s heure"
 
 #: ../eolie/popover_downloads.py:174
 msgid "Remaining time:"
-msgstr "Temps restant:"
+msgstr "Temps restant :"
 
 #: ../eolie/popover_geolocation.py:45
 msgid "Grant this page access to your location?"
@@ -1245,7 +1245,7 @@ msgid ""
 "%s"
 msgstr ""
 "La synchronisation n'est pas disponible\n"
-"sur cet ordinateur:\n"
+"sur cet ordinateur :\n"
 "%s"
 
 #: ../eolie/settings.py:593
@@ -1254,7 +1254,7 @@ msgstr "Vous avez reçu un email pour valider la synchronisatio"
 
 #: ../eolie/toolbar_end.py:98
 msgid "Downloading:"
-msgstr "Téléchargement de:"
+msgstr "Téléchargement de :"
 
 #: ../eolie/toolbar_title.py:93
 msgid ""
