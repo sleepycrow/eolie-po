@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-08-28 13:54+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2020-10-26 17:26+0000\n"
+"Last-Translator: Juliano de Souza Camargo <julianosc@protonmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "pt/>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.2.1-dev\n"
+"X-Generator: Weblate 4.3.2-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -185,7 +185,7 @@ msgstr "Doações:"
 
 #: ../data/AboutDialog.ui.in:57
 msgid "Liberapay"
-msgstr "Liberapay Pagamentos"
+msgstr "Liberapay"
 
 #: ../data/AboutDialog.ui.in:67 ../eolie/container.py:100
 msgid "Patreon"
@@ -193,7 +193,7 @@ msgstr "Patreon"
 
 #: ../data/AboutDialog.ui.in:77 ../eolie/container.py:100
 msgid "PayPal"
-msgstr "PayPal Pagamentos"
+msgstr "Paypal"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:7
 #: ../data/org.gnome.Eolie.desktop.in:3
@@ -252,7 +252,7 @@ msgstr "Li_mpar"
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:132
 msgid "Search"
-msgstr "Buscar"
+msgstr "Procurar"
 
 #: ../data/DialogClearData.ui:30
 msgid "Filter domains"
@@ -487,7 +487,7 @@ msgstr "Outros"
 
 #: ../data/SettingsDialog.ui:196
 msgid "Startup"
-msgstr "Iniciar"
+msgstr "Início"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Start Page:"
@@ -682,12 +682,12 @@ msgstr "Nova janela"
 #: ../data/Shortcuts.ui:24
 msgctxt "shortcut window"
 msgid "Settings"
-msgstr "Ajustes"
+msgstr "Definições"
 
 #: ../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr "Ecrã cheio"
+msgstr "Ecrã inteiro"
 
 #: ../data/Shortcuts.ui:38
 msgctxt "shortcut window"
@@ -712,7 +712,7 @@ msgstr "Mostrar histórico"
 #: ../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Search"
-msgstr "Buscar"
+msgstr "Procura"
 
 #: ../data/Shortcuts.ui:73
 msgctxt "shortcut window"
@@ -924,7 +924,7 @@ msgstr "A descarragar, tem certeza de que deseja sair?"
 
 #: ../eolie/container.py:99
 msgid "Please consider a donation to the project"
-msgstr "Considere ajudar o projeto com uma doação"
+msgstr "Por favor,  considere doar ao projeto"
 
 #: ../eolie/container_stack.py:228
 msgid "Do you really want to close this page?"
@@ -1008,7 +1008,7 @@ msgstr "_Barra Lateral"
 
 #: ../eolie/menu_application.py:89
 msgid "_Keyboard Shortcuts"
-msgstr "_Atalhos do Teclado"
+msgstr "Atalhos de _teclado"
 
 #: ../eolie/menu_application.py:95
 msgid "_About"
@@ -1380,7 +1380,7 @@ msgstr "Abrir a ligação numa nova janela"
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
-msgstr "Procurar na Rede"
+msgstr "Procurar na Web"
 
 #: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
