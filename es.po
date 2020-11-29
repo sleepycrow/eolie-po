@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-11-29 11:29+0000\n"
+"PO-Revision-Date: 2020-11-30 17:29+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/eolie/es/>"
 "\n"
@@ -41,11 +41,11 @@ msgstr "Posición mínima de la barra lateral"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Enable night mode"
-msgstr ""
+msgstr "Habilitar modo oscuro"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
 msgid "Switch to night mode with GNOME"
-msgstr ""
+msgstr "Cambiar a modo oscuro con GNOME"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block ads on pages"
@@ -53,7 +53,7 @@ msgstr "Bloquear anuncios en las páginas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "Bloquear ventanas emergentes no deseadas"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:54
 msgid "Block images"
@@ -61,7 +61,7 @@ msgstr "Bloquear imágenes"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69 ../eolie/menu_application.py:55
 msgid "Block multimedia"
-msgstr ""
+msgstr "Bloquear multimedia"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
@@ -69,7 +69,7 @@ msgstr "Bloquear JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Block Phishing"
-msgstr ""
+msgstr "Bloquear Phishing"
 
 #: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Enable smooth scrolling"
@@ -239,7 +239,7 @@ msgstr "Dirección:"
 
 #: ../data/BookmarkEdit.ui:203
 msgid "Load at startup"
-msgstr ""
+msgstr "Cargar al inicio"
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
@@ -540,11 +540,11 @@ msgstr "Tipos de letra"
 
 #: ../data/SettingsDialog.ui:421
 msgid "Sans-serif font"
-msgstr ""
+msgstr "Fuente sans-serif"
 
 #: ../data/SettingsDialog.ui:445
 msgid "Monospaced font"
-msgstr ""
+msgstr "Fuente monoespaciada"
 
 #: ../data/SettingsDialog.ui:596
 msgid "Appearance"
@@ -620,7 +620,7 @@ msgstr "No conservar"
 
 #: ../data/SettingsDialog.ui:875
 msgid "Predict website addresses"
-msgstr ""
+msgstr "Predecir las direcciones de los sitios web"
 
 #: ../data/SettingsDialog.ui:923
 msgid "Privacy"
@@ -652,19 +652,19 @@ msgstr "Crear o gestionar la cuenta"
 
 #: ../data/SettingsDialog.ui:1062
 msgid "Code:"
-msgstr ""
+msgstr "Código:"
 
 #: ../data/SettingsDialog.ui:1073 ../data/SettingsDialog.ui:1074
 msgid "You need to turn on two-factor authentication"
-msgstr ""
+msgstr "Necesita activar la autenticación de dos factores"
 
 #: ../data/SettingsDialog.ui:1091
 msgid "Fetch from Firefox Sync"
-msgstr ""
+msgstr "Obtener de Firefox Sync"
 
 #: ../data/SettingsDialog.ui:1106
 msgid "Send to Firefox Sync"
-msgstr ""
+msgstr "Enviar a Firefox Sync"
 
 #: ../data/SettingsDialog.ui:1134
 msgid "Syncing"
@@ -893,27 +893,27 @@ msgstr "Filtrado"
 
 #: ../data/ToolbarMenu.ui:289
 msgid "Show ads"
-msgstr ""
+msgstr "Mostrar anuncios"
 
 #: ../data/ToolbarMenu.ui:301
 msgid "Show popups"
-msgstr ""
+msgstr "Mostrar ventanas emergentes"
 
 #: ../data/ToolbarMenu.ui:313
 msgid "Show images"
-msgstr ""
+msgstr "Mostrar imágenes"
 
 #: ../data/ToolbarMenu.ui:325
 msgid "Show multimedia"
-msgstr ""
+msgstr "Mostrar multimedia"
 
 #: ../data/ToolbarMenu.ui:390
 msgid "Run scripts"
-msgstr ""
+msgstr "Ejecutar scripts"
 
 #: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:47
 msgid "Night mode"
-msgstr ""
+msgstr "Modo oscuro"
 
 #: ../eolie/application.py:623
 msgid "Do you really want to quit Eolie?"
@@ -993,11 +993,11 @@ msgstr "Bloquear ventanas emergentes"
 
 #: ../eolie/menu_application.py:56
 msgid "Block scripts"
-msgstr ""
+msgstr "Bloquear scripts"
 
 #: ../eolie/menu_application.py:68
 msgid "Blockers"
-msgstr ""
+msgstr "Bloqueadores"
 
 #: ../eolie/menu_application.py:75
 msgid "_Preferences"
@@ -1037,7 +1037,7 @@ msgstr "Modificar el agente de usuario"
 
 #: ../eolie/menu_sites.py:89
 msgid "Pinned site"
-msgstr ""
+msgstr "Sitio fijado"
 
 #: ../eolie/menu_sites.py:98
 msgid "Close site"
@@ -1107,7 +1107,7 @@ msgstr "Continuar"
 
 #: ../eolie/popover_tls.py:55
 msgid "Connexion is secure"
-msgstr ""
+msgstr "Conexión segura"
 
 #: ../eolie/popover_tls.py:60
 #, python-format
@@ -1115,6 +1115,8 @@ msgid ""
 "<b>Website identity:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Identidad del sitio web:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:65
 #, python-format
@@ -1122,6 +1124,8 @@ msgid ""
 "<b>Expires on:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Expira en:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:70
 #, python-format
@@ -1129,10 +1133,12 @@ msgid ""
 "<b>Verified by:</b> %s\n"
 "\n"
 msgstr ""
+"<b>Verificado por:</b> %s\n"
+"\n"
 
 #: ../eolie/popover_tls.py:74
 msgid "Connexion is unsecure"
-msgstr ""
+msgstr "Conexión no segura"
 
 #: ../eolie/popover_uri_content.py:124
 #, python-format
@@ -1417,7 +1423,7 @@ msgstr "Buscar o escribir una dirección"
 #: ../eolie/widget_uri_entry.py:291
 #, python-format
 msgid "Save password for: %s"
-msgstr ""
+msgstr "Guardar contraseña para: %s"
 
 #: ../eolie/widget_uri_entry.py:461
 msgid "Paste and load"
