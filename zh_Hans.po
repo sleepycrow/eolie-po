@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-04-02 10:51+0000\n"
+"PO-Revision-Date: 2020-12-02 17:29+0000\n"
 "Last-Translator: maitreya2019 <crc2005@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "gnumdk/eolie/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -526,7 +526,7 @@ msgstr "添加建议"
 
 #: ../data/SettingsDialog.ui:357
 msgid "General"
-msgstr "常规"
+msgstr "通用"
 
 #: ../data/SettingsDialog.ui:379
 msgid "Fonts"
@@ -1373,7 +1373,7 @@ msgstr "在新窗口打开链接"
 
 #: ../eolie/webview_signals_menu.py:120
 msgid "Search on the Web"
-msgstr "搜索互联网"
+msgstr "联网搜索"
 
 #: ../eolie/webview_signals_menu.py:133
 msgid "Save page as image"
