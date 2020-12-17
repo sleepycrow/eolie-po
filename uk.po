@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-12-06 16:29+0000\n"
+"PO-Revision-Date: 2020-12-18 03:29+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "uk/>\n"
@@ -38,147 +38,147 @@ msgstr "Показати бічну панель(керування сайтам
 
 #: ../data/org.gnome.Eolie.gschema.xml:39
 msgid "Minimum sidebar position"
-msgstr ""
+msgstr "Мінімальне положення бічної панелі"
 
 #: ../data/org.gnome.Eolie.gschema.xml:44
 msgid "Enable night mode"
-msgstr ""
+msgstr "Увімкнути нічний режим"
 
 #: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
 msgid "Switch to night mode with GNOME"
-msgstr ""
+msgstr "Перемикатися до нічного режиму разом з GNOME"
 
 #: ../data/org.gnome.Eolie.gschema.xml:54
 msgid "Block ads on pages"
-msgstr ""
+msgstr "Блокувати оголошення на сторінках"
 
 #: ../data/org.gnome.Eolie.gschema.xml:59
 msgid "Block unwanted popups"
-msgstr ""
+msgstr "Блокувати небажані інформаційні вікна"
 
 #: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:54
 msgid "Block images"
-msgstr ""
+msgstr "Блокувати зображення"
 
 #: ../data/org.gnome.Eolie.gschema.xml:69 ../eolie/menu_application.py:55
 msgid "Block multimedia"
-msgstr ""
+msgstr "Блокувати мультимедіа"
 
 #: ../data/org.gnome.Eolie.gschema.xml:74 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
-msgstr ""
+msgstr "Блокувати JavaScript"
 
 #: ../data/org.gnome.Eolie.gschema.xml:79
 msgid "Block Phishing"
-msgstr ""
+msgstr "Блокувати фішинговий вміст"
 
 #: ../data/org.gnome.Eolie.gschema.xml:84
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "Увімкнути плавне прокручування"
 
 #: ../data/org.gnome.Eolie.gschema.xml:89
 msgid "Download folder URI"
-msgstr ""
+msgstr "URI теки завантаження"
 
 #: ../data/org.gnome.Eolie.gschema.xml:94
 msgid "Open finished downloads"
-msgstr ""
+msgstr "Відкривати завершені завантаження"
 
 #: ../data/org.gnome.Eolie.gschema.xml:99
 msgid "Web search engine"
-msgstr ""
+msgstr "Засіб пошуку в Мережі"
 
 #: ../data/org.gnome.Eolie.gschema.xml:104
 msgid "Remember sessions"
-msgstr ""
+msgstr "Запам'ятовувати сеанс"
 
 #: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:683
 msgid "Remember passwords"
-msgstr ""
+msgstr "Запам'ятовувати паролі"
 
 #: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:319
 msgid "Enable developer tools"
-msgstr ""
+msgstr "Увімкнути інструменти розробника"
 
 #: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:175
 msgid "Enable plugins"
-msgstr ""
+msgstr "Увімкнути плагіни"
 
 #: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:392
 msgid "Use system fonts"
-msgstr ""
+msgstr "Використовувати системні шрифти"
 
 #: ../data/org.gnome.Eolie.gschema.xml:129
 msgid "Sans serif font"
-msgstr ""
+msgstr "Шрифт без зарубок"
 
 #: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:433
 msgid "Serif font"
-msgstr ""
+msgstr "Шрифт із зарубками"
 
 #: ../data/org.gnome.Eolie.gschema.xml:139
 msgid "Monospace font"
-msgstr ""
+msgstr "Моноширний шрифт"
 
 #: ../data/org.gnome.Eolie.gschema.xml:144
 msgid "Open this page on startup"
-msgstr ""
+msgstr "Відкрити цю сторінку під час запуску"
 
 #: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:507
 msgid "Minimum font size"
-msgstr ""
+msgstr "Найменший розмір шрифту"
 
 #: ../data/org.gnome.Eolie.gschema.xml:154
 msgid "Popular items shown"
-msgstr ""
+msgstr "Показувати популярні елементи"
 
 #: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:533
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
-msgstr ""
+msgstr "Типовий масштаб"
 
 #: ../data/org.gnome.Eolie.gschema.xml:164
 msgid "Cookies storage type"
-msgstr ""
+msgstr "Тип сховища cookie"
 
 #: ../data/org.gnome.Eolie.gschema.xml:169
 msgid "History storage type"
-msgstr ""
+msgstr "Тип сховища історії"
 
 #: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:649
 msgid "Tell websites I do not want to be tracked"
-msgstr ""
+msgstr "Повідомляти вебсайтам, що я не хочу, щоб мене відстежували"
 
 #: ../data/org.gnome.Eolie.gschema.xml:179
 msgid "DNS prediction"
-msgstr ""
+msgstr "Прогнозування DNS"
 
 #: ../data/org.gnome.Eolie.gschema.xml:184 ../data/SettingsDialog.ui:893
 msgid "Autoplay videos"
-msgstr ""
+msgstr "Автовідтворення відео"
 
 #: ../data/org.gnome.Eolie.gschema.xml:189
 msgid "Enable search suggestions"
-msgstr ""
+msgstr "Увімкнути пропозиції пошуку"
 
 #: ../data/org.gnome.Eolie.gschema.xml:194 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
-msgstr ""
+msgstr "Увімкнути перевірку правопису"
 
 #: ../data/AboutDialog.ui.in:14
 msgid "A web browser for GNOME."
-msgstr ""
+msgstr "Переглядач мережі для GNOME."
 
 #: ../data/AboutDialog.ui.in:16
 msgid "Visit Eolie website"
-msgstr ""
+msgstr "Відвідати вебсайт Eolie"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.in:20
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr ""
+msgstr "Ihor Hordiichuk <igor_ck@outlook.com>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -199,40 +199,40 @@ msgstr "PayPal"
 #: ../data/org.gnome.Eolie.appdata.xml.in:7
 #: ../data/org.gnome.Eolie.desktop.in:3
 msgid "Eolie"
-msgstr ""
+msgstr "Eolie"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:8
 #: ../data/org.gnome.Eolie.desktop.in:4 ../data/org.gnome.Eolie.desktop.in:5
 msgid "Web browser"
-msgstr ""
+msgstr "Переглядач Мережі"
 
 #: ../data/org.gnome.Eolie.appdata.xml.in:10
 msgid "Eolie is a new GNOME web browser."
-msgstr ""
+msgstr "Eolie — це новий переглядач Мережі для GNOME."
 
 #: ../data/org.gnome.Eolie.desktop.in:7
 msgid "org.gnome.Eolie"
-msgstr ""
+msgstr "org.gnome.Eolie"
 
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_move_to.py:63
 msgid "New window"
-msgstr ""
+msgstr "Нове вікно"
 
 #: ../data/org.gnome.Eolie.desktop.in:21 ../eolie/menu_application.py:37
 msgid "New private page"
-msgstr ""
+msgstr "Нове приватне вікно"
 
 #: ../data/BookmarkEdit.ui:106 ../data/BookmarkEdit.ui:109
 msgid "Add new tag"
-msgstr ""
+msgstr "Додати нову мітку"
 
 #: ../data/BookmarkEdit.ui:135
 msgid "Title:"
-msgstr ""
+msgstr "Назва:"
 
 #: ../data/BookmarkEdit.ui:160
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Вилучити закладку"
 
 #: ../data/BookmarkEdit.ui:178 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
@@ -240,15 +240,15 @@ msgstr "Адреса:"
 
 #: ../data/BookmarkEdit.ui:203
 msgid "Load at startup"
-msgstr ""
+msgstr "Завантажувати під час запуску"
 
 #: ../data/DialogClearData.ui:6
 msgid "Clear Personal Data"
-msgstr ""
+msgstr "Очистити особисті дані"
 
 #: ../data/DialogClearData.ui:10
 msgid "C_lear"
-msgstr ""
+msgstr "_Очистити"
 
 #: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:132
@@ -667,7 +667,7 @@ msgstr "Загальне"
 #: ../data/Shortcuts.ui:17
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "Нове вікно"
 
 #: ../data/Shortcuts.ui:24
 msgctxt "shortcut window"
@@ -727,62 +727,62 @@ msgstr ""
 #: ../data/Shortcuts.ui:100
 msgctxt "shortcut window"
 msgid "New private page"
-msgstr ""
+msgstr "Нове приватне вікно"
 
 #: ../data/Shortcuts.ui:107
 msgctxt "shortcut window"
 msgid "Close page"
-msgstr ""
+msgstr "Закрити сторінку"
 
 #: ../data/Shortcuts.ui:114 ../data/Shortcuts.ui:217
 msgctxt "shortcut window"
 msgid "Previous page"
-msgstr ""
+msgstr "Попередня сторінка"
 
 #: ../data/Shortcuts.ui:121 ../data/Shortcuts.ui:224
 msgctxt "shortcut window"
 msgid "Next page"
-msgstr ""
+msgstr "Наступна сторінка"
 
 #: ../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "View all pages"
-msgstr ""
+msgstr "Показати всі вкладки"
 
 #: ../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Show source code"
-msgstr ""
+msgstr "Показати джерельний код"
 
 #: ../data/Shortcuts.ui:144
 msgctxt "shortcut window"
 msgid "Web page"
-msgstr ""
+msgstr "Вебсторінка"
 
 #: ../data/Shortcuts.ui:148
 msgctxt "shortcut window"
 msgid "Save page"
-msgstr ""
+msgstr "Зберегти сторінку"
 
 #: ../data/Shortcuts.ui:155
 msgctxt "shortcut window"
 msgid "Print page"
-msgstr ""
+msgstr "Надрукувати сторінку"
 
 #: ../data/Shortcuts.ui:162
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Збільшити"
 
 #: ../data/Shortcuts.ui:169
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Зменшити"
 
 #: ../data/Shortcuts.ui:176
 msgctxt "shortcut window"
 msgid "Default zoom level"
-msgstr ""
+msgstr "Типовий масштаб"
 
 #: ../data/Shortcuts.ui:183
 msgctxt "shortcut window"
@@ -833,24 +833,24 @@ msgstr ""
 
 #: ../data/ToolbarActions.ui:113
 msgid "View all pages"
-msgstr ""
+msgstr "Показати всі вкладки"
 
 #: ../data/ToolbarActions.ui:164
 msgid "Close page"
-msgstr ""
+msgstr "Закрити сторінку"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
 #: ../eolie/menu_toolbar.py:46
 msgid "Leave fullscreen"
-msgstr ""
+msgstr "Вийти з повноекранного режиму"
 
 #: ../data/ToolbarEnd.ui:37
 msgid "Start synchronization"
-msgstr ""
+msgstr "Почати синхронізацію"
 
 #: ../data/ToolbarEnd.ui:69
 msgid "Disallow access to this site"
-msgstr ""
+msgstr "Заборонити доступ до цього вебсайту"
 
 #: ../data/ToolbarEnd.ui:112
 msgid "Startup page"
@@ -858,11 +858,11 @@ msgstr ""
 
 #: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:130
 msgid "Save page"
-msgstr ""
+msgstr "Зберегти сторінку"
 
 #: ../data/ToolbarMenu.ui:81
 msgid "Print page"
-msgstr ""
+msgstr "Надрукувати сторінку"
 
 #: ../data/ToolbarMenu.ui:126
 msgid "Start page"
