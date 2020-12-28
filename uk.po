@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 16:10+0100\n"
-"PO-Revision-Date: 2020-12-18 03:29+0000\n"
+"PO-Revision-Date: 2020-12-29 01:29+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:19
 msgid "Show debug messages"
@@ -450,28 +450,28 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:40 ../eolie/settings.py:67 ../eolie/settings.py:70
 msgid "Preferences"
-msgstr ""
+msgstr "Параметри"
 
 #: ../data/SettingsDialog.ui:72 ../data/ToolbarEnd.ui:127
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
-msgstr ""
+msgstr "Завантаження"
 
 #: ../data/SettingsDialog.ui:89
 msgid "Download folder:"
-msgstr ""
+msgstr "Тека завантажень:"
 
 #: ../data/SettingsDialog.ui:101
 msgid "Select download folder"
-msgstr ""
+msgstr "Виберіть теку завантажень"
 
 #: ../data/SettingsDialog.ui:111
 msgid "Automatically open downloaded files"
-msgstr ""
+msgstr "Автоматично відкривати завантажені файли"
 
 #: ../data/SettingsDialog.ui:149
 msgid "Search engines:"
-msgstr ""
+msgstr "Засоби пошуку:"
 
 #: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
@@ -483,43 +483,43 @@ msgstr "Запуск"
 
 #: ../data/SettingsDialog.ui:213
 msgid "Start Page:"
-msgstr ""
+msgstr "Початкова сторінка:"
 
 #: ../data/SettingsDialog.ui:225
 msgid "Search engine"
-msgstr ""
+msgstr "Засіб пошуку"
 
 #: ../data/SettingsDialog.ui:226 ../eolie/context.py:87
 msgid "Popular pages"
-msgstr ""
+msgstr "Популярні сторінки"
 
 #: ../data/SettingsDialog.ui:227
 msgid "Popular bookmarks"
-msgstr ""
+msgstr "Популярні закладки"
 
 #: ../data/SettingsDialog.ui:228
 msgid "Blank page"
-msgstr ""
+msgstr "Чиста сторінка"
 
 #: ../data/SettingsDialog.ui:229
 msgid "Set address"
-msgstr ""
+msgstr "Вказати адресу"
 
 #: ../data/SettingsDialog.ui:251
 msgid "Remember previous pages on startup"
-msgstr ""
+msgstr "Відновлювати сторінки попереднього сеансу"
 
 #: ../data/SettingsDialog.ui:268
 msgid "Configure engines"
-msgstr ""
+msgstr "Налаштувати засоби пошуку"
 
 #: ../data/SettingsDialog.ui:289
 msgid "Shown bookmarks"
-msgstr ""
+msgstr "Показані закладки"
 
 #: ../data/SettingsDialog.ui:333
 msgid "Add suggestions"
-msgstr ""
+msgstr "Додати пропозиції"
 
 #: ../data/SettingsDialog.ui:357
 msgid "General"
