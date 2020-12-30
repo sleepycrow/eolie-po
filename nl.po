@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-30 22:40+0100\n"
-"PO-Revision-Date: 2020-12-30 21:40+0000\n"
+"PO-Revision-Date: 2020-12-30 23:14+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
 "Language: nl\n"
@@ -864,7 +864,7 @@ msgstr "Scripts"
 
 #: ../data/ToolbarMenu.ui:423
 msgid "Allow audio"
-msgstr ""
+msgstr "Audio toestaan"
 
 #: ../data/ToolbarMenu.ui:435 ../eolie/menu_application.py:84
 msgid "Night mode"
