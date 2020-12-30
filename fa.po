@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 19:39+0100\n"
+"POT-Creation-Date: 2020-12-30 19:59+0100\n"
 "PO-Revision-Date: 2020-09-07 18:39+0000\n"
 "Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/gnumdk/eolie/fa/"
@@ -91,15 +91,15 @@ msgstr "جستجوگر وب"
 msgid "Remember sessions"
 msgstr "به یاد داشتن نشست‌ها"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:560
 msgid "Remember passwords"
 msgstr "گذرواژه‌های به یاد مانده"
 
-#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:435
+#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:433
 msgid "Enable developer tools"
 msgstr "فعال کردن ابزار گسترش دهنده"
 
-#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:418
+#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:416
 msgid "Enable plugins"
 msgstr "فعال کردن افزایه‌ها"
 
@@ -131,7 +131,7 @@ msgstr "کوچک‌ترین اندازه قلم"
 msgid "Popular items shown"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:398
+#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:397
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr ""
@@ -156,7 +156,7 @@ msgstr ""
 msgid "Custom start page"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:470
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:468
 msgid "Tell websites I do not want to be tracked"
 msgstr "به وبگاه‌ها بگویید نمی‌خواهم ردیابی شوم"
 
@@ -164,7 +164,7 @@ msgstr "به وبگاه‌ها بگویید نمی‌خواهم ردیابی ش�
 msgid "Enable Firefox Sync"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:488
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:485
 msgid "Autoplay videos"
 msgstr "نمایش خودکار ویدیوها"
 
@@ -262,7 +262,7 @@ msgid "Clear Personal Data"
 msgstr "پاک کردن داده‌های شخصی"
 
 #: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
-#: ../data/SettingsDialog.ui:346
+#: ../data/SettingsDialog.ui:345
 msgid "Search"
 msgstr "جستجو"
 
@@ -282,7 +282,7 @@ msgstr "جستجوی دامنه‌ها"
 msgid "Delete cookies"
 msgstr "حذف کوکی‌ها"
 
-#: ../data/DialogCookies.ui:104 ../data/SettingsDialog.ui:505
+#: ../data/DialogCookies.ui:104 ../data/SettingsDialog.ui:502
 msgid "Cookies"
 msgstr "کوکی‌ها"
 
@@ -291,7 +291,7 @@ msgid "Remove all passwords"
 msgstr "حذف همه گذرواژه‌ها"
 
 #: ../data/DialogCredentials.ui:80
-msgid "Credendtials"
+msgid "Credentials"
 msgstr ""
 
 #: ../data/DialogImportBookmarks.ui:37
@@ -311,7 +311,7 @@ msgstr "وارد کردن"
 msgid "Modify"
 msgstr "پیرایش"
 
-#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:351
+#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:350
 msgid "Search engines"
 msgstr ""
 
@@ -382,7 +382,7 @@ msgstr "بارگیری فعالی وجود ندارد"
 msgid "OK"
 msgstr "خوب"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:627
 msgid "Forever"
 msgstr "همیشه"
 
@@ -402,7 +402,7 @@ msgstr "نشانگاه‌ها"
 msgid "Clear history"
 msgstr "پاک کردن تاریخچه"
 
-#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:608
+#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:605
 msgid "History"
 msgstr "تاریخچه"
 
@@ -494,140 +494,128 @@ msgstr "نشانگاه‌های آشکار"
 msgid "How many bookmarks on startup page"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:283
-msgid "5"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:300 ../data/ToolbarEnd.ui:105
+#: ../data/SettingsDialog.ui:299 ../data/ToolbarEnd.ui:105
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "بارگیری‌ها"
 
-#: ../data/SettingsDialog.ui:305
+#: ../data/SettingsDialog.ui:304
 msgid "Download folder"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:314
+#: ../data/SettingsDialog.ui:313
 msgid "Select download folder"
 msgstr "انتخاب پوشه بارگیری"
 
-#: ../data/SettingsDialog.ui:324
+#: ../data/SettingsDialog.ui:323
 msgid "Automatically open downloaded files"
 msgstr "باز کردن خودکار پرونده‌های بارگیری شده"
 
-#: ../data/SettingsDialog.ui:370
+#: ../data/SettingsDialog.ui:369
 msgid "Suggestions"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:372
+#: ../data/SettingsDialog.ui:371
 msgid "Show suggestions from search engines"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:393 ../eolie/dialog_import_bookmarks.py:46
+#: ../data/SettingsDialog.ui:392 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "دیگر"
 
-#: ../data/SettingsDialog.ui:399
-msgid "Zomm level for current screen"
+#: ../data/SettingsDialog.ui:398
+msgid "Zoom level for current screen"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:407
-msgid "30"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:460
+#: ../data/SettingsDialog.ui:458
 msgid "Privacy"
 msgstr "پنهانی"
 
-#: ../data/SettingsDialog.ui:465
+#: ../data/SettingsDialog.ui:463
 msgid "Tracking"
 msgstr "ردیابی"
 
-#: ../data/SettingsDialog.ui:487
-msgid "You need to reset collection"
+#: ../data/SettingsDialog.ui:503
+msgid "Allow web sites to track you"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:506
-msgid "Allows web sites to track you"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:523
+#: ../data/SettingsDialog.ui:520
 msgid "Always accept"
 msgstr "همیشه بپذیر"
 
-#: ../data/SettingsDialog.ui:524
+#: ../data/SettingsDialog.ui:521
 msgid "Never accept"
 msgstr "هرگز نپذیر"
 
-#: ../data/SettingsDialog.ui:525
+#: ../data/SettingsDialog.ui:522
 msgid "Only from visited sites"
 msgstr "تنها از پایگاه‌های دیده شده"
 
-#: ../data/SettingsDialog.ui:558
+#: ../data/SettingsDialog.ui:555
 msgid "Data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:564
+#: ../data/SettingsDialog.ui:561
 msgid "Autocomplete credentials"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:609
+#: ../data/SettingsDialog.ui:606
 msgid "Your navigation data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:623
 msgid "One day"
 msgstr "یک روز"
 
-#: ../data/SettingsDialog.ui:627
+#: ../data/SettingsDialog.ui:624
 msgid "One week"
 msgstr "یک هفته"
 
-#: ../data/SettingsDialog.ui:628
+#: ../data/SettingsDialog.ui:625
 msgid "Four weeks"
 msgstr "چهار هفته"
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsDialog.ui:626
 msgid "A year"
 msgstr "یک سال"
 
-#: ../data/SettingsDialog.ui:631
+#: ../data/SettingsDialog.ui:628
 msgid "Do not keep"
 msgstr "نگه ندار"
 
-#: ../data/SettingsDialog.ui:667
+#: ../data/SettingsDialog.ui:664
 msgid "Firefox sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:676
+#: ../data/SettingsDialog.ui:673
 msgid "Enable synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:696
+#: ../data/SettingsDialog.ui:693
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:703
+#: ../data/SettingsDialog.ui:700
 msgid "Sync now"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:727
+#: ../data/SettingsDialog.ui:724
 msgid "Username"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:742
+#: ../data/SettingsDialog.ui:739
 msgid "Password"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:757
+#: ../data/SettingsDialog.ui:754
 msgid "Code"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:758
+#: ../data/SettingsDialog.ui:755
 msgid "If two factor auth enabled on your Firefox account"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:775
+#: ../data/SettingsDialog.ui:772
 msgid "Start syncing"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 19:39+0100\n"
+"POT-Creation-Date: 2020-12-30 19:59+0100\n"
 "PO-Revision-Date: 2020-03-11 12:33+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -91,15 +91,15 @@ msgstr "網頁搜尋引擎"
 msgid "Remember sessions"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:560
 msgid "Remember passwords"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:435
+#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:433
 msgid "Enable developer tools"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:418
+#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:416
 msgid "Enable plugins"
 msgstr ""
 
@@ -131,7 +131,7 @@ msgstr ""
 msgid "Popular items shown"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:398
+#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:397
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr ""
@@ -156,7 +156,7 @@ msgstr ""
 msgid "Custom start page"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:470
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:468
 msgid "Tell websites I do not want to be tracked"
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Enable Firefox Sync"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:488
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:485
 msgid "Autoplay videos"
 msgstr ""
 
@@ -262,7 +262,7 @@ msgid "Clear Personal Data"
 msgstr ""
 
 #: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
-#: ../data/SettingsDialog.ui:346
+#: ../data/SettingsDialog.ui:345
 msgid "Search"
 msgstr ""
 
@@ -282,7 +282,7 @@ msgstr ""
 msgid "Delete cookies"
 msgstr ""
 
-#: ../data/DialogCookies.ui:104 ../data/SettingsDialog.ui:505
+#: ../data/DialogCookies.ui:104 ../data/SettingsDialog.ui:502
 msgid "Cookies"
 msgstr ""
 
@@ -291,7 +291,7 @@ msgid "Remove all passwords"
 msgstr ""
 
 #: ../data/DialogCredentials.ui:80
-msgid "Credendtials"
+msgid "Credentials"
 msgstr ""
 
 #: ../data/DialogImportBookmarks.ui:37
@@ -311,7 +311,7 @@ msgstr ""
 msgid "Modify"
 msgstr ""
 
-#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:351
+#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:350
 msgid "Search engines"
 msgstr ""
 
@@ -382,7 +382,7 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:627
 msgid "Forever"
 msgstr ""
 
@@ -402,7 +402,7 @@ msgstr ""
 msgid "Clear history"
 msgstr ""
 
-#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:608
+#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:605
 msgid "History"
 msgstr ""
 
@@ -494,140 +494,128 @@ msgstr ""
 msgid "How many bookmarks on startup page"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:283
-msgid "5"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:300 ../data/ToolbarEnd.ui:105
+#: ../data/SettingsDialog.ui:299 ../data/ToolbarEnd.ui:105
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:305
+#: ../data/SettingsDialog.ui:304
 msgid "Download folder"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:314
+#: ../data/SettingsDialog.ui:313
 msgid "Select download folder"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:324
+#: ../data/SettingsDialog.ui:323
 msgid "Automatically open downloaded files"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:370
+#: ../data/SettingsDialog.ui:369
 msgid "Suggestions"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:372
+#: ../data/SettingsDialog.ui:371
 msgid "Show suggestions from search engines"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:393 ../eolie/dialog_import_bookmarks.py:46
+#: ../data/SettingsDialog.ui:392 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "其他"
 
-#: ../data/SettingsDialog.ui:399
-msgid "Zomm level for current screen"
+#: ../data/SettingsDialog.ui:398
+msgid "Zoom level for current screen"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:407
-msgid "30"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:460
+#: ../data/SettingsDialog.ui:458
 msgid "Privacy"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:465
+#: ../data/SettingsDialog.ui:463
 msgid "Tracking"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:487
-msgid "You need to reset collection"
+#: ../data/SettingsDialog.ui:503
+msgid "Allow web sites to track you"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:506
-msgid "Allows web sites to track you"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:523
+#: ../data/SettingsDialog.ui:520
 msgid "Always accept"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:524
+#: ../data/SettingsDialog.ui:521
 msgid "Never accept"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:525
+#: ../data/SettingsDialog.ui:522
 msgid "Only from visited sites"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:558
+#: ../data/SettingsDialog.ui:555
 msgid "Data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:564
+#: ../data/SettingsDialog.ui:561
 msgid "Autocomplete credentials"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:609
+#: ../data/SettingsDialog.ui:606
 msgid "Your navigation data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:623
 msgid "One day"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:627
+#: ../data/SettingsDialog.ui:624
 msgid "One week"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:628
+#: ../data/SettingsDialog.ui:625
 msgid "Four weeks"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsDialog.ui:626
 msgid "A year"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:631
+#: ../data/SettingsDialog.ui:628
 msgid "Do not keep"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:667
+#: ../data/SettingsDialog.ui:664
 msgid "Firefox sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:676
+#: ../data/SettingsDialog.ui:673
 msgid "Enable synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:696
+#: ../data/SettingsDialog.ui:693
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:703
+#: ../data/SettingsDialog.ui:700
 msgid "Sync now"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:727
+#: ../data/SettingsDialog.ui:724
 msgid "Username"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:742
+#: ../data/SettingsDialog.ui:739
 msgid "Password"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:757
+#: ../data/SettingsDialog.ui:754
 msgid "Code"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:758
+#: ../data/SettingsDialog.ui:755
 msgid "If two factor auth enabled on your Firefox account"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:775
+#: ../data/SettingsDialog.ui:772
 msgid "Start syncing"
 msgstr ""
 
