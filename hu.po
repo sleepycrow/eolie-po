@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 20:57+0100\n"
+"POT-Creation-Date: 2020-12-30 22:40+0100\n"
 "PO-Revision-Date: 2020-05-25 01:41+0000\n"
 "Last-Translator: PB <regisztralo111@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -132,7 +132,7 @@ msgid "Popular items shown"
 msgstr "Megjelenített népszerű elemek"
 
 #: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:396
-#: ../data/ToolbarMenu.ui:188
+#: ../data/ToolbarMenu.ui:189
 msgid "Default zoom level"
 msgstr "Alapértelmezett nagyítási szint"
 
@@ -241,7 +241,7 @@ msgstr "Név:"
 msgid "Remove bookmark"
 msgstr "Könyvjelző eltávolítása"
 
-#: ../data/BookmarkEdit.ui:177 ../data/DialogSearchEngine.ui:168
+#: ../data/BookmarkEdit.ui:177 ../data/DialogSearchEngine.ui:148
 msgid "Address:"
 msgstr "Cím:"
 
@@ -311,33 +311,29 @@ msgstr "Importálás"
 msgid "Modify"
 msgstr "Módosítás"
 
-#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:349
-msgid "Search engines"
-msgstr "Keresőmotorok"
-
-#: ../data/DialogSearchEngine.ui:155
+#: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
 msgstr "Név:"
 
-#: ../data/DialogSearchEngine.ui:207
+#: ../data/DialogSearchEngine.ui:187
 msgid "Default:"
 msgstr "Alapértelmezett:"
 
-#: ../data/DialogSearchEngine.ui:233
+#: ../data/DialogSearchEngine.ui:213
 msgid "Bang:"
 msgstr "Rövidítés:"
 
-#: ../data/DialogSearchEngine.ui:246
+#: ../data/DialogSearchEngine.ui:226
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
 "Ha a rövidítés g, akkor használja a g: szöveget a keresősávban, hogy ezzel a "
 "motorral keressen"
 
-#: ../data/DialogSearchEngine.ui:263
+#: ../data/DialogSearchEngine.ui:243
 msgid "Search:"
 msgstr "Keresés:"
 
-#: ../data/DialogSearchEngine.ui:320
+#: ../data/DialogSearchEngine.ui:302
 msgid ""
 "To determine the search address, perform a search using the search engine "
 "that you want to add and check the resulting address. Remove the search term "
@@ -347,7 +343,11 @@ msgstr ""
 "ellenőrizze a keletkezett címet. Távolítsa el a keresési kifejezést a "
 "címből, és cserélje le erre: %s."
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:276
+#: ../data/DialogSearchEngine.ui:329 ../data/SettingsDialog.ui:349
+msgid "Search engines"
+msgstr "Keresőmotorok"
+
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:296
 msgid "Spell checking"
 msgstr "Helyesírás-ellenőrzés"
 
@@ -367,7 +367,7 @@ msgstr "Mentés"
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
 #: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:125
-#: ../eolie/webview_signals.py:133
+#: ../eolie/webview_signals.py:134
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -467,7 +467,7 @@ msgstr ""
 msgid "Show previously opened pages on startup"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:126
+#: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:127
 msgid "Start page"
 msgstr "Nyitóoldal"
 
@@ -500,7 +500,7 @@ msgid "How many bookmarks on startup page"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
-#: ../data/ToolbarMenu.ui:143
+#: ../data/ToolbarMenu.ui:144
 msgid "Downloads"
 msgstr "Letöltések"
 
@@ -825,47 +825,51 @@ msgstr "Hozzáférés megtiltása ehhez az oldalhoz"
 msgid "Startup page"
 msgstr "Kezdőoldal"
 
-#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:121
+#: ../data/ToolbarMenu.ui:65 ../eolie/toolbar_end.py:121
 msgid "Save page"
 msgstr "Oldal mentése"
 
-#: ../data/ToolbarMenu.ui:81
+#: ../data/ToolbarMenu.ui:82
 msgid "Print page"
 msgstr "Oldal nyomtatása"
 
-#: ../data/ToolbarMenu.ui:172
+#: ../data/ToolbarMenu.ui:173
 msgid "Zoom out"
 msgstr "Kicsinyítés"
 
-#: ../data/ToolbarMenu.ui:203
+#: ../data/ToolbarMenu.ui:204
 msgid "Zoom in"
 msgstr "Nagyítás"
 
-#: ../data/ToolbarMenu.ui:232
+#: ../data/ToolbarMenu.ui:234
 msgid "Filtering"
 msgstr "Szűrés"
 
-#: ../data/ToolbarMenu.ui:289
+#: ../data/ToolbarMenu.ui:309
 msgid "Show ads"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:301
+#: ../data/ToolbarMenu.ui:321
 msgid "Show popups"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:313
+#: ../data/ToolbarMenu.ui:333
 msgid "Show images"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:325
+#: ../data/ToolbarMenu.ui:345
 msgid "Show multimedia"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:389 ../eolie/menu_scripts.py:133
+#: ../data/ToolbarMenu.ui:409 ../eolie/menu_scripts.py:133
 msgid "Scripts"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:423
+msgid "Allow audio"
+msgstr ""
+
+#: ../data/ToolbarMenu.ui:435 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr ""
 
@@ -889,31 +893,31 @@ msgstr "Biztos, hogy bezárja ezt a lapot?"
 msgid "Import HTML bookmarks"
 msgstr "HTML könyvjelzők importálása"
 
-#: ../eolie/dialog_search_engine.py:163 ../eolie/dialog_search_engine.py:167
+#: ../eolie/dialog_search_engine.py:154 ../eolie/dialog_search_engine.py:158
 msgid "New engine"
 msgstr "Új keresőmotor"
 
-#: ../eolie/dialog_settings.py:137 ../eolie/dialog_settings.py:272
+#: ../eolie/dialog_settings.py:148 ../eolie/dialog_settings.py:286
 msgid "Connecting…"
 msgstr "Kapcsolódás…"
 
-#: ../eolie/dialog_settings.py:141 ../eolie/dialog_settings.py:452
+#: ../eolie/dialog_settings.py:152 ../eolie/dialog_settings.py:466
 msgid "Not running"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:285
+#: ../eolie/dialog_settings.py:299
 msgid "Stopped…"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:415 ../eolie/dialog_settings.py:441
+#: ../eolie/dialog_settings.py:429 ../eolie/dialog_settings.py:455
 msgid "Connected"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:417
+#: ../eolie/dialog_settings.py:431
 msgid "Failed"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:449
+#: ../eolie/dialog_settings.py:463
 #, python-format
 msgid ""
 "Syncing is not available on your computer:\n"
@@ -922,7 +926,7 @@ msgstr ""
 "A szinkronizálás nem érhető el a számítógépén:\n"
 "%s"
 
-#: ../eolie/dialog_settings.py:460
+#: ../eolie/dialog_settings.py:474
 #, python-format
 msgid "Syncing %s"
 msgstr ""
@@ -1269,12 +1273,12 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Hiba jelentése most"
 
-#: ../eolie/webview_navigation.py:205
+#: ../eolie/webview_navigation.py:206
 #, python-format
 msgid "Allow notifications for %s"
 msgstr ""
 
-#: ../eolie/webview_navigation.py:206
+#: ../eolie/webview_navigation.py:207
 msgid "Allow"
 msgstr ""
 
@@ -1306,11 +1310,11 @@ msgstr "Keresés az interneten"
 msgid "Save page as image"
 msgstr "Oldal mentése képként"
 
-#: ../eolie/webview_signals.py:129
+#: ../eolie/webview_signals.py:130
 msgid "Select files to upload"
 msgstr "Válassza ki a feltöltendő fájlokat"
 
-#: ../eolie/webview_signals.py:132
+#: ../eolie/webview_signals.py:133
 msgid "Open"
 msgstr "Megnyitás"
 
@@ -1330,20 +1334,20 @@ msgstr "1000 / 1000 találat"
 msgid "Deny geolocation"
 msgstr "Helymeghatározás letiltása"
 
-#: ../eolie/widget_uri_entry.py:166
+#: ../eolie/widget_uri_entry.py:167
 msgid "This page contains insecure content"
 msgstr "Ez a lap nem biztonságos tartalmat is tartalmaz"
 
-#: ../eolie/widget_uri_entry.py:188 ../eolie/widget_uri_entry.py:191
+#: ../eolie/widget_uri_entry.py:189 ../eolie/widget_uri_entry.py:192
 msgid "Search or enter address"
 msgstr "Keresés vagy cím megadása"
 
-#: ../eolie/widget_uri_entry.py:272
+#: ../eolie/widget_uri_entry.py:273
 #, python-format
 msgid "Save password for: %s"
 msgstr ""
 
-#: ../eolie/widget_uri_entry.py:432
+#: ../eolie/widget_uri_entry.py:433
 msgid "Paste and load"
 msgstr "Beillesztés és betöltés"
 

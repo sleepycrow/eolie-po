@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 20:57+0100\n"
+"POT-Creation-Date: 2020-12-30 22:40+0100\n"
 "PO-Revision-Date: 2020-09-04 22:36+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/"
@@ -133,7 +133,7 @@ msgid "Popular items shown"
 msgstr "Часто просматриваемые вещи"
 
 #: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:396
-#: ../data/ToolbarMenu.ui:188
+#: ../data/ToolbarMenu.ui:189
 msgid "Default zoom level"
 msgstr "Уровень масштабирования по умолчанию"
 
@@ -246,7 +246,7 @@ msgstr "Заголовок:"
 msgid "Remove bookmark"
 msgstr "Удалить закладку"
 
-#: ../data/BookmarkEdit.ui:177 ../data/DialogSearchEngine.ui:168
+#: ../data/BookmarkEdit.ui:177 ../data/DialogSearchEngine.ui:148
 msgid "Address:"
 msgstr "Адрес:"
 
@@ -316,33 +316,29 @@ msgstr "Импортировать"
 msgid "Modify"
 msgstr "Изменять"
 
-#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:349
-msgid "Search engines"
-msgstr "Поисковые системы"
-
-#: ../data/DialogSearchEngine.ui:155
+#: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
 msgstr "Название:"
 
-#: ../data/DialogSearchEngine.ui:207
+#: ../data/DialogSearchEngine.ui:187
 msgid "Default:"
 msgstr "По умолчанию:"
 
-#: ../data/DialogSearchEngine.ui:233
+#: ../data/DialogSearchEngine.ui:213
 msgid "Bang:"
 msgstr "Бэнг:"
 
-#: ../data/DialogSearchEngine.ui:246
+#: ../data/DialogSearchEngine.ui:226
 msgid "If bang is g, use g: in search bar to search using this engine"
 msgstr ""
 "Если bang g, используйте g: в строке поиска для поиска с использованием "
 "этого движка"
 
-#: ../data/DialogSearchEngine.ui:263
+#: ../data/DialogSearchEngine.ui:243
 msgid "Search:"
 msgstr "Адрес:"
 
-#: ../data/DialogSearchEngine.ui:320
+#: ../data/DialogSearchEngine.ui:302
 msgid ""
 "To determine the search address, perform a search using the search engine "
 "that you want to add and check the resulting address. Remove the search term "
@@ -352,7 +348,11 @@ msgstr ""
 "которую вы хотите добавить, и проверьте полученный адрес. Удалите поисковый "
 "запрос из результирующего адреса и замените его %s."
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:276
+#: ../data/DialogSearchEngine.ui:329 ../data/SettingsDialog.ui:349
+msgid "Search engines"
+msgstr "Поисковые системы"
+
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:296
 msgid "Spell checking"
 msgstr "Проверка орфографии"
 
@@ -372,7 +372,7 @@ msgstr "Сохранить"
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
 #: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:125
-#: ../eolie/webview_signals.py:133
+#: ../eolie/webview_signals.py:134
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -472,7 +472,7 @@ msgstr ""
 msgid "Show previously opened pages on startup"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:126
+#: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:127
 msgid "Start page"
 msgstr "Начальная страница"
 
@@ -505,7 +505,7 @@ msgid "How many bookmarks on startup page"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
-#: ../data/ToolbarMenu.ui:143
+#: ../data/ToolbarMenu.ui:144
 msgid "Downloads"
 msgstr "Загрузки"
 
@@ -830,47 +830,51 @@ msgstr "Запретить доступ к этому сайту"
 msgid "Startup page"
 msgstr "Начальная страница"
 
-#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:121
+#: ../data/ToolbarMenu.ui:65 ../eolie/toolbar_end.py:121
 msgid "Save page"
 msgstr "Сохранить страницу"
 
-#: ../data/ToolbarMenu.ui:81
+#: ../data/ToolbarMenu.ui:82
 msgid "Print page"
 msgstr "Печать страницы"
 
-#: ../data/ToolbarMenu.ui:172
+#: ../data/ToolbarMenu.ui:173
 msgid "Zoom out"
 msgstr "Уменьшить"
 
-#: ../data/ToolbarMenu.ui:203
+#: ../data/ToolbarMenu.ui:204
 msgid "Zoom in"
 msgstr "Приблизить"
 
-#: ../data/ToolbarMenu.ui:232
+#: ../data/ToolbarMenu.ui:234
 msgid "Filtering"
 msgstr "Фильтрация"
 
-#: ../data/ToolbarMenu.ui:289
+#: ../data/ToolbarMenu.ui:309
 msgid "Show ads"
 msgstr "Показать рекламу"
 
-#: ../data/ToolbarMenu.ui:301
+#: ../data/ToolbarMenu.ui:321
 msgid "Show popups"
 msgstr "Показать поп-апы"
 
-#: ../data/ToolbarMenu.ui:313
+#: ../data/ToolbarMenu.ui:333
 msgid "Show images"
 msgstr "Показать изображения"
 
-#: ../data/ToolbarMenu.ui:325
+#: ../data/ToolbarMenu.ui:345
 msgid "Show multimedia"
 msgstr "Показать мультимедию"
 
-#: ../data/ToolbarMenu.ui:389 ../eolie/menu_scripts.py:133
+#: ../data/ToolbarMenu.ui:409 ../eolie/menu_scripts.py:133
 msgid "Scripts"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:423
+msgid "Allow audio"
+msgstr ""
+
+#: ../data/ToolbarMenu.ui:435 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "Ночной режим"
 
@@ -894,31 +898,31 @@ msgstr "Вы действительно хотите закрыть эту ст�
 msgid "Import HTML bookmarks"
 msgstr "Импортировать закладки HTML"
 
-#: ../eolie/dialog_search_engine.py:163 ../eolie/dialog_search_engine.py:167
+#: ../eolie/dialog_search_engine.py:154 ../eolie/dialog_search_engine.py:158
 msgid "New engine"
 msgstr "Новая поисковая система"
 
-#: ../eolie/dialog_settings.py:137 ../eolie/dialog_settings.py:272
+#: ../eolie/dialog_settings.py:148 ../eolie/dialog_settings.py:286
 msgid "Connecting…"
 msgstr "Подключение…"
 
-#: ../eolie/dialog_settings.py:141 ../eolie/dialog_settings.py:452
+#: ../eolie/dialog_settings.py:152 ../eolie/dialog_settings.py:466
 msgid "Not running"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:285
+#: ../eolie/dialog_settings.py:299
 msgid "Stopped…"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:415 ../eolie/dialog_settings.py:441
+#: ../eolie/dialog_settings.py:429 ../eolie/dialog_settings.py:455
 msgid "Connected"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:417
+#: ../eolie/dialog_settings.py:431
 msgid "Failed"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:449
+#: ../eolie/dialog_settings.py:463
 #, python-format
 msgid ""
 "Syncing is not available on your computer:\n"
@@ -927,7 +931,7 @@ msgstr ""
 "Синхронизация не доступна на вашем компьютере:\n"
 "%s"
 
-#: ../eolie/dialog_settings.py:460
+#: ../eolie/dialog_settings.py:474
 #, python-format
 msgid "Syncing %s"
 msgstr ""
@@ -1279,12 +1283,12 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Сообщить об ошибке сейчас"
 
-#: ../eolie/webview_navigation.py:205
+#: ../eolie/webview_navigation.py:206
 #, python-format
 msgid "Allow notifications for %s"
 msgstr ""
 
-#: ../eolie/webview_navigation.py:206
+#: ../eolie/webview_navigation.py:207
 msgid "Allow"
 msgstr ""
 
@@ -1316,11 +1320,11 @@ msgstr "Поиск в интернете"
 msgid "Save page as image"
 msgstr "Сохранить страницу как изображение"
 
-#: ../eolie/webview_signals.py:129
+#: ../eolie/webview_signals.py:130
 msgid "Select files to upload"
 msgstr "Выберите файлы для загрузки"
 
-#: ../eolie/webview_signals.py:132
+#: ../eolie/webview_signals.py:133
 msgid "Open"
 msgstr "Открыть"
 
@@ -1340,20 +1344,20 @@ msgstr "1000 из 1000 совпадений"
 msgid "Deny geolocation"
 msgstr "Отклонить геолокацию"
 
-#: ../eolie/widget_uri_entry.py:166
+#: ../eolie/widget_uri_entry.py:167
 msgid "This page contains insecure content"
 msgstr "Эта страница содержит небезопасный контент"
 
-#: ../eolie/widget_uri_entry.py:188 ../eolie/widget_uri_entry.py:191
+#: ../eolie/widget_uri_entry.py:189 ../eolie/widget_uri_entry.py:192
 msgid "Search or enter address"
 msgstr "Поиск или ввод адреса"
 
-#: ../eolie/widget_uri_entry.py:272
+#: ../eolie/widget_uri_entry.py:273
 #, python-format
 msgid "Save password for: %s"
 msgstr "Сохранить пароль для: %s"
 
-#: ../eolie/widget_uri_entry.py:432
+#: ../eolie/widget_uri_entry.py:433
 msgid "Paste and load"
 msgstr "Вставить и перейти"
 
