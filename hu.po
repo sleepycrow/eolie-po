@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 19:59+0100\n"
+"POT-Creation-Date: 2020-12-30 20:57+0100\n"
 "PO-Revision-Date: 2020-05-25 01:41+0000\n"
 "Last-Translator: PB <regisztralo111@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -91,15 +91,15 @@ msgstr "Webes keresőmotor"
 msgid "Remember sessions"
 msgstr "Munkamenetek megjegyzése"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:560
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:558
 msgid "Remember passwords"
 msgstr "Jelszavak megjegyzése"
 
-#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:433
+#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:432
 msgid "Enable developer tools"
 msgstr "Fejlesztői eszközök engedélyezése"
 
-#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:416
+#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:415
 msgid "Enable plugins"
 msgstr "Bővítmények engedélyezése"
 
@@ -131,7 +131,7 @@ msgstr "Betűkészlet minimális mérete"
 msgid "Popular items shown"
 msgstr "Megjelenített népszerű elemek"
 
-#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:397
+#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:396
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Alapértelmezett nagyítási szint"
@@ -156,7 +156,7 @@ msgstr ""
 msgid "Custom start page"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:468
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:467
 msgid "Tell websites I do not want to be tracked"
 msgstr "Jelzés a weboldalak felé, hogy nem szeretném, hogy kövessék"
 
@@ -164,7 +164,7 @@ msgstr "Jelzés a weboldalak felé, hogy nem szeretném, hogy kövessék"
 msgid "Enable Firefox Sync"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:485
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:484
 msgid "Autoplay videos"
 msgstr ""
 
@@ -262,7 +262,7 @@ msgid "Clear Personal Data"
 msgstr "Személyes adatok törlése"
 
 #: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
-#: ../data/SettingsDialog.ui:345
+#: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "Keresés"
 
@@ -282,7 +282,7 @@ msgstr "Tartományok keresése"
 msgid "Delete cookies"
 msgstr "Sütik törlése"
 
-#: ../data/DialogCookies.ui:104 ../data/SettingsDialog.ui:502
+#: ../data/DialogCookies.ui:104
 msgid "Cookies"
 msgstr "Sütik"
 
@@ -311,7 +311,7 @@ msgstr "Importálás"
 msgid "Modify"
 msgstr "Módosítás"
 
-#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:350
+#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:349
 msgid "Search engines"
 msgstr "Keresőmotorok"
 
@@ -387,7 +387,7 @@ msgstr "Nincs aktív letöltés"
 msgid "OK"
 msgstr "OK"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:627
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:625
 msgid "Forever"
 msgstr "Örökké"
 
@@ -407,7 +407,7 @@ msgstr "Könyvjelzők"
 msgid "Clear history"
 msgstr "Előzmények törlése"
 
-#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:605
+#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:603
 msgid "History"
 msgstr "Előzmények"
 
@@ -447,6 +447,10 @@ msgstr ""
 msgid "Follow system settings"
 msgstr ""
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Betűkészletek"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr ""
@@ -467,160 +471,164 @@ msgstr ""
 msgid "Start page"
 msgstr "Nyitóoldal"
 
-#: ../data/SettingsDialog.ui:224
-msgid "Web page shown on startup"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:242
+#: ../data/SettingsDialog.ui:241
 msgid "Search engine"
 msgstr "Keresőmotor"
 
-#: ../data/SettingsDialog.ui:243 ../eolie/context.py:96
+#: ../data/SettingsDialog.ui:242 ../eolie/context.py:96
 msgid "Popular pages"
 msgstr "Népszerű lapok"
 
-#: ../data/SettingsDialog.ui:244
+#: ../data/SettingsDialog.ui:243
 msgid "Popular bookmarks"
 msgstr "Népszerű könyvjelzők"
 
-#: ../data/SettingsDialog.ui:245
+#: ../data/SettingsDialog.ui:244
 msgid "Blank page"
 msgstr "Üres oldal"
 
-#: ../data/SettingsDialog.ui:246
+#: ../data/SettingsDialog.ui:245
 msgid "Custom"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:275
+#: ../data/SettingsDialog.ui:274
 msgid "Shown bookmarks"
 msgstr "Megjelenített könyvjelzők"
 
-#: ../data/SettingsDialog.ui:276
+#: ../data/SettingsDialog.ui:275
 msgid "How many bookmarks on startup page"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:299 ../data/ToolbarEnd.ui:105
+#: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Letöltések"
 
-#: ../data/SettingsDialog.ui:304
-msgid "Download folder"
+#: ../data/SettingsDialog.ui:303
+msgid "Folder"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:313
+#: ../data/SettingsDialog.ui:312
 msgid "Select download folder"
 msgstr "Válasszon letöltési mappát"
 
-#: ../data/SettingsDialog.ui:323
+#: ../data/SettingsDialog.ui:322
 msgid "Automatically open downloaded files"
 msgstr "Letöltött fájlok automatikus megnyitása"
 
-#: ../data/SettingsDialog.ui:369
+#: ../data/SettingsDialog.ui:368
 msgid "Suggestions"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:371
+#: ../data/SettingsDialog.ui:370
 msgid "Show suggestions from search engines"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:392 ../eolie/dialog_import_bookmarks.py:46
+#: ../data/SettingsDialog.ui:391 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "Egyebek"
 
-#: ../data/SettingsDialog.ui:398
+#: ../data/SettingsDialog.ui:397
 msgid "Zoom level for current screen"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:458
+#: ../data/SettingsDialog.ui:457
 msgid "Privacy"
 msgstr "Adatvédelem"
 
-#: ../data/SettingsDialog.ui:463
+#: ../data/SettingsDialog.ui:462
 msgid "Tracking"
 msgstr "Követés"
 
-#: ../data/SettingsDialog.ui:503
-msgid "Allow web sites to track you"
+#: ../data/SettingsDialog.ui:501
+msgid "Accept cookies"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:520
+#: ../data/SettingsDialog.ui:518
 msgid "Always accept"
 msgstr "Elfogadás mindig"
 
-#: ../data/SettingsDialog.ui:521
+#: ../data/SettingsDialog.ui:519
 msgid "Never accept"
 msgstr "Sose fogadja el"
 
-#: ../data/SettingsDialog.ui:522
+#: ../data/SettingsDialog.ui:520
 msgid "Only from visited sites"
 msgstr "Csak a meglátogatott helyekről"
 
-#: ../data/SettingsDialog.ui:555
+#: ../data/SettingsDialog.ui:553
 msgid "Data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:561
+#: ../data/SettingsDialog.ui:559
 msgid "Autocomplete credentials"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:606
+#: ../data/SettingsDialog.ui:604
 msgid "Your navigation data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:623
+#: ../data/SettingsDialog.ui:621
 msgid "One day"
 msgstr "Egy napig"
 
-#: ../data/SettingsDialog.ui:624
+#: ../data/SettingsDialog.ui:622
 msgid "One week"
 msgstr "Egy hétig"
 
-#: ../data/SettingsDialog.ui:625
+#: ../data/SettingsDialog.ui:623
 msgid "Four weeks"
 msgstr "Négy hétig"
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:624
 msgid "A year"
 msgstr "Egy évig"
 
-#: ../data/SettingsDialog.ui:628
+#: ../data/SettingsDialog.ui:626
 msgid "Do not keep"
 msgstr "Megtartás"
 
-#: ../data/SettingsDialog.ui:664
+#: ../data/SettingsDialog.ui:662
 msgid "Firefox sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:673
+#: ../data/SettingsDialog.ui:671
 msgid "Enable synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:693
+#: ../data/SettingsDialog.ui:673
+msgid "This will sync your history and passwords"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:691
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:700
+#: ../data/SettingsDialog.ui:698
 msgid "Sync now"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:724
+#: ../data/SettingsDialog.ui:717
+msgid "Configure"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:722
 msgid "Username"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:739
+#: ../data/SettingsDialog.ui:737
 msgid "Password"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:754
+#: ../data/SettingsDialog.ui:752
 msgid "Code"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:755
-msgid "If two factor auth enabled on your Firefox account"
+#: ../data/SettingsDialog.ui:753
+msgid "Two factor auth"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:772
+#: ../data/SettingsDialog.ui:770
 msgid "Start syncing"
 msgstr "Szinkronizálás indítása"
 
@@ -1407,9 +1415,6 @@ msgstr "Beillesztés és betöltés"
 
 #~ msgid "Add suggestions"
 #~ msgstr "Javaslatok hozzáadása"
-
-#~ msgid "Fonts"
-#~ msgstr "Betűkészletek"
 
 #~ msgid "Passwords"
 #~ msgstr "Jelszavak"

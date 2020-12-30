@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 19:59+0100\n"
+"POT-Creation-Date: 2020-12-30 20:57+0100\n"
 "PO-Revision-Date: 2020-11-16 03:28+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -94,15 +94,15 @@ msgstr "Søkemotor for veven"
 msgid "Remember sessions"
 msgstr "Husk økter"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:560
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:558
 msgid "Remember passwords"
 msgstr "Husk passord"
 
-#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:433
+#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:432
 msgid "Enable developer tools"
 msgstr "Skru på utviklerverktøy"
 
-#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:416
+#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:415
 msgid "Enable plugins"
 msgstr "Skru på programtillegg"
 
@@ -134,7 +134,7 @@ msgstr "Minste skriftstørrelse"
 msgid "Popular items shown"
 msgstr "Populære elementer vist"
 
-#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:397
+#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:396
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Forvalgt forstørrelsesnivå"
@@ -159,7 +159,7 @@ msgstr ""
 msgid "Custom start page"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:468
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:467
 msgid "Tell websites I do not want to be tracked"
 msgstr "Fortell nettsider at jeg ikke ønsker å bli sporet"
 
@@ -167,7 +167,7 @@ msgstr "Fortell nettsider at jeg ikke ønsker å bli sporet"
 msgid "Enable Firefox Sync"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:485
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:484
 msgid "Autoplay videos"
 msgstr "Spill av videoer automatisk"
 
@@ -266,7 +266,7 @@ msgid "Clear Personal Data"
 msgstr "Tøm personlig data"
 
 #: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
-#: ../data/SettingsDialog.ui:345
+#: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "Søk"
 
@@ -287,7 +287,7 @@ msgstr "Søk i domener"
 msgid "Delete cookies"
 msgstr "Slett kaker"
 
-#: ../data/DialogCookies.ui:104 ../data/SettingsDialog.ui:502
+#: ../data/DialogCookies.ui:104
 msgid "Cookies"
 msgstr "Kaker"
 
@@ -316,7 +316,7 @@ msgstr "Importer"
 msgid "Modify"
 msgstr "Endre"
 
-#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:350
+#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:349
 msgid "Search engines"
 msgstr "Søkemotorer"
 
@@ -394,7 +394,7 @@ msgstr "Ingen aktiv nedlasting"
 msgid "OK"
 msgstr "OK"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:627
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:625
 msgid "Forever"
 msgstr "For alltid"
 
@@ -414,7 +414,7 @@ msgstr "Bokmerker"
 msgid "Clear history"
 msgstr "Tøm historikk"
 
-#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:605
+#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:603
 msgid "History"
 msgstr "Historikk"
 
@@ -454,6 +454,10 @@ msgstr ""
 msgid "Follow system settings"
 msgstr ""
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Skrifter"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr "Fastbreddeskrift"
@@ -474,160 +478,164 @@ msgstr ""
 msgid "Start page"
 msgstr "Startside"
 
-#: ../data/SettingsDialog.ui:224
-msgid "Web page shown on startup"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:242
+#: ../data/SettingsDialog.ui:241
 msgid "Search engine"
 msgstr "Søkemotor"
 
-#: ../data/SettingsDialog.ui:243 ../eolie/context.py:96
+#: ../data/SettingsDialog.ui:242 ../eolie/context.py:96
 msgid "Popular pages"
 msgstr "Populære sider"
 
-#: ../data/SettingsDialog.ui:244
+#: ../data/SettingsDialog.ui:243
 msgid "Popular bookmarks"
 msgstr "Populære bokmerker"
 
-#: ../data/SettingsDialog.ui:245
+#: ../data/SettingsDialog.ui:244
 msgid "Blank page"
 msgstr "Tom side"
 
-#: ../data/SettingsDialog.ui:246
+#: ../data/SettingsDialog.ui:245
 msgid "Custom"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:275
+#: ../data/SettingsDialog.ui:274
 msgid "Shown bookmarks"
 msgstr "Viste bokmerker"
 
-#: ../data/SettingsDialog.ui:276
+#: ../data/SettingsDialog.ui:275
 msgid "How many bookmarks on startup page"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:299 ../data/ToolbarEnd.ui:105
+#: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Nedlastinger"
 
-#: ../data/SettingsDialog.ui:304
-msgid "Download folder"
+#: ../data/SettingsDialog.ui:303
+msgid "Folder"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:313
+#: ../data/SettingsDialog.ui:312
 msgid "Select download folder"
 msgstr "Velg nedlastingsmappe"
 
-#: ../data/SettingsDialog.ui:323
+#: ../data/SettingsDialog.ui:322
 msgid "Automatically open downloaded files"
 msgstr "Åpne nedlastede filer automatisk"
 
-#: ../data/SettingsDialog.ui:369
+#: ../data/SettingsDialog.ui:368
 msgid "Suggestions"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:371
+#: ../data/SettingsDialog.ui:370
 msgid "Show suggestions from search engines"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:392 ../eolie/dialog_import_bookmarks.py:46
+#: ../data/SettingsDialog.ui:391 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "Andre"
 
-#: ../data/SettingsDialog.ui:398
+#: ../data/SettingsDialog.ui:397
 msgid "Zoom level for current screen"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:458
+#: ../data/SettingsDialog.ui:457
 msgid "Privacy"
 msgstr "Personvern"
 
-#: ../data/SettingsDialog.ui:463
+#: ../data/SettingsDialog.ui:462
 msgid "Tracking"
 msgstr "Sporing"
 
-#: ../data/SettingsDialog.ui:503
-msgid "Allow web sites to track you"
+#: ../data/SettingsDialog.ui:501
+msgid "Accept cookies"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:520
+#: ../data/SettingsDialog.ui:518
 msgid "Always accept"
 msgstr "Alltid godta"
 
-#: ../data/SettingsDialog.ui:521
+#: ../data/SettingsDialog.ui:519
 msgid "Never accept"
 msgstr "Aldri godta"
 
-#: ../data/SettingsDialog.ui:522
+#: ../data/SettingsDialog.ui:520
 msgid "Only from visited sites"
 msgstr "Kun fra besøkte sider"
 
-#: ../data/SettingsDialog.ui:555
+#: ../data/SettingsDialog.ui:553
 msgid "Data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:561
+#: ../data/SettingsDialog.ui:559
 msgid "Autocomplete credentials"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:606
+#: ../data/SettingsDialog.ui:604
 msgid "Your navigation data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:623
+#: ../data/SettingsDialog.ui:621
 msgid "One day"
 msgstr "Én dag"
 
-#: ../data/SettingsDialog.ui:624
+#: ../data/SettingsDialog.ui:622
 msgid "One week"
 msgstr "Ei uke"
 
-#: ../data/SettingsDialog.ui:625
+#: ../data/SettingsDialog.ui:623
 msgid "Four weeks"
 msgstr "Fire uker"
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:624
 msgid "A year"
 msgstr "Ett år"
 
-#: ../data/SettingsDialog.ui:628
+#: ../data/SettingsDialog.ui:626
 msgid "Do not keep"
 msgstr "Ikke behold"
 
-#: ../data/SettingsDialog.ui:664
+#: ../data/SettingsDialog.ui:662
 msgid "Firefox sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:673
+#: ../data/SettingsDialog.ui:671
 msgid "Enable synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:693
+#: ../data/SettingsDialog.ui:673
+msgid "This will sync your history and passwords"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:691
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:700
+#: ../data/SettingsDialog.ui:698
 msgid "Sync now"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:724
+#: ../data/SettingsDialog.ui:717
+msgid "Configure"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:722
 msgid "Username"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:739
+#: ../data/SettingsDialog.ui:737
 msgid "Password"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:754
+#: ../data/SettingsDialog.ui:752
 msgid "Code"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:755
-msgid "If two factor auth enabled on your Firefox account"
+#: ../data/SettingsDialog.ui:753
+msgid "Two factor auth"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:772
+#: ../data/SettingsDialog.ui:770
 msgid "Start syncing"
 msgstr "Start synkronisering"
 
@@ -1434,9 +1442,6 @@ msgstr "Lim inn og gå"
 
 #~ msgid "Add suggestions"
 #~ msgstr "Legg til forslag"
-
-#~ msgid "Fonts"
-#~ msgstr "Skrifter"
 
 #~ msgid "Passwords"
 #~ msgstr "Passord"

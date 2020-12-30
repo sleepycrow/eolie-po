@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 19:59+0100\n"
+"POT-Creation-Date: 2020-12-30 20:57+0100\n"
 "PO-Revision-Date: 2020-09-04 22:36+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/"
@@ -92,15 +92,15 @@ msgstr "Веб-поисковая система"
 msgid "Remember sessions"
 msgstr "Запомнить сеансы"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:560
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:558
 msgid "Remember passwords"
 msgstr "Запомнить пароли"
 
-#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:433
+#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:432
 msgid "Enable developer tools"
 msgstr "Включить инструменты разработчика"
 
-#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:416
+#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:415
 msgid "Enable plugins"
 msgstr "Включить плагины"
 
@@ -132,7 +132,7 @@ msgstr "Минимальный размер шрифта"
 msgid "Popular items shown"
 msgstr "Часто просматриваемые вещи"
 
-#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:397
+#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:396
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Уровень масштабирования по умолчанию"
@@ -157,7 +157,7 @@ msgstr ""
 msgid "Custom start page"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:468
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:467
 msgid "Tell websites I do not want to be tracked"
 msgstr "Сообщить веб-сайтам Я не хочу отслеживаться"
 
@@ -165,7 +165,7 @@ msgstr "Сообщить веб-сайтам Я не хочу отслежива
 msgid "Enable Firefox Sync"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:485
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:484
 msgid "Autoplay videos"
 msgstr "Автовоспроизведение видео"
 
@@ -267,7 +267,7 @@ msgid "Clear Personal Data"
 msgstr "Очистить личные данные"
 
 #: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
-#: ../data/SettingsDialog.ui:345
+#: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "Поиск"
 
@@ -287,7 +287,7 @@ msgstr "Поиск доменов"
 msgid "Delete cookies"
 msgstr "Удалить файлы cookie"
 
-#: ../data/DialogCookies.ui:104 ../data/SettingsDialog.ui:502
+#: ../data/DialogCookies.ui:104
 msgid "Cookies"
 msgstr "Cookie-файлы"
 
@@ -316,7 +316,7 @@ msgstr "Импортировать"
 msgid "Modify"
 msgstr "Изменять"
 
-#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:350
+#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:349
 msgid "Search engines"
 msgstr "Поисковые системы"
 
@@ -392,7 +392,7 @@ msgstr "Нет активной загрузки"
 msgid "OK"
 msgstr "ОК"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:627
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:625
 msgid "Forever"
 msgstr "Всегда"
 
@@ -412,7 +412,7 @@ msgstr "Закладки"
 msgid "Clear history"
 msgstr "Очистить историю"
 
-#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:605
+#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:603
 msgid "History"
 msgstr "История"
 
@@ -452,6 +452,10 @@ msgstr ""
 msgid "Follow system settings"
 msgstr ""
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Шрифты"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr "Моноширинный шрифт"
@@ -472,160 +476,164 @@ msgstr ""
 msgid "Start page"
 msgstr "Начальная страница"
 
-#: ../data/SettingsDialog.ui:224
-msgid "Web page shown on startup"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:242
+#: ../data/SettingsDialog.ui:241
 msgid "Search engine"
 msgstr "Поисковый движок"
 
-#: ../data/SettingsDialog.ui:243 ../eolie/context.py:96
+#: ../data/SettingsDialog.ui:242 ../eolie/context.py:96
 msgid "Popular pages"
 msgstr "Часто посещаемые страницы"
 
-#: ../data/SettingsDialog.ui:244
+#: ../data/SettingsDialog.ui:243
 msgid "Popular bookmarks"
 msgstr "Популярные закладки"
 
-#: ../data/SettingsDialog.ui:245
+#: ../data/SettingsDialog.ui:244
 msgid "Blank page"
 msgstr "Пустая страница"
 
-#: ../data/SettingsDialog.ui:246
+#: ../data/SettingsDialog.ui:245
 msgid "Custom"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:275
+#: ../data/SettingsDialog.ui:274
 msgid "Shown bookmarks"
 msgstr "Показать вкладки"
 
-#: ../data/SettingsDialog.ui:276
+#: ../data/SettingsDialog.ui:275
 msgid "How many bookmarks on startup page"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:299 ../data/ToolbarEnd.ui:105
+#: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Загрузки"
 
-#: ../data/SettingsDialog.ui:304
-msgid "Download folder"
+#: ../data/SettingsDialog.ui:303
+msgid "Folder"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:313
+#: ../data/SettingsDialog.ui:312
 msgid "Select download folder"
 msgstr "Выбрать папку загрузок"
 
-#: ../data/SettingsDialog.ui:323
+#: ../data/SettingsDialog.ui:322
 msgid "Automatically open downloaded files"
 msgstr "Автоматически открывать загруженные файлы"
 
-#: ../data/SettingsDialog.ui:369
+#: ../data/SettingsDialog.ui:368
 msgid "Suggestions"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:371
+#: ../data/SettingsDialog.ui:370
 msgid "Show suggestions from search engines"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:392 ../eolie/dialog_import_bookmarks.py:46
+#: ../data/SettingsDialog.ui:391 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "Другие"
 
-#: ../data/SettingsDialog.ui:398
+#: ../data/SettingsDialog.ui:397
 msgid "Zoom level for current screen"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:458
+#: ../data/SettingsDialog.ui:457
 msgid "Privacy"
 msgstr "Приватность"
 
-#: ../data/SettingsDialog.ui:463
+#: ../data/SettingsDialog.ui:462
 msgid "Tracking"
 msgstr "Отслеживание"
 
-#: ../data/SettingsDialog.ui:503
-msgid "Allow web sites to track you"
+#: ../data/SettingsDialog.ui:501
+msgid "Accept cookies"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:520
+#: ../data/SettingsDialog.ui:518
 msgid "Always accept"
 msgstr "Всегда принимать"
 
-#: ../data/SettingsDialog.ui:521
+#: ../data/SettingsDialog.ui:519
 msgid "Never accept"
 msgstr "Никогда не принимать"
 
-#: ../data/SettingsDialog.ui:522
+#: ../data/SettingsDialog.ui:520
 msgid "Only from visited sites"
 msgstr "Только для посещённых сайтов"
 
-#: ../data/SettingsDialog.ui:555
+#: ../data/SettingsDialog.ui:553
 msgid "Data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:561
+#: ../data/SettingsDialog.ui:559
 msgid "Autocomplete credentials"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:606
+#: ../data/SettingsDialog.ui:604
 msgid "Your navigation data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:623
+#: ../data/SettingsDialog.ui:621
 msgid "One day"
 msgstr "Один день"
 
-#: ../data/SettingsDialog.ui:624
+#: ../data/SettingsDialog.ui:622
 msgid "One week"
 msgstr "Одна неделя"
 
-#: ../data/SettingsDialog.ui:625
+#: ../data/SettingsDialog.ui:623
 msgid "Four weeks"
 msgstr "Четыре недели"
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:624
 msgid "A year"
 msgstr "Год"
 
-#: ../data/SettingsDialog.ui:628
+#: ../data/SettingsDialog.ui:626
 msgid "Do not keep"
 msgstr "Не хранить"
 
-#: ../data/SettingsDialog.ui:664
+#: ../data/SettingsDialog.ui:662
 msgid "Firefox sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:673
+#: ../data/SettingsDialog.ui:671
 msgid "Enable synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:693
+#: ../data/SettingsDialog.ui:673
+msgid "This will sync your history and passwords"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:691
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:700
+#: ../data/SettingsDialog.ui:698
 msgid "Sync now"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:724
+#: ../data/SettingsDialog.ui:717
+msgid "Configure"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:722
 msgid "Username"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:739
+#: ../data/SettingsDialog.ui:737
 msgid "Password"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:754
+#: ../data/SettingsDialog.ui:752
 msgid "Code"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:755
-msgid "If two factor auth enabled on your Firefox account"
+#: ../data/SettingsDialog.ui:753
+msgid "Two factor auth"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:772
+#: ../data/SettingsDialog.ui:770
 msgid "Start syncing"
 msgstr "Начать синхронизацию"
 
@@ -1420,9 +1428,6 @@ msgstr "Вставить и перейти"
 
 #~ msgid "Add suggestions"
 #~ msgstr "Добавить предложения"
-
-#~ msgid "Fonts"
-#~ msgstr "Шрифты"
 
 #~ msgid "Passwords"
 #~ msgstr "Пароли"
