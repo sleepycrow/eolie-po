@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-30 22:40+0100\n"
-"PO-Revision-Date: 2020-12-30 21:40+0000\n"
+"PO-Revision-Date: 2020-12-30 23:14+0000\n"
 "Last-Translator: Carlos Henrique De Freitas F. <neocazen@vivaldi.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "gnumdk/eolie/pt_BR/>\n"
@@ -866,7 +866,7 @@ msgstr "Scripts"
 
 #: ../data/ToolbarMenu.ui:423
 msgid "Allow audio"
-msgstr ""
+msgstr "Permitir áudio"
 
 #: ../data/ToolbarMenu.ui:435 ../eolie/menu_application.py:84
 msgid "Night mode"
