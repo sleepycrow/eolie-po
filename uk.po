@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-31 00:18+0100\n"
-"PO-Revision-Date: 2020-12-30 23:14+0000\n"
+"PO-Revision-Date: 2021-01-01 20:29+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "uk/>\n"
@@ -279,7 +279,7 @@ msgstr "_Очистити"
 
 #: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
 msgid "Remove"
-msgstr ""
+msgstr "Вилучити"
 
 #: ../data/DialogCredentials.ui:69
 msgid "Credentials"
@@ -304,7 +304,7 @@ msgstr "Змінити"
 
 #: ../data/DialogNotifications.ui:69 ../data/SettingsDialog.ui:449
 msgid "Notifications"
-msgstr ""
+msgstr "Сповіщення"
 
 #: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
@@ -525,7 +525,7 @@ msgstr "Масштаб для поточного екрана"
 
 #: ../data/SettingsDialog.ui:451
 msgid "Sites allowed to notify you"
-msgstr ""
+msgstr "Сайти, яким дозволено надсилати вам сповіщення"
 
 #: ../data/SettingsDialog.ui:477
 msgid "Privacy"
@@ -561,11 +561,11 @@ msgstr "Автозаповнення облікових даних"
 
 #: ../data/SettingsDialog.ui:608
 msgid "Navigation data"
-msgstr ""
+msgstr "Дані переходів"
 
 #: ../data/SettingsDialog.ui:609
 msgid "How much time we keep it?"
-msgstr ""
+msgstr "Скільки часу ми це зберігаємо?"
 
 #: ../data/SettingsDialog.ui:626
 msgid "One day"
