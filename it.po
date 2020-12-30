@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:14+0100\n"
+"POT-Creation-Date: 2020-12-31 00:18+0100\n"
 "PO-Revision-Date: 2020-04-28 20:11+0000\n"
 "Last-Translator: Jeannette L <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/eolie/it/"
@@ -435,6 +435,10 @@ msgstr ""
 msgid "Follow system settings"
 msgstr ""
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Font"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr ""
@@ -598,6 +602,10 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:703
 msgid "Sync now"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:722
+msgid "Configure"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:727
@@ -1336,9 +1344,6 @@ msgstr ""
 
 #~ msgid "Remove all cookies"
 #~ msgstr "Rimuovi tutti i cookie"
-
-#~ msgid "Fonts"
-#~ msgstr "Font"
 
 #~ msgid "Sans serif font"
 #~ msgstr "font Sans serif"

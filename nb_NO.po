@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:14+0100\n"
+"POT-Creation-Date: 2020-12-31 00:18+0100\n"
 "PO-Revision-Date: 2020-11-16 03:28+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/gnumdk/"
@@ -443,6 +443,10 @@ msgstr ""
 msgid "Follow system settings"
 msgstr ""
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Skrifter"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr "Fastbreddeskrift"
@@ -606,6 +610,10 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:703
 msgid "Sync now"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:722
+msgid "Configure"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:727
@@ -1377,9 +1385,6 @@ msgstr "Lim inn og gå"
 
 #~ msgid "Remove all cookies"
 #~ msgstr "Fjern alle kaker"
-
-#~ msgid "Fonts"
-#~ msgstr "Skrifter"
 
 #~ msgid "Sans serif font"
 #~ msgstr "Seriffskrift"

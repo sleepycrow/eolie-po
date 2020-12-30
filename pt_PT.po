@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:14+0100\n"
+"POT-Creation-Date: 2020-12-31 00:18+0100\n"
 "PO-Revision-Date: 2020-08-28 13:54+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
@@ -436,6 +436,10 @@ msgstr ""
 msgid "Follow system settings"
 msgstr ""
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Fontes"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr "Fonte Mono-espaçada"
@@ -599,6 +603,10 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:703
 msgid "Sync now"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:722
+msgid "Configure"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:727
@@ -1359,9 +1367,6 @@ msgstr "Colar e carregar"
 
 #~ msgid "Remove all cookies"
 #~ msgstr "Remover todos os cookies"
-
-#~ msgid "Fonts"
-#~ msgstr "Fontes"
 
 #~ msgid "Sans serif font"
 #~ msgstr "Fonte Sans serif"

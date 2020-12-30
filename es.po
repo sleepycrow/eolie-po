@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:14+0100\n"
+"POT-Creation-Date: 2020-12-31 00:18+0100\n"
 "PO-Revision-Date: 2020-11-30 17:29+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnumdk/eolie/es/"
@@ -437,6 +437,10 @@ msgstr ""
 msgid "Follow system settings"
 msgstr ""
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Tipos de letra"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr "Fuente monoespaciada"
@@ -600,6 +604,10 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:703
 msgid "Sync now"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:722
+msgid "Configure"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:727
@@ -1361,9 +1369,6 @@ msgstr "Pegar y cargar"
 
 #~ msgid "Remove all cookies"
 #~ msgstr "Eliminar todas las «cookies»"
-
-#~ msgid "Fonts"
-#~ msgstr "Tipos de letra"
 
 #~ msgid "Sans serif font"
 #~ msgstr "Tipo de letra sin serifas"

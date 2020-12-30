@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:14+0100\n"
+"POT-Creation-Date: 2020-12-31 00:18+0100\n"
 "PO-Revision-Date: 2020-12-30 21:43+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/"
@@ -437,6 +437,10 @@ msgstr "Passage automatique en mode nuit"
 msgid "Follow system settings"
 msgstr "Suivre les paramètres du système"
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Polices"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr "Police à espacement unique"
@@ -601,6 +605,10 @@ msgstr "État"
 #: ../data/SettingsDialog.ui:703
 msgid "Sync now"
 msgstr "Synchronisez maintenant"
+
+#: ../data/SettingsDialog.ui:722
+msgid "Configure"
+msgstr "Configurer"
 
 #: ../data/SettingsDialog.ui:727
 msgid "Username"
@@ -1363,14 +1371,8 @@ msgstr "Coller et charger"
 #~ msgid "Remove all cookies"
 #~ msgstr "Supprimer tous les cookies"
 
-#~ msgid "Fonts"
-#~ msgstr "Polices"
-
 #~ msgid "Your navigation data"
 #~ msgstr "Vos données de navigation"
-
-#~ msgid "Configure"
-#~ msgstr "Configurer"
 
 #~ msgid "Web page shown on startup"
 #~ msgstr "Page Web affichée au démarrage"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:14+0100\n"
+"POT-Creation-Date: 2020-12-31 00:18+0100\n"
 "PO-Revision-Date: 2020-04-14 17:11+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/"
@@ -440,6 +440,10 @@ msgstr ""
 msgid "Follow system settings"
 msgstr ""
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Yazı tipleri"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr "Monospace yazı tipi"
@@ -603,6 +607,10 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:703
 msgid "Sync now"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:722
+msgid "Configure"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:727
@@ -1363,9 +1371,6 @@ msgstr "Yapıştır ve git"
 
 #~ msgid "Remove all cookies"
 #~ msgstr "Tüm çerezleri kaldır"
-
-#~ msgid "Fonts"
-#~ msgstr "Yazı tipleri"
 
 #~ msgid "Sans serif font"
 #~ msgstr "Sans serif yazı tipi"

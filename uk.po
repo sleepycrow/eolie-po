@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:14+0100\n"
+"POT-Creation-Date: 2020-12-31 00:18+0100\n"
 "PO-Revision-Date: 2020-12-30 23:14+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -438,6 +438,10 @@ msgstr "Автоматичний перехід у нічний режим"
 msgid "Follow system settings"
 msgstr "Дотримуватись системних налаштувань"
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Шрифти"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr "Моноширний шрифт"
@@ -602,6 +606,10 @@ msgstr "Стан"
 #: ../data/SettingsDialog.ui:703
 msgid "Sync now"
 msgstr "Синхронізувати зараз"
+
+#: ../data/SettingsDialog.ui:722
+msgid "Configure"
+msgstr "Налаштувати"
 
 #: ../data/SettingsDialog.ui:727
 msgid "Username"
@@ -1363,14 +1371,8 @@ msgstr "Вставити і завантажити"
 #~ msgid "Remove all cookies"
 #~ msgstr "Вилучити всі cookie"
 
-#~ msgid "Fonts"
-#~ msgstr "Шрифти"
-
 #~ msgid "Your navigation data"
 #~ msgstr "Ваші навігаційні дані"
-
-#~ msgid "Configure"
-#~ msgstr "Налаштувати"
 
 #~ msgid "Sans serif font"
 #~ msgstr "Шрифт без зарубок"

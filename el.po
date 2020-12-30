@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:14+0100\n"
+"POT-Creation-Date: 2020-12-31 00:18+0100\n"
 "PO-Revision-Date: 2019-06-18 19:05+0000\n"
 "Last-Translator: Panagiotis Tabakis <tabakisp@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/gnumdk/eolie/el/>\n"
@@ -437,6 +437,10 @@ msgstr ""
 msgid "Follow system settings"
 msgstr ""
 
+#: ../data/SettingsDialog.ui:96
+msgid "Fonts"
+msgstr "Γραμματοσειρές"
+
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
 msgstr ""
@@ -600,6 +604,10 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui:703
 msgid "Sync now"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:722
+msgid "Configure"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:727
@@ -1357,9 +1365,6 @@ msgstr "Επικόλληση και φόρτωση"
 
 #~ msgid "Remove all cookies"
 #~ msgstr "Αφαίρεση όλων των cookies"
-
-#~ msgid "Fonts"
-#~ msgstr "Γραμματοσειρές"
 
 #~ msgid "Sans serif font"
 #~ msgstr "Γραμματοσειρά Sans serif"
