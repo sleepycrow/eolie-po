@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-30 20:57+0100\n"
-"PO-Revision-Date: 2020-08-28 13:54+0000\n"
+"PO-Revision-Date: 2020-12-30 21:40+0000\n"
 "Last-Translator: Carlos Henrique De Freitas F. <neocazen@vivaldi.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "gnumdk/eolie/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.2.1-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:26
 msgid "Show debug messages"
@@ -121,7 +121,7 @@ msgstr "Fonte Mono-espaçada"
 
 #: ../data/org.gnome.Eolie.gschema.xml:151
 msgid "Firefox server FQDN"
-msgstr ""
+msgstr "Servidor FQDN Firefox"
 
 #: ../data/org.gnome.Eolie.gschema.xml:156 ../data/SettingsDialog.ui:179
 msgid "Minimum font size"
@@ -138,11 +138,11 @@ msgstr "Nível padrão de zoom"
 
 #: ../data/org.gnome.Eolie.gschema.xml:171
 msgid "Domains allowed to notify user"
-msgstr ""
+msgstr "Domínios com permissão para notificar o usuário"
 
 #: ../data/org.gnome.Eolie.gschema.xml:176
 msgid "Cookie storage type"
-msgstr ""
+msgstr "Tipo de armazenamento de cookies"
 
 #: ../data/org.gnome.Eolie.gschema.xml:181
 msgid "History storage type"
@@ -150,11 +150,11 @@ msgstr "Tipo de armazenamento de histórico"
 
 #: ../data/org.gnome.Eolie.gschema.xml:186
 msgid "Default start page"
-msgstr ""
+msgstr "Página inicial padrão"
 
 #: ../data/org.gnome.Eolie.gschema.xml:191
 msgid "Custom start page"
-msgstr ""
+msgstr "Customizar página inicial"
 
 #: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:467
 msgid "Tell websites I do not want to be tracked"
@@ -162,7 +162,7 @@ msgstr "Informar aos sites que não desejo ser rastreado"
 
 #: ../data/org.gnome.Eolie.gschema.xml:201
 msgid "Enable Firefox Sync"
-msgstr ""
+msgstr "Habilitar Firefox Sync"
 
 #: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:484
 msgid "Autoplay videos"
@@ -292,7 +292,7 @@ msgstr "Remover todas as senhas"
 
 #: ../data/DialogCredentials.ui:80
 msgid "Credentials"
-msgstr ""
+msgstr "Credenciais"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
@@ -440,11 +440,11 @@ msgstr "Aparência"
 
 #: ../data/SettingsDialog.ui:78
 msgid "Auto switch to night mode"
-msgstr ""
+msgstr "Mudança automática para modo noturno"
 
 #: ../data/SettingsDialog.ui:80
 msgid "Follow system settings"
-msgstr ""
+msgstr "Seguir as configurações do sistema"
 
 #: ../data/SettingsDialog.ui:96
 msgid "Fonts"
@@ -460,11 +460,11 @@ msgstr "Iniciar"
 
 #: ../data/SettingsDialog.ui:205
 msgid "Restore session"
-msgstr ""
+msgstr "Restaurar sessão"
 
 #: ../data/SettingsDialog.ui:207
 msgid "Show previously opened pages on startup"
-msgstr ""
+msgstr "Mostrar páginas abertas anteriormente na inicialização"
 
 #: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:126
 msgid "Start page"
@@ -488,7 +488,7 @@ msgstr "Página em branco"
 
 #: ../data/SettingsDialog.ui:245
 msgid "Custom"
-msgstr ""
+msgstr "Customizar"
 
 #: ../data/SettingsDialog.ui:274
 msgid "Shown bookmarks"
@@ -496,7 +496,7 @@ msgstr "Mostrando favoritos"
 
 #: ../data/SettingsDialog.ui:275
 msgid "How many bookmarks on startup page"
-msgstr ""
+msgstr "Quantidade de favoritos na página inicial"
 
 #: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
 #: ../data/ToolbarMenu.ui:143
@@ -505,7 +505,7 @@ msgstr "Baixados"
 
 #: ../data/SettingsDialog.ui:303
 msgid "Folder"
-msgstr ""
+msgstr "Pasta"
 
 #: ../data/SettingsDialog.ui:312
 msgid "Select download folder"
@@ -517,11 +517,11 @@ msgstr "Abrir arquivos baixados automaticamente"
 
 #: ../data/SettingsDialog.ui:368
 msgid "Suggestions"
-msgstr ""
+msgstr "Sugestões"
 
 #: ../data/SettingsDialog.ui:370
 msgid "Show suggestions from search engines"
-msgstr ""
+msgstr "Mostrar sugestões dos mecanismos de busca"
 
 #: ../data/SettingsDialog.ui:391 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
@@ -529,7 +529,7 @@ msgstr "Outros"
 
 #: ../data/SettingsDialog.ui:397
 msgid "Zoom level for current screen"
-msgstr ""
+msgstr "Nível de zoom para tela atual"
 
 #: ../data/SettingsDialog.ui:457
 msgid "Privacy"
@@ -541,7 +541,7 @@ msgstr "Rastreamento"
 
 #: ../data/SettingsDialog.ui:501
 msgid "Accept cookies"
-msgstr ""
+msgstr "Aceitar Cookies"
 
 #: ../data/SettingsDialog.ui:518
 msgid "Always accept"
@@ -557,15 +557,15 @@ msgstr "Somente de sites visitados"
 
 #: ../data/SettingsDialog.ui:553
 msgid "Data"
-msgstr ""
+msgstr "Dado"
 
 #: ../data/SettingsDialog.ui:559
 msgid "Autocomplete credentials"
-msgstr ""
+msgstr "Autocompletar credenciais"
 
 #: ../data/SettingsDialog.ui:604
 msgid "Your navigation data"
-msgstr ""
+msgstr "Seus dados de navegação"
 
 #: ../data/SettingsDialog.ui:621
 msgid "One day"
@@ -589,43 +589,43 @@ msgstr "Não manter"
 
 #: ../data/SettingsDialog.ui:662
 msgid "Firefox sync"
-msgstr ""
+msgstr "Firefox sync®"
 
 #: ../data/SettingsDialog.ui:671
 msgid "Enable synchronization"
-msgstr ""
+msgstr "Habilitar sincronização"
 
 #: ../data/SettingsDialog.ui:673
 msgid "This will sync your history and passwords"
-msgstr ""
+msgstr "Isso sincronizará seu histórico e senhas"
 
 #: ../data/SettingsDialog.ui:691
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: ../data/SettingsDialog.ui:698
 msgid "Sync now"
-msgstr ""
+msgstr "Sincronizar agora"
 
 #: ../data/SettingsDialog.ui:717
 msgid "Configure"
-msgstr ""
+msgstr "Configurar"
 
 #: ../data/SettingsDialog.ui:722
 msgid "Username"
-msgstr ""
+msgstr "Nome de Usuário"
 
 #: ../data/SettingsDialog.ui:737
 msgid "Password"
-msgstr ""
+msgstr "Senha"
 
 #: ../data/SettingsDialog.ui:752
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../data/SettingsDialog.ui:753
 msgid "Two factor auth"
-msgstr ""
+msgstr "Autenticação de dois fatores"
 
 #: ../data/SettingsDialog.ui:770
 msgid "Start syncing"
@@ -862,7 +862,7 @@ msgstr "Mostrar multimídia"
 
 #: ../data/ToolbarMenu.ui:389 ../eolie/menu_scripts.py:133
 msgid "Scripts"
-msgstr ""
+msgstr "Scripts"
 
 #: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:84
 msgid "Night mode"
@@ -898,19 +898,19 @@ msgstr "Conectando…"
 
 #: ../eolie/dialog_settings.py:141 ../eolie/dialog_settings.py:452
 msgid "Not running"
-msgstr ""
+msgstr "Não está correndo"
 
 #: ../eolie/dialog_settings.py:285
 msgid "Stopped…"
-msgstr ""
+msgstr "Parado…"
 
 #: ../eolie/dialog_settings.py:415 ../eolie/dialog_settings.py:441
 msgid "Connected"
-msgstr ""
+msgstr "Conectado"
 
 #: ../eolie/dialog_settings.py:417
 msgid "Failed"
-msgstr ""
+msgstr "Falhou"
 
 #: ../eolie/dialog_settings.py:449
 #, python-format
@@ -924,7 +924,7 @@ msgstr ""
 #: ../eolie/dialog_settings.py:460
 #, python-format
 msgid "Syncing %s"
-msgstr ""
+msgstr "Sincronizando %s"
 
 #: ../eolie/menu_application.py:42
 msgid "Block ads"
@@ -976,7 +976,7 @@ msgstr "Abrir todas as páginas"
 
 #: ../eolie/menu_scripts.py:115
 msgid "Allow all scripts"
-msgstr ""
+msgstr "Permitir todos os scripts"
 
 #: ../eolie/menu_sites.py:73
 msgid "Modify user agent"
@@ -1054,7 +1054,7 @@ msgstr "Continuar"
 
 #: ../eolie/popover_tls.py:55
 msgid "The connexion is secure"
-msgstr ""
+msgstr "A conexão está segura"
 
 #: ../eolie/popover_tls.py:60
 #, python-format
@@ -1085,7 +1085,7 @@ msgstr ""
 
 #: ../eolie/popover_tls.py:74
 msgid "The connexion is unsecure"
-msgstr ""
+msgstr "A conexão é insegura"
 
 #: ../eolie/popover_uri_content.py:124
 #, python-format
@@ -1276,11 +1276,11 @@ msgstr "Reportar um bug agora"
 #: ../eolie/webview_navigation.py:205
 #, python-format
 msgid "Allow notifications for %s"
-msgstr ""
+msgstr "Permitir notificações para %s"
 
 #: ../eolie/webview_navigation.py:206
 msgid "Allow"
-msgstr ""
+msgstr "Permitir"
 
 #: ../eolie/webview_signals_js.py:93
 msgid "Eolie is going to close this page because it is broken"
