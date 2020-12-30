@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-26 16:10+0100\n"
+"POT-Creation-Date: 2020-12-30 19:39+0100\n"
 "PO-Revision-Date: 2020-06-02 14:41+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/>"
-"\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/gnumdk/eolie/fi/"
+">\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,148 +19,160 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.1-dev\n"
 
-#: ../data/org.gnome.Eolie.gschema.xml:19
+#: ../data/org.gnome.Eolie.gschema.xml:26
 msgid "Show debug messages"
 msgstr "Näytä vianjäljitysviestit"
 
-#: ../data/org.gnome.Eolie.gschema.xml:24
+#: ../data/org.gnome.Eolie.gschema.xml:31
 msgid "Show Firefox Sync debug messages"
 msgstr "Näytä Firefox Syncin vianjäljitysviestit"
 
-#: ../data/org.gnome.Eolie.gschema.xml:29
+#: ../data/org.gnome.Eolie.gschema.xml:36
 msgid "INTERNAL"
 msgstr "SISÄINEN"
 
-#: ../data/org.gnome.Eolie.gschema.xml:34
+#: ../data/org.gnome.Eolie.gschema.xml:41
 msgid "Show sidebar(sites manager)"
 msgstr "Näytä sivupalkki (sivustohallinta)"
 
-#: ../data/org.gnome.Eolie.gschema.xml:39
+#: ../data/org.gnome.Eolie.gschema.xml:46
 msgid "Minimum sidebar position"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:44
+#: ../data/org.gnome.Eolie.gschema.xml:51
 msgid "Enable night mode"
 msgstr "Käytä yötilaa"
 
-#: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
+#: ../data/org.gnome.Eolie.gschema.xml:56
 msgid "Switch to night mode with GNOME"
 msgstr "Vaihda yötilaan Gnomen mukaisesti"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54
+#: ../data/org.gnome.Eolie.gschema.xml:61
 msgid "Block ads on pages"
 msgstr "Estä mainokset sivuilla"
 
-#: ../data/org.gnome.Eolie.gschema.xml:59
+#: ../data/org.gnome.Eolie.gschema.xml:66
 msgid "Block unwanted popups"
 msgstr "Estä ei-halutut ponnahdusikkunat"
 
-#: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:54
+#: ../data/org.gnome.Eolie.gschema.xml:71 ../eolie/menu_application.py:44
 msgid "Block images"
 msgstr "Estä kuvat"
 
-#: ../data/org.gnome.Eolie.gschema.xml:69 ../eolie/menu_application.py:55
+#: ../data/org.gnome.Eolie.gschema.xml:76 ../eolie/menu_application.py:45
 msgid "Block multimedia"
 msgstr "Estä multimedia"
 
-#: ../data/org.gnome.Eolie.gschema.xml:74 ../data/ScriptsMenu.ui:16
+#: ../data/org.gnome.Eolie.gschema.xml:81 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
 msgstr "Estä JavaScript"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:86
 msgid "Block Phishing"
 msgstr "Estä kalasteluyritykset"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:91
 msgid "Enable smooth scrolling"
 msgstr "Käytä pehmeää vieritystä"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:96
 msgid "Download folder URI"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:94
+#: ../data/org.gnome.Eolie.gschema.xml:101
 msgid "Open finished downloads"
 msgstr "Avaa valmistuneet lataukset"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99
+#: ../data/org.gnome.Eolie.gschema.xml:106
 msgid "Web search engine"
 msgstr "Verkkohakukone"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104
+#: ../data/org.gnome.Eolie.gschema.xml:111
 msgid "Remember sessions"
 msgstr "Muista istunnot"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:683
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
 msgid "Remember passwords"
 msgstr "Muista salasanat"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:435
 msgid "Enable developer tools"
 msgstr "Käytä kehittäjätyökaluja"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:418
 msgid "Enable plugins"
 msgstr "Käytä liitännäisiä"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:392
+#: ../data/org.gnome.Eolie.gschema.xml:131 ../data/SettingsDialog.ui:101
 msgid "Use system fonts"
 msgstr "Käytä järjestelmän fontteja"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
-msgid "Sans serif font"
+#: ../data/org.gnome.Eolie.gschema.xml:136 ../data/SettingsDialog.ui:118
+msgid "Sans-serif font"
 msgstr "Päätteetön fontti"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:433
+#: ../data/org.gnome.Eolie.gschema.xml:141 ../data/SettingsDialog.ui:139
 msgid "Serif font"
 msgstr "Päätteellinen fontti"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139
+#: ../data/org.gnome.Eolie.gschema.xml:146
 msgid "Monospace font"
 msgstr "Tasalevyinen fontti"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144
-msgid "Open this page on startup"
-msgstr "Avaa tämä sivu käynnistyksen yhteydessä"
+#: ../data/org.gnome.Eolie.gschema.xml:151
+msgid "Firefox server FQDN"
+msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:507
+#: ../data/org.gnome.Eolie.gschema.xml:156 ../data/SettingsDialog.ui:179
 msgid "Minimum font size"
 msgstr "Fontin vähimmäiskoko"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154
+#: ../data/org.gnome.Eolie.gschema.xml:161
 msgid "Popular items shown"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:533
+#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:398
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Oletusmittakaava"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164
-msgid "Cookies storage type"
+#: ../data/org.gnome.Eolie.gschema.xml:171
+msgid "Domains allowed to notify user"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:169
+#: ../data/org.gnome.Eolie.gschema.xml:176
+msgid "Cookie storage type"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:181
 msgid "History storage type"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:649
+#: ../data/org.gnome.Eolie.gschema.xml:186
+msgid "Default start page"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:191
+msgid "Custom start page"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:470
 msgid "Tell websites I do not want to be tracked"
 msgstr "Kerro sivustoille etten halua minua seurattavan"
 
-#: ../data/org.gnome.Eolie.gschema.xml:179
-msgid "DNS prediction"
-msgstr "DNS-ennustus"
+#: ../data/org.gnome.Eolie.gschema.xml:201
+msgid "Enable Firefox Sync"
+msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/SettingsDialog.ui:893
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:488
 msgid "Autoplay videos"
 msgstr "Toista videot automaattisesti"
 
-#: ../data/org.gnome.Eolie.gschema.xml:189
+#: ../data/org.gnome.Eolie.gschema.xml:211
 msgid "Enable search suggestions"
 msgstr "Käytä hakuehdotuksia"
 
-#: ../data/org.gnome.Eolie.gschema.xml:194 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:216 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Käytä oikolukua"
@@ -209,10 +221,6 @@ msgstr "Verkkoselain"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie on uusi verkkoselain Gnomelle."
 
-#: ../data/org.gnome.Eolie.desktop.in:7
-msgid "org.gnome.Eolie"
-msgstr "org.gnome.Eolie"
-
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_move_to.py:63
 msgid "New window"
 msgstr "Uusi ikkuna"
@@ -221,102 +229,75 @@ msgstr "Uusi ikkuna"
 msgid "New private page"
 msgstr "Uusi yksityinen sivu"
 
-#: ../data/BookmarkEdit.ui:106 ../data/BookmarkEdit.ui:109
+#: ../data/BookmarkEdit.ui:107 ../data/BookmarkEdit.ui:109
 msgid "Add new tag"
 msgstr "Lisää uusi tunniste"
 
-#: ../data/BookmarkEdit.ui:135
+#: ../data/BookmarkEdit.ui:134
 msgid "Title:"
 msgstr "Otsikko:"
 
-#: ../data/BookmarkEdit.ui:160
+#: ../data/BookmarkEdit.ui:159
 msgid "Remove bookmark"
 msgstr "Poista kirjanmerkki"
 
-#: ../data/BookmarkEdit.ui:178 ../data/DialogSearchEngine.ui:168
+#: ../data/BookmarkEdit.ui:177 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
 msgstr "Osoite:"
 
-#: ../data/BookmarkEdit.ui:203
+#: ../data/BookmarkEdit.ui:202
 msgid "Load at startup"
 msgstr ""
 
-#: ../data/DialogClearData.ui:6
-msgid "Clear Personal Data"
-msgstr "Tyhjennä henkilökohtaiset tiedot"
-
-#: ../data/DialogClearData.ui:10
-msgid "C_lear"
-msgstr "_Tyhjennä"
-
-#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
-#: ../data/SettingsDialog.ui:132
-msgid "Search"
-msgstr "Etsi"
-
-#: ../data/DialogClearData.ui:30
-msgid "Filter domains"
-msgstr "Suodata verkkotunnukset"
-
-#: ../data/DialogClearData.ui:67
-msgid "Search domains"
-msgstr "Etsi verkkotunnuksia"
-
-#: ../data/DialogClearData.ui:83
-msgid ""
-"You can select a period of time to clear data for all websites modified in "
-"that period. If you choose from the beginning of time, then you can also "
-"clear data only for particular websites."
-msgstr ""
-
-#: ../data/DialogClearData.ui:100
-msgid "Clear selected personal data _from:"
-msgstr "T_yhjennä henkilökohtaiset tiedot:"
-
-#: ../data/DialogClearData.ui:111
-msgid "the past hour"
-msgstr "viimeisen tunnin ajalta"
-
-#: ../data/DialogClearData.ui:112
-msgid "the past day"
-msgstr "kuluneen päivän ajalta"
-
-#: ../data/DialogClearData.ui:113
-msgid "the past week"
-msgstr "kuluneen viikon ajalta"
-
-#: ../data/DialogClearData.ui:114
-msgid "the past four weeks"
-msgstr "kuluneen neljän viikon ajalta"
-
-#: ../data/DialogClearData.ui:115
-msgid "the beginning"
-msgstr "alusta asti"
-
-#: ../data/DialogClearData.ui:192
-msgid "No data found"
-msgstr "Tietoja ei löytynyt"
-
-#: ../data/DialogClearData.ui:209
+#: ../data/DialogClearData.ui:81
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr "Et voi perua tätä toimintoa. Valitsemasi tiedot poistetaan pysyvästi."
 
-#: ../data/DialogCookies.ui:19
-msgid "Cookies manager"
-msgstr "Evästeiden hallinta"
+#: ../data/DialogClearData.ui:104
+msgid "Clear Personal Data"
+msgstr "Tyhjennä henkilökohtaiset tiedot"
 
-#: ../data/DialogCookies.ui:23
+#: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
+#: ../data/SettingsDialog.ui:346
+msgid "Search"
+msgstr "Etsi"
+
+#: ../data/DialogClearData.ui:133
+msgid "Filter domains"
+msgstr "Suodata verkkotunnukset"
+
+#: ../data/DialogClearData.ui:153
+msgid "C_lear"
+msgstr "_Tyhjennä"
+
+#: ../data/DialogClearData.ui:186
+msgid "Search domains"
+msgstr "Etsi verkkotunnuksia"
+
+#: ../data/DialogCookies.ui:79
 msgid "Delete cookies"
 msgstr "Poista evästeet"
+
+#: ../data/DialogCookies.ui:104 ../data/SettingsDialog.ui:505
+msgid "Cookies"
+msgstr "Evästeet"
+
+#: ../data/DialogCredentials.ui:17
+msgid "Remove all passwords"
+msgstr "Poista kaikki salasanat"
+
+#: ../data/DialogCredentials.ui:80
+msgid "Credendtials"
+msgstr ""
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
 msgstr "Tuo kirjanmerkit kohteesta:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
-#: ../eolie/popover_uri.py:96
+#: ../eolie/popover_uri.py:95
 msgid "Import bookmarks"
 msgstr "Tuo kirjanmerkit"
 
@@ -328,7 +309,7 @@ msgstr "Tuo"
 msgid "Modify"
 msgstr "Muokkaa"
 
-#: ../data/DialogSearchEngine.ui:7
+#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:351
 msgid "Search engines"
 msgstr "Hakukoneet"
 
@@ -371,15 +352,15 @@ msgstr "Poista kaikki evästeet"
 msgid "Do you want to save this password?"
 msgstr "Haluatko tallentaa tämän salasanan?"
 
-#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:133
+#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:124
 msgid "Save"
 msgstr "Tallenna"
 
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:131
+#: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:125
+#: ../eolie/webview_signals.py:133
 msgid "Cancel"
 msgstr "Peru"
 
@@ -399,7 +380,7 @@ msgstr "Ei aktiivisia latauksia"
 msgid "OK"
 msgstr "OK"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:855
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
 msgid "Forever"
 msgstr "Ikuisesti"
 
@@ -411,10 +392,6 @@ msgstr "Tallenna kuvat"
 msgid "Show links"
 msgstr "Näytä linkit"
 
-#: ../data/PopoverPasswords.ui:10
-msgid "Remove all passwords"
-msgstr "Poista kaikki salasanat"
-
 #: ../data/PopoverUri.ui:177
 msgid "Bookmarks"
 msgstr "Kirjanmerkit"
@@ -423,7 +400,7 @@ msgstr "Kirjanmerkit"
 msgid "Clear history"
 msgstr "Tyhjennä historia"
 
-#: ../data/PopoverUri.ui:338
+#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:608
 msgid "History"
 msgstr "Historia"
 
@@ -447,218 +424,210 @@ msgstr "Estokäytäntö"
 msgid "Trust websites"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:40 ../eolie/settings.py:67 ../eolie/settings.py:70
-msgid "Preferences"
-msgstr "Asetukset"
+#: ../data/SettingsDialog.ui:68
+msgid "General"
+msgstr "Yleiset"
 
-#: ../data/SettingsDialog.ui:72 ../data/ToolbarEnd.ui:127
+#: ../data/SettingsDialog.ui:73
+msgid "Appearance"
+msgstr "Ulkoasu"
+
+#: ../data/SettingsDialog.ui:78
+msgid "Auto switch to night mode"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:80
+msgid "Follow system settings"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:159
+msgid "Monospaced font"
+msgstr "Tasalevyinen fontti"
+
+#: ../data/SettingsDialog.ui:200
+msgid "Startup"
+msgstr "Käynnistys"
+
+#: ../data/SettingsDialog.ui:205
+msgid "Restore session"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:207
+msgid "Show previously opened pages on startup"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:126
+msgid "Start page"
+msgstr "Käynnistyssivu"
+
+#: ../data/SettingsDialog.ui:224
+msgid "Web page shown on startup"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:242
+msgid "Search engine"
+msgstr "Hakukone"
+
+#: ../data/SettingsDialog.ui:243 ../eolie/context.py:96
+msgid "Popular pages"
+msgstr "Suositut sivut"
+
+#: ../data/SettingsDialog.ui:244
+msgid "Popular bookmarks"
+msgstr "Suositut kirjanmerkit"
+
+#: ../data/SettingsDialog.ui:245
+msgid "Blank page"
+msgstr "Tyhjä sivu"
+
+#: ../data/SettingsDialog.ui:246
+msgid "Custom"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:275
+msgid "Shown bookmarks"
+msgstr "Näytettävät kirjanmerkit"
+
+#: ../data/SettingsDialog.ui:276
+msgid "How many bookmarks on startup page"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:283
+msgid "5"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:300 ../data/ToolbarEnd.ui:105
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Lataukset"
 
-#: ../data/SettingsDialog.ui:89
-msgid "Download folder:"
-msgstr "Latauskansio:"
+#: ../data/SettingsDialog.ui:305
+msgid "Download folder"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:101
+#: ../data/SettingsDialog.ui:314
 msgid "Select download folder"
 msgstr "Valitse latauskansio"
 
-#: ../data/SettingsDialog.ui:111
+#: ../data/SettingsDialog.ui:324
 msgid "Automatically open downloaded files"
 msgstr "Avaa ladatut tiedostot automaattisesti"
 
-#: ../data/SettingsDialog.ui:149
-msgid "Search engines:"
-msgstr "Hakukoneet:"
+#: ../data/SettingsDialog.ui:370
+msgid "Suggestions"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
+#: ../data/SettingsDialog.ui:372
+msgid "Show suggestions from search engines"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:393 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "Muut"
 
-#: ../data/SettingsDialog.ui:196
-msgid "Startup"
-msgstr "Käynnistys"
+#: ../data/SettingsDialog.ui:399
+msgid "Zomm level for current screen"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:213
-msgid "Start Page:"
-msgstr "Aloitussivu:"
+#: ../data/SettingsDialog.ui:407
+msgid "30"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:225
-msgid "Search engine"
-msgstr "Hakukone"
-
-#: ../data/SettingsDialog.ui:226 ../eolie/context.py:87
-msgid "Popular pages"
-msgstr "Suositut sivut"
-
-#: ../data/SettingsDialog.ui:227
-msgid "Popular bookmarks"
-msgstr "Suositut kirjanmerkit"
-
-#: ../data/SettingsDialog.ui:228
-msgid "Blank page"
-msgstr "Tyhjä sivu"
-
-#: ../data/SettingsDialog.ui:229
-msgid "Set address"
-msgstr "Aseta osoite"
-
-#: ../data/SettingsDialog.ui:251
-msgid "Remember previous pages on startup"
-msgstr "Muista aiemmat sivut käynnistyessä"
-
-#: ../data/SettingsDialog.ui:268
-msgid "Configure engines"
-msgstr "Määritä hakukoneet"
-
-#: ../data/SettingsDialog.ui:289
-msgid "Shown bookmarks"
-msgstr "Näytettävät kirjanmerkit"
-
-#: ../data/SettingsDialog.ui:333
-msgid "Add suggestions"
-msgstr "Lisää ehdotuksia"
-
-#: ../data/SettingsDialog.ui:357
-msgid "General"
-msgstr "Yleiset"
-
-#: ../data/SettingsDialog.ui:379
-msgid "Fonts"
-msgstr "Fontit"
-
-#: ../data/SettingsDialog.ui:421
-msgid "Sans-serif font"
-msgstr "Päätteetön fontti"
-
-#: ../data/SettingsDialog.ui:445
-msgid "Monospaced font"
-msgstr "Tasalevyinen fontti"
-
-#: ../data/SettingsDialog.ui:596
-msgid "Appearance"
-msgstr "Ulkoasu"
-
-#: ../data/SettingsDialog.ui:620 ../eolie/dialog_clear_data.py:196
-msgid "Cookies"
-msgstr "Evästeet"
-
-#: ../data/SettingsDialog.ui:636
-msgid "Tracking"
-msgstr "Seuranta"
-
-#: ../data/SettingsDialog.ui:671
-msgid "Passwords"
-msgstr "Salasanat"
-
-#: ../data/SettingsDialog.ui:704
-msgid "Saved data"
-msgstr "Tallennetut tiedot"
-
-#: ../data/SettingsDialog.ui:727
-msgid "Behaviour:"
-msgstr "Toiminta:"
-
-#: ../data/SettingsDialog.ui:742
-msgid "Always accept"
-msgstr "Hyväksy aina"
-
-#: ../data/SettingsDialog.ui:743
-msgid "Only from visited sites"
-msgstr "Vain käydyiltä sivustoilta"
-
-#: ../data/SettingsDialog.ui:744
-msgid "Never accept"
-msgstr "Älä hyväksy koskaan"
-
-#: ../data/SettingsDialog.ui:763
-msgid "Manage cookies"
-msgstr "Hallitse evästeitä"
-
-#: ../data/SettingsDialog.ui:780
-msgid "Clear personal data"
-msgstr "Tyhjennä henkilökohtaiset tiedot"
-
-#: ../data/SettingsDialog.ui:802
-msgid "Manage passwords"
-msgstr "Hallitse salasanoja"
-
-#: ../data/SettingsDialog.ui:836
-msgid "Keep history:"
-msgstr "Säilytä historia:"
-
-#: ../data/SettingsDialog.ui:851
-msgid "One day"
-msgstr "Päivän ajan"
-
-#: ../data/SettingsDialog.ui:852
-msgid "One week"
-msgstr "Viikon  ajan"
-
-#: ../data/SettingsDialog.ui:853
-msgid "Four weeks"
-msgstr "Neljän viikon ajan"
-
-#: ../data/SettingsDialog.ui:854
-msgid "A year"
-msgstr "Vuoden ajan"
-
-#: ../data/SettingsDialog.ui:856
-msgid "Do not keep"
-msgstr "Älä säilytä"
-
-#: ../data/SettingsDialog.ui:875
-msgid "Predict website addresses"
-msgstr "Ennusta sivustojen osoitteet"
-
-#: ../data/SettingsDialog.ui:923
+#: ../data/SettingsDialog.ui:460
 msgid "Privacy"
 msgstr "Tietosuoja"
 
-#: ../data/SettingsDialog.ui:945
-msgid ""
-"You can share your bookmarks and history\n"
-"on all your devices running Eolie or Firefox"
+#: ../data/SettingsDialog.ui:465
+msgid "Tracking"
+msgstr "Seuranta"
+
+#: ../data/SettingsDialog.ui:487
+msgid "You need to reset collection"
 msgstr ""
-"Voit jakaa kirjanmerkkisi ja historiatiedot\n"
-"kaikilla Eolieta tai Firefoxia käyttävillä laitteilla"
 
-#: ../data/SettingsDialog.ui:962
-msgid "Login:"
-msgstr "Käyttäjätunnus:"
+#: ../data/SettingsDialog.ui:506
+msgid "Allows web sites to track you"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:984
-msgid "Password:"
-msgstr "Salasana:"
+#: ../data/SettingsDialog.ui:523
+msgid "Always accept"
+msgstr "Hyväksy aina"
 
-#: ../data/SettingsDialog.ui:1005 ../eolie/settings.py:553
-msgid "Allow syncing"
-msgstr "Salli synkronointi"
+#: ../data/SettingsDialog.ui:524
+msgid "Never accept"
+msgstr "Älä hyväksy koskaan"
 
-#: ../data/SettingsDialog.ui:1043
-msgid "Create or manage account"
-msgstr "Luo tili tai hallinnoi sitä"
+#: ../data/SettingsDialog.ui:525
+msgid "Only from visited sites"
+msgstr "Vain käydyiltä sivustoilta"
 
-#: ../data/SettingsDialog.ui:1062
-msgid "Code:"
-msgstr "Koodi:"
+#: ../data/SettingsDialog.ui:558
+msgid "Data"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:1073 ../data/SettingsDialog.ui:1074
-msgid "You need to turn on two-factor authentication"
-msgstr "Kaksivaiheinen tunnistautuminen tulee ottaa käyttöön"
+#: ../data/SettingsDialog.ui:564
+msgid "Autocomplete credentials"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:1091
-msgid "Fetch from Firefox Sync"
-msgstr "Nouda Firefox Syncista"
+#: ../data/SettingsDialog.ui:609
+msgid "Your navigation data"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:1106
-msgid "Send to Firefox Sync"
-msgstr "Lähetä Firefox Synciin"
+#: ../data/SettingsDialog.ui:626
+msgid "One day"
+msgstr "Päivän ajan"
 
-#: ../data/SettingsDialog.ui:1134
-msgid "Syncing"
-msgstr "Synkronoidaan"
+#: ../data/SettingsDialog.ui:627
+msgid "One week"
+msgstr "Viikon  ajan"
+
+#: ../data/SettingsDialog.ui:628
+msgid "Four weeks"
+msgstr "Neljän viikon ajan"
+
+#: ../data/SettingsDialog.ui:629
+msgid "A year"
+msgstr "Vuoden ajan"
+
+#: ../data/SettingsDialog.ui:631
+msgid "Do not keep"
+msgstr "Älä säilytä"
+
+#: ../data/SettingsDialog.ui:667
+msgid "Firefox sync"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:676
+msgid "Enable synchronization"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:696
+msgid "Status"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:703
+msgid "Sync now"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:727
+msgid "Username"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:742
+msgid "Password"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:757
+msgid "Code"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:758
+msgid "If two factor auth enabled on your Firefox account"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:775
+msgid "Start syncing"
+msgstr "Aloita synkronointi"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -840,34 +809,26 @@ msgstr "Näytä kaikki sivut"
 msgid "Close page"
 msgstr "Sulje sivu"
 
-#: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:32
+#: ../eolie/menu_toolbar.py:47
 msgid "Leave fullscreen"
 msgstr "Poistu koko näytön tilasta"
 
-#: ../data/ToolbarEnd.ui:37
-msgid "Start synchronization"
-msgstr "Aloita synkronointi"
-
-#: ../data/ToolbarEnd.ui:69
+#: ../data/ToolbarEnd.ui:47
 msgid "Disallow access to this site"
 msgstr "Estä pääsy tälle sivustolle"
 
-#: ../data/ToolbarEnd.ui:112
+#: ../data/ToolbarEnd.ui:90
 msgid "Startup page"
 msgstr "Käynnistyssivu"
 
-#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:130
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:121
 msgid "Save page"
 msgstr "Tallenna sivu"
 
 #: ../data/ToolbarMenu.ui:81
 msgid "Print page"
 msgstr "Tulosta sivu"
-
-#: ../data/ToolbarMenu.ui:126
-msgid "Start page"
-msgstr "Käynnistyssivu"
 
 #: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
@@ -897,19 +858,19 @@ msgstr "Näytä kuvat"
 msgid "Show multimedia"
 msgstr "Näytä multimedia"
 
-#: ../data/ToolbarMenu.ui:390
-msgid "Run scripts"
-msgstr "Suorita komentosarjat"
+#: ../data/ToolbarMenu.ui:389 ../eolie/menu_scripts.py:133
+msgid "Scripts"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:47
+#: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "Yötila"
 
-#: ../eolie/application.py:623
+#: ../eolie/application.py:635
 msgid "Do you really want to quit Eolie?"
 msgstr "Haluatko varmasti lopettaa Eolien?"
 
-#: ../eolie/application.py:677
+#: ../eolie/application.py:689
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Latauksia on käynnissä. Haluatko silti lopettaa?"
 
@@ -917,53 +878,9 @@ msgstr "Latauksia on käynnissä. Haluatko silti lopettaa?"
 msgid "Please consider a donation to the project"
 msgstr "Harkitse lahjoitusta projektille"
 
-#: ../eolie/container_stack.py:228
+#: ../eolie/container_stack.py:242
 msgid "Do you really want to close this page?"
 msgstr "Haluatko varmasti sulkea tämän sivun?"
-
-#: ../eolie/context.py:153
-msgid "Name"
-msgstr "Nimi"
-
-#: ../eolie/context.py:154
-msgid "Size"
-msgstr "Koko"
-
-#: ../eolie/context.py:156
-msgid "Last modification"
-msgstr "Viimeisin muokkaus"
-
-#: ../eolie/dialog_clear_data.py:180
-msgid "Memory cache"
-msgstr "Muistin välimuisti"
-
-#: ../eolie/dialog_clear_data.py:182
-msgid "HTTP disk cache"
-msgstr "HTTP-levyvälimuisti"
-
-#: ../eolie/dialog_clear_data.py:184
-msgid "Offline web application cache"
-msgstr "Offline-verkkosovellusten välimuisti"
-
-#: ../eolie/dialog_clear_data.py:186
-msgid "Session storage data"
-msgstr ""
-
-#: ../eolie/dialog_clear_data.py:188
-msgid "Local storage data"
-msgstr ""
-
-#: ../eolie/dialog_clear_data.py:190
-msgid "WebSQL databases"
-msgstr "WebSQL-tietokannat"
-
-#: ../eolie/dialog_clear_data.py:192
-msgid "IndexedDB databases"
-msgstr "IndexedDB-tietokannat"
-
-#: ../eolie/dialog_clear_data.py:194
-msgid "Plugins data"
-msgstr "Liitännäisten tiedot"
 
 #: ../eolie/dialog_import_bookmarks.py:87
 msgid "Import HTML bookmarks"
@@ -973,27 +890,61 @@ msgstr "Tuo HTML-kirjanmerkit"
 msgid "New engine"
 msgstr "Uusi kone"
 
-#: ../eolie/menu_application.py:52
+#: ../eolie/dialog_settings.py:137 ../eolie/dialog_settings.py:272
+msgid "Connecting…"
+msgstr "Yhdistetään…"
+
+#: ../eolie/dialog_settings.py:141 ../eolie/dialog_settings.py:452
+msgid "Not running"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:285
+msgid "Stopped…"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:415 ../eolie/dialog_settings.py:441
+msgid "Connected"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:417
+msgid "Failed"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:449
+#, python-format
+msgid ""
+"Syncing is not available on your computer:\n"
+"%s"
+msgstr ""
+"Synkronointi ei ole saatavilla tietokoneellesi:\n"
+"%s"
+
+#: ../eolie/dialog_settings.py:460
+#, python-format
+msgid "Syncing %s"
+msgstr ""
+
+#: ../eolie/menu_application.py:42
 msgid "Block ads"
 msgstr "Estä mainokset"
 
-#: ../eolie/menu_application.py:53
+#: ../eolie/menu_application.py:43
 msgid "Block popups"
 msgstr "Estä ponnahdusikkunat"
 
-#: ../eolie/menu_application.py:56
+#: ../eolie/menu_application.py:46
 msgid "Block scripts"
 msgstr "Estä komentosarjat"
 
-#: ../eolie/menu_application.py:68
+#: ../eolie/menu_application.py:58
 msgid "Blockers"
 msgstr ""
 
-#: ../eolie/menu_application.py:75
+#: ../eolie/menu_application.py:65
 msgid "_Preferences"
 msgstr "_Asetukset"
 
-#: ../eolie/menu_application.py:84
+#: ../eolie/menu_application.py:74
 msgid "_Sidebar"
 msgstr "_Sivupalkki"
 
@@ -1021,6 +972,10 @@ msgstr "Suljetut sivut"
 msgid "Open all pages"
 msgstr "Avaa kaikki sivut"
 
+#: ../eolie/menu_scripts.py:115
+msgid "Allow all scripts"
+msgstr ""
+
 #: ../eolie/menu_sites.py:73
 msgid "Modify user agent"
 msgstr "Muokkaa user agent -tietuetta"
@@ -1033,7 +988,7 @@ msgstr ""
 msgid "Close site"
 msgstr "Sulje sivusto"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:49
 msgid "Enter fullscreen"
 msgstr "Siirry koko näytön tilaan"
 
@@ -1096,7 +1051,7 @@ msgid "Continue"
 msgstr "Jatka"
 
 #: ../eolie/popover_tls.py:55
-msgid "Connexion is secure"
+msgid "The connexion is secure"
 msgstr ""
 
 #: ../eolie/popover_tls.py:60
@@ -1127,7 +1082,7 @@ msgstr ""
 "\n"
 
 #: ../eolie/popover_tls.py:74
-msgid "Connexion is unsecure"
+msgid "The connexion is unsecure"
 msgstr ""
 
 #: ../eolie/popover_uri_content.py:124
@@ -1135,39 +1090,39 @@ msgstr ""
 msgid "%s bookmarks"
 msgstr "%s kirjanmerkkiä"
 
-#: ../eolie/popover_uri.py:266
+#: ../eolie/popover_uri.py:265
 msgid "Popular"
 msgstr "Suosittu"
 
-#: ../eolie/popover_uri.py:269
+#: ../eolie/popover_uri.py:268
 msgid "Recent"
 msgstr "Äskettäinen"
 
-#: ../eolie/popover_uri.py:271
+#: ../eolie/popover_uri.py:270
 msgid "Unclassified"
 msgstr ""
 
-#: ../eolie/popover_uri.py:295
+#: ../eolie/popover_uri.py:294
 msgid "From the past hour"
 msgstr "Viimeisen tunnin ajalta"
 
-#: ../eolie/popover_uri.py:296
+#: ../eolie/popover_uri.py:295
 msgid "From the past day"
 msgstr "Viimeisen vuorokauden ajalta"
 
-#: ../eolie/popover_uri.py:297
+#: ../eolie/popover_uri.py:296
 msgid "From the past week"
 msgstr "Viimeisen viikon ajalta"
 
-#: ../eolie/popover_uri.py:299
+#: ../eolie/popover_uri.py:298
 msgid "From the past four weeks"
 msgstr "Viimeisen kuukauden ajalta"
 
-#: ../eolie/popover_uri.py:300
+#: ../eolie/popover_uri.py:299
 msgid "From selected day"
 msgstr "Valitulta päivältä"
 
-#: ../eolie/popover_uri.py:301
+#: ../eolie/popover_uri.py:300
 msgid "From the beginning"
 msgstr "Alusta alkaen"
 
@@ -1208,40 +1163,7 @@ msgstr ""
 msgid "Unsupported search engine"
 msgstr "Ei-tuettu hakukone"
 
-#: ../eolie/settings.py:487
-msgid "Connecting…"
-msgstr "Yhdistetään…"
-
-#: ../eolie/settings.py:537
-msgid "Syncing operational"
-msgstr "Synkronointi  kunnossa"
-
-#: ../eolie/settings.py:543
-msgid "Cancel syncing"
-msgstr "Peru synkronointi"
-
-#: ../eolie/settings.py:548
-msgid "Start syncing"
-msgstr "Aloita synkronointi"
-
-#: ../eolie/settings.py:558
-msgid "Syncing is not working"
-msgstr "Synkronointi ei toimi"
-
-#: ../eolie/settings.py:569
-#, python-format
-msgid ""
-"Syncing is not available on your computer:\n"
-"%s"
-msgstr ""
-"Synkronointi ei ole saatavilla tietokoneellesi:\n"
-"%s"
-
-#: ../eolie/settings.py:593
-msgid "You've received an email to validate syncing"
-msgstr ""
-
-#: ../eolie/toolbar_end.py:98
+#: ../eolie/toolbar_end.py:89
 msgid "Downloading:"
 msgstr "Ladataan:"
 
@@ -1343,6 +1265,15 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Ilmoita ongelmasta nyt"
 
+#: ../eolie/webview_navigation.py:205
+#, python-format
+msgid "Allow notifications for %s"
+msgstr ""
+
+#: ../eolie/webview_navigation.py:206
+msgid "Allow"
+msgstr ""
+
 #: ../eolie/webview_signals_js.py:93
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie sulkee tämän sivun, koska se on rikki"
@@ -1371,11 +1302,11 @@ msgstr "Etsi verkosta"
 msgid "Save page as image"
 msgstr "Tallenna sivu kuvana"
 
-#: ../eolie/webview_signals.py:127
+#: ../eolie/webview_signals.py:129
 msgid "Select files to upload"
 msgstr "Valitse lähetettävät tiedostot"
 
-#: ../eolie/webview_signals.py:130
+#: ../eolie/webview_signals.py:132
 msgid "Open"
 msgstr "Avaa"
 
@@ -1391,26 +1322,189 @@ msgstr "Etsi seuraava ilmentymä"
 msgid "1000 of 1000 matches"
 msgstr ""
 
-#: ../eolie/widget_uri_entry_icons.py:75
+#: ../eolie/widget_uri_entry_icons.py:76
 msgid "Deny geolocation"
 msgstr "Kiellä paikannus"
 
-#: ../eolie/widget_uri_entry.py:183
+#: ../eolie/widget_uri_entry.py:166
 msgid "This page contains insecure content"
 msgstr "Tämä sivu sisältää turvatonta sisältöä"
 
-#: ../eolie/widget_uri_entry.py:205 ../eolie/widget_uri_entry.py:208
+#: ../eolie/widget_uri_entry.py:188 ../eolie/widget_uri_entry.py:191
 msgid "Search or enter address"
 msgstr "Etsi tai kirjoita osoite"
 
-#: ../eolie/widget_uri_entry.py:291
+#: ../eolie/widget_uri_entry.py:272
 #, python-format
 msgid "Save password for: %s"
 msgstr "Tallenna salasana: %s"
 
-#: ../eolie/widget_uri_entry.py:461
+#: ../eolie/widget_uri_entry.py:432
 msgid "Paste and load"
 msgstr "Liitä ja lataa"
+
+#~ msgid "Sans serif font"
+#~ msgstr "Päätteetön fontti"
+
+#~ msgid "Open this page on startup"
+#~ msgstr "Avaa tämä sivu käynnistyksen yhteydessä"
+
+#~ msgid "DNS prediction"
+#~ msgstr "DNS-ennustus"
+
+#~ msgid "org.gnome.Eolie"
+#~ msgstr "org.gnome.Eolie"
+
+#~ msgid "Clear selected personal data _from:"
+#~ msgstr "T_yhjennä henkilökohtaiset tiedot:"
+
+#~ msgid "the past hour"
+#~ msgstr "viimeisen tunnin ajalta"
+
+#~ msgid "the past day"
+#~ msgstr "kuluneen päivän ajalta"
+
+#~ msgid "the past week"
+#~ msgstr "kuluneen viikon ajalta"
+
+#~ msgid "the past four weeks"
+#~ msgstr "kuluneen neljän viikon ajalta"
+
+#~ msgid "the beginning"
+#~ msgstr "alusta asti"
+
+#~ msgid "No data found"
+#~ msgstr "Tietoja ei löytynyt"
+
+#~ msgid "Cookies manager"
+#~ msgstr "Evästeiden hallinta"
+
+#~ msgid "Preferences"
+#~ msgstr "Asetukset"
+
+#~ msgid "Download folder:"
+#~ msgstr "Latauskansio:"
+
+#~ msgid "Search engines:"
+#~ msgstr "Hakukoneet:"
+
+#~ msgid "Start Page:"
+#~ msgstr "Aloitussivu:"
+
+#~ msgid "Set address"
+#~ msgstr "Aseta osoite"
+
+#~ msgid "Remember previous pages on startup"
+#~ msgstr "Muista aiemmat sivut käynnistyessä"
+
+#~ msgid "Configure engines"
+#~ msgstr "Määritä hakukoneet"
+
+#~ msgid "Add suggestions"
+#~ msgstr "Lisää ehdotuksia"
+
+#~ msgid "Fonts"
+#~ msgstr "Fontit"
+
+#~ msgid "Passwords"
+#~ msgstr "Salasanat"
+
+#~ msgid "Saved data"
+#~ msgstr "Tallennetut tiedot"
+
+#~ msgid "Behaviour:"
+#~ msgstr "Toiminta:"
+
+#~ msgid "Manage cookies"
+#~ msgstr "Hallitse evästeitä"
+
+#~ msgid "Clear personal data"
+#~ msgstr "Tyhjennä henkilökohtaiset tiedot"
+
+#~ msgid "Manage passwords"
+#~ msgstr "Hallitse salasanoja"
+
+#~ msgid "Keep history:"
+#~ msgstr "Säilytä historia:"
+
+#~ msgid "Predict website addresses"
+#~ msgstr "Ennusta sivustojen osoitteet"
+
+#~ msgid ""
+#~ "You can share your bookmarks and history\n"
+#~ "on all your devices running Eolie or Firefox"
+#~ msgstr ""
+#~ "Voit jakaa kirjanmerkkisi ja historiatiedot\n"
+#~ "kaikilla Eolieta tai Firefoxia käyttävillä laitteilla"
+
+#~ msgid "Login:"
+#~ msgstr "Käyttäjätunnus:"
+
+#~ msgid "Password:"
+#~ msgstr "Salasana:"
+
+#~ msgid "Allow syncing"
+#~ msgstr "Salli synkronointi"
+
+#~ msgid "Create or manage account"
+#~ msgstr "Luo tili tai hallinnoi sitä"
+
+#~ msgid "Code:"
+#~ msgstr "Koodi:"
+
+#~ msgid "You need to turn on two-factor authentication"
+#~ msgstr "Kaksivaiheinen tunnistautuminen tulee ottaa käyttöön"
+
+#~ msgid "Fetch from Firefox Sync"
+#~ msgstr "Nouda Firefox Syncista"
+
+#~ msgid "Send to Firefox Sync"
+#~ msgstr "Lähetä Firefox Synciin"
+
+#~ msgid "Syncing"
+#~ msgstr "Synkronoidaan"
+
+#~ msgid "Start synchronization"
+#~ msgstr "Aloita synkronointi"
+
+#~ msgid "Run scripts"
+#~ msgstr "Suorita komentosarjat"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid "Size"
+#~ msgstr "Koko"
+
+#~ msgid "Last modification"
+#~ msgstr "Viimeisin muokkaus"
+
+#~ msgid "Memory cache"
+#~ msgstr "Muistin välimuisti"
+
+#~ msgid "HTTP disk cache"
+#~ msgstr "HTTP-levyvälimuisti"
+
+#~ msgid "Offline web application cache"
+#~ msgstr "Offline-verkkosovellusten välimuisti"
+
+#~ msgid "WebSQL databases"
+#~ msgstr "WebSQL-tietokannat"
+
+#~ msgid "IndexedDB databases"
+#~ msgstr "IndexedDB-tietokannat"
+
+#~ msgid "Plugins data"
+#~ msgstr "Liitännäisten tiedot"
+
+#~ msgid "Syncing operational"
+#~ msgstr "Synkronointi  kunnossa"
+
+#~ msgid "Cancel syncing"
+#~ msgstr "Peru synkronointi"
+
+#~ msgid "Syncing is not working"
+#~ msgstr "Synkronointi ei toimi"
 
 #~ msgid "Unpin this page"
 #~ msgstr "Poista tämän sivun kiinnitys"

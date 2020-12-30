@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-26 16:10+0100\n"
+"POT-Creation-Date: 2020-12-30 19:39+0100\n"
 "PO-Revision-Date: 2020-09-04 22:36+0000\n"
 "Last-Translator: Артемий Судаков <fiziyr@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/>"
-"\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/eolie/ru/"
+">\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,148 +20,160 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.3-dev\n"
 
-#: ../data/org.gnome.Eolie.gschema.xml:19
+#: ../data/org.gnome.Eolie.gschema.xml:26
 msgid "Show debug messages"
 msgstr "Показать сообщения откладки"
 
-#: ../data/org.gnome.Eolie.gschema.xml:24
+#: ../data/org.gnome.Eolie.gschema.xml:31
 msgid "Show Firefox Sync debug messages"
 msgstr "Показать сообщения отладки Firefox Sync"
 
-#: ../data/org.gnome.Eolie.gschema.xml:29
+#: ../data/org.gnome.Eolie.gschema.xml:36
 msgid "INTERNAL"
 msgstr "ВНУТРЕННИЙ"
 
-#: ../data/org.gnome.Eolie.gschema.xml:34
+#: ../data/org.gnome.Eolie.gschema.xml:41
 msgid "Show sidebar(sites manager)"
 msgstr "Показать боковую панель (менеджер вкладок)"
 
-#: ../data/org.gnome.Eolie.gschema.xml:39
+#: ../data/org.gnome.Eolie.gschema.xml:46
 msgid "Minimum sidebar position"
 msgstr "Минимальная позиция боковой панели"
 
-#: ../data/org.gnome.Eolie.gschema.xml:44
+#: ../data/org.gnome.Eolie.gschema.xml:51
 msgid "Enable night mode"
 msgstr "Включить ночной режим"
 
-#: ../data/org.gnome.Eolie.gschema.xml:49 ../data/SettingsDialog.ui:562
+#: ../data/org.gnome.Eolie.gschema.xml:56
 msgid "Switch to night mode with GNOME"
 msgstr "Переключиться в ночной режим с GNOME"
 
-#: ../data/org.gnome.Eolie.gschema.xml:54
+#: ../data/org.gnome.Eolie.gschema.xml:61
 msgid "Block ads on pages"
 msgstr "Блокировать рекламу на страницах"
 
-#: ../data/org.gnome.Eolie.gschema.xml:59
+#: ../data/org.gnome.Eolie.gschema.xml:66
 msgid "Block unwanted popups"
 msgstr "Блокировка назойливых поп-апы"
 
-#: ../data/org.gnome.Eolie.gschema.xml:64 ../eolie/menu_application.py:54
+#: ../data/org.gnome.Eolie.gschema.xml:71 ../eolie/menu_application.py:44
 msgid "Block images"
 msgstr "Блокировка изображений"
 
-#: ../data/org.gnome.Eolie.gschema.xml:69 ../eolie/menu_application.py:55
+#: ../data/org.gnome.Eolie.gschema.xml:76 ../eolie/menu_application.py:45
 msgid "Block multimedia"
 msgstr "Блокировка мультимедии"
 
-#: ../data/org.gnome.Eolie.gschema.xml:74 ../data/ScriptsMenu.ui:16
+#: ../data/org.gnome.Eolie.gschema.xml:81 ../data/ScriptsMenu.ui:16
 msgid "Block JavaScript"
 msgstr "Блокировка JavaScript"
 
-#: ../data/org.gnome.Eolie.gschema.xml:79
+#: ../data/org.gnome.Eolie.gschema.xml:86
 msgid "Block Phishing"
 msgstr "Блокировка фишинга"
 
-#: ../data/org.gnome.Eolie.gschema.xml:84
+#: ../data/org.gnome.Eolie.gschema.xml:91
 msgid "Enable smooth scrolling"
 msgstr "Включить плавную прокрутку"
 
-#: ../data/org.gnome.Eolie.gschema.xml:89
+#: ../data/org.gnome.Eolie.gschema.xml:96
 msgid "Download folder URI"
 msgstr "Место нахождение папки загрузки"
 
-#: ../data/org.gnome.Eolie.gschema.xml:94
+#: ../data/org.gnome.Eolie.gschema.xml:101
 msgid "Open finished downloads"
 msgstr "Открыть завершенные загрузки"
 
-#: ../data/org.gnome.Eolie.gschema.xml:99
+#: ../data/org.gnome.Eolie.gschema.xml:106
 msgid "Web search engine"
 msgstr "Веб-поисковая система"
 
-#: ../data/org.gnome.Eolie.gschema.xml:104
+#: ../data/org.gnome.Eolie.gschema.xml:111
 msgid "Remember sessions"
 msgstr "Запомнить сеансы"
 
-#: ../data/org.gnome.Eolie.gschema.xml:109 ../data/SettingsDialog.ui:683
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
 msgid "Remember passwords"
 msgstr "Запомнить пароли"
 
-#: ../data/org.gnome.Eolie.gschema.xml:114 ../data/SettingsDialog.ui:319
+#: ../data/org.gnome.Eolie.gschema.xml:121 ../data/SettingsDialog.ui:435
 msgid "Enable developer tools"
 msgstr "Включить инструменты разработчика"
 
-#: ../data/org.gnome.Eolie.gschema.xml:119 ../data/SettingsDialog.ui:175
+#: ../data/org.gnome.Eolie.gschema.xml:126 ../data/SettingsDialog.ui:418
 msgid "Enable plugins"
 msgstr "Включить плагины"
 
-#: ../data/org.gnome.Eolie.gschema.xml:124 ../data/SettingsDialog.ui:392
+#: ../data/org.gnome.Eolie.gschema.xml:131 ../data/SettingsDialog.ui:101
 msgid "Use system fonts"
 msgstr "Использовать системные шрифты"
 
-#: ../data/org.gnome.Eolie.gschema.xml:129
-msgid "Sans serif font"
-msgstr "Шрифт без засечек"
+#: ../data/org.gnome.Eolie.gschema.xml:136 ../data/SettingsDialog.ui:118
+msgid "Sans-serif font"
+msgstr "Шрифт Sans-serif"
 
-#: ../data/org.gnome.Eolie.gschema.xml:134 ../data/SettingsDialog.ui:433
+#: ../data/org.gnome.Eolie.gschema.xml:141 ../data/SettingsDialog.ui:139
 msgid "Serif font"
 msgstr "Шрифт с засечками"
 
-#: ../data/org.gnome.Eolie.gschema.xml:139
+#: ../data/org.gnome.Eolie.gschema.xml:146
 msgid "Monospace font"
 msgstr "Моноширинный шрифт"
 
-#: ../data/org.gnome.Eolie.gschema.xml:144
-msgid "Open this page on startup"
-msgstr "Открыть эту страницу при запуске"
+#: ../data/org.gnome.Eolie.gschema.xml:151
+msgid "Firefox server FQDN"
+msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:149 ../data/SettingsDialog.ui:507
+#: ../data/org.gnome.Eolie.gschema.xml:156 ../data/SettingsDialog.ui:179
 msgid "Minimum font size"
 msgstr "Минимальный размер шрифта"
 
-#: ../data/org.gnome.Eolie.gschema.xml:154
+#: ../data/org.gnome.Eolie.gschema.xml:161
 msgid "Popular items shown"
 msgstr "Часто просматриваемые вещи"
 
-#: ../data/org.gnome.Eolie.gschema.xml:159 ../data/SettingsDialog.ui:533
+#: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:398
 #: ../data/ToolbarMenu.ui:188
 msgid "Default zoom level"
 msgstr "Уровень масштабирования по умолчанию"
 
-#: ../data/org.gnome.Eolie.gschema.xml:164
-msgid "Cookies storage type"
-msgstr "Тип хранения файлов cookie"
+#: ../data/org.gnome.Eolie.gschema.xml:171
+msgid "Domains allowed to notify user"
+msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:169
+#: ../data/org.gnome.Eolie.gschema.xml:176
+msgid "Cookie storage type"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:181
 msgid "History storage type"
 msgstr "Тип хранения истории"
 
-#: ../data/org.gnome.Eolie.gschema.xml:174 ../data/SettingsDialog.ui:649
+#: ../data/org.gnome.Eolie.gschema.xml:186
+msgid "Default start page"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:191
+msgid "Custom start page"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:470
 msgid "Tell websites I do not want to be tracked"
 msgstr "Сообщить веб-сайтам Я не хочу отслеживаться"
 
-#: ../data/org.gnome.Eolie.gschema.xml:179
-msgid "DNS prediction"
-msgstr "Прогнозирование DNS"
+#: ../data/org.gnome.Eolie.gschema.xml:201
+msgid "Enable Firefox Sync"
+msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:184 ../data/SettingsDialog.ui:893
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:488
 msgid "Autoplay videos"
 msgstr "Автовоспроизведение видео"
 
-#: ../data/org.gnome.Eolie.gschema.xml:189
+#: ../data/org.gnome.Eolie.gschema.xml:211
 msgid "Enable search suggestions"
 msgstr "Включить поисковые подсказки"
 
-#: ../data/org.gnome.Eolie.gschema.xml:194 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:216 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Включить проверку орфографии"
@@ -214,10 +226,6 @@ msgstr "Веб-браузер"
 msgid "Eolie is a new GNOME web browser."
 msgstr "Eolie это новый веб-браузер GNOME."
 
-#: ../data/org.gnome.Eolie.desktop.in:7
-msgid "org.gnome.Eolie"
-msgstr "org.gnome.Eolie"
-
 #: ../data/org.gnome.Eolie.desktop.in:17 ../eolie/menu_move_to.py:63
 msgid "New window"
 msgstr "Новое окно"
@@ -226,86 +234,27 @@ msgstr "Новое окно"
 msgid "New private page"
 msgstr "Новая приватная страница"
 
-#: ../data/BookmarkEdit.ui:106 ../data/BookmarkEdit.ui:109
+#: ../data/BookmarkEdit.ui:107 ../data/BookmarkEdit.ui:109
 msgid "Add new tag"
 msgstr "Добавить новый тег"
 
-#: ../data/BookmarkEdit.ui:135
+#: ../data/BookmarkEdit.ui:134
 msgid "Title:"
 msgstr "Заголовок:"
 
-#: ../data/BookmarkEdit.ui:160
+#: ../data/BookmarkEdit.ui:159
 msgid "Remove bookmark"
 msgstr "Удалить закладку"
 
-#: ../data/BookmarkEdit.ui:178 ../data/DialogSearchEngine.ui:168
+#: ../data/BookmarkEdit.ui:177 ../data/DialogSearchEngine.ui:168
 msgid "Address:"
 msgstr "Адрес:"
 
-#: ../data/BookmarkEdit.ui:203
+#: ../data/BookmarkEdit.ui:202
 msgid "Load at startup"
 msgstr "Загружаться во время включения компьютера"
 
-#: ../data/DialogClearData.ui:6
-msgid "Clear Personal Data"
-msgstr "Очистить личные данные"
-
-#: ../data/DialogClearData.ui:10
-msgid "C_lear"
-msgstr "_Очистить"
-
-#: ../data/DialogClearData.ui:29 ../data/PopoverUri.ui:205
-#: ../data/SettingsDialog.ui:132
-msgid "Search"
-msgstr "Поиск"
-
-#: ../data/DialogClearData.ui:30
-msgid "Filter domains"
-msgstr "Фильтр доменов"
-
-#: ../data/DialogClearData.ui:67
-msgid "Search domains"
-msgstr "Поиск доменов"
-
-#: ../data/DialogClearData.ui:83
-msgid ""
-"You can select a period of time to clear data for all websites modified in "
-"that period. If you choose from the beginning of time, then you can also "
-"clear data only for particular websites."
-msgstr ""
-"Вы можете выбрать период времени для очистки данных для всех веб-сайтов, "
-"измененных в этот период. Если вы выбираете с самого начала времени, вы "
-"также можете очищать данные только для определенных сайтов."
-
-#: ../data/DialogClearData.ui:100
-msgid "Clear selected personal data _from:"
-msgstr "Очистить выбранные личные данные _из:"
-
-#: ../data/DialogClearData.ui:111
-msgid "the past hour"
-msgstr "за прошедший час"
-
-#: ../data/DialogClearData.ui:112
-msgid "the past day"
-msgstr "за прошедший день"
-
-#: ../data/DialogClearData.ui:113
-msgid "the past week"
-msgstr "за прошедшую неделю"
-
-#: ../data/DialogClearData.ui:114
-msgid "the past four weeks"
-msgstr "за прошедшие 4 часа"
-
-#: ../data/DialogClearData.ui:115
-msgid "the beginning"
-msgstr "с начала"
-
-#: ../data/DialogClearData.ui:192
-msgid "No data found"
-msgstr "Данные не найдены"
-
-#: ../data/DialogClearData.ui:209
+#: ../data/DialogClearData.ui:81
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
@@ -313,20 +262,49 @@ msgstr ""
 "Вы не можете отменить это действие. Данные, которые вы выбрали для очистки, "
 "будут удалены навсегда."
 
-#: ../data/DialogCookies.ui:19
-msgid "Cookies manager"
-msgstr "Менеджер cookie-файлов"
+#: ../data/DialogClearData.ui:104
+msgid "Clear Personal Data"
+msgstr "Очистить личные данные"
 
-#: ../data/DialogCookies.ui:23
+#: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
+#: ../data/SettingsDialog.ui:346
+msgid "Search"
+msgstr "Поиск"
+
+#: ../data/DialogClearData.ui:133
+msgid "Filter domains"
+msgstr "Фильтр доменов"
+
+#: ../data/DialogClearData.ui:153
+msgid "C_lear"
+msgstr "_Очистить"
+
+#: ../data/DialogClearData.ui:186
+msgid "Search domains"
+msgstr "Поиск доменов"
+
+#: ../data/DialogCookies.ui:79
 msgid "Delete cookies"
 msgstr "Удалить файлы cookie"
+
+#: ../data/DialogCookies.ui:104 ../data/SettingsDialog.ui:505
+msgid "Cookies"
+msgstr "Cookie-файлы"
+
+#: ../data/DialogCredentials.ui:17
+msgid "Remove all passwords"
+msgstr "Удалить все пароли"
+
+#: ../data/DialogCredentials.ui:80
+msgid "Credendtials"
+msgstr ""
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
 msgstr "Импорт закладок из:"
 
 #: ../data/DialogImportBookmarks.ui:83 ../data/PopoverUri.ui:149
-#: ../eolie/popover_uri.py:96
+#: ../eolie/popover_uri.py:95
 msgid "Import bookmarks"
 msgstr "Импорт закладок"
 
@@ -338,7 +316,7 @@ msgstr "Импортировать"
 msgid "Modify"
 msgstr "Изменять"
 
-#: ../data/DialogSearchEngine.ui:7
+#: ../data/DialogSearchEngine.ui:7 ../data/SettingsDialog.ui:351
 msgid "Search engines"
 msgstr "Поисковые системы"
 
@@ -386,15 +364,15 @@ msgstr "Удалить все файлы cookie"
 msgid "Do you want to save this password?"
 msgstr "Вы хотите сохранить этот пароль?"
 
-#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:133
+#: ../data/PopoverCredentials.ui:29 ../eolie/toolbar_end.py:124
 msgid "Save"
 msgstr "Сохранить"
 
 #: ../data/PopoverCredentials.ui:70 ../data/PopoverGeolocation.ui:63
 #: ../data/PopoverJavaScript.ui:72 ../data/QuitDialog.ui:22
 #: ../eolie/dialog_import_bookmarks.py:90 ../eolie/popover_javascript.py:60
-#: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:134
-#: ../eolie/webview_signals.py:131
+#: ../eolie/popover_uri.py:64 ../eolie/toolbar_end.py:125
+#: ../eolie/webview_signals.py:133
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -414,7 +392,7 @@ msgstr "Нет активной загрузки"
 msgid "OK"
 msgstr "ОК"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:855
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
 msgid "Forever"
 msgstr "Всегда"
 
@@ -426,10 +404,6 @@ msgstr "Сохранить изображения"
 msgid "Show links"
 msgstr "Показать ссылки"
 
-#: ../data/PopoverPasswords.ui:10
-msgid "Remove all passwords"
-msgstr "Удалить все пароли"
-
 #: ../data/PopoverUri.ui:177
 msgid "Bookmarks"
 msgstr "Закладки"
@@ -438,7 +412,7 @@ msgstr "Закладки"
 msgid "Clear history"
 msgstr "Очистить историю"
 
-#: ../data/PopoverUri.ui:338
+#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:608
 msgid "History"
 msgstr "История"
 
@@ -462,218 +436,210 @@ msgstr "Блокировка политик"
 msgid "Trust websites"
 msgstr "Доверенные веб-сайты"
 
-#: ../data/SettingsDialog.ui:40 ../eolie/settings.py:67 ../eolie/settings.py:70
-msgid "Preferences"
-msgstr "Настройки"
+#: ../data/SettingsDialog.ui:68
+msgid "General"
+msgstr "Основные"
 
-#: ../data/SettingsDialog.ui:72 ../data/ToolbarEnd.ui:127
+#: ../data/SettingsDialog.ui:73
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: ../data/SettingsDialog.ui:78
+msgid "Auto switch to night mode"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:80
+msgid "Follow system settings"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:159
+msgid "Monospaced font"
+msgstr "Моноширинный шрифт"
+
+#: ../data/SettingsDialog.ui:200
+msgid "Startup"
+msgstr "Запуск"
+
+#: ../data/SettingsDialog.ui:205
+msgid "Restore session"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:207
+msgid "Show previously opened pages on startup"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:126
+msgid "Start page"
+msgstr "Начальная страница"
+
+#: ../data/SettingsDialog.ui:224
+msgid "Web page shown on startup"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:242
+msgid "Search engine"
+msgstr "Поисковый движок"
+
+#: ../data/SettingsDialog.ui:243 ../eolie/context.py:96
+msgid "Popular pages"
+msgstr "Часто посещаемые страницы"
+
+#: ../data/SettingsDialog.ui:244
+msgid "Popular bookmarks"
+msgstr "Популярные закладки"
+
+#: ../data/SettingsDialog.ui:245
+msgid "Blank page"
+msgstr "Пустая страница"
+
+#: ../data/SettingsDialog.ui:246
+msgid "Custom"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:275
+msgid "Shown bookmarks"
+msgstr "Показать вкладки"
+
+#: ../data/SettingsDialog.ui:276
+msgid "How many bookmarks on startup page"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:283
+msgid "5"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:300 ../data/ToolbarEnd.ui:105
 #: ../data/ToolbarMenu.ui:143
 msgid "Downloads"
 msgstr "Загрузки"
 
-#: ../data/SettingsDialog.ui:89
-msgid "Download folder:"
-msgstr "Папка загрузки:"
+#: ../data/SettingsDialog.ui:305
+msgid "Download folder"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:101
+#: ../data/SettingsDialog.ui:314
 msgid "Select download folder"
 msgstr "Выбрать папку загрузок"
 
-#: ../data/SettingsDialog.ui:111
+#: ../data/SettingsDialog.ui:324
 msgid "Automatically open downloaded files"
 msgstr "Автоматически открывать загруженные файлы"
 
-#: ../data/SettingsDialog.ui:149
-msgid "Search engines:"
-msgstr "Поисковые системы:"
+#: ../data/SettingsDialog.ui:370
+msgid "Suggestions"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:162 ../eolie/dialog_import_bookmarks.py:46
+#: ../data/SettingsDialog.ui:372
+msgid "Show suggestions from search engines"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:393 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
 msgstr "Другие"
 
-#: ../data/SettingsDialog.ui:196
-msgid "Startup"
-msgstr "Запуск"
+#: ../data/SettingsDialog.ui:399
+msgid "Zomm level for current screen"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:213
-msgid "Start Page:"
-msgstr "Начальная страница:"
+#: ../data/SettingsDialog.ui:407
+msgid "30"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:225
-msgid "Search engine"
-msgstr "Поисковый движок"
-
-#: ../data/SettingsDialog.ui:226 ../eolie/context.py:87
-msgid "Popular pages"
-msgstr "Часто посещаемые страницы"
-
-#: ../data/SettingsDialog.ui:227
-msgid "Popular bookmarks"
-msgstr "Популярные закладки"
-
-#: ../data/SettingsDialog.ui:228
-msgid "Blank page"
-msgstr "Пустая страница"
-
-#: ../data/SettingsDialog.ui:229
-msgid "Set address"
-msgstr "Установить адрес"
-
-#: ../data/SettingsDialog.ui:251
-msgid "Remember previous pages on startup"
-msgstr "Помнить предыдущие страницы при запуске"
-
-#: ../data/SettingsDialog.ui:268
-msgid "Configure engines"
-msgstr "Настроить системы"
-
-#: ../data/SettingsDialog.ui:289
-msgid "Shown bookmarks"
-msgstr "Показать вкладки"
-
-#: ../data/SettingsDialog.ui:333
-msgid "Add suggestions"
-msgstr "Добавить предложения"
-
-#: ../data/SettingsDialog.ui:357
-msgid "General"
-msgstr "Основные"
-
-#: ../data/SettingsDialog.ui:379
-msgid "Fonts"
-msgstr "Шрифты"
-
-#: ../data/SettingsDialog.ui:421
-msgid "Sans-serif font"
-msgstr "Шрифт Sans-serif"
-
-#: ../data/SettingsDialog.ui:445
-msgid "Monospaced font"
-msgstr "Моноширинный шрифт"
-
-#: ../data/SettingsDialog.ui:596
-msgid "Appearance"
-msgstr "Внешний вид"
-
-#: ../data/SettingsDialog.ui:620 ../eolie/dialog_clear_data.py:196
-msgid "Cookies"
-msgstr "Cookie-файлы"
-
-#: ../data/SettingsDialog.ui:636
-msgid "Tracking"
-msgstr "Отслеживание"
-
-#: ../data/SettingsDialog.ui:671
-msgid "Passwords"
-msgstr "Пароли"
-
-#: ../data/SettingsDialog.ui:704
-msgid "Saved data"
-msgstr "Сохраненные данные"
-
-#: ../data/SettingsDialog.ui:727
-msgid "Behaviour:"
-msgstr "Поведение:"
-
-#: ../data/SettingsDialog.ui:742
-msgid "Always accept"
-msgstr "Всегда принимать"
-
-#: ../data/SettingsDialog.ui:743
-msgid "Only from visited sites"
-msgstr "Только для посещённых сайтов"
-
-#: ../data/SettingsDialog.ui:744
-msgid "Never accept"
-msgstr "Никогда не принимать"
-
-#: ../data/SettingsDialog.ui:763
-msgid "Manage cookies"
-msgstr "Управление cookie"
-
-#: ../data/SettingsDialog.ui:780
-msgid "Clear personal data"
-msgstr "Удалить персональные данные"
-
-#: ../data/SettingsDialog.ui:802
-msgid "Manage passwords"
-msgstr "Управление паролями"
-
-#: ../data/SettingsDialog.ui:836
-msgid "Keep history:"
-msgstr "Хранить историю:"
-
-#: ../data/SettingsDialog.ui:851
-msgid "One day"
-msgstr "Один день"
-
-#: ../data/SettingsDialog.ui:852
-msgid "One week"
-msgstr "Одна неделя"
-
-#: ../data/SettingsDialog.ui:853
-msgid "Four weeks"
-msgstr "Четыре недели"
-
-#: ../data/SettingsDialog.ui:854
-msgid "A year"
-msgstr "Год"
-
-#: ../data/SettingsDialog.ui:856
-msgid "Do not keep"
-msgstr "Не хранить"
-
-#: ../data/SettingsDialog.ui:875
-msgid "Predict website addresses"
-msgstr "Прогнозировать адреса веб-сайтов"
-
-#: ../data/SettingsDialog.ui:923
+#: ../data/SettingsDialog.ui:460
 msgid "Privacy"
 msgstr "Приватность"
 
-#: ../data/SettingsDialog.ui:945
-msgid ""
-"You can share your bookmarks and history\n"
-"on all your devices running Eolie or Firefox"
+#: ../data/SettingsDialog.ui:465
+msgid "Tracking"
+msgstr "Отслеживание"
+
+#: ../data/SettingsDialog.ui:487
+msgid "You need to reset collection"
 msgstr ""
-"Вы можете поделиться вкладками и историями\n"
-"на всех своих устройствах через Eolie или Firefox"
 
-#: ../data/SettingsDialog.ui:962
-msgid "Login:"
-msgstr "Логин:"
+#: ../data/SettingsDialog.ui:506
+msgid "Allows web sites to track you"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:984
-msgid "Password:"
-msgstr "Пароль:"
+#: ../data/SettingsDialog.ui:523
+msgid "Always accept"
+msgstr "Всегда принимать"
 
-#: ../data/SettingsDialog.ui:1005 ../eolie/settings.py:553
-msgid "Allow syncing"
-msgstr "Разрешить синхронизацию"
+#: ../data/SettingsDialog.ui:524
+msgid "Never accept"
+msgstr "Никогда не принимать"
 
-#: ../data/SettingsDialog.ui:1043
-msgid "Create or manage account"
-msgstr "Создание учетной записи или управление ею"
+#: ../data/SettingsDialog.ui:525
+msgid "Only from visited sites"
+msgstr "Только для посещённых сайтов"
 
-#: ../data/SettingsDialog.ui:1062
-msgid "Code:"
-msgstr "Код:"
+#: ../data/SettingsDialog.ui:558
+msgid "Data"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:1073 ../data/SettingsDialog.ui:1074
-msgid "You need to turn on two-factor authentication"
-msgstr "Вам нужно включить двух-этапную аутентификацию"
+#: ../data/SettingsDialog.ui:564
+msgid "Autocomplete credentials"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:1091
-msgid "Fetch from Firefox Sync"
-msgstr "Получить с Firefox Sync"
+#: ../data/SettingsDialog.ui:609
+msgid "Your navigation data"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:1106
-msgid "Send to Firefox Sync"
-msgstr "Отправить в Firefox Sync"
+#: ../data/SettingsDialog.ui:626
+msgid "One day"
+msgstr "Один день"
 
-#: ../data/SettingsDialog.ui:1134
-msgid "Syncing"
-msgstr "Синхронизация"
+#: ../data/SettingsDialog.ui:627
+msgid "One week"
+msgstr "Одна неделя"
+
+#: ../data/SettingsDialog.ui:628
+msgid "Four weeks"
+msgstr "Четыре недели"
+
+#: ../data/SettingsDialog.ui:629
+msgid "A year"
+msgstr "Год"
+
+#: ../data/SettingsDialog.ui:631
+msgid "Do not keep"
+msgstr "Не хранить"
+
+#: ../data/SettingsDialog.ui:667
+msgid "Firefox sync"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:676
+msgid "Enable synchronization"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:696
+msgid "Status"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:703
+msgid "Sync now"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:727
+msgid "Username"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:742
+msgid "Password"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:757
+msgid "Code"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:758
+msgid "If two factor auth enabled on your Firefox account"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:775
+msgid "Start syncing"
+msgstr "Начать синхронизацию"
 
 #: ../data/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -855,34 +821,26 @@ msgstr "Просмотреть все страницы"
 msgid "Close page"
 msgstr "Закрыть страницу"
 
-#: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:54
-#: ../eolie/menu_toolbar.py:46
+#: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:32
+#: ../eolie/menu_toolbar.py:47
 msgid "Leave fullscreen"
 msgstr "Выйти из полноэкранного режима"
 
-#: ../data/ToolbarEnd.ui:37
-msgid "Start synchronization"
-msgstr "Начать синхронизацию"
-
-#: ../data/ToolbarEnd.ui:69
+#: ../data/ToolbarEnd.ui:47
 msgid "Disallow access to this site"
 msgstr "Запретить доступ к этому сайту"
 
-#: ../data/ToolbarEnd.ui:112
+#: ../data/ToolbarEnd.ui:90
 msgid "Startup page"
 msgstr "Начальная страница"
 
-#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:130
+#: ../data/ToolbarMenu.ui:64 ../eolie/toolbar_end.py:121
 msgid "Save page"
 msgstr "Сохранить страницу"
 
 #: ../data/ToolbarMenu.ui:81
 msgid "Print page"
 msgstr "Печать страницы"
-
-#: ../data/ToolbarMenu.ui:126
-msgid "Start page"
-msgstr "Начальная страница"
 
 #: ../data/ToolbarMenu.ui:172
 msgid "Zoom out"
@@ -912,19 +870,19 @@ msgstr "Показать изображения"
 msgid "Show multimedia"
 msgstr "Показать мультимедию"
 
-#: ../data/ToolbarMenu.ui:390
-msgid "Run scripts"
-msgstr "Запускать скрипты"
+#: ../data/ToolbarMenu.ui:389 ../eolie/menu_scripts.py:133
+msgid "Scripts"
+msgstr ""
 
-#: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:47
+#: ../data/ToolbarMenu.ui:402 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "Ночной режим"
 
-#: ../eolie/application.py:623
+#: ../eolie/application.py:635
 msgid "Do you really want to quit Eolie?"
 msgstr "Вы действительно хотите выйти из Эоли?"
 
-#: ../eolie/application.py:677
+#: ../eolie/application.py:689
 msgid "Downloads running, are you sure you want quit?"
 msgstr "Что-то скачивается. Вы уверены что хотите выйти?"
 
@@ -932,53 +890,9 @@ msgstr "Что-то скачивается. Вы уверены что хоти�
 msgid "Please consider a donation to the project"
 msgstr "Пожалуйста, поддержите проект пожертвованием"
 
-#: ../eolie/container_stack.py:228
+#: ../eolie/container_stack.py:242
 msgid "Do you really want to close this page?"
 msgstr "Вы действительно хотите закрыть эту страницу?"
-
-#: ../eolie/context.py:153
-msgid "Name"
-msgstr "по имени"
-
-#: ../eolie/context.py:154
-msgid "Size"
-msgstr "Размер"
-
-#: ../eolie/context.py:156
-msgid "Last modification"
-msgstr "Последние изменение"
-
-#: ../eolie/dialog_clear_data.py:180
-msgid "Memory cache"
-msgstr "Кэш памяти"
-
-#: ../eolie/dialog_clear_data.py:182
-msgid "HTTP disk cache"
-msgstr "Дисковой кэш HTTP"
-
-#: ../eolie/dialog_clear_data.py:184
-msgid "Offline web application cache"
-msgstr "Автономный кеш веб-приложений"
-
-#: ../eolie/dialog_clear_data.py:186
-msgid "Session storage data"
-msgstr "Данные хранения сеанса"
-
-#: ../eolie/dialog_clear_data.py:188
-msgid "Local storage data"
-msgstr "Данные локального хранилища"
-
-#: ../eolie/dialog_clear_data.py:190
-msgid "WebSQL databases"
-msgstr "Базы данных WebSQL"
-
-#: ../eolie/dialog_clear_data.py:192
-msgid "IndexedDB databases"
-msgstr "Базы данных IndexedDB"
-
-#: ../eolie/dialog_clear_data.py:194
-msgid "Plugins data"
-msgstr "Данные плагинов"
 
 #: ../eolie/dialog_import_bookmarks.py:87
 msgid "Import HTML bookmarks"
@@ -988,27 +902,61 @@ msgstr "Импортировать закладки HTML"
 msgid "New engine"
 msgstr "Новая поисковая система"
 
-#: ../eolie/menu_application.py:52
+#: ../eolie/dialog_settings.py:137 ../eolie/dialog_settings.py:272
+msgid "Connecting…"
+msgstr "Подключение…"
+
+#: ../eolie/dialog_settings.py:141 ../eolie/dialog_settings.py:452
+msgid "Not running"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:285
+msgid "Stopped…"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:415 ../eolie/dialog_settings.py:441
+msgid "Connected"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:417
+msgid "Failed"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:449
+#, python-format
+msgid ""
+"Syncing is not available on your computer:\n"
+"%s"
+msgstr ""
+"Синхронизация не доступна на вашем компьютере:\n"
+"%s"
+
+#: ../eolie/dialog_settings.py:460
+#, python-format
+msgid "Syncing %s"
+msgstr ""
+
+#: ../eolie/menu_application.py:42
 msgid "Block ads"
 msgstr "Блокировка рекламы"
 
-#: ../eolie/menu_application.py:53
+#: ../eolie/menu_application.py:43
 msgid "Block popups"
 msgstr "Блокировка всплывающих окон"
 
-#: ../eolie/menu_application.py:56
+#: ../eolie/menu_application.py:46
 msgid "Block scripts"
 msgstr "Блокировка скриптов"
 
-#: ../eolie/menu_application.py:68
+#: ../eolie/menu_application.py:58
 msgid "Blockers"
 msgstr "Блокировщики"
 
-#: ../eolie/menu_application.py:75
+#: ../eolie/menu_application.py:65
 msgid "_Preferences"
 msgstr "_Настройки"
 
-#: ../eolie/menu_application.py:84
+#: ../eolie/menu_application.py:74
 msgid "_Sidebar"
 msgstr "_Боковая панель"
 
@@ -1036,6 +984,10 @@ msgstr "Закрытые страницы"
 msgid "Open all pages"
 msgstr "Открыть все страницы"
 
+#: ../eolie/menu_scripts.py:115
+msgid "Allow all scripts"
+msgstr ""
+
 #: ../eolie/menu_sites.py:73
 msgid "Modify user agent"
 msgstr "Изменить user agent"
@@ -1048,7 +1000,7 @@ msgstr "Закрепленный сайт"
 msgid "Close site"
 msgstr "Закрыть сайт"
 
-#: ../eolie/menu_toolbar.py:48
+#: ../eolie/menu_toolbar.py:49
 msgid "Enter fullscreen"
 msgstr "Войти в полноэкранный режим"
 
@@ -1111,8 +1063,8 @@ msgid "Continue"
 msgstr "Продолжать"
 
 #: ../eolie/popover_tls.py:55
-msgid "Connexion is secure"
-msgstr "Соединение безопасно"
+msgid "The connexion is secure"
+msgstr ""
 
 #: ../eolie/popover_tls.py:60
 #, python-format
@@ -1142,47 +1094,47 @@ msgstr ""
 "\n"
 
 #: ../eolie/popover_tls.py:74
-msgid "Connexion is unsecure"
-msgstr "Соединение небезопасно"
+msgid "The connexion is unsecure"
+msgstr ""
 
 #: ../eolie/popover_uri_content.py:124
 #, python-format
 msgid "%s bookmarks"
 msgstr "%s закладок"
 
-#: ../eolie/popover_uri.py:266
+#: ../eolie/popover_uri.py:265
 msgid "Popular"
 msgstr "Популярные"
 
-#: ../eolie/popover_uri.py:269
+#: ../eolie/popover_uri.py:268
 msgid "Recent"
 msgstr "Последнии"
 
-#: ../eolie/popover_uri.py:271
+#: ../eolie/popover_uri.py:270
 msgid "Unclassified"
 msgstr "Не классифицировано"
 
-#: ../eolie/popover_uri.py:295
+#: ../eolie/popover_uri.py:294
 msgid "From the past hour"
 msgstr "За последний час"
 
-#: ../eolie/popover_uri.py:296
+#: ../eolie/popover_uri.py:295
 msgid "From the past day"
 msgstr "За последний день"
 
-#: ../eolie/popover_uri.py:297
+#: ../eolie/popover_uri.py:296
 msgid "From the past week"
 msgstr "За последний неделю"
 
-#: ../eolie/popover_uri.py:299
+#: ../eolie/popover_uri.py:298
 msgid "From the past four weeks"
 msgstr "За последние четыре недели"
 
-#: ../eolie/popover_uri.py:300
+#: ../eolie/popover_uri.py:299
 msgid "From selected day"
 msgstr "За выбранный день"
 
-#: ../eolie/popover_uri.py:301
+#: ../eolie/popover_uri.py:300
 msgid "From the beginning"
 msgstr "С начала"
 
@@ -1223,40 +1175,7 @@ msgstr ""
 msgid "Unsupported search engine"
 msgstr "Неподдерживаемая поисковая система"
 
-#: ../eolie/settings.py:487
-msgid "Connecting…"
-msgstr "Подключение…"
-
-#: ../eolie/settings.py:537
-msgid "Syncing operational"
-msgstr "Оперативная синхронизация"
-
-#: ../eolie/settings.py:543
-msgid "Cancel syncing"
-msgstr "Отменить синхронизацию"
-
-#: ../eolie/settings.py:548
-msgid "Start syncing"
-msgstr "Начать синхронизацию"
-
-#: ../eolie/settings.py:558
-msgid "Syncing is not working"
-msgstr "Синхронизация не работает"
-
-#: ../eolie/settings.py:569
-#, python-format
-msgid ""
-"Syncing is not available on your computer:\n"
-"%s"
-msgstr ""
-"Синхронизация не доступна на вашем компьютере:\n"
-"%s"
-
-#: ../eolie/settings.py:593
-msgid "You've received an email to validate syncing"
-msgstr "Вы получили электронное письмо для подтверждения синхронизации"
-
-#: ../eolie/toolbar_end.py:98
+#: ../eolie/toolbar_end.py:89
 msgid "Downloading:"
 msgstr "Загрузка:"
 
@@ -1364,6 +1283,15 @@ msgstr ""
 msgid "Report a bug now"
 msgstr "Сообщить об ошибке сейчас"
 
+#: ../eolie/webview_navigation.py:205
+#, python-format
+msgid "Allow notifications for %s"
+msgstr ""
+
+#: ../eolie/webview_navigation.py:206
+msgid "Allow"
+msgstr ""
+
 #: ../eolie/webview_signals_js.py:93
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie собирается закрыть эту страницу, потому что она сломана"
@@ -1392,11 +1320,11 @@ msgstr "Поиск в интернете"
 msgid "Save page as image"
 msgstr "Сохранить страницу как изображение"
 
-#: ../eolie/webview_signals.py:127
+#: ../eolie/webview_signals.py:129
 msgid "Select files to upload"
 msgstr "Выберите файлы для загрузки"
 
-#: ../eolie/webview_signals.py:130
+#: ../eolie/webview_signals.py:132
 msgid "Open"
 msgstr "Открыть"
 
@@ -1412,26 +1340,216 @@ msgstr "Поиск вперед"
 msgid "1000 of 1000 matches"
 msgstr "1000 из 1000 совпадений"
 
-#: ../eolie/widget_uri_entry_icons.py:75
+#: ../eolie/widget_uri_entry_icons.py:76
 msgid "Deny geolocation"
 msgstr "Отклонить геолокацию"
 
-#: ../eolie/widget_uri_entry.py:183
+#: ../eolie/widget_uri_entry.py:166
 msgid "This page contains insecure content"
 msgstr "Эта страница содержит небезопасный контент"
 
-#: ../eolie/widget_uri_entry.py:205 ../eolie/widget_uri_entry.py:208
+#: ../eolie/widget_uri_entry.py:188 ../eolie/widget_uri_entry.py:191
 msgid "Search or enter address"
 msgstr "Поиск или ввод адреса"
 
-#: ../eolie/widget_uri_entry.py:291
+#: ../eolie/widget_uri_entry.py:272
 #, python-format
 msgid "Save password for: %s"
 msgstr "Сохранить пароль для: %s"
 
-#: ../eolie/widget_uri_entry.py:461
+#: ../eolie/widget_uri_entry.py:432
 msgid "Paste and load"
 msgstr "Вставить и перейти"
+
+#~ msgid "Sans serif font"
+#~ msgstr "Шрифт без засечек"
+
+#~ msgid "Open this page on startup"
+#~ msgstr "Открыть эту страницу при запуске"
+
+#~ msgid "Cookies storage type"
+#~ msgstr "Тип хранения файлов cookie"
+
+#~ msgid "DNS prediction"
+#~ msgstr "Прогнозирование DNS"
+
+#~ msgid "org.gnome.Eolie"
+#~ msgstr "org.gnome.Eolie"
+
+#~ msgid ""
+#~ "You can select a period of time to clear data for all websites modified "
+#~ "in that period. If you choose from the beginning of time, then you can "
+#~ "also clear data only for particular websites."
+#~ msgstr ""
+#~ "Вы можете выбрать период времени для очистки данных для всех веб-сайтов, "
+#~ "измененных в этот период. Если вы выбираете с самого начала времени, вы "
+#~ "также можете очищать данные только для определенных сайтов."
+
+#~ msgid "Clear selected personal data _from:"
+#~ msgstr "Очистить выбранные личные данные _из:"
+
+#~ msgid "the past hour"
+#~ msgstr "за прошедший час"
+
+#~ msgid "the past day"
+#~ msgstr "за прошедший день"
+
+#~ msgid "the past week"
+#~ msgstr "за прошедшую неделю"
+
+#~ msgid "the past four weeks"
+#~ msgstr "за прошедшие 4 часа"
+
+#~ msgid "the beginning"
+#~ msgstr "с начала"
+
+#~ msgid "No data found"
+#~ msgstr "Данные не найдены"
+
+#~ msgid "Cookies manager"
+#~ msgstr "Менеджер cookie-файлов"
+
+#~ msgid "Preferences"
+#~ msgstr "Настройки"
+
+#~ msgid "Download folder:"
+#~ msgstr "Папка загрузки:"
+
+#~ msgid "Search engines:"
+#~ msgstr "Поисковые системы:"
+
+#~ msgid "Start Page:"
+#~ msgstr "Начальная страница:"
+
+#~ msgid "Set address"
+#~ msgstr "Установить адрес"
+
+#~ msgid "Remember previous pages on startup"
+#~ msgstr "Помнить предыдущие страницы при запуске"
+
+#~ msgid "Configure engines"
+#~ msgstr "Настроить системы"
+
+#~ msgid "Add suggestions"
+#~ msgstr "Добавить предложения"
+
+#~ msgid "Fonts"
+#~ msgstr "Шрифты"
+
+#~ msgid "Passwords"
+#~ msgstr "Пароли"
+
+#~ msgid "Saved data"
+#~ msgstr "Сохраненные данные"
+
+#~ msgid "Behaviour:"
+#~ msgstr "Поведение:"
+
+#~ msgid "Manage cookies"
+#~ msgstr "Управление cookie"
+
+#~ msgid "Clear personal data"
+#~ msgstr "Удалить персональные данные"
+
+#~ msgid "Manage passwords"
+#~ msgstr "Управление паролями"
+
+#~ msgid "Keep history:"
+#~ msgstr "Хранить историю:"
+
+#~ msgid "Predict website addresses"
+#~ msgstr "Прогнозировать адреса веб-сайтов"
+
+#~ msgid ""
+#~ "You can share your bookmarks and history\n"
+#~ "on all your devices running Eolie or Firefox"
+#~ msgstr ""
+#~ "Вы можете поделиться вкладками и историями\n"
+#~ "на всех своих устройствах через Eolie или Firefox"
+
+#~ msgid "Login:"
+#~ msgstr "Логин:"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid "Allow syncing"
+#~ msgstr "Разрешить синхронизацию"
+
+#~ msgid "Create or manage account"
+#~ msgstr "Создание учетной записи или управление ею"
+
+#~ msgid "Code:"
+#~ msgstr "Код:"
+
+#~ msgid "You need to turn on two-factor authentication"
+#~ msgstr "Вам нужно включить двух-этапную аутентификацию"
+
+#~ msgid "Fetch from Firefox Sync"
+#~ msgstr "Получить с Firefox Sync"
+
+#~ msgid "Send to Firefox Sync"
+#~ msgstr "Отправить в Firefox Sync"
+
+#~ msgid "Syncing"
+#~ msgstr "Синхронизация"
+
+#~ msgid "Start synchronization"
+#~ msgstr "Начать синхронизацию"
+
+#~ msgid "Run scripts"
+#~ msgstr "Запускать скрипты"
+
+#~ msgid "Name"
+#~ msgstr "по имени"
+
+#~ msgid "Size"
+#~ msgstr "Размер"
+
+#~ msgid "Last modification"
+#~ msgstr "Последние изменение"
+
+#~ msgid "Memory cache"
+#~ msgstr "Кэш памяти"
+
+#~ msgid "HTTP disk cache"
+#~ msgstr "Дисковой кэш HTTP"
+
+#~ msgid "Offline web application cache"
+#~ msgstr "Автономный кеш веб-приложений"
+
+#~ msgid "Session storage data"
+#~ msgstr "Данные хранения сеанса"
+
+#~ msgid "Local storage data"
+#~ msgstr "Данные локального хранилища"
+
+#~ msgid "WebSQL databases"
+#~ msgstr "Базы данных WebSQL"
+
+#~ msgid "IndexedDB databases"
+#~ msgstr "Базы данных IndexedDB"
+
+#~ msgid "Plugins data"
+#~ msgstr "Данные плагинов"
+
+#~ msgid "Connexion is secure"
+#~ msgstr "Соединение безопасно"
+
+#~ msgid "Connexion is unsecure"
+#~ msgstr "Соединение небезопасно"
+
+#~ msgid "Syncing operational"
+#~ msgstr "Оперативная синхронизация"
+
+#~ msgid "Cancel syncing"
+#~ msgstr "Отменить синхронизацию"
+
+#~ msgid "Syncing is not working"
+#~ msgstr "Синхронизация не работает"
+
+#~ msgid "You've received an email to validate syncing"
+#~ msgstr "Вы получили электронное письмо для подтверждения синхронизации"
 
 #~ msgid "Predict websites address"
 #~ msgstr "Предсказать адрес веб-сайта"
