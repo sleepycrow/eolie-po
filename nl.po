@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 22:40+0100\n"
+"POT-Creation-Date: 2020-12-31 00:14+0100\n"
 "PO-Revision-Date: 2020-12-30 23:14+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
@@ -86,7 +86,7 @@ msgstr "Zoekmachine"
 msgid "Remember sessions"
 msgstr "Sessies onthouden"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:558
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
 msgid "Remember passwords"
 msgstr "Wachtwoorden onthouden"
 
@@ -151,7 +151,7 @@ msgstr "Standaard startpagina"
 msgid "Custom start page"
 msgstr "Aangepaste startpagina"
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:467
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:487
 msgid "Tell websites I do not want to be tracked"
 msgstr "Aan websites melden dat ik niet gevolgd wil worden"
 
@@ -159,7 +159,7 @@ msgstr "Aan websites melden dat ik niet gevolgd wil worden"
 msgid "Enable Firefox Sync"
 msgstr "Firefox Sync gebruiken"
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:484
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:504
 msgid "Autoplay videos"
 msgstr "Video's automatisch afspelen"
 
@@ -258,12 +258,14 @@ msgstr ""
 msgid "Clear Personal Data"
 msgstr "Persoonlijke gegevens wissen"
 
-#: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
+#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:97
+#: ../data/DialogNotifications.ui:97 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "Zoeken"
 
-#: ../data/DialogClearData.ui:133
+#: ../data/DialogClearData.ui:133 ../data/DialogCredentials.ui:98
+#: ../data/DialogNotifications.ui:98
 msgid "Filter domains"
 msgstr "Filter domeinen"
 
@@ -271,23 +273,11 @@ msgstr "Filter domeinen"
 msgid "C_lear"
 msgstr "Wiss_en"
 
-#: ../data/DialogClearData.ui:186
-msgid "Search domains"
-msgstr "Zoek op domeinen"
+#: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
+msgid "Remove"
+msgstr ""
 
-#: ../data/DialogCookies.ui:79
-msgid "Delete cookies"
-msgstr "Cookies verwijderen"
-
-#: ../data/DialogCookies.ui:104
-msgid "Cookies"
-msgstr "Cookies"
-
-#: ../data/DialogCredentials.ui:17
-msgid "Remove all passwords"
-msgstr "Alle wachtwoorden wissen"
-
-#: ../data/DialogCredentials.ui:80
+#: ../data/DialogCredentials.ui:69
 msgid "Credentials"
 msgstr "Inloggegevens"
 
@@ -307,6 +297,10 @@ msgstr "Importeren"
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
 msgstr "Wijzigen"
+
+#: ../data/DialogNotifications.ui:69 ../data/SettingsDialog.ui:449
+msgid "Notifications"
+msgstr ""
 
 #: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
@@ -348,10 +342,6 @@ msgstr "Zoekmachines"
 msgid "Spell checking"
 msgstr "Spellingcontrole"
 
-#: ../data/PopoverCookies.ui:10
-msgid "Remove all cookies"
-msgstr "Alle cookies verwijderen"
-
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
 msgstr "Wil je dit wachtwoord opslaan?"
@@ -384,7 +374,7 @@ msgstr "Er wordt niks gedownload"
 msgid "OK"
 msgstr "Oké"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:625
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
 msgid "Forever"
 msgstr "Permanent"
 
@@ -404,7 +394,7 @@ msgstr "Bladwijzers"
 msgid "Clear history"
 msgstr "Geschiedenis wissen"
 
-#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:603
+#: ../data/PopoverUri.ui:338
 msgid "History"
 msgstr "Geschiedenis"
 
@@ -443,10 +433,6 @@ msgstr "Automatisch overschakelen naar nachtmodus"
 #: ../data/SettingsDialog.ui:80
 msgid "Follow system settings"
 msgstr "Systeeminstellingen volgen"
-
-#: ../data/SettingsDialog.ui:96
-msgid "Fonts"
-msgstr "Lettertypen"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
@@ -529,103 +515,107 @@ msgstr "Overig"
 msgid "Zoom level for current screen"
 msgstr "Zoomniveau op huidige scherm"
 
-#: ../data/SettingsDialog.ui:457
+#: ../data/SettingsDialog.ui:451
+msgid "Sites allowed to notify you"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:477
 msgid "Privacy"
 msgstr "Privacy"
 
-#: ../data/SettingsDialog.ui:462
+#: ../data/SettingsDialog.ui:482
 msgid "Tracking"
 msgstr "Volgen"
 
-#: ../data/SettingsDialog.ui:501
+#: ../data/SettingsDialog.ui:521
 msgid "Accept cookies"
 msgstr "Cookies accepteren"
 
-#: ../data/SettingsDialog.ui:518
+#: ../data/SettingsDialog.ui:538
 msgid "Always accept"
 msgstr "Altijd accepteren"
 
-#: ../data/SettingsDialog.ui:519
+#: ../data/SettingsDialog.ui:539
 msgid "Never accept"
 msgstr "Nooit accepteren"
 
-#: ../data/SettingsDialog.ui:520
+#: ../data/SettingsDialog.ui:540
 msgid "Only from visited sites"
 msgstr "Alleen van bezochte websites"
 
-#: ../data/SettingsDialog.ui:553
+#: ../data/SettingsDialog.ui:558
 msgid "Data"
 msgstr "Gegevens"
 
-#: ../data/SettingsDialog.ui:559
+#: ../data/SettingsDialog.ui:564
 msgid "Autocomplete credentials"
 msgstr "Inloggegevens automatisch aanvullen"
 
-#: ../data/SettingsDialog.ui:604
-msgid "Your navigation data"
-msgstr "Mijn navigatiegegevens"
+#: ../data/SettingsDialog.ui:608
+msgid "Navigation data"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:621
+#: ../data/SettingsDialog.ui:609
+msgid "How much time we keep it?"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:626
 msgid "One day"
 msgstr "Eén dag"
 
-#: ../data/SettingsDialog.ui:622
+#: ../data/SettingsDialog.ui:627
 msgid "One week"
 msgstr "Eén week"
 
-#: ../data/SettingsDialog.ui:623
+#: ../data/SettingsDialog.ui:628
 msgid "Four weeks"
 msgstr "Vier weken"
 
-#: ../data/SettingsDialog.ui:624
+#: ../data/SettingsDialog.ui:629
 msgid "A year"
 msgstr "Eén jaar"
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:631
 msgid "Do not keep"
 msgstr "Niet onthouden"
 
-#: ../data/SettingsDialog.ui:662
+#: ../data/SettingsDialog.ui:667
 msgid "Firefox sync"
 msgstr "Firefox-synchronisatie"
 
-#: ../data/SettingsDialog.ui:671
+#: ../data/SettingsDialog.ui:676
 msgid "Enable synchronization"
 msgstr "Synchronisatie inschakelen"
 
-#: ../data/SettingsDialog.ui:673
+#: ../data/SettingsDialog.ui:678
 msgid "This will sync your history and passwords"
 msgstr "Hiermee synchroniseer je je geschiedenis en wachtwoorden"
 
-#: ../data/SettingsDialog.ui:691
+#: ../data/SettingsDialog.ui:696
 msgid "Status"
 msgstr "Status"
 
-#: ../data/SettingsDialog.ui:698
+#: ../data/SettingsDialog.ui:703
 msgid "Sync now"
 msgstr "Nu synchroniseren"
 
-#: ../data/SettingsDialog.ui:717
-msgid "Configure"
-msgstr "Instellen"
-
-#: ../data/SettingsDialog.ui:722
+#: ../data/SettingsDialog.ui:727
 msgid "Username"
 msgstr "Gebruikersnaam"
 
-#: ../data/SettingsDialog.ui:737
+#: ../data/SettingsDialog.ui:742
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: ../data/SettingsDialog.ui:752
+#: ../data/SettingsDialog.ui:757
 msgid "Code"
 msgstr "Code"
 
-#: ../data/SettingsDialog.ui:753
+#: ../data/SettingsDialog.ui:758
 msgid "Two factor auth"
 msgstr "Authenticatie in twee stappen"
 
-#: ../data/SettingsDialog.ui:770
+#: ../data/SettingsDialog.ui:775
 msgid "Start syncing"
 msgstr "Synchronisatie starten"
 
@@ -862,11 +852,11 @@ msgstr "Multimedia tonen"
 msgid "Scripts"
 msgstr "Scripts"
 
-#: ../data/ToolbarMenu.ui:423
+#: ../data/ToolbarMenu.ui:422
 msgid "Allow audio"
 msgstr "Audio toestaan"
 
-#: ../data/ToolbarMenu.ui:435 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:434 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "Nachtmodus"
 
@@ -1353,6 +1343,30 @@ msgstr "Wachtwoord opslaan van %s"
 #: ../eolie/widget_uri_entry.py:433
 msgid "Paste and load"
 msgstr "Plakken en laden"
+
+#~ msgid "Search domains"
+#~ msgstr "Zoek op domeinen"
+
+#~ msgid "Delete cookies"
+#~ msgstr "Cookies verwijderen"
+
+#~ msgid "Cookies"
+#~ msgstr "Cookies"
+
+#~ msgid "Remove all passwords"
+#~ msgstr "Alle wachtwoorden wissen"
+
+#~ msgid "Remove all cookies"
+#~ msgstr "Alle cookies verwijderen"
+
+#~ msgid "Fonts"
+#~ msgstr "Lettertypen"
+
+#~ msgid "Your navigation data"
+#~ msgstr "Mijn navigatiegegevens"
+
+#~ msgid "Configure"
+#~ msgstr "Instellen"
 
 #~ msgid "Sans serif font"
 #~ msgstr "Schreefloos"

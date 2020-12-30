@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 22:40+0100\n"
+"POT-Creation-Date: 2020-12-31 00:14+0100\n"
 "PO-Revision-Date: 2020-06-20 00:41+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gnumdk/eolie/hr/"
@@ -92,7 +92,7 @@ msgstr "Web tražilica"
 msgid "Remember sessions"
 msgstr "Zapamti sesije"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:558
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
 msgid "Remember passwords"
 msgstr "Zapamti lozinke"
 
@@ -157,7 +157,7 @@ msgstr ""
 msgid "Custom start page"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:467
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:487
 msgid "Tell websites I do not want to be tracked"
 msgstr "Obavijesti web-stranice, da ne želim da me se prati"
 
@@ -165,7 +165,7 @@ msgstr "Obavijesti web-stranice, da ne želim da me se prati"
 msgid "Enable Firefox Sync"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:484
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:504
 msgid "Autoplay videos"
 msgstr "Automatski pokreni videosnimke"
 
@@ -262,12 +262,14 @@ msgstr ""
 msgid "Clear Personal Data"
 msgstr "Izbriši osobne podatke"
 
-#: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
+#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:97
+#: ../data/DialogNotifications.ui:97 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "Traži"
 
-#: ../data/DialogClearData.ui:133
+#: ../data/DialogClearData.ui:133 ../data/DialogCredentials.ui:98
+#: ../data/DialogNotifications.ui:98
 msgid "Filter domains"
 msgstr "Filtriraj domene"
 
@@ -275,23 +277,11 @@ msgstr "Filtriraj domene"
 msgid "C_lear"
 msgstr "_Izbriši"
 
-#: ../data/DialogClearData.ui:186
-msgid "Search domains"
-msgstr "Traži domene"
+#: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
+msgid "Remove"
+msgstr ""
 
-#: ../data/DialogCookies.ui:79
-msgid "Delete cookies"
-msgstr "Izbriši kolačiće"
-
-#: ../data/DialogCookies.ui:104
-msgid "Cookies"
-msgstr "Kolačići"
-
-#: ../data/DialogCredentials.ui:17
-msgid "Remove all passwords"
-msgstr "Ukloni sve lozinke"
-
-#: ../data/DialogCredentials.ui:80
+#: ../data/DialogCredentials.ui:69
 msgid "Credentials"
 msgstr ""
 
@@ -311,6 +301,10 @@ msgstr "Uvezi"
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
 msgstr "Promijeni"
+
+#: ../data/DialogNotifications.ui:69 ../data/SettingsDialog.ui:449
+msgid "Notifications"
+msgstr ""
 
 #: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
@@ -352,10 +346,6 @@ msgstr "Tražilice"
 msgid "Spell checking"
 msgstr "Provjera pravopisa"
 
-#: ../data/PopoverCookies.ui:10
-msgid "Remove all cookies"
-msgstr "Ukloni sve kolačiće"
-
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
 msgstr "Želiš li spremiti ovu lozinku?"
@@ -388,7 +378,7 @@ msgstr "Nema aktivnog preuzimanja"
 msgid "OK"
 msgstr "U redu"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:625
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
 msgid "Forever"
 msgstr "Zauvijek"
 
@@ -408,7 +398,7 @@ msgstr "Zabilješke"
 msgid "Clear history"
 msgstr "Izbriši kronologiju"
 
-#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:603
+#: ../data/PopoverUri.ui:338
 msgid "History"
 msgstr "Povijest"
 
@@ -447,10 +437,6 @@ msgstr ""
 #: ../data/SettingsDialog.ui:80
 msgid "Follow system settings"
 msgstr ""
-
-#: ../data/SettingsDialog.ui:96
-msgid "Fonts"
-msgstr "Fontovi"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
@@ -533,103 +519,107 @@ msgstr "Ostalo"
 msgid "Zoom level for current screen"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:457
+#: ../data/SettingsDialog.ui:451
+msgid "Sites allowed to notify you"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:477
 msgid "Privacy"
 msgstr "Privatnost"
 
-#: ../data/SettingsDialog.ui:462
+#: ../data/SettingsDialog.ui:482
 msgid "Tracking"
 msgstr "Praćenje"
 
-#: ../data/SettingsDialog.ui:501
+#: ../data/SettingsDialog.ui:521
 msgid "Accept cookies"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:518
+#: ../data/SettingsDialog.ui:538
 msgid "Always accept"
 msgstr "Uvijek prihvati"
 
-#: ../data/SettingsDialog.ui:519
+#: ../data/SettingsDialog.ui:539
 msgid "Never accept"
 msgstr "Ne prihvaćaj nikada"
 
-#: ../data/SettingsDialog.ui:520
+#: ../data/SettingsDialog.ui:540
 msgid "Only from visited sites"
 msgstr "Samo od posjećenih web-stranica"
 
-#: ../data/SettingsDialog.ui:553
+#: ../data/SettingsDialog.ui:558
 msgid "Data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:559
+#: ../data/SettingsDialog.ui:564
 msgid "Autocomplete credentials"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:604
-msgid "Your navigation data"
+#: ../data/SettingsDialog.ui:608
+msgid "Navigation data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:621
+#: ../data/SettingsDialog.ui:609
+msgid "How much time we keep it?"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:626
 msgid "One day"
 msgstr "Jedan dan"
 
-#: ../data/SettingsDialog.ui:622
+#: ../data/SettingsDialog.ui:627
 msgid "One week"
 msgstr "Tjedan dana"
 
-#: ../data/SettingsDialog.ui:623
+#: ../data/SettingsDialog.ui:628
 msgid "Four weeks"
 msgstr "Četiri tjedna"
 
-#: ../data/SettingsDialog.ui:624
+#: ../data/SettingsDialog.ui:629
 msgid "A year"
 msgstr "Godinu dana"
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:631
 msgid "Do not keep"
 msgstr "Ne čuvaj"
 
-#: ../data/SettingsDialog.ui:662
+#: ../data/SettingsDialog.ui:667
 msgid "Firefox sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:671
+#: ../data/SettingsDialog.ui:676
 msgid "Enable synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:673
+#: ../data/SettingsDialog.ui:678
 msgid "This will sync your history and passwords"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:691
+#: ../data/SettingsDialog.ui:696
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:698
+#: ../data/SettingsDialog.ui:703
 msgid "Sync now"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:717
-msgid "Configure"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:722
+#: ../data/SettingsDialog.ui:727
 msgid "Username"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:737
+#: ../data/SettingsDialog.ui:742
 msgid "Password"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:752
+#: ../data/SettingsDialog.ui:757
 msgid "Code"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:753
+#: ../data/SettingsDialog.ui:758
 msgid "Two factor auth"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:770
+#: ../data/SettingsDialog.ui:775
 msgid "Start syncing"
 msgstr "Pokreni sinkronizaciju"
 
@@ -866,11 +856,11 @@ msgstr "Prikaži multimediju"
 msgid "Scripts"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:423
+#: ../data/ToolbarMenu.ui:422
 msgid "Allow audio"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:435 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:434 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "Noćni modus"
 
@@ -1356,6 +1346,24 @@ msgstr "Spremi lozinku za: %s"
 #: ../eolie/widget_uri_entry.py:433
 msgid "Paste and load"
 msgstr "Umetni i učitaj"
+
+#~ msgid "Search domains"
+#~ msgstr "Traži domene"
+
+#~ msgid "Delete cookies"
+#~ msgstr "Izbriši kolačiće"
+
+#~ msgid "Cookies"
+#~ msgstr "Kolačići"
+
+#~ msgid "Remove all passwords"
+#~ msgstr "Ukloni sve lozinke"
+
+#~ msgid "Remove all cookies"
+#~ msgstr "Ukloni sve kolačiće"
+
+#~ msgid "Fonts"
+#~ msgstr "Fontovi"
 
 #~ msgid "Sans serif font"
 #~ msgstr "Bezserifni font"

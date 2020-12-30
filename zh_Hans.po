@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 22:40+0100\n"
+"POT-Creation-Date: 2020-12-31 00:14+0100\n"
 "PO-Revision-Date: 2020-12-02 17:29+0000\n"
 "Last-Translator: maitreya2019 <crc2005@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -91,7 +91,7 @@ msgstr "网络搜索引擎"
 msgid "Remember sessions"
 msgstr "记住会话"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:558
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
 msgid "Remember passwords"
 msgstr "记住密码"
 
@@ -156,7 +156,7 @@ msgstr ""
 msgid "Custom start page"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:467
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:487
 msgid "Tell websites I do not want to be tracked"
 msgstr "告诉网站我不想被跟踪"
 
@@ -164,7 +164,7 @@ msgstr "告诉网站我不想被跟踪"
 msgid "Enable Firefox Sync"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:484
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:504
 msgid "Autoplay videos"
 msgstr "自动播放视频"
 
@@ -259,12 +259,14 @@ msgstr "您不能撤消该操作。您选择清除的数据将被永久删除。
 msgid "Clear Personal Data"
 msgstr "清除个人数据"
 
-#: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
+#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:97
+#: ../data/DialogNotifications.ui:97 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "搜索"
 
-#: ../data/DialogClearData.ui:133
+#: ../data/DialogClearData.ui:133 ../data/DialogCredentials.ui:98
+#: ../data/DialogNotifications.ui:98
 msgid "Filter domains"
 msgstr "过滤域"
 
@@ -272,23 +274,11 @@ msgstr "过滤域"
 msgid "C_lear"
 msgstr "清除(_L)"
 
-#: ../data/DialogClearData.ui:186
-msgid "Search domains"
-msgstr "搜索域"
+#: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
+msgid "Remove"
+msgstr ""
 
-#: ../data/DialogCookies.ui:79
-msgid "Delete cookies"
-msgstr "删除 Cookies"
-
-#: ../data/DialogCookies.ui:104
-msgid "Cookies"
-msgstr "Cookies"
-
-#: ../data/DialogCredentials.ui:17
-msgid "Remove all passwords"
-msgstr "移除所有密码"
-
-#: ../data/DialogCredentials.ui:80
+#: ../data/DialogCredentials.ui:69
 msgid "Credentials"
 msgstr ""
 
@@ -308,6 +298,10 @@ msgstr "导入"
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
 msgstr "修改"
+
+#: ../data/DialogNotifications.ui:69 ../data/SettingsDialog.ui:449
+msgid "Notifications"
+msgstr ""
 
 #: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
@@ -346,10 +340,6 @@ msgstr "搜索引擎"
 msgid "Spell checking"
 msgstr "拼写检查"
 
-#: ../data/PopoverCookies.ui:10
-msgid "Remove all cookies"
-msgstr "移除所有 Cookies"
-
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
 msgstr "您想要保存此密码吗？"
@@ -382,7 +372,7 @@ msgstr "无活动的下载"
 msgid "OK"
 msgstr "确定"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:625
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
 msgid "Forever"
 msgstr "永久"
 
@@ -402,7 +392,7 @@ msgstr "书签"
 msgid "Clear history"
 msgstr "清除历史"
 
-#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:603
+#: ../data/PopoverUri.ui:338
 msgid "History"
 msgstr "历史"
 
@@ -441,10 +431,6 @@ msgstr ""
 #: ../data/SettingsDialog.ui:80
 msgid "Follow system settings"
 msgstr ""
-
-#: ../data/SettingsDialog.ui:96
-msgid "Fonts"
-msgstr "字体"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
@@ -527,103 +513,107 @@ msgstr "其他"
 msgid "Zoom level for current screen"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:457
+#: ../data/SettingsDialog.ui:451
+msgid "Sites allowed to notify you"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:477
 msgid "Privacy"
 msgstr "隐私"
 
-#: ../data/SettingsDialog.ui:462
+#: ../data/SettingsDialog.ui:482
 msgid "Tracking"
 msgstr "跟踪"
 
-#: ../data/SettingsDialog.ui:501
+#: ../data/SettingsDialog.ui:521
 msgid "Accept cookies"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:518
+#: ../data/SettingsDialog.ui:538
 msgid "Always accept"
 msgstr "总是接受"
 
-#: ../data/SettingsDialog.ui:519
+#: ../data/SettingsDialog.ui:539
 msgid "Never accept"
 msgstr "从不接受"
 
-#: ../data/SettingsDialog.ui:520
+#: ../data/SettingsDialog.ui:540
 msgid "Only from visited sites"
 msgstr "仅来自您浏览的网站"
 
-#: ../data/SettingsDialog.ui:553
+#: ../data/SettingsDialog.ui:558
 msgid "Data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:559
+#: ../data/SettingsDialog.ui:564
 msgid "Autocomplete credentials"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:604
-msgid "Your navigation data"
+#: ../data/SettingsDialog.ui:608
+msgid "Navigation data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:621
+#: ../data/SettingsDialog.ui:609
+msgid "How much time we keep it?"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:626
 msgid "One day"
 msgstr "一天"
 
-#: ../data/SettingsDialog.ui:622
+#: ../data/SettingsDialog.ui:627
 msgid "One week"
 msgstr "一周"
 
-#: ../data/SettingsDialog.ui:623
+#: ../data/SettingsDialog.ui:628
 msgid "Four weeks"
 msgstr "四周"
 
-#: ../data/SettingsDialog.ui:624
+#: ../data/SettingsDialog.ui:629
 msgid "A year"
 msgstr "一年"
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:631
 msgid "Do not keep"
 msgstr "不要保留"
 
-#: ../data/SettingsDialog.ui:662
+#: ../data/SettingsDialog.ui:667
 msgid "Firefox sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:671
+#: ../data/SettingsDialog.ui:676
 msgid "Enable synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:673
+#: ../data/SettingsDialog.ui:678
 msgid "This will sync your history and passwords"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:691
+#: ../data/SettingsDialog.ui:696
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:698
+#: ../data/SettingsDialog.ui:703
 msgid "Sync now"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:717
-msgid "Configure"
-msgstr ""
-
-#: ../data/SettingsDialog.ui:722
+#: ../data/SettingsDialog.ui:727
 msgid "Username"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:737
+#: ../data/SettingsDialog.ui:742
 msgid "Password"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:752
+#: ../data/SettingsDialog.ui:757
 msgid "Code"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:753
+#: ../data/SettingsDialog.ui:758
 msgid "Two factor auth"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:770
+#: ../data/SettingsDialog.ui:775
 msgid "Start syncing"
 msgstr "开始同步"
 
@@ -860,11 +850,11 @@ msgstr "显示多媒体"
 msgid "Scripts"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:423
+#: ../data/ToolbarMenu.ui:422
 msgid "Allow audio"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:435 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:434 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "夜间模式"
 
@@ -1348,6 +1338,24 @@ msgstr "保存%s的密码"
 #: ../eolie/widget_uri_entry.py:433
 msgid "Paste and load"
 msgstr "粘贴并载入"
+
+#~ msgid "Search domains"
+#~ msgstr "搜索域"
+
+#~ msgid "Delete cookies"
+#~ msgstr "删除 Cookies"
+
+#~ msgid "Cookies"
+#~ msgstr "Cookies"
+
+#~ msgid "Remove all passwords"
+#~ msgstr "移除所有密码"
+
+#~ msgid "Remove all cookies"
+#~ msgstr "移除所有 Cookies"
+
+#~ msgid "Fonts"
+#~ msgstr "字体"
 
 #~ msgid "Sans serif font"
 #~ msgstr "无衬线字体"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 22:40+0100\n"
+"POT-Creation-Date: 2020-12-31 00:14+0100\n"
 "PO-Revision-Date: 2020-12-30 23:14+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/eolie/"
@@ -92,7 +92,7 @@ msgstr "Засіб пошуку в Мережі"
 msgid "Remember sessions"
 msgstr "Запам'ятовувати сеанс"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:558
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
 msgid "Remember passwords"
 msgstr "Запам'ятовувати паролі"
 
@@ -157,7 +157,7 @@ msgstr "Типова початкова сторінка"
 msgid "Custom start page"
 msgstr "Власна початкова сторінка"
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:467
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:487
 msgid "Tell websites I do not want to be tracked"
 msgstr "Повідомляти вебсайтам, що я не хочу, щоб мене відстежували"
 
@@ -165,7 +165,7 @@ msgstr "Повідомляти вебсайтам, що я не хочу, щоб
 msgid "Enable Firefox Sync"
 msgstr "Увімкнути синхронізацію Firefox"
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:484
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:504
 msgid "Autoplay videos"
 msgstr "Автовідтворення відео"
 
@@ -262,12 +262,14 @@ msgstr ""
 msgid "Clear Personal Data"
 msgstr "Очистити особисті дані"
 
-#: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
+#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:97
+#: ../data/DialogNotifications.ui:97 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "Пошук"
 
-#: ../data/DialogClearData.ui:133
+#: ../data/DialogClearData.ui:133 ../data/DialogCredentials.ui:98
+#: ../data/DialogNotifications.ui:98
 msgid "Filter domains"
 msgstr "Фільтрувати домени"
 
@@ -275,23 +277,11 @@ msgstr "Фільтрувати домени"
 msgid "C_lear"
 msgstr "_Очистити"
 
-#: ../data/DialogClearData.ui:186
-msgid "Search domains"
-msgstr "Шукати домени"
+#: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
+msgid "Remove"
+msgstr ""
 
-#: ../data/DialogCookies.ui:79
-msgid "Delete cookies"
-msgstr "Видалити cookie"
-
-#: ../data/DialogCookies.ui:104
-msgid "Cookies"
-msgstr "Cookies"
-
-#: ../data/DialogCredentials.ui:17
-msgid "Remove all passwords"
-msgstr "Вилучити всі паролі"
-
-#: ../data/DialogCredentials.ui:80
+#: ../data/DialogCredentials.ui:69
 msgid "Credentials"
 msgstr "Облікові дані"
 
@@ -311,6 +301,10 @@ msgstr "Імпорт"
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
 msgstr "Змінити"
+
+#: ../data/DialogNotifications.ui:69 ../data/SettingsDialog.ui:449
+msgid "Notifications"
+msgstr ""
 
 #: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
@@ -352,10 +346,6 @@ msgstr "Засоби пошуку"
 msgid "Spell checking"
 msgstr "Перевірка правопису"
 
-#: ../data/PopoverCookies.ui:10
-msgid "Remove all cookies"
-msgstr "Вилучити всі cookie"
-
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
 msgstr "Зберегти цей пароль?"
@@ -388,7 +378,7 @@ msgstr "Немає активних звантажень"
 msgid "OK"
 msgstr "OK"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:625
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
 msgid "Forever"
 msgstr "Назавжди"
 
@@ -408,7 +398,7 @@ msgstr "Закладки"
 msgid "Clear history"
 msgstr "Очистити історію"
 
-#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:603
+#: ../data/PopoverUri.ui:338
 msgid "History"
 msgstr "Історія"
 
@@ -447,10 +437,6 @@ msgstr "Автоматичний перехід у нічний режим"
 #: ../data/SettingsDialog.ui:80
 msgid "Follow system settings"
 msgstr "Дотримуватись системних налаштувань"
-
-#: ../data/SettingsDialog.ui:96
-msgid "Fonts"
-msgstr "Шрифти"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
@@ -533,103 +519,107 @@ msgstr "Інше"
 msgid "Zoom level for current screen"
 msgstr "Масштаб для поточного екрана"
 
-#: ../data/SettingsDialog.ui:457
+#: ../data/SettingsDialog.ui:451
+msgid "Sites allowed to notify you"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:477
 msgid "Privacy"
 msgstr "Приватність"
 
-#: ../data/SettingsDialog.ui:462
+#: ../data/SettingsDialog.ui:482
 msgid "Tracking"
 msgstr "Стеження"
 
-#: ../data/SettingsDialog.ui:501
+#: ../data/SettingsDialog.ui:521
 msgid "Accept cookies"
 msgstr "Приймати cookie"
 
-#: ../data/SettingsDialog.ui:518
+#: ../data/SettingsDialog.ui:538
 msgid "Always accept"
 msgstr "Завжди приймати"
 
-#: ../data/SettingsDialog.ui:519
+#: ../data/SettingsDialog.ui:539
 msgid "Never accept"
 msgstr "Ніколи не приймати"
 
-#: ../data/SettingsDialog.ui:520
+#: ../data/SettingsDialog.ui:540
 msgid "Only from visited sites"
 msgstr "Лише з відвіданих сайтів"
 
-#: ../data/SettingsDialog.ui:553
+#: ../data/SettingsDialog.ui:558
 msgid "Data"
 msgstr "Дані"
 
-#: ../data/SettingsDialog.ui:559
+#: ../data/SettingsDialog.ui:564
 msgid "Autocomplete credentials"
 msgstr "Автозаповнення облікових даних"
 
-#: ../data/SettingsDialog.ui:604
-msgid "Your navigation data"
-msgstr "Ваші навігаційні дані"
+#: ../data/SettingsDialog.ui:608
+msgid "Navigation data"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:621
+#: ../data/SettingsDialog.ui:609
+msgid "How much time we keep it?"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:626
 msgid "One day"
 msgstr "Один день"
 
-#: ../data/SettingsDialog.ui:622
+#: ../data/SettingsDialog.ui:627
 msgid "One week"
 msgstr "Один тиждень"
 
-#: ../data/SettingsDialog.ui:623
+#: ../data/SettingsDialog.ui:628
 msgid "Four weeks"
 msgstr "Чотири тижні"
 
-#: ../data/SettingsDialog.ui:624
+#: ../data/SettingsDialog.ui:629
 msgid "A year"
 msgstr "Рік"
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:631
 msgid "Do not keep"
 msgstr "Не зберігати"
 
-#: ../data/SettingsDialog.ui:662
+#: ../data/SettingsDialog.ui:667
 msgid "Firefox sync"
 msgstr "Синхронізація Firefox"
 
-#: ../data/SettingsDialog.ui:671
+#: ../data/SettingsDialog.ui:676
 msgid "Enable synchronization"
 msgstr "Увімкнути синхронізацію"
 
-#: ../data/SettingsDialog.ui:673
+#: ../data/SettingsDialog.ui:678
 msgid "This will sync your history and passwords"
 msgstr "Це синхронізуватиме вашу історію та паролі"
 
-#: ../data/SettingsDialog.ui:691
+#: ../data/SettingsDialog.ui:696
 msgid "Status"
 msgstr "Стан"
 
-#: ../data/SettingsDialog.ui:698
+#: ../data/SettingsDialog.ui:703
 msgid "Sync now"
 msgstr "Синхронізувати зараз"
 
-#: ../data/SettingsDialog.ui:717
-msgid "Configure"
-msgstr "Налаштувати"
-
-#: ../data/SettingsDialog.ui:722
+#: ../data/SettingsDialog.ui:727
 msgid "Username"
 msgstr "Ім’я користувача"
 
-#: ../data/SettingsDialog.ui:737
+#: ../data/SettingsDialog.ui:742
 msgid "Password"
 msgstr "Пароль"
 
-#: ../data/SettingsDialog.ui:752
+#: ../data/SettingsDialog.ui:757
 msgid "Code"
 msgstr "Код"
 
-#: ../data/SettingsDialog.ui:753
+#: ../data/SettingsDialog.ui:758
 msgid "Two factor auth"
 msgstr "Двоетапна перевірка"
 
-#: ../data/SettingsDialog.ui:770
+#: ../data/SettingsDialog.ui:775
 msgid "Start syncing"
 msgstr "Почати синхронізацію"
 
@@ -866,11 +856,11 @@ msgstr "Показувати мультимедіа"
 msgid "Scripts"
 msgstr "Сценарії"
 
-#: ../data/ToolbarMenu.ui:423
+#: ../data/ToolbarMenu.ui:422
 msgid "Allow audio"
 msgstr "Дозволити звук"
 
-#: ../data/ToolbarMenu.ui:435 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:434 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "Нічний режим"
 
@@ -1357,6 +1347,30 @@ msgstr "Зберегти пароль для: %s"
 #: ../eolie/widget_uri_entry.py:433
 msgid "Paste and load"
 msgstr "Вставити і завантажити"
+
+#~ msgid "Search domains"
+#~ msgstr "Шукати домени"
+
+#~ msgid "Delete cookies"
+#~ msgstr "Видалити cookie"
+
+#~ msgid "Cookies"
+#~ msgstr "Cookies"
+
+#~ msgid "Remove all passwords"
+#~ msgstr "Вилучити всі паролі"
+
+#~ msgid "Remove all cookies"
+#~ msgstr "Вилучити всі cookie"
+
+#~ msgid "Fonts"
+#~ msgstr "Шрифти"
+
+#~ msgid "Your navigation data"
+#~ msgstr "Ваші навігаційні дані"
+
+#~ msgid "Configure"
+#~ msgstr "Налаштувати"
 
 #~ msgid "Sans serif font"
 #~ msgstr "Шрифт без зарубок"

@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 22:40+0100\n"
+"POT-Creation-Date: 2020-12-31 00:14+0100\n"
 "PO-Revision-Date: 2020-12-30 21:43+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
-"\n"
+"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/"
+">\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -91,7 +91,7 @@ msgstr "Moteur de recherche"
 msgid "Remember sessions"
 msgstr "Se souvenir des sessions"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:558
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
 msgid "Remember passwords"
 msgstr "Se souvenir des mots de passe"
 
@@ -156,7 +156,7 @@ msgstr "Page d'accueil par défaut"
 msgid "Custom start page"
 msgstr "Page d'accueil personnalisée"
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:467
+#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:487
 msgid "Tell websites I do not want to be tracked"
 msgstr "Dire aux sites web de ne pas me suivre"
 
@@ -164,7 +164,7 @@ msgstr "Dire aux sites web de ne pas me suivre"
 msgid "Enable Firefox Sync"
 msgstr "Activer Firefox Sync"
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:484
+#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:504
 msgid "Autoplay videos"
 msgstr "Lire les vidéos automatiquement"
 
@@ -261,12 +261,14 @@ msgstr ""
 msgid "Clear Personal Data"
 msgstr "Nettoyer les données personnelles"
 
-#: ../data/DialogClearData.ui:132 ../data/PopoverUri.ui:205
+#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:97
+#: ../data/DialogNotifications.ui:97 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "Rechercher"
 
-#: ../data/DialogClearData.ui:133
+#: ../data/DialogClearData.ui:133 ../data/DialogCredentials.ui:98
+#: ../data/DialogNotifications.ui:98
 msgid "Filter domains"
 msgstr "Filtrer les domaines"
 
@@ -274,23 +276,11 @@ msgstr "Filtrer les domaines"
 msgid "C_lear"
 msgstr "E_ffacer"
 
-#: ../data/DialogClearData.ui:186
-msgid "Search domains"
-msgstr "Rechercher dans les domaines"
+#: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
+msgid "Remove"
+msgstr ""
 
-#: ../data/DialogCookies.ui:79
-msgid "Delete cookies"
-msgstr "Supprimer les cookies"
-
-#: ../data/DialogCookies.ui:104
-msgid "Cookies"
-msgstr "Cookies"
-
-#: ../data/DialogCredentials.ui:17
-msgid "Remove all passwords"
-msgstr "Supprimer tous les mots de passe"
-
-#: ../data/DialogCredentials.ui:80
+#: ../data/DialogCredentials.ui:69
 msgid "Credentials"
 msgstr "Identifiants"
 
@@ -310,6 +300,10 @@ msgstr "Importer"
 #: ../data/DialogModifyUA.ui:12
 msgid "Modify"
 msgstr "Modifier"
+
+#: ../data/DialogNotifications.ui:69 ../data/SettingsDialog.ui:449
+msgid "Notifications"
+msgstr ""
 
 #: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
@@ -351,10 +345,6 @@ msgstr "Moteurs de recherche"
 msgid "Spell checking"
 msgstr "Correction orthographique"
 
-#: ../data/PopoverCookies.ui:10
-msgid "Remove all cookies"
-msgstr "Supprimer tous les cookies"
-
 #: ../data/PopoverCredentials.ui:19
 msgid "Do you want to save this password?"
 msgstr "Voulez vous enregistrer ce mot de passe ?"
@@ -387,7 +377,7 @@ msgstr "Pas de téléchargement actif"
 msgid "OK"
 msgstr "OK"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:625
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
 msgid "Forever"
 msgstr "Toujours"
 
@@ -407,7 +397,7 @@ msgstr "Marques pages"
 msgid "Clear history"
 msgstr "Nettoyer l'historique"
 
-#: ../data/PopoverUri.ui:338 ../data/SettingsDialog.ui:603
+#: ../data/PopoverUri.ui:338
 msgid "History"
 msgstr "Historique"
 
@@ -446,10 +436,6 @@ msgstr "Passage automatique en mode nuit"
 #: ../data/SettingsDialog.ui:80
 msgid "Follow system settings"
 msgstr "Suivre les paramètres du système"
-
-#: ../data/SettingsDialog.ui:96
-msgid "Fonts"
-msgstr "Polices"
 
 #: ../data/SettingsDialog.ui:159
 msgid "Monospaced font"
@@ -532,103 +518,107 @@ msgstr "Autres"
 msgid "Zoom level for current screen"
 msgstr "Niveau de zoom pour l’écran actuel"
 
-#: ../data/SettingsDialog.ui:457
+#: ../data/SettingsDialog.ui:451
+msgid "Sites allowed to notify you"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:477
 msgid "Privacy"
 msgstr "Vie privée"
 
-#: ../data/SettingsDialog.ui:462
+#: ../data/SettingsDialog.ui:482
 msgid "Tracking"
 msgstr "Suivi"
 
-#: ../data/SettingsDialog.ui:501
+#: ../data/SettingsDialog.ui:521
 msgid "Accept cookies"
 msgstr "Accepter les cookies"
 
-#: ../data/SettingsDialog.ui:518
+#: ../data/SettingsDialog.ui:538
 msgid "Always accept"
 msgstr "Toujours accepter"
 
-#: ../data/SettingsDialog.ui:519
+#: ../data/SettingsDialog.ui:539
 msgid "Never accept"
 msgstr "Ne jamais accepter"
 
-#: ../data/SettingsDialog.ui:520
+#: ../data/SettingsDialog.ui:540
 msgid "Only from visited sites"
 msgstr "Seulement des sites que vous visitez"
 
-#: ../data/SettingsDialog.ui:553
+#: ../data/SettingsDialog.ui:558
 msgid "Data"
 msgstr "Données"
 
-#: ../data/SettingsDialog.ui:559
+#: ../data/SettingsDialog.ui:564
 msgid "Autocomplete credentials"
 msgstr "Saisie automatique des identifiants"
 
-#: ../data/SettingsDialog.ui:604
-msgid "Your navigation data"
-msgstr "Vos données de navigation"
+#: ../data/SettingsDialog.ui:608
+msgid "Navigation data"
+msgstr ""
 
-#: ../data/SettingsDialog.ui:621
+#: ../data/SettingsDialog.ui:609
+msgid "How much time we keep it?"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:626
 msgid "One day"
 msgstr "Un jour"
 
-#: ../data/SettingsDialog.ui:622
+#: ../data/SettingsDialog.ui:627
 msgid "One week"
 msgstr "Une semaine"
 
-#: ../data/SettingsDialog.ui:623
+#: ../data/SettingsDialog.ui:628
 msgid "Four weeks"
 msgstr "Quatre semaines"
 
-#: ../data/SettingsDialog.ui:624
+#: ../data/SettingsDialog.ui:629
 msgid "A year"
 msgstr "Une année"
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:631
 msgid "Do not keep"
 msgstr "Ne pas conserver"
 
-#: ../data/SettingsDialog.ui:662
+#: ../data/SettingsDialog.ui:667
 msgid "Firefox sync"
 msgstr "Firefox sync"
 
-#: ../data/SettingsDialog.ui:671
+#: ../data/SettingsDialog.ui:676
 msgid "Enable synchronization"
 msgstr "Activer la synchronisation"
 
-#: ../data/SettingsDialog.ui:673
+#: ../data/SettingsDialog.ui:678
 msgid "This will sync your history and passwords"
 msgstr "Cela synchronisera votre historique et vos mots de passe"
 
-#: ../data/SettingsDialog.ui:691
+#: ../data/SettingsDialog.ui:696
 msgid "Status"
 msgstr "État"
 
-#: ../data/SettingsDialog.ui:698
+#: ../data/SettingsDialog.ui:703
 msgid "Sync now"
 msgstr "Synchronisez maintenant"
 
-#: ../data/SettingsDialog.ui:717
-msgid "Configure"
-msgstr "Configurer"
-
-#: ../data/SettingsDialog.ui:722
+#: ../data/SettingsDialog.ui:727
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
-#: ../data/SettingsDialog.ui:737
+#: ../data/SettingsDialog.ui:742
 msgid "Password"
 msgstr "Mot de passe"
 
-#: ../data/SettingsDialog.ui:752
+#: ../data/SettingsDialog.ui:757
 msgid "Code"
 msgstr "Code"
 
-#: ../data/SettingsDialog.ui:753
+#: ../data/SettingsDialog.ui:758
 msgid "Two factor auth"
 msgstr "Authentification à deux facteurs"
 
-#: ../data/SettingsDialog.ui:770
+#: ../data/SettingsDialog.ui:775
 msgid "Start syncing"
 msgstr "Démarrer la synchronisation"
 
@@ -865,11 +855,11 @@ msgstr "Afficher le multimédia"
 msgid "Scripts"
 msgstr "Scripts"
 
-#: ../data/ToolbarMenu.ui:423
+#: ../data/ToolbarMenu.ui:422
 msgid "Allow audio"
 msgstr "Autoriser l’audio"
 
-#: ../data/ToolbarMenu.ui:435 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:434 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "Mode nuit"
 
@@ -1357,6 +1347,30 @@ msgstr "Enregistrer le mot de passe pour : %s"
 #: ../eolie/widget_uri_entry.py:433
 msgid "Paste and load"
 msgstr "Coller et charger"
+
+#~ msgid "Search domains"
+#~ msgstr "Rechercher dans les domaines"
+
+#~ msgid "Delete cookies"
+#~ msgstr "Supprimer les cookies"
+
+#~ msgid "Cookies"
+#~ msgstr "Cookies"
+
+#~ msgid "Remove all passwords"
+#~ msgstr "Supprimer tous les mots de passe"
+
+#~ msgid "Remove all cookies"
+#~ msgstr "Supprimer tous les cookies"
+
+#~ msgid "Fonts"
+#~ msgstr "Polices"
+
+#~ msgid "Your navigation data"
+#~ msgstr "Vos données de navigation"
+
+#~ msgid "Configure"
+#~ msgstr "Configurer"
 
 #~ msgid "Web page shown on startup"
 #~ msgstr "Page Web affichée au démarrage"
