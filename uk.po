@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-30 22:40+0100\n"
-"PO-Revision-Date: 2020-12-30 18:39+0000\n"
+"PO-Revision-Date: 2020-12-30 23:14+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "uk/>\n"
@@ -122,7 +122,7 @@ msgstr "Моноширний шрифт"
 
 #: ../data/org.gnome.Eolie.gschema.xml:151
 msgid "Firefox server FQDN"
-msgstr ""
+msgstr "FQDN сервера Firefox"
 
 #: ../data/org.gnome.Eolie.gschema.xml:156 ../data/SettingsDialog.ui:179
 msgid "Minimum font size"
@@ -139,11 +139,11 @@ msgstr "Типовий масштаб"
 
 #: ../data/org.gnome.Eolie.gschema.xml:171
 msgid "Domains allowed to notify user"
-msgstr ""
+msgstr "Домени, яким дозволено сповіщати користувача"
 
 #: ../data/org.gnome.Eolie.gschema.xml:176
 msgid "Cookie storage type"
-msgstr ""
+msgstr "Тип сховища cookie"
 
 #: ../data/org.gnome.Eolie.gschema.xml:181
 msgid "History storage type"
@@ -151,11 +151,11 @@ msgstr "Тип сховища історії"
 
 #: ../data/org.gnome.Eolie.gschema.xml:186
 msgid "Default start page"
-msgstr ""
+msgstr "Типова початкова сторінка"
 
 #: ../data/org.gnome.Eolie.gschema.xml:191
 msgid "Custom start page"
-msgstr ""
+msgstr "Власна початкова сторінка"
 
 #: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:467
 msgid "Tell websites I do not want to be tracked"
@@ -163,7 +163,7 @@ msgstr "Повідомляти вебсайтам, що я не хочу, щоб
 
 #: ../data/org.gnome.Eolie.gschema.xml:201
 msgid "Enable Firefox Sync"
-msgstr ""
+msgstr "Увімкнути синхронізацію Firefox"
 
 #: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:484
 msgid "Autoplay videos"
@@ -293,7 +293,7 @@ msgstr "Вилучити всі паролі"
 
 #: ../data/DialogCredentials.ui:80
 msgid "Credentials"
-msgstr ""
+msgstr "Облікові дані"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
@@ -442,11 +442,11 @@ msgstr "Зовнішній вигляд"
 
 #: ../data/SettingsDialog.ui:78
 msgid "Auto switch to night mode"
-msgstr ""
+msgstr "Автоматичний перехід у нічний режим"
 
 #: ../data/SettingsDialog.ui:80
 msgid "Follow system settings"
-msgstr ""
+msgstr "Дотримуватись системних налаштувань"
 
 #: ../data/SettingsDialog.ui:96
 msgid "Fonts"
@@ -462,11 +462,11 @@ msgstr "Запуск"
 
 #: ../data/SettingsDialog.ui:205
 msgid "Restore session"
-msgstr ""
+msgstr "Відновити сеанс"
 
 #: ../data/SettingsDialog.ui:207
 msgid "Show previously opened pages on startup"
-msgstr ""
+msgstr "Показувати раніше відкриті сторінки під час запуску"
 
 #: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:127
 msgid "Start page"
@@ -490,7 +490,7 @@ msgstr "Чиста сторінка"
 
 #: ../data/SettingsDialog.ui:245
 msgid "Custom"
-msgstr ""
+msgstr "Власна"
 
 #: ../data/SettingsDialog.ui:274
 msgid "Shown bookmarks"
@@ -498,7 +498,7 @@ msgstr "Показані закладки"
 
 #: ../data/SettingsDialog.ui:275
 msgid "How many bookmarks on startup page"
-msgstr ""
+msgstr "Скільки закладок на початковій сторінці"
 
 #: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
 #: ../data/ToolbarMenu.ui:144
@@ -507,7 +507,7 @@ msgstr "Завантаження"
 
 #: ../data/SettingsDialog.ui:303
 msgid "Folder"
-msgstr ""
+msgstr "Тека"
 
 #: ../data/SettingsDialog.ui:312
 msgid "Select download folder"
@@ -519,11 +519,11 @@ msgstr "Автоматично відкривати завантажені фа�
 
 #: ../data/SettingsDialog.ui:368
 msgid "Suggestions"
-msgstr ""
+msgstr "Пропозиції"
 
 #: ../data/SettingsDialog.ui:370
 msgid "Show suggestions from search engines"
-msgstr ""
+msgstr "Показувати пропозиції від пошукових систем"
 
 #: ../data/SettingsDialog.ui:391 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
@@ -531,7 +531,7 @@ msgstr "Інше"
 
 #: ../data/SettingsDialog.ui:397
 msgid "Zoom level for current screen"
-msgstr ""
+msgstr "Масштаб для поточного екрана"
 
 #: ../data/SettingsDialog.ui:457
 msgid "Privacy"
@@ -543,7 +543,7 @@ msgstr "Стеження"
 
 #: ../data/SettingsDialog.ui:501
 msgid "Accept cookies"
-msgstr ""
+msgstr "Приймати cookie"
 
 #: ../data/SettingsDialog.ui:518
 msgid "Always accept"
@@ -559,15 +559,15 @@ msgstr "Лише з відвіданих сайтів"
 
 #: ../data/SettingsDialog.ui:553
 msgid "Data"
-msgstr ""
+msgstr "Дані"
 
 #: ../data/SettingsDialog.ui:559
 msgid "Autocomplete credentials"
-msgstr ""
+msgstr "Автозаповнення облікових даних"
 
 #: ../data/SettingsDialog.ui:604
 msgid "Your navigation data"
-msgstr ""
+msgstr "Ваші навігаційні дані"
 
 #: ../data/SettingsDialog.ui:621
 msgid "One day"
@@ -591,43 +591,43 @@ msgstr "Не зберігати"
 
 #: ../data/SettingsDialog.ui:662
 msgid "Firefox sync"
-msgstr ""
+msgstr "Синхронізація Firefox"
 
 #: ../data/SettingsDialog.ui:671
 msgid "Enable synchronization"
-msgstr ""
+msgstr "Увімкнути синхронізацію"
 
 #: ../data/SettingsDialog.ui:673
 msgid "This will sync your history and passwords"
-msgstr ""
+msgstr "Це синхронізуватиме вашу історію та паролі"
 
 #: ../data/SettingsDialog.ui:691
 msgid "Status"
-msgstr ""
+msgstr "Стан"
 
 #: ../data/SettingsDialog.ui:698
 msgid "Sync now"
-msgstr ""
+msgstr "Синхронізувати зараз"
 
 #: ../data/SettingsDialog.ui:717
 msgid "Configure"
-msgstr ""
+msgstr "Налаштувати"
 
 #: ../data/SettingsDialog.ui:722
 msgid "Username"
-msgstr ""
+msgstr "Ім’я користувача"
 
 #: ../data/SettingsDialog.ui:737
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: ../data/SettingsDialog.ui:752
 msgid "Code"
-msgstr ""
+msgstr "Код"
 
 #: ../data/SettingsDialog.ui:753
 msgid "Two factor auth"
-msgstr ""
+msgstr "Двоетапна перевірка"
 
 #: ../data/SettingsDialog.ui:770
 msgid "Start syncing"
@@ -864,11 +864,11 @@ msgstr "Показувати мультимедіа"
 
 #: ../data/ToolbarMenu.ui:409 ../eolie/menu_scripts.py:133
 msgid "Scripts"
-msgstr ""
+msgstr "Сценарії"
 
 #: ../data/ToolbarMenu.ui:423
 msgid "Allow audio"
-msgstr ""
+msgstr "Дозволити звук"
 
 #: ../data/ToolbarMenu.ui:435 ../eolie/menu_application.py:84
 msgid "Night mode"
@@ -904,19 +904,19 @@ msgstr "З'єднання…"
 
 #: ../eolie/dialog_settings.py:152 ../eolie/dialog_settings.py:466
 msgid "Not running"
-msgstr ""
+msgstr "Не запущено"
 
 #: ../eolie/dialog_settings.py:299
 msgid "Stopped…"
-msgstr ""
+msgstr "Зупинено…"
 
 #: ../eolie/dialog_settings.py:429 ../eolie/dialog_settings.py:455
 msgid "Connected"
-msgstr ""
+msgstr "З'єднано"
 
 #: ../eolie/dialog_settings.py:431
 msgid "Failed"
-msgstr ""
+msgstr "Не вдалося"
 
 #: ../eolie/dialog_settings.py:463
 #, python-format
@@ -930,7 +930,7 @@ msgstr ""
 #: ../eolie/dialog_settings.py:474
 #, python-format
 msgid "Syncing %s"
-msgstr ""
+msgstr "Синхронізація %s"
 
 #: ../eolie/menu_application.py:42
 msgid "Block ads"
@@ -982,7 +982,7 @@ msgstr "Відкрити всі сторінки"
 
 #: ../eolie/menu_scripts.py:115
 msgid "Allow all scripts"
-msgstr ""
+msgstr "Дозволити всі сценарії"
 
 #: ../eolie/menu_sites.py:73
 msgid "Modify user agent"
@@ -1060,7 +1060,7 @@ msgstr "Продовжити"
 
 #: ../eolie/popover_tls.py:55
 msgid "The connexion is secure"
-msgstr ""
+msgstr "З'єднання безпечне"
 
 #: ../eolie/popover_tls.py:60
 #, python-format
@@ -1091,7 +1091,7 @@ msgstr ""
 
 #: ../eolie/popover_tls.py:74
 msgid "The connexion is unsecure"
-msgstr ""
+msgstr "З'єднання не захищене"
 
 #: ../eolie/popover_uri_content.py:124
 #, python-format
@@ -1283,11 +1283,11 @@ msgstr "Повідомити про ваду зараз"
 #: ../eolie/webview_navigation.py:206
 #, python-format
 msgid "Allow notifications for %s"
-msgstr ""
+msgstr "Дозволити сповіщення для %s"
 
 #: ../eolie/webview_navigation.py:207
 msgid "Allow"
-msgstr ""
+msgstr "Длзволити"
 
 #: ../eolie/webview_signals_js.py:93
 msgid "Eolie is going to close this page because it is broken"
