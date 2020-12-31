@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-31 00:18+0100\n"
-"PO-Revision-Date: 2020-12-30 23:14+0000\n"
+"PO-Revision-Date: 2021-01-01 20:29+0000\n"
 "Last-Translator: Carlos Henrique De Freitas F. <neocazen@vivaldi.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "gnumdk/eolie/pt_BR/>\n"
@@ -278,7 +278,7 @@ msgstr "Li_mpar"
 
 #: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
 msgid "Remove"
-msgstr ""
+msgstr "Remover"
 
 #: ../data/DialogCredentials.ui:69
 msgid "Credentials"
@@ -303,7 +303,7 @@ msgstr "Modificar"
 
 #: ../data/DialogNotifications.ui:69 ../data/SettingsDialog.ui:449
 msgid "Notifications"
-msgstr ""
+msgstr "Notificações"
 
 #: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
@@ -523,7 +523,7 @@ msgstr "Nível de zoom para tela atual"
 
 #: ../data/SettingsDialog.ui:451
 msgid "Sites allowed to notify you"
-msgstr ""
+msgstr "Sites autorizados a notificá-lo"
 
 #: ../data/SettingsDialog.ui:477
 msgid "Privacy"
@@ -551,7 +551,7 @@ msgstr "Somente de sites visitados"
 
 #: ../data/SettingsDialog.ui:558
 msgid "Data"
-msgstr "Dado"
+msgstr "Dados"
 
 #: ../data/SettingsDialog.ui:564
 msgid "Autocomplete credentials"
@@ -559,11 +559,11 @@ msgstr "Autocompletar credenciais"
 
 #: ../data/SettingsDialog.ui:608
 msgid "Navigation data"
-msgstr ""
+msgstr "Dados de navegação"
 
 #: ../data/SettingsDialog.ui:609
 msgid "How much time we keep it?"
-msgstr ""
+msgstr "Quanto tempo ficamos com ele?"
 
 #: ../data/SettingsDialog.ui:626
 msgid "One day"
