@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-31 00:18+0100\n"
-"PO-Revision-Date: 2020-04-14 17:11+0000\n"
+"PO-Revision-Date: 2021-01-01 20:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/"
-">\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/eolie/tr/>"
+"\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: ../data/org.gnome.Eolie.gschema.xml:26
 msgid "Show debug messages"
@@ -77,7 +77,7 @@ msgstr "Düzgün kaydırmayı etkinleştir"
 
 #: ../data/org.gnome.Eolie.gschema.xml:96
 msgid "Download folder URI"
-msgstr "URI klasörünü indir"
+msgstr "İndirilenler klasörü URI'si"
 
 #: ../data/org.gnome.Eolie.gschema.xml:101
 msgid "Open finished downloads"
@@ -121,28 +121,28 @@ msgstr "Monospace yazı tipi"
 
 #: ../data/org.gnome.Eolie.gschema.xml:151
 msgid "Firefox server FQDN"
-msgstr ""
+msgstr "Firefox sunucusu tam etki alanı adı"
 
 #: ../data/org.gnome.Eolie.gschema.xml:156 ../data/SettingsDialog.ui:179
 msgid "Minimum font size"
-msgstr "Minimum yazı tipi boyutu"
+msgstr "Asgari yazı tipi boyutu"
 
 #: ../data/org.gnome.Eolie.gschema.xml:161
 msgid "Popular items shown"
-msgstr "Gösterilen popüler öğeler"
+msgstr "Gösterilen popüler ögeler"
 
 #: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:396
 #: ../data/ToolbarMenu.ui:189
 msgid "Default zoom level"
-msgstr "Öntanımlı yakınlaştırma seviyesi"
+msgstr "Öntanımlı yakınlaştırma düzeyi"
 
 #: ../data/org.gnome.Eolie.gschema.xml:171
 msgid "Domains allowed to notify user"
-msgstr ""
+msgstr "Kullanıcıyı bilgilendirmesine izin verilen etki alanları"
 
 #: ../data/org.gnome.Eolie.gschema.xml:176
 msgid "Cookie storage type"
-msgstr ""
+msgstr "Çerez depolama türü"
 
 #: ../data/org.gnome.Eolie.gschema.xml:181
 msgid "History storage type"
@@ -150,11 +150,11 @@ msgstr "Geçmiş depolama türü"
 
 #: ../data/org.gnome.Eolie.gschema.xml:186
 msgid "Default start page"
-msgstr ""
+msgstr "Öntanımlı başlangıç sayfası"
 
 #: ../data/org.gnome.Eolie.gschema.xml:191
 msgid "Custom start page"
-msgstr ""
+msgstr "Özel başlangıç sayfası"
 
 #: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:487
 msgid "Tell websites I do not want to be tracked"
@@ -162,7 +162,7 @@ msgstr "Web sitelerine izlenmek istemediğimi söyle"
 
 #: ../data/org.gnome.Eolie.gschema.xml:201
 msgid "Enable Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync'i etkinleştir"
 
 #: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:504
 msgid "Autoplay videos"
@@ -192,7 +192,8 @@ msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Serdar Sağlam <teknomobil@yandex.com>\n"
-"Muha Aliss <muhaaliss@pm.me>"
+"Muha Aliss <muhaaliss@pm.me>\n"
+"Oğuz Ersen <oguzersen@protonmail.com>"
 
 #: ../data/AboutDialog.ui.in:52
 msgid "Donations:"
@@ -281,11 +282,11 @@ msgstr "T_emizle"
 
 #: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
 msgid "Remove"
-msgstr ""
+msgstr "Kaldır"
 
 #: ../data/DialogCredentials.ui:69
 msgid "Credentials"
-msgstr ""
+msgstr "Kimlik bilgileri"
 
 #: ../data/DialogImportBookmarks.ui:37
 msgid "Import bookmarks from:"
@@ -306,7 +307,7 @@ msgstr "Değiştir"
 
 #: ../data/DialogNotifications.ui:69 ../data/SettingsDialog.ui:449
 msgid "Notifications"
-msgstr ""
+msgstr "Bildirimler"
 
 #: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
@@ -434,11 +435,11 @@ msgstr "Görünüm"
 
 #: ../data/SettingsDialog.ui:78
 msgid "Auto switch to night mode"
-msgstr ""
+msgstr "Otomatik olarak gece moduna geç"
 
 #: ../data/SettingsDialog.ui:80
 msgid "Follow system settings"
-msgstr ""
+msgstr "Sistem ayarlarını takip et"
 
 #: ../data/SettingsDialog.ui:96
 msgid "Fonts"
@@ -454,11 +455,11 @@ msgstr "Başlangıç"
 
 #: ../data/SettingsDialog.ui:205
 msgid "Restore session"
-msgstr ""
+msgstr "Oturumu geri yükle"
 
 #: ../data/SettingsDialog.ui:207
 msgid "Show previously opened pages on startup"
-msgstr ""
+msgstr "Başlangıçta önceden açılan sayfaları göster"
 
 #: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:127
 msgid "Start page"
@@ -482,7 +483,7 @@ msgstr "Boş sayfa"
 
 #: ../data/SettingsDialog.ui:245
 msgid "Custom"
-msgstr ""
+msgstr "Özel"
 
 #: ../data/SettingsDialog.ui:274
 msgid "Shown bookmarks"
@@ -490,7 +491,7 @@ msgstr "Gösterilen yer imleri"
 
 #: ../data/SettingsDialog.ui:275
 msgid "How many bookmarks on startup page"
-msgstr ""
+msgstr "Başlangıç sayfasında kaç yer imi olacağı"
 
 #: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
 #: ../data/ToolbarMenu.ui:144
@@ -499,7 +500,7 @@ msgstr "İndirilenler"
 
 #: ../data/SettingsDialog.ui:303
 msgid "Folder"
-msgstr ""
+msgstr "Klasör"
 
 #: ../data/SettingsDialog.ui:312
 msgid "Select download folder"
@@ -511,11 +512,11 @@ msgstr "İndirilen dosyaları otomatik olarak aç"
 
 #: ../data/SettingsDialog.ui:368
 msgid "Suggestions"
-msgstr ""
+msgstr "Öneriler"
 
 #: ../data/SettingsDialog.ui:370
 msgid "Show suggestions from search engines"
-msgstr ""
+msgstr "Arama motorlarından önerileri göster"
 
 #: ../data/SettingsDialog.ui:391 ../eolie/dialog_import_bookmarks.py:46
 msgid "Others"
@@ -523,11 +524,11 @@ msgstr "Diğerleri"
 
 #: ../data/SettingsDialog.ui:397
 msgid "Zoom level for current screen"
-msgstr ""
+msgstr "Geçerli ekran için yakınlaştırma düzeyi"
 
 #: ../data/SettingsDialog.ui:451
 msgid "Sites allowed to notify you"
-msgstr ""
+msgstr "Sizi bilgilendirmesine izin verilen siteler"
 
 #: ../data/SettingsDialog.ui:477
 msgid "Privacy"
@@ -539,7 +540,7 @@ msgstr "İzleme"
 
 #: ../data/SettingsDialog.ui:521
 msgid "Accept cookies"
-msgstr ""
+msgstr "Çerezleri kabul et"
 
 #: ../data/SettingsDialog.ui:538
 msgid "Always accept"
@@ -555,19 +556,19 @@ msgstr "Sadece ziyaret edilen sitelerden"
 
 #: ../data/SettingsDialog.ui:558
 msgid "Data"
-msgstr ""
+msgstr "Veri"
 
 #: ../data/SettingsDialog.ui:564
 msgid "Autocomplete credentials"
-msgstr ""
+msgstr "Kimlik bilgilerini otomatik tamamla"
 
 #: ../data/SettingsDialog.ui:608
 msgid "Navigation data"
-msgstr ""
+msgstr "Gezinme verileri"
 
 #: ../data/SettingsDialog.ui:609
 msgid "How much time we keep it?"
-msgstr ""
+msgstr "Ne kadar zaman saklarız?"
 
 #: ../data/SettingsDialog.ui:626
 msgid "One day"
@@ -591,43 +592,43 @@ msgstr "Saklama"
 
 #: ../data/SettingsDialog.ui:667
 msgid "Firefox sync"
-msgstr ""
+msgstr "Firefox eşzamanlaması"
 
 #: ../data/SettingsDialog.ui:676
 msgid "Enable synchronization"
-msgstr ""
+msgstr "Eşzamanlamayı etkinleştir"
 
 #: ../data/SettingsDialog.ui:678
 msgid "This will sync your history and passwords"
-msgstr ""
+msgstr "Bu, geçmişinizi ve parolalarınızı eşzamanlayacak"
 
 #: ../data/SettingsDialog.ui:696
 msgid "Status"
-msgstr ""
+msgstr "Durum"
 
 #: ../data/SettingsDialog.ui:703
 msgid "Sync now"
-msgstr ""
+msgstr "Şimdi eşzamanla"
 
 #: ../data/SettingsDialog.ui:722
 msgid "Configure"
-msgstr ""
+msgstr "Yapılandır"
 
 #: ../data/SettingsDialog.ui:727
 msgid "Username"
-msgstr ""
+msgstr "Kullanıcı adı"
 
 #: ../data/SettingsDialog.ui:742
 msgid "Password"
-msgstr ""
+msgstr "Parola"
 
 #: ../data/SettingsDialog.ui:757
 msgid "Code"
-msgstr ""
+msgstr "Kod"
 
 #: ../data/SettingsDialog.ui:758
 msgid "Two factor auth"
-msgstr ""
+msgstr "İki aşamalı kimlik doğrulama"
 
 #: ../data/SettingsDialog.ui:775
 msgid "Start syncing"
@@ -756,7 +757,7 @@ msgstr "Uzaklaştır"
 #: ../data/Shortcuts.ui:176
 msgctxt "shortcut window"
 msgid "Default zoom level"
-msgstr "Öntanımlı yakınlaştırma seviyesi"
+msgstr "Öntanımlı yakınlaştırma düzeyi"
 
 #: ../data/Shortcuts.ui:183
 msgctxt "shortcut window"
@@ -781,7 +782,7 @@ msgstr "\"Medya Kaynağı Uzantısı\" nı geçici olarak etkinleştir"
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr "Navigasyon"
+msgstr "Gezinme"
 
 #: ../data/Shortcuts.ui:231
 msgctxt "shortcut window"
@@ -864,11 +865,11 @@ msgstr "Multimedyayı göster"
 
 #: ../data/ToolbarMenu.ui:409 ../eolie/menu_scripts.py:133
 msgid "Scripts"
-msgstr ""
+msgstr "Betikler"
 
 #: ../data/ToolbarMenu.ui:422
 msgid "Allow audio"
-msgstr ""
+msgstr "Sese izin ver"
 
 #: ../data/ToolbarMenu.ui:434 ../eolie/menu_application.py:84
 msgid "Night mode"
@@ -904,19 +905,19 @@ msgstr "Bağlanılıyor…"
 
 #: ../eolie/dialog_settings.py:152 ../eolie/dialog_settings.py:466
 msgid "Not running"
-msgstr ""
+msgstr "Çalışmıyor"
 
 #: ../eolie/dialog_settings.py:299
 msgid "Stopped…"
-msgstr ""
+msgstr "Durduruldu…"
 
 #: ../eolie/dialog_settings.py:429 ../eolie/dialog_settings.py:455
 msgid "Connected"
-msgstr ""
+msgstr "Bağlandı"
 
 #: ../eolie/dialog_settings.py:431
 msgid "Failed"
-msgstr ""
+msgstr "Başarısız oldu"
 
 #: ../eolie/dialog_settings.py:463
 #, python-format
@@ -930,7 +931,7 @@ msgstr ""
 #: ../eolie/dialog_settings.py:474
 #, python-format
 msgid "Syncing %s"
-msgstr ""
+msgstr "%s eşzamanlanıyor"
 
 #: ../eolie/menu_application.py:42
 msgid "Block ads"
@@ -942,7 +943,7 @@ msgstr "Açılır pencereleri engelle"
 
 #: ../eolie/menu_application.py:46
 msgid "Block scripts"
-msgstr "Scriptleri engelle"
+msgstr "Betikleri engelle"
 
 #: ../eolie/menu_application.py:58
 msgid "Blockers"
@@ -982,7 +983,7 @@ msgstr "Tüm sayfaları aç"
 
 #: ../eolie/menu_scripts.py:115
 msgid "Allow all scripts"
-msgstr ""
+msgstr "Tüm betiklere izin ver"
 
 #: ../eolie/menu_sites.py:73
 msgid "Modify user agent"
@@ -1060,7 +1061,7 @@ msgstr "Devam"
 
 #: ../eolie/popover_tls.py:55
 msgid "The connexion is secure"
-msgstr ""
+msgstr "Bağlantı güvenli"
 
 #: ../eolie/popover_tls.py:60
 #, python-format
@@ -1091,7 +1092,7 @@ msgstr ""
 
 #: ../eolie/popover_tls.py:74
 msgid "The connexion is unsecure"
-msgstr ""
+msgstr "Bağlantı güvenli değil"
 
 #: ../eolie/popover_uri_content.py:124
 #, python-format
@@ -1282,11 +1283,11 @@ msgstr "Şimdi bir hata bildir"
 #: ../eolie/webview_navigation.py:206
 #, python-format
 msgid "Allow notifications for %s"
-msgstr ""
+msgstr "%s için bildirimlere izin ver"
 
 #: ../eolie/webview_navigation.py:207
 msgid "Allow"
-msgstr ""
+msgstr "İzin ver"
 
 #: ../eolie/webview_signals_js.py:93
 msgid "Eolie is going to close this page because it is broken"
