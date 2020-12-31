@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-31 00:18+0100\n"
-"PO-Revision-Date: 2020-12-30 23:14+0000\n"
+"PO-Revision-Date: 2021-01-01 20:29+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
 "Language: nl\n"
@@ -275,7 +275,7 @@ msgstr "Wiss_en"
 
 #: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
 msgid "Remove"
-msgstr ""
+msgstr "Verwijderen"
 
 #: ../data/DialogCredentials.ui:69
 msgid "Credentials"
@@ -300,7 +300,7 @@ msgstr "Wijzigen"
 
 #: ../data/DialogNotifications.ui:69 ../data/SettingsDialog.ui:449
 msgid "Notifications"
-msgstr ""
+msgstr "Meldingen"
 
 #: ../data/DialogSearchEngine.ui:135
 msgid "Name:"
@@ -521,7 +521,7 @@ msgstr "Zoomniveau op huidige scherm"
 
 #: ../data/SettingsDialog.ui:451
 msgid "Sites allowed to notify you"
-msgstr ""
+msgstr "Websites die meldingen mogen tonen"
 
 #: ../data/SettingsDialog.ui:477
 msgid "Privacy"
@@ -557,11 +557,11 @@ msgstr "Inloggegevens automatisch aanvullen"
 
 #: ../data/SettingsDialog.ui:608
 msgid "Navigation data"
-msgstr ""
+msgstr "Surfgedrag"
 
 #: ../data/SettingsDialog.ui:609
 msgid "How much time we keep it?"
-msgstr ""
+msgstr "Hoe lang bewaren we dit?"
 
 #: ../data/SettingsDialog.ui:626
 msgid "One day"
@@ -775,7 +775,7 @@ msgstr "'Media Source Extension' tijdelijk inschakelen"
 #: ../data/Shortcuts.ui:213
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr "Navigatie"
+msgstr "Surfen"
 
 #: ../data/Shortcuts.ui:231
 msgctxt "shortcut window"
