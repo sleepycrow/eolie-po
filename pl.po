@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:18+0100\n"
+"POT-Creation-Date: 2021-01-01 23:31+0100\n"
 "PO-Revision-Date: 2020-05-07 18:28+0000\n"
 "Last-Translator: Tomasz Małota <bimbur@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/gnumdk/eolie/pl/"
@@ -88,7 +88,7 @@ msgstr "Wyszukiwarka"
 msgid "Remember sessions"
 msgstr "Pamiętaj sesje"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:582
 msgid "Remember passwords"
 msgstr "Pamiętaj hasła"
 
@@ -129,7 +129,7 @@ msgid "Popular items shown"
 msgstr "Ilość wyświetlanych popularnych elementów"
 
 #: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:396
-#: ../data/ToolbarMenu.ui:189
+#: ../data/ToolbarMenu.ui:133
 msgid "Default zoom level"
 msgstr "Domyślny rozmiar"
 
@@ -153,23 +153,27 @@ msgstr ""
 msgid "Custom start page"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:487
+#: ../data/org.gnome.Eolie.gschema.xml:196
+msgid "Custom JS script"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:201 ../data/SettingsDialog.ui:506
 msgid "Tell websites I do not want to be tracked"
 msgstr "Powiadom witryny, że nie chcę być śledzony"
 
-#: ../data/org.gnome.Eolie.gschema.xml:201
+#: ../data/org.gnome.Eolie.gschema.xml:206
 msgid "Enable Firefox Sync"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:504
+#: ../data/org.gnome.Eolie.gschema.xml:211 ../data/SettingsDialog.ui:523
 msgid "Autoplay videos"
 msgstr "Automatyczne odtwarzanie wideo"
 
-#: ../data/org.gnome.Eolie.gschema.xml:211
+#: ../data/org.gnome.Eolie.gschema.xml:216
 msgid "Enable search suggestions"
 msgstr "Włącz sugestie wyszukiwania"
 
-#: ../data/org.gnome.Eolie.gschema.xml:216 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:221 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Włącza sprawdzanie pisowni"
@@ -246,32 +250,29 @@ msgstr "Adres:"
 msgid "Load at startup"
 msgstr "Załaduj przy starcie"
 
-#: ../data/DialogClearData.ui:81
+#: ../data/DialogClearData.ui:80
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr "Nie można cofnąć tej czynności. Wybrane dane zostaną trwale usunięte."
 
-#: ../data/DialogClearData.ui:104
+#: ../data/DialogClearData.ui:103
 msgid "Clear Personal Data"
 msgstr "Wyczyść prywatne dane"
 
-#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:97
+#: ../data/DialogClearData.ui:131 ../data/DialogCredentials.ui:97
 #: ../data/DialogNotifications.ui:97 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "Szukaj"
 
-#: ../data/DialogClearData.ui:133 ../data/DialogCredentials.ui:98
+#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:98
 #: ../data/DialogNotifications.ui:98
 msgid "Filter domains"
 msgstr "Filtr domen"
 
-#: ../data/DialogClearData.ui:153
-msgid "C_lear"
-msgstr "_Wyczyść"
-
-#: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
+#: ../data/DialogClearData.ui:152 ../data/DialogCredentials.ui:17
+#: ../data/DialogNotifications.ui:17
 msgid "Remove"
 msgstr ""
 
@@ -336,7 +337,7 @@ msgstr ""
 msgid "Search engines"
 msgstr "Wyszukiwarki"
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:296
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:240
 msgid "Spell checking"
 msgstr "Sprawdzanie pisowni"
 
@@ -372,7 +373,7 @@ msgstr "Brak aktywnych pobierań"
 msgid "OK"
 msgstr "OK"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:649
 msgid "Forever"
 msgstr "Zawsze"
 
@@ -452,7 +453,7 @@ msgstr ""
 msgid "Show previously opened pages on startup"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:127
+#: ../data/SettingsDialog.ui:223
 msgid "Start page"
 msgstr "Przechodzi do strony startowej"
 
@@ -485,7 +486,6 @@ msgid "How many bookmarks on startup page"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
-#: ../data/ToolbarMenu.ui:144
 msgid "Downloads"
 msgstr "Wyświetla pobrane"
 
@@ -493,7 +493,7 @@ msgstr "Wyświetla pobrane"
 msgid "Folder"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:312
+#: ../data/SettingsDialog.ui:312 ../data/SettingsDialog.ui:478
 msgid "Select download folder"
 msgstr "Wybierz folder pobierania"
 
@@ -521,107 +521,115 @@ msgstr ""
 msgid "Sites allowed to notify you"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:477
+#: ../data/SettingsDialog.ui:469
+msgid "JavaScript"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:471
+msgid "Custom script"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:496
 msgid "Privacy"
 msgstr "Prywatność"
 
-#: ../data/SettingsDialog.ui:482
+#: ../data/SettingsDialog.ui:501
 msgid "Tracking"
 msgstr "Śledzenie"
 
-#: ../data/SettingsDialog.ui:521
+#: ../data/SettingsDialog.ui:540
 msgid "Accept cookies"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:538
+#: ../data/SettingsDialog.ui:557
 msgid "Always accept"
 msgstr "Zawsze"
 
-#: ../data/SettingsDialog.ui:539
+#: ../data/SettingsDialog.ui:558
 msgid "Never accept"
 msgstr "Nigdy"
 
-#: ../data/SettingsDialog.ui:540
+#: ../data/SettingsDialog.ui:559
 msgid "Only from visited sites"
 msgstr "Tylko z odwiedzonych stron"
 
-#: ../data/SettingsDialog.ui:558
+#: ../data/SettingsDialog.ui:577
 msgid "Data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:564
+#: ../data/SettingsDialog.ui:583
 msgid "Autocomplete credentials"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:608
+#: ../data/SettingsDialog.ui:627
 msgid "Navigation data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:609
+#: ../data/SettingsDialog.ui:628
 msgid "How much time we keep it?"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:645
 msgid "One day"
 msgstr "1 dzień"
 
-#: ../data/SettingsDialog.ui:627
+#: ../data/SettingsDialog.ui:646
 msgid "One week"
 msgstr "1 tydzień"
 
-#: ../data/SettingsDialog.ui:628
+#: ../data/SettingsDialog.ui:647
 msgid "Four weeks"
 msgstr "4 tygodnie"
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsDialog.ui:648
 msgid "A year"
 msgstr "Rok"
 
-#: ../data/SettingsDialog.ui:631
+#: ../data/SettingsDialog.ui:650
 msgid "Do not keep"
 msgstr "Nie przechowuj"
 
-#: ../data/SettingsDialog.ui:667
+#: ../data/SettingsDialog.ui:686
 msgid "Firefox sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:676
+#: ../data/SettingsDialog.ui:695
 msgid "Enable synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:678
+#: ../data/SettingsDialog.ui:697
 msgid "This will sync your history and passwords"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:696
+#: ../data/SettingsDialog.ui:715
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:703
+#: ../data/SettingsDialog.ui:722
 msgid "Sync now"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:722
+#: ../data/SettingsDialog.ui:741
 msgid "Configure"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:727
+#: ../data/SettingsDialog.ui:746
 msgid "Username"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:742
+#: ../data/SettingsDialog.ui:761
 msgid "Password"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:757
+#: ../data/SettingsDialog.ui:778
 msgid "Code"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:758
+#: ../data/SettingsDialog.ui:779
 msgid "Two factor auth"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:775
+#: ../data/SettingsDialog.ui:796
 msgid "Start syncing"
 msgstr "Rozpocznij synchronizację"
 
@@ -806,7 +814,7 @@ msgid "Close page"
 msgstr "Zamknij kartę"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:32
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:43
 msgid "Leave fullscreen"
 msgstr "Opuszcza tryb pełnoekranowy"
 
@@ -818,51 +826,51 @@ msgstr "Zabroń dostępu do tej strony"
 msgid "Startup page"
 msgstr "Strona startowa"
 
-#: ../data/ToolbarMenu.ui:65 ../eolie/toolbar_end.py:121
+#: ../data/ToolbarMenu.ui:55 ../eolie/toolbar_end.py:121
 msgid "Save page"
 msgstr "Zapisz stronę"
 
-#: ../data/ToolbarMenu.ui:82
+#: ../data/ToolbarMenu.ui:72
 msgid "Print page"
 msgstr "Drukuje stronę"
 
-#: ../data/ToolbarMenu.ui:173
+#: ../data/ToolbarMenu.ui:117
 msgid "Zoom out"
 msgstr "Oddal"
 
-#: ../data/ToolbarMenu.ui:204
+#: ../data/ToolbarMenu.ui:148
 msgid "Zoom in"
 msgstr "Przybliż"
 
-#: ../data/ToolbarMenu.ui:234
+#: ../data/ToolbarMenu.ui:178
 msgid "Filtering"
 msgstr "Filtrowanie"
 
-#: ../data/ToolbarMenu.ui:309
+#: ../data/ToolbarMenu.ui:253
 msgid "Show ads"
 msgstr "Pokaż reklamy"
 
-#: ../data/ToolbarMenu.ui:321
+#: ../data/ToolbarMenu.ui:265
 msgid "Show popups"
 msgstr "Pokaż wyskakujące okienka"
 
-#: ../data/ToolbarMenu.ui:333
+#: ../data/ToolbarMenu.ui:277
 msgid "Show images"
 msgstr "Wyświetlaj obrazy"
 
-#: ../data/ToolbarMenu.ui:345
+#: ../data/ToolbarMenu.ui:289
 msgid "Show multimedia"
 msgstr "Pokazuj multimedia"
 
-#: ../data/ToolbarMenu.ui:409 ../eolie/menu_scripts.py:133
+#: ../data/ToolbarMenu.ui:353 ../eolie/menu_scripts.py:131
 msgid "Scripts"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:422
+#: ../data/ToolbarMenu.ui:366
 msgid "Allow audio"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:434 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:378 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "Tryb nocny"
 
@@ -878,6 +886,10 @@ msgstr "Pobieranie w toku, czy na pewno chcesz wyjść?"
 msgid "Please consider a donation to the project"
 msgstr "Proszę, rozważ datek na ten projekt"
 
+#: ../eolie/container_reading.py:113
+msgid "Nothing to display"
+msgstr ""
+
 #: ../eolie/container_stack.py:242
 msgid "Do you really want to close this page?"
 msgstr "Zamknąć tę stronę?"
@@ -890,36 +902,31 @@ msgstr "Importuj zakładki HTML"
 msgid "New engine"
 msgstr "Nowy silnik"
 
-#: ../eolie/dialog_settings.py:148 ../eolie/dialog_settings.py:286
+#: ../eolie/dialog_settings.py:155 ../eolie/dialog_settings.py:303
 msgid "Connecting…"
 msgstr "Łączenie…"
 
-#: ../eolie/dialog_settings.py:152 ../eolie/dialog_settings.py:466
+#: ../eolie/dialog_settings.py:159 ../eolie/dialog_settings.py:362
 msgid "Not running"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:299
+#: ../eolie/dialog_settings.py:314
 msgid "Stopped…"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:429 ../eolie/dialog_settings.py:455
+#: ../eolie/dialog_settings.py:456 ../eolie/dialog_settings.py:485
 msgid "Connected"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:431
+#: ../eolie/dialog_settings.py:459
+msgid "Check your email and connect again"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:461
 msgid "Failed"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:463
-#, python-format
-msgid ""
-"Syncing is not available on your computer:\n"
-"%s"
-msgstr ""
-"Synchronizacja nie jest dostępna na twoim komputerze:\n"
-"%s"
-
-#: ../eolie/dialog_settings.py:474
+#: ../eolie/dialog_settings.py:494
 #, python-format
 msgid "Syncing %s"
 msgstr ""
@@ -972,7 +979,7 @@ msgstr "Zamknięte karty"
 msgid "Open all pages"
 msgstr "Otwórz wszystkie karty"
 
-#: ../eolie/menu_scripts.py:115
+#: ../eolie/menu_scripts.py:113
 msgid "Allow all scripts"
 msgstr ""
 
@@ -988,7 +995,7 @@ msgstr "Przypięta strona"
 msgid "Close site"
 msgstr "Zamknij stronę"
 
-#: ../eolie/menu_toolbar.py:49
+#: ../eolie/menu_toolbar.py:45
 msgid "Enter fullscreen"
 msgstr "Przechodzi w tryb pełnoekranowy"
 
@@ -1177,11 +1184,11 @@ msgstr ""
 "Jeśli wpiszesz tutaj swoje hasło, będzie\n"
 "ono widoczne dla cyberprzestępców!"
 
-#: ../eolie/webview_errors.py:105
+#: ../eolie/webview_errors.py:90
 msgid "Failed to load this web page"
 msgstr "Nie udało się wczytać tej strony internetowej"
 
-#: ../eolie/webview_errors.py:106
+#: ../eolie/webview_errors.py:91
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -1189,55 +1196,55 @@ msgstr ""
 "Może ona być tymczasowo niedostępna lub została przeniesiona pod inny adres."
 "<br/>Proszę sprawdzić, czy połączenie internetowe działa prawidłowo."
 
-#: ../eolie/webview_errors.py:112
+#: ../eolie/webview_errors.py:97
 msgid "Network not available"
 msgstr "Sieć jest niedostępna"
 
-#: ../eolie/webview_errors.py:113
+#: ../eolie/webview_errors.py:98
 msgid "Check your network connection"
 msgstr "Sprawdź swoje połączenie internetowe"
 
-#: ../eolie/webview_errors.py:123
+#: ../eolie/webview_errors.py:108
 msgid "Retry"
 msgstr "Ponów"
 
-#: ../eolie/webview_errors.py:149
+#: ../eolie/webview_errors.py:134
 msgid "The certificate does not match this website"
 msgstr "Ten certyfikat nie pasuje do strony"
 
-#: ../eolie/webview_errors.py:151
+#: ../eolie/webview_errors.py:136
 msgid "The certificate has expired"
 msgstr "Certyfikat wygasł"
 
-#: ../eolie/webview_errors.py:153
+#: ../eolie/webview_errors.py:138
 msgid "The signing certificate authority is not known"
 msgstr "Autoryzacja certyfikatu podpisania nie jest znana"
 
-#: ../eolie/webview_errors.py:155
+#: ../eolie/webview_errors.py:140
 msgid "The certificate contains errors"
 msgstr "Certyfikat zawiera błędy"
 
-#: ../eolie/webview_errors.py:157
+#: ../eolie/webview_errors.py:142
 msgid "The certificate has been revoked"
 msgstr "Certyfikat został unieważniony"
 
-#: ../eolie/webview_errors.py:159
+#: ../eolie/webview_errors.py:144
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Certyfikat został podpisany przy użyciu słabego algorytmu podpisu"
 
-#: ../eolie/webview_errors.py:163
+#: ../eolie/webview_errors.py:148
 msgid "The certificate activation time is still in the future"
 msgstr "Czas aktywacji certyfikatu nadal jest w przyszłości"
 
-#: ../eolie/webview_errors.py:165
+#: ../eolie/webview_errors.py:150
 msgid "The identity of this website has not been verified"
 msgstr "Tożsamość tej witryny nie została zweryfikowana"
 
-#: ../eolie/webview_errors.py:166 ../eolie/webview_errors.py:170
+#: ../eolie/webview_errors.py:151 ../eolie/webview_errors.py:155
 msgid "Connection is not secure"
 msgstr "Połączenie nie jest bezpieczne"
 
-#: ../eolie/webview_errors.py:172
+#: ../eolie/webview_errors.py:157
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1248,15 +1255,15 @@ msgstr ""
 "lub zmienić informacje przechodzące przez tę witrynę (np.: prywatne "
 "wiadomości, informacje o kartach kredytowych lub hasła)."
 
-#: ../eolie/webview_errors.py:178
+#: ../eolie/webview_errors.py:163
 msgid "Accept Risk and Proceed"
 msgstr "Zaakceptuj ryzyko i kontynuuj"
 
-#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:199
+#: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:184
 msgid "WebKit web engine crashed"
 msgstr "Silnik internetowy WebKit uległ awarii"
 
-#: ../eolie/webview_errors.py:201
+#: ../eolie/webview_errors.py:186
 msgid ""
 "The webpage was terminated unexpectedly. To continue, reload or go to "
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
@@ -1267,7 +1274,7 @@ msgstr ""
 "powtarzał, możesz zgłosić błąd :)<br/>Wybierz <b>'WebKit Gtk'</b> jako "
 "komponent.<br/> Ustaw <b>[GTK]</b> jako prefiks tematu."
 
-#: ../eolie/webview_errors.py:207
+#: ../eolie/webview_errors.py:192
 msgid "Report a bug now"
 msgstr "Zgłoś błąd"
 
@@ -1280,7 +1287,7 @@ msgstr ""
 msgid "Allow"
 msgstr ""
 
-#: ../eolie/webview_signals_js.py:93
+#: ../eolie/webview_signals_js.py:86
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie ma zamiar zamknąć tę stronę, gdyż jest ona uszkodzona"
 
@@ -1348,6 +1355,17 @@ msgstr "Zapisz hasło dla: %s"
 #: ../eolie/widget_uri_entry.py:433
 msgid "Paste and load"
 msgstr "Wklej i przejdź do strony"
+
+#~ msgid "C_lear"
+#~ msgstr "_Wyczyść"
+
+#, python-format
+#~ msgid ""
+#~ "Syncing is not available on your computer:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Synchronizacja nie jest dostępna na twoim komputerze:\n"
+#~ "%s"
 
 #~ msgid "Search domains"
 #~ msgstr "Wyszukaj domeny"

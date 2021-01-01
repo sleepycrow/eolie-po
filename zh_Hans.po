@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:18+0100\n"
+"POT-Creation-Date: 2021-01-01 23:31+0100\n"
 "PO-Revision-Date: 2020-12-02 17:29+0000\n"
 "Last-Translator: maitreya2019 <crc2005@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -91,7 +91,7 @@ msgstr "网络搜索引擎"
 msgid "Remember sessions"
 msgstr "记住会话"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:582
 msgid "Remember passwords"
 msgstr "记住密码"
 
@@ -132,7 +132,7 @@ msgid "Popular items shown"
 msgstr "显示热门项目"
 
 #: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:396
-#: ../data/ToolbarMenu.ui:189
+#: ../data/ToolbarMenu.ui:133
 msgid "Default zoom level"
 msgstr "默认缩放级别"
 
@@ -156,23 +156,27 @@ msgstr ""
 msgid "Custom start page"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:487
+#: ../data/org.gnome.Eolie.gschema.xml:196
+msgid "Custom JS script"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:201 ../data/SettingsDialog.ui:506
 msgid "Tell websites I do not want to be tracked"
 msgstr "告诉网站我不想被跟踪"
 
-#: ../data/org.gnome.Eolie.gschema.xml:201
+#: ../data/org.gnome.Eolie.gschema.xml:206
 msgid "Enable Firefox Sync"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:504
+#: ../data/org.gnome.Eolie.gschema.xml:211 ../data/SettingsDialog.ui:523
 msgid "Autoplay videos"
 msgstr "自动播放视频"
 
-#: ../data/org.gnome.Eolie.gschema.xml:211
+#: ../data/org.gnome.Eolie.gschema.xml:216
 msgid "Enable search suggestions"
 msgstr "启用搜索建议"
 
-#: ../data/org.gnome.Eolie.gschema.xml:216 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:221 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "启用拼写检查"
@@ -249,32 +253,29 @@ msgstr "地址："
 msgid "Load at startup"
 msgstr "在启动时加载"
 
-#: ../data/DialogClearData.ui:81
+#: ../data/DialogClearData.ui:80
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr "您不能撤消该操作。您选择清除的数据将被永久删除。"
 
-#: ../data/DialogClearData.ui:104
+#: ../data/DialogClearData.ui:103
 msgid "Clear Personal Data"
 msgstr "清除个人数据"
 
-#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:97
+#: ../data/DialogClearData.ui:131 ../data/DialogCredentials.ui:97
 #: ../data/DialogNotifications.ui:97 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "搜索"
 
-#: ../data/DialogClearData.ui:133 ../data/DialogCredentials.ui:98
+#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:98
 #: ../data/DialogNotifications.ui:98
 msgid "Filter domains"
 msgstr "过滤域"
 
-#: ../data/DialogClearData.ui:153
-msgid "C_lear"
-msgstr "清除(_L)"
-
-#: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
+#: ../data/DialogClearData.ui:152 ../data/DialogCredentials.ui:17
+#: ../data/DialogNotifications.ui:17
 msgid "Remove"
 msgstr ""
 
@@ -336,7 +337,7 @@ msgstr ""
 msgid "Search engines"
 msgstr "搜索引擎"
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:296
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:240
 msgid "Spell checking"
 msgstr "拼写检查"
 
@@ -372,7 +373,7 @@ msgstr "无活动的下载"
 msgid "OK"
 msgstr "确定"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:649
 msgid "Forever"
 msgstr "永久"
 
@@ -452,7 +453,7 @@ msgstr ""
 msgid "Show previously opened pages on startup"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:127
+#: ../data/SettingsDialog.ui:223
 msgid "Start page"
 msgstr "启动页"
 
@@ -485,7 +486,6 @@ msgid "How many bookmarks on startup page"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
-#: ../data/ToolbarMenu.ui:144
 msgid "Downloads"
 msgstr "下载"
 
@@ -493,7 +493,7 @@ msgstr "下载"
 msgid "Folder"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:312
+#: ../data/SettingsDialog.ui:312 ../data/SettingsDialog.ui:478
 msgid "Select download folder"
 msgstr "选择下载文件夹"
 
@@ -521,107 +521,115 @@ msgstr ""
 msgid "Sites allowed to notify you"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:477
+#: ../data/SettingsDialog.ui:469
+msgid "JavaScript"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:471
+msgid "Custom script"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:496
 msgid "Privacy"
 msgstr "隐私"
 
-#: ../data/SettingsDialog.ui:482
+#: ../data/SettingsDialog.ui:501
 msgid "Tracking"
 msgstr "跟踪"
 
-#: ../data/SettingsDialog.ui:521
+#: ../data/SettingsDialog.ui:540
 msgid "Accept cookies"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:538
+#: ../data/SettingsDialog.ui:557
 msgid "Always accept"
 msgstr "总是接受"
 
-#: ../data/SettingsDialog.ui:539
+#: ../data/SettingsDialog.ui:558
 msgid "Never accept"
 msgstr "从不接受"
 
-#: ../data/SettingsDialog.ui:540
+#: ../data/SettingsDialog.ui:559
 msgid "Only from visited sites"
 msgstr "仅来自您浏览的网站"
 
-#: ../data/SettingsDialog.ui:558
+#: ../data/SettingsDialog.ui:577
 msgid "Data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:564
+#: ../data/SettingsDialog.ui:583
 msgid "Autocomplete credentials"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:608
+#: ../data/SettingsDialog.ui:627
 msgid "Navigation data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:609
+#: ../data/SettingsDialog.ui:628
 msgid "How much time we keep it?"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:645
 msgid "One day"
 msgstr "一天"
 
-#: ../data/SettingsDialog.ui:627
+#: ../data/SettingsDialog.ui:646
 msgid "One week"
 msgstr "一周"
 
-#: ../data/SettingsDialog.ui:628
+#: ../data/SettingsDialog.ui:647
 msgid "Four weeks"
 msgstr "四周"
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsDialog.ui:648
 msgid "A year"
 msgstr "一年"
 
-#: ../data/SettingsDialog.ui:631
+#: ../data/SettingsDialog.ui:650
 msgid "Do not keep"
 msgstr "不要保留"
 
-#: ../data/SettingsDialog.ui:667
+#: ../data/SettingsDialog.ui:686
 msgid "Firefox sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:676
+#: ../data/SettingsDialog.ui:695
 msgid "Enable synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:678
+#: ../data/SettingsDialog.ui:697
 msgid "This will sync your history and passwords"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:696
+#: ../data/SettingsDialog.ui:715
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:703
+#: ../data/SettingsDialog.ui:722
 msgid "Sync now"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:722
+#: ../data/SettingsDialog.ui:741
 msgid "Configure"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:727
+#: ../data/SettingsDialog.ui:746
 msgid "Username"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:742
+#: ../data/SettingsDialog.ui:761
 msgid "Password"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:757
+#: ../data/SettingsDialog.ui:778
 msgid "Code"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:758
+#: ../data/SettingsDialog.ui:779
 msgid "Two factor auth"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:775
+#: ../data/SettingsDialog.ui:796
 msgid "Start syncing"
 msgstr "开始同步"
 
@@ -806,7 +814,7 @@ msgid "Close page"
 msgstr "关闭页面"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:32
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:43
 msgid "Leave fullscreen"
 msgstr "退出全屏"
 
@@ -818,51 +826,51 @@ msgstr "禁止访问此网站"
 msgid "Startup page"
 msgstr "启动页"
 
-#: ../data/ToolbarMenu.ui:65 ../eolie/toolbar_end.py:121
+#: ../data/ToolbarMenu.ui:55 ../eolie/toolbar_end.py:121
 msgid "Save page"
 msgstr "保存页面"
 
-#: ../data/ToolbarMenu.ui:82
+#: ../data/ToolbarMenu.ui:72
 msgid "Print page"
 msgstr "打印页面"
 
-#: ../data/ToolbarMenu.ui:173
+#: ../data/ToolbarMenu.ui:117
 msgid "Zoom out"
 msgstr "缩小"
 
-#: ../data/ToolbarMenu.ui:204
+#: ../data/ToolbarMenu.ui:148
 msgid "Zoom in"
 msgstr "放大"
 
-#: ../data/ToolbarMenu.ui:234
+#: ../data/ToolbarMenu.ui:178
 msgid "Filtering"
 msgstr "过滤中"
 
-#: ../data/ToolbarMenu.ui:309
+#: ../data/ToolbarMenu.ui:253
 msgid "Show ads"
 msgstr "显示广告"
 
-#: ../data/ToolbarMenu.ui:321
+#: ../data/ToolbarMenu.ui:265
 msgid "Show popups"
 msgstr "显示弹出窗口"
 
-#: ../data/ToolbarMenu.ui:333
+#: ../data/ToolbarMenu.ui:277
 msgid "Show images"
 msgstr "显示图片"
 
-#: ../data/ToolbarMenu.ui:345
+#: ../data/ToolbarMenu.ui:289
 msgid "Show multimedia"
 msgstr "显示多媒体"
 
-#: ../data/ToolbarMenu.ui:409 ../eolie/menu_scripts.py:133
+#: ../data/ToolbarMenu.ui:353 ../eolie/menu_scripts.py:131
 msgid "Scripts"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:422
+#: ../data/ToolbarMenu.ui:366
 msgid "Allow audio"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:434 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:378 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "夜间模式"
 
@@ -878,6 +886,10 @@ msgstr "用运行中的下载任务，您确定要退出？"
 msgid "Please consider a donation to the project"
 msgstr "请考虑向此项目捐赠"
 
+#: ../eolie/container_reading.py:113
+msgid "Nothing to display"
+msgstr ""
+
 #: ../eolie/container_stack.py:242
 msgid "Do you really want to close this page?"
 msgstr "您确定要关闭此页面吗？"
@@ -890,36 +902,31 @@ msgstr "导入 HTML 书签"
 msgid "New engine"
 msgstr "新建引擎"
 
-#: ../eolie/dialog_settings.py:148 ../eolie/dialog_settings.py:286
+#: ../eolie/dialog_settings.py:155 ../eolie/dialog_settings.py:303
 msgid "Connecting…"
 msgstr "连接中……"
 
-#: ../eolie/dialog_settings.py:152 ../eolie/dialog_settings.py:466
+#: ../eolie/dialog_settings.py:159 ../eolie/dialog_settings.py:362
 msgid "Not running"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:299
+#: ../eolie/dialog_settings.py:314
 msgid "Stopped…"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:429 ../eolie/dialog_settings.py:455
+#: ../eolie/dialog_settings.py:456 ../eolie/dialog_settings.py:485
 msgid "Connected"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:431
+#: ../eolie/dialog_settings.py:459
+msgid "Check your email and connect again"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:461
 msgid "Failed"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:463
-#, python-format
-msgid ""
-"Syncing is not available on your computer:\n"
-"%s"
-msgstr ""
-"同步在您的电脑上不可用：\n"
-"%s"
-
-#: ../eolie/dialog_settings.py:474
+#: ../eolie/dialog_settings.py:494
 #, python-format
 msgid "Syncing %s"
 msgstr ""
@@ -972,7 +979,7 @@ msgstr "已关闭的页面"
 msgid "Open all pages"
 msgstr "打开所有页面"
 
-#: ../eolie/menu_scripts.py:115
+#: ../eolie/menu_scripts.py:113
 msgid "Allow all scripts"
 msgstr ""
 
@@ -988,7 +995,7 @@ msgstr "固定网站"
 msgid "Close site"
 msgstr "关闭网站"
 
-#: ../eolie/menu_toolbar.py:49
+#: ../eolie/menu_toolbar.py:45
 msgid "Enter fullscreen"
 msgstr "进入全屏"
 
@@ -1177,11 +1184,11 @@ msgstr ""
 "如果您输入您的密码，\n"
 "它可被网络犯罪份子看到！"
 
-#: ../eolie/webview_errors.py:105
+#: ../eolie/webview_errors.py:90
 msgid "Failed to load this web page"
 msgstr "载入此网页失败"
 
-#: ../eolie/webview_errors.py:106
+#: ../eolie/webview_errors.py:91
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -1189,55 +1196,55 @@ msgstr ""
 "该站点可能暂时无法访问或已移动到新的地址。<br/>您可能需要确定互联网连接是否正"
 "常。"
 
-#: ../eolie/webview_errors.py:112
+#: ../eolie/webview_errors.py:97
 msgid "Network not available"
 msgstr "网络不可用"
 
-#: ../eolie/webview_errors.py:113
+#: ../eolie/webview_errors.py:98
 msgid "Check your network connection"
 msgstr "检查您的网络连接"
 
-#: ../eolie/webview_errors.py:123
+#: ../eolie/webview_errors.py:108
 msgid "Retry"
 msgstr "重试"
 
-#: ../eolie/webview_errors.py:149
+#: ../eolie/webview_errors.py:134
 msgid "The certificate does not match this website"
 msgstr "证书与此网站不符"
 
-#: ../eolie/webview_errors.py:151
+#: ../eolie/webview_errors.py:136
 msgid "The certificate has expired"
 msgstr "证书已过期"
 
-#: ../eolie/webview_errors.py:153
+#: ../eolie/webview_errors.py:138
 msgid "The signing certificate authority is not known"
 msgstr "签署的证书颁发机构未知"
 
-#: ../eolie/webview_errors.py:155
+#: ../eolie/webview_errors.py:140
 msgid "The certificate contains errors"
 msgstr "证书包含错误"
 
-#: ../eolie/webview_errors.py:157
+#: ../eolie/webview_errors.py:142
 msgid "The certificate has been revoked"
 msgstr "证书已被吊销"
 
-#: ../eolie/webview_errors.py:159
+#: ../eolie/webview_errors.py:144
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "证书正使用弱签名算法签署"
 
-#: ../eolie/webview_errors.py:163
+#: ../eolie/webview_errors.py:148
 msgid "The certificate activation time is still in the future"
 msgstr "证书启用时间还未到来"
 
-#: ../eolie/webview_errors.py:165
+#: ../eolie/webview_errors.py:150
 msgid "The identity of this website has not been verified"
 msgstr "该网站的身份尚未验证"
 
-#: ../eolie/webview_errors.py:166 ../eolie/webview_errors.py:170
+#: ../eolie/webview_errors.py:151 ../eolie/webview_errors.py:155
 msgid "Connection is not secure"
 msgstr "连接不安全"
 
-#: ../eolie/webview_errors.py:172
+#: ../eolie/webview_errors.py:157
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1247,15 +1254,15 @@ msgstr ""
 "此网站似乎不是真的 %s。<br/>攻击这可能在窃取或更改发往或发自该网站的信息（例"
 "如，私人信息、信用卡信息或密码）。"
 
-#: ../eolie/webview_errors.py:178
+#: ../eolie/webview_errors.py:163
 msgid "Accept Risk and Proceed"
 msgstr "接受风险并继续"
 
-#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:199
+#: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:184
 msgid "WebKit web engine crashed"
 msgstr "WebKit 网络引擎已崩溃"
 
-#: ../eolie/webview_errors.py:201
+#: ../eolie/webview_errors.py:186
 msgid ""
 "The webpage was terminated unexpectedly. To continue, reload or go to "
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
@@ -1265,7 +1272,7 @@ msgstr ""
 "在，您可以以<b>“WebKit Gtk”</b>为组件报告缺陷 :)。<br/>设定 <b>[GTK]</b> 作为"
 "主题前缀。"
 
-#: ../eolie/webview_errors.py:207
+#: ../eolie/webview_errors.py:192
 msgid "Report a bug now"
 msgstr "立即报告缺陷"
 
@@ -1278,7 +1285,7 @@ msgstr ""
 msgid "Allow"
 msgstr ""
 
-#: ../eolie/webview_signals_js.py:93
+#: ../eolie/webview_signals_js.py:86
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie 将要关闭此页面，因为它已损坏"
 
@@ -1346,6 +1353,17 @@ msgstr "保存%s的密码"
 #: ../eolie/widget_uri_entry.py:433
 msgid "Paste and load"
 msgstr "粘贴并载入"
+
+#~ msgid "C_lear"
+#~ msgstr "清除(_L)"
+
+#, python-format
+#~ msgid ""
+#~ "Syncing is not available on your computer:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "同步在您的电脑上不可用：\n"
+#~ "%s"
 
 #~ msgid "Search domains"
 #~ msgstr "搜索域"

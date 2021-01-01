@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:18+0100\n"
+"POT-Creation-Date: 2021-01-01 23:31+0100\n"
 "PO-Revision-Date: 2021-01-01 20:29+0000\n"
 "Last-Translator: سهیل خانعلی‌پور <soheil@disroot.org>\n"
-"Language-Team: Persian <https://hosted.weblate.org/projects/gnumdk/eolie/fa/>"
-"\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/gnumdk/eolie/fa/"
+">\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -91,7 +91,7 @@ msgstr "جستجوگر وب"
 msgid "Remember sessions"
 msgstr "به یاد داشتن نشست‌ها"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:582
 msgid "Remember passwords"
 msgstr "گذرواژه‌های به یاد مانده"
 
@@ -132,7 +132,7 @@ msgid "Popular items shown"
 msgstr ""
 
 #: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:396
-#: ../data/ToolbarMenu.ui:189
+#: ../data/ToolbarMenu.ui:133
 msgid "Default zoom level"
 msgstr ""
 
@@ -156,23 +156,27 @@ msgstr ""
 msgid "Custom start page"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:487
+#: ../data/org.gnome.Eolie.gschema.xml:196
+msgid "Custom JS script"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:201 ../data/SettingsDialog.ui:506
 msgid "Tell websites I do not want to be tracked"
 msgstr "به وبگاه‌ها بگویید نمی‌خواهم ردیابی شوم"
 
-#: ../data/org.gnome.Eolie.gschema.xml:201
+#: ../data/org.gnome.Eolie.gschema.xml:206
 msgid "Enable Firefox Sync"
 msgstr ""
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:504
+#: ../data/org.gnome.Eolie.gschema.xml:211 ../data/SettingsDialog.ui:523
 msgid "Autoplay videos"
 msgstr "نمایش خودکار ویدیوها"
 
-#: ../data/org.gnome.Eolie.gschema.xml:211
+#: ../data/org.gnome.Eolie.gschema.xml:216
 msgid "Enable search suggestions"
 msgstr "فعال کردن پیشنهادهای جستجو"
 
-#: ../data/org.gnome.Eolie.gschema.xml:216 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:221 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "فعال کردن بررسی هجی"
@@ -249,7 +253,7 @@ msgstr "نشانی:"
 msgid "Load at startup"
 msgstr "بارگیری هنگام راه‌اندازی"
 
-#: ../data/DialogClearData.ui:81
+#: ../data/DialogClearData.ui:80
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
@@ -257,26 +261,23 @@ msgstr ""
 "شما نمی‌توانید این کنش را پس بدهید. داده‌ای که شما برای پاک کردن انتخاب می‌کنید "
 "برای همیشه حذف می‌شود."
 
-#: ../data/DialogClearData.ui:104
+#: ../data/DialogClearData.ui:103
 msgid "Clear Personal Data"
 msgstr "پاک کردن داده‌های شخصی"
 
-#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:97
+#: ../data/DialogClearData.ui:131 ../data/DialogCredentials.ui:97
 #: ../data/DialogNotifications.ui:97 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "جستجو"
 
-#: ../data/DialogClearData.ui:133 ../data/DialogCredentials.ui:98
+#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:98
 #: ../data/DialogNotifications.ui:98
 msgid "Filter domains"
 msgstr ""
 
-#: ../data/DialogClearData.ui:153
-msgid "C_lear"
-msgstr ""
-
-#: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
+#: ../data/DialogClearData.ui:152 ../data/DialogCredentials.ui:17
+#: ../data/DialogNotifications.ui:17
 msgid "Remove"
 msgstr ""
 
@@ -336,7 +337,7 @@ msgstr ""
 msgid "Search engines"
 msgstr ""
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:296
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:240
 msgid "Spell checking"
 msgstr "بررسی هجی"
 
@@ -372,7 +373,7 @@ msgstr "بارگیری فعالی وجود ندارد"
 msgid "OK"
 msgstr "خوب"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:649
 msgid "Forever"
 msgstr "همیشه"
 
@@ -452,7 +453,7 @@ msgstr ""
 msgid "Show previously opened pages on startup"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:127
+#: ../data/SettingsDialog.ui:223
 msgid "Start page"
 msgstr "صفحه آغاز"
 
@@ -485,7 +486,6 @@ msgid "How many bookmarks on startup page"
 msgstr ""
 
 #: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
-#: ../data/ToolbarMenu.ui:144
 msgid "Downloads"
 msgstr "بارگیری‌ها"
 
@@ -493,7 +493,7 @@ msgstr "بارگیری‌ها"
 msgid "Folder"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:312
+#: ../data/SettingsDialog.ui:312 ../data/SettingsDialog.ui:478
 msgid "Select download folder"
 msgstr "انتخاب پوشه بارگیری"
 
@@ -521,107 +521,115 @@ msgstr ""
 msgid "Sites allowed to notify you"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:477
+#: ../data/SettingsDialog.ui:469
+msgid "JavaScript"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:471
+msgid "Custom script"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:496
 msgid "Privacy"
 msgstr "پنهانی"
 
-#: ../data/SettingsDialog.ui:482
+#: ../data/SettingsDialog.ui:501
 msgid "Tracking"
 msgstr "ردیابی"
 
-#: ../data/SettingsDialog.ui:521
+#: ../data/SettingsDialog.ui:540
 msgid "Accept cookies"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:538
+#: ../data/SettingsDialog.ui:557
 msgid "Always accept"
 msgstr "همیشه بپذیر"
 
-#: ../data/SettingsDialog.ui:539
+#: ../data/SettingsDialog.ui:558
 msgid "Never accept"
 msgstr "هرگز نپذیر"
 
-#: ../data/SettingsDialog.ui:540
+#: ../data/SettingsDialog.ui:559
 msgid "Only from visited sites"
 msgstr "تنها از پایگاه‌های دیده شده"
 
-#: ../data/SettingsDialog.ui:558
+#: ../data/SettingsDialog.ui:577
 msgid "Data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:564
+#: ../data/SettingsDialog.ui:583
 msgid "Autocomplete credentials"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:608
+#: ../data/SettingsDialog.ui:627
 msgid "Navigation data"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:609
+#: ../data/SettingsDialog.ui:628
 msgid "How much time we keep it?"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:645
 msgid "One day"
 msgstr "یک روز"
 
-#: ../data/SettingsDialog.ui:627
+#: ../data/SettingsDialog.ui:646
 msgid "One week"
 msgstr "یک هفته"
 
-#: ../data/SettingsDialog.ui:628
+#: ../data/SettingsDialog.ui:647
 msgid "Four weeks"
 msgstr "چهار هفته"
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsDialog.ui:648
 msgid "A year"
 msgstr "یک سال"
 
-#: ../data/SettingsDialog.ui:631
+#: ../data/SettingsDialog.ui:650
 msgid "Do not keep"
 msgstr "نگه ندار"
 
-#: ../data/SettingsDialog.ui:667
+#: ../data/SettingsDialog.ui:686
 msgid "Firefox sync"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:676
+#: ../data/SettingsDialog.ui:695
 msgid "Enable synchronization"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:678
+#: ../data/SettingsDialog.ui:697
 msgid "This will sync your history and passwords"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:696
+#: ../data/SettingsDialog.ui:715
 msgid "Status"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:703
+#: ../data/SettingsDialog.ui:722
 msgid "Sync now"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:722
+#: ../data/SettingsDialog.ui:741
 msgid "Configure"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:727
+#: ../data/SettingsDialog.ui:746
 msgid "Username"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:742
+#: ../data/SettingsDialog.ui:761
 msgid "Password"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:757
+#: ../data/SettingsDialog.ui:778
 msgid "Code"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:758
+#: ../data/SettingsDialog.ui:779
 msgid "Two factor auth"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:775
+#: ../data/SettingsDialog.ui:796
 msgid "Start syncing"
 msgstr ""
 
@@ -806,7 +814,7 @@ msgid "Close page"
 msgstr "بستن صفحه"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:32
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:43
 msgid "Leave fullscreen"
 msgstr ""
 
@@ -818,51 +826,51 @@ msgstr ""
 msgid "Startup page"
 msgstr "صفحه راه‌اندازی"
 
-#: ../data/ToolbarMenu.ui:65 ../eolie/toolbar_end.py:121
+#: ../data/ToolbarMenu.ui:55 ../eolie/toolbar_end.py:121
 msgid "Save page"
 msgstr "ذخیره صفحه"
 
-#: ../data/ToolbarMenu.ui:82
+#: ../data/ToolbarMenu.ui:72
 msgid "Print page"
 msgstr "چاپ صفحه"
 
-#: ../data/ToolbarMenu.ui:173
+#: ../data/ToolbarMenu.ui:117
 msgid "Zoom out"
 msgstr "دور نمایی"
 
-#: ../data/ToolbarMenu.ui:204
+#: ../data/ToolbarMenu.ui:148
 msgid "Zoom in"
 msgstr "نزدیک نمایی"
 
-#: ../data/ToolbarMenu.ui:234
+#: ../data/ToolbarMenu.ui:178
 msgid "Filtering"
 msgstr "پالایش"
 
-#: ../data/ToolbarMenu.ui:309
+#: ../data/ToolbarMenu.ui:253
 msgid "Show ads"
 msgstr "نمایش تبلیغ"
 
-#: ../data/ToolbarMenu.ui:321
+#: ../data/ToolbarMenu.ui:265
 msgid "Show popups"
 msgstr "نمایش بازشونده‌ها"
 
-#: ../data/ToolbarMenu.ui:333
+#: ../data/ToolbarMenu.ui:277
 msgid "Show images"
 msgstr "نمایش عکس‌ها"
 
-#: ../data/ToolbarMenu.ui:345
+#: ../data/ToolbarMenu.ui:289
 msgid "Show multimedia"
 msgstr "نمایش چندرسانه‌ای"
 
-#: ../data/ToolbarMenu.ui:409 ../eolie/menu_scripts.py:133
+#: ../data/ToolbarMenu.ui:353 ../eolie/menu_scripts.py:131
 msgid "Scripts"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:422
+#: ../data/ToolbarMenu.ui:366
 msgid "Allow audio"
 msgstr ""
 
-#: ../data/ToolbarMenu.ui:434 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:378 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "حالت شب"
 
@@ -878,6 +886,10 @@ msgstr ""
 msgid "Please consider a donation to the project"
 msgstr ""
 
+#: ../eolie/container_reading.py:113
+msgid "Nothing to display"
+msgstr ""
+
 #: ../eolie/container_stack.py:242
 msgid "Do you really want to close this page?"
 msgstr "آیا به راستی می‌خواهید این صفحه را ببندید؟"
@@ -890,34 +902,31 @@ msgstr "وارد کردن نشانگاه‌های اچ تی ام ال"
 msgid "New engine"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:148 ../eolie/dialog_settings.py:286
+#: ../eolie/dialog_settings.py:155 ../eolie/dialog_settings.py:303
 msgid "Connecting…"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:152 ../eolie/dialog_settings.py:466
+#: ../eolie/dialog_settings.py:159 ../eolie/dialog_settings.py:362
 msgid "Not running"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:299
+#: ../eolie/dialog_settings.py:314
 msgid "Stopped…"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:429 ../eolie/dialog_settings.py:455
+#: ../eolie/dialog_settings.py:456 ../eolie/dialog_settings.py:485
 msgid "Connected"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:431
+#: ../eolie/dialog_settings.py:459
+msgid "Check your email and connect again"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:461
 msgid "Failed"
 msgstr ""
 
-#: ../eolie/dialog_settings.py:463
-#, python-format
-msgid ""
-"Syncing is not available on your computer:\n"
-"%s"
-msgstr ""
-
-#: ../eolie/dialog_settings.py:474
+#: ../eolie/dialog_settings.py:494
 #, python-format
 msgid "Syncing %s"
 msgstr ""
@@ -970,7 +979,7 @@ msgstr "صفحه‌های بسته شده"
 msgid "Open all pages"
 msgstr "باز کردن همه صفحه‌ها"
 
-#: ../eolie/menu_scripts.py:115
+#: ../eolie/menu_scripts.py:113
 msgid "Allow all scripts"
 msgstr ""
 
@@ -986,7 +995,7 @@ msgstr ""
 msgid "Close site"
 msgstr "بستن پایگاه"
 
-#: ../eolie/menu_toolbar.py:49
+#: ../eolie/menu_toolbar.py:45
 msgid "Enter fullscreen"
 msgstr "به صفحه سرتاسر"
 
@@ -1164,65 +1173,65 @@ msgid ""
 "it will be visible to cybercriminals!"
 msgstr ""
 
-#: ../eolie/webview_errors.py:105
+#: ../eolie/webview_errors.py:90
 msgid "Failed to load this web page"
 msgstr ""
 
-#: ../eolie/webview_errors.py:106
+#: ../eolie/webview_errors.py:91
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
 msgstr ""
 
-#: ../eolie/webview_errors.py:112
+#: ../eolie/webview_errors.py:97
 msgid "Network not available"
 msgstr "شبکه در دسترس نیست"
 
-#: ../eolie/webview_errors.py:113
+#: ../eolie/webview_errors.py:98
 msgid "Check your network connection"
 msgstr "پیوندتان به شبکه را بررسی کنید"
 
-#: ../eolie/webview_errors.py:123
+#: ../eolie/webview_errors.py:108
 msgid "Retry"
 msgstr ""
 
-#: ../eolie/webview_errors.py:149
+#: ../eolie/webview_errors.py:134
 msgid "The certificate does not match this website"
 msgstr ""
 
-#: ../eolie/webview_errors.py:151
+#: ../eolie/webview_errors.py:136
 msgid "The certificate has expired"
 msgstr "گواهی به پایان رسیده است"
 
-#: ../eolie/webview_errors.py:153
+#: ../eolie/webview_errors.py:138
 msgid "The signing certificate authority is not known"
 msgstr ""
 
-#: ../eolie/webview_errors.py:155
+#: ../eolie/webview_errors.py:140
 msgid "The certificate contains errors"
 msgstr ""
 
-#: ../eolie/webview_errors.py:157
+#: ../eolie/webview_errors.py:142
 msgid "The certificate has been revoked"
 msgstr ""
 
-#: ../eolie/webview_errors.py:159
+#: ../eolie/webview_errors.py:144
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr ""
 
-#: ../eolie/webview_errors.py:163
+#: ../eolie/webview_errors.py:148
 msgid "The certificate activation time is still in the future"
 msgstr ""
 
-#: ../eolie/webview_errors.py:165
+#: ../eolie/webview_errors.py:150
 msgid "The identity of this website has not been verified"
 msgstr ""
 
-#: ../eolie/webview_errors.py:166 ../eolie/webview_errors.py:170
+#: ../eolie/webview_errors.py:151 ../eolie/webview_errors.py:155
 msgid "Connection is not secure"
 msgstr "پیوند امن نیست"
 
-#: ../eolie/webview_errors.py:172
+#: ../eolie/webview_errors.py:157
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1230,22 +1239,22 @@ msgid ""
 "messages, credit card information, or passwords)."
 msgstr ""
 
-#: ../eolie/webview_errors.py:178
+#: ../eolie/webview_errors.py:163
 msgid "Accept Risk and Proceed"
 msgstr ""
 
-#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:199
+#: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:184
 msgid "WebKit web engine crashed"
 msgstr ""
 
-#: ../eolie/webview_errors.py:201
+#: ../eolie/webview_errors.py:186
 msgid ""
 "The webpage was terminated unexpectedly. To continue, reload or go to "
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
 "<b>'WebKit Gtk'</b> as component.<br/>Set <b>[GTK]</b> as subject prefix."
 msgstr ""
 
-#: ../eolie/webview_errors.py:207
+#: ../eolie/webview_errors.py:192
 msgid "Report a bug now"
 msgstr ""
 
@@ -1258,7 +1267,7 @@ msgstr ""
 msgid "Allow"
 msgstr ""
 
-#: ../eolie/webview_signals_js.py:93
+#: ../eolie/webview_signals_js.py:86
 msgid "Eolie is going to close this page because it is broken"
 msgstr ""
 

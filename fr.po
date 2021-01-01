@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-31 00:18+0100\n"
+"POT-Creation-Date: 2021-01-01 23:31+0100\n"
 "PO-Revision-Date: 2020-12-30 23:22+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
-"\n"
+"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/"
+">\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -91,7 +91,7 @@ msgstr "Moteur de recherche"
 msgid "Remember sessions"
 msgstr "Se souvenir des sessions"
 
-#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:563
+#: ../data/org.gnome.Eolie.gschema.xml:116 ../data/SettingsDialog.ui:582
 msgid "Remember passwords"
 msgstr "Se souvenir des mots de passe"
 
@@ -132,7 +132,7 @@ msgid "Popular items shown"
 msgstr "Items populaires affichés"
 
 #: ../data/org.gnome.Eolie.gschema.xml:166 ../data/SettingsDialog.ui:396
-#: ../data/ToolbarMenu.ui:189
+#: ../data/ToolbarMenu.ui:133
 msgid "Default zoom level"
 msgstr "Niveau de zoom par défaut"
 
@@ -156,23 +156,27 @@ msgstr "Page d'accueil par défaut"
 msgid "Custom start page"
 msgstr "Page d'accueil personnalisée"
 
-#: ../data/org.gnome.Eolie.gschema.xml:196 ../data/SettingsDialog.ui:487
+#: ../data/org.gnome.Eolie.gschema.xml:196
+msgid "Custom JS script"
+msgstr ""
+
+#: ../data/org.gnome.Eolie.gschema.xml:201 ../data/SettingsDialog.ui:506
 msgid "Tell websites I do not want to be tracked"
 msgstr "Dire aux sites web de ne pas me suivre"
 
-#: ../data/org.gnome.Eolie.gschema.xml:201
+#: ../data/org.gnome.Eolie.gschema.xml:206
 msgid "Enable Firefox Sync"
 msgstr "Activer Firefox Sync"
 
-#: ../data/org.gnome.Eolie.gschema.xml:206 ../data/SettingsDialog.ui:504
+#: ../data/org.gnome.Eolie.gschema.xml:211 ../data/SettingsDialog.ui:523
 msgid "Autoplay videos"
 msgstr "Lire les vidéos automatiquement"
 
-#: ../data/org.gnome.Eolie.gschema.xml:211
+#: ../data/org.gnome.Eolie.gschema.xml:216
 msgid "Enable search suggestions"
 msgstr "Activer les suggestions de recherche"
 
-#: ../data/org.gnome.Eolie.gschema.xml:216 ../data/LanguagesMenu.ui:63
+#: ../data/org.gnome.Eolie.gschema.xml:221 ../data/LanguagesMenu.ui:63
 #: ../data/LanguagesMenu.ui:80
 msgid "Enable spell checking"
 msgstr "Activer la correction orthographique"
@@ -249,7 +253,7 @@ msgstr "Adresse :"
 msgid "Load at startup"
 msgstr "Charger au démarrage"
 
-#: ../data/DialogClearData.ui:81
+#: ../data/DialogClearData.ui:80
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
@@ -257,26 +261,23 @@ msgstr ""
 "Vous ne pourrez pas annuler cette action. Les données que vous choisissez "
 "d'effacer le seront définitivement."
 
-#: ../data/DialogClearData.ui:104
+#: ../data/DialogClearData.ui:103
 msgid "Clear Personal Data"
 msgstr "Nettoyer les données personnelles"
 
-#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:97
+#: ../data/DialogClearData.ui:131 ../data/DialogCredentials.ui:97
 #: ../data/DialogNotifications.ui:97 ../data/PopoverUri.ui:205
 #: ../data/SettingsDialog.ui:344
 msgid "Search"
 msgstr "Rechercher"
 
-#: ../data/DialogClearData.ui:133 ../data/DialogCredentials.ui:98
+#: ../data/DialogClearData.ui:132 ../data/DialogCredentials.ui:98
 #: ../data/DialogNotifications.ui:98
 msgid "Filter domains"
 msgstr "Filtrer les domaines"
 
-#: ../data/DialogClearData.ui:153
-msgid "C_lear"
-msgstr "E_ffacer"
-
-#: ../data/DialogCredentials.ui:17 ../data/DialogNotifications.ui:17
+#: ../data/DialogClearData.ui:152 ../data/DialogCredentials.ui:17
+#: ../data/DialogNotifications.ui:17
 msgid "Remove"
 msgstr "Supprimer"
 
@@ -341,7 +342,7 @@ msgstr ""
 msgid "Search engines"
 msgstr "Moteurs de recherche"
 
-#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:296
+#: ../data/LanguagesMenu.ui:20 ../data/ToolbarMenu.ui:240
 msgid "Spell checking"
 msgstr "Correction orthographique"
 
@@ -377,7 +378,7 @@ msgstr "Pas de téléchargement actif"
 msgid "OK"
 msgstr "OK"
 
-#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:630
+#: ../data/PopoverGeolocation.ui:79 ../data/SettingsDialog.ui:649
 msgid "Forever"
 msgstr "Toujours"
 
@@ -457,7 +458,7 @@ msgstr "Restaurer la session"
 msgid "Show previously opened pages on startup"
 msgstr "Afficher les pages précédemment ouvertes au démarrage"
 
-#: ../data/SettingsDialog.ui:223 ../data/ToolbarMenu.ui:127
+#: ../data/SettingsDialog.ui:223
 msgid "Start page"
 msgstr "Page de démarrage"
 
@@ -490,7 +491,6 @@ msgid "How many bookmarks on startup page"
 msgstr "Combien de marque-pages sur la page de démarrage"
 
 #: ../data/SettingsDialog.ui:298 ../data/ToolbarEnd.ui:105
-#: ../data/ToolbarMenu.ui:144
 msgid "Downloads"
 msgstr "Téléchargements"
 
@@ -498,7 +498,7 @@ msgstr "Téléchargements"
 msgid "Folder"
 msgstr "Dossier"
 
-#: ../data/SettingsDialog.ui:312
+#: ../data/SettingsDialog.ui:312 ../data/SettingsDialog.ui:478
 msgid "Select download folder"
 msgstr "Sélectionner le dossier de téléchargement"
 
@@ -526,107 +526,115 @@ msgstr "Niveau de zoom pour l’écran actuel"
 msgid "Sites allowed to notify you"
 msgstr "Sites autorisés à vous notifier"
 
-#: ../data/SettingsDialog.ui:477
+#: ../data/SettingsDialog.ui:469
+msgid "JavaScript"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:471
+msgid "Custom script"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:496
 msgid "Privacy"
 msgstr "Vie privée"
 
-#: ../data/SettingsDialog.ui:482
+#: ../data/SettingsDialog.ui:501
 msgid "Tracking"
 msgstr "Suivi"
 
-#: ../data/SettingsDialog.ui:521
+#: ../data/SettingsDialog.ui:540
 msgid "Accept cookies"
 msgstr "Accepter les cookies"
 
-#: ../data/SettingsDialog.ui:538
+#: ../data/SettingsDialog.ui:557
 msgid "Always accept"
 msgstr "Toujours accepter"
 
-#: ../data/SettingsDialog.ui:539
+#: ../data/SettingsDialog.ui:558
 msgid "Never accept"
 msgstr "Ne jamais accepter"
 
-#: ../data/SettingsDialog.ui:540
+#: ../data/SettingsDialog.ui:559
 msgid "Only from visited sites"
 msgstr "Seulement des sites que vous visitez"
 
-#: ../data/SettingsDialog.ui:558
+#: ../data/SettingsDialog.ui:577
 msgid "Data"
 msgstr "Données"
 
-#: ../data/SettingsDialog.ui:564
+#: ../data/SettingsDialog.ui:583
 msgid "Autocomplete credentials"
 msgstr "Saisie automatique des identifiants"
 
-#: ../data/SettingsDialog.ui:608
+#: ../data/SettingsDialog.ui:627
 msgid "Navigation data"
 msgstr "Données de navigation"
 
-#: ../data/SettingsDialog.ui:609
+#: ../data/SettingsDialog.ui:628
 msgid "How much time we keep it?"
 msgstr "Combien de temps les conserverons-nous ?"
 
-#: ../data/SettingsDialog.ui:626
+#: ../data/SettingsDialog.ui:645
 msgid "One day"
 msgstr "Un jour"
 
-#: ../data/SettingsDialog.ui:627
+#: ../data/SettingsDialog.ui:646
 msgid "One week"
 msgstr "Une semaine"
 
-#: ../data/SettingsDialog.ui:628
+#: ../data/SettingsDialog.ui:647
 msgid "Four weeks"
 msgstr "Quatre semaines"
 
-#: ../data/SettingsDialog.ui:629
+#: ../data/SettingsDialog.ui:648
 msgid "A year"
 msgstr "Une année"
 
-#: ../data/SettingsDialog.ui:631
+#: ../data/SettingsDialog.ui:650
 msgid "Do not keep"
 msgstr "Ne pas conserver"
 
-#: ../data/SettingsDialog.ui:667
+#: ../data/SettingsDialog.ui:686
 msgid "Firefox sync"
 msgstr "Firefox sync"
 
-#: ../data/SettingsDialog.ui:676
+#: ../data/SettingsDialog.ui:695
 msgid "Enable synchronization"
 msgstr "Activer la synchronisation"
 
-#: ../data/SettingsDialog.ui:678
+#: ../data/SettingsDialog.ui:697
 msgid "This will sync your history and passwords"
 msgstr "Cela synchronisera votre historique et vos mots de passe"
 
-#: ../data/SettingsDialog.ui:696
+#: ../data/SettingsDialog.ui:715
 msgid "Status"
 msgstr "État"
 
-#: ../data/SettingsDialog.ui:703
+#: ../data/SettingsDialog.ui:722
 msgid "Sync now"
 msgstr "Synchronisez maintenant"
 
-#: ../data/SettingsDialog.ui:722
+#: ../data/SettingsDialog.ui:741
 msgid "Configure"
 msgstr "Configurer"
 
-#: ../data/SettingsDialog.ui:727
+#: ../data/SettingsDialog.ui:746
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
-#: ../data/SettingsDialog.ui:742
+#: ../data/SettingsDialog.ui:761
 msgid "Password"
 msgstr "Mot de passe"
 
-#: ../data/SettingsDialog.ui:757
+#: ../data/SettingsDialog.ui:778
 msgid "Code"
 msgstr "Code"
 
-#: ../data/SettingsDialog.ui:758
+#: ../data/SettingsDialog.ui:779
 msgid "Two factor auth"
 msgstr "Authentification à deux facteurs"
 
-#: ../data/SettingsDialog.ui:775
+#: ../data/SettingsDialog.ui:796
 msgid "Start syncing"
 msgstr "Démarrer la synchronisation"
 
@@ -811,7 +819,7 @@ msgid "Close page"
 msgstr "Fermer la page"
 
 #: ../data/ToolbarEnd.ui:13 ../data/ToolbarEnd.ui:32
-#: ../eolie/menu_toolbar.py:47
+#: ../eolie/menu_toolbar.py:43
 msgid "Leave fullscreen"
 msgstr "Quitter le plein écran"
 
@@ -823,51 +831,51 @@ msgstr "Ne plus autoriser l'accès à ce site"
 msgid "Startup page"
 msgstr "Page de démarrage"
 
-#: ../data/ToolbarMenu.ui:65 ../eolie/toolbar_end.py:121
+#: ../data/ToolbarMenu.ui:55 ../eolie/toolbar_end.py:121
 msgid "Save page"
 msgstr "Enregistrer la page"
 
-#: ../data/ToolbarMenu.ui:82
+#: ../data/ToolbarMenu.ui:72
 msgid "Print page"
 msgstr "Imprimer la page"
 
-#: ../data/ToolbarMenu.ui:173
+#: ../data/ToolbarMenu.ui:117
 msgid "Zoom out"
 msgstr "Dé-zoomer"
 
-#: ../data/ToolbarMenu.ui:204
+#: ../data/ToolbarMenu.ui:148
 msgid "Zoom in"
 msgstr "Zoomer"
 
-#: ../data/ToolbarMenu.ui:234
+#: ../data/ToolbarMenu.ui:178
 msgid "Filtering"
 msgstr "Filtrage"
 
-#: ../data/ToolbarMenu.ui:309
+#: ../data/ToolbarMenu.ui:253
 msgid "Show ads"
 msgstr "Afficher les publicités"
 
-#: ../data/ToolbarMenu.ui:321
+#: ../data/ToolbarMenu.ui:265
 msgid "Show popups"
 msgstr "Afficher les popups"
 
-#: ../data/ToolbarMenu.ui:333
+#: ../data/ToolbarMenu.ui:277
 msgid "Show images"
 msgstr "Afficher les images"
 
-#: ../data/ToolbarMenu.ui:345
+#: ../data/ToolbarMenu.ui:289
 msgid "Show multimedia"
 msgstr "Afficher le multimédia"
 
-#: ../data/ToolbarMenu.ui:409 ../eolie/menu_scripts.py:133
+#: ../data/ToolbarMenu.ui:353 ../eolie/menu_scripts.py:131
 msgid "Scripts"
 msgstr "Scripts"
 
-#: ../data/ToolbarMenu.ui:422
+#: ../data/ToolbarMenu.ui:366
 msgid "Allow audio"
 msgstr "Autoriser l’audio"
 
-#: ../data/ToolbarMenu.ui:434 ../eolie/menu_application.py:84
+#: ../data/ToolbarMenu.ui:378 ../eolie/menu_application.py:84
 msgid "Night mode"
 msgstr "Mode nuit"
 
@@ -883,6 +891,10 @@ msgstr "Des téléchargements sont en cours, voulez vous vraiment quitter ?"
 msgid "Please consider a donation to the project"
 msgstr "Merci de considérer un don au projet"
 
+#: ../eolie/container_reading.py:113
+msgid "Nothing to display"
+msgstr ""
+
 #: ../eolie/container_stack.py:242
 msgid "Do you really want to close this page?"
 msgstr "Voulez vous vraiment fermer cette page ?"
@@ -895,37 +907,31 @@ msgstr "Importer des marques pages HTML"
 msgid "New engine"
 msgstr "Nouveau moteur"
 
-#: ../eolie/dialog_settings.py:148 ../eolie/dialog_settings.py:286
+#: ../eolie/dialog_settings.py:155 ../eolie/dialog_settings.py:303
 msgid "Connecting…"
 msgstr "Connexion…"
 
-#: ../eolie/dialog_settings.py:152 ../eolie/dialog_settings.py:466
+#: ../eolie/dialog_settings.py:159 ../eolie/dialog_settings.py:362
 msgid "Not running"
 msgstr "Ne fonctionne pas"
 
-#: ../eolie/dialog_settings.py:299
+#: ../eolie/dialog_settings.py:314
 msgid "Stopped…"
 msgstr "Arrêté…"
 
-#: ../eolie/dialog_settings.py:429 ../eolie/dialog_settings.py:455
+#: ../eolie/dialog_settings.py:456 ../eolie/dialog_settings.py:485
 msgid "Connected"
 msgstr "Connecté"
 
-#: ../eolie/dialog_settings.py:431
+#: ../eolie/dialog_settings.py:459
+msgid "Check your email and connect again"
+msgstr ""
+
+#: ../eolie/dialog_settings.py:461
 msgid "Failed"
 msgstr "Echec"
 
-#: ../eolie/dialog_settings.py:463
-#, python-format
-msgid ""
-"Syncing is not available on your computer:\n"
-"%s"
-msgstr ""
-"La synchronisation n'est pas disponible\n"
-"sur cet ordinateur :\n"
-"%s"
-
-#: ../eolie/dialog_settings.py:474
+#: ../eolie/dialog_settings.py:494
 #, python-format
 msgid "Syncing %s"
 msgstr "Synchronisation de %s"
@@ -978,7 +984,7 @@ msgstr "Pages fermées"
 msgid "Open all pages"
 msgstr "Ouvrir toutes les pages"
 
-#: ../eolie/menu_scripts.py:115
+#: ../eolie/menu_scripts.py:113
 msgid "Allow all scripts"
 msgstr "Autoriser tous les scripts"
 
@@ -994,7 +1000,7 @@ msgstr "Site épinglé"
 msgid "Close site"
 msgstr "Fermer le site"
 
-#: ../eolie/menu_toolbar.py:49
+#: ../eolie/menu_toolbar.py:45
 msgid "Enter fullscreen"
 msgstr "Entrer en plein écran"
 
@@ -1183,11 +1189,11 @@ msgstr ""
 "Si vous entrez votre mot de passe,\n"
 "il sera visible aux cybercriminels !"
 
-#: ../eolie/webview_errors.py:105
+#: ../eolie/webview_errors.py:90
 msgid "Failed to load this web page"
 msgstr "Erreur lors du chargement de cette page"
 
-#: ../eolie/webview_errors.py:106
+#: ../eolie/webview_errors.py:91
 msgid ""
 "It may be temporarily inaccessible or moved to a new address.<br/>You may "
 "wish to verify that your internet connection is working correctly."
@@ -1195,55 +1201,55 @@ msgstr ""
 "Elle est peut être temporairement inaccessible ou déplacée à une nouvelle "
 "adresse.<br/>Vérifiez que votre connexion fonctionne correctement."
 
-#: ../eolie/webview_errors.py:112
+#: ../eolie/webview_errors.py:97
 msgid "Network not available"
 msgstr "Réseau non disponible"
 
-#: ../eolie/webview_errors.py:113
+#: ../eolie/webview_errors.py:98
 msgid "Check your network connection"
 msgstr "Vérifiez votre connexion réseau"
 
-#: ../eolie/webview_errors.py:123
+#: ../eolie/webview_errors.py:108
 msgid "Retry"
 msgstr "Réessayer"
 
-#: ../eolie/webview_errors.py:149
+#: ../eolie/webview_errors.py:134
 msgid "The certificate does not match this website"
 msgstr "Ce certificat ne correspond pas à ce site web"
 
-#: ../eolie/webview_errors.py:151
+#: ../eolie/webview_errors.py:136
 msgid "The certificate has expired"
 msgstr "Le certificat a expiré"
 
-#: ../eolie/webview_errors.py:153
+#: ../eolie/webview_errors.py:138
 msgid "The signing certificate authority is not known"
 msgstr "L’autorité de certification n'est pas connue"
 
-#: ../eolie/webview_errors.py:155
+#: ../eolie/webview_errors.py:140
 msgid "The certificate contains errors"
 msgstr "Le certificat contient des erreurs"
 
-#: ../eolie/webview_errors.py:157
+#: ../eolie/webview_errors.py:142
 msgid "The certificate has been revoked"
 msgstr "Le certificat a été révoqué"
 
-#: ../eolie/webview_errors.py:159
+#: ../eolie/webview_errors.py:144
 msgid "The certificate is signed using a weak signature algorithm"
 msgstr "Le certificat utilise une signature trop faible"
 
-#: ../eolie/webview_errors.py:163
+#: ../eolie/webview_errors.py:148
 msgid "The certificate activation time is still in the future"
 msgstr "La date d'activation du certificat est dans le futur"
 
-#: ../eolie/webview_errors.py:165
+#: ../eolie/webview_errors.py:150
 msgid "The identity of this website has not been verified"
 msgstr "L'identité du site web n'a pas été vérifiée"
 
-#: ../eolie/webview_errors.py:166 ../eolie/webview_errors.py:170
+#: ../eolie/webview_errors.py:151 ../eolie/webview_errors.py:155
 msgid "Connection is not secure"
 msgstr "La connexion n'est pas sécurisée"
 
-#: ../eolie/webview_errors.py:172
+#: ../eolie/webview_errors.py:157
 #, python-format
 msgid ""
 "This does not look like the real %s.<br/>Attackers might be trying to steal "
@@ -1255,15 +1261,15 @@ msgstr ""
 "informations allant ou provenant de ce site (par exemple : des messages "
 "privés, des informations de carte de crédit, ou des mots de passe)."
 
-#: ../eolie/webview_errors.py:178
+#: ../eolie/webview_errors.py:163
 msgid "Accept Risk and Proceed"
 msgstr "Accepter le risque et continuer"
 
-#: ../eolie/webview_errors.py:194 ../eolie/webview_errors.py:199
+#: ../eolie/webview_errors.py:179 ../eolie/webview_errors.py:184
 msgid "WebKit web engine crashed"
 msgstr "Le moteur web de WebKit a cessé de fonctionner"
 
-#: ../eolie/webview_errors.py:201
+#: ../eolie/webview_errors.py:186
 msgid ""
 "The webpage was terminated unexpectedly. To continue, reload or go to "
 "another page.<br/><br/>If problem persists, you can report a bug :)<br/>Use "
@@ -1274,7 +1280,7 @@ msgstr ""
 "vous pouvez rapporter un bug :)<br/>Utiliser <b>Webkit Gtk</b> comme "
 "composant.<br/>Ajouter <b>[GTK]</b> comme préfixe du sujet."
 
-#: ../eolie/webview_errors.py:207
+#: ../eolie/webview_errors.py:192
 msgid "Report a bug now"
 msgstr "Rapporter un bug maintenant"
 
@@ -1287,7 +1293,7 @@ msgstr "Autoriser les notifications pour %s"
 msgid "Allow"
 msgstr "Autoriser"
 
-#: ../eolie/webview_signals_js.py:93
+#: ../eolie/webview_signals_js.py:86
 msgid "Eolie is going to close this page because it is broken"
 msgstr "Eolie va fermer cette page car elle ne fonctionne pas"
 
@@ -1355,6 +1361,18 @@ msgstr "Enregistrer le mot de passe pour : %s"
 #: ../eolie/widget_uri_entry.py:433
 msgid "Paste and load"
 msgstr "Coller et charger"
+
+#~ msgid "C_lear"
+#~ msgstr "E_ffacer"
+
+#, python-format
+#~ msgid ""
+#~ "Syncing is not available on your computer:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "La synchronisation n'est pas disponible\n"
+#~ "sur cet ordinateur :\n"
+#~ "%s"
 
 #~ msgid "Search domains"
 #~ msgstr "Rechercher dans les domaines"
