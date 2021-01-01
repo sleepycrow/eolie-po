@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-01 23:31+0100\n"
-"PO-Revision-Date: 2021-01-01 20:29+0000\n"
+"PO-Revision-Date: 2021-01-03 13:29+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gnumdk/eolie/"
 "uk/>\n"
@@ -159,7 +159,7 @@ msgstr "Власна початкова сторінка"
 
 #: ../data/org.gnome.Eolie.gschema.xml:196
 msgid "Custom JS script"
-msgstr ""
+msgstr "Власний сценарій JS"
 
 #: ../data/org.gnome.Eolie.gschema.xml:201 ../data/SettingsDialog.ui:506
 msgid "Tell websites I do not want to be tracked"
@@ -529,11 +529,11 @@ msgstr "Сайти, яким дозволено надсилати вам спо
 
 #: ../data/SettingsDialog.ui:469
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: ../data/SettingsDialog.ui:471
 msgid "Custom script"
-msgstr ""
+msgstr "Власний сценарій"
 
 #: ../data/SettingsDialog.ui:496
 msgid "Privacy"
@@ -894,7 +894,7 @@ msgstr "Підтримайте проєкт"
 
 #: ../eolie/container_reading.py:113
 msgid "Nothing to display"
-msgstr ""
+msgstr "Нічого показати"
 
 #: ../eolie/container_stack.py:242
 msgid "Do you really want to close this page?"
@@ -926,7 +926,7 @@ msgstr "З'єднано"
 
 #: ../eolie/dialog_settings.py:459
 msgid "Check your email and connect again"
-msgstr ""
+msgstr "Перевірте електронну пошту та під'єднайтеся знову"
 
 #: ../eolie/dialog_settings.py:461
 msgid "Failed"
