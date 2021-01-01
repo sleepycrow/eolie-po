@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-01 23:31+0100\n"
-"PO-Revision-Date: 2020-12-30 23:22+0000\n"
+"PO-Revision-Date: 2021-01-03 13:29+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/"
-">\n"
+"Language-Team: French <https://hosted.weblate.org/projects/gnumdk/eolie/fr/>"
+"\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -158,7 +158,7 @@ msgstr "Page d'accueil personnalisée"
 
 #: ../data/org.gnome.Eolie.gschema.xml:196
 msgid "Custom JS script"
-msgstr ""
+msgstr "Script JS personnalisé"
 
 #: ../data/org.gnome.Eolie.gschema.xml:201 ../data/SettingsDialog.ui:506
 msgid "Tell websites I do not want to be tracked"
@@ -528,11 +528,11 @@ msgstr "Sites autorisés à vous notifier"
 
 #: ../data/SettingsDialog.ui:469
 msgid "JavaScript"
-msgstr ""
+msgstr "Javascript"
 
 #: ../data/SettingsDialog.ui:471
 msgid "Custom script"
-msgstr ""
+msgstr "Script personnalisé"
 
 #: ../data/SettingsDialog.ui:496
 msgid "Privacy"
@@ -893,7 +893,7 @@ msgstr "Merci de considérer un don au projet"
 
 #: ../eolie/container_reading.py:113
 msgid "Nothing to display"
-msgstr ""
+msgstr "Rien à afficher"
 
 #: ../eolie/container_stack.py:242
 msgid "Do you really want to close this page?"
@@ -925,7 +925,7 @@ msgstr "Connecté"
 
 #: ../eolie/dialog_settings.py:459
 msgid "Check your email and connect again"
-msgstr ""
+msgstr "Vérifiez votre messagerie et connectez-vous à nouveau"
 
 #: ../eolie/dialog_settings.py:461
 msgid "Failed"
