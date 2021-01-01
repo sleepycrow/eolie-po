@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-01 23:31+0100\n"
-"PO-Revision-Date: 2021-01-01 20:29+0000\n"
+"PO-Revision-Date: 2021-01-03 13:29+0000\n"
 "Last-Translator: Carlos Henrique De Freitas F. <neocazen@vivaldi.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "gnumdk/eolie/pt_BR/>\n"
@@ -158,7 +158,7 @@ msgstr "Customizar página inicial"
 
 #: ../data/org.gnome.Eolie.gschema.xml:196
 msgid "Custom JS script"
-msgstr ""
+msgstr "JS Script Customizado"
 
 #: ../data/org.gnome.Eolie.gschema.xml:201 ../data/SettingsDialog.ui:506
 msgid "Tell websites I do not want to be tracked"
@@ -527,11 +527,11 @@ msgstr "Sites autorizados a notificá-lo"
 
 #: ../data/SettingsDialog.ui:469
 msgid "JavaScript"
-msgstr ""
+msgstr "Java Script"
 
 #: ../data/SettingsDialog.ui:471
 msgid "Custom script"
-msgstr ""
+msgstr "Script customizado"
 
 #: ../data/SettingsDialog.ui:496
 msgid "Privacy"
@@ -892,7 +892,7 @@ msgstr "Considere ajudar o projeto com uma doação"
 
 #: ../eolie/container_reading.py:113
 msgid "Nothing to display"
-msgstr ""
+msgstr "Nada para mostrar"
 
 #: ../eolie/container_stack.py:242
 msgid "Do you really want to close this page?"
@@ -924,7 +924,7 @@ msgstr "Conectado"
 
 #: ../eolie/dialog_settings.py:459
 msgid "Check your email and connect again"
-msgstr ""
+msgstr "Cheque seu email e conecte-se novamente"
 
 #: ../eolie/dialog_settings.py:461
 msgid "Failed"
