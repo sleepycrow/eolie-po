@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-01 23:31+0100\n"
-"PO-Revision-Date: 2021-01-01 20:29+0000\n"
+"PO-Revision-Date: 2021-01-03 13:29+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gnumdk/eolie/nl/>\n"
 "Language: nl\n"
@@ -153,7 +153,7 @@ msgstr "Aangepaste startpagina"
 
 #: ../data/org.gnome.Eolie.gschema.xml:196
 msgid "Custom JS script"
-msgstr ""
+msgstr "Aangepast js-script"
 
 #: ../data/org.gnome.Eolie.gschema.xml:201 ../data/SettingsDialog.ui:506
 msgid "Tell websites I do not want to be tracked"
@@ -525,11 +525,11 @@ msgstr "Websites die meldingen mogen tonen"
 
 #: ../data/SettingsDialog.ui:469
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: ../data/SettingsDialog.ui:471
 msgid "Custom script"
-msgstr ""
+msgstr "Aangepast script"
 
 #: ../data/SettingsDialog.ui:496
 msgid "Privacy"
@@ -891,7 +891,7 @@ msgstr "Overweeg een donatie"
 
 #: ../eolie/container_reading.py:113
 msgid "Nothing to display"
-msgstr ""
+msgstr "Er is niks om te tonen"
 
 #: ../eolie/container_stack.py:242
 msgid "Do you really want to close this page?"
@@ -923,7 +923,7 @@ msgstr "Gekoppeld"
 
 #: ../eolie/dialog_settings.py:459
 msgid "Check your email and connect again"
-msgstr ""
+msgstr "Controleer je e-mailadres en probeer het opnieuw"
 
 #: ../eolie/dialog_settings.py:461
 msgid "Failed"
